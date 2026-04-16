@@ -21,8 +21,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install PyYAML
-        run: pip install pyyaml
+      - name: Install dependencies
+        run: pip install pyyaml requests
 
       - name: Run Script
         run: python main.py
