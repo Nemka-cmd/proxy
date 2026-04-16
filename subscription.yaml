@@ -1,94 +1,34 @@
 proxies:
-- name: 'tg频道:@ripaojiedian #1'
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 63.180.254.10
-  port: 443
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  server: 95.40.85.50
-  port: 52687
-- name: 香港4|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.183.212.72
-  port: 39507
-- name: 香港5|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.163.106.216
-  port: 11097
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.183.212.72
-  port: 3022
-- name: 日本2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  server: 13.231.60.220
-  port: 34818
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  server: 13.115.246.132
-  port: 9201
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  server: 13.115.246.132
-  port: 4674
 - name: 新加坡2|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
   password: 868ecdaf6aed618ec98cf78585672b2b
   server: 160.16.132.38
   port: 4674
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 43.199.31.240
-  port: 25675
+  sni: www.nintendogames.net
 - name: 美国|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
   password: 868ecdaf6aed618ec98cf78585672b2b
   server: 160.16.132.38
   port: 3057
+  sni: www.nintendogames.net
 - name: 美国2|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
   password: 868ecdaf6aed618ec98cf78585672b2b
   server: 160.16.132.38
   port: 4019
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.163.106.216
-  port: 49534
+  sni: www.nintendogames.net
 - name: AT_speednode_0001
   type: trojan
-  sni: jflsjlaf.pages.dev
   password: trojan
   server: 152.53.45.251
   port: 8888
+  sni: jflsjlaf.pages.dev
 - name: AT_speednode_0002
   type: trojan
-  sni: jflsjlaf.pages.dev
   password: trojan
   server: 152.53.200.167
   port: 8444
+  sni: jflsjlaf.pages.dev
 - name: DE_speednode_0003
   type: vless
   uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
@@ -209,14 +149,6 @@ proxies:
   tls: false
   sni: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
   network: ws
-- name: US_speednode_0022
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: www.temu.com
-  port: 2095
-  tls: false
-  sni: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  network: ws
 - name: US_speednode_0024
   type: vless
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -258,22 +190,12 @@ proxies:
   sni: iosapps.itunes.apple.com
   network: tcp
 proxy-groups:
-- name: Auto
+- name: 🚀 Auto-Select
   type: url-test
   proxies:
-  - 'tg频道:@ripaojiedian #1'
-  - 香港3|@ripaojiedian
-  - 香港4|@ripaojiedian
-  - 香港5|@ripaojiedian
-  - 日本|@ripaojiedian
-  - 日本2|@ripaojiedian
-  - 日本3|@ripaojiedian
-  - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
-  - 新加坡3|@ripaojiedian
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
-  - 美国3|@ripaojiedian
   - AT_speednode_0001
   - AT_speednode_0002
   - DE_speednode_0003
@@ -291,7 +213,6 @@ proxy-groups:
   - US_speednode_0019
   - US_speednode_0020
   - US_speednode_0021
-  - US_speednode_0022
   - US_speednode_0024
   - US_speednode_0028
   - US_speednode_0029
@@ -299,6 +220,6 @@ proxy-groups:
   - US_speednode_0031
   url: https://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 100
+  tolerance: 50
 rules:
-- MATCH,Auto
+- MATCH,🚀 Auto-Select
