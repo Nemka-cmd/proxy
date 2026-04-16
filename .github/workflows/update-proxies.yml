@@ -1,0 +1,35 @@
+name: Auto Update Proxies
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Каждые 4 часа
+  workflow_dispatch: # Ручной запуск
+
+# ВАЖНО: Разрешаем боту сохранять файлы
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Run Script
+        run: python main.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'AutoBot'
+          git config --global user.email 'bot@example.com'
+          git add subscription.yaml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxies" && git push)
