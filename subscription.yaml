@@ -1,20 +1,13 @@
-name: Update Proxy Subscription
-on:
-  schedule:
-    - cron: '*/30 * * * *'  # каждые 30 мин
-  workflow_dispatch:
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: pip install pyyaml aiohttp
-      - run: python proxy_updater.py
-      - run: |
-          git config user.name "bot"
-          git config user.email "bot@github.com"
-          git add subscription.yaml
-          git commit -m "Auto update $(date)" || exit 0
-          git push
+proxies:
+- name: No-Proxy
+  type: direct
+proxy-groups:
+- name: Auto
+  type: url-test
+  proxies:
+  - No-Proxy
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+rules:
+- MATCH,Auto
