@@ -3,9 +3,8 @@ name: Auto Update Proxies
 on:
   schedule:
     - cron: '0 */4 * * *' # Каждые 4 часа
-  workflow_dispatch: # Ручной запуск
+  workflow_dispatch:
 
-# ВАЖНО: Разрешаем боту сохранять файлы
 permissions:
   contents: write
 
