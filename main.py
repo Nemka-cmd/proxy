@@ -7,7 +7,10 @@ import socket
 from datetime import datetime
 
 PROXY_SOURCES = [
-    "https://github.com/TheSpeedX/PROXY-List/blob/master/http.txt",
+    # Clash/V2Ray подписки (base64 или YAML)
+    "https://raw.githubusercontent.com/mianfeifljq/free_proxy/main/proxy.txt",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
 ]
 
 def test_proxy(proxy):
