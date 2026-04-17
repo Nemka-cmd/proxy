@@ -7,8 +7,6 @@ import socket
 from datetime import datetime
 
 PROXY_SOURCES = [
-    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
-    "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
     "https://github.com/TheSpeedX/PROXY-List/blob/master/http.txt",
 ]
 
