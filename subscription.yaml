@@ -1,10 +1,4 @@
 proxies:
-- name: 日本2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  server: 160.16.85.33
-  port: 4937
 - name: AT_speednode_0001
   type: trojan
   sni: jflsjlaf.pages.dev
@@ -92,7 +86,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本2|@ripaojiedian
   - AT_speednode_0001
   - DK_speednode_0004
   - GB_speednode_0006
