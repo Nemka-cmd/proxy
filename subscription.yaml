@@ -75,6 +75,13 @@ proxies:
   port: 443
   tls: false
   sni: d23iuljn5k9z1j.cloudfront.net
+- name: US_speednode_0022
+  type: vless
+  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+  server: 216.57.105.74
+  port: 443
+  tls: true
+  sni: yahoo.com
 proxy-groups:
 - name: Auto
   type: url-test
@@ -90,6 +97,7 @@ proxy-groups:
   - US_speednode_0018
   - US_speednode_0020
   - US_speednode_0021
+  - US_speednode_0022
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
