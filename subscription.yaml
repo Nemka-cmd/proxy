@@ -1,103 +1,200 @@
 proxies:
-- name: AT_speednode_0001
-  type: trojan
-  sni: jflsjlaf.pages.dev
-  password: trojan
-  server: 152.53.45.251
-  port: 8888
-- name: DK_speednode_0004
+- name: DE_speednode_0001
+  type: vless
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+  server: 45.77.66.142
+  port: 443
+  tls: true
+  sni: www.zalando.de
+- name: DK_speednode_0002
   type: vless
   uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
   server: 159.195.82.187
   port: 9443
   tls: true
   sni: yahoo.com
-- name: GB_speednode_0006
+- name: HK_speednode_0004
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 212.135.36.241
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 47.242.64.181
   port: 443
   tls: true
-  sni: s3vz.user-service.chinav.indevs.in
-- name: KR_speednode_0009
+  sni: cms.suse.net
+- name: HK_speednode_0006
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 218.144.49.230
-  port: 18889
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 8.217.49.16
+  port: 443
   tls: true
-  sni: s3vz.user-service.chinav.indevs.in
+  sni: wwwimages2.adobe.com
+- name: IT_speednode_0007
+  type: vless
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+  server: bl3-mwscloud.onnstreaming.ru
+  port: 443
+  tls: true
+  sni: bl3-mwscloud.onnstreaming.ru
+- name: JP_speednode_0008
+  type: vless
+  uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5
+  server: 176.97.73.155
+  port: 443
+  tls: true
+  sni: navi.bankrate.com
 - name: KR_speednode_0010
   type: vless
-  uuid: 820409af-997a-41c4-9e51-46f373951a39
-  server: 144.24.74.102
-  port: 50911
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 210.178.81.61
+  port: 10000
   tls: true
-  sni: www.iij.ad.jp
-- name: RO_speednode_0011
+  sni: s3vz.user-service.chinav.indevs.in
+- name: KR_speednode_0011
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 222.97.154.26
+  port: 37810
+  tls: true
+  sni: s3vz.user-service.chinav.indevs.in
+- name: KR_speednode_0012
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 59.11.151.238
+  port: 12000
+  tls: true
+  sni: s3vz.user-service.chinav.indevs.in
+- name: NL_speednode_0013
+  type: vless
+  uuid: d8a5cbdb-7058-4506-b1a8-6768472c7ed5
+  server: 109.120.150.239
+  port: 4411
+  tls: true
+  sni: files.moscownews24.ru
+- name: NL_speednode_0014
+  type: vless
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 109.120.150.239
+  port: 4411
+  tls: true
+  sni: files.moscownews24.ru
+- name: RO_speednode_0015
   type: vless
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
   server: 91.199.50.37
   port: 443
   tls: true
   sni: www.alibaba.com
-- name: RU_speednode_0013
+- name: RU_speednode_0016
   type: vless
-  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
-  server: 171.22.181.107
-  port: 443
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 77.223.120.222
+  port: 4530
   tls: true
-  sni: uk.milas.click
-- name: SC_speednode_0014
+  sni: files.moscownews24.ru
+- name: RU_speednode_0017
+  type: vless
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 85.239.39.49
+  port: 4343
+  tls: true
+  sni: files.moscownews24.ru
+- name: SC_speednode_0018
   type: vless
   uuid: caa3af29-3b04-4099-9772-c64a1b7cca34
   server: 195.66.27.165
   port: 7443
   tls: true
   sni: chat.deepseek.com
-- name: US_speednode_0018
+- name: SE_speednode_0019
   type: vless
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  server: 18.245.54.3
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 89.22.236.81
+  port: 4466
+  tls: true
+  sni: files.moscownews24.ru
+- name: TR_speednode_0020
+  type: vless
+  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
+  server: 188.132.184.148
+  port: 8443
+  tls: true
+  sni: greenpepper.ir
+- name: US_speednode_0022
+  type: vless
+  uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
+  server: nld.pink-world.ru
   port: 443
   tls: true
-  sni: d2241b25w3zftf.cloudfront.net
-- name: US_speednode_0020
+  sni: nld.pink-world.ru
+- name: US_speednode_0024
   type: vless
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
   server: 144.31.127.61
   port: 443
   tls: true
   sni: gateway.icloud.com
-- name: US_speednode_0021
+- name: US_speednode_0025
   type: vless
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  server: 18.245.54.3
-  port: 443
-  tls: false
-  sni: d23iuljn5k9z1j.cloudfront.net
-- name: US_speednode_0022
-  type: vless
-  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-  server: 216.57.105.74
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 165.140.241.29
   port: 443
   tls: true
-  sni: yahoo.com
+  sni: snzeys.edge-node-a1.fgfw.qzz.io
+- name: US_speednode_0026
+  type: vless
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 72.56.35.163
+  port: 4454
+  tls: true
+  sni: files.moscownews24.ru
+- name: US_speednode_0027
+  type: vless
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 72.56.35.203
+  port: 4495
+  tls: true
+  sni: files.moscownews24.ru
+- name: US_speednode_0028
+  type: vless
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+  server: st-2.globalcache.onnstreaming.ru
+  port: 443
+  tls: true
+  sni: st-2.globalcache.onnstreaming.ru
+- name: US_speednode_0029
+  type: vless
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+  server: 72.56.39.76
+  port: 4510
+  tls: true
+  sni: files.moscownews24.ru
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - AT_speednode_0001
-  - DK_speednode_0004
-  - GB_speednode_0006
-  - KR_speednode_0009
+  - DE_speednode_0001
+  - DK_speednode_0002
+  - HK_speednode_0004
+  - HK_speednode_0006
+  - IT_speednode_0007
+  - JP_speednode_0008
   - KR_speednode_0010
-  - RO_speednode_0011
-  - RU_speednode_0013
-  - SC_speednode_0014
-  - US_speednode_0018
-  - US_speednode_0020
-  - US_speednode_0021
+  - KR_speednode_0011
+  - KR_speednode_0012
+  - NL_speednode_0013
+  - NL_speednode_0014
+  - RO_speednode_0015
+  - RU_speednode_0016
+  - RU_speednode_0017
+  - SC_speednode_0018
+  - SE_speednode_0019
+  - TR_speednode_0020
   - US_speednode_0022
+  - US_speednode_0024
+  - US_speednode_0025
+  - US_speednode_0026
+  - US_speednode_0027
+  - US_speednode_0028
+  - US_speednode_0029
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
