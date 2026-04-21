@@ -26,6 +26,13 @@ proxies:
   port: 443
   tls: true
   sni: cms.suse.net
+- name: HK_speednode_0005
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 8.218.121.213
+  port: 443
+  tls: true
+  sni: siteintercept.qualtrics.com
 - name: HK_speednode_0006
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
@@ -167,6 +174,7 @@ proxy-groups:
   - DE_speednode_0001
   - DK_speednode_0002
   - HK_speednode_0004
+  - HK_speednode_0005
   - HK_speednode_0006
   - IT_speednode_0007
   - JP_speednode_0008
