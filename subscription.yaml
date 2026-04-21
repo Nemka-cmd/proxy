@@ -26,13 +26,6 @@ proxies:
   port: 443
   tls: true
   sni: cms.suse.net
-- name: HK_speednode_0005
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  server: 8.218.121.213
-  port: 443
-  tls: true
-  sni: siteintercept.qualtrics.com
 - name: HK_speednode_0006
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
@@ -124,6 +117,13 @@ proxies:
   port: 8443
   tls: true
   sni: greenpepper.ir
+- name: US_speednode_0022
+  type: vless
+  uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
+  server: nld.pink-world.ru
+  port: 443
+  tls: true
+  sni: nld.pink-world.ru
 - name: US_speednode_0024
   type: vless
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
@@ -167,7 +167,6 @@ proxy-groups:
   - DE_speednode_0001
   - DK_speednode_0002
   - HK_speednode_0004
-  - HK_speednode_0005
   - HK_speednode_0006
   - IT_speednode_0007
   - JP_speednode_0008
@@ -181,6 +180,7 @@ proxy-groups:
   - SC_speednode_0018
   - SE_speednode_0019
   - TR_speednode_0020
+  - US_speednode_0022
   - US_speednode_0024
   - US_speednode_0026
   - US_speednode_0027
