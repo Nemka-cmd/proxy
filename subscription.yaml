@@ -1,4 +1,76 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.167.20.54
+  port: 52687
+- name: 香港4|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.166.178.135
+  port: 3685
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.181.203.85
+  port: 39507
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.177.137.225
+  port: 1951
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 3.112.12.32
+  port: 9201
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.183.89.184
+  port: 9201
+- name: 新加坡|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 3.112.12.32
+  port: 32876
+- name: 新加坡2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 3.112.12.32
+  port: 5594
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.162.96.8
+  port: 30726
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.166.177.72
+  port: 3057
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 160.16.72.205
+  port: 4019
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.166.177.72
+  port: 23255
 - name: DE_speednode_0001
   type: vless
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
@@ -125,6 +197,13 @@ proxies:
   port: 8443
   tls: true
   sni: greenpepper.ir
+- name: US_speednode_0022
+  type: vless
+  uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
+  server: nld.pink-world.ru
+  port: 443
+  tls: true
+  sni: nld.pink-world.ru
 - name: US_speednode_0024
   type: vless
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
@@ -171,6 +250,18 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 新加坡2|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
   - DE_speednode_0001
   - DK_speednode_0002
   - HK_speednode_0004
@@ -189,6 +280,7 @@ proxy-groups:
   - SC_speednode_0018
   - SE_speednode_0019
   - TR_speednode_0020
+  - US_speednode_0022
   - US_speednode_0024
   - US_speednode_0025
   - US_speednode_0026
