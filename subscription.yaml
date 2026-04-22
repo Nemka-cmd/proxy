@@ -95,13 +95,6 @@ proxies:
   port: 4530
   tls: true
   sni: files.moscownews24.ru
-- name: RU_speednode_0017
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  server: 85.239.39.49
-  port: 4343
-  tls: true
-  sni: files.moscownews24.ru
 - name: SC_speednode_0018
   type: vless
   uuid: caa3af29-3b04-4099-9772-c64a1b7cca34
@@ -137,20 +130,6 @@ proxies:
   port: 443
   tls: true
   sni: gateway.icloud.com
-- name: US_speednode_0026
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  server: 72.56.35.163
-  port: 4454
-  tls: true
-  sni: files.moscownews24.ru
-- name: US_speednode_0027
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  server: 72.56.35.203
-  port: 4495
-  tls: true
-  sni: files.moscownews24.ru
 - name: US_speednode_0028
   type: vless
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
@@ -158,13 +137,6 @@ proxies:
   port: 443
   tls: true
   sni: st-2.globalcache.onnstreaming.ru
-- name: US_speednode_0029
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  server: 72.56.39.76
-  port: 4510
-  tls: true
-  sni: files.moscownews24.ru
 proxy-groups:
 - name: Auto
   type: url-test
@@ -183,16 +155,12 @@ proxy-groups:
   - NL_speednode_0014
   - RO_speednode_0015
   - RU_speednode_0016
-  - RU_speednode_0017
   - SC_speednode_0018
   - SE_speednode_0019
   - TR_speednode_0020
   - US_speednode_0022
   - US_speednode_0024
-  - US_speednode_0026
-  - US_speednode_0027
   - US_speednode_0028
-  - US_speednode_0029
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
