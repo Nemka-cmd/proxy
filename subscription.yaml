@@ -39,20 +39,6 @@ proxies:
   port: 443
   tls: true
   sni: siteintercept.qualtrics.com
-- name: HK_speednode_0006
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  server: 8.217.49.16
-  port: 443
-  tls: true
-  sni: wwwimages2.adobe.com
-- name: IT_speednode_0007
-  type: vless
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-  server: bl3-mwscloud.onnstreaming.ru
-  port: 443
-  tls: true
-  sni: bl3-mwscloud.onnstreaming.ru
 - name: JP_speednode_0008
   type: vless
   uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5
@@ -123,13 +109,6 @@ proxies:
   port: 443
   tls: true
   sni: nld.pink-world.ru
-- name: US_speednode_0024
-  type: vless
-  uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
-  server: 144.31.127.61
-  port: 443
-  tls: true
-  sni: gateway.icloud.com
 - name: US_speednode_0028
   type: vless
   uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
@@ -147,8 +126,6 @@ proxy-groups:
   - DK_speednode_0002
   - HK_speednode_0004
   - HK_speednode_0005
-  - HK_speednode_0006
-  - IT_speednode_0007
   - JP_speednode_0008
   - KR_speednode_0012
   - NL_speednode_0013
@@ -159,7 +136,6 @@ proxy-groups:
   - SE_speednode_0019
   - TR_speednode_0020
   - US_speednode_0022
-  - US_speednode_0024
   - US_speednode_0028
   url: https://www.gstatic.com/generate_204
   interval: 300
