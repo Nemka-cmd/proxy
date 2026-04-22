@@ -39,6 +39,13 @@ proxies:
   port: 443
   tls: true
   sni: siteintercept.qualtrics.com
+- name: HK_speednode_0006
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 8.217.49.16
+  port: 443
+  tls: true
+  sni: wwwimages2.adobe.com
 - name: JP_speednode_0008
   type: vless
   uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5
@@ -126,6 +133,7 @@ proxy-groups:
   - DK_speednode_0002
   - HK_speednode_0004
   - HK_speednode_0005
+  - HK_speednode_0006
   - JP_speednode_0008
   - KR_speednode_0012
   - NL_speednode_0013
