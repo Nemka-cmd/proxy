@@ -1,16 +1,4 @@
 proxies:
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 1774240c00db2b77d5a99f6540c47b69
-  server: 160.16.124.17
-  port: 32876
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 1774240c00db2b77d5a99f6540c47b69
-  server: 160.16.124.17
-  port: 4019
 - name: DE_speednode_0001
   type: vless
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
@@ -127,8 +115,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 新加坡|@ripaojiedian
-  - 美国|@ripaojiedian
   - DE_speednode_0001
   - DK_speednode_0002
   - HK_speednode_0004
