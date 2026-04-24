@@ -997,12 +997,6 @@ proxies:
   password: '1234567890'
   server: 144.31.188.6
   port: 443
-- name: US_speednode_0164
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 144.31.213.59
-  port: 8443
 - name: US_speednode_0165
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -1205,7 +1199,6 @@ proxy-groups:
   - US_speednode_0161
   - US_speednode_0162
   - US_speednode_0163
-  - US_speednode_0164
   - US_speednode_0165
   - US_speednode_0166
   - US_speednode_0167
