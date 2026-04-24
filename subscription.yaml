@@ -1,4 +1,70 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.162.152.196
+  port: 52687
+- name: 香港4|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.238.64.8
+  port: 5823
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 43.199.67.80
+  port: 22075
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 13.115.45.57
+  port: 3022
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 95.40.21.164
+  port: 4937
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.182.55.2
+  port: 2001
+- name: 新加坡2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 160.16.132.38
+  port: 32876
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 16.162.220.143
+  port: 25675
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 52.193.48.211
+  port: 4019
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 18.182.55.2
+  port: 3057
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.166.61.147
+  port: 23255
 - name: AE_speednode_0001
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -341,13 +407,6 @@ proxies:
   password: '1234567890'
   server: 95.85.234.43
   port: 443
-- name: CZ_speednode_0053
-  type: vless
-  uuid: fc5ffd42-ebad-4466-ba56-c8865680f4f2
-  server: 95.85.237.26
-  port: 443
-  tls: true
-  sni: vk.com
 - name: CZ_speednode_0054
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -1063,6 +1122,17 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡2|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
   - AE_speednode_0001
   - AT_speednode_0002
   - AT_speednode_0003
@@ -1114,7 +1184,6 @@ proxy-groups:
   - CH_speednode_0049
   - CH_speednode_0050
   - CZ_speednode_0052
-  - CZ_speednode_0053
   - CZ_speednode_0054
   - CZ_speednode_0055
   - CZ_speednode_0056
