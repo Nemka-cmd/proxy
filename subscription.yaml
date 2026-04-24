@@ -431,13 +431,6 @@ proxies:
   password: '1234567890'
   server: 159.195.5.181
   port: 443
-- name: DK_speednode_0067
-  type: vless
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-  server: 159.195.82.187
-  port: 9443
-  tls: true
-  sni: yahoo.com
 - name: ES_speednode_0068
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -497,6 +490,13 @@ proxies:
   password: '1234567890'
   server: 2.27.120.108
   port: 8443
+- name: GB_speednode_0084
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 91.108.242.85
+  port: 443
+  tls: false
+  sni: sni.latonyamadeline.ndjp.net
 - name: GB_speednode_0085
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -624,13 +624,6 @@ proxies:
   password: '1234567890'
   server: 213.176.77.231
   port: 443
-- name: IR_speednode_0105
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 62.60.153.66
-  port: 8443
-  tls: false
-  sni: sni.111000.v6.rocks
 - name: KR_speednode_0108
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -659,6 +652,12 @@ proxies:
   port: 443
   tls: false
   sni: sni.111000.v6.rocks
+- name: LB_speednode_0112
+  type: trojan
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 213.165.39.142
+  port: 2053
 - name: LV_speednode_0113
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1101,7 +1100,6 @@ proxy-groups:
   - DE_speednode_0064
   - DE_speednode_0065
   - DK_speednode_0066
-  - DK_speednode_0067
   - ES_speednode_0068
   - ES_speednode_0069
   - ES_speednode_0070
@@ -1111,6 +1109,7 @@ proxy-groups:
   - GB_speednode_0080
   - GB_speednode_0081
   - GB_speednode_0082
+  - GB_speednode_0084
   - GB_speednode_0085
   - GB_speednode_0087
   - GB_speednode_0088
@@ -1130,11 +1129,11 @@ proxy-groups:
   - IQ_speednode_0102
   - IR_speednode_0103
   - IR_speednode_0104
-  - IR_speednode_0105
   - KR_speednode_0108
   - LB_speednode_0109
   - LB_speednode_0110
   - LB_speednode_0111
+  - LB_speednode_0112
   - LV_speednode_0113
   - LV_speednode_0114
   - LV_speednode_0115
