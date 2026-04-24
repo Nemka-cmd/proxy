@@ -386,20 +386,6 @@ proxies:
   password: '1234567890'
   server: 193.23.218.192
   port: 443
-- name: DE_speednode_0060
-  type: vless
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-  server: pl2-gws4.onnstreaming.ru
-  port: 443
-  tls: true
-  sni: pl2-gws4.onnstreaming.ru
-- name: DE_speednode_0061
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 193.23.200.38
-  port: 443
-  tls: false
-  sni: sni.111000.v6.rocks
 - name: DE_speednode_0062
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -431,6 +417,13 @@ proxies:
   password: '1234567890'
   server: 159.195.5.181
   port: 443
+- name: DK_speednode_0067
+  type: vless
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  server: 159.195.82.187
+  port: 9443
+  tls: true
+  sni: yahoo.com
 - name: ES_speednode_0068
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -624,6 +617,13 @@ proxies:
   password: '1234567890'
   server: 213.176.77.231
   port: 443
+- name: IR_speednode_0105
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 62.60.153.66
+  port: 8443
+  tls: false
+  sni: sni.111000.v6.rocks
 - name: KR_speednode_0108
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -699,6 +699,13 @@ proxies:
   password: '1234567890'
   server: 89.169.9.177
   port: 2053
+- name: RU_speednode_0119
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 85.192.27.113
+  port: 443
+  tls: false
+  sni: sni.111000.v6.rocks
 - name: RU_speednode_0120
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -896,13 +903,6 @@ proxies:
   port: 2053
   tls: false
   sni: sni.111000.v6.rocks
-- name: US_speednode_0151
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 144.31.132.176
-  port: 443
-  tls: false
-  sni: sni.111000.v6.rocks
 - name: US_speednode_0152
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -1093,13 +1093,12 @@ proxy-groups:
   - CZ_speednode_0057
   - DE_speednode_0058
   - DE_speednode_0059
-  - DE_speednode_0060
-  - DE_speednode_0061
   - DE_speednode_0062
   - DE_speednode_0063
   - DE_speednode_0064
   - DE_speednode_0065
   - DK_speednode_0066
+  - DK_speednode_0067
   - ES_speednode_0068
   - ES_speednode_0069
   - ES_speednode_0070
@@ -1129,6 +1128,7 @@ proxy-groups:
   - IQ_speednode_0102
   - IR_speednode_0103
   - IR_speednode_0104
+  - IR_speednode_0105
   - KR_speednode_0108
   - LB_speednode_0109
   - LB_speednode_0110
@@ -1140,6 +1140,7 @@ proxy-groups:
   - NL_speednode_0116
   - NL_speednode_0117
   - RU_speednode_0118
+  - RU_speednode_0119
   - RU_speednode_0120
   - RU_speednode_0121
   - RU_speednode_0122
@@ -1170,7 +1171,6 @@ proxy-groups:
   - US_speednode_0148
   - US_speednode_0149
   - US_speednode_0150
-  - US_speednode_0151
   - US_speednode_0152
   - US_speednode_0153
   - US_speednode_0154
