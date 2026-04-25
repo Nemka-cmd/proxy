@@ -5,6 +5,30 @@ proxies:
   password: 1774240c00db2b77d5a99f6540c47b69
   server: 160.16.132.38
   port: 32876
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 43.199.206.175
+  port: 4886
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 160.16.132.38
+  port: 4380
+- name: 新加坡|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 160.16.106.99
+  port: 3057
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 1774240c00db2b77d5a99f6540c47b69
+  server: 160.16.106.99
+  port: 4019
 - name: AE_speednode_0001
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -386,6 +410,20 @@ proxies:
   password: '1234567890'
   server: 193.23.218.192
   port: 443
+- name: DE_speednode_0060
+  type: vless
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+  server: pl2-gws4.onnstreaming.ru
+  port: 443
+  tls: true
+  sni: pl2-gws4.onnstreaming.ru
+- name: DE_speednode_0061
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 193.23.200.38
+  port: 443
+  tls: false
+  sni: sni.111000.v6.rocks
 - name: DE_speednode_0062
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -903,6 +941,13 @@ proxies:
   port: 2053
   tls: false
   sni: sni.111000.v6.rocks
+- name: US_speednode_0151
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 144.31.132.176
+  port: 443
+  tls: false
+  sni: sni.111000.v6.rocks
 - name: US_speednode_0152
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -956,12 +1001,6 @@ proxies:
   sni: kfm-bn0.pages.dev
   password: '1234567890'
   server: 144.31.216.160
-  port: 443
-- name: US_speednode_0160
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 144.31.218.10
   port: 443
 - name: US_speednode_0161
   type: vless
@@ -1036,6 +1075,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 新加坡2|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 美国2|@ripaojiedian
   - AE_speednode_0001
   - AT_speednode_0002
   - AT_speednode_0003
@@ -1093,6 +1136,8 @@ proxy-groups:
   - CZ_speednode_0057
   - DE_speednode_0058
   - DE_speednode_0059
+  - DE_speednode_0060
+  - DE_speednode_0061
   - DE_speednode_0062
   - DE_speednode_0063
   - DE_speednode_0064
@@ -1171,6 +1216,7 @@ proxy-groups:
   - US_speednode_0148
   - US_speednode_0149
   - US_speednode_0150
+  - US_speednode_0151
   - US_speednode_0152
   - US_speednode_0153
   - US_speednode_0154
@@ -1179,7 +1225,6 @@ proxy-groups:
   - US_speednode_0157
   - US_speednode_0158
   - US_speednode_0159
-  - US_speednode_0160
   - US_speednode_0161
   - US_speednode_0162
   - US_speednode_0163
