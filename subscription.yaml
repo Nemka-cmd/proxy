@@ -533,13 +533,6 @@ proxies:
   port: 12292
   tls: true
   sni: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
-- name: 🇰🇷KR_3|1.3MB/s
-  type: vless
-  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-  server: krp01.jumperservice.com
-  port: 19001
-  tls: true
-  sni: addons.mozilla.org
 - name: AT_speednode_0001
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -958,12 +951,6 @@ proxies:
   password: '1234567890'
   server: 220.122.102.26
   port: 30017
-- name: KR_speednode_0080
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 220.122.15.78
-  port: 13486
 - name: KR_speednode_0081
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -1320,7 +1307,6 @@ proxy-groups:
   - 🇰🇷KR_1|1.1MB/s
   - 🇷🇺RU_1|1.3MB/s
   - 🇰🇷KR_2|1.1MB/s
-  - 🇰🇷KR_3|1.3MB/s
   - AT_speednode_0001
   - AT_speednode_0002
   - AT_speednode_0003
@@ -1390,7 +1376,6 @@ proxy-groups:
   - KR_speednode_0077
   - KR_speednode_0078
   - KR_speednode_0079
-  - KR_speednode_0080
   - KR_speednode_0081
   - KR_speednode_0082
   - KR_speednode_0083
