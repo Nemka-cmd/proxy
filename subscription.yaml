@@ -1,347 +1,666 @@
 proxies:
-- name: 'B - 🇭🇰 HK 02 TG: @nodpai'
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  server: 8.218.97.160
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  type: trojan
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  server: 23.227.38.178
   port: 443
-  tls: true
-  sni: www.autodesk.com
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  server: 8.218.139.7
-  port: 443
-  tls: true
-  sni: j.6sc.co
-- name: 'C - 🇭🇰 HK 20 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 43.155.187.201
-  port: 443
-  tls: false
-  sni: joss.jak.biz.id
-- name: 'C - 🇭🇰 HK 22 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 160.153.136.253
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
   type: vless
   uuid: 9b1ec8dd-9c94-484a-b01f-a2946d18ce36
   server: hk1.ap221.com
   port: 443
   tls: true
   sni: hk.ap221.com
-- name: 'C - 🇹🇼 TW 18 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
+  type: vless
+  uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
+  server: hk1.ap221.com
+  port: 443
+  tls: true
+  sni: hk.ap221.com
+- name: 'C - 🇭🇰 HK 15 TG: @nodpai'
+  type: vless
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  server: s5.db-link.in
+  port: 17820
+  tls: false
+  sni: 48afa0c5c9.shopify.com
+- name: 'C - 🇭🇰 HK 16 TG: @nodpai'
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 43.161.221.27
+  port: 443
+  tls: false
+  sni: joss.jak.biz.id
+- name: 'C - 🇭🇰 HK 18 TG: @nodpai'
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 8.218.166.188
+  port: 443
+  tls: true
+  sni: www.debian.org
+- name: 'C - 🇭🇰 HK 20 TG: @nodpai'
+  type: trojan
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  server: 23.227.38.178
+  port: 443
+- name: 'C - 🇭🇰 HK 22 TG: @nodpai'
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 166.62.109.253
+  port: 8880
+  tls: false
+  sni: ''
+- name: 'C - 🇭🇰 HK 23 TG: @nodpai'
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 160.153.136.253
+  port: 8880
+  tls: false
+  sni: ''
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  server: 112.171.78.221
+  port: 13579
+  tls: true
+  sni: tptpss.pages.dev
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  type: vless
+  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
+  server: gtmaws.zfym.online
+  port: 12507
+  tls: true
+  sni: live.bilibili.com
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  type: vless
+  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
+  server: gtmaws.zfym.online
+  port: 11788
+  tls: true
+  sni: live.bilibili.com
+- name: 'C - 🇹🇼 TW 05 TG: @nodpai'
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d149
+  server: 125.227.219.98
+  port: 6235
+  tls: true
+  sni: baidu.com
+- name: 'C - 🇹🇼 TW 06 TG: @nodpai'
   type: vless
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
   server: 125.227.219.98
   port: 6235
   tls: true
   sni: baidu.com
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+- name: 'C - 🇹🇼 TW 07 TG: @nodpai'
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d147
+  server: 125.227.219.98
+  port: 6235
+  tls: true
+  sni: baidu.com
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
-  server: 59.2.28.80
-  port: 12292
-  tls: false
-  sni: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  server: 8.211.161.124
+  port: 25809
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   type: vless
-  uuid: 8007e155-622e-4c9d-8a6e-67f49b4678f4
-  server: 8.35.211.248
-  port: 443
-  tls: false
-  sni: edt2-lgy.pages.dev
-- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 136.0.5.25
+  port: 35162
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   type: vless
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  server: srv2.towersflowerss.com
-  port: 443
-  tls: false
-  sni: ''
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 45.93.29.223
+  port: 49058
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 158.180.81.137
+  port: 632
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'A - 🇯🇵 JP 07 TG: @nodpai'
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 82.40.34.85
+  port: 41030
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 13.112.176.52
+  port: 36984
+  tls: true
+  sni: 1n9fo0l9hl.gike.dpdns.org
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   type: trojan
-  sni: vpn5.rnmcnm.com
-  password: t5x8f9w2k4m6n1p0
-  server: 43.160.247.81
+  sni: jp02.ulifeai.com
+  password: b5c64cdc-ec6b-47c6-83b3-732e6f31e150
+  server: 56.155.89.207
+  port: 12308
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  server: 64.176.44.23
   port: 443
-- name: 'C - 🇸🇬 SG 15 TG: @nodpai'
+  tls: true
+  sni: 3-85q.pages.dev
+- name: 'C - 🇯🇵 JP 29 TG: @nodpai'
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  server: dongjing4.zqjsqapi.com
+  port: 443
+  tls: false
+  sni: dongjing4.zqjsqapi.com
+- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 31.57.172.25
-  port: 8606
-  tls: false
-  sni: snippet.gfw.qzz.io
+  server: 121.185.176.21
+  port: 22105
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 218.150.34.228
+  port: 10912
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 222.119.19.248
+  port: 32770
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 154.92.9.174
+  port: 2053
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 154.17.8.82
+  port: 443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 199.180.112.94
+  port: 443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 08 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 154.36.170.78
+  port: 443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 82.152.91.116
+  port: 57236
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 38.244.5.218
+  port: 39738
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 11 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 223.16.138.113
+  port: 16711
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇸🇬 SG 12 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 206.168.149.103
+  port: 443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 185.31.200.45
+  port: 8443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 121.151.210.54
+  port: 33848
+  tls: true
+  sni: mug.support.gfw.hidns.co
 - name: 'C - 🇸🇬 SG 16 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 92.243.74.42
+  server: 58.152.13.239
   port: 443
-  tls: false
-  sni: snippet.danfeng.rr.kg
+  tls: true
+  sni: mug.support.gfw.hidns.co
 - name: 'C - 🇸🇬 SG 17 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 188.253.123.71
-  port: 7228
+  server: 89.117.112.42
+  port: 443
   tls: false
   sni: ''
 - name: 'C - 🇸🇬 SG 18 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 211.198.165.21
-  port: 13579
-  tls: false
-  sni: ''
-- name: 'C - 🇸🇬 SG 19 TG: @nodpai'
-  type: trojan
-  sni: sgeofho04.bpsg2026.top
-  password: 77b19c69-9840-443d-a66b-f08c81b6950a
-  server: 141.193.213.107
-  port: 443
-- name: 'C - 🇸🇬 SG 21 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 159.223.93.80
+  server: 185.193.30.42
   port: 443
   tls: false
   sni: snippet.danfeng.rr.kg
-- name: 'D - 🇸🇬 SG 24 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 19 TG: @nodpai'
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 124.156.202.172
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: static.shopify.com
+  port: 443
+  tls: false
+  sni: mtlu.media-cdn-jp.chinam.indevs.in
+- name: 'C - 🇸🇬 SG 20 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 152.42.217.192
+  port: 443
+  tls: false
+  sni: snippet.danfeng.rr.kg
+- name: 'C - 🇸🇬 SG 22 TG: @nodpai'
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  server: 20.6.12.145
   port: 443
   tls: true
-  sni: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-- name: 'B - 🇺🇸 US 08 TG: @nodpai'
+  sni: sni.skylee4.cloudns.ch
+- name: 'C - 🇸🇬 SG 23 TG: @nodpai'
   type: vless
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-  server: 192.159.99.18
-  port: 30086
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 104.19.73.126
+  port: 2053
+  tls: false
+  sni: mtlu.media-cdn-jp.chinam.indevs.in
+- name: 'C - 🇸🇬 SG 25 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 95.85.61.243
+  port: 443
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 43.161.221.27
+  port: 443
   tls: false
   sni: ''
-- name: US_speednode_0112
+- name: 'D - 🇸🇬 SG 27 TG: @nodpai'
   type: vless
-  uuid: 6810a725-9f09-4e44-89b1-0db4ad5003d1
-  server: 38.76.205.24
-  port: 16196
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 188.226.166.92
+  port: 443
   tls: true
-  sni: www.mysql.com
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  sni: mug.support.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 28 TG: @nodpai'
+  type: vless
+  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+  server: 8.39.125.31
+  port: 2096
+  tls: true
+  sni: tristandeng.cc.cd
+- name: 'D - 🇸🇬 SG 29 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 149.104.5.227
+  port: 65432
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  type: vless
+  uuid: b345f1db-e3ac-41c2-b1fa-d7f28d3a49c9
+  server: us2.appav.net
+  port: 2083
+  tls: true
+  sni: barclays.co.uk
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  server: download.spectrum.vu
+  port: 443
+  tls: true
+  sni: download.spectrum.vu
+- name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  server: 150.241.74.191
+  port: 443
+  tls: true
+  sni: download.spectrum.vu
+- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   type: trojan
-  sni: goog0419.bpusfaster2.top
+  sni: px8r9i1b4k.bpusfaster2.top
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
-  server: 888.cloudflare.182682.xyz
+  server: 104.19.174.68
+  port: 443
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 172.64.147.106
+  port: 2096
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  type: trojan
+  sni: ni5qwas2a6ysde23.usgogo202510.top
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  server: speed.cloudflare.182682.xyz
   port: 443
 - name: 'B - 🇺🇸 US 15 TG: @nodpai'
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.160.207.33
+  sni: ni5qwas2a6ysde23.usgogo202510.top
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  server: 23.227.38.166
+  port: 443
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  type: trojan
+  sni: 0o3vr2n5k2.bpuk2026.top
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  server: 23.227.38.43
   port: 443
 - name: 'B - 🇺🇸 US 17 TG: @nodpai'
   type: trojan
-  sni: goog0419.bpusfaster2.top
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 2.27.120.108
+  port: 8443
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  type: trojan
+  sni: px8r9i1b4k.bpusfaster2.top
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
   server: 777.cloudflare.182682.xyz
   port: 443
-- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 107.174.92.250
+  uuid: 90620657-58a2-441a-a4ce-cdb0503bb9f5
+  server: tcpus5.figurapn.ru
   port: 443
   tls: true
-  sni: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-- name: 'C - 🇺🇸 US 19 TG: @nodpai'
+  sni: tcpus5.figurapn.ru
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
   type: trojan
   sni: kfm-bn0.pages.dev
   password: '1234567890'
-  server: 109.120.134.104
+  server: 64.188.118.193
   port: 443
-- name: 'C - 🇺🇸 US 20 TG: @nodpai'
-  type: vless
-  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
-  server: gtmaws.zfym.online
-  port: 23123
-  tls: true
-  sni: live.bilibili.com
 - name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 77.110.96.220
-  port: 443
-- name: 'C - 🇺🇸 US 23 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 65.109.141.230
+  server: 193.23.201.26
   port: 443
+- name: 'C - 🇺🇸 US 23 TG: @nodpai'
+  type: vless
+  uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
+  server: ohio1.ap221.com
+  port: 443
+  tls: true
+  sni: ohio.ap221.com
 - name: 'C - 🇺🇸 US 24 TG: @nodpai'
   type: trojan
-  sni: ehofhoe.bpuk2026.top
+  sni: px8r9i1b4k.bpusfaster2.top
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
-  server: 141.193.213.199
+  server: 104.19.173.68
   port: 443
-- name: 'C - 🇺🇸 US 26 TG: @nodpai'
+- name: 'C - 🇺🇸 US 25 TG: @nodpai'
+  type: trojan
+  sni: px8r9i1b4k.bpusfaster2.top
+  password: 77b19c69-9840-443d-a66b-f08c81b6950a
+  server: csgo.com
+  port: 443
+- name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  server: 2.27.63.99
+  port: 443
+  tls: true
+  sni: download.spectrum.vu
+- name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  type: vless
+  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+  server: 144.31.127.55
+  port: 443
+  tls: true
+  sni: gateway.icloud.com
+- name: 'C - 🇺🇸 US 30 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 95.85.245.152
   port: 8443
-- name: 'C - 🇺🇸 US 27 TG: @nodpai'
+- name: 'C - 🇺🇸 US 32 TG: @nodpai'
   type: vless
-  uuid: 0844ceed-af3c-46cd-9d29-2295309a1701
-  server: 107.149.145.12
-  port: 10403
-  tls: true
-  sni: img14.360buyimg.com
-- name: 香港2|@ripaojiedian
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  server: 69.63.210.22
+  port: 8443
+  tls: false
+  sni: sni.skylee4.cloudns.ch
+- name: 'D - 🇺🇸 US 33 TG: @nodpai'
+  type: vless
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  server: www.digitalocean.com
+  port: 2053
+  tls: false
+  sni: hio-awx.pages.dev
+- name: 香港3|@ripaojiedian
   type: trojan
-  sni: w1.ding-doc.com
-  password: f792d9b5-c254-4756-a740-c314fa62f964
-  server: 0cfbd3c0-fdc0-4f26-82fb-5c8f8b6ce82b.bnsepserv.com
-  port: 32000
-- name: 台湾|@ripaojiedian
+  sni: www.nintendogames.net
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  server: 54.199.29.37
+  port: 52687
+- name: 香港4|@ripaojiedian
   type: trojan
-  sni: w1.ding-doc.com
-  password: f792d9b5-c254-4756-a740-c314fa62f964
-  server: 0cfbd3c0-fdc0-4f26-82fb-5c8f8b6ce82b.bnsepserv.com
-  port: 32003
-- name: 🇸🇬SG_1|2.8MB/s
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 95.40.57.109
+  port: 50612
+- name: 香港5|@ripaojiedian
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 172.64.152.23
-  port: 2096
-- name: 🇸🇬SG_2|4.2MB/s
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 16.162.22.95
+  port: 9211
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.181.191.24
+  port: 3357
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  server: 52.197.216.139
+  port: 2001
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  server: 43.198.79.128
+  port: 9201
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 52.194.223.24
+  port: 25675
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  server: 18.181.191.24
+  port: 4019
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  server: 18.183.167.10
+  port: 4019
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.42.174
+  port: 49534
+- name: 🇸🇬SG_1|2.0MB/s
   type: ss
   cipher: none
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   server: store.ubi.com
   port: 443
-- name: 🇺🇸US_2|1.3MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 181.214.1.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_1|4.6MB/s
+- name: 🇯🇵JP_1|1.2MB/s
   type: ss
   cipher: aes-128-gcm
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   server: jp.111000.cc.cd
   port: 443
-- name: 🇯🇵JP_2|1.2MB/s
+- name: SE_speednode_0092
+  type: trojan
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 194.87.77.91
+  port: 443
+- name: SE_speednode_0094
+  type: trojan
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 194.87.77.2
+  port: 443
+- name: 🇰🇷KR_1|1.2MB/s
+  type: trojan
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 118.47.197.17
+  port: 10088
+- name: 🇩🇪DE_3|1.1MB/s
+  type: ss
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 94.159.110.149
+  port: 443
+- name: 🇮🇹 意大利 | ITA 2|2.2MB/s
   type: ss
   cipher: aes-128-gcm
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  server: fn.130519.xyz
+  server: freeyx.cloudflare88.eu.org
   port: 443
-- name: 🇯🇵JP_3|1.1MB/s
+- name: 🇯🇵JP_2|2.1MB/s
+  type: ss
+  cipher: aes-128-gcm
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  server: 54.199.22.197
+  port: 2083
+- name: 🇳🇱NL_1|1.4MB/s
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 54.150.83.221
-  port: 443
+  uuid: 4de9bd4f-8d80-4637-8bdb-9e987c8a79bc
+  server: 146.103.114.12
+  port: 59001
   tls: true
-  sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇺🇸US_3|1.0MB/s
+  sni: www.m.vk.ru
+- name: 🇳🇱NL_2|1.9MB/s
+  type: ss
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 80.74.25.110
+  port: 443
+- name: 🇳🇱NL_3|1.1MB/s
   type: ss
   cipher: none
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  server: 199.181.197.38
+  server: 89.46.131.91
   port: 443
-- name: 🇸🇬SG_3|1.6MB/s
+- name: 🇳🇱NL_4|1.2MB/s
+  type: ss
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 95.47.138.133
+  port: 443
+- name: 🇳🇱NL_5|1002KB/s
+  type: ss
+  cipher: none
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 194.87.82.149
+  port: 443
+- name: 🇰🇷KR_4|1.2MB/s
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 172.64.149.54
-  port: 2096
-- name: 🇸🇬SG_4|3.0MB/s
-  type: vless
-  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
-  server: 172.64.147.87
-  port: 2053
-  tls: false
-  sni: tristandeng.cc.cd
-- name: 🇺🇸US_5|1.3MB/s
-  type: ss
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 43.130.134.123
-  port: 65002
-- name: 🇺🇸 美国-9FC1C193|1.4MB/s
+  sni: kfm-bn0.pages.dev
+  password: '1234567890'
+  server: 222.98.185.243
+  port: 37215
+- name: 🇸🇬SG_2|1011KB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 38.244.5.139
-  port: 39738
-  tls: true
-  sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇩🇪DE_1|1.5MB/s
-  type: vless
-  uuid: 1becdc51-1b1a-4fb5-bbfb-06433b3f9dec
-  server: 64.188.91.223
-  port: 443
-  tls: true
-  sni: germany3.nbbconnect.ru
-- name: 🇳🇱NL_1|1.8MB/s
-  type: ss
-  cipher: none
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  server: 103.90.72.71
-  port: 443
-- name: 🇭🇰HK_2|1.7MB/s
-  type: ss
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  server: 185.235.131.40
-  port: 2053
-- name: 🇯🇵JP_4|1.3MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 5.34.222.227
+  server: 138.2.77.187
   port: 443
   tls: true
   sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇯🇵JP_5|1.0MB/s
+- name: 🇺🇸US_5|1.1MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 151.242.164.33
+  server: 34.219.244.174
   port: 443
   tls: true
-  sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇯🇵JP_6|1.8MB/s
+  sni: mug.support.gfw.hidns.co
+- name: 🇰🇷KR_5|1.0MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 38.226.195.129
-  port: 443
+  server: 59.0.95.106
+  port: 32773
   tls: true
-  sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇰🇷KR_1|1.1MB/s
+  sni: mug.support.gfw.hidns.co
+- name: 🇰🇷KR_6|1.4MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 175.206.85.140
-  port: 31337
+  server: 183.102.55.197
+  port: 10003
+  tls: true
+  sni: mug.support.gfw.hidns.co
+- name: 🇰🇷KR_7|1.3MB/s
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 222.102.234.186
+  port: 18888
   tls: true
   sni: ynwta9.api-edge.fgfw.qzz.io
-- name: 🇷🇺RU_1|1.3MB/s
+- name: 🇰🇷KR_8|1.5MB/s
   type: vless
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  server: 82.202.249.3
-  port: 52006
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 169.211.181.68
+  port: 27015
   tls: true
-  sni: cluster-russia-1.firstvideocdn.ru
-- name: 🇰🇷KR_2|1.1MB/s
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 59.2.28.80
-  port: 12292
-  tls: true
-  sni: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
+  sni: mug.support.gfw.hidns.co
 - name: AT_speednode_0001
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -426,18 +745,6 @@ proxies:
   password: '1234567890'
   server: 138.124.28.78
   port: 443
-- name: CH_speednode_0015
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 138.124.32.0
-  port: 443
-- name: CH_speednode_0016
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 138.124.32.0
-  port: 443
 - name: CH_speednode_0017
   type: vless
   uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
@@ -493,18 +800,6 @@ proxies:
   password: '1234567890'
   server: 138.124.240.36
   port: 443
-- name: CZ_speednode_0029
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 95.85.232.148
-  port: 443
-- name: CZ_speednode_0030
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 95.85.233.44
-  port: 443
 - name: CZ_speednode_0031
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -516,18 +811,6 @@ proxies:
   sni: kfm-bn0.pages.dev
   password: '1234567890'
   server: 95.85.234.43
-  port: 443
-- name: CZ_speednode_0033
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 95.85.232.148
-  port: 443
-- name: CZ_speednode_0034
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 95.85.233.44
   port: 443
 - name: DE_speednode_0035
   type: vless
@@ -742,24 +1025,12 @@ proxies:
   password: '1234567890'
   server: 222.116.195.135
   port: 19530
-- name: KR_speednode_0078
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 175.197.105.20
-  port: 10035
 - name: KR_speednode_0079
   type: trojan
   sni: kfm-bn0.pages.dev
   password: '1234567890'
   server: 220.122.102.26
   port: 30017
-- name: KR_speednode_0080
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 220.122.15.78
-  port: 13486
 - name: KR_speednode_0081
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -829,23 +1100,11 @@ proxies:
   port: 7443
   tls: true
   sni: chat.deepseek.com
-- name: SE_speednode_0092
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 194.87.77.91
-  port: 443
 - name: SE_speednode_0093
   type: trojan
   sni: kfm-bn0.pages.dev
   password: '1234567890'
   server: 194.87.77.91
-  port: 443
-- name: SE_speednode_0094
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 194.87.77.2
   port: 443
 - name: SE_speednode_0095
   type: trojan
@@ -933,6 +1192,13 @@ proxies:
   password: '1234567890'
   server: 64.188.118.193
   port: 443
+- name: US_speednode_0112
+  type: vless
+  uuid: 6810a725-9f09-4e44-89b1-0db4ad5003d1
+  server: 38.76.205.24
+  port: 16196
+  tls: true
+  sni: www.mysql.com
 - name: US_speednode_0113
   type: vless
   uuid: 3420808a-9251-4e96-8376-ed505492ae28
@@ -945,12 +1211,6 @@ proxies:
   sni: kfm-bn0.pages.dev
   password: '1234567890'
   server: 144.31.85.72
-  port: 443
-- name: US_speednode_0115
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 64.188.89.147
   port: 443
 - name: US_speednode_0116
   type: trojan
@@ -1014,12 +1274,6 @@ proxies:
   password: '1234567890'
   server: 144.31.188.6
   port: 443
-- name: US_speednode_0126
-  type: trojan
-  sni: kfm-bn0.pages.dev
-  password: '1234567890'
-  server: 64.188.89.147
-  port: 8443
 - name: US_speednode_0127
   type: trojan
   sni: kfm-bn0.pages.dev
@@ -1030,58 +1284,106 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 'B - 🇭🇰 HK 02 TG: @nodpai'
-  - 'B - 🇭🇰 HK 09 TG: @nodpai'
+  - 'B - 🇭🇰 HK 11 TG: @nodpai'
+  - 'B - 🇭🇰 HK 12 TG: @nodpai'
+  - 'B - 🇭🇰 HK 14 TG: @nodpai'
+  - 'C - 🇭🇰 HK 15 TG: @nodpai'
+  - 'C - 🇭🇰 HK 16 TG: @nodpai'
+  - 'C - 🇭🇰 HK 18 TG: @nodpai'
   - 'C - 🇭🇰 HK 20 TG: @nodpai'
   - 'C - 🇭🇰 HK 22 TG: @nodpai'
-  - 'C - 🇭🇰 HK 26 TG: @nodpai'
-  - 'C - 🇹🇼 TW 18 TG: @nodpai'
-  - 'B - 🇯🇵 JP 12 TG: @nodpai'
-  - 'B - 🇸🇬 SG 03 TG: @nodpai'
-  - 'B - 🇸🇬 SG 04 TG: @nodpai'
-  - 'B - 🇸🇬 SG 10 TG: @nodpai'
-  - 'C - 🇸🇬 SG 15 TG: @nodpai'
+  - 'C - 🇭🇰 HK 23 TG: @nodpai'
+  - 'A - 🇹🇼 TW 01 TG: @nodpai'
+  - 'B - 🇹🇼 TW 03 TG: @nodpai'
+  - 'B - 🇹🇼 TW 04 TG: @nodpai'
+  - 'C - 🇹🇼 TW 05 TG: @nodpai'
+  - 'C - 🇹🇼 TW 06 TG: @nodpai'
+  - 'C - 🇹🇼 TW 07 TG: @nodpai'
+  - 'A - 🇯🇵 JP 01 TG: @nodpai'
+  - 'A - 🇯🇵 JP 02 TG: @nodpai'
+  - 'A - 🇯🇵 JP 03 TG: @nodpai'
+  - 'A - 🇯🇵 JP 05 TG: @nodpai'
+  - 'A - 🇯🇵 JP 07 TG: @nodpai'
+  - 'B - 🇯🇵 JP 08 TG: @nodpai'
+  - 'B - 🇯🇵 JP 09 TG: @nodpai'
+  - 'B - 🇯🇵 JP 11 TG: @nodpai'
+  - 'C - 🇯🇵 JP 29 TG: @nodpai'
+  - 'A - 🇸🇬 SG 01 TG: @nodpai'
+  - 'A - 🇸🇬 SG 02 TG: @nodpai'
+  - 'A - 🇸🇬 SG 03 TG: @nodpai'
+  - 'A - 🇸🇬 SG 05 TG: @nodpai'
+  - 'A - 🇸🇬 SG 06 TG: @nodpai'
+  - 'A - 🇸🇬 SG 07 TG: @nodpai'
+  - 'A - 🇸🇬 SG 08 TG: @nodpai'
+  - 'A - 🇸🇬 SG 09 TG: @nodpai'
+  - 'A - 🇸🇬 SG 10 TG: @nodpai'
+  - 'A - 🇸🇬 SG 11 TG: @nodpai'
+  - 'A - 🇸🇬 SG 12 TG: @nodpai'
+  - 'B - 🇸🇬 SG 13 TG: @nodpai'
+  - 'B - 🇸🇬 SG 15 TG: @nodpai'
   - 'C - 🇸🇬 SG 16 TG: @nodpai'
   - 'C - 🇸🇬 SG 17 TG: @nodpai'
   - 'C - 🇸🇬 SG 18 TG: @nodpai'
   - 'C - 🇸🇬 SG 19 TG: @nodpai'
-  - 'C - 🇸🇬 SG 21 TG: @nodpai'
-  - 'D - 🇸🇬 SG 24 TG: @nodpai'
+  - 'C - 🇸🇬 SG 20 TG: @nodpai'
+  - 'C - 🇸🇬 SG 22 TG: @nodpai'
+  - 'C - 🇸🇬 SG 23 TG: @nodpai'
+  - 'C - 🇸🇬 SG 25 TG: @nodpai'
+  - 'C - 🇸🇬 SG 26 TG: @nodpai'
+  - 'D - 🇸🇬 SG 27 TG: @nodpai'
+  - 'D - 🇸🇬 SG 28 TG: @nodpai'
+  - 'D - 🇸🇬 SG 29 TG: @nodpai'
+  - 'A - 🇺🇸 US 01 TG: @nodpai'
+  - 'B - 🇺🇸 US 04 TG: @nodpai'
+  - 'B - 🇺🇸 US 07 TG: @nodpai'
   - 'B - 🇺🇸 US 08 TG: @nodpai'
-  - US_speednode_0112
-  - 'B - 🇺🇸 US 13 TG: @nodpai'
+  - 'B - 🇺🇸 US 09 TG: @nodpai'
+  - 'B - 🇺🇸 US 11 TG: @nodpai'
   - 'B - 🇺🇸 US 15 TG: @nodpai'
+  - 'B - 🇺🇸 US 16 TG: @nodpai'
   - 'B - 🇺🇸 US 17 TG: @nodpai'
   - 'B - 🇺🇸 US 18 TG: @nodpai'
-  - 'C - 🇺🇸 US 19 TG: @nodpai'
-  - 'C - 🇺🇸 US 20 TG: @nodpai'
+  - 'B - 🇺🇸 US 19 TG: @nodpai'
+  - 'B - 🇺🇸 US 20 TG: @nodpai'
   - 'C - 🇺🇸 US 21 TG: @nodpai'
   - 'C - 🇺🇸 US 23 TG: @nodpai'
   - 'C - 🇺🇸 US 24 TG: @nodpai'
-  - 'C - 🇺🇸 US 26 TG: @nodpai'
-  - 'C - 🇺🇸 US 27 TG: @nodpai'
-  - 香港2|@ripaojiedian
-  - 台湾|@ripaojiedian
-  - 🇸🇬SG_1|2.8MB/s
-  - 🇸🇬SG_2|4.2MB/s
-  - 🇺🇸US_2|1.3MB/s
-  - 🇯🇵JP_1|4.6MB/s
-  - 🇯🇵JP_2|1.2MB/s
-  - 🇯🇵JP_3|1.1MB/s
-  - 🇺🇸US_3|1.0MB/s
-  - 🇸🇬SG_3|1.6MB/s
-  - 🇸🇬SG_4|3.0MB/s
-  - 🇺🇸US_5|1.3MB/s
-  - 🇺🇸 美国-9FC1C193|1.4MB/s
-  - 🇩🇪DE_1|1.5MB/s
-  - 🇳🇱NL_1|1.8MB/s
-  - 🇭🇰HK_2|1.7MB/s
-  - 🇯🇵JP_4|1.3MB/s
-  - 🇯🇵JP_5|1.0MB/s
-  - 🇯🇵JP_6|1.8MB/s
-  - 🇰🇷KR_1|1.1MB/s
-  - 🇷🇺RU_1|1.3MB/s
-  - 🇰🇷KR_2|1.1MB/s
+  - 'C - 🇺🇸 US 25 TG: @nodpai'
+  - 'C - 🇺🇸 US 28 TG: @nodpai'
+  - 'C - 🇺🇸 US 29 TG: @nodpai'
+  - 'C - 🇺🇸 US 30 TG: @nodpai'
+  - 'C - 🇺🇸 US 32 TG: @nodpai'
+  - 'D - 🇺🇸 US 33 TG: @nodpai'
+  - 香港3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
+  - 🇸🇬SG_1|2.0MB/s
+  - 🇯🇵JP_1|1.2MB/s
+  - SE_speednode_0092
+  - SE_speednode_0094
+  - 🇰🇷KR_1|1.2MB/s
+  - 🇩🇪DE_3|1.1MB/s
+  - 🇮🇹 意大利 | ITA 2|2.2MB/s
+  - 🇯🇵JP_2|2.1MB/s
+  - 🇳🇱NL_1|1.4MB/s
+  - 🇳🇱NL_2|1.9MB/s
+  - 🇳🇱NL_3|1.1MB/s
+  - 🇳🇱NL_4|1.2MB/s
+  - 🇳🇱NL_5|1002KB/s
+  - 🇰🇷KR_4|1.2MB/s
+  - 🇸🇬SG_2|1011KB/s
+  - 🇺🇸US_5|1.1MB/s
+  - 🇰🇷KR_5|1.0MB/s
+  - 🇰🇷KR_6|1.4MB/s
+  - 🇰🇷KR_7|1.3MB/s
+  - 🇰🇷KR_8|1.5MB/s
   - AT_speednode_0001
   - AT_speednode_0002
   - AT_speednode_0003
@@ -1096,8 +1398,6 @@ proxy-groups:
   - CH_speednode_0012
   - CH_speednode_0013
   - CH_speednode_0014
-  - CH_speednode_0015
-  - CH_speednode_0016
   - CH_speednode_0017
   - CH_speednode_0018
   - CH_speednode_0019
@@ -1107,12 +1407,8 @@ proxy-groups:
   - CH_speednode_0023
   - CH_speednode_0024
   - CH_speednode_0025
-  - CZ_speednode_0029
-  - CZ_speednode_0030
   - CZ_speednode_0031
   - CZ_speednode_0032
-  - CZ_speednode_0033
-  - CZ_speednode_0034
   - DE_speednode_0035
   - DE_speednode_0036
   - DE_speednode_0037
@@ -1148,9 +1444,7 @@ proxy-groups:
   - KR_speednode_0074
   - KR_speednode_0076
   - KR_speednode_0077
-  - KR_speednode_0078
   - KR_speednode_0079
-  - KR_speednode_0080
   - KR_speednode_0081
   - KR_speednode_0082
   - KR_speednode_0083
@@ -1162,9 +1456,7 @@ proxy-groups:
   - SC_speednode_0089
   - SC_speednode_0090
   - SC_speednode_0091
-  - SE_speednode_0092
   - SE_speednode_0093
-  - SE_speednode_0094
   - SE_speednode_0095
   - US_speednode_0097
   - US_speednode_0099
@@ -1179,9 +1471,9 @@ proxy-groups:
   - US_speednode_0109
   - US_speednode_0110
   - US_speednode_0111
+  - US_speednode_0112
   - US_speednode_0113
   - US_speednode_0114
-  - US_speednode_0115
   - US_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
@@ -1192,7 +1484,6 @@ proxy-groups:
   - US_speednode_0123
   - US_speednode_0124
   - US_speednode_0125
-  - US_speednode_0126
   - US_speednode_0127
   url: https://www.gstatic.com/generate_204
   interval: 300
