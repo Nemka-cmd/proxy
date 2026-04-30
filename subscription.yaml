@@ -13,6 +13,13 @@ proxies:
   port: 443
   tls: true
   sni: cdn-dynmedia-1.microsoft.com
+- name: 'C - 🇭🇰 HK 05 TG: @nodpai'
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: 8.218.127.248
+  port: 443
+  tls: true
+  sni: j.6sc.co
 - name: 'C - 🇹🇼 TW 04 TG: @nodpai'
   type: vless
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
@@ -215,6 +222,12 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 47.76.218.163
   port: 443
+- name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 38.147.163.152
+  port: 25258
 - name: 'A - 🇩🇪 DE 03 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -251,12 +264,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 83.229.121.78
   port: 8443
-- name: 'A - 🇩🇪 DE 10 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 154.36.156.141
-  port: 47293
 - name: 'A - 🇩🇪 DE 11 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -311,12 +318,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 185.106.176.150
   port: 28812
-- name: 'B - 🇩🇪 DE 20 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.161.216.173
-  port: 8443
 - name: 'B - 🇩🇪 DE 23 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -1010,6 +1011,7 @@ proxy-groups:
   proxies:
   - 'B - 🇭🇰 HK 02 TG: @nodpai'
   - 'C - 🇭🇰 HK 04 TG: @nodpai'
+  - 'C - 🇭🇰 HK 05 TG: @nodpai'
   - 'C - 🇹🇼 TW 04 TG: @nodpai'
   - 'C - 🇯🇵 JP 05 TG: @nodpai'
   - 'B - 🇸🇬 SG 02 TG: @nodpai'
@@ -1041,13 +1043,13 @@ proxy-groups:
   - 'D - 🇺🇸 US 36 TG: @nodpai'
   - 🇯🇵JP_1|3.2MB/s
   - 'A - 🇩🇪 DE 01 TG: @nodpai'
+  - 'A - 🇩🇪 DE 02 TG: @nodpai'
   - 'A - 🇩🇪 DE 03 TG: @nodpai'
   - 'A - 🇩🇪 DE 05 TG: @nodpai'
   - 'A - 🇩🇪 DE 06 TG: @nodpai'
   - 'A - 🇩🇪 DE 07 TG: @nodpai'
   - 🇸🇬SG_1|1.4MB/s
   - 'A - 🇩🇪 DE 09 TG: @nodpai'
-  - 'A - 🇩🇪 DE 10 TG: @nodpai'
   - 'A - 🇩🇪 DE 11 TG: @nodpai'
   - 'A - 🇩🇪 DE 12 TG: @nodpai'
   - 'B - 🇩🇪 DE 13 TG: @nodpai'
@@ -1057,7 +1059,6 @@ proxy-groups:
   - 'B - 🇩🇪 DE 17 TG: @nodpai'
   - 'B - 🇩🇪 DE 18 TG: @nodpai'
   - 'B - 🇩🇪 DE 19 TG: @nodpai'
-  - 'B - 🇩🇪 DE 20 TG: @nodpai'
   - 'B - 🇩🇪 DE 23 TG: @nodpai'
   - 'B - 🇩🇪 DE 24 TG: @nodpai'
   - 'B - 🇩🇪 DE 25 TG: @nodpai'
