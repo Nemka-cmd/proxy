@@ -222,12 +222,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 47.76.218.163
   port: 443
-- name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 38.147.163.152
-  port: 25258
 - name: 'A - 🇩🇪 DE 03 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -348,12 +342,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 38.175.192.69
   port: 42471
-- name: 'B - 🇩🇪 DE 28 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 23.151.104.39
-  port: 443
 - name: 'B - 🇩🇪 DE 29 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -1043,7 +1031,6 @@ proxy-groups:
   - 'D - 🇺🇸 US 36 TG: @nodpai'
   - 🇯🇵JP_1|3.2MB/s
   - 'A - 🇩🇪 DE 01 TG: @nodpai'
-  - 'A - 🇩🇪 DE 02 TG: @nodpai'
   - 'A - 🇩🇪 DE 03 TG: @nodpai'
   - 'A - 🇩🇪 DE 05 TG: @nodpai'
   - 'A - 🇩🇪 DE 06 TG: @nodpai'
@@ -1064,7 +1051,6 @@ proxy-groups:
   - 'B - 🇩🇪 DE 25 TG: @nodpai'
   - 'B - 🇩🇪 DE 26 TG: @nodpai'
   - 'B - 🇩🇪 DE 27 TG: @nodpai'
-  - 'B - 🇩🇪 DE 28 TG: @nodpai'
   - 'B - 🇩🇪 DE 29 TG: @nodpai'
   - 'B - 🇩🇪 DE 30 TG: @nodpai'
   - 'A - 🇳🇱 NL 01 TG: @nodpai'
