@@ -152,93 +152,93 @@ proxies:
   port: 443
   tls: true
   sni: sni.skylee4.cloudns.ch
-- name: 'A - 🇺🇸 US 10 TG: @nodpai'
+- name: 'A - 🇺🇸 US 09 TG: @nodpai'
   type: vless
   uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
   server: 154.26.177.151
   port: 8443
   tls: true
   sni: sni.skylee4.cloudns.ch
-- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+- name: 'B - 🇺🇸 US 23 TG: @nodpai'
   type: vless
   uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
   server: cf.tencentapp.cn
   port: 443
   tls: true
   sni: asb1-cdn.nekohub.xyz
-- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
   type: vless
   uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
   server: saas.sin.fan
   port: 443
   tls: true
   sni: asb2-cdn.nekohub.xyz
-- name: 'B - 🇺🇸 US 30 TG: @nodpai'
+- name: 'B - 🇺🇸 US 29 TG: @nodpai'
   type: vless
   uuid: 8458f187-887d-4c57-bd59-4a75e5ccba9a
   server: cu.877774.xyz
   port: 443
   tls: true
   sni: jjk.xxbsyx.com
-- name: 'B - 🇺🇸 US 31 TG: @nodpai'
+- name: 'B - 🇺🇸 US 30 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 211.48.77.114
   port: 19655
-- name: 'B - 🇺🇸 US 38 TG: @nodpai'
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 185.221.163.129
   port: 443
-- name: 'B - 🇺🇸 US 39 TG: @nodpai'
+- name: 'B - 🇺🇸 US 38 TG: @nodpai'
   type: vless
   uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
   server: mfa.gov.ua
   port: 443
   tls: true
   sni: asb2-cdn.nekohub.xyz
-- name: 'B - 🇺🇸 US 44 TG: @nodpai'
+- name: 'B - 🇺🇸 US 43 TG: @nodpai'
   type: vless
   uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
   server: www.shopify.com
   port: 2053
   tls: true
   sni: ccsus1-cdn.nekohub.xyz
-- name: 'B - 🇺🇸 US 45 TG: @nodpai'
+- name: 'B - 🇺🇸 US 44 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 45.40.148.253
   port: 443
-- name: 'B - 🇺🇸 US 49 TG: @nodpai'
+- name: 'B - 🇺🇸 US 48 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 194.59.5.253
   port: 443
-- name: 'B - 🇺🇸 US 50 TG: @nodpai'
+- name: 'B - 🇺🇸 US 49 TG: @nodpai'
   type: vless
   uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
   server: 104.18.5.46
   port: 8880
   tls: false
   sni: ''
-- name: 'B - 🇺🇸 US 51 TG: @nodpai'
+- name: 'B - 🇺🇸 US 50 TG: @nodpai'
   type: vless
   uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
   server: cf.3666888.xyz
   port: 443
   tls: true
   sni: asb1-cdn.nekohub.xyz
-- name: 'B - 🇺🇸 US 52 TG: @nodpai'
+- name: 'B - 🇺🇸 US 51 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 95.164.55.80
   port: 8443
-- name: 'B - 🇺🇸 US 54 TG: @nodpai'
+- name: 'B - 🇺🇸 US 53 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -373,13 +373,6 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 14.45.98.52
   port: 35342
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 🇰🇷KR_4|1.1MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 14.39.193.90
-  port: 32130
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
 - name: 🇳🇱NL_4|1.9MB/s
@@ -772,20 +765,20 @@ proxy-groups:
   - 'C - 🇸🇬 SG 20 TG: @nodpai'
   - 'C - 🇸🇬 SG 21 TG: @nodpai'
   - 🇺🇸US_9|1.6MB/s
-  - 'A - 🇺🇸 US 10 TG: @nodpai'
+  - 'A - 🇺🇸 US 09 TG: @nodpai'
+  - 'B - 🇺🇸 US 23 TG: @nodpai'
   - 'B - 🇺🇸 US 24 TG: @nodpai'
-  - 'B - 🇺🇸 US 25 TG: @nodpai'
+  - 'B - 🇺🇸 US 29 TG: @nodpai'
   - 'B - 🇺🇸 US 30 TG: @nodpai'
-  - 'B - 🇺🇸 US 31 TG: @nodpai'
+  - 'B - 🇺🇸 US 37 TG: @nodpai'
   - 'B - 🇺🇸 US 38 TG: @nodpai'
-  - 'B - 🇺🇸 US 39 TG: @nodpai'
+  - 'B - 🇺🇸 US 43 TG: @nodpai'
   - 'B - 🇺🇸 US 44 TG: @nodpai'
-  - 'B - 🇺🇸 US 45 TG: @nodpai'
+  - 'B - 🇺🇸 US 48 TG: @nodpai'
   - 'B - 🇺🇸 US 49 TG: @nodpai'
   - 'B - 🇺🇸 US 50 TG: @nodpai'
   - 'B - 🇺🇸 US 51 TG: @nodpai'
-  - 'B - 🇺🇸 US 52 TG: @nodpai'
-  - 'B - 🇺🇸 US 54 TG: @nodpai'
+  - 'B - 🇺🇸 US 53 TG: @nodpai'
   - 'C - 🇺🇸 US 57 TG: @nodpai'
   - 'C - 🇺🇸 US 59 TG: @nodpai'
   - 'C - 🇺🇸 US 60 TG: @nodpai'
@@ -806,7 +799,6 @@ proxy-groups:
   - 🇫🇮FI_1|1.0MB/s
   - 🇰🇷KR_2|1.2MB/s
   - 🇰🇷KR_3|1.3MB/s
-  - 🇰🇷KR_4|1.1MB/s
   - 🇳🇱NL_4|1.9MB/s
   - 🇸🇪SE_2|1.5MB/s
   - 🇺🇸US_5|1.4MB/s
