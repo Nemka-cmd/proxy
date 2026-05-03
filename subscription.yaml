@@ -6,20 +6,6 @@ proxies:
   port: 17820
   tls: true
   sni: 48afa0c5c9.shopify.com
-- name: 'D - 🇭🇰 HK 18 TG: @nodpai'
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  server: 43.161.221.27
-  port: 443
-  tls: false
-  sni: babayaga-6i7.pages.dev
-- name: 'D - 🇭🇰 HK 22 TG: @nodpai'
-  type: vless
-  uuid: a06404ff-bc31-47ae-be6f-d56575f947f1
-  server: cf.wdqgn.eu.org
-  port: 443
-  tls: true
-  sni: ''
 - name: 'B - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -40,25 +26,25 @@ proxies:
   port: 443
   tls: true
   sni: s3.yandexcloud.net
-- name: 'D - 🇯🇵 JP 15 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 11 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   server: 141.11.138.48
   port: 19421
   tls: false
   sni: ''
-- name: 'D - 🇯🇵 JP 16 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 12 TG: @nodpai'
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   server: 109.61.109.205
   port: 443
   tls: true
   sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
-- name: 'D - 🇯🇵 JP 17 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
-  server: 192.204.110.193
-  port: 40092
+  server: 178.62.81.144
+  port: 12306
   tls: true
   sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
 - name: 'D - 🇯🇵 JP 19 TG: @nodpai'
@@ -71,8 +57,8 @@ proxies:
 - name: 'D - 🇯🇵 JP 20 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
-  server: 178.62.81.144
-  port: 12306
+  server: 192.204.110.193
+  port: 40092
   tls: true
   sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
 - name: 'A - 🇸🇬 SG 01 TG: @nodpai'
@@ -89,7 +75,14 @@ proxies:
   port: 443
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+- name: 🇺🇸US_12|1.1MB/s
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 107.173.199.170
+  port: 2054
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 64.23.137.172
@@ -98,33 +91,19 @@ proxies:
   sni: xfxl35a.node-edge.gfw.hidns.co
 - name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 115.23.103.153
-  port: 20332
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  server: 83.229.121.78
+  port: 8443
   tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'C - 🇸🇬 SG 06 TG: @nodpai'
+  sni: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+- name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 192.46.237.135
-  port: 20205
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'C - 🇸🇬 SG 07 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 221.165.101.73
-  port: 29015
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
+  server: 59.0.95.106
+  port: 18246
+  tls: false
+  sni: ''
 - name: 'C - 🇸🇬 SG 08 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: static.shopify.com
-  port: 443
-  tls: true
-  sni: v6u.cdn-a.chinam.indevs.in
-- name: 'C - 🇸🇬 SG 09 TG: @nodpai'
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   server: 198.41.223.84
@@ -134,10 +113,10 @@ proxies:
 - name: 'C - 🇸🇬 SG 10 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 131.186.22.255
-  port: 1443
-  tls: false
-  sni: snippet.danfeng.rr.kg
+  server: 31.56.196.240
+  port: 2053
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
 - name: 'C - 🇸🇬 SG 11 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -147,12 +126,19 @@ proxies:
   sni: xfxl35a.node-edge.gfw.hidns.co
 - name: 'D - 🇸🇬 SG 12 TG: @nodpai'
   type: vless
+  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+  server: 8.39.125.31
+  port: 2096
+  tls: true
+  sni: tristandeng.cc.cd
+- name: 'D - 🇸🇬 SG 13 TG: @nodpai'
+  type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   server: 173.245.58.46
   port: 2053
   tls: true
   sni: kalami-eew.pages.dev
-- name: 'D - 🇸🇬 SG 13 TG: @nodpai'
+- name: 'D - 🇸🇬 SG 14 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 38.244.5.153
@@ -161,39 +147,18 @@ proxies:
   sni: xfxl35a.node-edge.gfw.hidns.co
 - name: 'D - 🇸🇬 SG 15 TG: @nodpai'
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 147.79.20.211
-  port: 33174
-  tls: false
-  sni: ''
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  server: 198.41.223.148
+  port: 2083
+  tls: true
+  sni: kalami-eew.pages.dev
 - name: 'D - 🇸🇬 SG 16 TG: @nodpai'
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 206.237.112.80
-  port: 443
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  server: 172.64.146.218
+  port: 2096
   tls: true
-  sni: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
-- name: 'D - 🇸🇬 SG 17 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 121.167.94.122
-  port: 25448
-  tls: true
-  sni: k598psis.auth.sh21.eu.org
-- name: 'D - 🇸🇬 SG 18 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 149.248.36.162
-  port: 443
-  tls: false
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 19 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 45.12.91.8
-  port: 443
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
+  sni: kalami-eew.pages.dev
 - name: v2go | 🇰🇷 KR | VLESS | 1825|1....
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -201,127 +166,187 @@ proxies:
   port: 10088
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 21 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 103.251.89.251
-  port: 443
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 22 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 142.91.108.144
-  port: 443
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 23 TG: @nodpai'
+- name: 'D - 🇸🇬 SG 18 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 192.227.229.95
   port: 443
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 24 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 217.28.130.84
-  port: 443
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 25 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 146.190.234.20
-  port: 2053
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 138.68.36.21
-  port: 443
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 27 TG: @nodpai'
+- name: 'D - 🇸🇬 SG 19 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 77.239.98.122
   port: 443
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'D - 🇸🇬 SG 28 TG: @nodpai'
+- name: 'D - 🇸🇬 SG 20 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 139.59.186.54
+  server: 45.12.91.8
   port: 443
   tls: true
   sni: xfxl35a.node-edge.gfw.hidns.co
-- name: 'A - 🇺🇸 US 07 TG: @nodpai'
+- name: 🇰🇷KR_2|1.3MB/s
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: staticdelivery.nexusmods.com
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 210.123.225.3
+  port: 10005
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 22 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 217.28.130.84
   port: 443
   tls: true
-  sni: 2-eox.pages.dev
-- name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 23 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 138.68.36.21
+  port: 443
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 24 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 146.190.234.20
+  port: 2053
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 25 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 147.79.20.211
+  port: 33174
+  tls: false
+  sni: ''
+- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 14.33.75.54
+  port: 11032
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 27 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 103.251.89.251
+  port: 443
+  tls: true
+  sni: xfxl35a.node-edge.gfw.hidns.co
+- name: 'D - 🇸🇬 SG 29 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 121.167.94.122
+  port: 25448
+  tls: true
+  sni: k598psis.auth.sh21.eu.org
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 89.23.105.189
   port: 443
-- name: 'C - 🇺🇸 US 24 TG: @nodpai'
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 195.26.230.99
-  port: 2053
-- name: 'C - 🇺🇸 US 25 TG: @nodpai'
+  server: 45.40.148.253
+  port: 443
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  type: vless
+  uuid: 7c71bca8-1f80-435a-bb2d-0ad130d6d4f7
+  server: 72.56.38.218
+  port: 2066
+  tls: true
+  sni: apple.com
+- name: 'C - 🇺🇸 US 22 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 95.164.55.80
   port: 8443
-- name: 'C - 🇺🇸 US 26 TG: @nodpai'
+- name: 'C - 🇺🇸 US 23 TG: @nodpai'
   type: vless
   uuid: b11c8d06-96bf-41b3-908d-8663f919e399
   server: ussun.api.dznn.net
   port: 443
   tls: true
   sni: ussun.api.dznn.net
-- name: 'C - 🇺🇸 US 29 TG: @nodpai'
+- name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  type: vless
+  uuid: a5554072-0d6d-4b9a-93b1-9c8726fc2c0b
+  server: 195.26.250.121
+  port: 30047
+  tls: false
+  sni: ''
+- name: 'C - 🇺🇸 US 25 TG: @nodpai'
   type: vless
   uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
   server: p04.rghvf.sbs
   port: 8443
   tls: true
   sni: p04.rghvf.sbs
-- name: 'D - 🇺🇸 US 30 TG: @nodpai'
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  server: 154.83.2.231
+- name: 'C - 🇺🇸 US 26 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 43.160.207.33
   port: 443
-  tls: false
-  sni: babayaga-6i7.pages.dev
-- name: 'D - 🇺🇸 US 31 TG: @nodpai'
+- name: 'C - 🇺🇸 US 27 TG: @nodpai'
   type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  server: 104.17.150.99
-  port: 80
+  uuid: 1d1522f7-33c2-41ef-a5e2-4e6f77a8b56d
+  server: 144.31.50.86
+  port: 499
+  tls: true
+  sni: ads.x5.ru
+- name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  type: vless
+  uuid: 78c5b6bd-1cb6-463c-bcba-9f17ef70c85b
+  server: 104.18.13.229
+  port: 8880
   tls: false
   sni: ''
-- name: 'D - 🇺🇸 US 37 TG: @nodpai'
+- name: 'D - 🇺🇸 US 31 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 209.38.230.60
-  port: 2096
-- name: 'D - 🇺🇸 US 42 TG: @nodpai'
+  server: 82.118.21.88
+  port: 443
+- name: 'D - 🇺🇸 US 33 TG: @nodpai'
+  type: vless
+  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+  server: 147.182.236.243
+  port: 443
+  tls: true
+  sni: sanatorio-celaya.com
+- name: 'D - 🇺🇸 US 40 TG: @nodpai'
+  type: vless
+  uuid: 7c71bca8-1f80-435a-bb2d-0ad130d6d4f7
+  server: ru-2.hotservice.icu
+  port: 2066
+  tls: true
+  sni: apple.com
+- name: 'D - 🇺🇸 US 49 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 183.107.78.213
-  port: 20880
+  server: 178.255.222.103
+  port: 2053
+- name: 'D - 🇺🇸 US 50 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 189.1.171.37
+  port: 443
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 116.80.80.121
+  port: 443
 - name: 🇰🇷KR_1|1.2MB/s
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -448,13 +473,6 @@ proxies:
   port: 8082
   tls: true
   sni: id.vk.com
-- name: 🇺🇸US_12|1.1MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 107.173.199.170
-  port: 2054
-  tls: true
-  sni: xfxl35a.node-edge.gfw.hidns.co
 - name: CH_speednode_0001
   type: vless
   uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
@@ -775,52 +793,56 @@ proxy-groups:
   type: url-test
   proxies:
   - 'B - 🇭🇰 HK 04 TG: @nodpai'
-  - 'D - 🇭🇰 HK 18 TG: @nodpai'
-  - 'D - 🇭🇰 HK 22 TG: @nodpai'
   - 'B - 🇯🇵 JP 01 TG: @nodpai'
   - 'C - 🇯🇵 JP 06 TG: @nodpai'
   - 'C - 🇯🇵 JP 08 TG: @nodpai'
-  - 'D - 🇯🇵 JP 15 TG: @nodpai'
-  - 'D - 🇯🇵 JP 16 TG: @nodpai'
-  - 'D - 🇯🇵 JP 17 TG: @nodpai'
+  - 'D - 🇯🇵 JP 11 TG: @nodpai'
+  - 'D - 🇯🇵 JP 12 TG: @nodpai'
+  - 'D - 🇯🇵 JP 13 TG: @nodpai'
   - 'D - 🇯🇵 JP 19 TG: @nodpai'
   - 'D - 🇯🇵 JP 20 TG: @nodpai'
   - 'A - 🇸🇬 SG 01 TG: @nodpai'
   - 'A - 🇸🇬 SG 02 TG: @nodpai'
-  - 'B - 🇸🇬 SG 03 TG: @nodpai'
+  - 🇺🇸US_12|1.1MB/s
+  - 'B - 🇸🇬 SG 04 TG: @nodpai'
   - 'B - 🇸🇬 SG 05 TG: @nodpai'
-  - 'C - 🇸🇬 SG 06 TG: @nodpai'
-  - 'C - 🇸🇬 SG 07 TG: @nodpai'
+  - 'B - 🇸🇬 SG 07 TG: @nodpai'
   - 'C - 🇸🇬 SG 08 TG: @nodpai'
-  - 'C - 🇸🇬 SG 09 TG: @nodpai'
   - 'C - 🇸🇬 SG 10 TG: @nodpai'
   - 'C - 🇸🇬 SG 11 TG: @nodpai'
   - 'D - 🇸🇬 SG 12 TG: @nodpai'
   - 'D - 🇸🇬 SG 13 TG: @nodpai'
+  - 'D - 🇸🇬 SG 14 TG: @nodpai'
   - 'D - 🇸🇬 SG 15 TG: @nodpai'
   - 'D - 🇸🇬 SG 16 TG: @nodpai'
-  - 'D - 🇸🇬 SG 17 TG: @nodpai'
+  - v2go | 🇰🇷 KR | VLESS | 1825|1....
   - 'D - 🇸🇬 SG 18 TG: @nodpai'
   - 'D - 🇸🇬 SG 19 TG: @nodpai'
-  - v2go | 🇰🇷 KR | VLESS | 1825|1....
-  - 'D - 🇸🇬 SG 21 TG: @nodpai'
+  - 'D - 🇸🇬 SG 20 TG: @nodpai'
+  - 🇰🇷KR_2|1.3MB/s
   - 'D - 🇸🇬 SG 22 TG: @nodpai'
   - 'D - 🇸🇬 SG 23 TG: @nodpai'
   - 'D - 🇸🇬 SG 24 TG: @nodpai'
   - 'D - 🇸🇬 SG 25 TG: @nodpai'
   - 'D - 🇸🇬 SG 26 TG: @nodpai'
   - 'D - 🇸🇬 SG 27 TG: @nodpai'
-  - 'D - 🇸🇬 SG 28 TG: @nodpai'
-  - 'A - 🇺🇸 US 07 TG: @nodpai'
-  - 'B - 🇺🇸 US 21 TG: @nodpai'
+  - 'D - 🇸🇬 SG 29 TG: @nodpai'
+  - 'B - 🇺🇸 US 17 TG: @nodpai'
+  - 'B - 🇺🇸 US 18 TG: @nodpai'
+  - 'B - 🇺🇸 US 20 TG: @nodpai'
+  - 'C - 🇺🇸 US 22 TG: @nodpai'
+  - 'C - 🇺🇸 US 23 TG: @nodpai'
   - 'C - 🇺🇸 US 24 TG: @nodpai'
   - 'C - 🇺🇸 US 25 TG: @nodpai'
   - 'C - 🇺🇸 US 26 TG: @nodpai'
-  - 'C - 🇺🇸 US 29 TG: @nodpai'
-  - 'D - 🇺🇸 US 30 TG: @nodpai'
+  - 'C - 🇺🇸 US 27 TG: @nodpai'
+  - 'C - 🇺🇸 US 28 TG: @nodpai'
   - 'D - 🇺🇸 US 31 TG: @nodpai'
-  - 'D - 🇺🇸 US 37 TG: @nodpai'
-  - 'D - 🇺🇸 US 42 TG: @nodpai'
+  - 'D - 🇺🇸 US 33 TG: @nodpai'
+  - 'D - 🇺🇸 US 40 TG: @nodpai'
+  - 'D - 🇺🇸 US 49 TG: @nodpai'
+  - 'D - 🇺🇸 US 50 TG: @nodpai'
+  - 日本|@ripaojiedian
   - 🇰🇷KR_1|1.2MB/s
   - 🇳🇱NL_1|1.8MB/s
   - 🇫🇷FR_1|1.1MB/s
@@ -840,7 +862,6 @@ proxy-groups:
   - 🇺🇸US_10|1.5MB/s
   - 🇺🇸US_11|1.0MB/s
   - 🇩🇪DE_2|1.5MB/s
-  - 🇺🇸US_12|1.1MB/s
   - CH_speednode_0001
   - CH_speednode_0002
   - CY_speednode_0003
