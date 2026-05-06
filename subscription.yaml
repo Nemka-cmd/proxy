@@ -84,12 +84,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 46.8.226.15
   port: 443
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
-  type: trojan
-  sni: 🔒
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 163.53.18.14
-  port: 443
 - name: 'B - 🇭🇰 HK 21 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -706,24 +700,12 @@ proxies:
   password: BxceQaOe
   server: 43.199.253.121
   port: 2074
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  server: 54.238.186.83
-  port: 52249
 - name: 美国2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: ba62c023f9bce796ae334fecb20ef7cc
   server: 54.46.2.55
   port: 52249
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 54.178.47.5
-  port: 23255
 - name: 🇭🇰HK_1|1.3MB/s
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
@@ -1075,7 +1057,6 @@ proxy-groups:
   - 'B - 🇭🇰 HK 16 TG: @nodpai'
   - 'B - 🇭🇰 HK 17 TG: @nodpai'
   - 'B - 🇭🇰 HK 18 TG: @nodpai'
-  - 'B - 🇭🇰 HK 20 TG: @nodpai'
   - 'B - 🇭🇰 HK 21 TG: @nodpai'
   - 'B - 🇭🇰 HK 22 TG: @nodpai'
   - 'B - 🇭🇰 HK 23 TG: @nodpai'
@@ -1173,9 +1154,7 @@ proxy-groups:
   - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
   - 新加坡3|@ripaojiedian
-  - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
-  - 美国3|@ripaojiedian
   - 🇭🇰HK_1|1.3MB/s
   - 🇸🇬SG_1|1.3MB/s
   - 🇩🇪DE_1|1.2MB/s
