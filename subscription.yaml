@@ -1,42 +1,42 @@
 proxies:
-- name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 149.104.6.78
+  port: 8443
+- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  type: vless
+  uuid: faebdef9-5c25-4e53-825c-2f57afdf87db
+  server: 18.162.112.209
+  port: 443
+  tls: true
+  sni: hk.ap221.com
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%253C%255B9%2527l6hAO%25238ZQi
+  server: 43.154.4.49
+  port: 443
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 47.76.218.163
   port: 443
-- name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 8.223.63.150
   port: 443
-- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  type: vless
-  uuid: 0da53d40-3e61-4459-8014-bd0f22bef196
-  server: hk1.ap221.com
-  port: 443
-  tls: true
-  sni: hk.ap221.com
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  type: vless
-  uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
-  server: hk1.ap221.com
-  port: 443
-  tls: true
-  sni: hk.ap221.com
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 83.229.121.78
-  port: 8443
 - name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 156.225.72.253
+  type: vless
+  uuid: 2bd9c075-e47a-46d8-a777-93baa759d8aa
+  server: hk1.ap221.com
   port: 443
+  tls: true
+  sni: hk.ap221.com
 - name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   type: vless
   uuid: faebdef9-5c25-4e53-825c-2f57afdf87db
@@ -46,925 +46,886 @@ proxies:
   sni: hk.ap221.com
 - name: 'B - 🇭🇰 HK 10 TG: @nodpai'
   type: vless
-  uuid: 43b0a450-d0fb-4c8f-b809-4dde6e3c167a
+  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
+  server: hk1.ap221.com
+  port: 443
+  tls: true
+  sni: hk.ap221.com
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  type: vless
+  uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1
   server: hk1.ap221.com
   port: 443
   tls: true
   sni: hk.ap221.com
 - name: 'B - 🇭🇰 HK 12 TG: @nodpai'
   type: vless
-  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
+  uuid: 33db4dff-b9aa-4910-ad71-fe36ce0790fc
   server: hk1.ap221.com
   port: 443
   tls: true
   sni: hk.ap221.com
 - name: 'B - 🇭🇰 HK 13 TG: @nodpai'
-  type: vless
-  uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1
-  server: 18.162.112.209
-  port: 443
-  tls: true
-  sni: hk.ap221.com
-- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 213.176.92.138
+  server: 143.20.204.5
+  port: 443
+- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 156.225.72.253
   port: 443
 - name: 'B - 🇭🇰 HK 17 TG: @nodpai'
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%253C%255B9%2527l6hAO%25238ZQi
-  server: 219.76.13.166
-  port: 443
+  sni: cchh2.pages.dev
+  password: '162534'
+  server: 217.60.248.94
+  port: 8443
 - name: 'B - 🇭🇰 HK 18 TG: @nodpai'
-  type: vless
-  uuid: ec75f351-4428-4e57-ae4a-f8e546da2be7
-  server: 216.57.108.20
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 'B - 🇭🇰 HK 19 TG: @nodpai'
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
+  sni: 🔒
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 192.131.142.161
-  port: 46639
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
+  server: 38.207.160.213
+  port: 16396
+- name: 'B - 🇭🇰 HK 19 TG: @nodpai'
   type: vless
   uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
   server: s5.db-link.in
   port: 17820
   tls: false
   sni: 48afa0c5c9.shopify.com
-- name: 'C - 🇭🇰 HK 21 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 176.98.181.71
-  port: 443
+  server: 38.207.173.72
+  port: 26546
 - name: 'C - 🇭🇰 HK 22 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 2.56.91.49
-  port: 8443
+  server: 212.192.15.182
+  port: 443
 - name: 'C - 🇭🇰 HK 23 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 219.76.13.180
+  port: 443
+- name: 'C - 🇭🇰 HK 24 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%253C%255B9%2527l6hAO%25238ZQi
+  server: 219.76.13.169
+  port: 443
+- name: 'C - 🇭🇰 HK 25 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 219.76.13.167
   port: 443
-- name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 28 TG: @nodpai'
   type: vless
   uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
   server: 219.76.13.183
   port: 443
   tls: false
   sni: sn1.skylee5.cloudns.ch
-- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  type: trojan
+  sni: 🔒
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 114.33.57.170
+  port: 443
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 114.32.9.249
   port: 16443
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 1.161.50.87
-  port: 443
-  tls: true
-  sni: gogo5.kmj.qzz.io
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 114.33.57.170
-  port: 443
-  tls: true
-  sni: 1-aym.pages.dev
-- name: 'C - 🇹🇼 TW 08 TG: @nodpai'
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 188.253.6.139
-  port: 443
-  tls: false
-  sni: psp09.data.chinav.eu.org
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 54.65.254.1
+  server: 85.211.251.219
   port: 443
   tls: true
-  sni: gogo12.kmj.qzz.io
+  sni: gogo9.kmj.qzz.io
 - name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  type: vless
-  uuid: 60f999c6-e65b-4ea7-a061-b925ec9a8c53
-  server: jpsb.zhenzhang.org
-  port: 10000
-  tls: true
-  sni: buylite.music.apple.com
-- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 52.196.133.194
-  port: 443
-  tls: true
-  sni: gogo.wknm.qzz.io
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  type: trojan
-  sni: 🔒
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 141.147.144.109
-  port: 443
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 149.28.21.222
-  port: 443
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  type: trojan
-  sni: 🔒
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 154.197.108.253
-  port: 443
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 185.130.46.81
   port: 443
-- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.66.129.38
-  port: 10949
-- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  server: 219.103.68.164
+  port: 20770
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  type: trojan
+  sni: 🔒
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 154.197.108.253
+  port: 443
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 103.75.118.144
-  port: 2053
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  server: 154.197.88.253
+  port: 443
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
-  password: 8r%253C%255B9%2527l6hAO%25238ZQi
-  server: 140.83.50.165
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 176.97.70.51
+  port: 8443
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  type: trojan
+  sni: 🔒
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 138.2.59.112
   port: 443
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
-  type: vless
-  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
-  server: tokyo1.ap221.com
-  port: 443
-  tls: true
-  sni: tokyo.ap221.com
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  type: vless
-  uuid: faebdef9-5c25-4e53-825c-2f57afdf87db
-  server: tokyo1.ap221.com
-  port: 443
-  tls: true
-  sni: tokyo.ap221.com
-- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   type: vless
   uuid: 0dcd0d55-8a1c-4a8b-91c5-6967720a8444
   server: 52.192.230.81
   port: 443
   tls: true
   sni: tokyo.ap221.com
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 138.2.23.80
+  port: 21044
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  type: vless
+  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
+  server: tokyo1.ap221.com
+  port: 443
+  tls: true
+  sni: tokyo.ap221.com
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 43.165.190.11
+  port: 42841
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  type: vless
+  uuid: 0da53d40-3e61-4459-8014-bd0f22bef196
+  server: tokyo1.ap221.com
+  port: 443
+  tls: true
+  sni: tokyo.ap221.com
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  type: vless
+  uuid: faebdef9-5c25-4e53-825c-2f57afdf87db
+  server: tokyo1.ap221.com
+  port: 443
+  tls: true
+  sni: tokyo.ap221.com
+- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 45.159.48.37
+  port: 41607
+- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 31.57.172.187
+  port: 443
 - name: 'B - 🇯🇵 JP 20 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 103.125.216.22
-  port: 8443
-- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 142.91.108.54
+  server: 160.251.209.140
   port: 443
+- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
+  type: vless
+  uuid: 2bd9c075-e47a-46d8-a777-93baa759d8aa
+  server: tokyo1.ap221.com
+  port: 443
+  tls: true
+  sni: tokyo.ap221.com
 - name: 'B - 🇯🇵 JP 23 TG: @nodpai'
   type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 161.248.254.27
+  sni: cchh2.pages.dev
+  password: '162534'
+  server: 31.57.172.187
   port: 443
 - name: 'B - 🇯🇵 JP 24 TG: @nodpai'
   type: vless
-  uuid: 33db4dff-b9aa-4910-ad71-fe36ce0790fc
+  uuid: 0dcd0d55-8a1c-4a8b-91c5-6967720a8444
   server: tokyo1.ap221.com
   port: 443
   tls: true
   sni: tokyo.ap221.com
 - name: 'C - 🇯🇵 JP 26 TG: @nodpai'
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 116.80.80.121
-  port: 443
-- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 34.143.213.202
+  server: 151.242.165.76
   port: 443
   tls: true
-  sni: gogo.wknm.dpdns.org
-- name: 'B - 🇸🇬 SG 02 TG: @nodpai'
+  sni: gogo15.kmj.qzz.io
+- name: 'B - 🇸🇬 SG 01 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 92.243.75.253
-  port: 443
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  server: 207.148.125.245
+  port: 8443
+- name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   type: vless
-  uuid: 45aa07ae-46b1-4441-8961-7b50a35e4dcc
-  server: 66.42.59.137
-  port: 443
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  server: 162.159.32.222
+  port: 2087
   tls: true
-  sni: cdnjs.cloudflare.com
+  sni: cocobaby.pages.dev
+- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 89.34.227.238
+  port: 57606
 - name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 87.83.105.192
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  server: 172.64.147.237
   port: 443
   tls: true
-  sni: gogo.vks.dpdns.org
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  sni: cocobaby.pages.dev
+- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 149.28.159.222
-  port: 443
-- name: 'B - 🇸🇬 SG 07 TG: @nodpai'
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 172.188.241.82
-  port: 443
-  tls: true
-  sni: gogo.onetap.qzz.io
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%253C%255B9%2527l6hAO%25238ZQi
-  server: 103.43.191.121
+  server: 188.239.21.47
   port: 8443
-- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
-  type: vless
-  uuid: 0714baf0-29f6-40d2-b9ca-f9fad0a33a2a
-  server: osg01.7770123.xyz
-  port: 443
-  tls: true
-  sni: python.org
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 47.82.155.79
-  port: 443
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 141.11.43.124
-  port: 443
-- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  server: 162.159.13.20
-  port: 443
-  tls: false
-  sni: juzi.qea.ccwu.cc
-- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  server: 23.91.96.14
-  port: 443
-  tls: true
-  sni: gogo12.kmj.qzz.io
-- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.160.207.175
-  port: 443
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 5.34.176.71
-  port: 443
-- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 140.245.62.90
-  port: 2096
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 159.89.207.154
-  port: 443
-- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 159.223.85.214
-  port: 443
-- name: 'B - 🇸🇬 SG 19 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.134.174.114
-  port: 443
-- name: 'B - 🇸🇬 SG 20 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 188.166.230.196
-  port: 443
-- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 159.65.143.223
-  port: 443
-- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 152.42.169.132
-  port: 443
-- name: 'B - 🇸🇬 SG 23 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 139.162.61.34
-  port: 443
-- name: 'B - 🇸🇬 SG 24 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 5.34.176.240
-  port: 443
-- name: 'B - 🇸🇬 SG 25 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 174.138.20.108
-  port: 443
-- name: 'B - 🇸🇬 SG 26 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   server: 103.117.101.158
   port: 1806
   tls: false
   sni: ''
-- name: 'B - 🇺🇸 US 01 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  type: trojan
+  sni: cchh2.pages.dev
+  password: '162534'
+  server: 5.223.56.239
+  port: 8443
+- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   type: vless
-  uuid: c4d69096-4026-4da5-9485-20a3da91cb14
-  server: 198.255.96.14
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 47.82.155.79
   port: 443
-  tls: true
-  sni: login.vk.com
-- name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  tls: false
+  sni: sni.111000.v6.rocks
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.40.155.253
+  server: 167.172.68.31
   port: 443
+- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 129.212.233.197
+  port: 2053
+- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  type: vless
+  uuid: 302b7370-f6c0-408a-a59c-b56f6cb4a5a0
+  server: 140.245.46.100
+  port: 25001
+  tls: true
+  sni: www.mcdaniel.edu
+- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 43.248.9.130
+  port: 37166
+  tls: true
+  sni: igvdi.edge-node-sg.fgfw.indevs.in
+- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 194.87.10.241
+  port: 443
+- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 129.212.232.171
+  port: 443
+- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  type: trojan
+  sni: 🔒
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 178.128.90.108
+  port: 443
+- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 139.162.61.34
+  port: 443
+- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 165.22.104.36
+  port: 443
+- name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 194.127.192.165
+  port: 443
+- name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 159.89.205.195
+  port: 443
+- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
+  type: trojan
+  sni: 🔒
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 194.233.67.84
+  port: 443
+- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 164.52.2.98
+  port: 443
+- name: 'C - 🇸🇬 SG 24 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 38.180.160.199
+  port: 8443
+  tls: true
+  sni: igvdi.edge-node-sg.fgfw.indevs.in
+- name: 'C - 🇸🇬 SG 25 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 14.56.183.228
+  port: 22105
+  tls: true
+  sni: igvdi.edge-node-sg.fgfw.indevs.in
+- name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 14.58.60.153
+  port: 30001
+  tls: true
+  sni: igvdi.edge-node-sg.fgfw.indevs.in
+- name: 'C - 🇸🇬 SG 27 TG: @nodpai'
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  server: 68.64.176.135
+  port: 443
+  tls: true
+  sni: gogo9.kmj.qzz.io
+- name: 'C - 🇸🇬 SG 28 TG: @nodpai'
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  server: 20.6.12.145
+  port: 443
+  tls: false
+  sni: sni.skylee4.cloudns.ch
+- name: 'C - 🇸🇬 SG 30 TG: @nodpai'
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  server: 219.76.13.177
+  port: 443
+  tls: false
+  sni: sn1.skylee5.cloudns.ch
 - name: 'B - 🇺🇸 US 03 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 104.20.6.134
-  port: 2096
+  server: 192.18.136.255
+  port: 443
 - name: 'B - 🇺🇸 US 04 TG: @nodpai'
   type: trojan
-  sni: ikuai.bot.nu
-  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
-  server: ikuai.bot.nu
-  port: 11777
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 31.58.50.110
+  port: 8443
 - name: 'B - 🇺🇸 US 05 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 130.250.137.253
-  port: 443
+  server: 157.245.178.181
+  port: 8443
 - name: 'B - 🇺🇸 US 06 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 14.102.228.253
-  port: 443
+  server: 66.103.216.170
+  port: 8443
 - name: 'B - 🇺🇸 US 07 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 85.209.195.61
+  server: 152.70.143.65
   port: 2053
 - name: 'B - 🇺🇸 US 08 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 192.241.219.38
+  server: 205.233.181.253
   port: 443
 - name: 'B - 🇺🇸 US 09 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 192.200.160.253
-  port: 443
+  server: 157.230.140.153
+  port: 2087
 - name: 'B - 🇺🇸 US 10 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 104.129.166.253
+  server: 141.101.114.253
   port: 443
 - name: 'B - 🇺🇸 US 11 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 50.62.172.253
+  server: 128.14.66.165
   port: 443
 - name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 144.172.101.253
-  port: 443
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 150.241.122.110
-  port: 8443
-- name: 'B - 🇺🇸 US 14 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 185.9.27.23
-  port: 443
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%253C%255B9%2527l6hAO%25238ZQi
-  server: 64.181.218.67
-  port: 443
-- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   type: vless
   uuid: bafacd98-136a-4530-838d-4e5c51838dac
   server: 172.64.145.158
   port: 443
-  tls: true
+  tls: false
   sni: juzi8186.qea.ccwu.cc
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 108.162.196.253
+  port: 443
+- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 137.184.228.85
+  port: 443
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 198.204.227.171
+  port: 2053
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 159.255.32.249
+  port: 443
 - name: 'B - 🇺🇸 US 17 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.40.148.253
-  port: 443
+  server: 199.119.137.77
+  port: 2053
 - name: 'B - 🇺🇸 US 18 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 77.110.119.35
-  port: 2053
+  server: 107.172.190.151
+  port: 443
 - name: 'B - 🇺🇸 US 19 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 166.62.110.253
+  server: 192.241.207.118
   port: 443
 - name: 'B - 🇺🇸 US 20 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 77.110.122.12
-  port: 443
+  server: 72.56.107.167
+  port: 8443
 - name: 'B - 🇺🇸 US 21 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 192.227.237.81
+  server: 216.128.134.116
   port: 443
 - name: 'B - 🇺🇸 US 22 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 185.204.54.203
+  server: 144.31.51.34
   port: 443
 - name: 'B - 🇺🇸 US 23 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 107.174.198.228
-  port: 8443
+  server: 162.243.71.74
+  port: 443
 - name: 'B - 🇺🇸 US 24 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 144.31.66.40
+  server: 70.39.192.38
   port: 443
 - name: 'B - 🇺🇸 US 25 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 69.84.182.253
+  server: 104.131.172.195
   port: 443
 - name: 'B - 🇺🇸 US 26 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 165.22.130.178
-  port: 2087
+  server: 107.173.123.133
+  port: 443
 - name: 'B - 🇺🇸 US 27 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 173.70.8.178
-  port: 8443
+  server: 72.56.70.26
+  port: 443
 - name: 'B - 🇺🇸 US 28 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 144.31.67.146
-  port: 443
+  server: 104.207.145.249
+  port: 8443
 - name: 'B - 🇺🇸 US 29 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 167.99.49.60
+  server: 72.56.99.85
   port: 443
 - name: 'B - 🇺🇸 US 30 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 149.28.56.202
-  port: 443
+  server: 37.46.19.79
+  port: 8443
 - name: 'B - 🇺🇸 US 31 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.56.94.149
+  server: 52.22.9.40
   port: 443
 - name: 'B - 🇺🇸 US 32 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 74.48.144.23
-  port: 443
+  server: 51.81.209.21
+  port: 2053
 - name: 'B - 🇺🇸 US 33 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 51.81.209.21
-  port: 2053
+  server: 150.241.105.131
+  port: 443
 - name: 'B - 🇺🇸 US 34 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 72.56.108.136
+  server: 150.241.123.99
   port: 443
 - name: 'B - 🇺🇸 US 35 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 107.172.88.191
-  port: 2096
+  server: 198.55.103.37
+  port: 443
 - name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  type: vless
-  uuid: bb04531b-5826-496e-9160-feb3139a99cf
-  server: 90.156.218.189
-  port: 8443
-  tls: true
-  sni: max.ru
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 2.27.45.33
+  port: 443
 - name: 'B - 🇺🇸 US 37 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 2.27.35.199
+  server: 2.26.110.36
   port: 8443
-- name: 'B - 🇺🇸 US 39 TG: @nodpai'
+- name: 'B - 🇺🇸 US 38 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 193.26.158.223
+  server: 107.174.245.19
   port: 443
-- name: 'B - 🇺🇸 US 41 TG: @nodpai'
+- name: 'C - 🇺🇸 US 39 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 34.132.50.119
+  server: 144.202.11.133
   port: 443
-- name: 'C - 🇺🇸 US 42 TG: @nodpai'
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  server: cf1.danfeng.eu.org
-  port: 443
-  tls: true
-  sni: juzi8186.qea.ccwu.cc
-- name: 'C - 🇺🇸 US 43 TG: @nodpai'
+- name: 'C - 🇺🇸 US 40 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 34.136.119.149
+  server: 20.120.129.200
   port: 443
-- name: 🇰🇷KR_1|1.1MB/s
+- name: 🇺🇸US_1|1.3MB/s
   type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 59.11.151.238
-  port: 12000
-- name: 🇭🇰HK_2|1016KB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 68.64.182.39
-  port: 443
-- name: DE_speednode_0006
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  server: 88.210.36.107
+  port: 2377
+- name: 🇸🇬SG_1|4.7MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: dada1203
+  server: 47.128.72.35
+  port: 80
+- name: 🇳🇱NL_2|2.2MB/s
+  type: vless
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  server: 62.50.146.35
+  port: 9443
+  tls: true
+  sni: raw.githubusercontent.com
+- name: 🇸🇪SE_1|1.6MB/s
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 217.144.190.230
-  port: 443
-  tls: false
+  server: 62.60.149.222
+  port: 8443
+  tls: true
   sni: sni.latonyamadeline.ndjp.net
-- name: 🇬🇧GB_1|1.5MB/s
+- name: 🇹🇷TR_1|1.1MB/s
   type: vless
-  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
-  server: london1.ap221.com
+  uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
+  server: mouse2.1lil1.de
   port: 443
   tls: true
-  sni: london.ap221.com
-- name: 🇳🇱NL_1|1.1MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.89
-  port: 443
-- name: ❓Other_1|1.1MB/s
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  server: u.pineappled.org
-  port: 443
-  tls: true
-  sni: www.apple.com
-- name: 🇳🇱NL_2|1.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.89
-  port: 8080
-- name: 🇨🇭CH_1|2.8MB/s
-  type: vless
-  uuid: monacoVPN
-  server: 172.65.111.43
-  port: 22
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_3|3.5MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  server: 82.38.31.208
-  port: 8080
-- name: 🇳🇱NL_4|2.1MB/s
+  sni: www.stackoverflow.com
+- name: 🇳🇱NL_3|1.6MB/s
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 138.124.32.78
-  port: 443
-  tls: true
-  sni: sni.latonyamadeline.ndjp.net
-- name: 🇳🇱NL_5|3.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.35
-  port: 8080
-- name: 🇳🇱NL_6|1.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.99
-  port: 8080
-- name: 🇳🇱NL_7|1021KB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 91.221.190.80
-  port: 443
-- name: JP_speednode_0029
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 8.211.174.145
-  port: 31772
+  server: 45.89.244.77
+  port: 8443
   tls: false
-  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
-- name: 🇰🇷KR_2|1.2MB/s
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 175.196.178.94
-  port: 11310
-- name: 🇭🇰HK_3|2.7MB/s
+  sni: sni.111000.v6.army
+- name: 🇩🇪DE_1|1.3MB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.168.16.112
+  server: 89.167.100.106
   port: 443
-- name: 🇭🇰HK_4|1.1MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 43.161.221.27
-  port: 443
-- name: 🇭🇰HK_5|2.4MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 149.104.26.24
-  port: 21123
-- name: 🇭🇰HK_6|3.1MB/s
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 68.64.182.39
-  port: 443
-- name: 🇭🇰HK_7|1.4MB/s
+- name: 🇭🇰HK_4|4.3MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 43.161.237.11
-  port: 30005
+  server: 103.117.101.158
+  port: 1806
   tls: true
   sni: psp09.data.chinav.eu.org
-- name: 🇯🇵JP_2|3.1MB/s
+- name: 🇭🇰HK_5|1.6MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 103.27.77.131
-  port: 30005
+  server: 114.204.41.241
+  port: 30001
   tls: true
   sni: psp09.data.chinav.eu.org
-- name: 🇰🇷KR_4|1.0MB/s
+- name: 🇯🇵JP_2|1.5MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 211.199.7.162
-  port: 18086
-  tls: true
-  sni: psp09.data.chinav.eu.org
-- name: 🇺🇸US_2|1.5MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 160.153.1.253
-  port: 443
-- name: 🇺🇸US_3|1.3MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.40.145.253
-  port: 443
-- name: 🇺🇸US_4|1.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 154.17.8.126
-  port: 2053
-- name: 🇺🇸US_5|1.1MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 138.124.123.201
-  port: 443
-- name: 🇨🇦CA_1|1.1MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 23.173.104.232
-  port: 2053
-- name: 🇳🇱NL_8|1.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 103.54.18.22
-  port: 2053
-- name: 🇩🇪DE_2|1.2MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 138.124.50.47
-  port: 8443
-- name: 🇨🇦CA_2|1.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 192.3.155.217
-  port: 443
-- name: 🇩🇪DE_3|1.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 64.226.88.144
-  port: 2053
-- name: 🇸🇪SE_1|1.2MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 64.112.124.233
-  port: 8443
-- name: 🇸🇪SE_2|1.1MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.38.143.62
-  port: 8443
-- name: 🇮🇪IE_1|1.3MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 198.55.103.37
-  port: 443
-- name: 🇵🇱PL_1|1018KB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 31.133.0.103
-  port: 2053
-- name: 🇵🇱PL_2|1.6MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 216.144.231.47
-  port: 443
-- name: 🇫🇮FI_1|2.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 195.26.230.99
-  port: 2053
-- name: 🇩🇪DE_4|1.3MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 135.181.78.188
-  port: 443
-- name: 🇺🇸US_6|2.3MB/s
-  type: vless
-  uuid: 45aa07ae-46b1-4441-8961-7b50a35e4dcc
-  server: 45.63.50.34
-  port: 443
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇺🇸US_7|3.8MB/s
-  type: vless
-  uuid: 45aa07ae-46b1-4441-8961-7b50a35e4dcc
-  server: 45.78.79.20
-  port: 443
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇺🇸US_8|2.9MB/s
-  type: vless
-  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
-  server: 38.207.190.137
-  port: 50513
-  tls: true
-  sni: ts3.tc.mm.bing.net
-- name: 🇺🇸US_9|1.4MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 154.211.8.210
-  port: 443
-  tls: true
-  sni: psp09.data.chinav.eu.org
-- name: 🇺🇸US_10|3.1MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 64.186.234.243
-  port: 443
-  tls: true
-  sni: psp09.data.chinav.eu.org
-- name: 🇸🇬SG_2|3.4MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: cf4.danfeng.eu.org
-  port: 8443
+  server: 218.55.175.15
+  port: 10250
   tls: true
   sni: yn80.api-backend.fgfw.qzz.io
-- name: 🇺🇸US_11|2.3MB/s
+- name: 🇸🇬SG_4|1.1MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 166.117.140.55
+  server: 151.243.143.43
+  port: 1443
+  tls: true
+  sni: psp09.data.chinav.eu.org
+- name: 🇯🇵JP_3|2.4MB/s
+  type: ss
+  cipher: none
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  server: 43.165.190.11
+  port: 42841
+- name: 🇰🇷KR_1|1.2MB/s
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 61.40.111.252
+  port: 12203
+  tls: true
+  sni: psp09.data.chinav.eu.org
+- name: 🇰🇷KR_2|1.1MB/s
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  server: 211.33.71.215
+  port: 11211
+  tls: true
+  sni: psp09.data.chinav.eu.org
+- name: 🇺🇸US_2|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 146.235.226.118
+  port: 2096
+- name: 🇺🇸US_3|1.7MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 45.79.96.108
   port: 443
-  tls: true
-  sni: psp09.data.chinav.eu.org
-- name: 🇺🇸US_12|1.6MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 129.158.241.2
+- name: 🇺🇸US_4|1.3MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 24.199.122.93
+  port: 443
+- name: 🇺🇸US_5|1022KB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 66.212.16.200
+  port: 443
+- name: 🇺🇸US_6|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 23.95.34.158
   port: 8443
-  tls: true
-  sni: psp09.data.chinav.eu.org
+- name: 🇺🇸US_7|1.2MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 148.135.70.157
+  port: 8443
+- name: 🇺🇸US_8|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 31.172.79.138
+  port: 2083
+- name: 🇨🇦CA_1|1.0MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 23.173.104.231
+  port: 2053
+- name: 🇺🇸US_9|1.3MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 150.136.61.82
+  port: 8443
+- name: 🇺🇸US_10|2.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 142.252.220.13
+  port: 443
+- name: 🇺🇸US_11|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 69.169.111.44
+  port: 443
+- name: 🇨🇦CA_2|1.5MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 23.173.104.235
+  port: 2053
+- name: 🇩🇪DE_3|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 46.225.162.164
+  port: 8443
+- name: 🇺🇸US_12|1.0MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 138.124.60.93
+  port: 8443
+- name: 🇳🇱NL_4|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 178.62.255.169
+  port: 2053
+- name: 🇳🇱NL_5|1.3MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 158.178.148.48
+  port: 2087
+- name: 🇩🇪DE_4|1.5MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 185.233.80.60
+  port: 2053
+- name: 🇩🇪DE_5|1.2MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 18.194.183.74
+  port: 2053
+- name: 🇩🇪DE_6|1.5MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 194.76.173.184
+  port: 2053
+- name: 🇳🇱NL_6|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 31.56.222.222
+  port: 2053
+- name: 🇩🇪DE_7|1.8MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 93.115.19.15
+  port: 2053
+- name: 🇩🇪DE_8|1.9MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 131.143.125.214
+  port: 8443
+- name: 🇩🇪DE_9|1.7MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 158.180.49.11
+  port: 8443
+- name: 🇩🇪DE_10|1.1MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 157.230.116.226
+  port: 8443
+- name: 🇩🇪DE_11|1.0MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 157.230.28.94
+  port: 8443
+- name: 🇫🇷FR_1|1.9MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 78.118.130.148
+  port: 8443
 - name: BE_speednode_0002
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -992,6 +953,13 @@ proxies:
   server: 138.124.32.78
   port: 443
   tls: true
+  sni: sni.latonyamadeline.ndjp.net
+- name: DE_speednode_0006
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 217.144.190.230
+  port: 443
+  tls: false
   sni: sni.latonyamadeline.ndjp.net
 - name: DE_speednode_0007
   type: vless
@@ -1047,6 +1015,13 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   server: 62.60.152.64
   port: 448
+  tls: false
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+- name: JP_speednode_0029
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 8.211.174.145
+  port: 31772
   tls: false
   sni: sas0dpjv2rmyx842.makuyo.dpdns.org
 - name: JP_speednode_0030
@@ -1110,6 +1085,20 @@ proxies:
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 46.8.229.218
   port: 2053
+  tls: false
+  sni: sni.111000.v6.army
+- name: NL_speednode_0042
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.147.33.251
+  port: 443
+  tls: false
+  sni: sni.111000.v6.army
+- name: NL_speednode_0043
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 194.147.33.251
+  port: 443
   tls: false
   sni: sni.111000.v6.army
 - name: RU_speednode_0045
@@ -1284,52 +1273,54 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 'B - 🇭🇰 HK 01 TG: @nodpai'
-  - 'B - 🇭🇰 HK 02 TG: @nodpai'
+  - 'A - 🇭🇰 HK 02 TG: @nodpai'
+  - 'A - 🇭🇰 HK 03 TG: @nodpai'
   - 'B - 🇭🇰 HK 04 TG: @nodpai'
-  - 'B - 🇭🇰 HK 06 TG: @nodpai'
+  - 'B - 🇭🇰 HK 05 TG: @nodpai'
   - 'B - 🇭🇰 HK 07 TG: @nodpai'
   - 'B - 🇭🇰 HK 08 TG: @nodpai'
   - 'B - 🇭🇰 HK 09 TG: @nodpai'
   - 'B - 🇭🇰 HK 10 TG: @nodpai'
+  - 'B - 🇭🇰 HK 11 TG: @nodpai'
   - 'B - 🇭🇰 HK 12 TG: @nodpai'
   - 'B - 🇭🇰 HK 13 TG: @nodpai'
-  - 'B - 🇭🇰 HK 15 TG: @nodpai'
+  - 'B - 🇭🇰 HK 14 TG: @nodpai'
   - 'B - 🇭🇰 HK 17 TG: @nodpai'
   - 'B - 🇭🇰 HK 18 TG: @nodpai'
   - 'B - 🇭🇰 HK 19 TG: @nodpai'
-  - 'B - 🇭🇰 HK 20 TG: @nodpai'
-  - 'C - 🇭🇰 HK 21 TG: @nodpai'
+  - 'B - 🇭🇰 HK 21 TG: @nodpai'
   - 'C - 🇭🇰 HK 22 TG: @nodpai'
   - 'C - 🇭🇰 HK 23 TG: @nodpai'
-  - 'C - 🇭🇰 HK 26 TG: @nodpai'
-  - 'B - 🇹🇼 TW 01 TG: @nodpai'
-  - 'B - 🇹🇼 TW 02 TG: @nodpai'
-  - 'B - 🇹🇼 TW 06 TG: @nodpai'
-  - 'C - 🇹🇼 TW 08 TG: @nodpai'
+  - 'C - 🇭🇰 HK 24 TG: @nodpai'
+  - 'C - 🇭🇰 HK 25 TG: @nodpai'
+  - 'C - 🇭🇰 HK 28 TG: @nodpai'
+  - 'A - 🇹🇼 TW 01 TG: @nodpai'
+  - 'B - 🇹🇼 TW 03 TG: @nodpai'
   - 'A - 🇯🇵 JP 01 TG: @nodpai'
   - 'B - 🇯🇵 JP 03 TG: @nodpai'
   - 'B - 🇯🇵 JP 04 TG: @nodpai'
-  - 'B - 🇯🇵 JP 06 TG: @nodpai'
+  - 'B - 🇯🇵 JP 05 TG: @nodpai'
+  - 'B - 🇯🇵 JP 08 TG: @nodpai'
+  - 'B - 🇯🇵 JP 09 TG: @nodpai'
   - 'B - 🇯🇵 JP 10 TG: @nodpai'
   - 'B - 🇯🇵 JP 11 TG: @nodpai'
   - 'B - 🇯🇵 JP 12 TG: @nodpai'
   - 'B - 🇯🇵 JP 13 TG: @nodpai'
   - 'B - 🇯🇵 JP 14 TG: @nodpai'
   - 'B - 🇯🇵 JP 15 TG: @nodpai'
+  - 'B - 🇯🇵 JP 16 TG: @nodpai'
   - 'B - 🇯🇵 JP 17 TG: @nodpai'
   - 'B - 🇯🇵 JP 18 TG: @nodpai'
-  - 'B - 🇯🇵 JP 19 TG: @nodpai'
   - 'B - 🇯🇵 JP 20 TG: @nodpai'
   - 'B - 🇯🇵 JP 21 TG: @nodpai'
   - 'B - 🇯🇵 JP 23 TG: @nodpai'
   - 'B - 🇯🇵 JP 24 TG: @nodpai'
   - 'C - 🇯🇵 JP 26 TG: @nodpai'
-  - 'A - 🇸🇬 SG 01 TG: @nodpai'
+  - 'B - 🇸🇬 SG 01 TG: @nodpai'
   - 'B - 🇸🇬 SG 02 TG: @nodpai'
   - 'B - 🇸🇬 SG 03 TG: @nodpai'
   - 'B - 🇸🇬 SG 04 TG: @nodpai'
-  - 'B - 🇸🇬 SG 05 TG: @nodpai'
+  - 'B - 🇸🇬 SG 06 TG: @nodpai'
   - 'B - 🇸🇬 SG 07 TG: @nodpai'
   - 'B - 🇸🇬 SG 08 TG: @nodpai'
   - 'B - 🇸🇬 SG 09 TG: @nodpai'
@@ -1346,12 +1337,12 @@ proxy-groups:
   - 'B - 🇸🇬 SG 20 TG: @nodpai'
   - 'B - 🇸🇬 SG 21 TG: @nodpai'
   - 'B - 🇸🇬 SG 22 TG: @nodpai'
-  - 'B - 🇸🇬 SG 23 TG: @nodpai'
-  - 'B - 🇸🇬 SG 24 TG: @nodpai'
-  - 'B - 🇸🇬 SG 25 TG: @nodpai'
-  - 'B - 🇸🇬 SG 26 TG: @nodpai'
-  - 'B - 🇺🇸 US 01 TG: @nodpai'
-  - 'B - 🇺🇸 US 02 TG: @nodpai'
+  - 'C - 🇸🇬 SG 24 TG: @nodpai'
+  - 'C - 🇸🇬 SG 25 TG: @nodpai'
+  - 'C - 🇸🇬 SG 26 TG: @nodpai'
+  - 'C - 🇸🇬 SG 27 TG: @nodpai'
+  - 'C - 🇸🇬 SG 28 TG: @nodpai'
+  - 'C - 🇸🇬 SG 30 TG: @nodpai'
   - 'B - 🇺🇸 US 03 TG: @nodpai'
   - 'B - 🇺🇸 US 04 TG: @nodpai'
   - 'B - 🇺🇸 US 05 TG: @nodpai'
@@ -1387,60 +1378,54 @@ proxy-groups:
   - 'B - 🇺🇸 US 35 TG: @nodpai'
   - 'B - 🇺🇸 US 36 TG: @nodpai'
   - 'B - 🇺🇸 US 37 TG: @nodpai'
-  - 'B - 🇺🇸 US 39 TG: @nodpai'
-  - 'B - 🇺🇸 US 41 TG: @nodpai'
-  - 'C - 🇺🇸 US 42 TG: @nodpai'
-  - 'C - 🇺🇸 US 43 TG: @nodpai'
-  - 🇰🇷KR_1|1.1MB/s
-  - 🇭🇰HK_2|1016KB/s
-  - DE_speednode_0006
-  - 🇬🇧GB_1|1.5MB/s
-  - 🇳🇱NL_1|1.1MB/s
-  - ❓Other_1|1.1MB/s
-  - 🇳🇱NL_2|1.2MB/s
-  - 🇨🇭CH_1|2.8MB/s
-  - 🇳🇱NL_3|3.5MB/s
-  - 🇳🇱NL_4|2.1MB/s
-  - 🇳🇱NL_5|3.2MB/s
-  - 🇳🇱NL_6|1.2MB/s
-  - 🇳🇱NL_7|1021KB/s
-  - JP_speednode_0029
-  - 🇰🇷KR_2|1.2MB/s
-  - 🇭🇰HK_3|2.7MB/s
-  - 🇭🇰HK_4|1.1MB/s
-  - 🇭🇰HK_5|2.4MB/s
-  - 🇭🇰HK_6|3.1MB/s
-  - 🇭🇰HK_7|1.4MB/s
-  - 🇯🇵JP_2|3.1MB/s
-  - 🇰🇷KR_4|1.0MB/s
-  - 🇺🇸US_2|1.5MB/s
-  - 🇺🇸US_3|1.3MB/s
-  - 🇺🇸US_4|1.0MB/s
-  - 🇺🇸US_5|1.1MB/s
-  - 🇨🇦CA_1|1.1MB/s
-  - 🇳🇱NL_8|1.0MB/s
-  - 🇩🇪DE_2|1.2MB/s
-  - 🇨🇦CA_2|1.0MB/s
-  - 🇩🇪DE_3|1.0MB/s
-  - 🇸🇪SE_1|1.2MB/s
-  - 🇸🇪SE_2|1.1MB/s
-  - 🇮🇪IE_1|1.3MB/s
-  - 🇵🇱PL_1|1018KB/s
-  - 🇵🇱PL_2|1.6MB/s
-  - 🇫🇮FI_1|2.0MB/s
-  - 🇩🇪DE_4|1.3MB/s
-  - 🇺🇸US_6|2.3MB/s
-  - 🇺🇸US_7|3.8MB/s
-  - 🇺🇸US_8|2.9MB/s
-  - 🇺🇸US_9|1.4MB/s
-  - 🇺🇸US_10|3.1MB/s
-  - 🇸🇬SG_2|3.4MB/s
-  - 🇺🇸US_11|2.3MB/s
-  - 🇺🇸US_12|1.6MB/s
+  - 'B - 🇺🇸 US 38 TG: @nodpai'
+  - 'C - 🇺🇸 US 39 TG: @nodpai'
+  - 'C - 🇺🇸 US 40 TG: @nodpai'
+  - 🇺🇸US_1|1.3MB/s
+  - 🇸🇬SG_1|4.7MB/s
+  - 🇳🇱NL_2|2.2MB/s
+  - 🇸🇪SE_1|1.6MB/s
+  - 🇹🇷TR_1|1.1MB/s
+  - 🇳🇱NL_3|1.6MB/s
+  - 🇩🇪DE_1|1.3MB/s
+  - 🇭🇰HK_4|4.3MB/s
+  - 🇭🇰HK_5|1.6MB/s
+  - 🇯🇵JP_2|1.5MB/s
+  - 🇸🇬SG_4|1.1MB/s
+  - 🇯🇵JP_3|2.4MB/s
+  - 🇰🇷KR_1|1.2MB/s
+  - 🇰🇷KR_2|1.1MB/s
+  - 🇺🇸US_2|1.1MB/s
+  - 🇺🇸US_3|1.7MB/s
+  - 🇺🇸US_4|1.3MB/s
+  - 🇺🇸US_5|1022KB/s
+  - 🇺🇸US_6|1.1MB/s
+  - 🇺🇸US_7|1.2MB/s
+  - 🇺🇸US_8|1.1MB/s
+  - 🇨🇦CA_1|1.0MB/s
+  - 🇺🇸US_9|1.3MB/s
+  - 🇺🇸US_10|2.1MB/s
+  - 🇺🇸US_11|1.1MB/s
+  - 🇨🇦CA_2|1.5MB/s
+  - 🇩🇪DE_3|1.1MB/s
+  - 🇺🇸US_12|1.0MB/s
+  - 🇳🇱NL_4|1.1MB/s
+  - 🇳🇱NL_5|1.3MB/s
+  - 🇩🇪DE_4|1.5MB/s
+  - 🇩🇪DE_5|1.2MB/s
+  - 🇩🇪DE_6|1.5MB/s
+  - 🇳🇱NL_6|1.1MB/s
+  - 🇩🇪DE_7|1.8MB/s
+  - 🇩🇪DE_8|1.9MB/s
+  - 🇩🇪DE_9|1.7MB/s
+  - 🇩🇪DE_10|1.1MB/s
+  - 🇩🇪DE_11|1.0MB/s
+  - 🇫🇷FR_1|1.9MB/s
   - BE_speednode_0002
   - BE_speednode_0003
   - CH_speednode_0004
   - CH_speednode_0005
+  - DE_speednode_0006
   - DE_speednode_0007
   - DE_speednode_0008
   - DE_speednode_0009
@@ -1449,6 +1434,7 @@ proxy-groups:
   - IR_speednode_0025
   - IR_speednode_0026
   - IR_speednode_0027
+  - JP_speednode_0029
   - JP_speednode_0030
   - KR_speednode_0031
   - KR_speednode_0033
@@ -1458,6 +1444,8 @@ proxy-groups:
   - NL_speednode_0039
   - NL_speednode_0040
   - NL_speednode_0041
+  - NL_speednode_0042
+  - NL_speednode_0043
   - RU_speednode_0045
   - RU_speednode_0046
   - RU_speednode_0047
