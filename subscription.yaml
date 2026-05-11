@@ -6,6 +6,12 @@ proxies:
   port: 8880
   tls: false
   sni: ''
+- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  type: trojan
+  sni: windows11.dpdns.org
+  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
+  server: ikuai.404.mn
+  port: 10777
 - name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -64,12 +70,6 @@ proxies:
   port: 443
   tls: true
   sni: hk.ap221.com
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 143.20.204.5
-  port: 443
 - name: 'B - 🇭🇰 HK 17 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -222,6 +222,12 @@ proxies:
   port: 443
   tls: true
   sni: tokyo.ap221.com
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 172.238.6.57
+  port: 443
 - name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
@@ -655,12 +661,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 150.241.108.17
   port: 443
-- name: 🇰🇷KR_1|1.2MB/s
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 175.196.178.94
-  port: 11310
 - name: NL_speednode_0040
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -927,6 +927,13 @@ proxies:
   port: 443
   tls: false
   sni: sni.latonyamadeline.ndjp.net
+- name: DE_speednode_0008
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 89.169.55.120
+  port: 4443
+  tls: false
+  sni: nn9jdg-k7yewrrk.acg.xx.kg
 - name: DE_speednode_0009
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1212,6 +1219,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 'A - 🇭🇰 HK 02 TG: @nodpai'
+  - 'A - 🇭🇰 HK 03 TG: @nodpai'
   - 'B - 🇭🇰 HK 04 TG: @nodpai'
   - 'B - 🇭🇰 HK 05 TG: @nodpai'
   - 'B - 🇭🇰 HK 06 TG: @nodpai'
@@ -1221,7 +1229,6 @@ proxy-groups:
   - 'B - 🇭🇰 HK 11 TG: @nodpai'
   - 'B - 🇭🇰 HK 12 TG: @nodpai'
   - 'B - 🇭🇰 HK 13 TG: @nodpai'
-  - 'B - 🇭🇰 HK 16 TG: @nodpai'
   - 'B - 🇭🇰 HK 17 TG: @nodpai'
   - 'B - 🇭🇰 HK 18 TG: @nodpai'
   - 'B - 🇭🇰 HK 19 TG: @nodpai'
@@ -1245,6 +1252,7 @@ proxy-groups:
   - 'B - 🇯🇵 JP 13 TG: @nodpai'
   - 'B - 🇯🇵 JP 14 TG: @nodpai'
   - 'B - 🇯🇵 JP 15 TG: @nodpai'
+  - 'B - 🇯🇵 JP 16 TG: @nodpai'
   - 'B - 🇯🇵 JP 17 TG: @nodpai'
   - 'B - 🇯🇵 JP 18 TG: @nodpai'
   - 'B - 🇯🇵 JP 19 TG: @nodpai'
@@ -1312,7 +1320,6 @@ proxy-groups:
   - 'B - 🇺🇸 US 28 TG: @nodpai'
   - 'C - 🇺🇸 US 29 TG: @nodpai'
   - 'C - 🇺🇸 US 30 TG: @nodpai'
-  - 🇰🇷KR_1|1.2MB/s
   - NL_speednode_0040
   - 🇰🇷KR_2|1.4MB/s
   - 🇰🇷KR_3|2.0MB/s
@@ -1354,6 +1361,7 @@ proxy-groups:
   - CH_speednode_0005
   - DE_speednode_0006
   - DE_speednode_0007
+  - DE_speednode_0008
   - DE_speednode_0009
   - IR_speednode_0023
   - IR_speednode_0024
