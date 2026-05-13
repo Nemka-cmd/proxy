@@ -38,12 +38,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 149.104.6.78
-  port: 8443
 - name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -149,13 +143,6 @@ proxies:
   uuid: 00000000-0000-4000-8000-000000000000
   server: 210.222.144.49
   port: 16814
-  tls: true
-  sni: oia8or7k8rs5.zrf.xx.kg
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 112.184.137.84
-  port: 34861
   tls: true
   sni: oia8or7k8rs5.zrf.xx.kg
 - name: 'A - 🇯🇵 JP 04 TG: @nodpai'
@@ -638,6 +625,12 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 80.209.242.70
   port: 2053
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 83.147.253.21
+  port: 443
 - name: 'B - 🇺🇸 US 33 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -1232,7 +1225,6 @@ proxy-groups:
   - 'A - 🇭🇰 HK 04 TG: @nodpai'
   - 'B - 🇭🇰 HK 05 TG: @nodpai'
   - 'B - 🇭🇰 HK 06 TG: @nodpai'
-  - 'B - 🇭🇰 HK 07 TG: @nodpai'
   - 'B - 🇭🇰 HK 08 TG: @nodpai'
   - 'B - 🇭🇰 HK 09 TG: @nodpai'
   - 'B - 🇭🇰 HK 10 TG: @nodpai'
@@ -1250,7 +1242,6 @@ proxy-groups:
   - 'B - 🇭🇰 HK 23 TG: @nodpai'
   - 'B - 🇹🇼 TW 01 TG: @nodpai'
   - 'A - 🇯🇵 JP 02 TG: @nodpai'
-  - 'A - 🇯🇵 JP 03 TG: @nodpai'
   - 'A - 🇯🇵 JP 04 TG: @nodpai'
   - 'A - 🇯🇵 JP 05 TG: @nodpai'
   - 'A - 🇯🇵 JP 06 TG: @nodpai'
@@ -1326,6 +1317,7 @@ proxy-groups:
   - 'B - 🇺🇸 US 29 TG: @nodpai'
   - 'B - 🇺🇸 US 30 TG: @nodpai'
   - 'B - 🇺🇸 US 31 TG: @nodpai'
+  - 'B - 🇺🇸 US 32 TG: @nodpai'
   - 'B - 🇺🇸 US 33 TG: @nodpai'
   - 'B - 🇺🇸 US 34 TG: @nodpai'
   - 'B - 🇺🇸 US 35 TG: @nodpai'
