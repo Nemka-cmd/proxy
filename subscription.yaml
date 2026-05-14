@@ -747,6 +747,12 @@ proxies:
   port: 443
   tls: true
   sni: sni.111000.dns.army
+- name: 🇰🇷KR_1|1.3MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 61.72.208.162
+  port: 32768
 - name: 🇩🇪DE_3|1.3MB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -819,12 +825,6 @@ proxies:
   password: c88b2c46-14c3-4ad8-9157-d9b4c5631450
   server: ip.sb
   port: 443
-- name: 🇰🇷KR_5|1.1MB/s
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 211.223.9.175
-  port: 20005
 - name: 🇰🇷KR_6|1.2MB/s
   type: ss
   cipher: none
@@ -921,18 +921,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 31.22.10.240
   port: 2053
-- name: 🇩🇪DE_7|2.5MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 84.21.189.108
-  port: 8443
-- name: 🇩🇪DE_8|1.6MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 95.164.53.184
-  port: 8443
 - name: 🇩🇪DE_9|2.2MB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -1113,6 +1101,7 @@ proxy-groups:
   - 🇬🇧GB_2|1.3MB/s
   - 🇩🇪DE_2|2.2MB/s
   - 🇸🇪SE_1|2.5MB/s
+  - 🇰🇷KR_1|1.3MB/s
   - 🇩🇪DE_3|1.3MB/s
   - 🇩🇪DE_4|2.3MB/s
   - 🇯🇵JP_1|1.8MB/s
@@ -1124,7 +1113,6 @@ proxy-groups:
   - 🇺🇸US_3|1.2MB/s
   - 🇭🇰HK_3|2.7MB/s
   - 🇩🇪DE_5|2.1MB/s
-  - 🇰🇷KR_5|1.1MB/s
   - 🇰🇷KR_6|1.2MB/s
   - 🇸🇬SG_2|1.0MB/s
   - 🇺🇸US_4|2.2MB/s
@@ -1141,8 +1129,6 @@ proxy-groups:
   - 🇳🇱NL_3|1.4MB/s
   - 🇫🇷FR_2|1.5MB/s
   - 🇩🇪DE_6|1.3MB/s
-  - 🇩🇪DE_7|2.5MB/s
-  - 🇩🇪DE_8|1.6MB/s
   - 🇩🇪DE_9|2.2MB/s
   - 🇩🇪DE_10|1.0MB/s
   - 🇩🇪DE_11|1.0MB/s
