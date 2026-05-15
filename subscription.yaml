@@ -187,12 +187,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 140.83.50.165
   port: 443
-- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 155.248.181.189
-  port: 443
 - name: 'B - 🇯🇵 JP 22 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -670,13 +664,6 @@ proxies:
   port: 22335
   tls: true
   sni: sni.111000.dns.army
-- name: KR_speednode_0035
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 220.93.102.220
-  port: 10443
-  tls: true
-  sni: sni.111000.dns.army
 - name: KR_speednode_0036
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -978,13 +965,6 @@ proxies:
   port: 443
   tls: true
   sni: download.spectrum.vu
-- name: GB_speednode_0014
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 217.180.14.212
-  port: 443
-  tls: false
-  sni: sni.111000.dns.army
 - name: GB_speednode_0016
   type: vless
   uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
@@ -998,13 +978,6 @@ proxies:
   server: 154.64.246.165
   port: 27015
   tls: false
-  sni: sni.111000.dns.army
-- name: HK_speednode_0021
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 38.22.94.220
-  port: 38395
-  tls: true
   sni: sni.111000.dns.army
 - name: HK_speednode_0023
   type: vless
@@ -1228,7 +1201,6 @@ proxy-groups:
   - 'B - 🇯🇵 JP 16 TG: @nodpai'
   - 'B - 🇯🇵 JP 17 TG: @nodpai'
   - 'B - 🇯🇵 JP 20 TG: @nodpai'
-  - 'B - 🇯🇵 JP 21 TG: @nodpai'
   - 'B - 🇯🇵 JP 22 TG: @nodpai'
   - 'B - 🇯🇵 JP 23 TG: @nodpai'
   - 'C - 🇯🇵 JP 24 TG: @nodpai'
@@ -1306,7 +1278,6 @@ proxy-groups:
   - 'B - 🇺🇸 US 49 TG: @nodpai'
   - 'B - 🇺🇸 US 50 TG: @nodpai'
   - KR_speednode_0032
-  - KR_speednode_0035
   - KR_speednode_0036
   - 🇰🇷KR_4|1.4MB/s
   - 🇳🇱NL_1|2.4MB/s
@@ -1353,10 +1324,8 @@ proxy-groups:
   - CY_speednode_0007
   - FR_speednode_0008
   - GB_speednode_0009
-  - GB_speednode_0014
   - GB_speednode_0016
   - HK_speednode_0018
-  - HK_speednode_0021
   - HK_speednode_0023
   - HK_speednode_0024
   - KR_speednode_0027
