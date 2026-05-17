@@ -229,12 +229,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 45.11.1.118
   port: 44004
-- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 64.176.36.61
-  port: 443
 - name: 'B - 🇯🇵 JP 20 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -715,13 +709,6 @@ proxies:
   port: 443
   tls: true
   sni: www.deepl.com
-- name: BG_speednode_0003
-  type: vless
-  uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34
-  server: de.skysafe.online
-  port: 8443
-  tls: true
-  sni: de.skysafe.online
 - name: 🇩🇪DE_3|2.7MB/s
   type: vless
   uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
@@ -968,13 +955,6 @@ proxies:
   port: 443
   tls: true
   sni: sub.sbrf-cdn342.ru
-- name: RU_speednode_0025
-  type: vless
-  uuid: 701bab46-9453-41e6-ad47-009aa3df47e9
-  server: 194.226.169.189
-  port: 443
-  tls: true
-  sni: stats.vk-portal.net
 - name: TW_speednode_0034
   type: vless
   uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
@@ -1042,7 +1022,6 @@ proxy-groups:
   - 'B - 🇯🇵 JP 13 TG: @nodpai'
   - 'B - 🇯🇵 JP 17 TG: @nodpai'
   - 'B - 🇯🇵 JP 18 TG: @nodpai'
-  - 'B - 🇯🇵 JP 19 TG: @nodpai'
   - 'B - 🇯🇵 JP 20 TG: @nodpai'
   - 'B - 🇯🇵 JP 21 TG: @nodpai'
   - 'B - 🇯🇵 JP 22 TG: @nodpai'
@@ -1120,7 +1099,6 @@ proxy-groups:
   - 🇺🇸US_4|3.6MB/s
   - US_speednode_0037
   - 🇳🇱NL_2|2.1MB/s
-  - BG_speednode_0003
   - 🇩🇪DE_3|2.7MB/s
   - 🇺🇸US_6|3.2MB/s
   - 🇺🇸US_7|3.5MB/s
@@ -1158,7 +1136,6 @@ proxy-groups:
   - NL_speednode_0021
   - RO_speednode_0023
   - RU_speednode_0024
-  - RU_speednode_0025
   - TW_speednode_0034
   - US_speednode_0036
   - US_speednode_0038
