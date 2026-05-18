@@ -762,12 +762,6 @@ proxies:
   port: 2053
   tls: false
   sni: ''
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 16.162.188.88
-  port: 6463
 - name: 🇸🇬SG_1|1.0MB/s
   type: ss
   cipher: aes-128-gcm
@@ -1208,7 +1202,6 @@ proxy-groups:
   - 'B - 🇺🇸 US 60 TG: @nodpai'
   - 'B - 🇺🇸 US 61 TG: @nodpai'
   - 'C - 🇺🇸 US 62 TG: @nodpai'
-  - 日本|@ripaojiedian
   - 🇸🇬SG_1|1.0MB/s
   - 🇩🇪DE_1|1.3MB/s
   - 🇹🇼TW_1|2.9MB/s
