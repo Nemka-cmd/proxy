@@ -72,12 +72,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 143.20.204.5
   port: 443
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 64.188.58.138
-  port: 8443
 - name: 'B - 🇭🇰 HK 18 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -473,12 +467,6 @@ proxies:
   port: 443
   tls: true
   sni: www.icloud.com
-- name: 'B - 🇺🇸 US 02 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 68.64.182.39
-  port: 443
 - name: 'B - 🇺🇸 US 03 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -708,12 +696,6 @@ proxies:
   port: 2053
   tls: false
   sni: hio-awx.pages.dev
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 13.231.239.1
-  port: 23255
 - name: 🇰🇷KR_2|1.0MB/s
   type: ss
   cipher: none
@@ -741,13 +723,6 @@ proxies:
   port: 2040
   tls: true
   sni: eh.vk.com
-- name: 🇸🇪SE_1|1.2MB/s
-  type: vless
-  uuid: 5b2fc182-a497-4fbe-aeb8-1841dae99022
-  server: 78.40.117.202
-  port: 8080
-  tls: true
-  sni: ads.x5.ru
 - name: 🇩🇪DE_2|2.5MB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -814,12 +789,6 @@ proxies:
   port: 443
   tls: true
   sni: vltch.mostserv.xyz
-- name: 🇯🇵JP_4|2.0MB/s
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 45.159.48.37
-  port: 41607
 - name: 🇰🇷KR_4|1018KB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -838,13 +807,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 221.159.99.35
   port: 10332
-- name: 🇰🇷KR_7|1.2MB/s
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 118.37.125.204
-  port: 32771
-  tls: true
-  sni: jbp7i.data-edge.chinav.indevs.in
 - name: 🇸🇬SG_3|1.2MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -869,12 +831,6 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   server: 51.20.187.16
-  port: 443
-- name: 🇭🇰HK_1|2.4MB/s
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  server: 68.64.182.39
   port: 443
 - name: 🇸🇬SG_4|1.7MB/s
   type: ss
@@ -979,17 +935,17 @@ proxies:
   port: 443
   tls: true
   sni: www.hollywoodreporter.com
-- name: JP_speednode_0017
-  type: vless
-  uuid: 63f26629-a4a4-4550-bffc-afabb3b5b3c3
-  server: 188.253.17.104
-  port: 443
-  tls: true
-  sni: yahoo.com
 - name: NL_speednode_0021
   type: vless
   uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
   server: fr-tx.sbrf-cdn342.ru
+  port: 443
+  tls: true
+  sni: sub.sbrf-cdn342.ru
+- name: RO_speednode_0023
+  type: vless
+  uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
+  server: de.sbrf-cdn342.ru
   port: 443
   tls: true
   sni: sub.sbrf-cdn342.ru
@@ -1065,7 +1021,6 @@ proxy-groups:
   - 'B - 🇭🇰 HK 14 TG: @nodpai'
   - 'B - 🇭🇰 HK 15 TG: @nodpai'
   - 'B - 🇭🇰 HK 16 TG: @nodpai'
-  - 'B - 🇭🇰 HK 17 TG: @nodpai'
   - 'B - 🇭🇰 HK 18 TG: @nodpai'
   - 'B - 🇭🇰 HK 19 TG: @nodpai'
   - 'B - 🇭🇰 HK 20 TG: @nodpai'
@@ -1128,7 +1083,6 @@ proxy-groups:
   - 'C - 🇸🇬 SG 25 TG: @nodpai'
   - 'C - 🇸🇬 SG 26 TG: @nodpai'
   - 'B - 🇺🇸 US 01 TG: @nodpai'
-  - 'B - 🇺🇸 US 02 TG: @nodpai'
   - 'B - 🇺🇸 US 03 TG: @nodpai'
   - 'B - 🇺🇸 US 04 TG: @nodpai'
   - 'B - 🇺🇸 US 05 TG: @nodpai'
@@ -1167,12 +1121,10 @@ proxy-groups:
   - 'B - 🇺🇸 US 38 TG: @nodpai'
   - 'B - 🇺🇸 US 39 TG: @nodpai'
   - 'C - 🇺🇸 US 40 TG: @nodpai'
-  - 美国3|@ripaojiedian
   - 🇰🇷KR_2|1.0MB/s
   - 🇵🇱PL_1|2.5MB/s
   - 🇩🇪DE_8|1.0MB/s
   - 🇫🇮FI_1|2.2MB/s
-  - 🇸🇪SE_1|1.2MB/s
   - 🇩🇪DE_2|2.5MB/s
   - 🇫🇮FI_2|2.4MB/s
   - 🇳🇱NL_1|1.7MB/s
@@ -1183,16 +1135,13 @@ proxy-groups:
   - 🇩🇪DE_7|1.3MB/s
   - 🇬🇧GB_1|1.1MB/s
   - 🇱🇹LT_1|3.1MB/s
-  - 🇯🇵JP_4|2.0MB/s
   - 🇰🇷KR_4|1018KB/s
   - 🇰🇷KR_5|1.1MB/s
   - 🇰🇷KR_6|1.7MB/s
-  - 🇰🇷KR_7|1.2MB/s
   - 🇸🇬SG_3|1.2MB/s
   - 🇺🇸US_6|1.2MB/s
   - 🇸🇪SE_3|1.5MB/s
   - 🇸🇪SE_4|2.5MB/s
-  - 🇭🇰HK_1|2.4MB/s
   - 🇸🇬SG_4|1.7MB/s
   - 🇻🇳VN_1|1.1MB/s
   - 🇻🇳VN_2|1.1MB/s
@@ -1209,8 +1158,8 @@ proxy-groups:
   - CA_speednode_0005
   - CA_speednode_0006
   - GB_speednode_0013
-  - JP_speednode_0017
   - NL_speednode_0021
+  - RO_speednode_0023
   - RU_speednode_0024
   - RU_speednode_0025
   - TW_speednode_0034
