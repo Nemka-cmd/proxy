@@ -49,6 +49,13 @@ proxies:
   port: 8443
   tls: true
   sni: www.python.org
+- name: 'C - 🇹🇼 TW 05 TG: @nodpai'
+  type: vless
+  uuid: 1c731995-761b-41b3-96d1-5ef5734ad909
+  server: 125.228.236.138
+  port: 443
+  tls: false
+  sni: et.seaspirit.dpdns.org
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -77,6 +84,13 @@ proxies:
   port: 443
   tls: false
   sni: 7xbq35vdydie5sgv.cctg.xx.kg
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  server: 64.188.106.174
+  port: 4433
+  tls: false
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
 - name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -109,11 +123,11 @@ proxies:
   password: '162534'
   server: 142.91.108.54
   port: 443
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 64.110.104.30
+  server: 140.238.50.134
   port: 443
 - name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   type: trojan
@@ -724,13 +738,6 @@ proxies:
   port: 2040
   tls: true
   sni: eh.vk.com
-- name: 🇸🇪SE_1|2.7MB/s
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
-  server: swe-8t.freeonline.pro
-  port: 443
-  tls: true
-  sni: www.microsoft.com
 - name: 🇷🇺RU_1|2.3MB/s
   type: ss
   cipher: aes-128-gcm
@@ -978,6 +985,20 @@ proxies:
   port: 16433
   tls: true
   sni: sgvless.yydzx.xyz
+- name: JP_speednode_0017
+  type: vless
+  uuid: f869b946-ef42-4d86-8d07-3623ad6cc37e
+  server: aws-link14.liangxin1.xyz
+  port: 25485
+  tls: true
+  sni: www.apple.com.cn
+- name: JP_speednode_0018
+  type: vless
+  uuid: f869b946-ef42-4d86-8d07-3623ad6cc37e
+  server: aws-link13.liangxin1.xyz
+  port: 36574
+  tls: true
+  sni: www.apple.com.cn
 - name: RO_speednode_0025
   type: vless
   uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
@@ -1079,16 +1100,18 @@ proxy-groups:
   - 'B - 🇭🇰 HK 07 TG: @nodpai'
   - 'B - 🇭🇰 HK 08 TG: @nodpai'
   - 'C - 🇹🇼 TW 03 TG: @nodpai'
+  - 'C - 🇹🇼 TW 05 TG: @nodpai'
   - 'A - 🇯🇵 JP 01 TG: @nodpai'
   - 'A - 🇯🇵 JP 02 TG: @nodpai'
   - 'B - 🇯🇵 JP 03 TG: @nodpai'
   - 'B - 🇯🇵 JP 05 TG: @nodpai'
+  - 'B - 🇯🇵 JP 06 TG: @nodpai'
   - 'B - 🇯🇵 JP 07 TG: @nodpai'
   - 'B - 🇯🇵 JP 08 TG: @nodpai'
   - 'B - 🇯🇵 JP 10 TG: @nodpai'
   - 'B - 🇯🇵 JP 11 TG: @nodpai'
   - 'B - 🇯🇵 JP 12 TG: @nodpai'
-  - 'B - 🇯🇵 JP 15 TG: @nodpai'
+  - 'B - 🇯🇵 JP 13 TG: @nodpai'
   - 'B - 🇯🇵 JP 16 TG: @nodpai'
   - 'B - 🇯🇵 JP 18 TG: @nodpai'
   - 'B - 🇯🇵 JP 19 TG: @nodpai'
@@ -1187,7 +1210,6 @@ proxy-groups:
   - 🇨🇭CH_2|2.3MB/s
   - 🇩🇪DE_3|1.4MB/s
   - 🇩🇪DE_4|2.9MB/s
-  - 🇸🇪SE_1|2.7MB/s
   - 🇷🇺RU_1|2.3MB/s
   - 🇺🇸US_5|3.2MB/s
   - 🇦🇹AT_1|2.8MB/s
@@ -1227,6 +1249,8 @@ proxy-groups:
   - JP_speednode_0014
   - JP_speednode_0015
   - JP_speednode_0016
+  - JP_speednode_0017
+  - JP_speednode_0018
   - RO_speednode_0025
   - SC_speednode_0026
   - SG_speednode_0027
