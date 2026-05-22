@@ -822,12 +822,6 @@ proxies:
   port: 443
   tls: false
   sni: ''
-- name: 🇹🇼TW_2|2.1MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  server: r3mrcg0011499tl.cybervena.com
-  port: 50099
 - name: 🇫🇮FI_3|2.3MB/s
   type: vless
   uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
@@ -881,6 +875,12 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 31.172.79.138
   port: 2083
+- name: 🇩🇪DE_4|1.2MB/s
+  type: trojan
+  sni: Koma-YT.PAGeS.Dev
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 144.31.105.85
+  port: 443
 - name: 🇺🇸US_13|2.0MB/s
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -1035,6 +1035,13 @@ proxies:
   port: 443
   tls: false
   sni: ''
+- name: SG_speednode_0027
+  type: vless
+  uuid: f869b946-ef42-4d86-8d07-3623ad6cc37e
+  server: aws-link30.liangxin1.xyz
+  port: 23568
+  tls: true
+  sni: www.lamer.com.hk
 - name: TW_speednode_0028
   type: trojan
   sni: bing.com
@@ -1239,7 +1246,6 @@ proxy-groups:
   - 🇺🇸US_6|2.9MB/s
   - 🇩🇪DE_2|1.4MB/s
   - 🇵🇱PL_1|2.7MB/s
-  - 🇹🇼TW_2|2.1MB/s
   - 🇫🇮FI_3|2.3MB/s
   - 🇸🇪SE_3|1.2MB/s
   - 🇫🇷FR_2|2.3MB/s
@@ -1248,6 +1254,7 @@ proxy-groups:
   - 🇫🇮FI_2|2.2MB/s
   - 🇹🇷TR_1|1.4MB/s
   - 🇺🇸US_12|1.9MB/s
+  - 🇩🇪DE_4|1.2MB/s
   - 🇺🇸US_13|2.0MB/s
   - 🇵🇱PL_2|1.8MB/s
   - 🇭🇰HK_1|2.3MB/s
@@ -1271,6 +1278,7 @@ proxy-groups:
   - JP_speednode_0018
   - RO_speednode_0025
   - SC_speednode_0026
+  - SG_speednode_0027
   - TW_speednode_0028
   - TW_speednode_0029
   - US_speednode_0032
