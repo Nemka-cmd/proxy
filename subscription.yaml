@@ -389,13 +389,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 192.18.136.255
   port: 443
-- name: 'B - 🇺🇸 US 20 TG: @nodpai'
-  type: vless
-  uuid: f0d04145-2f72-4a04-8479-b9813a600ab6
-  server: wl1.xanka.best
-  port: 443
-  tls: true
-  sni: api-maps.yandex.ru
 - name: 'B - 🇺🇸 US 21 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -505,12 +498,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 207.246.122.197
   port: 2053
-- name: 'B - 🇺🇸 US 40 TG: @nodpai'
-  type: trojan
-  sni: Koma-YT.PAGeS.Dev
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  server: 88.216.68.225
-  port: 8443
 - name: 'B - 🇺🇸 US 41 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -530,13 +517,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   server: 66.81.247.253
   port: 443
-- name: 'B - 🇺🇸 US 44 TG: @nodpai'
-  type: vless
-  uuid: f0d04145-2f72-4a04-8479-b9813a600ab6
-  server: 158.160.193.60
-  port: 443
-  tls: true
-  sni: api-maps.yandex.ru
 - name: 'B - 🇺🇸 US 46 TG: @nodpai'
   type: trojan
   sni: Koma-YT.PAGeS.Dev
@@ -618,36 +598,12 @@ proxies:
   port: 2087
   tls: true
   sni: sni.111000.v6.navy
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  server: 16.162.217.83
-  port: 2008
-- name: 香港4|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 13.230.159.214
-  port: 3285
 - name: 日本2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   server: 18.181.205.14
   port: 24184
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  server: 16.162.217.83
-  port: 24184
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  server: 16.162.217.83
-  port: 4840
 - name: 新加坡2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
@@ -1181,7 +1137,6 @@ proxy-groups:
   - 'B - 🇺🇸 US 17 TG: @nodpai'
   - 'B - 🇺🇸 US 18 TG: @nodpai'
   - 'B - 🇺🇸 US 19 TG: @nodpai'
-  - 'B - 🇺🇸 US 20 TG: @nodpai'
   - 'B - 🇺🇸 US 21 TG: @nodpai'
   - 'B - 🇺🇸 US 22 TG: @nodpai'
   - 'B - 🇺🇸 US 23 TG: @nodpai'
@@ -1200,11 +1155,9 @@ proxy-groups:
   - 'B - 🇺🇸 US 37 TG: @nodpai'
   - 'B - 🇺🇸 US 38 TG: @nodpai'
   - 'B - 🇺🇸 US 39 TG: @nodpai'
-  - 'B - 🇺🇸 US 40 TG: @nodpai'
   - 'B - 🇺🇸 US 41 TG: @nodpai'
   - 'B - 🇺🇸 US 42 TG: @nodpai'
   - 'B - 🇺🇸 US 43 TG: @nodpai'
-  - 'B - 🇺🇸 US 44 TG: @nodpai'
   - 'B - 🇺🇸 US 46 TG: @nodpai'
   - 'B - 🇺🇸 US 47 TG: @nodpai'
   - 'B - 🇺🇸 US 48 TG: @nodpai'
@@ -1218,11 +1171,7 @@ proxy-groups:
   - 'C - 🇺🇸 US 57 TG: @nodpai'
   - 'C - 🇺🇸 US 59 TG: @nodpai'
   - 'C - 🇺🇸 US 60 TG: @nodpai'
-  - 香港3|@ripaojiedian
-  - 香港4|@ripaojiedian
   - 日本2|@ripaojiedian
-  - 日本3|@ripaojiedian
-  - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
   - 美国|@ripaojiedian
   - 美国3|@ripaojiedian
