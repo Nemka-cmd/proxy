@@ -61,6 +61,13 @@ proxies:
   port: 443
   tls: true
   sni: maps.apple.com
+- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  type: vless
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  server: 50.114.55.14
+  port: 10001
+  tls: true
+  sni: www.icloud.com
 - name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   type: vless
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
@@ -349,13 +356,6 @@ proxies:
   port: 8443
   tls: true
   sni: ads.x5.ru
-- name: 'B - 🇳🇱 NL 03 TG: @nodpai'
-  type: vless
-  uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
-  server: nd09.myxasecure.space
-  port: 443
-  tls: true
-  sni: nd09.myxasecure.space
 - name: 'B - 🇳🇱 NL 04 TG: @nodpai'
   type: vless
   uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
@@ -669,6 +669,12 @@ proxies:
   port: 8880
   tls: false
   sni: ''
+- name: 🇺🇸US_18|1.6MB/s
+  type: trojan
+  sni: vpn.rnmcnm.com
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  server: 175.192.103.88
+  port: 18080
 - name: 🇯🇵JP_1|2.6MB/s
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -725,6 +731,20 @@ proxies:
   port: 443
   tls: true
   sni: www.microsoft.com
+- name: HK_speednode_0009
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  server: qfaxrs.sgvless.yydzx.xyz
+  port: 443
+  tls: true
+  sni: deb.debian.org
+- name: HK_speednode_0010
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  server: mx0wbu.sgvless.yydzx.xyz
+  port: 443
+  tls: true
+  sni: deb.debian.org
 - name: IE_speednode_0011
   type: vless
   uuid: 530c8050-f4c1-4050-940b-5688e09c7c68
@@ -815,6 +835,7 @@ proxy-groups:
   - 'B - 🇸🇬 SG 05 TG: @nodpai'
   - 'B - 🇸🇬 SG 07 TG: @nodpai'
   - 'B - 🇸🇬 SG 08 TG: @nodpai'
+  - 'B - 🇸🇬 SG 09 TG: @nodpai'
   - 'B - 🇸🇬 SG 10 TG: @nodpai'
   - 'A - 🇺🇸 US 01 TG: @nodpai'
   - 'B - 🇺🇸 US 04 TG: @nodpai'
@@ -857,7 +878,6 @@ proxy-groups:
   - 'B - 🇨🇦 CA 02 TG: @nodpai'
   - 'A - 🇳🇱 NL 01 TG: @nodpai'
   - 'B - 🇳🇱 NL 02 TG: @nodpai'
-  - 'B - 🇳🇱 NL 03 TG: @nodpai'
   - 'B - 🇳🇱 NL 04 TG: @nodpai'
   - 'B - 🇳🇱 NL 06 TG: @nodpai'
   - 'A - 🇷🇺 RU 01 TG: @nodpai'
@@ -903,6 +923,7 @@ proxy-groups:
   - 🇺🇸US_12|1.2MB/s
   - 🇺🇸US_16|2.6MB/s
   - 🇺🇸US_17|3.2MB/s
+  - 🇺🇸US_18|1.6MB/s
   - 🇯🇵JP_1|2.6MB/s
   - 🇯🇵JP_2|3.5MB/s
   - 🇺🇸US_19|1.2MB/s
@@ -911,6 +932,8 @@ proxy-groups:
   - BG_speednode_0001
   - GB_speednode_0007
   - GB_speednode_0008
+  - HK_speednode_0009
+  - HK_speednode_0010
   - IE_speednode_0011
   - JP_speednode_0013
   - JP_speednode_0014
