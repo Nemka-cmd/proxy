@@ -45,13 +45,6 @@ proxies:
   port: 443
   tls: true
   sni: maps.apple.com
-- name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  type: vless
-  uuid: df574b1d-e1d2-407b-9210-9e272690a219
-  server: panel.ryanserver.ir
-  port: 42115
-  tls: false
-  sni: ''
 - name: 'A - 🇺🇸 US 02 TG: @nodpai'
   type: vless
   uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
@@ -104,6 +97,13 @@ proxies:
   port: 443
   tls: true
   sni: r1.mizulina.top
+- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  type: vless
+  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
+  server: 193.233.202.1
+  port: 443
+  tls: true
+  sni: yahoo.com
 - name: RU_speednode_0044
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -124,13 +124,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: GB_speednode_0021
-  type: vless
-  uuid: acba684c-4098-4eca-f519-828b09f96464
-  server: 134.33.73.249
-  port: 54254
-  tls: true
-  sni: apple.com
 - name: RU_speednode_0045
   type: vless
   uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
@@ -177,12 +170,6 @@ proxies:
   password: 0YQjdidwRZf8WDcxYVpp
   server: bb2233.xfan1986.dpdns.org
   port: 443
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  type: trojan
-  sni: vpn.rnmcnm.com
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  server: 175.192.103.88
-  port: 18080
 - name: 'B - 🇺🇸 US 34 TG: @nodpai'
   type: trojan
   sni: bB2233.XfAN1986.DPDNs.oRG
@@ -505,13 +492,6 @@ proxies:
   port: 2096
   tls: true
   sni: 69565ce3109804e7813f98ee.mmdbay.blog
-- name: 🇳🇱NL_1|2.3MB/s
-  type: vless
-  uuid: d9377513-7e6b-48f1-89e4-a21f855b1969
-  server: sets.starservice.site
-  port: 13764
-  tls: false
-  sni: ''
 - name: 🇩🇪DE_4|1.7MB/s
   type: vless
   uuid: 9ebab373-19fe-4535-aa95-4e348ea300f1
@@ -652,13 +632,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇭🇰HK_1|4.7MB/s
-  type: vless
-  uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd
-  server: 47.242.43.198
-  port: 47683
-  tls: false
-  sni: ''
 - name: 🇬🇧GB_1|1.1MB/s
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
@@ -741,13 +714,6 @@ proxies:
   port: 20988
   tls: true
   sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: BH_speednode_0003
-  type: vless
-  uuid: ac195240-6005-412b-9829-1e56e5d5c52a
-  server: ddfs.ummapeople.online
-  port: 443
-  tls: true
-  sni: ddfs.ummapeople.online
 - name: CN_speednode_0013
   type: vless
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
@@ -776,18 +742,24 @@ proxies:
   port: 443
   tls: true
   sni: www.sony.com
+- name: KR_speednode_0029
+  type: trojan
+  sni: vpn.rnmcnm.com
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  server: 121.191.33.84
+  port: 30303
 - name: KR_speednode_0030
   type: trojan
   sni: vpn.rnmcnm.com
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   server: 59.30.42.194
   port: 12345
-- name: KR_speednode_0032
+- name: KR_speednode_0031
   type: trojan
   sni: vpn.rnmcnm.com
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  server: 14.53.107.138
-  port: 29999
+  server: 121.154.96.50
+  port: 18000
 - name: NL_speednode_0033
   type: vless
   uuid: 49f3fec2-1a21-481e-ae65-7c32ae262582
@@ -988,7 +960,6 @@ proxy-groups:
   - 🇺🇸US_6|3.3MB/s
   - 🇺🇸US_5|2.1MB/s
   - 'B - 🇸🇬 SG 09 TG: @nodpai'
-  - 'A - 🇺🇸 US 01 TG: @nodpai'
   - 'A - 🇺🇸 US 02 TG: @nodpai'
   - 'B - 🇺🇸 US 03 TG: @nodpai'
   - 'B - 🇺🇸 US 05 TG: @nodpai'
@@ -997,10 +968,10 @@ proxy-groups:
   - 'B - 🇺🇸 US 10 TG: @nodpai'
   - US_speednode_0071
   - RU_speednode_0043
+  - 'B - 🇺🇸 US 14 TG: @nodpai'
   - RU_speednode_0044
   - 'B - 🇺🇸 US 16 TG: @nodpai'
   - 'B - 🇺🇸 US 17 TG: @nodpai'
-  - GB_speednode_0021
   - RU_speednode_0045
   - 'B - 🇺🇸 US 24 TG: @nodpai'
   - RU_speednode_0042
@@ -1008,7 +979,6 @@ proxy-groups:
   - 'B - 🇺🇸 US 29 TG: @nodpai'
   - 'B - 🇺🇸 US 30 TG: @nodpai'
   - 'B - 🇺🇸 US 31 TG: @nodpai'
-  - 'B - 🇺🇸 US 33 TG: @nodpai'
   - 'B - 🇺🇸 US 34 TG: @nodpai'
   - 'B - 🇺🇸 US 35 TG: @nodpai'
   - 'B - 🇺🇸 US 36 TG: @nodpai'
@@ -1056,7 +1026,6 @@ proxy-groups:
   - 🇩🇪DE_2|2.6MB/s
   - 🇹🇼TW_1|1.1MB/s
   - 🇫🇮FI_1|2.4MB/s
-  - 🇳🇱NL_1|2.3MB/s
   - 🇩🇪DE_4|1.7MB/s
   - 🇺🇸US_1|2.6MB/s
   - 🇩🇪DE_5|1.2MB/s
@@ -1077,7 +1046,6 @@ proxy-groups:
   - 🇺🇸US_10|1.5MB/s
   - 🇺🇸US_11|1.3MB/s
   - 🇳🇱NL_3|1021KB/s
-  - 🇭🇰HK_1|4.7MB/s
   - 🇬🇧GB_1|1.1MB/s
   - 🇹🇭TH_1|1.0MB/s
   - 🇩🇪DE_11|2.8MB/s
@@ -1090,13 +1058,13 @@ proxy-groups:
   - 🇰🇷KR_2|2.8MB/s
   - 🇺🇸US_14|2.7MB/s
   - 🇸🇬SG_6|2.3MB/s
-  - BH_speednode_0003
   - CN_speednode_0013
   - CN_speednode_0014
   - FR_speednode_0017
   - GB_speednode_0022
+  - KR_speednode_0029
   - KR_speednode_0030
-  - KR_speednode_0032
+  - KR_speednode_0031
   - NL_speednode_0033
   - NL_speednode_0034
   - RU_speednode_0046
