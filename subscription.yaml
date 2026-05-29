@@ -1,124 +1,129 @@
 proxies:
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  type: trojan
-  sni: i.comfortableyou.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 52225
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  type: trojan
-  sni: water.waittomorrow.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 40017
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  type: trojan
-  sni: 1.lossyesterday.xyz
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 40015
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
-  type: trojan
-  sni: gh.01.naiun.bilibili.com
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 90081bb25c.node.tro.cac.cab
-  port: 48697
-- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  type: trojan
-  sni: is.01.naiun.bilibili.com
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 90081bb25c.node.tro.cac.cab
-  port: 47909
-- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  type: trojan
-  sni: de.01.naiun.bilibili.com
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 90081bb25c.node.tro.cac.cab
-  port: 46424
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  type: trojan
-  sni: fr.01.naiun.bilibili.com
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 90081bb25c.node.tro.cac.cab
-  port: 45619
-- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
-  type: trojan
-  sni: water.waittomorrow.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 32544
-- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
-  type: trojan
-  sni: water.waittomorrow.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 32657
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
-  type: trojan
-  sni: 1.lossyesterday.xyz
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 33650
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  type: vless
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
+  server: tw4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: dlcdnets.asus.com
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  type: vless
+  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
+  server: xmm.130209.xyz
+  port: 2053
+  tls: true
+  sni: taiwanv6.xiaomaimai.qzz.io
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  type: vless
+  uuid: 250c2a19-6957-48f1-9208-c6eb3324b8d5
+  server: 161.33.3.84
+  port: 16095
+  tls: true
+  sni: www.amd.com
+- name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   type: vless
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   server: 104.25.242.61
   port: 443
   tls: false
   sni: juzi.qea.ccwu.cc
+- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  type: trojan
+  sni: store.timimi.dpdns.org
+  password: trojan
+  server: 213.35.108.135
+  port: 12596
 - name: 'B - 🇺🇸 US 03 TG: @nodpai'
   type: vless
-  uuid: b07f6d59-8ae7-4e7d-8043-98077acb88e8
-  server: 104.18.32.47
-  port: 8443
+  uuid: a5240468-dffe-4581-8ce7-6e6604d299d6
+  server: 173.245.59.233
+  port: 2096
   tls: true
-  sni: neo.matrixprotocol.dpdns.org
-- name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  sni: verus-1uy.pages.dev
+- name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  type: vless
+  uuid: a5240468-dffe-4581-8ce7-6e6604d299d6
+  server: 104.18.41.178
+  port: 2087
+  tls: true
+  sni: verus-1uy.pages.dev
+- name: 'B - 🇺🇸 US 07 TG: @nodpai'
   type: vless
   uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   server: www.visakorea.com
   port: 443
   tls: false
   sni: pagescm.freen4.cc.cd
-- name: 'B - 🇺🇸 US 07 TG: @nodpai'
+- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   type: vless
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  server: 150.251.158.76
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+  server: 31.58.87.71
+  port: 12443
+  tls: true
+  sni: sun6-21.userapi.com
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  type: vless
+  uuid: 1f678d60-48d7-4eb0-9f85-35ed154d1cd5
+  server: chus.nodes.rocketnetwork.ru
   port: 443
   tls: true
-  sni: ''
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  sni: cyberdrift.ru
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
   type: trojan
-  sni: i.comfortableyou.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 35147
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  type: trojan
-  sni: water.waittomorrow.top
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  server: a.twodnwnpoe.xyz
-  port: 23655
-- name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-  server: de-on-demand.not-a-projects.xyz
-  port: 47518
-  tls: false
-  sni: ''
-- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  sni: vpn.rnmcnm.com
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  server: 175.192.103.88
+  port: 18080
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   type: trojan
   sni: az.01.naiun.bilibili.com
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   server: 90081bb25c.node.tro.cac.cab
   port: 41943
-- name: 'C - 🇺🇸 US 16 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  type: trojan
+  sni: is.01.naiun.bilibili.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  server: 90081bb25c.node.tro.cac.cab
+  port: 47909
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  type: trojan
+  sni: gh.01.naiun.bilibili.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  server: 90081bb25c.node.tro.cac.cab
+  port: 48697
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  type: trojan
+  sni: de.01.naiun.bilibili.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  server: 90081bb25c.node.tro.cac.cab
+  port: 46424
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  type: trojan
+  sni: ch.01.naiun.bilibili.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  server: 90081bb25c.node.tro.cac.cab
+  port: 45553
+- name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  type: trojan
+  sni: fr.01.naiun.bilibili.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  server: 90081bb25c.node.tro.cac.cab
+  port: 45619
+- name: 'B - 🇺🇸 US 23 TG: @nodpai'
   type: vless
-  uuid: e7902151-e2e1-4d29-a84b-86f0d5d91b65
-  server: 72.56.69.12
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+  server: 23.166.40.27
   port: 443
   tls: true
-  sni: nl-2.bexum.fun
+  sni: s881.ccgfw.top
+- name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  type: vless
+  uuid: 86e1cbab-329e-48ca-a213-71745655886f
+  server: 72.56.4.94
+  port: 443
+  tls: true
+  sni: ''
 - name: 'B - 🇰🇷 KR 01 TG: @nodpai'
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
@@ -126,13 +131,13 @@ proxies:
   port: 443
   tls: true
   sni: api.company-target.com
-- name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+- name: 'B - 🇩🇪 DE 02 TG: @nodpai'
   type: vless
-  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
-  server: 162.159.19.202
-  port: 80
-  tls: false
-  sni: ''
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+  server: 87.120.93.240
+  port: 443
+  tls: true
+  sni: sub.sbrf-cdn342.ru
 - name: 'B - 🇩🇪 DE 03 TG: @nodpai'
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
@@ -140,6 +145,13 @@ proxies:
   port: 443
   tls: true
   sni: sub.sbrf-cdn342.ru
+- name: 'B - 🇩🇪 DE 04 TG: @nodpai'
+  type: vless
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  server: 178.215.238.148
+  port: 8443
+  tls: true
+  sni: eh.vk.com
 - name: 'B - 🇷🇺 RU 01 TG: @nodpai'
   type: vless
   uuid: 554d6a0c-d9b5-480b-ba28-a7ad189769d6
@@ -147,54 +159,40 @@ proxies:
   port: 443
   tls: true
   sni: rruu.persik.host
-- name: 'B - 🇷🇺 RU 02 TG: @nodpai'
-  type: vless
-  uuid: 08c47303-afce-47ba-9b0e-64d9abc033b7
-  server: 193.168.46.180
-  port: 443
-  tls: true
-  sni: rruu.persik.host
-- name: 'B - 🇷🇺 RU 03 TG: @nodpai'
-  type: vless
-  uuid: 289e4e8b-bf0b-44ff-a06f-1c829c43d5f4
-  server: 193.168.46.180
-  port: 443
-  tls: true
-  sni: rruu.persik.host
-- name: 'B - 🇷🇺 RU 04 TG: @nodpai'
-  type: vless
-  uuid: b8990920-008d-4eb7-a02a-2751c47dc200
-  server: 193.168.46.180
-  port: 443
-  tls: true
-  sni: rruu.persik.host
-- name: 'B - 🇲🇾 MY 02 TG: @nodpai'
+- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
   type: trojan
-  sni: water.waittomorrow.top
+  sni: 1.lossyesterday.xyz
   password: f58cd113-a3b1-319d-a993-331481731e82
   server: a.twodnwnpoe.xyz
-  port: 41666
-- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  port: 53217
+- name: 'B - 🇨🇭 CH 02 TG: @nodpai'
   type: vless
-  uuid: 49882640-5877-4f73-a49e-86e209d080a9
-  server: B0Jfrw28EYEY.ch1.node.iranray.online
+  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
+  server: 138.124.244.248
   port: 443
   tls: true
-  sni: icloud.com
-- name: 'B - 🇧🇾 BY 01 TG: @nodpai'
+  sni: yahoo.com
+- name: CZ_speednode_0016
   type: vless
-  uuid: f4df3096-8568-4c86-83d2-985623035724
-  server: 185.66.68.90
-  port: 10444
+  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
+  server: 95.85.228.146
+  port: 8443
   tls: true
-  sni: max.ru
-- name: 'B - 🇲🇩 MD 02 TG: @nodpai'
+  sni: io.ozone.ru
+- name: 'B - 🇲🇩 MD 01 TG: @nodpai'
   type: vless
   uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
   server: 91.225.217.28
   port: 443
   tls: true
   sni: yahoo.com
+- name: 'B - 🇲🇩 MD 02 TG: @nodpai'
+  type: vless
+  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
+  server: 94.131.8.232
+  port: 1443
+  tls: true
+  sni: botapi.max.ru
 - name: 🇫🇮FI_1|1.4MB/s
   type: vless
   uuid: 0d974d97-fc0f-4e31-9f86-d4972c37b565
@@ -296,6 +294,12 @@ proxies:
   port: 443
   tls: true
   sni: cdn.veilvpn.fans
+- name: 🇺🇸US_7|1.4MB/s
+  type: trojan
+  sni: vpn.rnmcnm.com
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  server: 218.152.227.25
+  port: 12000
 - name: 🇫🇮FI_6|1.5MB/s
   type: vless
   uuid: 0d974d97-fc0f-4e31-9f86-d4972c37b565
@@ -310,13 +314,13 @@ proxies:
   port: 2053
   tls: true
   sni: cdn.dns.xn--q9jyb4c
-- name: 🇦🇹AT_1|1.7MB/s
+- name: 🇨🇭CH_1|2.1MB/s
   type: vless
-  uuid: 4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b
-  server: 152.53.224.29
-  port: 7443
+  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
+  server: pro.online.prostosetup.org
+  port: 443
   tls: true
-  sni: stackoverflow.com
+  sni: pro.online.prostosetup.org
 - name: 🇺🇸US_8|1.1MB/s
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -338,13 +342,6 @@ proxies:
   port: 443
   tls: true
   sni: yahoo.com
-- name: CZ_speednode_0016
-  type: vless
-  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
-  server: 95.85.228.146
-  port: 8443
-  tls: true
-  sni: io.ozone.ru
 - name: GB_speednode_0020
   type: vless
   uuid: 980231fb-4372-5c81-b696-20aa34d33af0
@@ -469,35 +466,34 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 'B - 🇭🇰 HK 05 TG: @nodpai'
-  - 'B - 🇭🇰 HK 06 TG: @nodpai'
-  - 'B - 🇭🇰 HK 10 TG: @nodpai'
-  - 'B - 🇭🇰 HK 13 TG: @nodpai'
-  - 'B - 🇭🇰 HK 14 TG: @nodpai'
-  - 'B - 🇭🇰 HK 15 TG: @nodpai'
-  - 'B - 🇭🇰 HK 16 TG: @nodpai'
-  - 'B - 🇹🇼 TW 01 TG: @nodpai'
-  - 'B - 🇯🇵 JP 02 TG: @nodpai'
-  - 'B - 🇸🇬 SG 03 TG: @nodpai'
+  - 'A - 🇹🇼 TW 01 TG: @nodpai'
+  - 'B - 🇹🇼 TW 04 TG: @nodpai'
+  - 'B - 🇯🇵 JP 07 TG: @nodpai'
+  - 'B - 🇸🇬 SG 02 TG: @nodpai'
   - 'B - 🇸🇬 SG 05 TG: @nodpai'
   - 'B - 🇺🇸 US 03 TG: @nodpai'
-  - 'B - 🇺🇸 US 06 TG: @nodpai'
+  - 'B - 🇺🇸 US 05 TG: @nodpai'
   - 'B - 🇺🇸 US 07 TG: @nodpai'
-  - 'B - 🇺🇸 US 10 TG: @nodpai'
-  - 'B - 🇺🇸 US 11 TG: @nodpai'
-  - 'B - 🇺🇸 US 12 TG: @nodpai'
-  - 'B - 🇺🇸 US 14 TG: @nodpai'
-  - 'C - 🇺🇸 US 16 TG: @nodpai'
+  - 'B - 🇺🇸 US 08 TG: @nodpai'
+  - 'B - 🇺🇸 US 13 TG: @nodpai'
+  - 'B - 🇺🇸 US 15 TG: @nodpai'
+  - 'B - 🇺🇸 US 16 TG: @nodpai'
+  - 'B - 🇺🇸 US 17 TG: @nodpai'
+  - 'B - 🇺🇸 US 18 TG: @nodpai'
+  - 'B - 🇺🇸 US 19 TG: @nodpai'
+  - 'B - 🇺🇸 US 20 TG: @nodpai'
+  - 'B - 🇺🇸 US 21 TG: @nodpai'
+  - 'B - 🇺🇸 US 23 TG: @nodpai'
+  - 'C - 🇺🇸 US 24 TG: @nodpai'
   - 'B - 🇰🇷 KR 01 TG: @nodpai'
-  - 'A - 🇩🇪 DE 01 TG: @nodpai'
+  - 'B - 🇩🇪 DE 02 TG: @nodpai'
   - 'B - 🇩🇪 DE 03 TG: @nodpai'
+  - 'B - 🇩🇪 DE 04 TG: @nodpai'
   - 'B - 🇷🇺 RU 01 TG: @nodpai'
-  - 'B - 🇷🇺 RU 02 TG: @nodpai'
-  - 'B - 🇷🇺 RU 03 TG: @nodpai'
-  - 'B - 🇷🇺 RU 04 TG: @nodpai'
-  - 'B - 🇲🇾 MY 02 TG: @nodpai'
   - 'B - 🇨🇭 CH 01 TG: @nodpai'
-  - 'B - 🇧🇾 BY 01 TG: @nodpai'
+  - 'B - 🇨🇭 CH 02 TG: @nodpai'
+  - CZ_speednode_0016
+  - 'B - 🇲🇩 MD 01 TG: @nodpai'
   - 'B - 🇲🇩 MD 02 TG: @nodpai'
   - 🇫🇮FI_1|1.4MB/s
   - 🇳🇱NL_1|1.6MB/s
@@ -514,13 +510,13 @@ proxy-groups:
   - 🇺🇸US_3|3.5MB/s
   - 🇺🇸US_5|1.1MB/s
   - 🇺🇸US_6|1.4MB/s
+  - 🇺🇸US_7|1.4MB/s
   - 🇫🇮FI_6|1.5MB/s
   - 🇫🇮FI_7|1.4MB/s
-  - 🇦🇹AT_1|1.7MB/s
+  - 🇨🇭CH_1|2.1MB/s
   - 🇺🇸US_8|1.1MB/s
   - 🇺🇸US_9|2.0MB/s
   - ❓Other_1|1.2MB/s
-  - CZ_speednode_0016
   - GB_speednode_0020
   - GB_speednode_0024
   - GB_speednode_0025
