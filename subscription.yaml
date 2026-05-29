@@ -366,13 +366,6 @@ proxies:
   port: 8443
   tls: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
-- name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  type: vless
-  uuid: rootface
-  server: 216.234.141.24
-  port: 443
-  tls: true
-  sni: blog.api.www.cloudflare.com
 - name: RU_speednode_0038
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -424,13 +417,6 @@ proxies:
   port: 443
   tls: true
   sni: r1.mizulina.top
-- name: 'B - 🇺🇸 US 22 TG: @nodpai'
-  type: vless
-  uuid: acba684c-4098-4eca-f519-828b09f96464
-  server: 134.33.73.249
-  port: 54254
-  tls: true
-  sni: apple.com
 - name: RU_speednode_0037
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -438,19 +424,6 @@ proxies:
   port: 22231
   tls: true
   sni: r1.mizulina.top
-- name: 'B - 🇺🇸 US 25 TG: @nodpai'
-  type: vless
-  uuid: 96fec558-76d9-40f5-8589-fe01afb6eaf6
-  server: 64.188.124.119
-  port: 8443
-  tls: true
-  sni: yandex.ru
-- name: 'B - 🇺🇸 US 29 TG: @nodpai'
-  type: trojan
-  sni: vpn.rnmcnm.com
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  server: 121.154.96.50
-  port: 18000
 - name: 'C - 🇺🇸 US 32 TG: @nodpai'
   type: vless
   uuid: ace6f892-637f-4053-b12b-7982976ecbb5
@@ -570,6 +543,13 @@ proxies:
   port: 8880
   tls: false
   sni: ''
+- name: 'B - 🇲🇩 MD 01 TG: @nodpai'
+  type: vless
+  uuid: 9beef3b2-5749-4529-a91a-29af1c043d6b
+  server: ru.cleanersaz.help
+  port: 4443
+  tls: true
+  sni: api-maps.yandex.ru
 - name: 'B - 🇸🇨 SC 01 TG: @nodpai'
   type: trojan
   sni: dash.hitgram.ir
@@ -602,13 +582,6 @@ proxies:
   port: 443
   tls: true
   sni: 0w7ymj.spectrum.vu
-- name: 🇩🇪DE_3|1.4MB/s
-  type: vless
-  uuid: 03fa2758-626f-47c7-ac66-5c549e4f4ce0
-  server: 116.203.138.13
-  port: 443
-  tls: true
-  sni: dir.antidogm.xyz
 - name: 🇺🇸US_1|3.2MB/s
   type: trojan
   sni: www.hitgram.ir
@@ -735,6 +708,13 @@ proxies:
   password: Mitivpn
   server: 104.17.121.9
   port: 2053
+- name: 🇫🇷FR_2|1.1MB/s
+  type: vless
+  uuid: 391ff971-a901-415e-b0f1-e0c0047e7a24
+  server: 194.33.34.167
+  port: 443
+  tls: true
+  sni: yahoo.com
 - name: 🇩🇪DE_8|1.4MB/s
   type: vless
   uuid: '%40IR_NETLIFY'
@@ -880,13 +860,6 @@ proxies:
   port: 443
   tls: true
   sni: germany2.chickenkiller.com
-- name: RO_speednode_0032
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-  server: 87.120.93.243
-  port: 443
-  tls: true
-  sni: sub.sbrf-cdn342.ru
 - name: RU_speednode_0039
   type: vless
   uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
@@ -1006,7 +979,6 @@ proxy-groups:
   - 'A - 🇺🇸 US 06 TG: @nodpai'
   - 'A - 🇺🇸 US 07 TG: @nodpai'
   - 'A - 🇺🇸 US 08 TG: @nodpai'
-  - 'A - 🇺🇸 US 09 TG: @nodpai'
   - RU_speednode_0038
   - 'B - 🇺🇸 US 13 TG: @nodpai'
   - 'B - 🇺🇸 US 14 TG: @nodpai'
@@ -1015,10 +987,7 @@ proxy-groups:
   - 'B - 🇺🇸 US 18 TG: @nodpai'
   - US_speednode_0044
   - RU_speednode_0036
-  - 'B - 🇺🇸 US 22 TG: @nodpai'
   - RU_speednode_0037
-  - 'B - 🇺🇸 US 25 TG: @nodpai'
-  - 'B - 🇺🇸 US 29 TG: @nodpai'
   - 'C - 🇺🇸 US 32 TG: @nodpai'
   - 'B - 🇩🇪 DE 02 TG: @nodpai'
   - 'B - 🇩🇪 DE 03 TG: @nodpai'
@@ -1036,12 +1005,12 @@ proxy-groups:
   - 'B - 🇨🇾 CY 01 TG: @nodpai'
   - 'B - 🇨🇾 CY 02 TG: @nodpai'
   - 'A - 🇮🇪 IE 01 TG: @nodpai'
+  - 'B - 🇲🇩 MD 01 TG: @nodpai'
   - 'B - 🇸🇨 SC 01 TG: @nodpai'
   - 'B - 🇸🇨 SC 02 TG: @nodpai'
   - 🇩🇪DE_1|1.1MB/s
   - 🇩🇪DE_2|1.7MB/s
   - 🇪🇪EE_1|2.0MB/s
-  - 🇩🇪DE_3|1.4MB/s
   - 🇺🇸US_1|3.2MB/s
   - 🇺🇸US_2|2.9MB/s
   - 🇩🇪DE_4|2.6MB/s
@@ -1061,6 +1030,7 @@ proxy-groups:
   - 🇵🇱PL_1|2.0MB/s
   - 🇺🇸US_10|2.7MB/s
   - 🇺🇸US_11|1.5MB/s
+  - 🇫🇷FR_2|1.1MB/s
   - 🇩🇪DE_8|1.4MB/s
   - 🇺🇸US_12|2.0MB/s
   - 🇺🇸US_13|2.4MB/s
@@ -1083,7 +1053,6 @@ proxy-groups:
   - GB_speednode_0026
   - NL_speednode_0027
   - NL_speednode_0029
-  - RO_speednode_0032
   - RU_speednode_0039
   - SC_speednode_0040
   - SC_speednode_0041
