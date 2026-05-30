@@ -6,6 +6,13 @@ proxies:
   port: 443
   tls: true
   sni: zyzzzoao.xn--fiqv8j.eu.org
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+  server: 103.123.162.50
+  port: 10011
+  tls: true
+  sni: www.microsoft.com
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -27,7 +34,7 @@ proxies:
   port: 15807
   tls: true
   sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 🇺🇸US_12|1.7MB/s
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 176.124.223.30
@@ -104,7 +111,7 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇺🇸US_10|1.2MB/s
+- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 114.129.43.30
@@ -167,7 +174,7 @@ proxies:
   port: 33940
   tls: false
   sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 🇺🇸US_16|1.4MB/s
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 50.62.198.50
@@ -202,7 +209,7 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇺🇸US_11|1.3MB/s
+- name: 'A - 🇺🇸 US 06 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 160.153.138.30
@@ -279,7 +286,7 @@ proxies:
   port: 443
   tls: false
   sni: ''
-- name: 🇸🇬SG_2|3.1MB/s
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   type: vless
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   server: www.udacity.com
@@ -393,7 +400,7 @@ proxies:
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   server: 90081bb25c.node.tro.cac.cab
   port: 48697
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
+- name: 🇭🇰HK_1|1.4MB/s
   type: trojan
   sni: is.01.naiun.bilibili.com
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -433,6 +440,12 @@ proxies:
   port: 443
   tls: true
   sni: misaka.cndyw.ggff.net
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  type: trojan
+  sni: vpn.rnmcnm.com
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  server: 121.154.96.50
+  port: 18000
 - name: 'B - 🇺🇸 US 44 TG: @nodpai'
   type: vless
   uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
@@ -461,7 +474,7 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇺🇸US_15|1.1MB/s
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 45.80.110.30
@@ -475,7 +488,7 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇺🇸US_17|1.3MB/s
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 77.75.199.30
@@ -496,6 +509,13 @@ proxies:
   port: 8880
   tls: false
   sni: ''
+- name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+  server: 194.58.41.65
+  port: 443
+  tls: true
+  sni: www.microsoft.com
 - name: 'A - 🇩🇪 DE 06 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -622,7 +642,7 @@ proxies:
   port: 8083
   tls: true
   sni: ads.x5.ru
-- name: 🇺🇸US_18|2.0MB/s
+- name: 'A - 🇷🇴 RO 01 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 89.116.180.40
@@ -664,7 +684,7 @@ proxies:
   port: 443
   tls: true
   sni: gwapp-ru01.freenets.store
-- name: 🇺🇸US_13|1.2MB/s
+- name: 'A - 🇮🇪 IE 01 TG: @nodpai'
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   server: 185.170.166.30
@@ -706,189 +726,41 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇨🇭CH_1|2.1MB/s
-  type: vless
-  uuid: monacoVPN
-  server: 172.65.111.43
-  port: 22
-  tls: false
-  sni: ''
-- name: 🇨🇾CY_1|1.3MB/s
-  type: vless
-  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
-  server: lu.vles.space
-  port: 1443
-  tls: true
-  sni: botapi.max.ru
-- name: 🇺🇸US_1|1.2MB/s
-  type: vless
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-  server: 155.212.146.195
-  port: 443
-  tls: true
-  sni: ads.x5.ru
-- name: 🇩🇪DE_1|1.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.195.213.130
-  port: 443
-- name: 🇺🇸US_2|2.5MB/s
-  type: vless
-  uuid: 41d480fd-1dcc-4766-8e01-a67e7faa5934
-  server: 129.6.29.253
-  port: 443
-  tls: true
-  sni: investors.spotify.com.cyylr.eu.cc
-- name: 🇫🇷FR_1|3.4MB/s
+- name: 🇫🇷FR_1|1.2MB/s
   type: vless
   uuid: 47022b4b-bbad-4bb4-a004-87c2d7538a28
   server: 104.20.42.250
   port: 8443
   tls: true
   sni: f101001010.imsoon.org
-- name: GB_speednode_0010
+- name: 🇫🇮FI_1|2.5MB/s
   type: vless
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
-  server: 217.179.6.84
+  uuid: 528587d1-7bd9-413b-b892-8412b11413bb
+  server: 104.18.32.47
+  port: 2083
+  tls: true
+  sni: FiN2.ShAkHle.ir.
+- name: 🇸🇬SG_1|3.4MB/s
+  type: vless
+  uuid: 7f3faff8-41db-403d-8329-6b9072aaabe2
+  server: 198.41.223.61
   port: 443
   tls: true
-  sni: France1cxc.chickenkiller.com
-- name: NZ_speednode_0017
+  sni: edgetunnell-1dc.pages.dev
+- name: 🇮🇹IT_1|1.0MB/s
   type: vless
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
-  server: 202.37.33.81
+  uuid: 7abdd25e-06d4-452f-a06e-a16c22b2104c
+  server: 104.26.14.18
   port: 443
   tls: true
-  sni: m.udemy.com.cyylr.eu.cc
-- name: 🇨🇦CA_1|1.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.157.68.13
-  port: 443
-- name: 🇫🇮FI_1|1.4MB/s
-  type: vless
-  uuid: 0d974d97-fc0f-4e31-9f86-d4972c37b565
-  server: 185.156.19.225
-  port: 2053
-  tls: true
-  sni: cdn.dns.xn--q9jyb4c
-- name: 🇩🇪DE_3|1.0MB/s
-  type: vless
-  uuid: 0dd339d3-0b51-4582-94ec-ffd2397be1ab
-  server: 1.lapis-lazuli.tech
-  port: 443
-  tls: true
-  sni: www.samsung.com
-- name: 🇩🇪DE_4|2.0MB/s
-  type: vless
-  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
-  server: ger-nnn.prostosetup.org
-  port: 443
-  tls: true
-  sni: github.com
-- name: 🇩🇪DE_5|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 35.159.110.250
-  port: 443
-- name: 🇺🇸US_7|2.4MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  server: 23.80.80.22
-  port: 80
-- name: 🇺🇸US_8|1.4MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  server: 104.128.72.119
-  port: 80
-- name: NL_speednode_0015
-  type: vless
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
-  server: 45.66.161.10
-  port: 8443
-  tls: true
-  sni: ya.ru
-- name: 🇩🇪DE_6|1.4MB/s
-  type: vless
-  uuid: af47392c-2a72-44da-bab4-545a3bce4958
-  server: 104.17.231.69
-  port: 2096
-  tls: false
-  sni: FiLEMAnageR.thESTaYleR.iR
-- name: 🇯🇵JP_3|1.9MB/s
-  type: trojan
-  sni: ''
-  password: q6UYkw9nUn6MYZz8Sp
-  server: ty-2.tr202604.com
-  port: 443
-- name: 🇺🇸US_9|1.4MB/s
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 154.17.237.73
-  port: 37811
-  tls: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-- name: 🇰🇷KR_1|1.1MB/s
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 165.246.171.218
-  port: 11019
-  tls: true
-  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-- name: 🇫🇮FI_2|1.7MB/s
-  type: vless
-  uuid: 0d974d97-fc0f-4e31-9f86-d4972c37b565
-  server: 104.17.121.71
-  port: 2053
-  tls: true
-  sni: cdn.dns.xn--q9jyb4c
-- name: 🇫🇮FI_3|1.6MB/s
-  type: vless
-  uuid: 0d974d97-fc0f-4e31-9f86-d4972c37b565
-  server: 69.84.182.49
-  port: 2053
-  tls: true
-  sni: cdn.dns.xn--q9jyb4c
-- name: 🇺🇸US_14|1.2MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 195.26.229.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇭🇰HK_2|1.3MB/s
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  server: zzjp1.ainivp.com
-  port: 13413
-  tls: true
-  sni: www.microsoft.com
-- name: 🇺🇸US_19|2.1MB/s
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  server: zzus5.ainivp.com
-  port: 13405
-  tls: true
-  sni: www.microsoft.com
-- name: 🇷🇺RU_1|1.0MB/s
+  sni: sabio.tll-far.ir
+- name: 🇷🇺RU_1|2.1MB/s
   type: vless
   uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
-  server: 185.14.46.20.blanesik.space
+  server: 185.14.46.20
   port: 443
   tls: true
   sni: 185.14.46.20.blanesik.space
-- name: 🇯🇵JP_4|4.7MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: v1.dabache.top
-  port: 2083
-  tls: true
-  sni: wk1.f1w.de5.net
 - name: BG_speednode_0001
   type: vless
   uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
@@ -910,6 +782,13 @@ proxies:
   port: 443
   tls: true
   sni: www.icloud.com
+- name: GB_speednode_0010
+  type: vless
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+  server: 217.179.6.84
+  port: 443
+  tls: true
+  sni: France1cxc.chickenkiller.com
 - name: MD_speednode_0014
   type: vless
   uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
@@ -917,13 +796,20 @@ proxies:
   port: 443
   tls: true
   sni: yahoo.com
-- name: US_speednode_0024
+- name: NL_speednode_0015
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  server: 47.80.14.130
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  server: 45.66.161.10
+  port: 8443
+  tls: true
+  sni: ya.ru
+- name: NZ_speednode_0017
+  type: vless
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  server: 202.37.33.81
   port: 443
   tls: true
-  sni: api.company-target.com
+  sni: m.udemy.com.cyylr.eu.cc
 - name: US_speednode_0025
   type: vless
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
@@ -992,10 +878,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 'A - 🇭🇰 HK 02 TG: @nodpai'
+  - 'B - 🇭🇰 HK 05 TG: @nodpai'
   - 'A - 🇯🇵 JP 01 TG: @nodpai'
   - 'A - 🇯🇵 JP 02 TG: @nodpai'
   - 'A - 🇯🇵 JP 03 TG: @nodpai'
-  - 🇺🇸US_12|1.7MB/s
+  - 'A - 🇯🇵 JP 05 TG: @nodpai'
   - 'A - 🇯🇵 JP 06 TG: @nodpai'
   - 'A - 🇯🇵 JP 07 TG: @nodpai'
   - 'B - 🇯🇵 JP 08 TG: @nodpai'
@@ -1006,7 +893,7 @@ proxy-groups:
   - 'A - 🇸🇬 SG 05 TG: @nodpai'
   - 'A - 🇸🇬 SG 07 TG: @nodpai'
   - 'A - 🇸🇬 SG 08 TG: @nodpai'
-  - 🇺🇸US_10|1.2MB/s
+  - 'A - 🇸🇬 SG 09 TG: @nodpai'
   - 'A - 🇸🇬 SG 10 TG: @nodpai'
   - 'A - 🇸🇬 SG 11 TG: @nodpai'
   - 'A - 🇸🇬 SG 12 TG: @nodpai'
@@ -1015,12 +902,12 @@ proxy-groups:
   - 'B - 🇸🇬 SG 15 TG: @nodpai'
   - 'B - 🇸🇬 SG 17 TG: @nodpai'
   - 'B - 🇸🇬 SG 18 TG: @nodpai'
-  - 🇺🇸US_16|1.4MB/s
+  - 'A - 🇺🇸 US 01 TG: @nodpai'
   - 'A - 🇺🇸 US 02 TG: @nodpai'
   - 'A - 🇺🇸 US 03 TG: @nodpai'
   - 'A - 🇺🇸 US 04 TG: @nodpai'
   - 'A - 🇺🇸 US 05 TG: @nodpai'
-  - 🇺🇸US_11|1.3MB/s
+  - 'A - 🇺🇸 US 06 TG: @nodpai'
   - 'A - 🇺🇸 US 07 TG: @nodpai'
   - 'A - 🇺🇸 US 08 TG: @nodpai'
   - 'A - 🇺🇸 US 09 TG: @nodpai'
@@ -1031,7 +918,7 @@ proxy-groups:
   - 'A - 🇺🇸 US 14 TG: @nodpai'
   - 'A - 🇺🇸 US 15 TG: @nodpai'
   - US_speednode_0033
-  - 🇸🇬SG_2|3.1MB/s
+  - 'B - 🇺🇸 US 17 TG: @nodpai'
   - 'B - 🇺🇸 US 19 TG: @nodpai'
   - 'B - 🇺🇸 US 20 TG: @nodpai'
   - 'B - 🇺🇸 US 22 TG: @nodpai'
@@ -1048,21 +935,23 @@ proxy-groups:
   - 'B - 🇺🇸 US 33 TG: @nodpai'
   - 'B - 🇺🇸 US 34 TG: @nodpai'
   - 'B - 🇺🇸 US 35 TG: @nodpai'
-  - 'B - 🇺🇸 US 36 TG: @nodpai'
+  - 🇭🇰HK_1|1.4MB/s
   - 'B - 🇺🇸 US 37 TG: @nodpai'
   - 'B - 🇺🇸 US 38 TG: @nodpai'
   - 'B - 🇺🇸 US 39 TG: @nodpai'
   - 'B - 🇺🇸 US 40 TG: @nodpai'
   - 'B - 🇺🇸 US 41 TG: @nodpai'
+  - 'B - 🇺🇸 US 42 TG: @nodpai'
   - 'B - 🇺🇸 US 44 TG: @nodpai'
   - 'C - 🇺🇸 US 45 TG: @nodpai'
   - 'A - 🇬🇧 GB 01 TG: @nodpai'
   - 'A - 🇬🇧 GB 02 TG: @nodpai'
-  - 🇺🇸US_15|1.1MB/s
+  - 'A - 🇬🇧 GB 03 TG: @nodpai'
   - 'B - 🇬🇧 GB 04 TG: @nodpai'
-  - 🇺🇸US_17|1.3MB/s
+  - 'B - 🇬🇧 GB 05 TG: @nodpai'
   - 'A - 🇰🇷 KR 01 TG: @nodpai'
   - 'A - 🇰🇷 KR 02 TG: @nodpai'
+  - 'A - 🇩🇪 DE 04 TG: @nodpai'
   - 'A - 🇩🇪 DE 06 TG: @nodpai'
   - 'B - 🇩🇪 DE 07 TG: @nodpai'
   - 'A - 🇫🇷 FR 01 TG: @nodpai'
@@ -1081,50 +970,30 @@ proxy-groups:
   - 'A - 🇮🇹 IT 01 TG: @nodpai'
   - 'A - 🇪🇸 ES 01 TG: @nodpai'
   - 'B - 🇫🇮 FI 01 TG: @nodpai'
-  - 🇺🇸US_18|2.0MB/s
+  - 'A - 🇷🇴 RO 01 TG: @nodpai'
   - 'A - 🇷🇴 RO 02 TG: @nodpai'
   - 'A - 🇮🇱 IL 01 TG: @nodpai'
   - 'A - 🇧🇬 BG 01 TG: @nodpai'
   - 'A - 🇪🇪 EE 01 TG: @nodpai'
   - 'A - 🇬🇷 GR 01 TG: @nodpai'
-  - 🇺🇸US_13|1.2MB/s
+  - 'A - 🇮🇪 IE 01 TG: @nodpai'
   - 'A - 🇲🇩 MD 01 TG: @nodpai'
   - 'B - 🇷🇸 RS 01 TG: @nodpai'
   - 'A - 🇸🇨 SC 01 TG: @nodpai'
   - 'A - 🇸🇨 SC 02 TG: @nodpai'
   - 'A - 🇸🇨 SC 03 TG: @nodpai'
-  - 🇨🇭CH_1|2.1MB/s
-  - 🇨🇾CY_1|1.3MB/s
-  - 🇺🇸US_1|1.2MB/s
-  - 🇩🇪DE_1|1.2MB/s
-  - 🇺🇸US_2|2.5MB/s
-  - 🇫🇷FR_1|3.4MB/s
-  - GB_speednode_0010
-  - NZ_speednode_0017
-  - 🇨🇦CA_1|1.3MB/s
-  - 🇫🇮FI_1|1.4MB/s
-  - 🇩🇪DE_3|1.0MB/s
-  - 🇩🇪DE_4|2.0MB/s
-  - 🇩🇪DE_5|1.6MB/s
-  - 🇺🇸US_7|2.4MB/s
-  - 🇺🇸US_8|1.4MB/s
-  - NL_speednode_0015
-  - 🇩🇪DE_6|1.4MB/s
-  - 🇯🇵JP_3|1.9MB/s
-  - 🇺🇸US_9|1.4MB/s
-  - 🇰🇷KR_1|1.1MB/s
-  - 🇫🇮FI_2|1.7MB/s
-  - 🇫🇮FI_3|1.6MB/s
-  - 🇺🇸US_14|1.2MB/s
-  - 🇭🇰HK_2|1.3MB/s
-  - 🇺🇸US_19|2.1MB/s
-  - 🇷🇺RU_1|1.0MB/s
-  - 🇯🇵JP_4|4.7MB/s
+  - 🇫🇷FR_1|1.2MB/s
+  - 🇫🇮FI_1|2.5MB/s
+  - 🇸🇬SG_1|3.4MB/s
+  - 🇮🇹IT_1|1.0MB/s
+  - 🇷🇺RU_1|2.1MB/s
   - BG_speednode_0001
   - CH_speednode_0003
   - GB_speednode_0006
+  - GB_speednode_0010
   - MD_speednode_0014
-  - US_speednode_0024
+  - NL_speednode_0015
+  - NZ_speednode_0017
   - US_speednode_0025
   - US_speednode_0026
   - US_speednode_0027
