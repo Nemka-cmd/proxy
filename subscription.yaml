@@ -6,13 +6,6 @@ proxies:
   port: 443
   tls: true
   sni: zyzzzoao.xn--fiqv8j.eu.org
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  type: vless
-  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
-  server: 103.123.162.50
-  port: 10011
-  tls: true
-  sni: www.microsoft.com
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
@@ -327,6 +320,13 @@ proxies:
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   server: blackshadow.dpdns.org
   port: 443
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  type: vless
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+  server: 134.33.73.249
+  port: 54254
+  tls: true
+  sni: apple.com
 - name: 'B - 🇺🇸 US 26 TG: @nodpai'
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -502,13 +502,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-  server: 136.244.94.171
-  port: 10443
-  tls: false
-  sni: ''
 - name: 'A - 🇩🇪 DE 04 TG: @nodpai'
   type: vless
   uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
@@ -586,13 +579,6 @@ proxies:
   port: 443
   tls: true
   sni: g10.steptofsvo.com
-- name: 'A - 🇳🇱 NL 04 TG: @nodpai'
-  type: vless
-  uuid: dd721878-c30f-4d28-ab23-151b29e3526b
-  server: jet.testspeedpro.ir
-  port: 443
-  tls: false
-  sni: ''
 - name: 'A - 🇳🇱 NL 05 TG: @nodpai'
   type: vless
   uuid: 16e7af2f-4066-4fa9-ae41-3103a1250591
@@ -733,18 +719,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  server: 18.166.208.219
-  port: 53018
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.166.59.84
-  port: 7484
 - name: 🇩🇪DE_1|3.3MB/s
   type: vless
   uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
@@ -772,13 +746,6 @@ proxies:
   port: 8443
   tls: true
   sni: io.ozone.ru
-- name: 🇬🇧GB_1|2.0MB/s
-  type: vless
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  server: 82.40.62.106
-  port: 2052
-  tls: false
-  sni: ''
 - name: 🇺🇸US_2|1.5MB/s
   type: vless
   uuid: 482757f6-9a0a-46ea-a8e4-9beaece46697
@@ -813,13 +780,6 @@ proxies:
   port: 2083
   tls: true
   sni: chan1.newappdominfastlogin4.com
-- name: 🇬🇧GB_2|1.2MB/s
-  type: vless
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  server: 82.40.62.106
-  port: 2082
-  tls: false
-  sni: ''
 - name: 🇲🇩MD_1|2.5MB/s
   type: vless
   uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
@@ -1038,7 +998,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 'A - 🇭🇰 HK 02 TG: @nodpai'
-  - 'B - 🇭🇰 HK 05 TG: @nodpai'
   - 'A - 🇯🇵 JP 01 TG: @nodpai'
   - 'A - 🇯🇵 JP 02 TG: @nodpai'
   - 'A - 🇯🇵 JP 03 TG: @nodpai'
@@ -1084,6 +1043,7 @@ proxy-groups:
   - 'B - 🇺🇸 US 22 TG: @nodpai'
   - RU_speednode_0036
   - 'B - 🇺🇸 US 24 TG: @nodpai'
+  - 'B - 🇺🇸 US 25 TG: @nodpai'
   - 'B - 🇺🇸 US 26 TG: @nodpai'
   - 'B - 🇺🇸 US 27 TG: @nodpai'
   - 'B - 🇺🇸 US 28 TG: @nodpai'
@@ -1110,7 +1070,6 @@ proxy-groups:
   - 'B - 🇬🇧 GB 05 TG: @nodpai'
   - 'A - 🇰🇷 KR 01 TG: @nodpai'
   - 'A - 🇰🇷 KR 02 TG: @nodpai'
-  - 'A - 🇩🇪 DE 01 TG: @nodpai'
   - 'A - 🇩🇪 DE 04 TG: @nodpai'
   - 'A - 🇩🇪 DE 06 TG: @nodpai'
   - 'B - 🇩🇪 DE 07 TG: @nodpai'
@@ -1122,7 +1081,6 @@ proxy-groups:
   - 'B - 🇨🇦 CA 02 TG: @nodpai'
   - 'A - 🇳🇱 NL 02 TG: @nodpai'
   - 'A - 🇳🇱 NL 03 TG: @nodpai'
-  - 'A - 🇳🇱 NL 04 TG: @nodpai'
   - 'A - 🇳🇱 NL 05 TG: @nodpai'
   - 'B - 🇳🇱 NL 06 TG: @nodpai'
   - 'A - 🇷🇺 RU 01 TG: @nodpai'
@@ -1143,19 +1101,15 @@ proxy-groups:
   - 'A - 🇸🇨 SC 01 TG: @nodpai'
   - 'A - 🇸🇨 SC 02 TG: @nodpai'
   - 'A - 🇸🇨 SC 03 TG: @nodpai'
-  - 香港3|@ripaojiedian
-  - 新加坡3|@ripaojiedian
   - 🇩🇪DE_1|3.3MB/s
   - 🇩🇪DE_2|2.6MB/s
   - 🇺🇸US_1|2.6MB/s
   - ❓Other_1|2.5MB/s
-  - 🇬🇧GB_1|2.0MB/s
   - 🇺🇸US_2|1.5MB/s
   - 🇳🇱NL_2|2.9MB/s
   - 🇺🇸US_3|2.7MB/s
   - 🇳🇱NL_4|1.3MB/s
   - 🇩🇪DE_3|2.6MB/s
-  - 🇬🇧GB_2|1.2MB/s
   - 🇲🇩MD_1|2.5MB/s
   - 🇦🇪AE_1|2.1MB/s
   - CZ_speednode_0016
