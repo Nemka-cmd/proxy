@@ -103,6 +103,12 @@ proxies:
   port: 443
   tls: true
   sni: www.deepl.com
+- name: 🇸🇬SG_2|1012KB/s
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=
+  server: sg-03.jjsdns.com
+  port: 17891
 - name: 🇹🇼TW_1|3.6MB/s
   type: vless
   uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
@@ -377,6 +383,7 @@ proxy-groups:
   - 🇺🇸US_8|2.5MB/s
   - 🇫🇷FR_1|3.3MB/s
   - 🇩🇪DE_5|3.1MB/s
+  - 🇸🇬SG_2|1012KB/s
   - 🇹🇼TW_1|3.6MB/s
   - 🇰🇷KR_2|1.3MB/s
   - 🇸🇨SC_1|1.6MB/s
