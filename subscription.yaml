@@ -182,6 +182,13 @@ proxies:
   port: 443
   tls: true
   sni: dir.antidogm.xyz
+- name: 🇷🇺RU_2|1.8MB/s
+  type: vless
+  uuid: 10132cf6-6536-4c45-8d75-c90f91a1c5d6
+  server: 37.139.34.63
+  port: 5969
+  tls: true
+  sni: surfvpn24.ru
 - name: 🇸🇬SG_3|3.8MB/s
   type: vless
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -310,6 +317,7 @@ proxy-groups:
   - 🇫🇷FR_2|1.1MB/s
   - 🇺🇸US_12|1.3MB/s
   - 🇩🇪DE_3|3.1MB/s
+  - 🇷🇺RU_2|1.8MB/s
   - 🇸🇬SG_3|3.8MB/s
   - 🇦🇺AU_3|2.6MB/s
   - NL_speednode_0013
