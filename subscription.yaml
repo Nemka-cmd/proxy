@@ -1,97 +1,77 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 18.163.33.60
+  port: 53018
+- name: 香港4|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 43.198.204.47
+  port: 11541
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.183.163.141
+  port: 50712
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.183.163.141
+  port: 4099
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 43.198.204.47
+  port: 11541
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 18.181.199.223
+  port: 8066
+- name: 新加坡|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 18.181.199.223
+  port: 1180
+- name: 新加坡2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 18.163.33.60
+  port: 3842
 - name: 新加坡3|@ripaojiedian
   type: trojan
   sni: t.me%2Fripaojiedian
   password: BxceQaOe
-  server: 52.69.79.73
-  port: 29440
-- name: US_speednode_0053
+  server: 43.206.130.64
+  port: 10478
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d84665c37878196ecf983cf6910e3b44
+  server: 18.163.33.60
+  port: 5224
+- name: 美国3|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
-  server: 95.40.4.37
-  port: 2520
-- name: 🇺🇸US_5|2.6MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 95.40.4.37
-  port: 2520
-- name: 🇨🇭CH_1|2.6MB/s
+  server: 95.40.68.192
+  port: 17801
+- name: 🇨🇭CH_1|1.1MB/s
   type: vless
   uuid: monacoVPN
   server: 172.65.111.43
   port: 22
   tls: false
   sni: ''
-- name: 🇳🇱NL_1|1.7MB/s
-  type: vless
-  uuid: 179718c1-27b3-449d-9626-98c2c854d010
-  server: 31.12.75.118
-  port: 443
-  tls: true
-  sni: del.ccnnx.ir
-- name: 🇩🇪DE_1|1.5MB/s
-  type: vless
-  uuid: ee493449-df40-4d17-9a50-cf28c9288923
-  server: 45.157.232.164
-  port: 15198
-  tls: true
-  sni: www.varzesh3.com
-- name: 🇩🇪DE_2|1.3MB/s
-  type: vless
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  server: 188.114.97.6
-  port: 443
-  tls: true
-  sni: cloudflare.dns.xn--q9jyb4c
-- name: 🇨🇭CH_2|1.3MB/s
-  type: trojan
-  sni: ch.01.naiun.bilibili.com
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 90081bb25c.node.tro.cac.cab
-  port: 45553
-- name: GB_speednode_0020
-  type: trojan
-  sni: water.waittomorrow.top
-  password: da292191-b895-3264-b41c-200512b8f965
-  server: a.twodnwnpoe.xyz
-  port: 40017
-- name: 🇩🇪DE_3|2.6MB/s
-  type: vless
-  uuid: 54327070-1d45-42ac-9ebb-8dffcb343c93
-  server: germany2.samanidempire.org
-  port: 443
-  tls: true
-  sni: germany2.samanidempire.org
-- name: 🇳🇱NL_2|1.7MB/s
-  type: vless
-  uuid: 15a8fadd-3a43-422f-8e63-a87ea7c13221
-  server: 188.114.97.6
-  port: 443
-  tls: true
-  sni: blog.webex.com.cyylr.eu.cc
-- name: 🇩🇪DE_4|1.1MB/s
-  type: vless
-  uuid: 1944d068-8610-4e3f-a900-a7e5ee79037b
-  server: 104.25.115.105
-  port: 443
-  tls: true
-  sni: vvv.alibaba1405.org
-- name: 🇩🇪DE_5|2.1MB/s
-  type: vless
-  uuid: 1944d068-8610-4e3f-a900-a7e5ee79037b
-  server: 172.64.189.180
-  port: 443
-  tls: true
-  sni: vvv.alibaba1405.org
-- name: BE_speednode_0001
-  type: vless
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  server: 150.251.158.76
-  port: 443
-  tls: true
-  sni: s646.okgg.top
 - name: BR_speednode_0002
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -99,20 +79,6 @@ proxies:
   port: 8443
   tls: true
   sni: de1.fromblancwithlove.com
-- name: CH_speednode_0003
-  type: vless
-  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
-  server: 138.124.244.248
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: CZ_speednode_0016
-  type: vless
-  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
-  server: 95.85.228.212
-  port: 443
-  tls: true
-  sni: est.hatvpn.org
 - name: ES_speednode_0017
   type: vless
   uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
@@ -120,6 +86,210 @@ proxies:
   port: 443
   tls: true
   sni: www.vk.ru
+- name: CH_speednode_0003
+  type: vless
+  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
+  server: 138.124.244.248
+  port: 443
+  tls: true
+  sni: yahoo.com
+- name: MD_speednode_0027
+  type: vless
+  uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
+  server: 91.225.217.28
+  port: 443
+  tls: true
+  sni: yahoo.com
+- name: 🇳🇱NL_1|2.4MB/s
+  type: vless
+  uuid: a38cd6ce-0821-49fb-b268-4c780fc9b688
+  server: 85.209.157.45
+  port: 568
+  tls: false
+  sni: ''
+- name: 🇫🇮FI_1|2.6MB/s
+  type: vless
+  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
+  server: 185.18.250.127
+  port: 2096
+  tls: true
+  sni: 69565ce3109804e7813f98ee.mmdbay.blog
+- name: RU_speednode_0042
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: r1.mizulina.top
+  port: 22231
+  tls: true
+  sni: r1.mizulina.top
+- name: RU_speednode_0047
+  type: vless
+  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  server: 217.26.24.101
+  port: 23151
+  tls: true
+  sni: cms-res-web.online.sberbank.ru
+- name: CZ_speednode_0016
+  type: vless
+  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
+  server: 95.85.228.212
+  port: 443
+  tls: true
+  sni: est.hatvpn.org
+- name: 🇬🇧GB_1|2.4MB/s
+  type: vless
+  uuid: 5da02d88-a8cb-4bbb-a667-7d543a72f0a4
+  server: god2.ultimagamest.com
+  port: 443
+  tls: true
+  sni: god2.ultimagamest.com
+- name: 🇸🇪SE_1|2.1MB/s
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+  server: 148.253.211.47
+  port: 443
+  tls: true
+  sni: www.microsoft.com
+- name: 🇩🇪DE_4|1.4MB/s
+  type: vless
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  server: 178.215.238.148
+  port: 8443
+  tls: true
+  sni: eh.vk.com
+- name: RU_speednode_0043
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: 85.234.114.53
+  port: 443
+  tls: true
+  sni: r1.mizulina.top
+- name: 🇸🇬SG_3|2.2MB/s
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 52.69.79.73
+  port: 29440
+- name: 🇵🇱PL_1|1.3MB/s
+  type: vless
+  uuid: ae5ba4be-7262-4199-bd62-210ed8999b9f
+  server: poland-1.bexum.fun
+  port: 443
+  tls: true
+  sni: poland-1.bexum.fun
+- name: 🇸🇬SG_4|2.9MB/s
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 52.69.79.73
+  port: 29440
+- name: 🇩🇪DE_5|2.6MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZSzCXxMc0U8gRNctj6NbfD
+  server: 62.133.60.6
+  port: 443
+- name: 🇺🇸US_6|2.9MB/s
+  type: trojan
+  sni: 95.40.4.37
+  password: BxceQaOe
+  server: 95.40.4.37
+  port: 2520
+- name: 🇳🇱NL_3|2.4MB/s
+  type: trojan
+  sni: blog.webex.com.cyylr.eu.cc
+  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
+  server: 188.114.97.6
+  port: 443
+- name: 🇩🇪DE_6|3.3MB/s
+  type: trojan
+  sni: blog.webex.com.cyylr.eu.cc
+  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
+  server: cyylr.eu.cc
+  port: 443
+- name: 🇳🇱NL_4|2.4MB/s
+  type: vless
+  uuid: 0a4eabad-a6b8-4f4a-b610-4540b9c8f49a
+  server: 188.114.97.6
+  port: 443
+  tls: true
+  sni: ava.game.naver.com.cyylr.eu.cc
+- name: 🇩🇪DE_7|3.0MB/s
+  type: vless
+  uuid: 15a8fadd-3a43-422f-8e63-a87ea7c13221
+  server: cyylr.eu.cc
+  port: 443
+  tls: true
+  sni: blog.webex.com.cyylr.eu.cc
+- name: 🇺🇸US_7|3.2MB/s
+  type: vless
+  uuid: 197f5e5c-fc15-4db6-8444-50248c2c394d
+  server: 27.50.48.49
+  port: 443
+  tls: true
+  sni: somersby.pt.cyylr.eu.cc
+- name: RO_speednode_0035
+  type: vless
+  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
+  server: 87.120.93.69
+  port: 443
+  tls: true
+  sni: www.deepl.com
+- name: 🇳🇱NL_5|2.2MB/s
+  type: vless
+  uuid: 228639b0-48de-4162-a818-d5651ee297b3
+  server: 188.114.97.6
+  port: 443
+  tls: true
+  sni: investors.spotify.com.cyylr.eu.cc
+- name: 🇺🇸US_8|2.6MB/s
+  type: vless
+  uuid: 228639b0-48de-4162-a818-d5651ee297b3
+  server: 27.50.48.49
+  port: 443
+  tls: true
+  sni: investors.spotify.com.cyylr.eu.cc
+- name: 🇬🇧GB_2|2.6MB/s
+  type: vless
+  uuid: 2fb73fb6-1fa1-422e-ad82-a1a7b5f11078
+  server: 31.76.122.131
+  port: 8080
+  tls: true
+  sni: ozon.ru
+- name: 🇬🇧GB_3|2.4MB/s
+  type: vless
+  uuid: 2fb73fb6-1fa1-422e-ad82-a1a7b5f11078
+  server: 31.76.122.135
+  port: 443
+  tls: true
+  sni: god2.ultimagamest.com
+- name: 🇫🇮FI_2|1.9MB/s
+  type: vless
+  uuid: 477535ff-7878-0003-a614-5bb0e4b80959
+  server: spb.connectv.net
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇺🇸US_9|3.2MB/s
+  type: vless
+  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  server: 3h-unitedstates3.09vpn.com
+  port: 8443
+  tls: true
+  sni: ''
+- name: 🇳🇱NL_7|2.0MB/s
+  type: vless
+  uuid: 5a2100c3-7ac2-41e8-a5ef-e0b375c49cc0
+  server: 188.114.97.6
+  port: 443
+  tls: true
+  sni: www.genflix.co.id.cyylr.eu.cc
+- name: BE_speednode_0001
+  type: vless
+  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  server: 150.251.158.76
+  port: 443
+  tls: true
+  sni: s646.okgg.top
 - name: GB_speednode_0018
   type: trojan
   sni: 1.lossyesterday.xyz
@@ -132,13 +302,12 @@ proxies:
   password: da292191-b895-3264-b41c-200512b8f965
   server: a.twodnwnpoe.xyz
   port: 52225
-- name: MD_speednode_0027
-  type: vless
-  uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4
-  server: 91.225.217.28
-  port: 443
-  tls: true
-  sni: yahoo.com
+- name: GB_speednode_0020
+  type: trojan
+  sni: water.waittomorrow.top
+  password: da292191-b895-3264-b41c-200512b8f965
+  server: a.twodnwnpoe.xyz
+  port: 40017
 - name: NZ_speednode_0033
   type: vless
   uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
@@ -146,20 +315,6 @@ proxies:
   port: 443
   tls: true
   sni: m.udemy.com.cyylr.eu.cc
-- name: RO_speednode_0035
-  type: vless
-  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
-  server: 87.120.93.69
-  port: 443
-  tls: true
-  sni: www.deepl.com
-- name: RU_speednode_0042
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: r1.mizulina.top
-  port: 22231
-  tls: true
-  sni: r1.mizulina.top
 - name: RU_speednode_0040
   type: vless
   uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
@@ -167,13 +322,6 @@ proxies:
   port: 443
   tls: true
   sni: yahoo.com
-- name: RU_speednode_0043
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: 85.234.114.53
-  port: 443
-  tls: true
-  sni: r1.mizulina.top
 - name: RU_speednode_0046
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -188,13 +336,12 @@ proxies:
   port: 443
   tls: true
   sni: yahoo.com
-- name: RU_speednode_0047
-  type: vless
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
-  server: 217.26.24.101
-  port: 23151
-  tls: true
-  sni: cms-res-web.online.sberbank.ru
+- name: US_speednode_0053
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 95.40.4.37
+  port: 2520
 - name: US_speednode_0054
   type: vless
   uuid: e277ac9b-3225-4381-a9fb-3585419f7142
@@ -206,35 +353,58 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 新加坡2|@ripaojiedian
   - 新加坡3|@ripaojiedian
-  - US_speednode_0053
-  - 🇺🇸US_5|2.6MB/s
-  - 🇨🇭CH_1|2.6MB/s
-  - 🇳🇱NL_1|1.7MB/s
-  - 🇩🇪DE_1|1.5MB/s
-  - 🇩🇪DE_2|1.3MB/s
-  - 🇨🇭CH_2|1.3MB/s
-  - GB_speednode_0020
-  - 🇩🇪DE_3|2.6MB/s
-  - 🇳🇱NL_2|1.7MB/s
-  - 🇩🇪DE_4|1.1MB/s
-  - 🇩🇪DE_5|2.1MB/s
-  - BE_speednode_0001
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
+  - 🇨🇭CH_1|1.1MB/s
   - BR_speednode_0002
-  - CH_speednode_0003
-  - CZ_speednode_0016
   - ES_speednode_0017
+  - CH_speednode_0003
+  - MD_speednode_0027
+  - 🇳🇱NL_1|2.4MB/s
+  - 🇫🇮FI_1|2.6MB/s
+  - RU_speednode_0042
+  - RU_speednode_0047
+  - CZ_speednode_0016
+  - 🇬🇧GB_1|2.4MB/s
+  - 🇸🇪SE_1|2.1MB/s
+  - 🇩🇪DE_4|1.4MB/s
+  - RU_speednode_0043
+  - 🇸🇬SG_3|2.2MB/s
+  - 🇵🇱PL_1|1.3MB/s
+  - 🇸🇬SG_4|2.9MB/s
+  - 🇩🇪DE_5|2.6MB/s
+  - 🇺🇸US_6|2.9MB/s
+  - 🇳🇱NL_3|2.4MB/s
+  - 🇩🇪DE_6|3.3MB/s
+  - 🇳🇱NL_4|2.4MB/s
+  - 🇩🇪DE_7|3.0MB/s
+  - 🇺🇸US_7|3.2MB/s
+  - RO_speednode_0035
+  - 🇳🇱NL_5|2.2MB/s
+  - 🇺🇸US_8|2.6MB/s
+  - 🇬🇧GB_2|2.6MB/s
+  - 🇬🇧GB_3|2.4MB/s
+  - 🇫🇮FI_2|1.9MB/s
+  - 🇺🇸US_9|3.2MB/s
+  - 🇳🇱NL_7|2.0MB/s
+  - BE_speednode_0001
   - GB_speednode_0018
   - GB_speednode_0019
-  - MD_speednode_0027
+  - GB_speednode_0020
   - NZ_speednode_0033
-  - RO_speednode_0035
-  - RU_speednode_0042
   - RU_speednode_0040
-  - RU_speednode_0043
   - RU_speednode_0046
   - RU_speednode_0045
-  - RU_speednode_0047
+  - US_speednode_0053
   - US_speednode_0054
   url: https://www.gstatic.com/generate_204
   interval: 300
