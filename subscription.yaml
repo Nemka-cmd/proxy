@@ -1,10 +1,4 @@
 proxies:
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.163.33.60
-  port: 53018
 - name: 🇭🇰HK_1|1.3MB/s
   type: trojan
   sni: t.me/ripaojiedian
@@ -29,24 +23,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   server: 18.181.199.223
   port: 1180
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.163.33.60
-  port: 3842
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 43.206.130.64
-  port: 10478
-- name: 🇺🇸US_8|1.1MB/s
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.163.33.60
-  port: 5224
 - name: 美国3|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
@@ -60,6 +36,12 @@ proxies:
   port: 22
   tls: false
   sni: ''
+- name: 🇹🇼TW_1|2.6MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  server: 36.230.8.15
+  port: 50099
 - name: NZ_speednode_0033
   type: vless
   uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
@@ -116,13 +98,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇫🇷FR_1|2.4MB/s
-  type: vless
-  uuid: a8f7bfbc-4bb8-4f10-ac8f-93e0ce4cc46a
-  server: 147.90.14.161
-  port: 8443
-  tls: true
-  sni: www.cloudflare.com
 - name: 🇬🇧GB_1|1.0MB/s
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -163,13 +138,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇱🇻LV_1|1.5MB/s
-  type: vless
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
-  server: 194.76.155.12
-  port: 8443
-  tls: true
-  sni: www.vk.com
 - name: 🇫🇷FR_2|1.1MB/s
   type: vless
   uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
@@ -343,13 +311,6 @@ proxies:
   port: 443
   tls: true
   sni: nl.prime-net.me
-- name: 🇩🇪DE_8|2.5MB/s
-  type: vless
-  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
-  server: 169.40.15.135
-  port: 2053
-  tls: true
-  sni: www.apple.com
 - name: 🇳🇱NL_5|2.0MB/s
   type: vless
   uuid: 12d8b109-394d-4d0c-a208-2b9a41f09f36
@@ -471,16 +432,13 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港3|@ripaojiedian
   - 🇭🇰HK_1|1.3MB/s
   - 日本|@ripaojiedian
   - 日本3|@ripaojiedian
   - 新加坡|@ripaojiedian
-  - 新加坡2|@ripaojiedian
-  - 新加坡3|@ripaojiedian
-  - 🇺🇸US_8|1.1MB/s
   - 美国3|@ripaojiedian
   - 🇨🇭CH_1|1.5MB/s
+  - 🇹🇼TW_1|2.6MB/s
   - NZ_speednode_0033
   - 🇩🇪DE_1|1.1MB/s
   - 🇺🇸US_2|2.2MB/s
@@ -489,14 +447,12 @@ proxy-groups:
   - 🇺🇸US_4|2.2MB/s
   - 🇸🇬SG_1|1.3MB/s
   - 🇫🇮FI_1|1.5MB/s
-  - 🇫🇷FR_1|2.4MB/s
   - 🇬🇧GB_1|1.0MB/s
   - 🇳🇱NL_1|1.2MB/s
   - 🇸🇬SG_2|1.2MB/s
   - 🇺🇸US_5|2.0MB/s
   - 🇷🇺RU_1|2.1MB/s
   - 🇩🇪DE_3|3.5MB/s
-  - 🇱🇻LV_1|1.5MB/s
   - 🇫🇷FR_2|1.1MB/s
   - US_speednode_0053
   - 🇺🇸US_7|2.6MB/s
@@ -523,7 +479,6 @@ proxy-groups:
   - 🇸🇬SG_5|1.3MB/s
   - 🇭🇺HU_1|1.6MB/s
   - 🇳🇱NL_4|1.3MB/s
-  - 🇩🇪DE_8|2.5MB/s
   - 🇳🇱NL_5|2.0MB/s
   - BE_speednode_0001
   - BR_speednode_0002
