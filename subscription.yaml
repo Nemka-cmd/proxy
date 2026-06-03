@@ -29,12 +29,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   server: 18.181.199.223
   port: 8066
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.162.232.155
-  port: 2511
 - name: 新加坡2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
@@ -47,12 +41,6 @@ proxies:
   password: BxceQaOe
   server: 43.199.217.71
   port: 10478
-- name: 美国2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.162.232.155
-  port: 6604
 - name: 美国3|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
@@ -428,13 +416,6 @@ proxies:
   port: 443
   tls: true
   sni: it.s3-cloud.xyz
-- name: GB_speednode_0016
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.112
-  port: 443
-  tls: true
-  sni: it.s3-cloud.xyz
 - name: GB_speednode_0017
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -483,13 +464,6 @@ proxies:
   port: 443
   tls: true
   sni: vnldc.mostserv.xyz
-- name: KR_speednode_0029
-  type: vless
-  uuid: ed285fbd-528e-4610-9a8d-2ad95767c00b
-  server: 152.67.211.233
-  port: 8899
-  tls: true
-  sni: www.lovelive-anime.jp
 - name: RU_speednode_0048
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -580,10 +554,8 @@ proxy-groups:
   - 香港5|@ripaojiedian
   - 日本|@ripaojiedian
   - 日本3|@ripaojiedian
-  - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
   - 新加坡3|@ripaojiedian
-  - 美国2|@ripaojiedian
   - 美国3|@ripaojiedian
   - JP_speednode_0022
   - 🇩🇪DE_3|1.2MB/s
@@ -638,7 +610,6 @@ proxy-groups:
   - GB_speednode_0013
   - GB_speednode_0014
   - GB_speednode_0015
-  - GB_speednode_0016
   - GB_speednode_0017
   - GB_speednode_0018
   - GB_speednode_0019
@@ -646,7 +617,6 @@ proxy-groups:
   - GB_speednode_0021
   - JP_speednode_0023
   - JP_speednode_0024
-  - KR_speednode_0029
   - RU_speednode_0048
   - RU_speednode_0041
   - RU_speednode_0043
