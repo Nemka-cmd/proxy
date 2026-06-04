@@ -5,12 +5,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   server: 43.207.82.19
   port: 31351
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 43.199.217.71
-  port: 19465
 - name: 🇩🇪DE_1|2.8MB/s
   type: vless
   uuid: 0de0be25-c106-4833-bddb-6fdebb7eaeea
@@ -193,7 +187,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 日本2|@ripaojiedian
-  - 新加坡3|@ripaojiedian
   - 🇩🇪DE_1|2.8MB/s
   - 🇳🇱NL_1|1.4MB/s
   - 🇭🇰HK_2|1003KB/s
