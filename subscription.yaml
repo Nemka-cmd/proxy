@@ -93,6 +93,13 @@ proxies:
   port: 443
   tls: true
   sni: it.s3-cloud.xyz
+- name: GB_speednode_0014
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.26
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
 - name: GB_speednode_0015
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -167,6 +174,7 @@ proxy-groups:
   - 🇬🇧GB_2|1.3MB/s
   - DE_speednode_0011
   - GB_speednode_0013
+  - GB_speednode_0014
   - GB_speednode_0015
   - NN_speednode_0020
   - RU_speednode_0039
