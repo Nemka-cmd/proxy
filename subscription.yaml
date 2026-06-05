@@ -6,6 +6,13 @@ proxies:
   port: 443
   tls: true
   sni: drive.speegy.club
+- name: 🇬🇧GB_2|2.0MB/s
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.111
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
 - name: 🇹🇷TR_1|2.6MB/s
   type: vless
   uuid: 0b0f0f45-b79a-4647-b466-d7879cd4aeea
@@ -40,6 +47,13 @@ proxies:
   port: 2087
   tls: true
   sni: ea2dec1206d4da07.rainzone.ir
+- name: 🇩🇪DE_5|2.1MB/s
+  type: vless
+  uuid: a0f0fae4-78d7-4310-841d-b2ae35011236
+  server: 46.249.101.200
+  port: 443
+  tls: false
+  sni: ''
 - name: 🇬🇧GB_3|1.2MB/s
   type: vless
   uuid: 62cb1273-d55e-4550-bc4f-1116fafe7f6b
@@ -126,13 +140,6 @@ proxies:
   password: kfuzkwdg4oynv495aywc
   server: 86.106.84.195
   port: 13262
-- name: 🇩🇪DE_8|2.8MB/s
-  type: vless
-  uuid: telegramchannel-probabblynot
-  server: probabblynot.fazelextremeisreal.com
-  port: 18034
-  tls: true
-  sni: refersion.com
 - name: 🇺🇸US_7|2.4MB/s
   type: vless
   uuid: d78c12c4-6927-40b8-8550-ed9be00334da
@@ -161,6 +168,20 @@ proxies:
   port: 34754
   tls: true
   sni: yahoo.com
+- name: 🇬🇧GB_7|2.1MB/s
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.33
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
+- name: 🇬🇧GB_8|1.1MB/s
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.60
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
 - name: 🇲🇩MD_1|2.2MB/s
   type: vless
   uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
@@ -230,6 +251,13 @@ proxies:
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   server: de-1.hysteria.ltd
   port: 9443
+- name: GB_speednode_0013
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.30
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
 - name: GB_speednode_0014
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -291,11 +319,13 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇩🇪DE_1|1.2MB/s
+  - 🇬🇧GB_2|2.0MB/s
   - 🇹🇷TR_1|2.6MB/s
   - 🇳🇱NL_1|2.4MB/s
   - 🇩🇪DE_3|1.1MB/s
   - 🇷🇺RU_1|2.6MB/s
   - 🇩🇪DE_4|2.3MB/s
+  - 🇩🇪DE_5|2.1MB/s
   - 🇬🇧GB_3|1.2MB/s
   - 🇳🇱NL_3|2.1MB/s
   - 🇩🇪DE_6|1.5MB/s
@@ -309,11 +339,12 @@ proxy-groups:
   - 🇨🇦CA_1|1.9MB/s
   - 🇩🇪DE_7|2.7MB/s
   - 🇨🇭CH_1|2.0MB/s
-  - 🇩🇪DE_8|2.8MB/s
   - 🇺🇸US_7|2.4MB/s
   - 🇬🇧GB_6|1.0MB/s
   - 🇩🇪DE_9|2.1MB/s
   - 🇫🇷FR_3|1.8MB/s
+  - 🇬🇧GB_7|2.1MB/s
+  - 🇬🇧GB_8|1.1MB/s
   - 🇲🇩MD_1|2.2MB/s
   - 🇬🇧GB_9|1018KB/s
   - 🇩🇪DE_10|1.7MB/s
@@ -324,6 +355,7 @@ proxy-groups:
   - 🇸🇬SG_3|1005KB/s
   - 🇸🇬SG_4|1.2MB/s
   - DE_speednode_0011
+  - GB_speednode_0013
   - GB_speednode_0014
   - NN_speednode_0020
   - RU_speednode_0039
