@@ -1,52 +1,4 @@
 proxies:
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 43.198.226.205
-  port: 53018
-- name: 香港5|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 52.196.69.56
-  port: 4327
-- name: 日本2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.167.42.231
-  port: 5701
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 43.198.226.205
-  port: 37973
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 95.40.35.52
-  port: 12143
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.167.42.231
-  port: 6357
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 95.40.35.52
-  port: 6604
-- name: 美国2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d84665c37878196ecf983cf6910e3b44
-  server: 18.167.42.231
-  port: 17005
 - name: 🇹🇼TW_1|2.8MB/s
   type: vless
   uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
@@ -325,14 +277,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港3|@ripaojiedian
-  - 香港5|@ripaojiedian
-  - 日本2|@ripaojiedian
-  - 日本3|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - 新加坡2|@ripaojiedian
-  - 美国|@ripaojiedian
-  - 美国2|@ripaojiedian
   - 🇹🇼TW_1|2.8MB/s
   - 🇬🇧GB_1|1.2MB/s
   - 🇳🇱NL_1|1.9MB/s
