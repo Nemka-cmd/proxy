@@ -54,13 +54,6 @@ proxies:
   password: qwerREWQ@@
   server: 221.150.109.20
   port: 55104
-- name: 🇦🇪AE_1|2.2MB/s
-  type: vless
-  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
-  server: 31.56.188.93
-  port: 7443
-  tls: true
-  sni: mi.com
 - name: 🇨🇦CA_1|3.2MB/s
   type: ss
   cipher: aes-256-cfb
@@ -122,13 +115,6 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
-- name: 🇦🇪AE_2|2.6MB/s
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-  server: 31.56.188.90
-  port: 7443
-  tls: true
-  sni: mi.com
 - name: 🇺🇸US_2|1.0MB/s
   type: vless
   uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
@@ -263,10 +249,24 @@ proxies:
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   server: de-1.hysteria.ltd
   port: 9443
+- name: GB_speednode_0013
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.30
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
 - name: GB_speednode_0014
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
   server: 31.76.113.26
+  port: 443
+  tls: true
+  sni: it.s3-cloud.xyz
+- name: GB_speednode_0015
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.91
   port: 443
   tls: true
   sni: it.s3-cloud.xyz
@@ -317,7 +317,6 @@ proxy-groups:
   - 🇳🇱NL_2|1.6MB/s
   - 🇩🇪DE_4|2.2MB/s
   - 🇰🇷KR_1|3.5MB/s
-  - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
   - 🇬🇧GB_2|3.1MB/s
   - 🇹🇼TW_1|3.7MB/s
@@ -327,7 +326,6 @@ proxy-groups:
   - 🇬🇧GB_3|2.1MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
-  - 🇦🇪AE_2|2.6MB/s
   - 🇺🇸US_2|1.0MB/s
   - RU_speednode_0039
   - 🇳🇱NL_4|1.5MB/s
@@ -348,7 +346,9 @@ proxy-groups:
   - 🇪🇸ES_1|1.0MB/s
   - 🇬🇧GB_5|1.4MB/s
   - DE_speednode_0011
+  - GB_speednode_0013
   - GB_speednode_0014
+  - GB_speednode_0015
   - NN_speednode_0020
   - RU_speednode_0040
   - RU_speednode_0043
