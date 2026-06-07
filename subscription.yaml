@@ -54,6 +54,13 @@ proxies:
   password: qwerREWQ@@
   server: 221.150.109.20
   port: 55104
+- name: 🇦🇪AE_1|2.2MB/s
+  type: vless
+  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
+  server: 31.56.188.93
+  port: 7443
+  tls: true
+  sni: mi.com
 - name: 🇨🇦CA_1|3.2MB/s
   type: ss
   cipher: aes-256-cfb
@@ -80,13 +87,6 @@ proxies:
   port: 8443
   tls: true
   sni: cdn7-09.vk-cdnvideo.com
-- name: 🇳🇱NL_3|2.4MB/s
-  type: vless
-  uuid: c65ca957-329a-0004-8e62-eaaa48468833
-  server: spb.connectv.net
-  port: 443
-  tls: true
-  sni: spb.connectv.net
 - name: 🇬🇧GB_3|2.1MB/s
   type: vless
   uuid: 22fc0199-0567-49aa-8184-c5ef5543d366
@@ -108,6 +108,13 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
+- name: 🇦🇪AE_2|2.6MB/s
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  server: 31.56.188.90
+  port: 7443
+  tls: true
+  sni: mi.com
 - name: 🇺🇸US_2|1.0MB/s
   type: vless
   uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
@@ -310,14 +317,15 @@ proxy-groups:
   - 🇳🇱NL_2|1.6MB/s
   - 🇩🇪DE_4|2.2MB/s
   - 🇰🇷KR_1|3.5MB/s
+  - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
   - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
-  - 🇳🇱NL_3|2.4MB/s
   - 🇬🇧GB_3|2.1MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
+  - 🇦🇪AE_2|2.6MB/s
   - 🇺🇸US_2|1.0MB/s
   - RU_speednode_0039
   - 🇳🇱NL_4|1.5MB/s
