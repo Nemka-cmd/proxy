@@ -1,126 +1,272 @@
 proxies:
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: 4cb67898-2747-45a2-bb65-5b390431977c
   server: core-shop.ir
   port: 443
   tls: true
   sni: core-shop.ir
-- name: 🇦🇺AU_1|2.2MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   type: vless
-  uuid: aca32055-db88-4634-b623-6429ddbb6c93
-  server: 54.252.231.115
-  port: 55292
+  uuid: b38d6372-5e65-427c-b7e0-414c0ccc9973
+  server: 172.66.213.38
+  port: 2087
+  tls: true
+  sni: toshirpilafkani-torostamtahamtani.mgwarrior.ir
+- name: 🇬🇧GB_1|2.5MB/s
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  server: 31.76.113.249
+  port: 7443
+  tls: true
+  sni: icloud.com
+- name: 🇳🇱NL_1|3.2MB/s
+  type: vless
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  server: 45.88.106.249
+  port: 8443
+  tls: true
+  sni: maps.apple.com
+- name: 🇫🇮FI_1|3.7MB/s
+  type: vless
+  uuid: b110e4db-8599-4926-844c-06e64d35f442
+  server: srvrfe1.nexoraservre1.top
+  port: 25879
+  tls: true
+  sni: srvrfe1.nexoraservre1.top
+- name: 🇳🇱NL_2|1.6MB/s
+  type: vless
+  uuid: c65ca957-329a-0001-8e62-eaaa48468833
+  server: b02.connectv.net
+  port: 443
+  tls: true
+  sni: b02.connectv.net
+- name: 🇩🇪DE_4|2.2MB/s
+  type: vless
+  uuid: 36796640-99ff-4834-a43e-5336b6afe450
+  server: 188.114.97.6
+  port: 8443
+  tls: true
+  sni: s3.alivpn.qzz.io
+- name: 🇰🇷KR_1|3.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  server: 221.150.109.20
+  port: 55104
+- name: 🇦🇪AE_1|2.2MB/s
+  type: vless
+  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
+  server: 31.56.188.93
+  port: 7443
+  tls: true
+  sni: mi.com
+- name: 🇨🇦CA_1|3.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.96.152.83
+  port: 443
+- name: 🇬🇧GB_2|3.1MB/s
+  type: vless
+  uuid: 1ef7e301-42e9-47a7-bf57-b2e257ff995b
+  server: gallery.superportret.ru
+  port: 603
+  tls: true
+  sni: gallery.superportret.ru
+- name: 🇹🇼TW_1|3.7MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  server: r3mrcg001269pz2.cybervena.com
+  port: 50099
+- name: 🇷🇴RO_1|1.6MB/s
+  type: vless
+  uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
+  server: 93.114.194.131
+  port: 443
+  tls: true
+  sni: web.max.ru
+- name: 🇭🇺HU_1|2.1MB/s
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  server: 213.171.24.172
+  port: 8443
+  tls: true
+  sni: cdn7-09.vk-cdnvideo.com
+- name: 🇳🇱NL_3|2.4MB/s
+  type: vless
+  uuid: c65ca957-329a-0004-8e62-eaaa48468833
+  server: spb.connectv.net
+  port: 443
+  tls: true
+  sni: spb.connectv.net
+- name: 🇬🇧GB_3|2.1MB/s
+  type: vless
+  uuid: 22fc0199-0567-49aa-8184-c5ef5543d366
+  server: sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir
+  port: 8080
+  tls: true
+  sni: fonts.googleapis.com
+- name: 🇫🇷FR_1|2.6MB/s
+  type: vless
+  uuid: acd726d3-0128-44d8-a575-21013ff7740a
+  server: 51.44.25.250
+  port: 44520
   tls: true
   sni: yahoo.com
-- name: 🇺🇸US_2|1.2MB/s
+- name: 🇩🇪DE_5|2.4MB/s
   type: vless
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  server: 104.18.155.229
+  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
+  server: 45.86.159.171
+  port: 7443
+  tls: true
+  sni: www.microsoft.com
+- name: 🇦🇪AE_2|2.6MB/s
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  server: 31.56.188.90
+  port: 7443
+  tls: true
+  sni: mi.com
+- name: 🇺🇸US_2|1.0MB/s
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  server: 167.104.223.57
+  port: 7443
+  tls: true
+  sni: www.microsoft.com
+- name: RU_speednode_0039
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: r1.mizulina.top
+  port: 22231
+  tls: true
+  sni: r1.mizulina.top
+- name: 🇳🇱NL_4|1.5MB/s
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  server: 89.232.177.114
+  port: 8443
+  tls: true
+  sni: cdn3-87.vk-cdnvideo.com
+- name: 🇨🇦CA_2|1.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 52.60.99.199
+  port: 443
+- name: 🇷🇺RU_1|2.0MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: 32c0ea6e823341a2
+  server: 46.29.163.200
+  port: 20129
+- name: 🇰🇷KR_2|4.7MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  server: 221.150.109.19
+  port: 3417
+- name: 🇨🇿CZ_1|1.7MB/s
+  type: vless
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  server: 89.187.191.231
+  port: 8443
+  tls: true
+  sni: m.vk.com
+- name: 🇸🇪SE_1|1.5MB/s
+  type: vless
+  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
+  server: 144.31.230.72
+  port: 47200
+  tls: true
+  sni: stats.vk-portal.net
+- name: 🇬🇧GB_4|2.4MB/s
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: 31.76.113.56
   port: 443
   tls: true
-  sni: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇹🇼TW_1|1.5MB/s
+  sni: it.s3-cloud.xyz
+- name: 🇨🇭CH_1|3.8MB/s
   type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
-  server: tw3.miyazono-kaori.com
+  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
+  server: l10-1.l-itx.info
   port: 443
   tls: true
-  sni: dlcdnets.asus.com
-- name: 🇬🇭GH_1|1.2MB/s
+  sni: yandex.by
+- name: 🇩🇪DE_6|1.9MB/s
+  type: vless
+  uuid: 91427003-38cb-473e-95f2-a4b500c91f7b
+  server: 176.97.210.14
+  port: 443
+  tls: true
+  sni: germany.milas.click
+- name: 🇺🇸US_4|1.4MB/s
+  type: vless
+  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+  server: 5.35.85.51
+  port: 8443
+  tls: true
+  sni: www.kinopoisk.ru
+- name: 🇺🇸US_5|3.1MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  server: ru.moktana.app
+  port: 51523
+- name: 🇫🇷FR_3|1.5MB/s
   type: trojan
-  sni: gh.01.naiun.bilibili.com
+  sni: fr.01.naiun.bilibili.com
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  server: 155.117.198.87
-  port: 48697
-- name: 🇭🇰HK_1|1.2MB/s
+  server: 155.117.198.83
+  port: 45619
+- name: 🇺🇸US_6|2.4MB/s
   type: vless
-  uuid: 3927ac5a-c32c-42cb-be1b-f1ece562ad84
-  server: vps-rcv-hkg.maze-maker.com
-  port: 48864
-  tls: true
-  sni: www.sony.com
-- name: 🇹🇼TW_2|1.3MB/s
-  type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
-  server: 43.212.235.169
+  uuid: 029a4bc6-4557-4b6b-a5fc-6232e943e43b
+  server: 217.149.25.106
   port: 443
   tls: true
-  sni: dlcdnets.asus.com
-- name: 🇺🇸US_4|1.1MB/s
-  type: trojan
-  sni: dxy1h.twiladaphne.ndjp.net
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 64.186.240.9
-  port: 8443
-- name: 🇺🇸US_5|1.1MB/s
-  type: ss
-  cipher: aes-128-gcm
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 154.26.181.85
-  port: 443
-- name: 🇺🇸US_6|1.8MB/s
-  type: ss
-  cipher: aes-128-gcm
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 64.186.238.108
-  port: 8443
-- name: 🇺🇸US_7|1.3MB/s
-  type: ss
-  cipher: aes-128-gcm
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 154.21.91.144
-  port: 8443
-- name: 🇳🇱NL_1|1.3MB/s
+  sni: ai.sellflow.org
+- name: 🇩🇪DE_7|2.7MB/s
   type: vless
-  uuid: ab268dc7-510f-4fb9-ace4-b7305a59c7bb
-  server: 193.178.226.177.blanesik.space
+  uuid: 0dbad6ba-be87-46e1-ab90-30c53ef1878d
+  server: 188.114.98.0
   port: 443
   tls: true
-  sni: 193.178.226.177.blanesik.space
-- name: 🇯🇵JP_1|3.5MB/s
-  type: ss
-  cipher: aes-128-gcm
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: cdn.9889888.xyz
-  port: 443
-- name: 🇸🇬SG_1|1.2MB/s
-  type: trojan
-  sni: dxy1h.twiladaphne.ndjp.net
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 13.250.131.37
-  port: 443
-- name: 🇭🇰HK_2|2.1MB/s
+  sni: drive.speegy.club
+- name: 🇨🇭CH_2|1.6MB/s
   type: vless
-  uuid: 31fc82da-1136-4a84-a596-7fbba8026c1d
-  server: another-cf.dnsyes.kawaii520.icu
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  server: ch-xh-01.hpdata.click
   port: 443
   tls: true
-  sni: dfs8545fads4ds5f.another-appleid.ccwu.cc
+  sni: ch-xh-01.hpdata.click
+- name: 🇪🇸ES_1|1.0MB/s
+  type: vless
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  server: es-xh-01.hpdata.click
+  port: 443
+  tls: true
+  sni: es-xh-01.hpdata.click
+- name: 🇬🇧GB_5|1.4MB/s
+  type: vless
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  server: uk-xh-01.hpdata.click
+  port: 443
+  tls: true
+  sni: uk-xh-01.hpdata.click
 - name: DE_speednode_0011
   type: trojan
   sni: de-1.hysteria.ltd
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   server: de-1.hysteria.ltd
   port: 9443
-- name: GB_speednode_0013
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.30
-  port: 443
-  tls: true
-  sni: it.s3-cloud.xyz
 - name: GB_speednode_0014
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
   server: 31.76.113.26
-  port: 443
-  tls: true
-  sni: it.s3-cloud.xyz
-- name: GB_speednode_0015
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.91
   port: 443
   tls: true
   sni: it.s3-cloud.xyz
@@ -131,13 +277,6 @@ proxies:
   port: 17512
   tls: true
   sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-- name: RU_speednode_0039
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: r1.mizulina.top
-  port: 22231
-  tls: true
-  sni: r1.mizulina.top
 - name: RU_speednode_0040
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -170,27 +309,47 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪DE_1|1.1MB/s
-  - 🇦🇺AU_1|2.2MB/s
-  - 🇺🇸US_2|1.2MB/s
-  - 🇹🇼TW_1|1.5MB/s
-  - 🇬🇭GH_1|1.2MB/s
-  - 🇭🇰HK_1|1.2MB/s
-  - 🇹🇼TW_2|1.3MB/s
-  - 🇺🇸US_4|1.1MB/s
-  - 🇺🇸US_5|1.1MB/s
-  - 🇺🇸US_6|1.8MB/s
-  - 🇺🇸US_7|1.3MB/s
-  - 🇳🇱NL_1|1.3MB/s
-  - 🇯🇵JP_1|3.5MB/s
-  - 🇸🇬SG_1|1.2MB/s
-  - 🇭🇰HK_2|2.1MB/s
-  - DE_speednode_0011
-  - GB_speednode_0013
-  - GB_speednode_0014
-  - GB_speednode_0015
-  - NN_speednode_0020
+  - 🇩🇪DE_1|1.8MB/s
+  - 🇩🇪DE_3|2.1MB/s
+  - 🇬🇧GB_1|2.5MB/s
+  - 🇳🇱NL_1|3.2MB/s
+  - 🇫🇮FI_1|3.7MB/s
+  - 🇳🇱NL_2|1.6MB/s
+  - 🇩🇪DE_4|2.2MB/s
+  - 🇰🇷KR_1|3.5MB/s
+  - 🇦🇪AE_1|2.2MB/s
+  - 🇨🇦CA_1|3.2MB/s
+  - 🇬🇧GB_2|3.1MB/s
+  - 🇹🇼TW_1|3.7MB/s
+  - 🇷🇴RO_1|1.6MB/s
+  - 🇭🇺HU_1|2.1MB/s
+  - 🇳🇱NL_3|2.4MB/s
+  - 🇬🇧GB_3|2.1MB/s
+  - 🇫🇷FR_1|2.6MB/s
+  - 🇩🇪DE_5|2.4MB/s
+  - 🇦🇪AE_2|2.6MB/s
+  - 🇺🇸US_2|1.0MB/s
   - RU_speednode_0039
+  - 🇳🇱NL_4|1.5MB/s
+  - 🇨🇦CA_2|1.5MB/s
+  - 🇷🇺RU_1|2.0MB/s
+  - 🇰🇷KR_2|4.7MB/s
+  - 🇨🇿CZ_1|1.7MB/s
+  - 🇸🇪SE_1|1.5MB/s
+  - 🇬🇧GB_4|2.4MB/s
+  - 🇨🇭CH_1|3.8MB/s
+  - 🇩🇪DE_6|1.9MB/s
+  - 🇺🇸US_4|1.4MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - 🇫🇷FR_3|1.5MB/s
+  - 🇺🇸US_6|2.4MB/s
+  - 🇩🇪DE_7|2.7MB/s
+  - 🇨🇭CH_2|1.6MB/s
+  - 🇪🇸ES_1|1.0MB/s
+  - 🇬🇧GB_5|1.4MB/s
+  - DE_speednode_0011
+  - GB_speednode_0014
+  - NN_speednode_0020
   - RU_speednode_0040
   - RU_speednode_0043
   - RU_speednode_0042
