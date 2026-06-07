@@ -67,12 +67,6 @@ proxies:
   password: amazonskr05
   server: 3.96.152.83
   port: 443
-- name: 🇹🇼TW_1|3.7MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  server: r3mrcg001269pz2.cybervena.com
-  port: 50099
 - name: 🇷🇴RO_1|1.6MB/s
   type: vless
   uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
@@ -319,7 +313,6 @@ proxy-groups:
   - 🇰🇷KR_1|3.5MB/s
   - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
-  - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
   - 🇬🇧GB_3|2.1MB/s
