@@ -60,13 +60,6 @@ proxies:
   password: amazonskr05
   server: 3.96.152.83
   port: 443
-- name: 🇬🇧GB_2|3.1MB/s
-  type: vless
-  uuid: 1ef7e301-42e9-47a7-bf57-b2e257ff995b
-  server: gallery.superportret.ru
-  port: 603
-  tls: true
-  sni: gallery.superportret.ru
 - name: 🇹🇼TW_1|3.7MB/s
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -318,7 +311,6 @@ proxy-groups:
   - 🇩🇪DE_4|2.2MB/s
   - 🇰🇷KR_1|3.5MB/s
   - 🇨🇦CA_1|3.2MB/s
-  - 🇬🇧GB_2|3.1MB/s
   - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
