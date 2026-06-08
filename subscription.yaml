@@ -95,6 +95,13 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
+- name: 🇦🇪AE_2|2.6MB/s
+  type: vless
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  server: 31.56.188.90
+  port: 7443
+  tls: true
+  sni: mi.com
 - name: 🇺🇸US_2|1.0MB/s
   type: vless
   uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
@@ -122,13 +129,6 @@ proxies:
   password: amazonskr05
   server: 52.60.99.199
   port: 443
-- name: 🇨🇿CZ_1|1.7MB/s
-  type: vless
-  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
-  server: 89.187.191.231
-  port: 8443
-  tls: true
-  sni: m.vk.com
 - name: 🇬🇧GB_4|2.4MB/s
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -313,11 +313,11 @@ proxy-groups:
   - 🇬🇧GB_3|2.1MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
+  - 🇦🇪AE_2|2.6MB/s
   - 🇺🇸US_2|1.0MB/s
   - RU_speednode_0048
   - 🇳🇱NL_4|1.5MB/s
   - 🇨🇦CA_2|1.5MB/s
-  - 🇨🇿CZ_1|1.7MB/s
   - 🇬🇧GB_4|2.4MB/s
   - 🇨🇭CH_1|3.8MB/s
   - 🇩🇪DE_6|1.9MB/s
