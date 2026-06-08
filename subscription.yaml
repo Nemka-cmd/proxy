@@ -1,4 +1,58 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 16.163.146.65
+  port: 2008
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 35.77.201.105
+  port: 16712
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 16.163.146.65
+  port: 5701
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 43.199.144.41
+  port: 55973
+- name: 新加坡|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 16.163.146.65
+  port: 29642
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.166.29.119
+  port: 32434
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 95.40.24.24
+  port: 49277
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  server: 16.163.146.65
+  port: 49277
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.2.184
+  port: 17801
 - name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: 4cb67898-2747-45a2-bb65-5b390431977c
@@ -67,6 +121,12 @@ proxies:
   password: amazonskr05
   server: 3.96.152.83
   port: 443
+- name: 🇹🇼TW_1|3.7MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  server: r3mrcg001269pz2.cybervena.com
+  port: 50099
 - name: 🇷🇴RO_1|1.6MB/s
   type: vless
   uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
@@ -183,13 +243,6 @@ proxies:
   port: 443
   tls: true
   sni: germany.milas.click
-- name: 🇺🇸US_4|1.4MB/s
-  type: vless
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
-  server: 5.35.85.51
-  port: 8443
-  tls: true
-  sni: www.kinopoisk.ru
 - name: 🇺🇸US_5|3.1MB/s
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -303,6 +356,15 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
   - 🇩🇪DE_1|1.8MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇬🇧GB_1|2.5MB/s
@@ -313,6 +375,7 @@ proxy-groups:
   - 🇰🇷KR_1|3.5MB/s
   - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
+  - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
   - 🇬🇧GB_3|2.1MB/s
@@ -330,7 +393,6 @@ proxy-groups:
   - 🇬🇧GB_4|2.4MB/s
   - 🇨🇭CH_1|3.8MB/s
   - 🇩🇪DE_6|1.9MB/s
-  - 🇺🇸US_4|1.4MB/s
   - 🇺🇸US_5|3.1MB/s
   - 🇫🇷FR_3|1.5MB/s
   - 🇺🇸US_6|2.4MB/s
