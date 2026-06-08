@@ -1,10 +1,4 @@
 proxies:
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 43.199.144.41
-  port: 55973
 - name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: 4cb67898-2747-45a2-bb65-5b390431977c
@@ -60,6 +54,12 @@ proxies:
   password: amazonskr05
   server: 3.96.152.83
   port: 443
+- name: 🇹🇼TW_1|3.7MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  server: r3mrcg001269pz2.cybervena.com
+  port: 50099
 - name: 🇷🇴RO_1|1.6MB/s
   type: vless
   uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
@@ -102,7 +102,7 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
-- name: RU_speednode_0039
+- name: RU_speednode_0048
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   server: r1.mizulina.top
@@ -150,7 +150,7 @@ proxies:
   port: 443
   tls: true
   sni: germany.milas.click
-- name: 🇺🇸US_4|1.4MB/s
+- name: RU_speednode_0050
   type: vless
   uuid: 888403d1-621b-481a-b5dc-7aca518a787b
   server: 5.35.85.51
@@ -204,66 +204,101 @@ proxies:
   port: 443
   tls: true
   sni: uk-xh-01.hpdata.click
-- name: DE_speednode_0011
-  type: trojan
-  sni: de-1.hysteria.ltd
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  server: de-1.hysteria.ltd
-  port: 9443
-- name: GB_speednode_0013
+- name: CN_speednode_0002
   type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.30
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+  server: cdn.ph1.cocoduck.org
+  port: 45072
+  tls: true
+  sni: www.apple.com
+- name: DE_speednode_0005
+  type: vless
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+  server: 213.202.223.72
   port: 443
   tls: true
-  sni: it.s3-cloud.xyz
-- name: GB_speednode_0014
+  sni: www.booking.com
+- name: GB_speednode_0006
   type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.26
+  uuid: 99e50b7b-e551-46b3-b74f-d39806835b10
+  server: 212.135.211.105
   port: 443
   tls: true
-  sni: it.s3-cloud.xyz
-- name: GB_speednode_0015
+  sni: www.cloudflare.com
+- name: JP_speednode_0013
   type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  server: 31.76.113.91
-  port: 443
+  uuid: f032fd94-715d-4d37-835f-13959a63df14
+  server: 18.183.94.154
+  port: 39611
   tls: true
-  sni: it.s3-cloud.xyz
-- name: NN_speednode_0020
+  sni: www.icloud.com
+- name: KR_speednode_0014
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 142.248.151.249
-  port: 17512
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+  server: cdn.hk2.cocoduck.org
+  port: 30086
   tls: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-- name: RU_speednode_0040
+  sni: www.apple.com
+- name: KR_speednode_0015
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+  server: cdn.sg1.cocoduck.org
+  port: 15803
+  tls: true
+  sni: www.apple.com
+- name: RU_speednode_0049
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   server: 85.234.114.53
   port: 443
   tls: true
   sni: r1.mizulina.top
-- name: RU_speednode_0043
+- name: SE_speednode_0051
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: 85.234.114.53
-  port: 22231
-  tls: true
-  sni: r1.mizulina.top
-- name: US_speednode_0046
+  uuid: b8c51058-4378-46d3-b2c9-50b43b5715a0
+  server: main.saforia.ru
+  port: 2086
+  tls: false
+  sni: main.saforia.ru
+- name: US_speednode_0062
   type: vless
-  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
-  server: nld02.helpbot.click
+  uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
+  server: 150.241.83.60
   port: 443
   tls: true
-  sni: nld02.helpbot.click
+  sni: www.icloud.com
+- name: US_speednode_0056
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.fbi.gov
+  port: 2095
+  tls: false
+  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
+- name: US_speednode_0057
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: cloudflare-dns.com
+  port: 2095
+  tls: false
+  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
+- name: US_speednode_0058
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.whatismyip.net
+  port: 2095
+  tls: false
+  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
+- name: US_speednode_0060
+  type: vless
+  uuid: ad961404-6249-4a11-9577-d1e81f6b198f
+  server: 150.241.90.13
+  port: 443
+  tls: true
+  sni: monolithgate.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本3|@ripaojiedian
   - 🇩🇪DE_1|1.8MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇳🇱NL_1|3.2MB/s
@@ -272,20 +307,21 @@ proxy-groups:
   - 🇩🇪DE_4|2.2MB/s
   - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
+  - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
   - 🇬🇧GB_3|2.1MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
   - 🇺🇸US_2|1.0MB/s
-  - RU_speednode_0039
+  - RU_speednode_0048
   - 🇳🇱NL_4|1.5MB/s
   - 🇨🇦CA_2|1.5MB/s
   - 🇨🇿CZ_1|1.7MB/s
   - 🇬🇧GB_4|2.4MB/s
   - 🇨🇭CH_1|3.8MB/s
   - 🇩🇪DE_6|1.9MB/s
-  - 🇺🇸US_4|1.4MB/s
+  - RU_speednode_0050
   - 🇺🇸US_5|3.1MB/s
   - 🇫🇷FR_3|1.5MB/s
   - 🇺🇸US_6|2.4MB/s
@@ -293,14 +329,19 @@ proxy-groups:
   - 🇨🇭CH_2|1.6MB/s
   - 🇪🇸ES_1|1.0MB/s
   - 🇬🇧GB_5|1.4MB/s
-  - DE_speednode_0011
-  - GB_speednode_0013
-  - GB_speednode_0014
-  - GB_speednode_0015
-  - NN_speednode_0020
-  - RU_speednode_0040
-  - RU_speednode_0043
-  - US_speednode_0046
+  - CN_speednode_0002
+  - DE_speednode_0005
+  - GB_speednode_0006
+  - JP_speednode_0013
+  - KR_speednode_0014
+  - KR_speednode_0015
+  - RU_speednode_0049
+  - SE_speednode_0051
+  - US_speednode_0062
+  - US_speednode_0056
+  - US_speednode_0057
+  - US_speednode_0058
+  - US_speednode_0060
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
