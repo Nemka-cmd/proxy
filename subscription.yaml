@@ -1,22 +1,10 @@
 proxies:
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 35.77.201.105
-  port: 16712
 - name: 日本3|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: d02e3bb7e6b3333e818d36866d40de6e
   server: 43.199.144.41
   port: 55973
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 95.40.24.24
-  port: 49277
 - name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: 4cb67898-2747-45a2-bb65-5b390431977c
@@ -72,12 +60,6 @@ proxies:
   password: amazonskr05
   server: 3.96.152.83
   port: 443
-- name: 🇹🇼TW_1|3.7MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  server: r3mrcg001269pz2.cybervena.com
-  port: 50099
 - name: 🇷🇴RO_1|1.6MB/s
   type: vless
   uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc
@@ -140,12 +122,6 @@ proxies:
   password: amazonskr05
   server: 52.60.99.199
   port: 443
-- name: 🇷🇺RU_1|2.0MB/s
-  type: ss
-  cipher: aes-256-gcm
-  password: 32c0ea6e823341a2
-  server: 46.29.163.200
-  port: 20129
 - name: 🇨🇿CZ_1|1.7MB/s
   type: vless
   uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
@@ -153,13 +129,6 @@ proxies:
   port: 8443
   tls: true
   sni: m.vk.com
-- name: 🇸🇪SE_1|1.5MB/s
-  type: vless
-  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
-  server: 144.31.230.72
-  port: 47200
-  tls: true
-  sni: stats.vk-portal.net
 - name: 🇬🇧GB_4|2.4MB/s
   type: vless
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
@@ -283,13 +252,6 @@ proxies:
   port: 22231
   tls: true
   sni: r1.mizulina.top
-- name: RU_speednode_0042
-  type: vless
-  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
-  server: 213.108.2.130
-  port: 443
-  tls: true
-  sni: cloudflare.com
 - name: US_speednode_0046
   type: vless
   uuid: b95e6017-d54e-4016-b651-91c86aeaa463
@@ -301,9 +263,7 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本|@ripaojiedian
   - 日本3|@ripaojiedian
-  - 美国|@ripaojiedian
   - 🇩🇪DE_1|1.8MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇳🇱NL_1|3.2MB/s
@@ -312,7 +272,6 @@ proxy-groups:
   - 🇩🇪DE_4|2.2MB/s
   - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
-  - 🇹🇼TW_1|3.7MB/s
   - 🇷🇴RO_1|1.6MB/s
   - 🇭🇺HU_1|2.1MB/s
   - 🇬🇧GB_3|2.1MB/s
@@ -322,9 +281,7 @@ proxy-groups:
   - RU_speednode_0039
   - 🇳🇱NL_4|1.5MB/s
   - 🇨🇦CA_2|1.5MB/s
-  - 🇷🇺RU_1|2.0MB/s
   - 🇨🇿CZ_1|1.7MB/s
-  - 🇸🇪SE_1|1.5MB/s
   - 🇬🇧GB_4|2.4MB/s
   - 🇨🇭CH_1|3.8MB/s
   - 🇩🇪DE_6|1.9MB/s
@@ -343,7 +300,6 @@ proxy-groups:
   - NN_speednode_0020
   - RU_speednode_0040
   - RU_speednode_0043
-  - RU_speednode_0042
   - US_speednode_0046
   url: https://www.gstatic.com/generate_204
   interval: 300
