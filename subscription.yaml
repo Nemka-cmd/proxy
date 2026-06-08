@@ -1,58 +1,22 @@
 proxies:
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 16.163.146.65
-  port: 2008
 - name: 日本|@ripaojiedian
   type: trojan
   sni: t.me%2Fripaojiedian
   password: BxceQaOe
   server: 35.77.201.105
   port: 16712
-- name: 日本2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 16.163.146.65
-  port: 5701
 - name: 日本3|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: d02e3bb7e6b3333e818d36866d40de6e
   server: 43.199.144.41
   port: 55973
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 16.163.146.65
-  port: 29642
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.166.29.119
-  port: 32434
 - name: 美国|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: d02e3bb7e6b3333e818d36866d40de6e
   server: 95.40.24.24
   port: 49277
-- name: 美国2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 16.163.146.65
-  port: 49277
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 54.46.2.184
-  port: 17801
 - name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: 4cb67898-2747-45a2-bb65-5b390431977c
@@ -67,13 +31,6 @@ proxies:
   port: 2087
   tls: true
   sni: toshirpilafkani-torostamtahamtani.mgwarrior.ir
-- name: 🇬🇧GB_1|2.5MB/s
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-  server: 31.76.113.249
-  port: 7443
-  tls: true
-  sni: icloud.com
 - name: 🇳🇱NL_1|3.2MB/s
   type: vless
   uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
@@ -102,12 +59,6 @@ proxies:
   port: 8443
   tls: true
   sni: s3.alivpn.qzz.io
-- name: 🇰🇷KR_1|3.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  server: 221.150.109.20
-  port: 55104
 - name: 🇦🇪AE_1|2.2MB/s
   type: vless
   uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
@@ -162,13 +113,6 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
-- name: 🇦🇪AE_2|2.6MB/s
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-  server: 31.56.188.90
-  port: 7443
-  tls: true
-  sni: mi.com
 - name: 🇺🇸US_2|1.0MB/s
   type: vless
   uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
@@ -202,12 +146,6 @@ proxies:
   password: 32c0ea6e823341a2
   server: 46.29.163.200
   port: 20129
-- name: 🇰🇷KR_2|4.7MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  server: 221.150.109.19
-  port: 3417
 - name: 🇨🇿CZ_1|1.7MB/s
   type: vless
   uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
@@ -243,6 +181,13 @@ proxies:
   port: 443
   tls: true
   sni: germany.milas.click
+- name: 🇺🇸US_4|1.4MB/s
+  type: vless
+  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+  server: 5.35.85.51
+  port: 8443
+  tls: true
+  sni: www.kinopoisk.ru
 - name: 🇺🇸US_5|3.1MB/s
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -356,23 +301,15 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港3|@ripaojiedian
   - 日本|@ripaojiedian
-  - 日本2|@ripaojiedian
   - 日本3|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - 新加坡3|@ripaojiedian
   - 美国|@ripaojiedian
-  - 美国2|@ripaojiedian
-  - 美国3|@ripaojiedian
   - 🇩🇪DE_1|1.8MB/s
   - 🇩🇪DE_3|2.1MB/s
-  - 🇬🇧GB_1|2.5MB/s
   - 🇳🇱NL_1|3.2MB/s
   - 🇫🇮FI_1|3.7MB/s
   - 🇳🇱NL_2|1.6MB/s
   - 🇩🇪DE_4|2.2MB/s
-  - 🇰🇷KR_1|3.5MB/s
   - 🇦🇪AE_1|2.2MB/s
   - 🇨🇦CA_1|3.2MB/s
   - 🇹🇼TW_1|3.7MB/s
@@ -381,18 +318,17 @@ proxy-groups:
   - 🇬🇧GB_3|2.1MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
-  - 🇦🇪AE_2|2.6MB/s
   - 🇺🇸US_2|1.0MB/s
   - RU_speednode_0039
   - 🇳🇱NL_4|1.5MB/s
   - 🇨🇦CA_2|1.5MB/s
   - 🇷🇺RU_1|2.0MB/s
-  - 🇰🇷KR_2|4.7MB/s
   - 🇨🇿CZ_1|1.7MB/s
   - 🇸🇪SE_1|1.5MB/s
   - 🇬🇧GB_4|2.4MB/s
   - 🇨🇭CH_1|3.8MB/s
   - 🇩🇪DE_6|1.9MB/s
+  - 🇺🇸US_4|1.4MB/s
   - 🇺🇸US_5|3.1MB/s
   - 🇫🇷FR_3|1.5MB/s
   - 🇺🇸US_6|2.4MB/s
