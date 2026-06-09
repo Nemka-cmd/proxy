@@ -18,20 +18,6 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   server: yx.cloudflare.182682.xyz
   port: 443
-- name: 🇫🇮FI_1|1.0MB/s
-  type: vless
-  uuid: 64c03b7a-f3f3-4d78-bc82-a233ced89cea
-  server: Divar.ir.ShaKHle.iR
-  port: 25000
-  tls: true
-  sni: www.yahoo.com
-- name: 🇫🇮FI_2|1001KB/s
-  type: vless
-  uuid: 64c03b7a-f3f3-4d78-bc82-a233ced89cea
-  server: divar.ir.shakhle.ir
-  port: 25000
-  tls: true
-  sni: www.yahoo.com
 - name: 🇩🇪DE_2|1.2MB/s
   type: vless
   uuid: ee493449-df40-4d17-9a50-cf28c9288923
@@ -251,97 +237,117 @@ proxies:
   port: 2095
   tls: false
   sni: ''
-- name: CN_speednode_0002
+- name: DO_speednode_0001
   type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-  server: cdn.ph1.cocoduck.org
-  port: 45072
-  tls: true
-  sni: www.apple.com
-- name: DE_speednode_0005
-  type: vless
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  server: 213.202.223.72
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
   port: 443
   tls: true
-  sni: www.booking.com
-- name: GB_speednode_0006
+  sni: linek.perry.us.kg
+- name: DO_speednode_0002
   type: vless
-  uuid: 99e50b7b-e551-46b3-b74f-d39806835b10
-  server: 212.135.211.105
-  port: 443
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
+  port: 2083
   tls: true
-  sni: www.cloudflare.com
-- name: KR_speednode_0014
+  sni: linek.perry.us.kg
+- name: DO_speednode_0003
   type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-  server: cdn.hk2.cocoduck.org
-  port: 30086
-  tls: true
-  sni: www.apple.com
-- name: KR_speednode_0015
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-  server: cdn.sg1.cocoduck.org
-  port: 15803
-  tls: true
-  sni: www.apple.com
-- name: RU_speednode_0048
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: r1.mizulina.top
-  port: 22231
-  tls: true
-  sni: r1.mizulina.top
-- name: RU_speednode_0049
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  server: 85.234.114.53
-  port: 443
-  tls: true
-  sni: r1.mizulina.top
-- name: RU_speednode_0050
-  type: vless
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
-  server: 5.35.85.51
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
   port: 8443
   tls: true
-  sni: www.kinopoisk.ru
-- name: US_speednode_0062
+  sni: linek.perry.us.kg
+- name: DO_speednode_0004
   type: vless
-  uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
-  server: 150.241.83.60
-  port: 443
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
+  port: 2096
+  tls: false
+  sni: linek.perry.us.kg
+- name: DO_speednode_0005
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
+  port: 2053
   tls: true
-  sni: www.icloud.com
-- name: US_speednode_0056
+  sni: linek.perry.us.kg
+- name: DO_speednode_0006
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: www.fbi.gov
-  port: 2095
-  tls: false
-  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-- name: US_speednode_0057
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 181.36.229.212
+  port: 2087
+  tls: true
+  sni: linek.perry.us.kg
+- name: KR_speednode_0008
+  type: trojan
+  sni: node3.bw8848.org
+  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
+  server: node3.bw8848.org
+  port: 443
+- name: NL_speednode_0009
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: cloudflare-dns.com
-  port: 2095
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 185.125.100.160
+  port: 443
   tls: false
-  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-- name: US_speednode_0058
+  sni: linek.perry.us.kg
+- name: UA_speednode_0054
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: www.whatismyip.net
-  port: 2095
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 92.113.146.87
+  port: 443
   tls: false
-  sni: cnmfangbinxing.cnmfangbinxing-a.workers.dev
-- name: US_speednode_0060
+  sni: linek.perry.us.kg
+- name: US_speednode_0055
   type: vless
   uuid: ad961404-6249-4a11-9577-d1e81f6b198f
   server: 150.241.90.13
   port: 443
   tls: true
   sni: monolithgate.com
+- name: US_speednode_0057
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 132.243.203.218
+  port: 8443
+  tls: false
+  sni: linek.perry.us.kg
+- name: US_speednode_0058
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 132.243.203.221
+  port: 8443
+  tls: true
+  sni: linek.perry.us.kg
+- name: US_speednode_0059
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 132.243.203.193
+  port: 8443
+  tls: true
+  sni: linek.perry.us.kg
+- name: US_speednode_0060
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 132.243.203.210
+  port: 8443
+  tls: false
+  sni: linek.perry.us.kg
+- name: US_speednode_0061
+  type: vless
+  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
+  server: 132.243.203.211
+  port: 8443
+  tls: false
+  sni: linek.perry.us.kg
+- name: US_speednode_0062
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  server: 172.67.195.79
+  port: 443
+  tls: false
+  sni: cdn.veilvpn.fans
 proxy-groups:
 - name: Auto
   type: url-test
@@ -349,8 +355,6 @@ proxy-groups:
   - 香港4|@ripaojiedian
   - 🇸🇬SG_1|1.2MB/s
   - 🇸🇬SG_2|1020KB/s
-  - 🇫🇮FI_1|1.0MB/s
-  - 🇫🇮FI_2|1001KB/s
   - 🇩🇪DE_2|1.2MB/s
   - 🇩🇪DE_3|2.5MB/s
   - 🇩🇪DE_4|2.5MB/s
@@ -383,19 +387,22 @@ proxy-groups:
   - 🇦🇺AU_1|2.3MB/s
   - 🇹🇷TR_3|1.2MB/s
   - 🇸🇬SG_5|1.5MB/s
-  - CN_speednode_0002
-  - DE_speednode_0005
-  - GB_speednode_0006
-  - KR_speednode_0014
-  - KR_speednode_0015
-  - RU_speednode_0048
-  - RU_speednode_0049
-  - RU_speednode_0050
-  - US_speednode_0062
-  - US_speednode_0056
+  - DO_speednode_0001
+  - DO_speednode_0002
+  - DO_speednode_0003
+  - DO_speednode_0004
+  - DO_speednode_0005
+  - DO_speednode_0006
+  - KR_speednode_0008
+  - NL_speednode_0009
+  - UA_speednode_0054
+  - US_speednode_0055
   - US_speednode_0057
   - US_speednode_0058
+  - US_speednode_0059
   - US_speednode_0060
+  - US_speednode_0061
+  - US_speednode_0062
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
