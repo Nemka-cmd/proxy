@@ -1,58 +1,10 @@
 proxies:
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 43.199.189.110
-  port: 53018
 - name: 香港4|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
   server: 119.246.1.143
   port: 443
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 54.178.8.69
-  port: 6737
-- name: 日本2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 43.199.189.110
-  port: 3743
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 18.162.124.37
-  port: 6357
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 18.162.124.37
-  port: 48738
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.162.54.223
-  port: 41421
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 18.162.124.37
-  port: 17005
-- name: 美国2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  server: 43.198.98.40
-  port: 17005
 - name: RU_speednode_0048
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
@@ -230,6 +182,12 @@ proxies:
   port: 8443
   tls: true
   sni: alicdn.devefunx.net
+- name: 🇺🇸US_8|2.2MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  server: account-center.zzdy25.com
+  port: 36321
 - name: 🇸🇬SG_6|1.2MB/s
   type: vless
   uuid: 2a222b39-411e-4d6d-800a-5d067199b6ec
@@ -263,13 +221,6 @@ proxies:
   port: 2087
   tls: true
   sni: us1.monopolitass.ir
-- name: 🇩🇪DE_8|1.4MB/s
-  type: vless
-  uuid: 045acec8-7d9e-4793-9917-c909a4a70887
-  server: gerped.rainzone.ir
-  port: 11332
-  tls: true
-  sni: www.yahoo.com
 - name: CN_speednode_0002
   type: vless
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
@@ -284,6 +235,13 @@ proxies:
   port: 443
   tls: true
   sni: www.booking.com
+- name: GB_speednode_0006
+  type: vless
+  uuid: 99e50b7b-e551-46b3-b74f-d39806835b10
+  server: 212.135.211.105
+  port: 443
+  tls: true
+  sni: www.cloudflare.com
 - name: JP_speednode_0013
   type: vless
   uuid: f032fd94-715d-4d37-835f-13959a63df14
@@ -319,13 +277,6 @@ proxies:
   port: 8443
   tls: true
   sni: www.kinopoisk.ru
-- name: SE_speednode_0051
-  type: vless
-  uuid: b8c51058-4378-46d3-b2c9-50b43b5715a0
-  server: main.saforia.ru
-  port: 2086
-  tls: false
-  sni: main.saforia.ru
 - name: US_speednode_0062
   type: vless
   uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
@@ -365,15 +316,7 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
-  - 日本|@ripaojiedian
-  - 日本2|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - 新加坡2|@ripaojiedian
-  - 新加坡3|@ripaojiedian
-  - 美国|@ripaojiedian
-  - 美国2|@ripaojiedian
   - RU_speednode_0048
   - 🇭🇰HK_2|4.7MB/s
   - 🇺🇸US_3|2.5MB/s
@@ -400,20 +343,20 @@ proxy-groups:
   - 🇸🇬SG_5|1.5MB/s
   - 🇫🇮FI_3|1.6MB/s
   - 🇬🇧GB_1|1.7MB/s
+  - 🇺🇸US_8|2.2MB/s
   - 🇸🇬SG_6|1.2MB/s
   - 🇩🇪DE_7|2.0MB/s
   - 🇮🇸IS_1|1.1MB/s
   - 🇬🇧GB_2|1.7MB/s
   - 🇺🇸US_9|1.1MB/s
-  - 🇩🇪DE_8|1.4MB/s
   - CN_speednode_0002
   - DE_speednode_0005
+  - GB_speednode_0006
   - JP_speednode_0013
   - KR_speednode_0014
   - KR_speednode_0015
   - RU_speednode_0049
   - RU_speednode_0050
-  - SE_speednode_0051
   - US_speednode_0062
   - US_speednode_0056
   - US_speednode_0057
