@@ -126,13 +126,6 @@ proxies:
   port: 8443
   tls: true
   sni: buh-ro-01.fromblancwithlove.com
-- name: 🇨🇭CH_2|1.7MB/s
-  type: vless
-  uuid: 4788ff67-57af-425a-9b47-5a63b20e2f57
-  server: m.exon-software.ir
-  port: 8880
-  tls: false
-  sni: ''
 - name: 🇰🇷KR_2|1.4MB/s
   type: vless
   uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
@@ -335,7 +328,6 @@ proxy-groups:
   - 🇵🇱PL_1|1.2MB/s
   - 🇯🇵JP_2|2.5MB/s
   - 🇷🇴RO_5|2.1MB/s
-  - 🇨🇭CH_2|1.7MB/s
   - 🇰🇷KR_2|1.4MB/s
   - 🇯🇵JP_3|1.9MB/s
   - 🇸🇬SG_4|1.7MB/s
