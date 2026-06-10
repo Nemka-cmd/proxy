@@ -1,10 +1,4 @@
 proxies:
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 43.199.207.202
-  port: 16712
 - name: 🇸🇬SG_2|1.0MB/s
   type: trojan
   sni: www.nintendogames.net
@@ -128,116 +122,108 @@ proxies:
   port: 2086
   tls: false
   sni: ''
-- name: DO_speednode_0001
+- name: HK_speednode_0002
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  server: hk4.miyazono-kaori.com
   port: 443
   tls: true
-  sni: linek.perry.us.kg
-- name: DO_speednode_0002
+  sni: hk4e-launcher-static.hoyoverse.com
+- name: ID_speednode_0003
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
-  port: 2083
-  tls: true
-  sni: linek.perry.us.kg
-- name: DO_speednode_0003
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
+  uuid: 85c42ce4-7789-49cb-9012-9d6d6ba16581
+  server: tralalero.site
   port: 8443
   tls: true
-  sni: linek.perry.us.kg
-- name: DO_speednode_0004
+  sni: storage.yandex.net
+- name: KR_speednode_0004
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
-  port: 2096
-  tls: false
-  sni: linek.perry.us.kg
-- name: DO_speednode_0005
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
-  port: 2053
-  tls: true
-  sni: linek.perry.us.kg
-- name: DO_speednode_0006
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 181.36.229.212
-  port: 2087
-  tls: true
-  sni: linek.perry.us.kg
-- name: NL_speednode_0009
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 185.125.100.160
-  port: 443
-  tls: false
-  sni: linek.perry.us.kg
-- name: UA_speednode_0054
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 92.113.146.87
-  port: 443
-  tls: false
-  sni: linek.perry.us.kg
-- name: US_speednode_0055
-  type: vless
-  uuid: ad961404-6249-4a11-9577-d1e81f6b198f
-  server: 150.241.90.13
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  server: kr2.miyazono-kaori.com
   port: 443
   tls: true
-  sni: monolithgate.com
-- name: US_speednode_0057
+  sni: www.coway.com
+- name: RU_speednode_0062
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 132.243.203.218
-  port: 8443
-  tls: false
-  sni: linek.perry.us.kg
-- name: US_speednode_0058
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 132.243.203.221
-  port: 8443
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: r1.mizulina.top
+  port: 22231
   tls: true
-  sni: linek.perry.us.kg
-- name: US_speednode_0059
+  sni: ''
+- name: US_speednode_0066
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 132.243.203.193
-  port: 8443
-  tls: true
-  sni: linek.perry.us.kg
-- name: US_speednode_0060
-  type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 132.243.203.210
-  port: 8443
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  server: 199.232.197.131
+  port: 80
   tls: false
-  sni: linek.perry.us.kg
-- name: US_speednode_0061
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0067
   type: vless
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  server: 132.243.203.211
-  port: 8443
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  server: speedtest.net
+  port: 80
   tls: false
-  sni: linek.perry.us.kg
-- name: US_speednode_0062
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0068
   type: vless
-  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
-  server: 172.67.195.79
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  server: speedtest.net
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0069
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  server: 151.101.0.1
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0070
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  server: 151.101.194.219
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0071
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  server: 167.82.0.1
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0072
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  server: 151.101.2.219
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0073
+  type: vless
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  server: 151.101.0.1
+  port: 80
+  tls: false
+  sni: max-gb1.global.ssl.fastly.net
+- name: US_speednode_0074
+  type: vless
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  server: tw3.miyazono-kaori.com
   port: 443
-  tls: false
-  sni: cdn.veilvpn.fans
+  tls: true
+  sni: dlcdnets.asus.com
+- name: US_speednode_0075
+  type: vless
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  server: tw4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: dlcdnets.asus.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本|@ripaojiedian
   - 🇸🇬SG_2|1.0MB/s
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
@@ -257,21 +243,20 @@ proxy-groups:
   - 🇩🇪DE_2|1.7MB/s
   - 🇺🇸US_8|1.8MB/s
   - 🇳🇱NL_1|1.7MB/s
-  - DO_speednode_0001
-  - DO_speednode_0002
-  - DO_speednode_0003
-  - DO_speednode_0004
-  - DO_speednode_0005
-  - DO_speednode_0006
-  - NL_speednode_0009
-  - UA_speednode_0054
-  - US_speednode_0055
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
+  - HK_speednode_0002
+  - ID_speednode_0003
+  - KR_speednode_0004
+  - RU_speednode_0062
+  - US_speednode_0066
+  - US_speednode_0067
+  - US_speednode_0068
+  - US_speednode_0069
+  - US_speednode_0070
+  - US_speednode_0071
+  - US_speednode_0072
+  - US_speednode_0073
+  - US_speednode_0074
+  - US_speednode_0075
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
