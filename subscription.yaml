@@ -48,13 +48,6 @@ proxies:
   port: 443
   tls: true
   sni: default.ssl.fastly.net
-- name: 🇩🇪DE_5|2.1MB/s
-  type: vless
-  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
-  server: de.tgru.in
-  port: 443
-  tls: true
-  sni: tgru.in
 - name: 🇺🇸US_1|2.3MB/s
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -118,13 +111,13 @@ proxies:
   port: 22231
   tls: true
   sni: r1.mizulina.top
-- name: 🇮🇳IN_1|1.7MB/s
+- name: 🇳🇱NL_3|1.3MB/s
   type: vless
-  uuid: d4d234ea-80ea-4820-ac5e-05d653960579
-  server: 187.124.98.130
-  port: 3443
+  uuid: 5a96b986-1a96-4005-b5ae-45096ae6f85a
+  server: 194.147.149.142
+  port: 443
   tls: true
-  sni: amd.com
+  sni: nl.locklance.lol
 - name: 🇺🇸US_5|2.0MB/s
   type: vless
   uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
@@ -181,13 +174,6 @@ proxies:
   port: 443
   tls: true
   sni: tgru.in
-- name: 🇺🇸US_7|1.6MB/s
-  type: vless
-  uuid: c5945c28-ecab-4c5b-8681-f742b7c88cf5
-  server: 2.26.134.124
-  port: 443
-  tls: false
-  sni: ''
 - name: 🇳🇱NL_5|2.1MB/s
   type: vless
   uuid: d5b52d85-714e-4b3c-95cd-ca0cbfba35c3
@@ -272,13 +258,6 @@ proxies:
   port: 443
   tls: true
   sni: technology.proektblog.space
-- name: 🇩🇪DE_13|3.3MB/s
-  type: vless
-  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-  server: 46.225.155.159
-  port: 1006
-  tls: true
-  sni: yahoo.com
 - name: HK_speednode_0002
   type: vless
   uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
@@ -388,7 +367,6 @@ proxy-groups:
   - 🇷🇺RU_1|2.5MB/s
   - 🇦🇺AU_1|2.4MB/s
   - 🇩🇪DE_4|1.3MB/s
-  - 🇩🇪DE_5|2.1MB/s
   - 🇺🇸US_1|2.3MB/s
   - 🇺🇸US_6|2.4MB/s
   - 🇫🇷FR_1|2.6MB/s
@@ -398,7 +376,7 @@ proxy-groups:
   - 🇳🇱NL_2|2.6MB/s
   - 🇹🇷TR_1|1.2MB/s
   - 🇺🇸US_4|1.7MB/s
-  - 🇮🇳IN_1|1.7MB/s
+  - 🇳🇱NL_3|1.3MB/s
   - 🇺🇸US_5|2.0MB/s
   - 🇪🇸ES_1|2.1MB/s
   - 🇩🇪DE_8|2.5MB/s
@@ -407,7 +385,6 @@ proxy-groups:
   - 🇳🇱NL_4|2.6MB/s
   - 🇫🇷FR_3|2.4MB/s
   - 🇩🇪DE_10|2.5MB/s
-  - 🇺🇸US_7|1.6MB/s
   - 🇳🇱NL_5|2.1MB/s
   - 🇨🇦CA_1|2.5MB/s
   - 🇳🇱NL_6|2.3MB/s
@@ -420,7 +397,6 @@ proxy-groups:
   - 🇺🇸US_8|2.4MB/s
   - 🇸🇬SG_1|3.7MB/s
   - 🇪🇸ES_2|2.4MB/s
-  - 🇩🇪DE_13|3.3MB/s
   - HK_speednode_0002
   - ID_speednode_0003
   - KR_speednode_0004
