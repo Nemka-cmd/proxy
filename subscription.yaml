@@ -27,13 +27,6 @@ proxies:
   port: 1005
   tls: true
   sni: yahoo.com
-- name: 🇬🇧GB_1|1.1MB/s
-  type: vless
-  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
-  server: de.pink-perfect.ru
-  port: 443
-  tls: true
-  sni: yandex.net
 - name: 🇬🇧GB_2|1.3MB/s
   type: vless
   uuid: df7a61b3-fcfb-4e88-aea6-460f83a32823
@@ -296,7 +289,6 @@ proxy-groups:
   - US_speednode_0049
   - 🇦🇪AE_1|2.4MB/s
   - 🇺🇸US_1|1.6MB/s
-  - 🇬🇧GB_1|1.1MB/s
   - 🇬🇧GB_2|1.3MB/s
   - 🇵🇱PL_1|2.4MB/s
   - 🇩🇪DE_2|2.6MB/s
