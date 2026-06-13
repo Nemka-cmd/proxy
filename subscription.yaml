@@ -1,16 +1,4 @@
 proxies:
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.181.230.17
-  port: 5408
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 43.198.12.196
-  port: 17801
 - name: 🇮🇸IS_1|1.6MB/s
   type: vless
   uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
@@ -318,8 +306,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本|@ripaojiedian
-  - 美国3|@ripaojiedian
   - 🇮🇸IS_1|1.6MB/s
   - 🇩🇪DE_15|2.1MB/s
   - 🇩🇪DE_3|2.7MB/s
