@@ -97,13 +97,6 @@ proxies:
   port: 7443
   tls: true
   sni: www.microsoft.com
-- name: 🇬🇧GB_1|2.7MB/s
-  type: vless
-  uuid: 0599ca07-cc1c-4e42-b637-6e286f43beb2
-  server: 193.149.185.17
-  port: 41510
-  tls: false
-  sni: ''
 - name: 🇩🇪DE_14|2.4MB/s
   type: vless
   uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
@@ -229,13 +222,6 @@ proxies:
   port: 8800
   tls: true
   sni: sourceforge.net
-- name: 🇦🇹AT_1|2.4MB/s
-  type: vless
-  uuid: e96ffcc1-5acf-4e24-9b67-1b736a2f1c24
-  server: 62.60.239.210
-  port: 8443
-  tls: true
-  sni: amazon.de
 - name: DE_speednode_0001
   type: trojan
   sni: de-1.hysteria.ltd
@@ -295,7 +281,6 @@ proxy-groups:
   - US_speednode_0051
   - 🇩🇪DE_13|1.1MB/s
   - 🇳🇱NL_1|2.7MB/s
-  - 🇬🇧GB_1|2.7MB/s
   - 🇩🇪DE_14|2.4MB/s
   - 🇦🇪AE_1|3.1MB/s
   - 🇸🇬SG_1|1.7MB/s
@@ -314,7 +299,6 @@ proxy-groups:
   - 🇩🇪DE_20|3.4MB/s
   - 🇩🇪DE_21|2.5MB/s
   - 🇩🇪DE_23|2.1MB/s
-  - 🇦🇹AT_1|2.4MB/s
   - DE_speednode_0001
   - GB_speednode_0002
   - LB_speednode_0004
