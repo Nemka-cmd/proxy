@@ -62,13 +62,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇩🇪DE_9|1.6MB/s
-  type: vless
-  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
-  server: 167.104.223.68
-  port: 7443
-  tls: true
-  sni: www.microsoft.com
 - name: 🇩🇪DE_10|2.6MB/s
   type: vless
   uuid: 417a471c-6183-495d-87ef-331e7e8842fe
@@ -297,7 +290,6 @@ proxy-groups:
   - 🇩🇪DE_6|2.5MB/s
   - 🇩🇪DE_7|2.1MB/s
   - 🇩🇪DE_8|2.5MB/s
-  - 🇩🇪DE_9|1.6MB/s
   - 🇩🇪DE_10|2.6MB/s
   - 🇩🇪DE_11|2.7MB/s
   - US_speednode_0051
