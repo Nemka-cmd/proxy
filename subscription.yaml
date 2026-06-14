@@ -132,13 +132,6 @@ proxies:
   port: 80
   tls: false
   sni: max-gb1.global.ssl.fastly.net
-- name: 🇺🇸US_2|2.6MB/s
-  type: vless
-  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
-  server: usa.xmm.maimaiyun.shop
-  port: 20006
-  tls: true
-  sni: s0.awsstatic.com
 - name: 🇩🇪DE_17|4.1MB/s
   type: ss
   cipher: aes-256-cfb
@@ -222,13 +215,6 @@ proxies:
   port: 8800
   tls: true
   sni: sourceforge.net
-- name: 🇦🇹AT_1|2.4MB/s
-  type: vless
-  uuid: e96ffcc1-5acf-4e24-9b67-1b736a2f1c24
-  server: 62.60.239.210
-  port: 8443
-  tls: true
-  sni: amazon.de
 - name: DE_speednode_0001
   type: trojan
   sni: de-1.hysteria.ltd
@@ -293,7 +279,6 @@ proxy-groups:
   - 🇸🇬SG_1|1.7MB/s
   - 🇸🇰SK_1|2.6MB/s
   - 🇩🇪DE_16|2.1MB/s
-  - 🇺🇸US_2|2.6MB/s
   - 🇩🇪DE_17|4.1MB/s
   - 🇳🇱NL_2|2.4MB/s
   - 🇳🇱NL_3|2.4MB/s
@@ -306,7 +291,6 @@ proxy-groups:
   - 🇩🇪DE_20|3.4MB/s
   - 🇩🇪DE_21|2.5MB/s
   - 🇩🇪DE_23|2.1MB/s
-  - 🇦🇹AT_1|2.4MB/s
   - DE_speednode_0001
   - GB_speednode_0002
   - LB_speednode_0004
