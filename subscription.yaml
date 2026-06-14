@@ -1,11 +1,4 @@
 proxies:
-- name: 🇮🇸IS_1|1.6MB/s
-  type: vless
-  uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
-  server: 45.153.190.26
-  port: 443
-  tls: true
-  sni: endeavouros.ubuntuhosting.host
 - name: 🇩🇪DE_15|2.1MB/s
   type: vless
   uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
@@ -215,6 +208,13 @@ proxies:
   port: 8800
   tls: true
   sni: sourceforge.net
+- name: 🇦🇹AT_1|2.4MB/s
+  type: vless
+  uuid: e96ffcc1-5acf-4e24-9b67-1b736a2f1c24
+  server: 62.60.239.210
+  port: 8443
+  tls: true
+  sni: amazon.de
 - name: DE_speednode_0001
   type: trojan
   sni: de-1.hysteria.ltd
@@ -260,7 +260,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇮🇸IS_1|1.6MB/s
   - 🇩🇪DE_15|2.1MB/s
   - 🇩🇪DE_3|2.7MB/s
   - US_speednode_0050
@@ -291,6 +290,7 @@ proxy-groups:
   - 🇩🇪DE_20|3.4MB/s
   - 🇩🇪DE_21|2.5MB/s
   - 🇩🇪DE_23|2.1MB/s
+  - 🇦🇹AT_1|2.4MB/s
   - DE_speednode_0001
   - GB_speednode_0002
   - LB_speednode_0004
