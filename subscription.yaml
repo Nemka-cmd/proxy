@@ -1,10 +1,4 @@
 proxies:
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.183.247.142
-  port: 19706
 - name: 🇮🇸IS_1|1.6MB/s
   type: vless
   uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
@@ -138,6 +132,13 @@ proxies:
   port: 80
   tls: false
   sni: max-gb1.global.ssl.fastly.net
+- name: 🇺🇸US_2|2.6MB/s
+  type: vless
+  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
+  server: usa.xmm.maimaiyun.shop
+  port: 20006
+  tls: true
+  sni: s0.awsstatic.com
 - name: 🇩🇪DE_17|4.1MB/s
   type: ss
   cipher: aes-256-cfb
@@ -193,13 +194,6 @@ proxies:
   port: 443
   tls: true
   sni: cloudflare.com
-- name: 🇩🇪DE_20|3.4MB/s
-  type: vless
-  uuid: 5a4ef156-7139-4922-9198-f88a9ccaf3dc
-  server: 169.40.32.242
-  port: 8080
-  tls: false
-  sni: ''
 - name: 🇩🇪DE_21|2.5MB/s
   type: vless
   uuid: 7eb1eed8-cfbb-478f-b4e1-fcd29c09c1a8
@@ -266,7 +260,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本|@ripaojiedian
   - 🇮🇸IS_1|1.6MB/s
   - 🇩🇪DE_15|2.1MB/s
   - 🇩🇪DE_3|2.7MB/s
@@ -286,6 +279,7 @@ proxy-groups:
   - 🇸🇬SG_1|1.7MB/s
   - 🇸🇰SK_1|2.6MB/s
   - 🇩🇪DE_16|2.1MB/s
+  - 🇺🇸US_2|2.6MB/s
   - 🇩🇪DE_17|4.1MB/s
   - 🇳🇱NL_2|2.4MB/s
   - 🇳🇱NL_3|2.4MB/s
@@ -294,7 +288,6 @@ proxy-groups:
   - 🇫🇮FI_1|2.6MB/s
   - 🇧🇾BY_1|2.1MB/s
   - 🇵🇱PL_1|2.2MB/s
-  - 🇩🇪DE_20|3.4MB/s
   - 🇩🇪DE_21|2.5MB/s
   - 🇩🇪DE_23|2.1MB/s
   - 🇦🇹AT_1|2.4MB/s
