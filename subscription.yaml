@@ -1,4 +1,40 @@
 proxies:
+- name: 香港4|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.163.84.233
+  port: 11035
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 16.163.107.220
+  port: 11035
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  server: 35.75.4.144
+  port: 37973
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.163.84.233
+  port: 9149
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  server: 43.198.107.157
+  port: 17005
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.162.213.254
+  port: 41889
 - name: 🇮🇸IS_1|1.6MB/s
   type: vless
   uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
@@ -139,12 +175,6 @@ proxies:
   port: 20006
   tls: true
   sni: s0.awsstatic.com
-- name: 🇩🇪DE_17|4.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 63.183.200.172
-  port: 443
 - name: 🇳🇱NL_2|2.4MB/s
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
@@ -260,6 +290,12 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 美国3|@ripaojiedian
   - 🇮🇸IS_1|1.6MB/s
   - 🇩🇪DE_15|2.1MB/s
   - 🇩🇪DE_3|2.7MB/s
@@ -280,7 +316,6 @@ proxy-groups:
   - 🇸🇰SK_1|2.6MB/s
   - 🇩🇪DE_16|2.1MB/s
   - 🇺🇸US_2|2.6MB/s
-  - 🇩🇪DE_17|4.1MB/s
   - 🇳🇱NL_2|2.4MB/s
   - 🇳🇱NL_3|2.4MB/s
   - 🇩🇪DE_18|2.4MB/s
