@@ -34,13 +34,6 @@ proxies:
   port: 443
   tls: true
   sni: at-c1.buycloud.app
-- name: 🇩🇪DE_1|1.2MB/s
-  type: vless
-  uuid: '%40V2ConfigPro'
-  server: 188.121.125.169
-  port: 2083
-  tls: true
-  sni: salamasalmabacheha.dpdns.org
 - name: 🇩🇪DE_2|2.6MB/s
   type: vless
   uuid: 6c22648a-18f5-4249-9ace-72a1639d4190
@@ -206,13 +199,6 @@ proxies:
   port: 443
   tls: true
   sni: 2gis.com
-- name: 🇨🇭CH_5|1.4MB/s
-  type: vless
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-  server: 72.56.38.250
-  port: 443
-  tls: true
-  sni: abuse.sellflow.org
 - name: 🇯🇵JP_2|3.8MB/s
   type: trojan
   sni: jy.hhllfly.kdns.fr
@@ -367,7 +353,6 @@ proxy-groups:
   - 🇨🇭CH_1|2.0MB/s
   - 🇨🇭CH_2|1.3MB/s
   - 🇦🇹AT_1|1.5MB/s
-  - 🇩🇪DE_1|1.2MB/s
   - 🇩🇪DE_2|2.6MB/s
   - 🇳🇱NL_1|1.4MB/s
   - 🇨🇭CH_3|1.9MB/s
@@ -392,7 +377,6 @@ proxy-groups:
   - 🇦🇹AT_3|2.5MB/s
   - 🇺🇸US_5|1.2MB/s
   - 🇳🇱NL_6|1.8MB/s
-  - 🇨🇭CH_5|1.4MB/s
   - 🇯🇵JP_2|3.8MB/s
   - 🇫🇷FR_1|2.6MB/s
   - 🇳🇱NL_7|1.5MB/s
