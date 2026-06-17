@@ -1,22 +1,46 @@
 proxies:
-- name: 日本3|@ripaojiedian
+- name: 香港4|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  server: 95.40.125.63
-  port: 5701
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 16.162.109.208
+  port: 11035
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 43.199.65.165
+  port: 11035
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 13.158.2.187
+  port: 4099
 - name: 新加坡|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: e0195c73018d597b1c2f0ea89d8676ae
-  server: 95.40.125.63
+  server: 16.162.88.46
   port: 6357
 - name: 新加坡2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
   password: e0195c73018d597b1c2f0ea89d8676ae
-  server: 95.40.125.63
-  port: 29642
+  server: 16.162.88.46
+  port: 48738
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.163.84.26
+  port: 41421
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.123.9
+  port: 22057
 - name: 🇯🇵JP_1|1.1MB/s
   type: trojan
   sni: jy.hhllfly.kdns.fr
@@ -195,9 +219,13 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
   - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 美国3|@ripaojiedian
   - 🇯🇵JP_1|1.1MB/s
   - 🇯🇵JP_2|1.3MB/s
   - 🇯🇵JP_3|1.2MB/s
