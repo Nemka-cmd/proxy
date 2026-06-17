@@ -252,12 +252,6 @@ proxies:
   password: hV66LcSGyxUdHq2aAeqxmLfpBDQmRYxo8Wte43oZr8L379SS
   server: 43.207.87.133
   port: 443
-- name: 🇭🇰HK_3|2.3MB/s
-  type: trojan
-  sni: jy.hhllfly.kdns.fr
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  server: 103.74.192.228
-  port: 443
 - name: 🇺🇸US_5|2.2MB/s
   type: vless
   uuid: 38605ec7-905c-4172-acd3-bb5de29d702a
@@ -354,7 +348,6 @@ proxy-groups:
   - 🇭🇰HK_2|3.5MB/s
   - 🇯🇵JP_4|3.3MB/s
   - 🇯🇵JP_5|1.8MB/s
-  - 🇭🇰HK_3|2.3MB/s
   - 🇺🇸US_5|2.2MB/s
   - DE_speednode_0001
   - LB_speednode_0004
