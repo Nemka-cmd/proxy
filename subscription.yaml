@@ -83,12 +83,6 @@ proxies:
   port: 8443
   tls: true
   sni: ams1.fromblancwithlove.com
-- name: 🇩🇪DE_1|1.1MB/s
-  type: trojan
-  sni: www.speedtest.net
-  password: SoftNetConnect
-  server: 194.5.193.58
-  port: 42549
 - name: NL_speednode_0018
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -151,13 +145,6 @@ proxies:
   port: 443
   tls: true
   sni: unnes.ac.id.yxls.eu.cc
-- name: 🇩🇪DE_3|2.9MB/s
-  type: vless
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
-  server: 194.5.193.58
-  port: 2083
-  tls: true
-  sni: www.yahoo.com
 - name: 🇪🇪EE_1|2.6MB/s
   type: vless
   uuid: dd47f0f6-e503-44d5-8243-0f48c1c20c28
@@ -172,13 +159,6 @@ proxies:
   port: 8443
   tls: true
   sni: ams1.fromblancwithlove.com
-- name: 🇫🇷FR_2|1.9MB/s
-  type: vless
-  uuid: 0762de97-50e6-4a2b-af28-4b5f62005b16
-  server: 62.60.148.47
-  port: 8443
-  tls: true
-  sni: www.sony.com
 - name: 🇳🇱NL_8|3.4MB/s
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -435,13 +415,6 @@ proxies:
   port: 8443
   tls: true
   sni: ams1.fromblancwithlove.com
-- name: SC_speednode_0054
-  type: vless
-  uuid: 916dbdb5-80cd-44e8-baa9-81eee695a437
-  server: 154.222.9.102
-  port: 8443
-  tls: true
-  sni: storage.yandex.net
 - name: SE_speednode_0055
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -547,7 +520,6 @@ proxy-groups:
   - 🇺🇸US_2|2.6MB/s
   - NL_speednode_0010
   - TR_speednode_0063
-  - 🇩🇪DE_1|1.1MB/s
   - NL_speednode_0018
   - 🇸🇪SE_1|2.1MB/s
   - 🇫🇷FR_1|2.2MB/s
@@ -557,10 +529,8 @@ proxy-groups:
   - 🇫🇮FI_3|2.4MB/s
   - 🇳🇱NL_7|1.7MB/s
   - 🇺🇸US_3|2.6MB/s
-  - 🇩🇪DE_3|2.9MB/s
   - 🇪🇪EE_1|2.6MB/s
   - RO_speednode_0048
-  - 🇫🇷FR_2|1.9MB/s
   - 🇳🇱NL_8|3.4MB/s
   - 🇳🇱NL_9|2.0MB/s
   - SE_speednode_0057
@@ -598,7 +568,6 @@ proxy-groups:
   - RO_speednode_0040
   - RO_speednode_0046
   - RO_speednode_0053
-  - SC_speednode_0054
   - SE_speednode_0055
   - SE_speednode_0058
   - SE_speednode_0059
