@@ -124,13 +124,6 @@ proxies:
   port: 443
   tls: true
   sni: amazon.de
-- name: 🇵🇱PL_1|1.1MB/s
-  type: vless
-  uuid: 8684c32b-2ffb-4b75-802a-76f90fb15cba
-  server: latviant2.life
-  port: 2053
-  tls: true
-  sni: deepl.com
 - name: 🇳🇱NL_6|2.9MB/s
   type: vless
   uuid: 36284b89-03c0-4ec4-9ed9-e20e19d136cf
@@ -192,13 +185,6 @@ proxies:
   port: 2083
   tls: true
   sni: www.yahoo.com
-- name: 🇹🇷TR_1|1.0MB/s
-  type: vless
-  uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
-  server: 176.108.243.253
-  port: 443
-  tls: true
-  sni: tc-most.api-yandex.net
 - name: 🇺🇸US_2|1.1MB/s
   type: vless
   uuid: 31216f81-3139-0021-bac4-646680314264
@@ -220,13 +206,6 @@ proxies:
   port: 443
   tls: true
   sni: telegraph.co.uk
-- name: 🇱🇻LV_1|2.7MB/s
-  type: vless
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-  server: lv.faygo.bot
-  port: 443
-  tls: true
-  sni: enterprisekitten.com
 - name: 🇳🇱NL_9|2.5MB/s
   type: vless
   uuid: 36284b89-03c0-4ec4-9ed9-e20e19d136cf
@@ -317,13 +296,6 @@ proxies:
   port: 443
   tls: true
   sni: 4gf45fdg45fd542g2in.kawaii520.icu
-- name: 🇵🇱PL_3|1.5MB/s
-  type: vless
-  uuid: 278f52f9-99fc-447c-94d0-ada8f9800703
-  server: latviant2.life
-  port: 2053
-  tls: true
-  sni: deepl.com
 - name: 🇳🇱NL_15|2.1MB/s
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -387,6 +359,13 @@ proxies:
   port: 443
   tls: true
   sni: assets.trorays.com
+- name: KR_speednode_0003
+  type: vless
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  server: 211.49.57.178
+  port: 443
+  tls: true
+  sni: s5.868001.xyz
 - name: KR_speednode_0004
   type: trojan
   sni: tjsp.hhxaf.cc.cd
@@ -695,7 +674,6 @@ proxy-groups:
   - 🇳🇱NL_4|3.2MB/s
   - 🇳🇱NL_5|1.3MB/s
   - 🇩🇪DE_3|1.6MB/s
-  - 🇵🇱PL_1|1.1MB/s
   - 🇳🇱NL_6|2.9MB/s
   - 🇸🇬SG_1|2.2MB/s
   - 🇨🇭CH_1|3.3MB/s
@@ -705,11 +683,9 @@ proxy-groups:
   - 🇷🇺RU_1|3.2MB/s
   - 🇩🇪DE_5|2.7MB/s
   - 🇨🇭CH_2|1.9MB/s
-  - 🇹🇷TR_1|1.0MB/s
   - 🇺🇸US_2|1.1MB/s
   - 🇹🇯TJ_2|2.4MB/s
   - 🇮🇷IR_1|3.0MB/s
-  - 🇱🇻LV_1|2.7MB/s
   - 🇳🇱NL_9|2.5MB/s
   - 🇬🇧GB_2|2.9MB/s
   - 🇫🇮FI_2|2.3MB/s
@@ -723,7 +699,6 @@ proxy-groups:
   - 🇳🇱NL_13|2.6MB/s
   - 🇳🇱NL_14|1.9MB/s
   - 🇬🇧GB_4|1.6MB/s
-  - 🇵🇱PL_3|1.5MB/s
   - 🇳🇱NL_15|2.1MB/s
   - 🇳🇱NL_16|2.6MB/s
   - 🇳🇱NL_17|1.5MB/s
@@ -733,6 +708,7 @@ proxy-groups:
   - 🇹🇷TR_4|2.1MB/s
   - DK_speednode_0001
   - HK_speednode_0002
+  - KR_speednode_0003
   - KR_speednode_0004
   - NL_speednode_0005
   - NL_speednode_0006
