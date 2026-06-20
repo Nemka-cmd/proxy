@@ -5,12 +5,6 @@ proxies:
   password: e0195c73018d597b1c2f0ea89d8676ae
   server: 43.198.206.201
   port: 2008
-- name: 🇭🇰HK_1|2.0MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.163.186.129
-  port: 11035
 - name: 🇯🇵JP_2|1.1MB/s
   type: trojan
   sni: www.nintendogames.net
@@ -124,20 +118,6 @@ proxies:
   port: 2053
   tls: true
   sni: baba.meoshop.ir
-- name: 🇺🇸US_6|1.1MB/s
-  type: vless
-  uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
-  server: 144.34.235.155
-  port: 35535
-  tls: true
-  sni: www.speedtest.org
-- name: 🇺🇸US_7|1.5MB/s
-  type: vless
-  uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
-  server: a.cflive.top
-  port: 35535
-  tls: true
-  sni: www.speedtest.org
 - name: 🇺🇸US_8|1.1MB/s
   type: vless
   uuid: 5fbbf263-0518-446c-8ef2-13b2001aa69d
@@ -518,7 +498,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰HK_2|1.2MB/s
-  - 🇭🇰HK_1|2.0MB/s
   - 🇯🇵JP_2|1.1MB/s
   - 🇸🇬SG_1|1.3MB/s
   - 新加坡3|@ripaojiedian
@@ -536,8 +515,6 @@ proxy-groups:
   - 🇯🇵JP_3|2.0MB/s
   - 🇩🇪DE_1|1.0MB/s
   - 🇩🇪DE_2|1.6MB/s
-  - 🇺🇸US_6|1.1MB/s
-  - 🇺🇸US_7|1.5MB/s
   - 🇺🇸US_8|1.1MB/s
   - 🇸🇬SG_4|3.2MB/s
   - 🇫🇷FR_1|2.1MB/s
