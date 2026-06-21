@@ -1,10 +1,11 @@
 proxies:
-- name: JP_speednode_0011
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 54.65.32.119
-  port: 5408
+- name: 🇰🇷KR_1|1.2MB/s
+  type: vless
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  server: 211.49.57.178
+  port: 443
+  tls: true
+  sni: s5.868001.xyz
 - name: NL_speednode_0014
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -12,12 +13,6 @@ proxies:
   port: 8443
   tls: true
   sni: ams1.fromblancwithlove.com
-- name: CH_speednode_0005
-  type: trojan
-  sni: www.speedtest.net
-  password: SoftNetConnect
-  server: 83.228.224.161
-  port: 42549
 - name: 🇬🇧GB_1|1.4MB/s
   type: vless
   uuid: 52faee73-e0fe-4661-992d-67259257170f
@@ -108,13 +103,6 @@ proxies:
   port: 443
   tls: true
   sni: newgit.jisucf.cloudns.biz
-- name: 🇫🇮FI_3|3.3MB/s
-  type: vless
-  uuid: c8a8dcf1-18aa-40e6-97d5-5dae9912e51b
-  server: 65.109.219.2
-  port: 2096
-  tls: true
-  sni: www.nvidia.com
 - name: BR_speednode_0001
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -143,13 +131,6 @@ proxies:
   port: 443
   tls: true
   sni: filesconvert.org
-- name: 🇫🇮FI_4|3.4MB/s
-  type: vless
-  uuid: bb789aaa-c07a-47ae-987f-5adba035e8c7
-  server: 65.109.219.2
-  port: 110
-  tls: false
-  sni: ''
 - name: 🇸🇪SE_1|2.6MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -157,13 +138,6 @@ proxies:
   port: 8443
   tls: true
   sni: vpn.oplatasite.ru
-- name: 🇫🇮FI_5|3.5MB/s
-  type: vless
-  uuid: c8a8dcf1-18aa-40e6-97d5-5dae9912e51b
-  server: 65.109.219.2
-  port: 2026
-  tls: true
-  sni: www.oracle.com
 - name: 🇩🇪DE_5|2.4MB/s
   type: vless
   uuid: 967064b5-3272-431e-8dce-9519acfb94be
@@ -198,13 +172,6 @@ proxies:
   port: 443
   tls: true
   sni: jp.api-yandex.net
-- name: 🇩🇪DE_6|2.1MB/s
-  type: vless
-  uuid: Namedzadim
-  server: 63.185.83.92
-  port: 8443
-  tls: true
-  sni: s.mzstatic.com
 - name: 🇳🇱NL_6|2.6MB/s
   type: vless
   uuid: cb7b5122-7030-4d3d-9590-da00fafe1c05
@@ -219,13 +186,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇫🇮FI_6|2.0MB/s
-  type: vless
-  uuid: c8a8dcf1-18aa-40e6-97d5-5dae9912e51b
-  server: 65.109.219.2
-  port: 4043
-  tls: true
-  sni: www.intel.com
 - name: 🇩🇪DE_7|2.4MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -233,13 +193,6 @@ proxies:
   port: 8443
   tls: true
   sni: vpn.oplatasite.ru
-- name: 🇫🇮FI_7|2.6MB/s
-  type: vless
-  uuid: fa1494d1-d388-49fb-8977-3797f10082f2
-  server: 65.109.186.115
-  port: 8080
-  tls: true
-  sni: yahoo.com
 - name: 🇬🇧GB_4|3.1MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -254,13 +207,13 @@ proxies:
   port: 8443
   tls: true
   sni: vpn.oplatasite.ru
-- name: 🇺🇸US_5|2.4MB/s
+- name: IQ_speednode_0010
   type: vless
-  uuid: c468fa1a-18fb-41e3-9881-b45638e526e5
-  server: ansooyefilter-bot.njati.ir
-  port: 16369
+  uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
+  server: 81.90.29.53
+  port: 8443
   tls: true
-  sni: www.amazon.com
+  sni: mishaduck.duckdns.org
 - name: 🇫🇮FI_8|1.8MB/s
   type: vless
   uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
@@ -268,13 +221,6 @@ proxies:
   port: 443
   tls: true
   sni: enterprisekitten.com
-- name: CH_speednode_0006
-  type: vless
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
-  server: 83.228.224.161
-  port: 2083
-  tls: true
-  sni: www.yahoo.com
 - name: TR_speednode_0104
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -317,12 +263,6 @@ proxies:
   port: 443
   tls: true
   sni: deepl.com
-- name: IN_speednode_0009
-  type: trojan
-  sni: hyfuuf6.wsone.icu
-  password: M7v%25w11Se%2A
-  server: hyfuuf6.wsone.icu
-  port: 443
 - name: NL_speednode_0012
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -635,9 +575,8 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - JP_speednode_0011
+  - 🇰🇷KR_1|1.2MB/s
   - NL_speednode_0014
-  - CH_speednode_0005
   - 🇬🇧GB_1|1.4MB/s
   - 🇫🇮FI_1|2.1MB/s
   - 🇳🇱NL_2|3.2MB/s
@@ -651,37 +590,29 @@ proxy-groups:
   - 🇳🇱NL_4|2.6MB/s
   - 🇫🇮FI_2|2.5MB/s
   - 🇺🇸US_3|3.2MB/s
-  - 🇫🇮FI_3|3.3MB/s
   - BR_speednode_0001
   - NL_speednode_0019
   - 🇩🇪DE_4|2.0MB/s
   - 🇬🇧GB_3|2.4MB/s
-  - 🇫🇮FI_4|3.4MB/s
   - 🇸🇪SE_1|2.6MB/s
-  - 🇫🇮FI_5|3.5MB/s
   - 🇩🇪DE_5|2.4MB/s
   - ES_speednode_0007
   - 🇺🇸US_4|2.5MB/s
   - 🇷🇺RU_1|2.4MB/s
   - US_speednode_0131
-  - 🇩🇪DE_6|2.1MB/s
   - 🇳🇱NL_6|2.6MB/s
   - 🇹🇷TR_1|1.5MB/s
-  - 🇫🇮FI_6|2.0MB/s
   - 🇩🇪DE_7|2.4MB/s
-  - 🇫🇮FI_7|2.6MB/s
   - 🇬🇧GB_4|3.1MB/s
   - 🇷🇺RU_2|2.0MB/s
-  - 🇺🇸US_5|2.4MB/s
+  - IQ_speednode_0010
   - 🇫🇮FI_8|1.8MB/s
-  - CH_speednode_0006
   - TR_speednode_0104
   - 🇺🇸US_6|1.0MB/s
   - BR_speednode_0002
   - BR_speednode_0003
   - BR_speednode_0004
   - GB_speednode_0008
-  - IN_speednode_0009
   - NL_speednode_0012
   - NL_speednode_0013
   - NL_speednode_0015
