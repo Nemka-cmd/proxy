@@ -207,13 +207,6 @@ proxies:
   port: 8443
   tls: true
   sni: vpn.oplatasite.ru
-- name: IQ_speednode_0010
-  type: vless
-  uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
-  server: 81.90.29.53
-  port: 8443
-  tls: true
-  sni: mishaduck.duckdns.org
 - name: 🇫🇮FI_8|1.8MB/s
   type: vless
   uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
@@ -605,7 +598,6 @@ proxy-groups:
   - 🇩🇪DE_7|2.4MB/s
   - 🇬🇧GB_4|3.1MB/s
   - 🇷🇺RU_2|2.0MB/s
-  - IQ_speednode_0010
   - 🇫🇮FI_8|1.8MB/s
   - TR_speednode_0104
   - 🇺🇸US_6|1.0MB/s
