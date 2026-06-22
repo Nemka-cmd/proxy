@@ -1,4 +1,40 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  server: 43.207.69.202
+  port: 2008
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.179.204.16
+  port: 45691
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  server: 18.162.41.225
+  port: 37973
+- name: 新加坡|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  server: 18.167.20.216
+  port: 29642
+- name: 新加坡2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  server: 18.162.41.225
+  port: 6357
+- name: 美国|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  server: 18.162.41.225
+  port: 49277
 - name: 🇰🇷KR_1|1.2MB/s
   type: vless
   uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
@@ -139,6 +175,13 @@ proxies:
   port: 3443
   tls: true
   sni: myzh.pro
+- name: ES_speednode_0007
+  type: vless
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+  server: lv.faygo.bot
+  port: 443
+  tls: true
+  sni: enterprisekitten.com
 - name: 🇺🇸US_4|2.5MB/s
   type: vless
   uuid: 9229da01-d8d4-0d1a-0e33-eb59a8b25234
@@ -166,6 +209,13 @@ proxies:
   port: 443
   tls: true
   sni: default.ssl.fastly.net
+- name: 🇹🇷TR_1|1.5MB/s
+  type: vless
+  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
+  server: sv2.azparadox.ir
+  port: 8880
+  tls: false
+  sni: ''
 - name: 🇩🇪DE_7|2.4MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -544,17 +594,16 @@ proxies:
   port: 2095
   tls: false
   sni: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-- name: US_speednode_0129
-  type: vless
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
-  server: assets.trorays.com
-  port: 443
-  tls: true
-  sni: assets.trorays.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 新加坡2|@ripaojiedian
+  - 美国|@ripaojiedian
   - 🇰🇷KR_1|1.2MB/s
   - NL_speednode_0014
   - 🇬🇧GB_1|1.4MB/s
@@ -575,10 +624,12 @@ proxy-groups:
   - 🇬🇧GB_3|2.4MB/s
   - 🇸🇪SE_1|2.6MB/s
   - 🇩🇪DE_5|2.4MB/s
+  - ES_speednode_0007
   - 🇺🇸US_4|2.5MB/s
   - 🇷🇺RU_1|2.4MB/s
   - US_speednode_0131
   - 🇳🇱NL_6|2.6MB/s
+  - 🇹🇷TR_1|1.5MB/s
   - 🇩🇪DE_7|2.4MB/s
   - 🇬🇧GB_4|3.1MB/s
   - 🇷🇺RU_2|2.0MB/s
@@ -633,7 +684,6 @@ proxy-groups:
   - US_speednode_0126
   - US_speednode_0127
   - US_speednode_0128
-  - US_speednode_0129
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
