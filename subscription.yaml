@@ -185,13 +185,6 @@ proxies:
   port: 443
   tls: true
   sni: default.ssl.fastly.net
-- name: 🇹🇷TR_1|1.5MB/s
-  type: vless
-  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
-  server: sv2.azparadox.ir
-  port: 8880
-  tls: false
-  sni: ''
 - name: 🇩🇪DE_7|2.4MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -556,6 +549,13 @@ proxies:
   port: 2095
   tls: false
   sni: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+- name: US_speednode_0129
+  type: vless
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
+  server: assets.trorays.com
+  port: 443
+  tls: true
+  sni: assets.trorays.com
 proxy-groups:
 - name: Auto
   type: url-test
@@ -587,7 +587,6 @@ proxy-groups:
   - 🇷🇺RU_1|2.4MB/s
   - US_speednode_0131
   - 🇳🇱NL_6|2.6MB/s
-  - 🇹🇷TR_1|1.5MB/s
   - 🇩🇪DE_7|2.4MB/s
   - 🇬🇧GB_4|3.1MB/s
   - 🇷🇺RU_2|2.0MB/s
@@ -640,6 +639,7 @@ proxy-groups:
   - US_speednode_0126
   - US_speednode_0127
   - US_speednode_0128
+  - US_speednode_0129
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
