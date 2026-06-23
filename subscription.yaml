@@ -159,12 +159,6 @@ proxies:
   port: 443
   tls: true
   sni: rvg-production-3182.up.railway.app
-- name: 🇷🇺RU_1|2.4MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
-  server: ru.moktana.app
-  port: 51523
 - name: 🇯🇵JP_2|3.3MB/s
   type: vless
   uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
@@ -458,7 +452,6 @@ proxy-groups:
   - 🇩🇪DE_5|2.4MB/s
   - 🇱🇻LV_2|2.5MB/s
   - 🇺🇸US_4|2.5MB/s
-  - 🇷🇺RU_1|2.4MB/s
   - 🇯🇵JP_2|3.3MB/s
   - 🇳🇱NL_6|2.6MB/s
   - 🇹🇷TR_1|1.5MB/s
