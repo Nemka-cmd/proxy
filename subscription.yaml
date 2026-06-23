@@ -179,6 +179,13 @@ proxies:
   port: 443
   tls: true
   sni: default.ssl.fastly.net
+- name: 🇹🇷TR_1|1.5MB/s
+  type: vless
+  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
+  server: sv2.azparadox.ir
+  port: 8880
+  tls: false
+  sni: ''
 - name: 🇩🇪DE_7|2.4MB/s
   type: vless
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
@@ -221,6 +228,13 @@ proxies:
   port: 8443
   tls: true
   sni: ams1.fromblancwithlove.com
+- name: 🇺🇸US_6|1.0MB/s
+  type: vless
+  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+  server: 191.44.118.101
+  port: 443
+  tls: true
+  sni: www.microsoft.com
 - name: NL_speednode_0004
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -377,12 +391,14 @@ proxy-groups:
   - 🇷🇺RU_1|2.4MB/s
   - 🇯🇵JP_2|3.3MB/s
   - 🇳🇱NL_6|2.6MB/s
+  - 🇹🇷TR_1|1.5MB/s
   - 🇩🇪DE_7|2.4MB/s
   - 🇬🇧GB_4|3.1MB/s
   - 🇷🇺RU_2|2.0MB/s
   - 🇳🇱NL_8|2.6MB/s
   - 🇫🇮FI_8|1.8MB/s
   - 🇹🇷TR_2|2.2MB/s
+  - 🇺🇸US_6|1.0MB/s
   - NL_speednode_0004
   - US_speednode_0055
   - US_speednode_0056
