@@ -1,10 +1,4 @@
 proxies:
-- name: 香港4|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 43.199.31.72
-  port: 39414
 - name: 🇩🇪DE_2|3.2MB/s
   type: vless
   uuid: ac006062-f051-43c6-bd4c-f409285c8635
@@ -386,7 +380,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港4|@ripaojiedian
   - 🇩🇪DE_2|3.2MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇺🇸US_2|3.3MB/s
