@@ -5,12 +5,6 @@ proxies:
   password: BxceQaOe
   server: 43.199.31.72
   port: 39414
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.183.54.150
-  port: 10624
 - name: 🇩🇪DE_2|3.2MB/s
   type: vless
   uuid: ac006062-f051-43c6-bd4c-f409285c8635
@@ -80,13 +74,6 @@ proxies:
   port: 443
   tls: true
   sni: ihvi.mgvip.ir
-- name: 🇸🇪SE_1|3.2MB/s
-  type: vless
-  uuid: 10e4afc4-eeac-4a16-93e8-a42b70ce148b
-  server: 13.51.6.239
-  port: 443
-  tls: true
-  sni: is1-ssl.mzstatic.com
 - name: 🇩🇪DE_7|3.5MB/s
   type: vless
   uuid: 6d9d01fc-6842-4d8b-989d-459579e5ae14
@@ -255,13 +242,6 @@ proxies:
   port: 443
   tls: true
   sni: t1s1.rittbo.kdns.fr
-- name: 🇯🇵JP_5|1.5MB/s
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 202.182.99.122
-  port: 443
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
 - name: 🇯🇵JP_6|1.3MB/s
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -407,7 +387,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港4|@ripaojiedian
-  - 日本|@ripaojiedian
   - 🇩🇪DE_2|3.2MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇺🇸US_2|3.3MB/s
@@ -418,7 +397,6 @@ proxy-groups:
   - 🇺🇸US_5|2.6MB/s
   - 🇳🇱NL_2|2.1MB/s
   - 🇩🇪DE_6|3.3MB/s
-  - 🇸🇪SE_1|3.2MB/s
   - 🇩🇪DE_7|3.5MB/s
   - 🇬🇧GB_1|1.0MB/s
   - 🇩🇪DE_8|1.5MB/s
@@ -443,7 +421,6 @@ proxy-groups:
   - 🇫🇷FR_2|1.2MB/s
   - 🇳🇱NL_6|1.3MB/s
   - 🇯🇵JP_4|1.9MB/s
-  - 🇯🇵JP_5|1.5MB/s
   - 🇯🇵JP_6|1.3MB/s
   - 🇯🇵JP_7|2.1MB/s
   - NL_speednode_0004
