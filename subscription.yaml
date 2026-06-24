@@ -229,13 +229,6 @@ proxies:
   port: 443
   tls: true
   sni: rezerv17.yunus.guru
-- name: 🇯🇵JP_4|1.9MB/s
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 45.76.98.65
-  port: 443
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
 - name: 🇯🇵JP_6|1.3MB/s
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -413,7 +406,6 @@ proxy-groups:
   - 🇨🇭CH_2|1.1MB/s
   - 🇫🇷FR_2|1.2MB/s
   - 🇳🇱NL_6|1.3MB/s
-  - 🇯🇵JP_4|1.9MB/s
   - 🇯🇵JP_6|1.3MB/s
   - 🇯🇵JP_7|2.1MB/s
   - NL_speednode_0004
