@@ -47,6 +47,13 @@ proxies:
   port: 443
   tls: true
   sni: global.fastly.com
+- name: 🇳🇱NL_2|2.1MB/s
+  type: vless
+  uuid: ebdf9f72-3afd-40e5-b26d-ba302b16dcd1
+  server: med2.crosscenter2.ir
+  port: 8443
+  tls: true
+  sni: iran.irannet.shop
 - name: 🇩🇪DE_6|3.3MB/s
   type: vless
   uuid: 6d9d01fc-6842-4d8b-989d-459579e5ae14
@@ -499,6 +506,7 @@ proxy-groups:
   - 🇳🇱NL_1|2.1MB/s
   - US_speednode_0056
   - 🇺🇸US_5|2.6MB/s
+  - 🇳🇱NL_2|2.1MB/s
   - 🇩🇪DE_6|3.3MB/s
   - 🇩🇪DE_7|3.5MB/s
   - 🇬🇧GB_1|1.0MB/s
