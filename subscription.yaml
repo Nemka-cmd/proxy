@@ -47,13 +47,6 @@ proxies:
   port: 443
   tls: true
   sni: global.fastly.com
-- name: 🇳🇱NL_2|2.1MB/s
-  type: vless
-  uuid: ebdf9f72-3afd-40e5-b26d-ba302b16dcd1
-  server: med2.crosscenter2.ir
-  port: 8443
-  tls: true
-  sni: iran.irannet.shop
 - name: 🇩🇪DE_6|3.3MB/s
   type: vless
   uuid: 6d9d01fc-6842-4d8b-989d-459579e5ae14
@@ -110,13 +103,6 @@ proxies:
   port: 22
   tls: false
   sni: ''
-- name: 🇷🇺RU_1|2.5MB/s
-  type: vless
-  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
-  server: 109.73.194.240
-  port: 443
-  tls: true
-  sni: sellflow.org
 - name: 🇩🇪DE_10|1.5MB/s
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -187,13 +173,6 @@ proxies:
   port: 443
   tls: true
   sni: t1s1.rittbo.kdns.fr
-- name: 🇳🇱NL_5|1.0MB/s
-  type: vless
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  server: rezerv18.yunus.guru
-  port: 443
-  tls: true
-  sni: rezerv18.yunus.guru
 - name: 🇩🇪DE_16|1014KB/s
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -208,13 +187,6 @@ proxies:
   port: 443
   tls: true
   sni: fry2.brocollisuper.click
-- name: 🇳🇱NL_6|1.3MB/s
-  type: vless
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  server: rezerv17.yunus.guru
-  port: 443
-  tls: true
-  sni: rezerv17.yunus.guru
 - name: 🇯🇵JP_4|1.9MB/s
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -527,7 +499,6 @@ proxy-groups:
   - 🇳🇱NL_1|2.1MB/s
   - US_speednode_0056
   - 🇺🇸US_5|2.6MB/s
-  - 🇳🇱NL_2|2.1MB/s
   - 🇩🇪DE_6|3.3MB/s
   - 🇩🇪DE_7|3.5MB/s
   - 🇬🇧GB_1|1.0MB/s
@@ -536,7 +507,6 @@ proxy-groups:
   - 🇳🇱NL_3|1.8MB/s
   - 🇳🇱NL_4|2.9MB/s
   - 🇨🇭CH_1|3.7MB/s
-  - 🇷🇺RU_1|2.5MB/s
   - 🇩🇪DE_10|1.5MB/s
   - 🇩🇪DE_11|1.5MB/s
   - 🇩🇪DE_12|1.1MB/s
@@ -547,10 +517,8 @@ proxy-groups:
   - 🇸🇬SG_2|1.1MB/s
   - 🇩🇪DE_15|1.9MB/s
   - 🇺🇸US_9|1.2MB/s
-  - 🇳🇱NL_5|1.0MB/s
   - 🇩🇪DE_16|1014KB/s
   - 🇫🇷FR_2|1.2MB/s
-  - 🇳🇱NL_6|1.3MB/s
   - 🇯🇵JP_4|1.9MB/s
   - 🇯🇵JP_6|1.3MB/s
   - 🇯🇵JP_7|2.1MB/s
