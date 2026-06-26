@@ -173,13 +173,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇺🇸US_9|1.2MB/s
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 174.136.206.5
-  port: 443
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
 - name: 🇩🇪DE_16|1014KB/s
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -524,7 +517,6 @@ proxy-groups:
   - 🇯🇵JP_3|1.4MB/s
   - 🇸🇬SG_2|1.1MB/s
   - 🇩🇪DE_15|1.9MB/s
-  - 🇺🇸US_9|1.2MB/s
   - 🇩🇪DE_16|1014KB/s
   - 🇫🇷FR_2|1.2MB/s
   - 🇯🇵JP_4|1.9MB/s
