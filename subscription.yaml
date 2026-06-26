@@ -33,13 +33,13 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   server: 82.38.31.216
   port: 8080
-- name: US_speednode_0056
+- name: 🇩🇪DE_5|2.6MB/s
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   server: 151.101.171.151
   port: 80
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
+  sni: ''
 - name: 🇺🇸US_5|2.6MB/s
   type: vless
   uuid: 6e7ebc40-58a6-c567-4ae8-51b7605a272b
@@ -131,13 +131,6 @@ proxies:
   port: 80
   tls: false
   sni: ''
-- name: 🇯🇵JP_1|1.4MB/s
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 108.160.135.252
-  port: 443
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
 - name: 🇸🇬SG_1|1.0MB/s
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -208,286 +201,125 @@ proxies:
   port: 443
   tls: true
   sni: t1s1.rittbo.kdns.fr
-- name: AU_speednode_0001
+- name: CY_speednode_0001
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.96.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.csgo.net
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: BE_speednode_0002
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: GB_speednode_0003
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.8.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: BE_speednode_0003
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.9.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: BR_speednode_0004
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.255.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: CA_speednode_0005
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.124.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: CA_speednode_0006
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.127.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: CA_speednode_0007
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.139.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: FI_speednode_0008
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.245.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: ID_speednode_0009
-  type: vless
-  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-  server: 45.198.87.34
-  port: 8443
+  uuid: 6e41151e-ae07-4ea6-910e-7a3986b7bc0d
+  server: 31.76.38.18
+  port: 7443
   tls: true
-  sni: storage.yandex.net
-- name: IN_speednode_0010
+  sni: icloud.com
+- name: US_speednode_0025
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.153.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: blog.cloudflare.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: IR_speednode_0011
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0026
   type: vless
-  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
-  server: sv2.azparadox.ir
-  port: 8880
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.fbi.gov
+  port: 2095
   tls: false
-  sni: azsv2.ir5ive.ir
-- name: IT_speednode_0012
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0027
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.241.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.shopify.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: NN_speednode_0013
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0028
   type: vless
-  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
-  server: 185.137.157.72
-  port: 443
-  tls: true
-  sni: www.nvidia.com
-- name: NO_speednode_0014
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.239.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.epicgames.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: SE_speednode_0051
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0029
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.84.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: ns.cloudflare.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: SE_speednode_0052
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0030
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.86.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: cf.090227.xyz
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0053
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0031
   type: vless
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
-  server: tw3.miyazono-kaori.com
-  port: 443
-  tls: true
-  sni: dlcdnets.asus.com
-- name: US_speednode_0054
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.119.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: cloudflare-dns.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0055
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0032
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.101.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: docs.cloudflare.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0057
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0033
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 199.232.197.131
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.wto.org
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0058
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0034
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.33.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: developers.cloudflare.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0059
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0035
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.194.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: support.cloudflare.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0060
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0036
   type: vless
-  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
-  server: fast.cd-tur4.ir
-  port: 443
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: cdnjs.com
+  port: 2095
   tls: false
-  sni: default.ssl.fastly.net
-- name: US_speednode_0061
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0037
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.119.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.npmjs.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0062
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0038
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.117.151
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.udemy.com
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0063
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: US_speednode_0039
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.194.219
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.whatismyip.net
+  port: 2095
   tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0065
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.161.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0068
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.169.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0069
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.170.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0072
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.171.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0073
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.12.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0074
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.69.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0075
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.25.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0076
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.67.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0077
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.64.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0078
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.22.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0079
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.200.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0080
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.182.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0081
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.23.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
-- name: US_speednode_0082
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  server: 151.101.196.151
-  port: 80
-  tls: false
-  sni: max-gb1.global.ssl.fastly.net
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
 proxy-groups:
 - name: Auto
   type: url-test
@@ -497,7 +329,7 @@ proxy-groups:
   - 🇺🇸US_2|3.3MB/s
   - 🇩🇪DE_4|2.7MB/s
   - 🇳🇱NL_1|2.1MB/s
-  - US_speednode_0056
+  - 🇩🇪DE_5|2.6MB/s
   - 🇺🇸US_5|2.6MB/s
   - 🇳🇱NL_2|2.1MB/s
   - 🇩🇪DE_6|3.3MB/s
@@ -511,7 +343,6 @@ proxy-groups:
   - 🇩🇪DE_10|1.5MB/s
   - 🇩🇪DE_11|1.5MB/s
   - 🇩🇪DE_12|1.1MB/s
-  - 🇯🇵JP_1|1.4MB/s
   - 🇸🇬SG_1|1.0MB/s
   - 🇯🇵JP_2|1.1MB/s
   - 🇯🇵JP_3|1.4MB/s
@@ -522,46 +353,23 @@ proxy-groups:
   - 🇯🇵JP_4|1.9MB/s
   - 🇯🇵JP_6|1.3MB/s
   - 🇯🇵JP_7|2.1MB/s
-  - AU_speednode_0001
-  - BE_speednode_0002
-  - BE_speednode_0003
-  - BR_speednode_0004
-  - CA_speednode_0005
-  - CA_speednode_0006
-  - CA_speednode_0007
-  - FI_speednode_0008
-  - ID_speednode_0009
-  - IN_speednode_0010
-  - IR_speednode_0011
-  - IT_speednode_0012
-  - NN_speednode_0013
-  - NO_speednode_0014
-  - SE_speednode_0051
-  - SE_speednode_0052
-  - US_speednode_0053
-  - US_speednode_0054
-  - US_speednode_0055
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
-  - US_speednode_0063
-  - US_speednode_0065
-  - US_speednode_0068
-  - US_speednode_0069
-  - US_speednode_0072
-  - US_speednode_0073
-  - US_speednode_0074
-  - US_speednode_0075
-  - US_speednode_0076
-  - US_speednode_0077
-  - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
-  - US_speednode_0081
-  - US_speednode_0082
+  - CY_speednode_0001
+  - GB_speednode_0003
+  - US_speednode_0025
+  - US_speednode_0026
+  - US_speednode_0027
+  - US_speednode_0028
+  - US_speednode_0029
+  - US_speednode_0030
+  - US_speednode_0031
+  - US_speednode_0032
+  - US_speednode_0033
+  - US_speednode_0034
+  - US_speednode_0035
+  - US_speednode_0036
+  - US_speednode_0037
+  - US_speednode_0038
+  - US_speednode_0039
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
