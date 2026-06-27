@@ -178,6 +178,13 @@ proxies:
   port: 8443
   tls: true
   sni: storage.yandex.net
+- name: US_speednode_0055
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  server: vip.bcjdvip.com
+  port: 14005
+  tls: true
+  sni: apple.com
 - name: US_speednode_0056
   type: vless
   uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
@@ -222,6 +229,7 @@ proxy-groups:
   - ID_speednode_0013
   - NL_speednode_0016
   - TW_speednode_0053
+  - US_speednode_0055
   - US_speednode_0056
   - US_speednode_0063
   url: https://www.gstatic.com/generate_204
