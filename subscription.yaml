@@ -1,4 +1,52 @@
 proxies:
+- name: 香港3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 230012981ba34c12fec11deca0379005
+  server: 54.46.30.217
+  port: 53012
+- name: 香港5|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.109.132
+  port: 20744
+- name: 日本|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 52.196.252.9
+  port: 47656
+- name: 日本2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 230012981ba34c12fec11deca0379005
+  server: 54.46.30.217
+  port: 3743
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 230012981ba34c12fec11deca0379005
+  server: 54.46.30.217
+  port: 5701
+- name: 新加坡2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 230012981ba34c12fec11deca0379005
+  server: 54.46.30.217
+  port: 48738
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: 230012981ba34c12fec11deca0379005
+  server: 54.46.30.217
+  port: 49277
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.109.132
+  port: 22657
 - name: 🇩🇪DE_2|3.2MB/s
   type: vless
   uuid: ac006062-f051-43c6-bd4c-f409285c8635
@@ -47,6 +95,13 @@ proxies:
   port: 443
   tls: true
   sni: global.fastly.com
+- name: 🇳🇱NL_2|2.1MB/s
+  type: vless
+  uuid: ebdf9f72-3afd-40e5-b26d-ba302b16dcd1
+  server: med2.crosscenter2.ir
+  port: 8443
+  tls: true
+  sni: iran.irannet.shop
 - name: 🇩🇪DE_6|3.3MB/s
   type: vless
   uuid: 6d9d01fc-6842-4d8b-989d-459579e5ae14
@@ -317,6 +372,14 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 香港3|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 日本2|@ripaojiedian
+  - 日本3|@ripaojiedian
+  - 新加坡2|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 美国3|@ripaojiedian
   - 🇩🇪DE_2|3.2MB/s
   - 🇩🇪DE_3|2.1MB/s
   - 🇺🇸US_2|3.3MB/s
@@ -324,6 +387,7 @@ proxy-groups:
   - 🇳🇱NL_1|2.1MB/s
   - 🇩🇪DE_5|2.6MB/s
   - 🇺🇸US_5|2.6MB/s
+  - 🇳🇱NL_2|2.1MB/s
   - 🇩🇪DE_6|3.3MB/s
   - 🇩🇪DE_7|3.5MB/s
   - 🇬🇧GB_1|1.0MB/s
