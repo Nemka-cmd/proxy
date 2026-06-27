@@ -11,12 +11,6 @@ proxies:
   password: BxceQaOe
   server: 54.46.109.132
   port: 20744
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 52.196.252.9
-  port: 47656
 - name: 日本2|@ripaojiedian
   type: trojan
   sni: www.nintendogames.net
@@ -374,7 +368,6 @@ proxy-groups:
   proxies:
   - 香港3|@ripaojiedian
   - 香港5|@ripaojiedian
-  - 日本|@ripaojiedian
   - 日本2|@ripaojiedian
   - 日本3|@ripaojiedian
   - 新加坡2|@ripaojiedian
