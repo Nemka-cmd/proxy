@@ -48,6 +48,13 @@ proxies:
   port: 443
   tls: true
   sni: rvg-production-b337.up.railway.app
+- name: 🇦🇪AE_1|2.6MB/s
+  type: vless
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+  server: ll0ll.vip
+  port: 8082
+  tls: true
+  sni: id.vk.com
 - name: 🇷🇺RU_1|3.3MB/s
   type: vless
   uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
@@ -284,6 +291,7 @@ proxy-groups:
   - 🇯🇵JP_2|4.8MB/s
   - 🇺🇸US_1|2.3MB/s
   - 🇺🇸US_2|1.7MB/s
+  - 🇦🇪AE_1|2.6MB/s
   - 🇷🇺RU_1|3.3MB/s
   - 🇩🇪DE_1|2.7MB/s
   - 🇺🇸US_4|2.9MB/s
