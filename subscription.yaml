@@ -1,10 +1,4 @@
 proxies:
-- name: 香港5|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.163.56.230
-  port: 3941
 - name: 🇯🇵JP_1|3.4MB/s
   type: vless
   uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
@@ -123,20 +117,13 @@ proxies:
   port: 443
   tls: true
   sni: cfoo-146.pages.dev
-- name: 🇺🇸US_6|3.4MB/s
+- name: 🇫🇷FR_2|1.6MB/s
   type: vless
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  server: wst.imsoon.net
+  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
+  server: 45.67.139.162
   port: 80
-  tls: false
-  sni: ''
-- name: 🇺🇸US_7|2.6MB/s
-  type: vless
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  server: 76.13.121.90
-  port: 80
-  tls: false
-  sni: ''
+  tls: true
+  sni: www.sony.com
 - name: 🇭🇰HK_1|1.0MB/s
   type: vless
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
@@ -316,7 +303,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港5|@ripaojiedian
   - 🇯🇵JP_1|3.4MB/s
   - 🇸🇬SG_1|3.6MB/s
   - 🇸🇬SG_2|2.5MB/s
@@ -334,8 +320,7 @@ proxy-groups:
   - CZ_speednode_0002
   - 🇩🇪DE_3|3.1MB/s
   - 🇳🇱NL_1|3.2MB/s
-  - 🇺🇸US_6|3.4MB/s
-  - 🇺🇸US_7|2.6MB/s
+  - 🇫🇷FR_2|1.6MB/s
   - 🇭🇰HK_1|1.0MB/s
   - 🇭🇰HK_2|1021KB/s
   - 🇯🇵JP_3|3.9MB/s
