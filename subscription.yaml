@@ -1,122 +1,119 @@
 proxies:
-- name: 香港3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 230012981ba34c12fec11deca0379005
-  server: 54.46.30.217
-  port: 53012
 - name: 香港5|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
-  server: 54.46.109.132
-  port: 20744
-- name: 日本2|@ripaojiedian
+  server: 18.163.56.230
+  port: 3941
+- name: 日本|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
-  password: 230012981ba34c12fec11deca0379005
-  server: 54.46.30.217
-  port: 3743
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 230012981ba34c12fec11deca0379005
-  server: 54.46.30.217
-  port: 5701
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 230012981ba34c12fec11deca0379005
-  server: 54.46.30.217
-  port: 48738
-- name: 美国2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: 230012981ba34c12fec11deca0379005
-  server: 54.46.30.217
-  port: 49277
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.183.83.131
+  port: 18021
 - name: 美国3|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
-  server: 54.46.109.132
+  server: 16.163.142.40
   port: 22657
-- name: 🇸🇬SG_1|1.6MB/s
+- name: 🇯🇵JP_1|3.4MB/s
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 162.159.12.210
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  server: cf2.466688.xyz
   port: 443
   tls: true
-  sni: t1s1.rittbo.kdns.fr
-- name: 🇫🇷FR_1|1.1MB/s
+  sni: cfoo-146.pages.dev
+- name: 🇸🇬SG_1|3.6MB/s
   type: vless
-  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-  server: 104.253.134.92
-  port: 55117
-  tls: false
-  sni: ''
-- name: 🇦🇪AE_1|1.2MB/s
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  server: cf6.466688.xyz
+  port: 443
+  tls: true
+  sni: cfoo-146.pages.dev
+- name: 🇸🇬SG_2|2.5MB/s
   type: vless
-  uuid: 9d20338e-c059-46ac-aebc-81969501e7cc
-  server: 104.16.72.70
+  uuid: 8477aa4b-8fb2-4b75-9e21-6b2a57f6f4cd
+  server: 161.118.242.129
+  port: 443
+  tls: true
+  sni: addons.mozilla.org
+- name: 🇬🇧GB_1|2.4MB/s
+  type: vless
+  uuid: a6704fb4-4874-4e6b-98f4-571b048e3d90
+  server: 31.77.161.2
   port: 8443
   tls: true
-  sni: sa.sorixset.ir
-- name: 🇸🇬SG_3|1.4MB/s
+  sni: prod.de-node-01.security-sbrf.ru
+- name: 🇯🇵JP_2|4.8MB/s
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 162.159.5.231
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  server: cf5.466688.xyz
   port: 443
   tls: true
-  sni: t1s1.rittbo.kdns.fr
-- name: 🇯🇵JP_1|1.1MB/s
+  sni: cfoo-146.pages.dev
+- name: 🇺🇸US_1|2.3MB/s
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 162.159.44.172
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  server: fast.cd-tur4.ir
+  port: 443
+  tls: true
+  sni: default.ssl.fastly.net
+- name: 🇺🇸US_2|1.7MB/s
+  type: vless
+  uuid: 3195e102-c157-eed6-eaa5-13ae596360e2
+  server: rvg-production-b337.up.railway.app
+  port: 443
+  tls: true
+  sni: rvg-production-b337.up.railway.app
+- name: 🇨🇭CH_1|2.7MB/s
+  type: vless
+  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
+  server: 37.156.44.215
   port: 2083
   tls: true
-  sni: t1s1.rittbo.kdns.fr
-- name: 🇸🇬SG_4|1.0MB/s
+  sni: www.yahoo.com
+- name: 🇦🇪AE_1|2.6MB/s
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 162.159.11.57
-  port: 2083
+  uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
+  server: ll0ll.vip
+  port: 8082
   tls: true
-  sni: t1s1.rittbo.kdns.fr
-- name: 🇬🇧GB_1|2.0MB/s
-  type: vless
-  uuid: a0fe052d-6ca1-4a9c-b626-7ecf78f386cb
-  server: 108.162.194.165
-  port: 2086
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_5|1.5MB/s
-  type: vless
-  uuid: 2b73cc78-ad9b-4d5b-85bb-a9476aa092fb
-  server: 123.xn--mesx36n.com
-  port: 2086
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_6|3.7MB/s
-  type: vless
-  uuid: e74e8806-06b5-4fb0-a89e-cf79d88cfd02
-  server: 162.159.48.193
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_1|1.0MB/s
-  type: vless
-  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
-  server: 172.64.88.251
-  port: 8880
-  tls: false
-  sni: ''
-- name: AE_speednode_0001
+  sni: id.vk.com
+- name: 🇨🇭CH_2|4.0MB/s
   type: trojan
-  sni: 95r.ir
-  password: MITIVPN
-  server: 94.140.0.100
+  sni: www.speedtest.net
+  password: SoftNetConnect
+  server: 37.156.44.215
+  port: 42549
+- name: 🇷🇺RU_1|3.3MB/s
+  type: vless
+  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+  server: 178.209.127.33
+  port: 8443
+  tls: true
+  sni: cdn.kwork.com
+- name: 🇩🇪DE_1|2.7MB/s
+  type: vless
+  uuid: c5ece540-6d4b-4057-85a6-2b651c1697b7
+  server: securitytrails.com
+  port: 2083
+  tls: true
+  sni: ns1.mtp-roto.info
+- name: 🇺🇸US_4|2.9MB/s
+  type: vless
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  server: support.zoom.us
   port: 443
+  tls: true
+  sni: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬SG_3|4.1MB/s
+  type: vless
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  server: cf8.466688.xyz
+  port: 443
+  tls: true
+  sni: cfoo-146.pages.dev
 - name: CZ_speednode_0002
   type: vless
   uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
@@ -124,6 +121,142 @@ proxies:
   port: 443
   tls: true
   sni: pol1.hatvpn.org
+- name: 🇩🇪DE_3|3.1MB/s
+  type: vless
+  uuid: 276733b9-25c8-47b0-b651-b18cd4909128
+  server: 132.243.213.174
+  port: 37037
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_1|3.2MB/s
+  type: vless
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  server: cf10.466688.xyz
+  port: 443
+  tls: true
+  sni: cfoo-146.pages.dev
+- name: 🇫🇷FR_2|1.6MB/s
+  type: vless
+  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
+  server: 45.67.139.162
+  port: 80
+  tls: true
+  sni: www.sony.com
+- name: 🇺🇸US_6|3.4MB/s
+  type: vless
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  server: wst.imsoon.net
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇺🇸US_7|2.6MB/s
+  type: vless
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  server: 76.13.121.90
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇭🇰HK_1|1.0MB/s
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  server: vip.bcjdvip.com
+  port: 14001
+  tls: true
+  sni: apple.com
+- name: 🇭🇰HK_2|1021KB/s
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  server: vip.bcjdvip.com
+  port: 14007
+  tls: true
+  sni: apple.com
+- name: 🇯🇵JP_3|3.9MB/s
+  type: vless
+  uuid: 8aefc70f-df0d-46ff-bd17-e58ac2fe9f0e
+  server: 8.209.229.10
+  port: 15542
+  tls: true
+  sni: aws.amazon.com
+- name: 🇯🇵JP_4|1.2MB/s
+  type: vless
+  uuid: 51336138-2480-485a-8723-b6a688b69b14
+  server: 103.100.158.180
+  port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇸🇬SG_5|1.2MB/s
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 162.159.13.196
+  port: 8443
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+- name: 🇯🇵JP_5|1017KB/s
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 162.159.38.101
+  port: 443
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+- name: 🇸🇬SG_6|1.2MB/s
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 162.159.10.87
+  port: 443
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+- name: 🇸🇪SE_1|1.9MB/s
+  type: vless
+  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+  server: sw.cloudload.org
+  port: 443
+  tls: true
+  sni: sw.cloudload.org
+- name: 🇯🇵JP_6|2.6MB/s
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 138.3.220.224
+  port: 443
+  tls: true
+  sni: t1s1.rittbo.kdns.fr
+- name: 🇫🇮FI_1|1.9MB/s
+  type: vless
+  uuid: 28acd046-f65e-402c-a25e-4a215af02796
+  server: 89.124.118.227
+  port: 443
+  tls: true
+  sni: tv.apple.com
+- name: 🇩🇪DE_4|2.7MB/s
+  type: vless
+  uuid: 448f6d1f-b658-4dea-a7c6-942f19022ac6
+  server: 93.152.217.189
+  port: 443
+  tls: true
+  sni: unpkg.com
+- name: 🇺🇸US_11|2.0MB/s
+  type: trojan
+  sni: h2.bnm.uw.to
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  server: h2.bnm.uw.to
+  port: 443
+- name: 🇯🇵JP_7|2.6MB/s
+  type: trojan
+  sni: cdn.gamingdll.ir
+  password: Mitivpn
+  server: 151.101.1.242
+  port: 443
+- name: 🇨🇭CH_4|2.9MB/s
+  type: trojan
+  sni: ''
+  password: SoftNetConnect
+  server: 37.156.44.215
+  port: 42549
+- name: AE_speednode_0001
+  type: trojan
+  sni: 95r.ir
+  password: MITIVPN
+  server: 94.140.0.100
+  port: 443
 - name: GB_speednode_0005
   type: trojan
   sni: 95r.ir
@@ -202,25 +335,44 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港3|@ripaojiedian
   - 香港5|@ripaojiedian
-  - 日本2|@ripaojiedian
-  - 日本3|@ripaojiedian
-  - 新加坡2|@ripaojiedian
-  - 美国2|@ripaojiedian
+  - 日本|@ripaojiedian
   - 美国3|@ripaojiedian
-  - 🇸🇬SG_1|1.6MB/s
-  - 🇫🇷FR_1|1.1MB/s
-  - 🇦🇪AE_1|1.2MB/s
-  - 🇸🇬SG_3|1.4MB/s
-  - 🇯🇵JP_1|1.1MB/s
-  - 🇸🇬SG_4|1.0MB/s
-  - 🇬🇧GB_1|2.0MB/s
-  - 🇸🇬SG_5|1.5MB/s
-  - 🇸🇬SG_6|3.7MB/s
-  - 🇺🇸US_1|1.0MB/s
-  - AE_speednode_0001
+  - 🇯🇵JP_1|3.4MB/s
+  - 🇸🇬SG_1|3.6MB/s
+  - 🇸🇬SG_2|2.5MB/s
+  - 🇬🇧GB_1|2.4MB/s
+  - 🇯🇵JP_2|4.8MB/s
+  - 🇺🇸US_1|2.3MB/s
+  - 🇺🇸US_2|1.7MB/s
+  - 🇨🇭CH_1|2.7MB/s
+  - 🇦🇪AE_1|2.6MB/s
+  - 🇨🇭CH_2|4.0MB/s
+  - 🇷🇺RU_1|3.3MB/s
+  - 🇩🇪DE_1|2.7MB/s
+  - 🇺🇸US_4|2.9MB/s
+  - 🇸🇬SG_3|4.1MB/s
   - CZ_speednode_0002
+  - 🇩🇪DE_3|3.1MB/s
+  - 🇳🇱NL_1|3.2MB/s
+  - 🇫🇷FR_2|1.6MB/s
+  - 🇺🇸US_6|3.4MB/s
+  - 🇺🇸US_7|2.6MB/s
+  - 🇭🇰HK_1|1.0MB/s
+  - 🇭🇰HK_2|1021KB/s
+  - 🇯🇵JP_3|3.9MB/s
+  - 🇯🇵JP_4|1.2MB/s
+  - 🇸🇬SG_5|1.2MB/s
+  - 🇯🇵JP_5|1017KB/s
+  - 🇸🇬SG_6|1.2MB/s
+  - 🇸🇪SE_1|1.9MB/s
+  - 🇯🇵JP_6|2.6MB/s
+  - 🇫🇮FI_1|1.9MB/s
+  - 🇩🇪DE_4|2.7MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - 🇯🇵JP_7|2.6MB/s
+  - 🇨🇭CH_4|2.9MB/s
+  - AE_speednode_0001
   - GB_speednode_0005
   - ID_speednode_0009
   - ID_speednode_0010
