@@ -41,6 +41,12 @@ proxies:
   port: 443
   tls: true
   sni: rvg-production-b337.up.railway.app
+- name: 🇺🇸US_3|3.3MB/s
+  type: trojan
+  sni: d.usj1.cat.bilibili.com
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  server: d1.catcat321.com
+  port: 58995
 - name: 🇦🇪AE_1|2.6MB/s
   type: vless
   uuid: d9228d5d-618d-4771-835f-96b4ebdd38cd
@@ -97,6 +103,12 @@ proxies:
   port: 443
   tls: true
   sni: cfoo-146.pages.dev
+- name: 🇺🇸US_5|1.5MB/s
+  type: trojan
+  sni: d.usj1.cat.bilibili.com
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  server: d1.catcat321.com
+  port: 42531
 - name: 🇭🇰HK_1|1.0MB/s
   type: vless
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
@@ -111,6 +123,12 @@ proxies:
   port: 14007
   tls: true
   sni: apple.com
+- name: 🇺🇸US_9|1.3MB/s
+  type: trojan
+  sni: d.usj1.cat.bilibili.com
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  server: d1.catcat321.com
+  port: 50888
 - name: 🇯🇵JP_3|3.9MB/s
   type: vless
   uuid: 8aefc70f-df0d-46ff-bd17-e58ac2fe9f0e
@@ -118,6 +136,12 @@ proxies:
   port: 15542
   tls: true
   sni: aws.amazon.com
+- name: 🇺🇸US_10|1.1MB/s
+  type: trojan
+  sni: d.usj1.cat.bilibili.com
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  server: d1.catcat321.com
+  port: 13320
 - name: 🇸🇬SG_5|1.2MB/s
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -146,13 +170,6 @@ proxies:
   port: 443
   tls: true
   sni: sw.cloudload.org
-- name: 🇯🇵JP_6|2.6MB/s
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  server: 138.3.220.224
-  port: 443
-  tls: true
-  sni: t1s1.rittbo.kdns.fr
 - name: 🇫🇮FI_1|1.9MB/s
   type: vless
   uuid: 28acd046-f65e-402c-a25e-4a215af02796
@@ -160,6 +177,13 @@ proxies:
   port: 443
   tls: true
   sni: tv.apple.com
+- name: 🇩🇪DE_4|2.7MB/s
+  type: vless
+  uuid: 448f6d1f-b658-4dea-a7c6-942f19022ac6
+  server: 93.152.217.189
+  port: 443
+  tls: true
+  sni: unpkg.com
 - name: 🇺🇸US_11|2.0MB/s
   type: trojan
   sni: h2.bnm.uw.to
@@ -262,6 +286,7 @@ proxy-groups:
   - 🇯🇵JP_2|4.8MB/s
   - 🇺🇸US_1|2.3MB/s
   - 🇺🇸US_2|1.7MB/s
+  - 🇺🇸US_3|3.3MB/s
   - 🇦🇪AE_1|2.6MB/s
   - 🇷🇺RU_1|3.3MB/s
   - 🇩🇪DE_1|2.7MB/s
@@ -270,15 +295,18 @@ proxy-groups:
   - CZ_speednode_0002
   - 🇩🇪DE_3|3.1MB/s
   - 🇳🇱NL_1|3.2MB/s
+  - 🇺🇸US_5|1.5MB/s
   - 🇭🇰HK_1|1.0MB/s
   - 🇭🇰HK_2|1021KB/s
+  - 🇺🇸US_9|1.3MB/s
   - 🇯🇵JP_3|3.9MB/s
+  - 🇺🇸US_10|1.1MB/s
   - 🇸🇬SG_5|1.2MB/s
   - 🇯🇵JP_5|1017KB/s
   - 🇸🇬SG_6|1.2MB/s
   - 🇸🇪SE_1|1.9MB/s
-  - 🇯🇵JP_6|2.6MB/s
   - 🇫🇮FI_1|1.9MB/s
+  - 🇩🇪DE_4|2.7MB/s
   - 🇺🇸US_11|2.0MB/s
   - 🇯🇵JP_7|2.6MB/s
   - AE_speednode_0001
