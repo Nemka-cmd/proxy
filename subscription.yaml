@@ -13,6 +13,13 @@ proxies:
   port: 443
   tls: true
   sni: support.zoom.us.yxls.eu.cc
+- name: 🇩🇪DE_1|3.4MB/s
+  type: vless
+  uuid: 1d3f06e4-fd94-4293-b557-54c6e282eff7
+  server: himo.sanaiehdasti.com
+  port: 1323
+  tls: false
+  sni: ''
 - name: 🇦🇹AT_2|3.0MB/s
   type: vless
   uuid: 10ea33f2-1a66-4dec-99f2-8068a6b56a45
@@ -20,6 +27,12 @@ proxies:
   port: 443
   tls: true
   sni: user321-21.riseservice.me
+- name: 🇰🇷KR_1|2.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  server: 27.255.82.134
+  port: 2078
 - name: 🇫🇷FR_1|2.1MB/s
   type: ss
   cipher: aes-256-cfb
@@ -375,6 +388,13 @@ proxies:
   port: 51142
   tls: true
   sni: akamai.com
+- name: 🇬🇧GB_1|1.6MB/s
+  type: vless
+  uuid: 181d203a-e738-4aa4-a2d8-d82765f1c0c5
+  server: 31.77.146.252.cdn-one.org
+  port: 443
+  tls: true
+  sni: 31.77.146.252.cdn-one.org
 - name: 🇩🇪DE_7|1.7MB/s
   type: vless
   uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
@@ -489,7 +509,9 @@ proxy-groups:
   proxies:
   - 🇺🇸US_1|1.7MB/s
   - 🇺🇸US_2|2.3MB/s
+  - 🇩🇪DE_1|3.4MB/s
   - 🇦🇹AT_2|3.0MB/s
+  - 🇰🇷KR_1|2.5MB/s
   - 🇫🇷FR_1|2.1MB/s
   - 🇳🇱NL_1|1.7MB/s
   - 🇰🇷KR_2|2.4MB/s
@@ -541,6 +563,7 @@ proxy-groups:
   - 🇳🇱NL_11|1.9MB/s
   - 🇳🇱NL_12|3.2MB/s
   - 🇯🇵JP_4|3.6MB/s
+  - 🇬🇧GB_1|1.6MB/s
   - 🇩🇪DE_7|1.7MB/s
   - 🇳🇱NL_13|1.6MB/s
   - 🇸🇬SG_13|3.9MB/s
