@@ -31,6 +31,12 @@ proxies:
   password: MITIVPN
   server: 172.67.138.53
   port: 443
+- name: 🇦🇪AE_1|2.5MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5KilolFUjzlMabQ0ORwBUwr6sSvqRCzh
+  server: 85.234.73.234
+  port: 1080
 - name: 🇺🇸US_4|2.5MB/s
   type: trojan
   sni: sw.App-Cloud.ir
@@ -545,6 +551,7 @@ proxy-groups:
   - 🇩🇪DE_1|2.8MB/s
   - 🇺🇸US_3|3.1MB/s
   - 🇳🇱NL_1|1.8MB/s
+  - 🇦🇪AE_1|2.5MB/s
   - 🇺🇸US_4|2.5MB/s
   - 🇺🇸US_5|2.7MB/s
   - 🇺🇸US_6|2.7MB/s
