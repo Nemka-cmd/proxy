@@ -1,16 +1,4 @@
 proxies:
-- name: 日本|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 3.112.52.247
-  port: 27826
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 95.40.58.154
-  port: 44265
 - name: 🇫🇮FI_1|2.6MB/s
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
@@ -32,13 +20,6 @@ proxies:
   port: 80
   tls: false
   sni: zeus-panel-igxg8r.zeus-l045vf.workers.dev
-- name: 🇷🇺RU_1|1.7MB/s
-  type: vless
-  uuid: 5ec1e7c3-8afc-416f-ef88-1002d5b25139
-  server: 95.182.90.46
-  port: 40000
-  tls: true
-  sni: aparat.com
 - name: 🇸🇬SG_1|2.8MB/s
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -584,12 +565,9 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本|@ripaojiedian
-  - 美国3|@ripaojiedian
   - 🇫🇮FI_1|2.6MB/s
   - 🇨🇭CH_1|2.1MB/s
   - 🇳🇱NL_1|2.4MB/s
-  - 🇷🇺RU_1|1.7MB/s
   - 🇸🇬SG_1|2.8MB/s
   - 🇺🇸US_2|2.6MB/s
   - 🇺🇸US_3|1.8MB/s
