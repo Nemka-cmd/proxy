@@ -11,61 +11,27 @@ proxies:
   password: d6788cf74e6844c45538204efd24b00f
   server: 16.163.138.198
   port: 49277
-- name: 🇸🇬SG_1|3.7MB/s
+- name: 🇺🇸US_1|1.7MB/s
   type: vless
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  server: 162.159.2.87
+  uuid: a19133c6-8e5d-4bbf-acdc-d88a628ab9c1
+  server: 38.244.21.105
   port: 443
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
-- name: 🇺🇸US_1|3.4MB/s
-  type: trojan
-  sni: fffffl-lls.MaQror.ir
-  password: MiTiVPN
-  server: 141.193.213.21
-  port: 443
-- name: 🇸🇬SG_2|4.5MB/s
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  server: 172.64.146.86
-  port: 443
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-- name: 🇺🇸US_3|2.4MB/s
+  sni: www.apple.com
+- name: 🇺🇸US_3|1.8MB/s
   type: vless
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   server: 120.55.183.176
   port: 443
   tls: false
   sni: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬SG_3|2.6MB/s
+- name: 🇺🇸US_4|1.9MB/s
   type: vless
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  server: 8.35.211.87
-  port: 2096
+  uuid: 95ce82f2-5dc3-45b6-a541-b614da0cfdb1
+  server: 94.140.0.255
+  port: 2053
   tls: true
-  sni: go.iranfree.de5.net
-- name: 🇺🇸US_4|2.2MB/s
-  type: vless
-  uuid: 49a9aa25-443b-4fab-9a85-066dd5396c57
-  server: 104.17.170.132
-  port: 8880
-  tls: false
   sni: ''
-- name: 🇸🇬SG_4|3.7MB/s
-  type: vless
-  uuid: 235d1c38-9bd2-45cf-85a8-92dee7ef2c62
-  server: ct.877774.xyz
-  port: 443
-  tls: true
-  sni: do-sgp1.862400.xyz
-- name: 🇬🇧GB_1|2.4MB/s
-  type: vless
-  uuid: 235d1c38-9bd2-45cf-85a8-92dee7ef2c62
-  server: www.visa.com.hk
-  port: 443
-  tls: true
-  sni: do-lon1.862400.xyz
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -145,14 +111,9 @@ proxy-groups:
   proxies:
   - 香港3|@ripaojiedian
   - 美国2|@ripaojiedian
-  - 🇸🇬SG_1|3.7MB/s
-  - 🇺🇸US_1|3.4MB/s
-  - 🇸🇬SG_2|4.5MB/s
-  - 🇺🇸US_3|2.4MB/s
-  - 🇸🇬SG_3|2.6MB/s
-  - 🇺🇸US_4|2.2MB/s
-  - 🇸🇬SG_4|3.7MB/s
-  - 🇬🇧GB_1|2.4MB/s
+  - 🇺🇸US_1|1.7MB/s
+  - 🇺🇸US_3|1.8MB/s
+  - 🇺🇸US_4|1.9MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
