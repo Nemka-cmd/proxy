@@ -11,27 +11,52 @@ proxies:
   password: d6788cf74e6844c45538204efd24b00f
   server: 16.163.138.198
   port: 49277
-- name: 🇺🇸US_1|1.7MB/s
+- name: 🇺🇸US_1|3.9MB/s
+  type: trojan
+  sni: fffffl-lls.MaQror.ir
+  password: MiTiVPN
+  server: 141.193.213.21
+  port: 443
+- name: 🇺🇸US_2|2.2MB/s
+  type: trojan
+  sni: De-Ge-N.MaQror.ir
+  password: MITIVPN
+  server: www.speedtest.net
+  port: 443
+- name: 🇸🇬SG_1|1.9MB/s
   type: vless
-  uuid: a19133c6-8e5d-4bbf-acdc-d88a628ab9c1
-  server: 38.244.21.105
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 162.159.10.87
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_3|1.8MB/s
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  server: 120.55.183.176
+  sni: t1s1.rittbo.kdns.fr
+- name: 🇫🇷FR_1|2.6MB/s
+  type: trojan
+  sni: www.gossipglove.com
+  password: humanity
+  server: 172.64.146.211
   port: 443
+- name: 🇯🇵JP_1|2.2MB/s
+  type: vless
+  uuid: d593c88a-496b-4889-968c-6af644021467
+  server: download.yunzhongzhuan.com
+  port: 8880
   tls: false
-  sni: support.zoom.us.yxls.eu.cc
-- name: 🇺🇸US_4|1.9MB/s
-  type: vless
-  uuid: 95ce82f2-5dc3-45b6-a541-b614da0cfdb1
-  server: 94.140.0.255
-  port: 2053
-  tls: true
   sni: ''
+- name: 🇸🇬SG_2|1.7MB/s
+  type: vless
+  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
+  server: themeforest.net
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇭🇰HK_1|3.8MB/s
+  type: vless
+  uuid: 017606e5-601f-44f0-953c-a7f81c96ac5c
+  server: hk4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: hk4e-launcher-static.hoyoverse.com
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -111,9 +136,13 @@ proxy-groups:
   proxies:
   - 香港3|@ripaojiedian
   - 美国2|@ripaojiedian
-  - 🇺🇸US_1|1.7MB/s
-  - 🇺🇸US_3|1.8MB/s
-  - 🇺🇸US_4|1.9MB/s
+  - 🇺🇸US_1|3.9MB/s
+  - 🇺🇸US_2|2.2MB/s
+  - 🇸🇬SG_1|1.9MB/s
+  - 🇫🇷FR_1|2.6MB/s
+  - 🇯🇵JP_1|2.2MB/s
+  - 🇸🇬SG_2|1.7MB/s
+  - 🇭🇰HK_1|3.8MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
