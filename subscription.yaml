@@ -5,6 +5,12 @@ proxies:
   password: d6788cf74e6844c45538204efd24b00f
   server: 16.163.138.198
   port: 2008
+- name: 美国2|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d6788cf74e6844c45538204efd24b00f
+  server: 16.163.138.198
+  port: 49277
 - name: 🇺🇸US_1|1.8MB/s
   type: vless
   uuid: ccebf44c-e3ad-4092-8b35-41179a9dfa23
@@ -26,13 +32,6 @@ proxies:
   port: 8880
   tls: false
   sni: ''
-- name: 🇷🇺RU_1|1.6MB/s
-  type: vless
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-  server: 193.233.246.79
-  port: 8443
-  tls: true
-  sni: ads.x5.ru
 - name: 🇸🇬SG_3|2.9MB/s
   type: vless
   uuid: 8e32697d-c23c-4b6b-9790-f46a7b94958d
@@ -152,10 +151,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港3|@ripaojiedian
+  - 美国2|@ripaojiedian
   - 🇺🇸US_1|1.8MB/s
   - 🇳🇱NL_1|1.5MB/s
   - 🇸🇬SG_2|2.2MB/s
-  - 🇷🇺RU_1|1.6MB/s
   - 🇸🇬SG_3|2.9MB/s
   - 🇱🇹LT_1|1.6MB/s
   - 🇩🇪DE_1|2.1MB/s
