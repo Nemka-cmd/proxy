@@ -1,149 +1,109 @@
 proxies:
-- name: 🇭🇰HK_2|3.4MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.163.129.5
-  port: 29443
-- name: 🇳🇱NL_1|1.7MB/s
+- name: 🇯🇵JP_1|5.5MB/s
   type: vless
-  uuid: 270ee1c7-96df-473a-a50f-1a4cf5641bdc
-  server: 172.67.190.227
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇫🇮FI_1|2.5MB/s
-  type: vless
-  uuid: fecab146-016b-4668-8d56-c3637eae1711
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_2|2.0MB/s
-  type: vless
-  uuid: 8b3e24b0-c52f-9778-9efd-025376f3577b
-  server: rvg-production-59c3.up.railway.app
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: jp4.miyazono-kaori.com
   port: 443
   tls: true
-  sni: rvg-production-59c3.up.railway.app
-- name: 🇳🇱NL_4|2.5MB/s
+  sni: www.bandainamcoent.co.jp
+- name: 🇯🇵JP_2|3.8MB/s
   type: vless
-  uuid: af563223-7402-4ecd-bbf9-10f7410753fa
-  server: ld.242311.xyz
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: jp3.miyazono-kaori.com
   port: 443
   tls: true
-  sni: ld.242311.xyz
-- name: 🇳🇱NL_5|1.7MB/s
+  sni: www.bandainamcoent.co.jp
+- name: 🇭🇰HK_1|3.8MB/s
   type: vless
-  uuid: 1cefdbfd-6032-43d5-ac13-f58b4498e2f7
-  server: log.bpminecraft.com
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_6|1.5MB/s
-  type: vless
-  uuid: 21b93e91-5bb1-4d6d-9093-1fd09ae06903
-  server: 172.67.152.71
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_2|2.0MB/s
-  type: vless
-  uuid: 3a5fd8d7-4182-4f65-a005-ee8d39fe96b9
-  server: securitytrails.com
-  port: 8443
-  tls: true
-  sni: api.somethingelse.dpdns.org
-- name: 🇬🇧GB_1|1.9MB/s
-  type: vless
-  uuid: 578c8541-16a0-40b7-bf72-9508d547f856
-  server: 31.77.147.204
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: hk3.miyazono-kaori.com
   port: 443
   tls: true
-  sni: dl.google.com
-- name: 🇸🇬SG_4|1.7MB/s
+  sni: hk4e-launcher-static.hoyoverse.com
+- name: 🇰🇷KR_1|4.6MB/s
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: 104.18.41.190
-  port: 2095
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_5|2.2MB/s
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: www.wto.org
-  port: 2095
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_3|2.5MB/s
-  type: vless
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  server: 162.159.156.214
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_5|2.5MB/s
-  type: vless
-  uuid: Telegram-CNT-Cafe
-  server: 45.39.230.228
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: kr1.miyazono-kaori.com
   port: 443
   tls: true
-  sni: www.yahoo.com
-- name: 🇸🇬SG_6|3.8MB/s
+  sni: www.coway.com
+- name: 🇭🇰HK_2|2.9MB/s
   type: vless
-  uuid: a429499b-6237-44b2-ae4d-0d53d14cf46a
-  server: themeforest.net
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_4|2.5MB/s
-  type: vless
-  uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
-  server: 104.26.13.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_5|2.2MB/s
-  type: vless
-  uuid: cee8c30c-fb13-4a89-abb4-5a32cf716c97
-  server: nebulonix.online
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: hk6.miyazono-kaori.com
   port: 443
   tls: true
-  sni: satl.satl.dpdns.org
-- name: 🇩🇪DE_6|2.5MB/s
+  sni: www.hsbc.com.hk
+- name: 🇰🇷KR_2|4.9MB/s
   type: vless
-  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
-  server: www.whatismyip.com
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_2|3.5MB/s
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: kr2.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.coway.com
+- name: 🇩🇪DE_1|2.0MB/s
   type: vless
-  uuid: d593c88a-496b-4889-968c-6af644021467
-  server: download.yunzhongzhuan.com
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_7|1.9MB/s
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: de1.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.siemens.com
+- name: 🇭🇰HK_3|3.6MB/s
   type: vless
-  uuid: f8abf475-11e1-4f9f-87e1-22011fe75284
-  server: 172.67.129.173
-  port: 8080
-  tls: false
-  sni: zeus-panel-koqibn.peekconf12222.workers.dev
-- name: 🇩🇪DE_7|1.5MB/s
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: hk5.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.hsbc.com.hk
+- name: 🇭🇰HK_4|4.6MB/s
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  server: 95.182.98.134
-  port: 8882
-  tls: false
-  sni: ''
-- name: 🇺🇸US_7|3.5MB/s
-  type: ss
-  cipher: aes-256-gcm
-  password: d4835152-04e6-3ad9-9c59-ad697a2c13c1
-  server: f.y.9.w.c.y.1.d.1.us02-ae5.entry.v51124-6.qpon
-  port: 20019
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: hk4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: hk4e-launcher-static.hoyoverse.com
+- name: 🇹🇼TW_1|4.8MB/s
+  type: vless
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: tw4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: dlcdnets.asus.com
+- name: 🇹🇼TW_2|5.0MB/s
+  type: vless
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: tw3.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: dlcdnets.asus.com
+- name: 🇬🇧GB_1|2.0MB/s
+  type: vless
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: uk1.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.bp.com
+- name: 🇬🇧GB_2|1.9MB/s
+  type: vless
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  server: uk2.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.bp.com
+- name: 🇸🇬SG_1|2.9MB/s
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  server: 172.64.147.129
+  port: 2053
+  tls: true
+  sni: nfs.kdns.fr
+- name: 🇸🇬SG_2|2.9MB/s
+  type: vless
+  uuid: e0240134-0986-4b92-a230-fdc8d1200456
+  server: 172.64.147.115
+  port: 2053
+  tls: true
+  sni: nfs.kdns.fr
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -221,27 +181,21 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇭🇰HK_2|3.4MB/s
-  - 🇳🇱NL_1|1.7MB/s
-  - 🇫🇮FI_1|2.5MB/s
-  - 🇳🇱NL_2|2.0MB/s
-  - 🇳🇱NL_4|2.5MB/s
-  - 🇳🇱NL_5|1.7MB/s
-  - 🇳🇱NL_6|1.5MB/s
-  - 🇩🇪DE_2|2.0MB/s
-  - 🇬🇧GB_1|1.9MB/s
-  - 🇸🇬SG_4|1.7MB/s
-  - 🇸🇬SG_5|2.2MB/s
-  - 🇩🇪DE_3|2.5MB/s
-  - 🇺🇸US_5|2.5MB/s
-  - 🇸🇬SG_6|3.8MB/s
-  - 🇩🇪DE_4|2.5MB/s
-  - 🇩🇪DE_5|2.2MB/s
-  - 🇩🇪DE_6|2.5MB/s
-  - 🇯🇵JP_2|3.5MB/s
-  - 🇳🇱NL_7|1.9MB/s
-  - 🇩🇪DE_7|1.5MB/s
-  - 🇺🇸US_7|3.5MB/s
+  - 🇯🇵JP_1|5.5MB/s
+  - 🇯🇵JP_2|3.8MB/s
+  - 🇭🇰HK_1|3.8MB/s
+  - 🇰🇷KR_1|4.6MB/s
+  - 🇭🇰HK_2|2.9MB/s
+  - 🇰🇷KR_2|4.9MB/s
+  - 🇩🇪DE_1|2.0MB/s
+  - 🇭🇰HK_3|3.6MB/s
+  - 🇭🇰HK_4|4.6MB/s
+  - 🇹🇼TW_1|4.8MB/s
+  - 🇹🇼TW_2|5.0MB/s
+  - 🇬🇧GB_1|2.0MB/s
+  - 🇬🇧GB_2|1.9MB/s
+  - 🇸🇬SG_1|2.9MB/s
+  - 🇸🇬SG_2|2.9MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
