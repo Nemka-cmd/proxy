@@ -1,39 +1,32 @@
 proxies:
-- name: 🇵🇱PL_1|1.8MB/s
+- name: 🇯🇵JP_1|3.6MB/s
   type: vless
-  uuid: 18167dd6-2c24-4f6b-a416-64bac693127a
-  server: 83.168.88.40
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  server: yg11.ygkkk.dpdns.org
   port: 443
   tls: true
-  sni: optim.tildacdn.pub
-- name: 🇦🇹AT_1|1.7MB/s
+  sni: vp1.cc.cd
+- name: 🇯🇵JP_2|4.0MB/s
   type: vless
-  uuid: 18167dd6-2c24-4f6b-a416-64bac693127a
-  server: 104.143.0.254
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  server: 7.cf.3666888.xyz
   port: 443
   tls: true
-  sni: optim.tildacdn.pub
-- name: 🇳🇱NL_1|1.5MB/s
+  sni: vp1.cc.cd
+- name: 🇯🇵JP_3|2.6MB/s
   type: vless
-  uuid: 4a40e7a6-9179-42c1-9bd7-eefec23a62f8
-  server: skk.moe
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_2|2.6MB/s
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  server: 172.64.146.86
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  server: cf-ip-node.vov.moe
   port: 443
   tls: true
-  sni: support.zoom.us.yxls.eu.cc
-- name: 🇸🇬SG_3|4.3MB/s
+  sni: vp1.cc.cd
+- name: 🇯🇵JP_4|3.6MB/s
   type: vless
-  uuid: 905d0e1f-4067-4a30-9c05-c64352faea62
-  server: 162.159.48.193
-  port: 8880
-  tls: false
-  sni: ''
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  server: keji.cf.3666888.xyz
+  port: 443
+  tls: true
+  sni: vp1.cc.cd
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -111,11 +104,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇵🇱PL_1|1.8MB/s
-  - 🇦🇹AT_1|1.7MB/s
-  - 🇳🇱NL_1|1.5MB/s
-  - 🇸🇬SG_2|2.6MB/s
-  - 🇸🇬SG_3|4.3MB/s
+  - 🇯🇵JP_1|3.6MB/s
+  - 🇯🇵JP_2|4.0MB/s
+  - 🇯🇵JP_3|2.6MB/s
+  - 🇯🇵JP_4|3.6MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
