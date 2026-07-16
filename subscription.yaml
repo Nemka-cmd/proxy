@@ -1,949 +1,443 @@
 proxies:
-- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+- name: 🇰🇷KR_1|1.9MB/s
   type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  server: 198.41.219.218
+  uuid: a5a82872-616b-49f6-a40a-6a54feeb5dd0
+  server: 151.245.106.49
+  port: 2053
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇳🇱NL_1|2.1MB/s
+  type: vless
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  server: 117.55.202.86
   port: 443
   tls: true
-  sni: zyzzzoao.xn--fiqv8j.eu.org
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  sni: convertor-gamer-plastiijk.ru
+- name: 🇫🇷FR_1|1.8MB/s
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 138.2.112.117
-  port: 15807
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 176.124.223.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 114.204.40.185
-  port: 30001
-  tls: true
-  sni: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 45.76.191.197
-  port: 10460
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 140.245.75.37
-  port: 627
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 146.56.106.51
-  port: 56271
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  server: 104.26.5.134
-  port: 2096
-  tls: false
-  sni: joey.freen1.de5.net
-- name: 'A - 🇸🇬 SG 08 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.131.4.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 114.129.43.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
-  type: vless
-  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
-  server: 46.149.71.46
+  uuid: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  server: 77.221.152.151
   port: 443
   tls: true
-  sni: www.avito.ru
-- name: 'A - 🇸🇬 SG 11 TG: @nodpai'
-  type: vless
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
-  server: 104.17.25.132
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 12 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 195.26.229.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 13 TG: @nodpai'
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  server: 104.21.1.5
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 14 TG: @nodpai'
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  server: 172.67.186.114
-  port: 80
-  tls: false
-  sni: ''
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  type: vless
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
-  server: 104.19.151.106
-  port: 80
-  tls: false
-  sni: ''
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
-  type: vless
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-  server: 46.149.71.46
-  port: 443
-  tls: true
-  sni: www.avito.ru
-- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 140.238.33.0
-  port: 33940
-  tls: false
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.198.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 108.162.193.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 104.129.167.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 04 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 8.34.70.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.151.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 06 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 160.153.138.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 07 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.4chan.org
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 08 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: icook.hk
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: fbi.gov
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 10 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.gov.se
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 11 TG: @nodpai'
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  server: 198.41.208.203
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 12 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.zsu.gov.ua
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 13 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.153.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 14 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.baipiao.eu.org
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 15 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 173.245.49.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.udacity.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 20 TG: @nodpai'
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.66.44.211
-  port: 2083
-  tls: true
-  sni: wk1.f1w.de5.net
-- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  sni: www.lefigaro.fr
+- name: 🇩🇪DE_11|2.6MB/s
   type: trojan
-  sni: support.zoom.us.blackshadow.dpdns.org
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  server: blackshadow.dpdns.org
+  sni: busy-hermit.rooster465.autos
+  password: OD90375861
+  server: busy-hermit.rooster465.autos
   port: 443
-- name: 'B - 🇺🇸 US 26 TG: @nodpai'
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.66.47.45
-  port: 2083
-  tls: true
-  sni: wk1.f1w.de5.net
-- name: 'B - 🇺🇸 US 27 TG: @nodpai'
-  type: vless
-  uuid: 7841aff6-8552-4f8e-ad0c-06c3b73e6440
-  server: usr.moktana.app
-  port: 443
-  tls: true
-  sni: us.moktana.app
-- name: 'B - 🇺🇸 US 29 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: singapore.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 38 TG: @nodpai'
-  type: vless
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
-  server: yx.cloudflare.182682.xyz
-  port: 443
-  tls: false
-  sni: gddy.hhlfy.de5.net
-- name: 'B - 🇺🇸 US 39 TG: @nodpai'
-  type: vless
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
-  server: www.visa.com.sg
-  port: 2052
-  tls: false
-  sni: ''
-- name: 'B - 🇺🇸 US 40 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: japan.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 41 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: russia.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 44 TG: @nodpai'
-  type: vless
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
-  server: s881.ccgfw.top
-  port: 443
-  tls: true
-  sni: s881.ccgfw.top
-- name: 'C - 🇺🇸 US 45 TG: @nodpai'
-  type: vless
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  server: 172.64.146.127
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.193.30.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.146.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.110.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.159.247.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 77.75.199.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 108.162.196.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 72.167.230.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.111.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.85.119.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 66.81.247.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇦🇺 AU 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 193.9.49.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.195.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇨🇦 CA 02 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: shopify.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇳🇱 NL 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 88.216.66.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇳🇱 NL 03 TG: @nodpai'
-  type: vless
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
-  server: g10.steptofsvo.com
-  port: 443
-  tls: true
-  sni: g10.steptofsvo.com
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.67.215.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇳 IN 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 66.81.247.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇧🇷 BR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 198.71.189.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇹 IT 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.206.12.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇪🇸 ES 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 192.169.223.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇷🇴 RO 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 89.116.180.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇷🇴 RO 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 194.53.53.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇱 IL 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.131.209.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇧🇬 BG 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.110.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇪 IE 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.170.166.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇷🇸 RS 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.146.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.197.64.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.197.121.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.192.224.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 香港4|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.162.119.160
-  port: 29443
-- name: 新加坡|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  server: 18.167.116.129
-  port: 48738
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.162.62.243
-  port: 32434
-- name: 🇩🇪DE_1|2.6MB/s
-  type: vless
-  uuid: f7c0db69-6963-4d7e-9743-8ef52c44c7b8
-  server: 81.31.211.115
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_1|2.5MB/s
-  type: trojan
-  sni: evolving-mollusk.rooster465.autos
-  password: CF68213490
-  server: evolving-mollusk.rooster465.autos
-  port: 443
-- name: 🇵🇱PL_1|2.1MB/s
-  type: trojan
-  sni: more-trout.rooster465.autos
-  password: KV63147582
-  server: more-trout.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_1|3.6MB/s
-  type: trojan
-  sni: normal-macaque.rooster465.autos
-  password: CF68213490
-  server: normal-macaque.rooster465.autos
-  port: 443
-- name: 🇩🇪DE_2|3.2MB/s
-  type: vless
-  uuid: 3d244afc-60ef-468a-9b19-f4bbad7e8ef1
-  server: 81.31.211.111
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_2|4.6MB/s
-  type: trojan
-  sni: brief-warthog.rooster465.autos
-  password: CF68213490
-  server: brief-warthog.rooster465.autos
-  port: 443
-- name: 🇺🇸US_1|1.8MB/s
-  type: vless
-  uuid: e3b61686-574f-4c57-b016-0e6d060f0b4f
-  server: marzban-node-production-7017.up.railway.app
-  port: 443
-  tls: true
-  sni: marzban-node-production-7017.up.railway.app
-- name: 🇰🇷KR_1|3.4MB/s
-  type: trojan
-  sni: pure-ram.rooster465.autos
-  password: CF68213490
-  server: pure-ram.rooster465.autos
-  port: 443
-- name: 🇩🇪DE_3|1.8MB/s
-  type: vless
-  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
-  server: 81.31.211.110
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇫🇮FI_1|2.5MB/s
-  type: vless
-  uuid: 6f75658c-6dcc-4d23-a45b-0bef82f66b1c
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_1|2.5MB/s
-  type: vless
-  uuid: 59da5351-5151-417d-b2f7-6923848b717e
-  server: nl4.helper-internet.com
-  port: 443
-  tls: true
-  sni: nl4.helper-internet.com
-- name: 🇫🇮FI_2|2.1MB/s
+- name: 🇫🇮FI_1|2.4MB/s
   type: vless
   uuid: 9149a9c5-d2e5-4fa0-841c-99f7e12dfced
   server: testserv1.zer0zypher.ir
   port: 443
   tls: true
   sni: es-us.vida-estilo.yahoo.com
-- name: 🇸🇪SE_1|1.6MB/s
+- name: 🇩🇪DE_2|1.5MB/s
   type: vless
-  uuid: 59da5351-5151-417d-b2f7-6923848b717e
-  server: swed1.helper-internet.com
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  server: 89.106.86.87
   port: 443
   tls: true
-  sni: swed1.helper-internet.com
-- name: 🇺🇸US_2|2.2MB/s
+  sni: ads.cardds.store
+- name: 🇳🇱NL_2|3.4MB/s
   type: vless
-  uuid: 963c91fc-1ce7-4fc7-806f-0a2e7b03bfee
-  server: 198.202.211.1
-  port: 443
+  uuid: f7f14ab6-b9fb-4285-ae74-f6913332d30e
+  server: 51.15.18.50
+  port: 2053
   tls: true
-  sni: sinavm3.soft10.ir
-- name: 🇩🇪DE_4|3.1MB/s
-  type: vless
-  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
-  server: 81.31.211.108
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇱🇻LV_1|2.1MB/s
-  type: vless
-  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
-  server: 51.250.67.164
-  port: 443
-  tls: true
-  sni: cdn.tracker.yandex.net
-- name: 🇩🇪DE_5|2.6MB/s
+  sni: www.apple.com
+- name: 🇩🇪DE_3|2.1MB/s
   type: vless
   uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
   server: de10.buycloud.app
   port: 443
   tls: true
-  sni: de10.buycloud.app
-- name: 🇫🇷FR_1|2.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.97
-  port: 443
-- name: 🇱🇻LV_3|1.9MB/s
+  sni: ''
+- name: 🇩🇪DE_4|3.3MB/s
   type: vless
-  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
-  server: 51.250.46.89
+  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
+  server: 81.31.211.117
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_5|1.5MB/s
+  type: vless
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  server: 94.249.225.48
   port: 443
   tls: true
-  sni: cdn.tracker.yandex.net
-- name: 🇩🇪DE_6|2.1MB/s
+  sni: ssl.cougarboardsstore.store
+- name: 🇷🇺RU_2|3.1MB/s
   type: vless
-  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
-  server: 5.253.66.63
-  port: 443
+  uuid: bb5b4296-e7fa-42f9-9f65-64306413e00a
+  server: 94.228.171.171
+  port: 8081
+  tls: false
+  sni: ''
+- name: ❓Other_1|3.0MB/s
+  type: vless
+  uuid: 6b66f7a6-1594-4c65-882b-9a4337504db7
+  server: us.259470.xyz
+  port: 2083
   tls: true
-  sni: cdn-up.perecbass.ru
-- name: 🇸🇬SG_3|3.5MB/s
-  type: trojan
-  sni: learning-wren.rooster465.autos
-  password: CF68213490
-  server: learning-wren.rooster465.autos
-  port: 443
-- name: 🇺🇸US_4|2.7MB/s
+  sni: www.amd.com
+- name: 🇩🇪DE_7|2.9MB/s
   type: vless
   uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
-  server: 104.19.33.83
+  server: 104.25.126.78
   port: 443
   tls: false
   sni: ourfast.ccwu.cc
-- name: 🇸🇬SG_4|4.5MB/s
+- name: 🇳🇱NL_4|1.5MB/s
   type: vless
   uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
-  server: 188.164.248.117
+  server: 172.67.222.64
+  port: 443
+  tls: false
+  sni: ourfast.ccwu.cc
+- name: 🇩🇪DE_8|2.5MB/s
+  type: vless
+  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
+  server: 104.25.46.11
+  port: 443
+  tls: false
+  sni: ourfast.ccwu.cc
+- name: 🇸🇬SG_2|4.5MB/s
+  type: vless
+  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
+  server: 173.245.58.209
   port: 2087
   tls: false
-  sni: 3da0360c.myblog-2hd.pages.dev
-- name: 🇸🇬SG_5|3.5MB/s
-  type: trojan
-  sni: internal-krill.rooster465.autos
-  password: CF68213490
-  server: internal-krill.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_6|5.1MB/s
-  type: trojan
-  sni: relevant-oryx.rooster465.autos
-  password: CF68213490
-  server: relevant-oryx.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_7|5.2MB/s
-  type: trojan
-  sni: bright-cicada.rooster465.autos
-  password: CF68213490
-  server: bright-cicada.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_2|5.4MB/s
-  type: trojan
-  sni: concrete-aardvark.rooster465.autos
-  password: CF68213490
-  server: concrete-aardvark.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_8|3.8MB/s
-  type: trojan
-  sni: active-hippo.rooster465.autos
-  password: CF68213490
-  server: active-hippo.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_9|4.5MB/s
-  type: trojan
-  sni: grateful-owl.rooster465.autos
-  password: CF68213490
-  server: grateful-owl.rooster465.autos
-  port: 443
-- name: 🇩🇪DE_7|2.6MB/s
+  sni: wefast.ccwu.cc
+- name: 🇩🇪DE_9|2.0MB/s
   type: vless
   uuid: '%40V2ConfigPro'
   server: love.ns.cloudflare.com
   port: 8443
   tls: true
   sni: vamosargentina.dpdns.org
-- name: 🇰🇷KR_2|3.4MB/s
+- name: 🇸🇬SG_4|1.6MB/s
   type: trojan
+  sni: space.byu.id.yxls.eu.cc
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  server: 188.164.248.122
+  port: 443
+- name: 🇩🇪DE_10|2.2MB/s
+  type: vless
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+  server: 172.66.132.196
+  port: 8880
+  tls: false
   sni: ''
-  password: CF68213490
-  server: pure-ram.rooster465.autos
-  port: 443
-- name: 🇩🇪DE_8|2.2MB/s
+- name: 🇵🇱PL_1|3.7MB/s
   type: trojan
-  sni: together-insect.rooster465.autos
-  password: OD90375861
-  server: together-insect.rooster465.autos
+  sni: emerging-weevil.rooster465.autos
+  password: CF68213490
+  server: emerging-weevil.rooster465.autos
   port: 443
-- name: 🇷🇺RU_1|2.4MB/s
+- name: 🇺🇸US_1|3.3MB/s
+  type: trojan
+  sni: polite-coyote.rooster465.autos
+  password: CF68213490
+  server: polite-coyote.rooster465.autos
+  port: 443
+- name: 🇳🇱NL_5|2.5MB/s
+  type: trojan
+  sni: game-firefly.rooster465.autos
+  password: KV63147582
+  server: 89.39.70.233
+  port: 443
+- name: 🇭🇰HK_1|1.5MB/s
+  type: trojan
+  sni: desired-tahr.rooster465.autos
+  password: KV63147582
+  server: desired-tahr.rooster465.autos
+  port: 443
+- name: 🇺🇸US_2|2.6MB/s
+  type: trojan
+  sni: popular-meerkat.rooster465.autos
+  password: KV63147582
+  server: popular-meerkat.rooster465.autos
+  port: 443
+- name: 🇩🇪DE_12|3.4MB/s
+  type: vless
+  uuid: '%40V2ConfigPro'
+  server: bayan.ns.cloudflare.com
+  port: 8443
+  tls: true
+  sni: vamosargentina.dpdns.org
+- name: 🇩🇰DK_1|1.8MB/s
   type: vless
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-  server: 176.53.161.244
-  port: 443
+  server: nl2.vrsvpn.com
+  port: 444
   tls: true
   sni: web.max.ru
-- name: 🇦🇹AT_1|3.8MB/s
+- name: 🇫🇷FR_2|2.5MB/s
+  type: vless
+  uuid: 1281ef13-f1cd-493b-903e-4c2f4ffe1eba
+  server: 80.249.150.24
+  port: 443
+  tls: true
+  sni: dzen.ru
+- name: 🇩🇪DE_13|2.8MB/s
+  type: vless
+  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
+  server: 162.159.156.214
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇫🇷FR_3|2.1MB/s
+  type: vless
+  uuid: 1478d83f-3e0b-4d96-99cc-b514495e53c6
+  server: 45.192.2.173
+  port: 443
+  tls: true
+  sni: yandex.net
+- name: 🇨🇭CH_1|2.1MB/s
   type: vless
   uuid: 15b39017-d3e6-479b-9569-3a2ec4589df4
-  server: 152.53.47.153
+  server: 152.233.31.72
   port: 16923
   tls: true
   sni: api-maps.yandex.ru
-- name: 🇷🇺RU_2|2.5MB/s
+- name: 🇭🇰HK_2|2.5MB/s
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: ru41.theabvp.org
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
+  server: billing.netraidly.ru
+  port: 40443
+  tls: true
+  sni: deepl.com
+- name: 🇩🇪DE_14|2.5MB/s
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  server: 89.106.86.89
   port: 443
   tls: true
-  sni: sun6-20.userapi.com
-- name: 🇩🇪DE_9|3.1MB/s
+  sni: ads.cardds.store
+- name: 🇳🇱NL_6|2.2MB/s
   type: vless
-  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
-  server: 81.31.211.119
-  port: 2085
+  uuid: 335035e6-65f1-4a51-a8a7-10fb0a89b8e7
+  server: 104.21.75.42
+  port: 2095
   tls: false
   sni: ''
-- name: 🇬🇧GB_3|2.4MB/s
+- name: 🇳🇱NL_7|2.7MB/s
   type: vless
-  uuid: 3cae7515-8967-49bc-ae9d-49fcf3d9dc3e
-  server: 31.76.10.207
+  uuid: 335035e6-65f1-4a51-a8a7-10fb0a89b8e7
+  server: 172.67.213.2
+  port: 2086
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_15|1.9MB/s
+  type: vless
+  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
+  server: osnl4.ghast.sbs
   port: 443
   tls: true
-  sni: api-maps.yandex.ru
-- name: 🇬🇧GB_4|1.9MB/s
+  sni: osnl4.ghast.sbs
+- name: 🇫🇷FR_4|2.1MB/s
   type: vless
-  uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
-  server: 2.27.13.17
+  uuid: 3dc9f16e-a3c2-494a-9e06-b77ceb488a2c
+  server: xh.hrmp.kdns.fr
+  port: 8443
+  tls: true
+  sni: xh.hrmp.kdns.fr
+- name: 🇳🇱NL_8|2.5MB/s
+  type: vless
+  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
+  server: 51.250.29.193
   port: 443
   tls: true
-  sni: cloudflare.com
-- name: 🇯🇵JP_3|2.0MB/s
+  sni: cdn.tracker.yandex.net
+- name: 🇭🇺HU_1|3.4MB/s
+  type: vless
+  uuid: 43ec05c9-ae90-41c0-ab97-dfe168644bb5
+  server: hu99.bearbeer.digital
+  port: 443
+  tls: true
+  sni: hu99.bearbeer.digital
+- name: 🇯🇵JP_1|1.7MB/s
   type: vless
   uuid: 45c8814c-c06f-4444-acda-1b745e74d33e
-  server: 195.209.88.182
+  server: s76276.cdn.ngenix.net
   port: 443
   tls: true
   sni: s76276.cdn.ngenix.net
-- name: 🇳🇱NL_2|2.7MB/s
+- name: 🇩🇪DE_16|2.2MB/s
+  type: vless
+  uuid: 468ad79f-d66a-47eb-874b-b88cd1bb76e3
+  server: 81.31.211.109
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_9|2.5MB/s
   type: vless
   uuid: 4eeed2f5-7c46-4324-8d73-419f1531dec8
-  server: 144.31.237.116
+  server: 144.31.237.68
   port: 443
   tls: true
   sni: www.mozilla.org
-- name: 🇳🇱NL_3|2.2MB/s
+- name: 🇳🇱NL_10|2.3MB/s
   type: vless
   uuid: 4eeed2f5-7c46-4324-8d73-419f1531dec8
-  server: 144.31.237.77
+  server: 144.31.237.88
   port: 443
   tls: true
   sni: www.mozilla.org
-- name: 🇳🇱NL_4|2.6MB/s
+- name: 🇷🇺RU_3|2.0MB/s
   type: vless
-  uuid: 4eeed2f5-7c46-4324-8d73-419f1531dec8
-  server: 144.31.237.79
+  uuid: 510a7c87-0aa0-4ead-9c9f-6e1700e12b09
+  server: ru3.fast-cone.com
   port: 443
   tls: true
-  sni: www.mozilla.org
-- name: 🇳🇱NL_5|1.6MB/s
+  sni: ru3.fast-cone.com
+- name: 🇳🇱NL_11|2.1MB/s
   type: vless
-  uuid: 4eeed2f5-7c46-4324-8d73-419f1531dec8
-  server: 144.31.237.82
+  uuid: 528ee6c3-7d3c-410e-b0de-0d5da09aeb14
+  server: nl.monkeyvillage.pro
   port: 443
   tls: true
-  sni: www.mozilla.org
-- name: 🇦🇹AT_2|2.7MB/s
+  sni: nl.monkeyvillage.pro
+- name: 🇫🇷FR_5|2.8MB/s
   type: vless
-  uuid: 528ee6c3-7d3c-0003-b0de-0d5da09aeb14
-  server: ru.monkeyvillage.pro
+  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+  server: 51.195.94.187
+  port: 8443
+  tls: true
+  sni: addons.mozilla.org
+- name: 🇩🇪DE_17|2.1MB/s
+  type: vless
+  uuid: 5c7a171d-de8a-446d-accc-4d3cf7d473f4
+  server: www.zsu.gov.ua
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_18|2.5MB/s
+  type: vless
+  uuid: 6308e26d-64bc-49fb-83de-0988b0d1fc58
+  server: 152.236.3.13
+  port: 8443
+  tls: true
+  sni: addons.mozilla.org
+- name: 🇩🇪DE_19|3.1MB/s
+  type: vless
+  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+  server: 162.159.140.78
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇷🇺RU_4|1.5MB/s
+  type: vless
+  uuid: 736a07e4-16d6-4a4b-a813-8b9edbe005a4
+  server: node10.mxvpn.dev
   port: 443
   tls: true
-  sni: ru.monkeyvillage.pro
-- name: 🇩🇪DE_10|2.6MB/s
+  sni: node10.mxvpn.dev
+- name: 🇳🇱NL_12|2.6MB/s
   type: vless
-  uuid: 55f940c5-9ffb-4d41-992d-576a74cf7ba0
-  server: 167.82.101.210
+  uuid: 742e841d-140d-4795-9f16-3cf119129fec
+  server: 146.0.75.144
   port: 443
   tls: true
-  sni: global.fastly.coM.
-- name: 🇩🇪DE_11|3.3MB/s
+  sni: dzen.ru
+- name: 🇷🇺RU_5|1.8MB/s
   type: vless
-  uuid: 55f940c5-9ffb-4d41-992d-576a74cf7ba0
-  server: falkoraz.sav-savteam.iR
-  port: 55555
-  tls: true
-  sni: yahoo.com.
-- name: 🇨🇿CZ_1|2.0MB/s
-  type: vless
-  uuid: 59da5351-5151-417d-b2f7-6923848b717e
-  server: cz.helper-internet.com
-  port: 443
-  tls: true
-  sni: cz.helper-internet.com
-- name: 🇵🇱PL_2|1.8MB/s
-  type: vless
-  uuid: 6615181e-75df-46ef-8538-c6ad8690ea01
-  server: 5.188.115.241
-  port: 443
-  tls: true
-  sni: svet2015.shop
-- name: 🇬🇧GB_5|3.1MB/s
-  type: vless
-  uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
-  server: de.hagrid-connected.com
-  port: 443
-  tls: true
-  sni: de.hagrid-connected.com
-- name: 🇩🇪DE_12|2.6MB/s
-  type: vless
-  uuid: 85c40985-f109-410c-9657-4a2f52140bf0
-  server: hikvision-plus.com
-  port: 2083
-  tls: true
-  sni: moz.boaza.dpdns.org
-- name: 🇬🇧GB_6|3.1MB/s
-  type: vless
-  uuid: 8a22fde8-e72e-4ce2-96f6-285aeffe66a2
-  server: 31.76.111.44
-  port: 443
-  tls: true
-  sni: de2.raketa-balance.com
-- name: 🇦🇹AT_3|3.9MB/s
-  type: vless
-  uuid: 923ff5e4-0188-4b98-ab8f-d602562e77cd
-  server: 152.53.47.153
+  uuid: 7836b5eb-0685-4af3-baca-2d75cad5d4de
+  server: 217.168.247.209
   port: 16923
   tls: true
   sni: api-maps.yandex.ru
-- name: 🇩🇪DE_13|2.6MB/s
+- name: 🇺🇸US_3|1.9MB/s
   type: vless
-  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
-  server: s97944.cdn.ngenix.net
-  port: 443
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  server: 67.220.73.204
+  port: 16016
   tls: true
-  sni: s97944.cdn.ngenix.net
-- name: 🇹🇷TR_1|2.5MB/s
+  sni: www.apple.com
+- name: 🇺🇸US_4|2.6MB/s
   type: vless
-  uuid: ddfd4560-61ff-4700-bb4d-61d0cdcd89f3
-  server: 104.26.0.7
-  port: 2096
-  tls: true
-  sni: sinavm5.soft10.ir
-- name: 🇹🇷TR_2|2.7MB/s
-  type: vless
-  uuid: ddfd4560-61ff-4700-bb4d-61d0cdcd89f3
-  server: 104.26.14.85
-  port: 2096
-  tls: true
-  sni: sinavm5.soft10.ir
-- name: 🇵🇱PL_3|1.6MB/s
-  type: vless
-  uuid: e23f5959-8868-4b67-8d29-4cfadf2a277a
-  server: 5.188.115.241
-  port: 443
-  tls: true
-  sni: svet2015.shop
-- name: 🇳🇱NL_6|2.4MB/s
-  type: vless
-  uuid: e5573bd4-6b10-4010-a67d-54ea2b51e8bf
-  server: 82.41.131.21
-  port: 443
-  tls: true
-  sni: pypi.org
-- name: 🇳🇴NO_1|2.1MB/s
-  type: vless
-  uuid: ecad47b0-249e-000c-adff-e3c8f02b1897
-  server: 185.231.101.85
-  port: 8443
-  tls: true
-  sni: se.quattro-tech.ru
-- name: 🇺🇸US_5|3.4MB/s
-  type: vless
-  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
-  server: 89.105.219.132
-  port: 443
-  tls: true
-  sni: nl.quattro-tech.ru
-- name: 🇺🇸US_6|1.7MB/s
-  type: vless
-  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
-  server: au273g4s.cf.3666888.xyz
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: www.fbi.gov
   port: 2095
+  tls: false
+  sni: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+- name: 🇩🇪DE_20|3.6MB/s
+  type: vless
+  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
+  server: 162.159.156.214
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_13|2.1MB/s
+  type: vless
+  uuid: b8ab1937-611c-4734-b01c-ff3818edf635
+  server: 188.114.97.6
+  port: 443
+  tls: true
+  sni: m.udemy.com.ex33r.eu.cc
+- name: 🇬🇧GB_2|2.2MB/s
+  type: vless
+  uuid: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
+  server: g8.steptofsvo.com
+  port: 443
+  tls: true
+  sni: g8.steptofsvo.com
+- name: 🇵🇱PL_2|1.5MB/s
+  type: vless
+  uuid: c8b5f6c9-83ff-0063-be9c-f997a5b2f692
+  server: 185.16.36.200
+  port: 43439
+  tls: true
+  sni: cdn-up.perecbass.ru
+- name: 🇺🇸US_5|2.4MB/s
+  type: vless
+  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
+  server: 185.33.84.173
+  port: 443
+  tls: true
+  sni: cdn-up.perecbass.ru
+- name: 🇩🇪DE_21|4.3MB/s
+  type: vless
+  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
+  server: 81.31.211.116
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇷🇺RU_6|2.2MB/s
+  type: vless
+  uuid: d65546ab-f705-49bb-b1d0-a4db50f5ee68
+  server: 217.168.247.209
+  port: 16923
+  tls: true
+  sni: api-maps.yandex.ru
+- name: 🇫🇮FI_2|1.9MB/s
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  server: 46.8.237.221
+  port: 2090
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_14|1.9MB/s
+  type: vless
+  uuid: ef770523-8eb5-403f-9e95-06b328719c87
+  server: www.baipiao.eu.org
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇪🇸ES_1|2.0MB/s
+  type: vless
+  uuid: f37d92db-1d1c-485f-9067-0b3790e63fa7
+  server: 212.227.235.66
+  port: 2053
+  tls: true
+  sni: www.apple.com
+- name: 🇩🇪DE_22|2.4MB/s
+  type: vless
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  server: 104.27.82.154
+  port: 8880
   tls: false
   sni: ''
 - name: AE_speednode_0001
@@ -1023,144 +517,70 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 'A - 🇭🇰 HK 02 TG: @nodpai'
-  - 'A - 🇯🇵 JP 03 TG: @nodpai'
-  - 'A - 🇯🇵 JP 05 TG: @nodpai'
-  - 'A - 🇯🇵 JP 06 TG: @nodpai'
-  - 'A - 🇸🇬 SG 02 TG: @nodpai'
-  - 'A - 🇸🇬 SG 03 TG: @nodpai'
-  - 'A - 🇸🇬 SG 05 TG: @nodpai'
-  - 'A - 🇸🇬 SG 07 TG: @nodpai'
-  - 'A - 🇸🇬 SG 08 TG: @nodpai'
-  - 'A - 🇸🇬 SG 09 TG: @nodpai'
-  - 'A - 🇸🇬 SG 10 TG: @nodpai'
-  - 'A - 🇸🇬 SG 11 TG: @nodpai'
-  - 'A - 🇸🇬 SG 12 TG: @nodpai'
-  - 'A - 🇸🇬 SG 13 TG: @nodpai'
-  - 'A - 🇸🇬 SG 14 TG: @nodpai'
-  - 'B - 🇸🇬 SG 15 TG: @nodpai'
-  - 'B - 🇸🇬 SG 17 TG: @nodpai'
-  - 'B - 🇸🇬 SG 18 TG: @nodpai'
-  - 'A - 🇺🇸 US 01 TG: @nodpai'
-  - 'A - 🇺🇸 US 02 TG: @nodpai'
-  - 'A - 🇺🇸 US 03 TG: @nodpai'
-  - 'A - 🇺🇸 US 04 TG: @nodpai'
-  - 'A - 🇺🇸 US 05 TG: @nodpai'
-  - 'A - 🇺🇸 US 06 TG: @nodpai'
-  - 'A - 🇺🇸 US 07 TG: @nodpai'
-  - 'A - 🇺🇸 US 08 TG: @nodpai'
-  - 'A - 🇺🇸 US 09 TG: @nodpai'
-  - 'A - 🇺🇸 US 10 TG: @nodpai'
-  - 'A - 🇺🇸 US 11 TG: @nodpai'
-  - 'A - 🇺🇸 US 12 TG: @nodpai'
-  - 'A - 🇺🇸 US 13 TG: @nodpai'
-  - 'A - 🇺🇸 US 14 TG: @nodpai'
-  - 'A - 🇺🇸 US 15 TG: @nodpai'
-  - 'B - 🇺🇸 US 17 TG: @nodpai'
-  - 'B - 🇺🇸 US 20 TG: @nodpai'
-  - 'B - 🇺🇸 US 24 TG: @nodpai'
-  - 'B - 🇺🇸 US 26 TG: @nodpai'
-  - 'B - 🇺🇸 US 27 TG: @nodpai'
-  - 'B - 🇺🇸 US 29 TG: @nodpai'
-  - 'B - 🇺🇸 US 38 TG: @nodpai'
-  - 'B - 🇺🇸 US 39 TG: @nodpai'
-  - 'B - 🇺🇸 US 40 TG: @nodpai'
-  - 'B - 🇺🇸 US 41 TG: @nodpai'
-  - 'B - 🇺🇸 US 44 TG: @nodpai'
-  - 'C - 🇺🇸 US 45 TG: @nodpai'
-  - 'A - 🇬🇧 GB 01 TG: @nodpai'
-  - 'A - 🇬🇧 GB 02 TG: @nodpai'
-  - 'A - 🇬🇧 GB 03 TG: @nodpai'
-  - 'B - 🇬🇧 GB 04 TG: @nodpai'
-  - 'B - 🇬🇧 GB 05 TG: @nodpai'
-  - 'A - 🇰🇷 KR 01 TG: @nodpai'
-  - 'A - 🇰🇷 KR 02 TG: @nodpai'
-  - 'A - 🇩🇪 DE 06 TG: @nodpai'
-  - 'A - 🇫🇷 FR 01 TG: @nodpai'
-  - 'A - 🇫🇷 FR 02 TG: @nodpai'
-  - 'A - 🇦🇺 AU 01 TG: @nodpai'
-  - 'A - 🇨🇦 CA 01 TG: @nodpai'
-  - 'B - 🇨🇦 CA 02 TG: @nodpai'
-  - 'A - 🇳🇱 NL 02 TG: @nodpai'
-  - 'A - 🇳🇱 NL 03 TG: @nodpai'
-  - 'A - 🇷🇺 RU 01 TG: @nodpai'
-  - 'A - 🇮🇳 IN 01 TG: @nodpai'
-  - 'A - 🇧🇷 BR 01 TG: @nodpai'
-  - 'A - 🇮🇹 IT 01 TG: @nodpai'
-  - 'A - 🇪🇸 ES 01 TG: @nodpai'
-  - 'A - 🇷🇴 RO 01 TG: @nodpai'
-  - 'A - 🇷🇴 RO 02 TG: @nodpai'
-  - 'A - 🇮🇱 IL 01 TG: @nodpai'
-  - 'A - 🇧🇬 BG 01 TG: @nodpai'
-  - 'A - 🇪🇪 EE 01 TG: @nodpai'
-  - 'A - 🇮🇪 IE 01 TG: @nodpai'
-  - 'B - 🇷🇸 RS 01 TG: @nodpai'
-  - 'A - 🇸🇨 SC 01 TG: @nodpai'
-  - 'A - 🇸🇨 SC 02 TG: @nodpai'
-  - 'A - 🇸🇨 SC 03 TG: @nodpai'
-  - 香港4|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - 新加坡3|@ripaojiedian
-  - 🇩🇪DE_1|2.6MB/s
-  - 🇯🇵JP_1|2.5MB/s
-  - 🇵🇱PL_1|2.1MB/s
-  - 🇸🇬SG_1|3.6MB/s
-  - 🇩🇪DE_2|3.2MB/s
-  - 🇸🇬SG_2|4.6MB/s
-  - 🇺🇸US_1|1.8MB/s
-  - 🇰🇷KR_1|3.4MB/s
-  - 🇩🇪DE_3|1.8MB/s
-  - 🇫🇮FI_1|2.5MB/s
-  - 🇳🇱NL_1|2.5MB/s
-  - 🇫🇮FI_2|2.1MB/s
-  - 🇸🇪SE_1|1.6MB/s
-  - 🇺🇸US_2|2.2MB/s
-  - 🇩🇪DE_4|3.1MB/s
-  - 🇱🇻LV_1|2.1MB/s
-  - 🇩🇪DE_5|2.6MB/s
-  - 🇫🇷FR_1|2.3MB/s
-  - 🇱🇻LV_3|1.9MB/s
-  - 🇩🇪DE_6|2.1MB/s
-  - 🇸🇬SG_3|3.5MB/s
-  - 🇺🇸US_4|2.7MB/s
-  - 🇸🇬SG_4|4.5MB/s
-  - 🇸🇬SG_5|3.5MB/s
-  - 🇸🇬SG_6|5.1MB/s
-  - 🇸🇬SG_7|5.2MB/s
-  - 🇯🇵JP_2|5.4MB/s
-  - 🇸🇬SG_8|3.8MB/s
-  - 🇸🇬SG_9|4.5MB/s
-  - 🇩🇪DE_7|2.6MB/s
-  - 🇰🇷KR_2|3.4MB/s
-  - 🇩🇪DE_8|2.2MB/s
-  - 🇷🇺RU_1|2.4MB/s
-  - 🇦🇹AT_1|3.8MB/s
-  - 🇷🇺RU_2|2.5MB/s
-  - 🇩🇪DE_9|3.1MB/s
-  - 🇬🇧GB_3|2.4MB/s
-  - 🇬🇧GB_4|1.9MB/s
-  - 🇯🇵JP_3|2.0MB/s
-  - 🇳🇱NL_2|2.7MB/s
-  - 🇳🇱NL_3|2.2MB/s
-  - 🇳🇱NL_4|2.6MB/s
-  - 🇳🇱NL_5|1.6MB/s
-  - 🇦🇹AT_2|2.7MB/s
-  - 🇩🇪DE_10|2.6MB/s
-  - 🇩🇪DE_11|3.3MB/s
-  - 🇨🇿CZ_1|2.0MB/s
-  - 🇵🇱PL_2|1.8MB/s
-  - 🇬🇧GB_5|3.1MB/s
-  - 🇩🇪DE_12|2.6MB/s
-  - 🇬🇧GB_6|3.1MB/s
-  - 🇦🇹AT_3|3.9MB/s
-  - 🇩🇪DE_13|2.6MB/s
-  - 🇹🇷TR_1|2.5MB/s
-  - 🇹🇷TR_2|2.7MB/s
-  - 🇵🇱PL_3|1.6MB/s
-  - 🇳🇱NL_6|2.4MB/s
-  - 🇳🇴NO_1|2.1MB/s
-  - 🇺🇸US_5|3.4MB/s
-  - 🇺🇸US_6|1.7MB/s
+  - 🇰🇷KR_1|1.9MB/s
+  - 🇳🇱NL_1|2.1MB/s
+  - 🇫🇷FR_1|1.8MB/s
+  - 🇩🇪DE_11|2.6MB/s
+  - 🇫🇮FI_1|2.4MB/s
+  - 🇩🇪DE_2|1.5MB/s
+  - 🇳🇱NL_2|3.4MB/s
+  - 🇩🇪DE_3|2.1MB/s
+  - 🇩🇪DE_4|3.3MB/s
+  - 🇩🇪DE_5|1.5MB/s
+  - 🇷🇺RU_2|3.1MB/s
+  - ❓Other_1|3.0MB/s
+  - 🇩🇪DE_7|2.9MB/s
+  - 🇳🇱NL_4|1.5MB/s
+  - 🇩🇪DE_8|2.5MB/s
+  - 🇸🇬SG_2|4.5MB/s
+  - 🇩🇪DE_9|2.0MB/s
+  - 🇸🇬SG_4|1.6MB/s
+  - 🇩🇪DE_10|2.2MB/s
+  - 🇵🇱PL_1|3.7MB/s
+  - 🇺🇸US_1|3.3MB/s
+  - 🇳🇱NL_5|2.5MB/s
+  - 🇭🇰HK_1|1.5MB/s
+  - 🇺🇸US_2|2.6MB/s
+  - 🇩🇪DE_12|3.4MB/s
+  - 🇩🇰DK_1|1.8MB/s
+  - 🇫🇷FR_2|2.5MB/s
+  - 🇩🇪DE_13|2.8MB/s
+  - 🇫🇷FR_3|2.1MB/s
+  - 🇨🇭CH_1|2.1MB/s
+  - 🇭🇰HK_2|2.5MB/s
+  - 🇩🇪DE_14|2.5MB/s
+  - 🇳🇱NL_6|2.2MB/s
+  - 🇳🇱NL_7|2.7MB/s
+  - 🇩🇪DE_15|1.9MB/s
+  - 🇫🇷FR_4|2.1MB/s
+  - 🇳🇱NL_8|2.5MB/s
+  - 🇭🇺HU_1|3.4MB/s
+  - 🇯🇵JP_1|1.7MB/s
+  - 🇩🇪DE_16|2.2MB/s
+  - 🇳🇱NL_9|2.5MB/s
+  - 🇳🇱NL_10|2.3MB/s
+  - 🇷🇺RU_3|2.0MB/s
+  - 🇳🇱NL_11|2.1MB/s
+  - 🇫🇷FR_5|2.8MB/s
+  - 🇩🇪DE_17|2.1MB/s
+  - 🇩🇪DE_18|2.5MB/s
+  - 🇩🇪DE_19|3.1MB/s
+  - 🇷🇺RU_4|1.5MB/s
+  - 🇳🇱NL_12|2.6MB/s
+  - 🇷🇺RU_5|1.8MB/s
+  - 🇺🇸US_3|1.9MB/s
+  - 🇺🇸US_4|2.6MB/s
+  - 🇩🇪DE_20|3.6MB/s
+  - 🇳🇱NL_13|2.1MB/s
+  - 🇬🇧GB_2|2.2MB/s
+  - 🇵🇱PL_2|1.5MB/s
+  - 🇺🇸US_5|2.4MB/s
+  - 🇩🇪DE_21|4.3MB/s
+  - 🇷🇺RU_6|2.2MB/s
+  - 🇫🇮FI_2|1.9MB/s
+  - 🇳🇱NL_14|1.9MB/s
+  - 🇪🇸ES_1|2.0MB/s
+  - 🇩🇪DE_22|2.4MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
