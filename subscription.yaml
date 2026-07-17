@@ -1,1056 +1,439 @@
 proxies:
-- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  server: 198.41.219.218
-  port: 443
-  tls: true
-  sni: zyzzzoao.xn--fiqv8j.eu.org
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 138.2.112.117
-  port: 15807
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 176.124.223.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 114.204.40.185
-  port: 30001
-  tls: true
-  sni: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 45.76.191.197
-  port: 10460
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 140.245.75.37
-  port: 627
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 146.56.106.51
-  port: 56271
-  tls: true
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  server: 104.26.5.134
-  port: 2096
-  tls: false
-  sni: joey.freen1.de5.net
-- name: 'A - 🇸🇬 SG 08 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.131.4.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 114.129.43.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
-  type: vless
-  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
-  server: 46.149.71.46
-  port: 443
-  tls: true
-  sni: www.avito.ru
-- name: 'A - 🇸🇬 SG 11 TG: @nodpai'
-  type: vless
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
-  server: 104.17.25.132
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 12 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 195.26.229.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 13 TG: @nodpai'
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  server: 104.21.1.5
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇬 SG 14 TG: @nodpai'
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  server: 172.67.186.114
-  port: 80
-  tls: false
-  sni: ''
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  type: vless
-  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
-  server: 104.19.151.106
-  port: 80
-  tls: false
-  sni: ''
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
-  type: vless
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-  server: 46.149.71.46
-  port: 443
-  tls: true
-  sni: www.avito.ru
-- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  server: 140.238.33.0
-  port: 33940
-  tls: false
-  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-- name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.198.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 108.162.193.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 104.129.167.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 04 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 8.34.70.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.151.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 06 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 160.153.138.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 07 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.4chan.org
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 08 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: icook.hk
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: fbi.gov
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 10 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.gov.se
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 11 TG: @nodpai'
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  server: 198.41.208.203
-  port: 80
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 12 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.zsu.gov.ua
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 13 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.153.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇺🇸 US 14 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.baipiao.eu.org
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇺🇸 US 15 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 173.245.49.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: www.udacity.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 20 TG: @nodpai'
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.66.44.211
-  port: 2083
-  tls: true
-  sni: wk1.f1w.de5.net
-- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+- name: 🇯🇵JP_38|5.0MB/s
   type: trojan
-  sni: support.zoom.us.blackshadow.dpdns.org
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  server: blackshadow.dpdns.org
-  port: 443
-- name: 'B - 🇺🇸 US 26 TG: @nodpai'
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.66.47.45
-  port: 2083
-  tls: true
-  sni: wk1.f1w.de5.net
-- name: 'B - 🇺🇸 US 27 TG: @nodpai'
-  type: vless
-  uuid: 7841aff6-8552-4f8e-ad0c-06c3b73e6440
-  server: usr.moktana.app
-  port: 443
-  tls: true
-  sni: us.moktana.app
-- name: 'B - 🇺🇸 US 29 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: singapore.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 38 TG: @nodpai'
-  type: vless
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
-  server: yx.cloudflare.182682.xyz
-  port: 443
-  tls: false
-  sni: gddy.hhlfy.de5.net
-- name: 'B - 🇺🇸 US 39 TG: @nodpai'
-  type: vless
-  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
-  server: www.visa.com.sg
-  port: 2052
-  tls: false
-  sni: ''
-- name: 'B - 🇺🇸 US 40 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: japan.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 41 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: russia.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'B - 🇺🇸 US 44 TG: @nodpai'
-  type: vless
-  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
-  server: s881.ccgfw.top
-  port: 443
-  tls: true
-  sni: s881.ccgfw.top
-- name: 'C - 🇺🇸 US 45 TG: @nodpai'
-  type: vless
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  server: 172.64.146.127
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.193.30.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.146.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.110.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.159.247.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 77.75.199.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 108.162.196.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 72.167.230.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.111.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.85.119.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 66.81.247.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇦🇺 AU 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 193.9.49.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.195.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇨🇦 CA 02 TG: @nodpai'
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: shopify.com
-  port: 443
-  tls: true
-  sni: misaka.cndyw.ggff.net
-- name: 'A - 🇳🇱 NL 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 88.216.66.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇳🇱 NL 03 TG: @nodpai'
-  type: vless
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
-  server: g10.steptofsvo.com
-  port: 443
-  tls: true
-  sni: g10.steptofsvo.com
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.67.215.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇳 IN 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 66.81.247.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇧🇷 BR 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 198.71.189.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇹 IT 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.206.12.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇪🇸 ES 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 192.169.223.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇷🇴 RO 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 89.116.180.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇷🇴 RO 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 194.53.53.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇱 IL 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.131.209.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇧🇬 BG 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.80.110.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇮🇪 IE 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 185.170.166.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'B - 🇷🇸 RS 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.146.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 01 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.197.64.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 02 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 154.197.121.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 'A - 🇸🇨 SC 03 TG: @nodpai'
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.192.224.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇬🇧GB_1|1.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.133.180.164
-  port: 443
-- name: 🇯🇵JP_1|5.0MB/s
-  type: trojan
-  sni: flexible-gannet.rooster465.autos
+  sni: sure-husky.rooster465.autos
   password: NQ26071394
-  server: flexible-gannet.rooster465.autos
+  server: sure-husky.rooster465.autos
   port: 443
-- name: 🇯🇵JP_15|4.8MB/s
+- name: 🇯🇵JP_2|4.6MB/s
   type: trojan
-  sni: better-molly.rooster465.autos
+  sni: harmless-pegasus.rooster465.autos
   password: NQ26071394
-  server: better-molly.rooster465.autos
+  server: harmless-pegasus.rooster465.autos
   port: 443
-- name: 🇯🇵JP_3|4.6MB/s
+- name: 🇯🇵JP_3|5.4MB/s
   type: trojan
   sni: fit-marten.rooster465.autos
   password: NQ26071394
   server: fit-marten.rooster465.autos
   port: 443
-- name: 🇯🇵JP_16|5.4MB/s
-  type: trojan
-  sni: saving-drake.rooster465.autos
-  password: NQ26071394
-  server: saving-drake.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_5|5.5MB/s
-  type: trojan
-  sni: calm-muskrat.rooster465.autos
-  password: NQ26071394
-  server: calm-muskrat.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_6|5.7MB/s
-  type: trojan
-  sni: joint-ewe.rooster465.autos
-  password: NQ26071394
-  server: joint-ewe.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_17|5.7MB/s
-  type: trojan
-  sni: magical-prawn.rooster465.autos
-  password: NQ26071394
-  server: magical-prawn.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_34|2.1MB/s
-  type: trojan
-  sni: prime-quail.rooster465.autos
-  password: NQ26071394
-  server: prime-quail.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_9|5.0MB/s
-  type: trojan
-  sni: real-ewe.rooster465.autos
-  password: NQ26071394
-  server: real-ewe.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_10|5.7MB/s
-  type: trojan
-  sni: helped-jennet.rooster465.autos
-  password: NQ26071394
-  server: helped-jennet.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_11|5.4MB/s
-  type: trojan
-  sni: picked-guinea.rooster465.autos
-  password: NQ26071394
-  server: picked-guinea.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_1|5.0MB/s
-  type: trojan
-  sni: guided-pelican.rooster465.autos
-  password: NQ26071394
-  server: guided-pelican.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_7|4.4MB/s
-  type: trojan
-  sni: accurate-cat.rooster465.autos
-  password: NQ26071394
-  server: accurate-cat.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_3|4.9MB/s
-  type: trojan
-  sni: inviting-ferret.rooster465.autos
-  password: NQ26071394
-  server: inviting-ferret.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_8|2.1MB/s
-  type: trojan
-  sni: mighty-lemming.rooster465.autos
-  password: NQ26071394
-  server: mighty-lemming.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_5|5.0MB/s
-  type: trojan
-  sni: capable-jay.rooster465.autos
-  password: NQ26071394
-  server: capable-jay.rooster465.autos
-  port: 443
-- name: 🇺🇸US_1|1.7MB/s
+- name: 🇯🇵JP_4|3.4MB/s
   type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: video.reasonok.com
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 172.64.229.1
   port: 443
   tls: true
-  sni: video.reasonok.com
-- name: 🇸🇬SG_1|4.7MB/s
-  type: trojan
-  sni: proper-marlin.rooster465.autos
-  password: NQ26071394
-  server: proper-marlin.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_2|5.4MB/s
-  type: trojan
-  sni: usable-dogfish.rooster465.autos
-  password: NQ26071394
-  server: usable-dogfish.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_3|3.9MB/s
-  type: trojan
-  sni: space.byu.id.yxls.eu.cc
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  server: 188.164.248.122
-  port: 443
-- name: 🇸🇬SG_5|3.8MB/s
-  type: trojan
-  sni: eminent-hagfish.rooster465.autos
-  password: NQ26071394
-  server: eminent-hagfish.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_6|3.7MB/s
-  type: trojan
-  sni: verified-ringtail.rooster465.autos
-  password: NQ26071394
-  server: verified-ringtail.rooster465.autos
-  port: 443
-- name: 🇺🇸US_3|2.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.190.176.112
-  port: 443
-- name: 🇺🇸US_4|1.5MB/s
+  sni: cf11.evan00.dpdns.org
+- name: 🇯🇵JP_5|3.9MB/s
   type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: eu.oneokgames.com
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 172.64.52.97
   port: 443
   tls: true
-  sni: eu.oneokgames.com
-- name: 🇬🇧GB_2|2.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.175.139.211
-  port: 443
-- name: 🇩🇪DE_1|3.2MB/s
-  type: vless
-  uuid: '%40V2ConfigPro'
-  server: bayan.ns.cloudflare.com
-  port: 8443
-  tls: true
-  sni: vamosargentina.dpdns.org
-- name: 🇸🇬SG_8|4.0MB/s
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 198.41.223.30
-  port: 2053
-  tls: true
-  sni: vp33.cc.cd
-- name: 🇺🇸US_8|2.3MB/s
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 198.41.209.7
-  port: 2096
-  tls: true
-  sni: vp33.cc.cd
-- name: 🇸🇬SG_9|4.0MB/s
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 188.164.248.190
-  port: 2096
-  tls: true
-  sni: vp40.cc.cd
-- name: 🇸🇬SG_10|4.2MB/s
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 8.35.211.81
-  port: 2096
-  tls: true
-  sni: vp37.cc.cd
-- name: 🇺🇸US_9|2.2MB/s
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 104.19.48.233
-  port: 2083
-  tls: true
-  sni: vp34.cc.cd
-- name: 🇰🇷KR_6|3.5MB/s
+  sni: cf11.evan00.dpdns.org
+- name: 🇯🇵JP_6|4.9MB/s
   type: trojan
-  sni: modest-amoeba.rooster465.autos
+  sni: elegant-marten.rooster465.autos
   password: NQ26071394
-  server: modest-amoeba.rooster465.autos
+  server: elegant-marten.rooster465.autos
   port: 443
-- name: 🇸🇬SG_11|5.1MB/s
-  type: trojan
-  sni: helping-newt.rooster465.autos
-  password: NQ26071394
-  server: helping-newt.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_21|4.8MB/s
-  type: trojan
-  sni: beloved-crow.rooster465.autos
-  password: NQ26071394
-  server: beloved-crow.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_13|5.3MB/s
-  type: trojan
-  sni: expert-muskrat.rooster465.autos
-  password: NQ26071394
-  server: expert-muskrat.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_14|2.1MB/s
-  type: trojan
-  sni: firm-krill.rooster465.autos
-  password: NQ26071394
-  server: firm-krill.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_12|2.5MB/s
-  type: vless
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  server: 104.17.70.206
-  port: 2096
-  tls: false
-  sni: shalana.xyz
-- name: 🇺🇸US_11|2.4MB/s
-  type: vless
-  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
-  server: 162.159.39.151
-  port: 443
-  tls: false
-  sni: 40t1.wxgqlfx.vip
-- name: 🇺🇸US_12|2.6MB/s
-  type: vless
-  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
-  server: 108.162.198.108
-  port: 443
-  tls: false
-  sni: 40t1.wxgqlfx.vip
-- name: 🇺🇸US_13|2.2MB/s
-  type: vless
-  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
-  server: 172.64.229.110
-  port: 443
-  tls: false
-  sni: 40t1.wxgqlfx.vip
-- name: 🇨🇦CA_1|2.7MB/s
-  type: vless
-  uuid: 9f23c068-6452-4923-b8e6-f1cd6123ddfc
-  server: ct.877774.xyz
-  port: 443
-  tls: false
-  sni: do-tor1.862400.xyz
-- name: 🇺🇸US_14|1.8MB/s
-  type: vless
-  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
-  server: 162.159.24.217
-  port: 443
-  tls: false
-  sni: 40t1.wxgqlfx.vip
-- name: 🇺🇸US_15|2.2MB/s
-  type: vless
-  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
-  server: 104.17.208.223
-  port: 443
-  tls: false
-  sni: 40t1.wxgqlfx.vip
-- name: 🇯🇵JP_18|5.2MB/s
+- name: 🇯🇵JP_7|4.1MB/s
   type: trojan
   sni: hot-tapir.rooster465.autos
   password: NQ26071394
   server: hot-tapir.rooster465.autos
   port: 443
-- name: 🇯🇵JP_19|5.4MB/s
-  type: trojan
-  sni: alert-wren.rooster465.autos
-  password: NQ26071394
-  server: alert-wren.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_20|5.0MB/s
-  type: trojan
-  sni: amusing-grub.rooster465.autos
-  password: NQ26071394
-  server: amusing-grub.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_9|3.9MB/s
-  type: trojan
-  sni: genuine-cougar.rooster465.autos
-  password: NQ26071394
-  server: genuine-cougar.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_22|3.9MB/s
+- name: 🇯🇵JP_8|2.7MB/s
   type: trojan
   sni: immune-grackle.rooster465.autos
   password: NQ26071394
   server: immune-grackle.rooster465.autos
   port: 443
-- name: 🇯🇵JP_23|5.0MB/s
+- name: 🇯🇵JP_41|5.6MB/s
   type: trojan
-  sni: infinite-killdeer.rooster465.autos
+  sni: wise-rhino.rooster465.autos
   password: NQ26071394
-  server: infinite-killdeer.rooster465.autos
+  server: wise-rhino.rooster465.autos
   port: 443
-- name: 🇰🇷KR_10|5.0MB/s
+- name: 🇯🇵JP_10|2.4MB/s
   type: trojan
-  sni: merry-falcon.rooster465.autos
+  sni: legible-ram.rooster465.autos
   password: NQ26071394
-  server: merry-falcon.rooster465.autos
+  server: legible-ram.rooster465.autos
   port: 443
-- name: 🇯🇵JP_24|4.0MB/s
+- name: 🇯🇵JP_11|6.8MB/s
   type: trojan
-  sni: new-eagle.rooster465.autos
+  sni: innocent-mullet.rooster465.autos
   password: NQ26071394
-  server: new-eagle.rooster465.autos
+  server: innocent-mullet.rooster465.autos
   port: 443
-- name: 🇯🇵JP_25|5.7MB/s
+- name: 🇯🇵JP_12|5.3MB/s
   type: trojan
-  sni: one-dove.rooster465.autos
+  sni: magical-prawn.rooster465.autos
   password: NQ26071394
-  server: one-dove.rooster465.autos
+  server: magical-prawn.rooster465.autos
   port: 443
-- name: 🇯🇵JP_26|5.3MB/s
+- name: 🇯🇵JP_13|5.1MB/s
   type: trojan
-  sni: upright-caribou.rooster465.autos
+  sni: grateful-crawdad.rooster465.autos
   password: NQ26071394
-  server: upright-caribou.rooster465.autos
+  server: grateful-crawdad.rooster465.autos
   port: 443
-- name: 🇯🇵JP_27|5.8MB/s
+- name: 🇯🇵JP_14|5.1MB/s
   type: trojan
-  sni: working-tomcat.rooster465.autos
+  sni: tidy-gelding.rooster465.autos
   password: NQ26071394
-  server: working-tomcat.rooster465.autos
+  server: tidy-gelding.rooster465.autos
   port: 443
-- name: 🇺🇸US_17|2.1MB/s
+- name: 🇯🇵JP_23|5.4MB/s
   type: trojan
-  sni: alert-monster.rooster465.autos
-  password: CF68213490
-  server: alert-monster.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_28|5.4MB/s
-  type: trojan
-  sni: allowing-ram.rooster465.autos
+  sni: saving-drake.rooster465.autos
   password: NQ26071394
-  server: allowing-ram.rooster465.autos
+  server: saving-drake.rooster465.autos
   port: 443
-- name: 🇯🇵JP_29|5.7MB/s
+- name: 🇯🇵JP_39|5.4MB/s
   type: trojan
-  sni: capable-baboon.rooster465.autos
+  sni: worthy-labrador.rooster465.autos
   password: NQ26071394
-  server: capable-baboon.rooster465.autos
+  server: worthy-labrador.rooster465.autos
   port: 443
-- name: 🇮🇪IE_1|2.2MB/s
+- name: 🇯🇵JP_17|4.0MB/s
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 162.159.38.2
+  port: 8443
+  tls: true
+  sni: cf11.evan00.dpdns.org
+- name: 🇯🇵JP_18|3.9MB/s
   type: trojan
-  sni: fun-labrador.rooster465.autos
+  sni: equal-labrador.rooster465.autos
   password: NQ26071394
-  server: fun-labrador.rooster465.autos
+  server: equal-labrador.rooster465.autos
   port: 443
-- name: 🇯🇵JP_30|5.3MB/s
+- name: 🇯🇵JP_19|5.2MB/s
   type: trojan
-  sni: golden-kangaroo.rooster465.autos
+  sni: bursting-racer.rooster465.autos
   password: NQ26071394
-  server: golden-kangaroo.rooster465.autos
+  server: bursting-racer.rooster465.autos
   port: 443
-- name: 🇯🇵JP_31|4.8MB/s
+- name: 🇰🇷KR_1|3.9MB/s
   type: trojan
-  sni: select-ferret.rooster465.autos
+  sni: neat-octopus.rooster465.autos
   password: NQ26071394
-  server: select-ferret.rooster465.autos
+  server: neat-octopus.rooster465.autos
   port: 443
-- name: 🇯🇵JP_32|4.9MB/s
+- name: 🇰🇷KR_2|3.9MB/s
+  type: trojan
+  sni: polished-shrew.rooster465.autos
+  password: NQ26071394
+  server: polished-shrew.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_3|5.0MB/s
+  type: trojan
+  sni: devoted-heron.rooster465.autos
+  password: NQ26071394
+  server: devoted-heron.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_12|4.4MB/s
+  type: trojan
+  sni: massive-ocelot.rooster465.autos
+  password: NQ26071394
+  server: massive-ocelot.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_7|2.9MB/s
+  type: trojan
+  sni: normal-bull.rooster465.autos
+  password: NQ26071394
+  server: normal-bull.rooster465.autos
+  port: 443
+- name: 🇺🇸US_1|2.2MB/s
+  type: vless
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  server: cdn.oneokgames.com
+  port: 443
+  tls: true
+  sni: cdn.oneokgames.com
+- name: 🇸🇬SG_1|3.7MB/s
+  type: trojan
+  sni: emerging-baboon.rooster465.autos
+  password: NQ26071394
+  server: emerging-baboon.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_2|3.7MB/s
+  type: trojan
+  sni: pet-ghost.rooster465.autos
+  password: NQ26071394
+  server: pet-ghost.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_3|4.0MB/s
+  type: trojan
+  sni: alert-titmouse.rooster465.autos
+  password: NQ26071394
+  server: alert-titmouse.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_4|3.9MB/s
+  type: trojan
+  sni: arriving-colt.rooster465.autos
+  password: NQ26071394
+  server: arriving-colt.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_5|3.7MB/s
+  type: trojan
+  sni: square-gnat.rooster465.autos
+  password: NQ26071394
+  server: square-gnat.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_6|3.7MB/s
+  type: trojan
+  sni: organic-locust.rooster465.autos
+  password: NQ26071394
+  server: organic-locust.rooster465.autos
+  port: 443
+- name: 🇺🇸US_3|3.4MB/s
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  server: 154.17.4.244
+  port: 443
+  tls: true
+  sni: s5gydl.936.us.ci
+- name: 🇸🇬SG_7|3.6MB/s
+  type: trojan
+  sni: evident-ant.rooster465.autos
+  password: NQ26071394
+  server: evident-ant.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_29|3.5MB/s
   type: trojan
   sni: warm-bass.rooster465.autos
   password: NQ26071394
   server: warm-bass.rooster465.autos
   port: 443
-- name: 🇳🇱NL_1|1.6MB/s
-  type: vless
-  uuid: 13b55e8e-fbea-4ee1-b6b7-115fa3043182
-  server: nl.srv.anti-zapret.com
+- name: 🇰🇷KR_6|4.8MB/s
+  type: trojan
+  sni: internal-peacock.rooster465.autos
+  password: NQ26071394
+  server: internal-peacock.rooster465.autos
   port: 443
-  tls: true
-  sni: nl.srv.anti-zapret.com
-- name: 🇩🇪DE_2|2.2MB/s
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-  server: jdvymxi.cvewfjg.shop
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇺🇸US_18|1.5MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: 89.105.220.231
-  port: 443
-  tls: true
-  sni: link.oneokgames.com
-- name: 🇺🇸US_19|2.0MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: assets.onetimeok.com
-  port: 443
-  tls: true
-  sni: assets.onetimeok.com
-- name: 🇺🇸US_20|1.5MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: images.oneokgames.com
-  port: 443
-  tls: true
-  sni: images.oneokgames.com
-- name: 🇺🇸US_21|1.6MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: img.reasonok.com
-  port: 443
-  tls: true
-  sni: img.reasonok.com
-- name: 🇺🇸US_22|2.0MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: origin.reasonok.com
-  port: 443
-  tls: true
-  sni: origin.reasonok.com
-- name: 🇺🇸US_23|1.5MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: router.reasonok.com
-  port: 443
-  tls: true
-  sni: router.reasonok.com
-- name: 🇺🇸US_24|1.5MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: static.onetimeok.com
-  port: 443
-  tls: true
-  sni: static.onetimeok.com
-- name: 🇺🇸US_25|2.4MB/s
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  server: sync.oneokgames.com
-  port: 443
-  tls: true
-  sni: sync.oneokgames.com
-- name: 🇸🇨SC_1|2.5MB/s
-  type: vless
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
-  server: nl11.cyphervpn.pro
-  port: 443
-  tls: true
-  sni: nl11.cyphervpn.pro
-- name: 🇺🇸US_26|1.6MB/s
-  type: vless
-  uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035
-  server: www.visa.com.sg
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇹🇼TW_1|2.5MB/s
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  server: 103.118.40.32
-  port: 8443
-  tls: true
-  sni: s5gydl.936.us.ci
-- name: 🇭🇰HK_2|2.3MB/s
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  server: 23.133.52.10
-  port: 2053
-  tls: true
-  sni: s5gydl.936.us.ci
-- name: 🇳🇱NL_2|1.6MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.46
-  port: 8080
-- name: 🇸🇬SG_14|4.0MB/s
+- name: 🇸🇬SG_8|3.6MB/s
   type: vless
   uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
   server: 172.64.146.59
   port: 2087
   tls: true
   sni: cf11.evan00.dpdns.org
-- name: 🇰🇷KR_11|3.9MB/s
-  type: trojan
-  sni: musical-mouse.rooster465.autos
-  password: NQ26071394
-  server: musical-mouse.rooster465.autos
+- name: 🇬🇧GB_1|2.2MB/s
+  type: vless
+  uuid: b90064cf-3f61-4f37-b549-a72100a8c9db
+  server: 31.76.113.160
+  port: 2087
+  tls: true
+  sni: ads.x5.ru
+- name: 🇩🇪DE_1|1.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.159.196.187
   port: 443
-- name: 🇯🇵JP_33|4.4MB/s
+- name: 🇯🇵JP_30|4.9MB/s
+  type: trojan
+  sni: alert-wren.rooster465.autos
+  password: NQ26071394
+  server: alert-wren.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_8|4.1MB/s
+  type: trojan
+  sni: genuine-cougar.rooster465.autos
+  password: NQ26071394
+  server: genuine-cougar.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_22|4.6MB/s
+  type: trojan
+  sni: infinite-killdeer.rooster465.autos
+  password: NQ26071394
+  server: infinite-killdeer.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_9|1.5MB/s
+  type: trojan
+  sni: modest-amoeba.rooster465.autos
+  password: NQ26071394
+  server: modest-amoeba.rooster465.autos
+  port: 443
+- name: 🇺🇸US_4|2.6MB/s
+  type: vless
+  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
+  server: 162.159.39.151
+  port: 443
+  tls: false
+  sni: 40t1.wxgqlfx.vip
+- name: 🇺🇸US_5|2.0MB/s
+  type: vless
+  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
+  server: 108.162.198.108
+  port: 443
+  tls: false
+  sni: 40t1.wxgqlfx.vip
+- name: 🇯🇵JP_43|4.0MB/s
+  type: trojan
+  sni: calm-muskrat.rooster465.autos
+  password: NQ26071394
+  server: calm-muskrat.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_36|5.4MB/s
+  type: trojan
+  sni: joint-ewe.rooster465.autos
+  password: NQ26071394
+  server: joint-ewe.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_26|5.2MB/s
+  type: trojan
+  sni: beloved-crow.rooster465.autos
+  password: NQ26071394
+  server: beloved-crow.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_34|2.0MB/s
+  type: trojan
+  sni: capable-baboon.rooster465.autos
+  password: NQ26071394
+  server: capable-baboon.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_28|3.5MB/s
+  type: trojan
+  sni: golden-kangaroo.rooster465.autos
+  password: NQ26071394
+  server: golden-kangaroo.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_10|2.4MB/s
+  type: trojan
+  sni: merry-falcon.rooster465.autos
+  password: NQ26071394
+  server: merry-falcon.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_31|5.1MB/s
+  type: trojan
+  sni: new-eagle.rooster465.autos
+  password: NQ26071394
+  server: new-eagle.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_32|4.5MB/s
+  type: trojan
+  sni: one-dove.rooster465.autos
+  password: NQ26071394
+  server: one-dove.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_33|5.1MB/s
+  type: trojan
+  sni: upright-caribou.rooster465.autos
+  password: NQ26071394
+  server: upright-caribou.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_12|4.0MB/s
+  type: trojan
+  sni: actual-pigeon.rooster465.autos
+  password: NQ26071394
+  server: actual-pigeon.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_35|3.3MB/s
+  type: trojan
+  sni: endless-bunny.rooster465.autos
+  password: NQ26071394
+  server: endless-bunny.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_11|5.0MB/s
+  type: trojan
+  sni: flexible-titmouse.rooster465.autos
+  password: NQ26071394
+  server: flexible-titmouse.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_10|4.3MB/s
+  type: trojan
+  sni: humorous-hawk.rooster465.autos
+  password: NQ26071394
+  server: humorous-hawk.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_11|4.8MB/s
+  type: trojan
+  sni: promoted-rattler.rooster465.autos
+  password: NQ26071394
+  server: promoted-rattler.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_37|5.1MB/s
+  type: trojan
+  sni: pure-ghoul.rooster465.autos
+  password: NQ26071394
+  server: pure-ghoul.rooster465.autos
+  port: 443
+- name: ❓Other_1|2.5MB/s
+  type: vless
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  server: 172.64.144.52
+  port: 8080
+  tls: false
+  sni: ''
+- name: 🇺🇸US_6|1.5MB/s
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 185.162.229.20
+  port: 443
+  tls: true
+  sni: cf11.evan00.dpdns.org
+- name: 🇺🇸US_7|1.7MB/s
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 91.193.59.82
+  port: 443
+  tls: true
+  sni: cf11.evan00.dpdns.org
+- name: 🇯🇵JP_40|4.8MB/s
   type: vless
   uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
   server: cdn.204910.best
   port: 443
   tls: true
   sni: cf11.evan00.dpdns.org
-- name: 🇩🇪DE_3|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.122.115.111
+- name: 🇺🇸US_8|1.7MB/s
+  type: vless
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  server: content.onetimeok.com
   port: 443
-- name: 🇺🇸US_27|3.4MB/s
+  tls: true
+  sni: content.onetimeok.com
+- name: 🇺🇸US_9|2.6MB/s
+  type: vless
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  server: main.oneokgames.com
+  port: 443
+  tls: true
+  sni: main.oneokgames.com
+- name: 🇺🇸US_11|2.1MB/s
   type: vless
   uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   server: 64.186.240.9
   port: 8443
   tls: true
   sni: s5gydl.936.us.ci
-- name: 🇸🇬SG_15|4.3MB/s
+- name: 🇯🇵JP_42|3.6MB/s
   type: vless
   uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  server: 162.159.6.235
+  server: 108.162.198.192
+  port: 443
+  tls: true
+  sni: cf11.evan00.dpdns.org
+- name: 🇸🇬SG_13|3.7MB/s
+  type: trojan
+  sni: able-dane.rooster465.autos
+  password: NQ26071394
+  server: able-dane.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_13|3.4MB/s
+  type: trojan
+  sni: dynamic-eel.rooster465.autos
+  password: NQ26071394
+  server: dynamic-eel.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_44|4.1MB/s
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  server: 162.159.38.78
   port: 443
   tls: true
   sni: cf11.evan00.dpdns.org
@@ -1131,164 +514,76 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 'A - 🇭🇰 HK 02 TG: @nodpai'
-  - 'A - 🇯🇵 JP 03 TG: @nodpai'
-  - 'A - 🇯🇵 JP 05 TG: @nodpai'
-  - 'A - 🇯🇵 JP 06 TG: @nodpai'
-  - 'A - 🇸🇬 SG 02 TG: @nodpai'
-  - 'A - 🇸🇬 SG 03 TG: @nodpai'
-  - 'A - 🇸🇬 SG 05 TG: @nodpai'
-  - 'A - 🇸🇬 SG 07 TG: @nodpai'
-  - 'A - 🇸🇬 SG 08 TG: @nodpai'
-  - 'A - 🇸🇬 SG 09 TG: @nodpai'
-  - 'A - 🇸🇬 SG 10 TG: @nodpai'
-  - 'A - 🇸🇬 SG 11 TG: @nodpai'
-  - 'A - 🇸🇬 SG 12 TG: @nodpai'
-  - 'A - 🇸🇬 SG 13 TG: @nodpai'
-  - 'A - 🇸🇬 SG 14 TG: @nodpai'
-  - 'B - 🇸🇬 SG 15 TG: @nodpai'
-  - 'B - 🇸🇬 SG 17 TG: @nodpai'
-  - 'B - 🇸🇬 SG 18 TG: @nodpai'
-  - 'A - 🇺🇸 US 01 TG: @nodpai'
-  - 'A - 🇺🇸 US 02 TG: @nodpai'
-  - 'A - 🇺🇸 US 03 TG: @nodpai'
-  - 'A - 🇺🇸 US 04 TG: @nodpai'
-  - 'A - 🇺🇸 US 05 TG: @nodpai'
-  - 'A - 🇺🇸 US 06 TG: @nodpai'
-  - 'A - 🇺🇸 US 07 TG: @nodpai'
-  - 'A - 🇺🇸 US 08 TG: @nodpai'
-  - 'A - 🇺🇸 US 09 TG: @nodpai'
-  - 'A - 🇺🇸 US 10 TG: @nodpai'
-  - 'A - 🇺🇸 US 11 TG: @nodpai'
-  - 'A - 🇺🇸 US 12 TG: @nodpai'
-  - 'A - 🇺🇸 US 13 TG: @nodpai'
-  - 'A - 🇺🇸 US 14 TG: @nodpai'
-  - 'A - 🇺🇸 US 15 TG: @nodpai'
-  - 'B - 🇺🇸 US 17 TG: @nodpai'
-  - 'B - 🇺🇸 US 20 TG: @nodpai'
-  - 'B - 🇺🇸 US 24 TG: @nodpai'
-  - 'B - 🇺🇸 US 26 TG: @nodpai'
-  - 'B - 🇺🇸 US 27 TG: @nodpai'
-  - 'B - 🇺🇸 US 29 TG: @nodpai'
-  - 'B - 🇺🇸 US 38 TG: @nodpai'
-  - 'B - 🇺🇸 US 39 TG: @nodpai'
-  - 'B - 🇺🇸 US 40 TG: @nodpai'
-  - 'B - 🇺🇸 US 41 TG: @nodpai'
-  - 'B - 🇺🇸 US 44 TG: @nodpai'
-  - 'C - 🇺🇸 US 45 TG: @nodpai'
-  - 'A - 🇬🇧 GB 01 TG: @nodpai'
-  - 'A - 🇬🇧 GB 02 TG: @nodpai'
-  - 'A - 🇬🇧 GB 03 TG: @nodpai'
-  - 'B - 🇬🇧 GB 04 TG: @nodpai'
-  - 'B - 🇬🇧 GB 05 TG: @nodpai'
-  - 'A - 🇰🇷 KR 01 TG: @nodpai'
-  - 'A - 🇰🇷 KR 02 TG: @nodpai'
-  - 'A - 🇩🇪 DE 06 TG: @nodpai'
-  - 'A - 🇫🇷 FR 01 TG: @nodpai'
-  - 'A - 🇫🇷 FR 02 TG: @nodpai'
-  - 'A - 🇦🇺 AU 01 TG: @nodpai'
-  - 'A - 🇨🇦 CA 01 TG: @nodpai'
-  - 'B - 🇨🇦 CA 02 TG: @nodpai'
-  - 'A - 🇳🇱 NL 02 TG: @nodpai'
-  - 'A - 🇳🇱 NL 03 TG: @nodpai'
-  - 'A - 🇷🇺 RU 01 TG: @nodpai'
-  - 'A - 🇮🇳 IN 01 TG: @nodpai'
-  - 'A - 🇧🇷 BR 01 TG: @nodpai'
-  - 'A - 🇮🇹 IT 01 TG: @nodpai'
-  - 'A - 🇪🇸 ES 01 TG: @nodpai'
-  - 'A - 🇷🇴 RO 01 TG: @nodpai'
-  - 'A - 🇷🇴 RO 02 TG: @nodpai'
-  - 'A - 🇮🇱 IL 01 TG: @nodpai'
-  - 'A - 🇧🇬 BG 01 TG: @nodpai'
-  - 'A - 🇪🇪 EE 01 TG: @nodpai'
-  - 'A - 🇮🇪 IE 01 TG: @nodpai'
-  - 'B - 🇷🇸 RS 01 TG: @nodpai'
-  - 'A - 🇸🇨 SC 01 TG: @nodpai'
-  - 'A - 🇸🇨 SC 02 TG: @nodpai'
-  - 'A - 🇸🇨 SC 03 TG: @nodpai'
-  - 🇬🇧GB_1|1.9MB/s
-  - 🇯🇵JP_1|5.0MB/s
-  - 🇯🇵JP_15|4.8MB/s
-  - 🇯🇵JP_3|4.6MB/s
-  - 🇯🇵JP_16|5.4MB/s
-  - 🇯🇵JP_5|5.5MB/s
-  - 🇯🇵JP_6|5.7MB/s
-  - 🇯🇵JP_17|5.7MB/s
-  - 🇯🇵JP_34|2.1MB/s
-  - 🇯🇵JP_9|5.0MB/s
-  - 🇯🇵JP_10|5.7MB/s
-  - 🇯🇵JP_11|5.4MB/s
-  - 🇰🇷KR_1|5.0MB/s
-  - 🇰🇷KR_7|4.4MB/s
-  - 🇰🇷KR_3|4.9MB/s
-  - 🇰🇷KR_8|2.1MB/s
-  - 🇰🇷KR_5|5.0MB/s
-  - 🇺🇸US_1|1.7MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - 🇸🇬SG_2|5.4MB/s
-  - 🇸🇬SG_3|3.9MB/s
-  - 🇸🇬SG_5|3.8MB/s
+  - 🇯🇵JP_38|5.0MB/s
+  - 🇯🇵JP_2|4.6MB/s
+  - 🇯🇵JP_3|5.4MB/s
+  - 🇯🇵JP_4|3.4MB/s
+  - 🇯🇵JP_5|3.9MB/s
+  - 🇯🇵JP_6|4.9MB/s
+  - 🇯🇵JP_7|4.1MB/s
+  - 🇯🇵JP_8|2.7MB/s
+  - 🇯🇵JP_41|5.6MB/s
+  - 🇯🇵JP_10|2.4MB/s
+  - 🇯🇵JP_11|6.8MB/s
+  - 🇯🇵JP_12|5.3MB/s
+  - 🇯🇵JP_13|5.1MB/s
+  - 🇯🇵JP_14|5.1MB/s
+  - 🇯🇵JP_23|5.4MB/s
+  - 🇯🇵JP_39|5.4MB/s
+  - 🇯🇵JP_17|4.0MB/s
+  - 🇯🇵JP_18|3.9MB/s
+  - 🇯🇵JP_19|5.2MB/s
+  - 🇰🇷KR_1|3.9MB/s
+  - 🇰🇷KR_2|3.9MB/s
+  - 🇰🇷KR_3|5.0MB/s
+  - 🇰🇷KR_12|4.4MB/s
+  - 🇰🇷KR_7|2.9MB/s
+  - 🇺🇸US_1|2.2MB/s
+  - 🇸🇬SG_1|3.7MB/s
+  - 🇸🇬SG_2|3.7MB/s
+  - 🇸🇬SG_3|4.0MB/s
+  - 🇸🇬SG_4|3.9MB/s
+  - 🇸🇬SG_5|3.7MB/s
   - 🇸🇬SG_6|3.7MB/s
-  - 🇺🇸US_3|2.3MB/s
-  - 🇺🇸US_4|1.5MB/s
-  - 🇬🇧GB_2|2.1MB/s
-  - 🇩🇪DE_1|3.2MB/s
-  - 🇸🇬SG_8|4.0MB/s
-  - 🇺🇸US_8|2.3MB/s
-  - 🇸🇬SG_9|4.0MB/s
-  - 🇸🇬SG_10|4.2MB/s
-  - 🇺🇸US_9|2.2MB/s
-  - 🇰🇷KR_6|3.5MB/s
-  - 🇸🇬SG_11|5.1MB/s
-  - 🇯🇵JP_21|4.8MB/s
-  - 🇯🇵JP_13|5.3MB/s
-  - 🇯🇵JP_14|2.1MB/s
-  - 🇸🇬SG_12|2.5MB/s
-  - 🇺🇸US_11|2.4MB/s
-  - 🇺🇸US_12|2.6MB/s
-  - 🇺🇸US_13|2.2MB/s
-  - 🇨🇦CA_1|2.7MB/s
-  - 🇺🇸US_14|1.8MB/s
-  - 🇺🇸US_15|2.2MB/s
-  - 🇯🇵JP_18|5.2MB/s
-  - 🇯🇵JP_19|5.4MB/s
-  - 🇯🇵JP_20|5.0MB/s
-  - 🇰🇷KR_9|3.9MB/s
-  - 🇯🇵JP_22|3.9MB/s
-  - 🇯🇵JP_23|5.0MB/s
-  - 🇰🇷KR_10|5.0MB/s
-  - 🇯🇵JP_24|4.0MB/s
-  - 🇯🇵JP_25|5.7MB/s
-  - 🇯🇵JP_26|5.3MB/s
-  - 🇯🇵JP_27|5.8MB/s
-  - 🇺🇸US_17|2.1MB/s
-  - 🇯🇵JP_28|5.4MB/s
-  - 🇯🇵JP_29|5.7MB/s
-  - 🇮🇪IE_1|2.2MB/s
-  - 🇯🇵JP_30|5.3MB/s
-  - 🇯🇵JP_31|4.8MB/s
-  - 🇯🇵JP_32|4.9MB/s
-  - 🇳🇱NL_1|1.6MB/s
-  - 🇩🇪DE_2|2.2MB/s
-  - 🇺🇸US_18|1.5MB/s
-  - 🇺🇸US_19|2.0MB/s
-  - 🇺🇸US_20|1.5MB/s
-  - 🇺🇸US_21|1.6MB/s
-  - 🇺🇸US_22|2.0MB/s
-  - 🇺🇸US_23|1.5MB/s
-  - 🇺🇸US_24|1.5MB/s
-  - 🇺🇸US_25|2.4MB/s
-  - 🇸🇨SC_1|2.5MB/s
-  - 🇺🇸US_26|1.6MB/s
-  - 🇹🇼TW_1|2.5MB/s
-  - 🇭🇰HK_2|2.3MB/s
-  - 🇳🇱NL_2|1.6MB/s
-  - 🇸🇬SG_14|4.0MB/s
-  - 🇰🇷KR_11|3.9MB/s
-  - 🇯🇵JP_33|4.4MB/s
-  - 🇩🇪DE_3|1.6MB/s
-  - 🇺🇸US_27|3.4MB/s
-  - 🇸🇬SG_15|4.3MB/s
+  - 🇺🇸US_3|3.4MB/s
+  - 🇸🇬SG_7|3.6MB/s
+  - 🇯🇵JP_29|3.5MB/s
+  - 🇰🇷KR_6|4.8MB/s
+  - 🇸🇬SG_8|3.6MB/s
+  - 🇬🇧GB_1|2.2MB/s
+  - 🇩🇪DE_1|1.9MB/s
+  - 🇯🇵JP_30|4.9MB/s
+  - 🇰🇷KR_8|4.1MB/s
+  - 🇯🇵JP_22|4.6MB/s
+  - 🇰🇷KR_9|1.5MB/s
+  - 🇺🇸US_4|2.6MB/s
+  - 🇺🇸US_5|2.0MB/s
+  - 🇯🇵JP_43|4.0MB/s
+  - 🇯🇵JP_36|5.4MB/s
+  - 🇯🇵JP_26|5.2MB/s
+  - 🇯🇵JP_34|2.0MB/s
+  - 🇯🇵JP_28|3.5MB/s
+  - 🇰🇷KR_10|2.4MB/s
+  - 🇯🇵JP_31|5.1MB/s
+  - 🇯🇵JP_32|4.5MB/s
+  - 🇯🇵JP_33|5.1MB/s
+  - 🇸🇬SG_12|4.0MB/s
+  - 🇯🇵JP_35|3.3MB/s
+  - 🇰🇷KR_11|5.0MB/s
+  - 🇸🇬SG_10|4.3MB/s
+  - 🇸🇬SG_11|4.8MB/s
+  - 🇯🇵JP_37|5.1MB/s
+  - ❓Other_1|2.5MB/s
+  - 🇺🇸US_6|1.5MB/s
+  - 🇺🇸US_7|1.7MB/s
+  - 🇯🇵JP_40|4.8MB/s
+  - 🇺🇸US_8|1.7MB/s
+  - 🇺🇸US_9|2.6MB/s
+  - 🇺🇸US_11|2.1MB/s
+  - 🇯🇵JP_42|3.6MB/s
+  - 🇸🇬SG_13|3.7MB/s
+  - 🇰🇷KR_13|3.4MB/s
+  - 🇯🇵JP_44|4.1MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
