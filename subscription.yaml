@@ -17,24 +17,12 @@ proxies:
   password: BxceQaOe
   server: 18.162.51.224
   port: 4099
-- name: 日本3|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  server: 18.166.55.241
-  port: 24370
 - name: 新加坡3|@ripaojiedian
   type: trojan
   sni: t.me%2Fripaojiedian
   password: BxceQaOe
   server: 18.163.41.112
   port: 9149
-- name: 美国|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  server: 18.166.55.241
-  port: 17005
 - name: 美国3|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
@@ -128,9 +116,7 @@ proxy-groups:
   - 香港4|@ripaojiedian
   - 香港5|@ripaojiedian
   - 日本|@ripaojiedian
-  - 日本3|@ripaojiedian
   - 新加坡3|@ripaojiedian
-  - 美国|@ripaojiedian
   - 美国3|@ripaojiedian
   - 🇸🇬SG_1|1.8MB/s
   - AE_speednode_0001
