@@ -1,64 +1,24 @@
 proxies:
-- name: 🇸🇬SG_1|2.4MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   type: trojan
   sni: space.byu.id.yxls.eu.cc
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   server: 188.164.248.122
   port: 443
-- name: 🇸🇬SG_2|1.7MB/s
+- name: 🇩🇪DE_1|1.5MB/s
   type: vless
-  uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
-  server: cdd.themesh.site
-  port: 443
-  tls: true
-  sni: cdd.themesh.site
-- name: 🇸🇬SG_3|1.8MB/s
-  type: trojan
-  sni: pet-albacore.rooster465.autos
-  password: IQ68037294
-  server: pet-albacore.rooster465.autos
-  port: 443
-- name: 🇩🇪DE_2|2.6MB/s
-  type: vless
-  uuid: '%40V2ConfigPro'
+  uuid: a3f8f570-3e53-4252-a01f-f95156680e39
   server: 162.159.38.119
-  port: 8443
-  tls: true
-  sni: o.vamosargentina.dpdns.org
-- name: 🇩🇪DE_3|2.7MB/s
-  type: vless
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  server: dey.lnmarketplace.net
   port: 443
   tls: true
-  sni: dey.lnmarketplace.net
-- name: 🇩🇪DE_4|1.5MB/s
+  sni: telegram.mxgrid.xyz
+- name: 🇸🇬SG_3|2.8MB/s
   type: vless
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  server: 89.144.30.104
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 162.159.26.86
   port: 443
   tls: true
-  sni: dey.lnmarketplace.net
-- name: 🇺🇸US_2|2.0MB/s
-  type: vless
-  uuid: 8fef09bc-a48a-44ae-95cd-118e58ab796a
-  server: 2.26.254.62
-  port: 443
-  tls: true
-  sni: www.amd.com
-- name: 🇺🇸US_3|2.1MB/s
-  type: vless
-  uuid: ef4911ad-e3fb-4fad-9e20-f25d30fad7b7
-  server: mktossl.com
-  port: 2096
-  tls: true
-  sni: free.sahanwickramasinghevip.shop
-- name: 🇯🇵JP_1|2.2MB/s
-  type: trojan
-  sni: square-anchovy.rooster465.autos
-  password: IQ68037294
-  server: square-anchovy.rooster465.autos
-  port: 443
+  sni: t1s1.rittbo.kdns.fr
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -129,15 +89,9 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇸🇬SG_1|2.4MB/s
-  - 🇸🇬SG_2|1.7MB/s
-  - 🇸🇬SG_3|1.8MB/s
-  - 🇩🇪DE_2|2.6MB/s
-  - 🇩🇪DE_3|2.7MB/s
-  - 🇩🇪DE_4|1.5MB/s
-  - 🇺🇸US_2|2.0MB/s
-  - 🇺🇸US_3|2.1MB/s
-  - 🇯🇵JP_1|2.2MB/s
+  - 🇸🇬SG_1|4.0MB/s
+  - 🇩🇪DE_1|1.5MB/s
+  - 🇸🇬SG_3|2.8MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
