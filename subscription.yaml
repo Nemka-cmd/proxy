@@ -1,10 +1,101 @@
 proxies:
-- name: 🇸🇬SG_2|3.9MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   type: trojan
   sni: space.byu.id.yxls.eu.cc
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   server: 188.164.248.122
   port: 443
+- name: 🇩🇪DE_1|2.6MB/s
+  type: vless
+  uuid: '%40V2XNET'
+  server: 162.159.38.119
+  port: 8443
+  tls: true
+  sni: argentinavsspain.dpdns.org
+- name: 🇸🇬SG_3|3.9MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.16.63
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_4|4.3MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.3.186
+  port: 8443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_5|4.6MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 104.18.36.192
+  port: 2087
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇯🇵JP_1|3.8MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.38.206
+  port: 8443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_6|3.5MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 172.64.38.215
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇯🇵JP_2|3.8MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 172.64.53.218
+  port: 2087
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_7|3.7MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.0.70
+  port: 2087
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_8|4.7MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 172.64.35.32
+  port: 8443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_9|4.0MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.2.40
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_10|2.9MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.8.155
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇸🇬SG_11|3.5MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.33.118
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
+- name: 🇯🇵JP_3|4.4MB/s
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 162.159.38.78
+  port: 443
+  tls: true
+  sni: learn00.evany.de5.net
 - name: AE_speednode_0001
   type: trojan
   sni: 95r.ir
@@ -75,7 +166,20 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇸🇬SG_2|3.9MB/s
+  - 🇸🇬SG_1|4.0MB/s
+  - 🇩🇪DE_1|2.6MB/s
+  - 🇸🇬SG_3|3.9MB/s
+  - 🇸🇬SG_4|4.3MB/s
+  - 🇸🇬SG_5|4.6MB/s
+  - 🇯🇵JP_1|3.8MB/s
+  - 🇸🇬SG_6|3.5MB/s
+  - 🇯🇵JP_2|3.8MB/s
+  - 🇸🇬SG_7|3.7MB/s
+  - 🇸🇬SG_8|4.7MB/s
+  - 🇸🇬SG_9|4.0MB/s
+  - 🇸🇬SG_10|2.9MB/s
+  - 🇸🇬SG_11|3.5MB/s
+  - 🇯🇵JP_3|4.4MB/s
   - AE_speednode_0001
   - CZ_speednode_0002
   - GB_speednode_0005
