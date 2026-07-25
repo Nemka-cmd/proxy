@@ -1,88 +1,25 @@
 proxies:
-- name: NL_speednode_0015
-  type: trojan
-  sni: space.byu.id.yxls.eu.cc
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  server: 188.164.248.122
+- name: RU_speednode_0111
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  server: ger03.myxasecure.space
   port: 443
-- name: 🇭🇰HK_1|3.0MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: krhtybay.catcat321.com
-  port: 20092
-- name: 🇹🇷TR_1|2.1MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20017
-- name: 🇻🇳VN_1|3.5MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20029
-- name: 🇯🇵JP_1|2.6MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20061
-- name: 🇹🇭TH_1|2.8MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20006
-- name: 🇬🇧GB_1|1.7MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20020
-- name: 🇻🇳VN_2|2.5MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20062
-- name: 🇹🇼TW_1|3.5MB/s
-  type: trojan
-  sni: TW.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20109
-- name: 🇸🇬SG_2|3.0MB/s
-  type: trojan
-  sni: SG.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20072
-- name: 🇭🇰HK_2|2.4MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20098
-- name: 🇨🇦CA_1|2.1MB/s
-  type: trojan
-  sni: ca.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: d3.catcat321.com
-  port: 20112
-- name: 🇹🇷TR_2|2.8MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: kkvlvvq-a.catcat321.com
-  port: 20017
-- name: 🇻🇳VN_3|3.6MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  server: hkdcrtc-e.catcat321.com
-  port: 20081
+  tls: true
+  sni: ger03.myxasecure.space
+- name: 🇫🇷FR_1|2.1MB/s
+  type: vless
+  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
+  server: ad-020.pixel9xdmq.info
+  port: 8443
+  tls: true
+  sni: ad-020.pixel9xdmq.info
+- name: 🇸🇬SG_1|3.4MB/s
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: 43.255.157.9
+  port: 40118
+  tls: true
+  sni: www.lamer.com.sg
 - name: DE_speednode_0003
   type: vless
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
@@ -139,13 +76,6 @@ proxies:
   port: 443
   tls: true
   sni: pl05.myxasecure.space
-- name: IR_speednode_0011
-  type: vless
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  server: 62.60.159.137
-  port: 50443
-  tls: true
-  sni: www.icloud.com
 - name: KR_speednode_0013
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
@@ -153,13 +83,12 @@ proxies:
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: LV_speednode_0014
-  type: vless
-  uuid: bf0899bc-5abd-40b8-b376-f108e2d8cb6f
-  server: vs-lv3.vibesignal.space
+- name: NL_speednode_0015
+  type: trojan
+  sni: space.byu.id.yxls.eu.cc
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  server: 188.164.248.122
   port: 443
-  tls: true
-  sni: ajax.googleapis.com
 - name: NL_speednode_0016
   type: vless
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
@@ -279,13 +208,6 @@ proxies:
   port: 443
   tls: true
   sni: sellflow.org
-- name: RU_speednode_0111
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: ger03.myxasecure.space
-  port: 443
-  tls: true
-  sni: ger03.myxasecure.space
 - name: RU_speednode_0112
   type: vless
   uuid: aed30ddf-5a1c-4f4f-9056-253c7df518ed
@@ -353,20 +275,9 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - NL_speednode_0015
-  - 🇭🇰HK_1|3.0MB/s
-  - 🇹🇷TR_1|2.1MB/s
-  - 🇻🇳VN_1|3.5MB/s
-  - 🇯🇵JP_1|2.6MB/s
-  - 🇹🇭TH_1|2.8MB/s
-  - 🇬🇧GB_1|1.7MB/s
-  - 🇻🇳VN_2|2.5MB/s
-  - 🇹🇼TW_1|3.5MB/s
-  - 🇸🇬SG_2|3.0MB/s
-  - 🇭🇰HK_2|2.4MB/s
-  - 🇨🇦CA_1|2.1MB/s
-  - 🇹🇷TR_2|2.8MB/s
-  - 🇻🇳VN_3|3.6MB/s
+  - RU_speednode_0111
+  - 🇫🇷FR_1|2.1MB/s
+  - 🇸🇬SG_1|3.4MB/s
   - DE_speednode_0003
   - DK_speednode_0004
   - GB_speednode_0005
@@ -375,9 +286,8 @@ proxy-groups:
   - GB_speednode_0008
   - IE_speednode_0009
   - IE_speednode_0010
-  - IR_speednode_0011
   - KR_speednode_0013
-  - LV_speednode_0014
+  - NL_speednode_0015
   - NL_speednode_0016
   - NL_speednode_0017
   - NL_speednode_0018
@@ -395,7 +305,6 @@ proxy-groups:
   - RO_speednode_0081
   - RU_speednode_0109
   - RU_speednode_0110
-  - RU_speednode_0111
   - RU_speednode_0112
   - RU_speednode_0113
   - SE_speednode_0114
