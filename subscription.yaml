@@ -1,17 +1,30 @@
 proxies:
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 35.77.116.7
-  port: 35966
-- name: 🇭🇰HK_1|3.5MB/s
+- name: 🇫🇷FR_1|1.5MB/s
   type: vless
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  server: 207.174.133.111
-  port: 8443
-  tls: false
-  sni: ty986gfazs.cainiaohub.xyz
+  uuid: b6af5776-fede-4765-b86c-806e827e9a07
+  server: germany.superbuba.top
+  port: 443
+  tls: true
+  sni: germany.superbuba.top
+- name: 🇯🇵JP_1|2.0MB/s
+  type: trojan
+  sni: ''
+  password: AQ71834695
+  server: integral-elf.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_2|1.8MB/s
+  type: trojan
+  sni: tops-marlin.rooster465.autos
+  password: AQ71834695
+  server: tops-marlin.rooster465.autos
+  port: 443
+- name: 🇩🇪DE_1|1.5MB/s
+  type: vless
+  uuid: 87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47
+  server: 46.8.209.56
+  port: 443
+  tls: true
+  sni: ads.x5.ru
 - name: GB_speednode_0003
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
@@ -56,8 +69,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 美国3|@ripaojiedian
-  - 🇭🇰HK_1|3.5MB/s
+  - 🇫🇷FR_1|1.5MB/s
+  - 🇯🇵JP_1|2.0MB/s
+  - 🇯🇵JP_2|1.8MB/s
+  - 🇩🇪DE_1|1.5MB/s
   - GB_speednode_0003
   - HK_speednode_0004
   - HK_speednode_0005
