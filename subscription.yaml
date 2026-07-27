@@ -1,30 +1,243 @@
 proxies:
-- name: 🇫🇷FR_1|1.5MB/s
+- name: 🇩🇪DE_3|2.9MB/s
   type: vless
-  uuid: b6af5776-fede-4765-b86c-806e827e9a07
-  server: germany.superbuba.top
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  server: ger16.myxasecure.space
   port: 443
   tls: true
-  sni: germany.superbuba.top
-- name: 🇯🇵JP_1|2.0MB/s
+  sni: ger16.myxasecure.space
+- name: 🇨🇳CN_1|2.6MB/s
+  type: vless
+  uuid: c97b2158-64c9-1f55-8167-72970d347288
+  server: 157.22.19.5
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇯🇵JP_1|3.1MB/s
   type: trojan
   sni: ''
   password: AQ71834695
-  server: integral-elf.rooster465.autos
+  server: harmless-akita.rooster465.autos
   port: 443
-- name: 🇯🇵JP_2|1.8MB/s
+- name: 🇯🇵JP_2|2.0MB/s
+  type: trojan
+  sni: better-silkworm.rooster465.autos
+  password: AQ71834695
+  server: better-silkworm.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_3|2.2MB/s
   type: trojan
   sni: tops-marlin.rooster465.autos
   password: AQ71834695
   server: tops-marlin.rooster465.autos
   port: 443
-- name: 🇩🇪DE_1|1.5MB/s
+- name: 🇯🇵JP_4|2.0MB/s
+  type: trojan
+  sni: ''
+  password: AQ71834695
+  server: alert-monster.rooster465.autos
+  port: 443
+- name: 🇫🇮FI_1|1.7MB/s
   type: vless
-  uuid: 87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47
-  server: 46.8.209.56
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  server: 95.85.247.7
   port: 443
   tls: true
-  sni: ads.x5.ru
+  sni: cats.abvphelp.cc
+- name: 🇳🇱NL_1|2.5MB/s
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  server: nd08.myxasecure.space
+  port: 443
+  tls: true
+  sni: nd08.myxasecure.space
+- name: 🇳🇱NL_2|2.1MB/s
+  type: vless
+  uuid: 49e8f20c-6a27-4637-9e20-e0ea18a75766
+  server: nl.themesh.site
+  port: 443
+  tls: true
+  sni: nl.themesh.site
+- name: 🇫🇷FR_2|2.2MB/s
+  type: vless
+  uuid: 218b4b35-e826-49d4-b5dc-558fc7eb9923
+  server: 77.105.163.46
+  port: 443
+  tls: true
+  sni: ov186.ochmaybrooooo.online
+- name: 🇸🇬SG_1|2.8MB/s
+  type: vless
+  uuid: 7c7b26ae-f0da-4ae7-8f70-a9553ea07458
+  server: ehow.com
+  port: 2083
+  tls: true
+  sni: www.myanmarthree.site
+- name: NL_speednode_0006
+  type: trojan
+  sni: space.byu.id.yxls.eu.cc
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  server: 188.164.248.122
+  port: 443
+- name: 🇹🇷TR_1|2.0MB/s
+  type: vless
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  server: 170.168.97.3
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇩🇪DE_4|2.7MB/s
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  server: 151.101.56.7
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇷🇺RU_2|3.5MB/s
+  type: vless
+  uuid: 79f92090-4395-4d15-a093-5a524324b9eb
+  server: hn---gn---gk.belamona.ir
+  port: 2044
+  tls: false
+  sni: ''
+- name: 🇺🇸US_2|3.0MB/s
+  type: vless
+  uuid: 0f385063-d72f-17df-16a5-79cac274f560
+  server: 69.46.46.253
+  port: 443
+  tls: true
+  sni: x4g-production-6f16.up.railway.app
+- name: 🇺🇸US_3|2.4MB/s
+  type: vless
+  uuid: 362b410a-6f2a-4d16-fede-cd088d45192b
+  server: rvg-production-b189.up.railway.app
+  port: 443
+  tls: true
+  sni: rvg-production-b189.up.railway.app
+- name: 🇳🇱NL_3|3.4MB/s
+  type: vless
+  uuid: cdf881ee-cc9b-492d-b4ba-b65d9429080e
+  server: 84.32.10.63
+  port: 27434
+  tls: false
+  sni: ''
+- name: 🇺🇸US_4|1.9MB/s
+  type: vless
+  uuid: d6cd20ed-8d7b-e5f2-6406-69890627cc96
+  server: rvg-production-5974.up.railway.app
+  port: 443
+  tls: true
+  sni: rvg-production-5974.up.railway.app
+- name: 🇺🇸US_6|2.6MB/s
+  type: vless
+  uuid: d2bd1b3f-6ee1-b072-ae38-5f2d4d513ffb
+  server: saysgdgd-production-dd9d.up.railway.app
+  port: 443
+  tls: true
+  sni: saysgdgd-production-dd9d.up.railway.app
+- name: 🇩🇪DE_5|1.5MB/s
+  type: vless
+  uuid: a69d5300-8101-47b5-9448-6730f228af37
+  server: 151.101.193.54
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_6|2.3MB/s
+  type: vless
+  uuid: 672e23dd-be41-44fc-b606-e6891fee5e6f
+  server: 167.82.101.210
+  port: 443
+  tls: true
+  sni: global.fastly.coM.
+- name: 🇬🇧GB_1|2.0MB/s
+  type: vless
+  uuid: 94d1b793-0670-405a-af31-d1270b582427
+  server: cd18.almas-cloud.ir
+  port: 2096
+  tls: false
+  sni: ''
+- name: 🇺🇸US_7|1.6MB/s
+  type: vless
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+  server: 80.78.246.111
+  port: 9878
+  tls: true
+  sni: dl.google.com
+- name: 🇸🇬SG_3|1.6MB/s
+  type: vless
+  uuid: 7c7b26ae-f0da-4ae7-8f70-a9553ea07458
+  server: about.com
+  port: 2053
+  tls: true
+  sni: www.myanmartwo.site
+- name: 🇺🇸US_12|2.4MB/s
+  type: vless
+  uuid: 7fbdb0ab-513d-0028-bc03-3e576d8d8d12
+  server: pro-se.emrata.top
+  port: 443
+  tls: true
+  sni: pro-se.emrata.top
+- name: 🇩🇪DE_9|1.7MB/s
+  type: vless
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+  server: 5.42.121.154
+  port: 443
+  tls: true
+  sni: api-maps.yandex.ru
+- name: 🇪🇪EE_1|3.4MB/s
+  type: vless
+  uuid: 3e5797ff-cb46-48b2-be3c-1fc78a37a439
+  server: 37.49.224.176
+  port: 16923
+  tls: true
+  sni: api-maps.yandex.ru
+- name: 🇺🇸US_13|2.5MB/s
+  type: vless
+  uuid: 6b750c64-28a0-447c-99dd-9eba12d756c8
+  server: 3x-ui-production-c7f0.up.railway.app
+  port: 443
+  tls: true
+  sni: 3x-ui-production-c7f0.up.railway.app
+- name: 🇹🇼TW_2|3.7MB/s
+  type: vless
+  uuid: 6eca3cb7-eab5-4a96-b95d-444eb566309b
+  server: sgaws.ccwink.photos
+  port: 51227
+  tls: true
+  sni: docs.aws.amazon.com
+- name: 🇺🇸US_14|2.1MB/s
+  type: vless
+  uuid: 9d1f3ed0-7426-4100-ac06-21ec1f01c51b
+  server: 45.41.204.232
+  port: 25565
+  tls: true
+  sni: gateway.icloud.com
+- name: 🇩🇪DE_10|2.4MB/s
+  type: vless
+  uuid: ad790e5f-3e31-43c6-b047-336577a3b3de
+  server: zonid.ietotozheproidet.site
+  port: 443
+  tls: true
+  sni: dowload.max.ru
+- name: 🇨🇾CY_1|1.8MB/s
+  type: vless
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+  server: 45.89.105.125
+  port: 443
+  tls: true
+  sni: asia.cendora.ru
+- name: 🇪🇪EE_2|2.6MB/s
+  type: vless
+  uuid: 4ab27adf-e13d-4eea-8cfc-a77f2a78c27b
+  server: 37.49.224.176
+  port: 16923
+  tls: true
+  sni: api-maps.yandex.ru
+- name: 🇯🇵JP_5|3.2MB/s
+  type: trojan
+  sni: fit-heron.rooster465.autos
+  password: AQ71834695
+  server: fit-heron.rooster465.autos
+  port: 443
 - name: GB_speednode_0003
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
@@ -46,12 +259,6 @@ proxies:
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: NL_speednode_0006
-  type: trojan
-  sni: space.byu.id.yxls.eu.cc
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  server: 188.164.248.122
-  port: 443
 - name: SE_speednode_0083
   type: vless
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
@@ -69,14 +276,44 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇫🇷FR_1|1.5MB/s
-  - 🇯🇵JP_1|2.0MB/s
-  - 🇯🇵JP_2|1.8MB/s
-  - 🇩🇪DE_1|1.5MB/s
+  - 🇩🇪DE_3|2.9MB/s
+  - 🇨🇳CN_1|2.6MB/s
+  - 🇯🇵JP_1|3.1MB/s
+  - 🇯🇵JP_2|2.0MB/s
+  - 🇯🇵JP_3|2.2MB/s
+  - 🇯🇵JP_4|2.0MB/s
+  - 🇫🇮FI_1|1.7MB/s
+  - 🇳🇱NL_1|2.5MB/s
+  - 🇳🇱NL_2|2.1MB/s
+  - 🇫🇷FR_2|2.2MB/s
+  - 🇸🇬SG_1|2.8MB/s
+  - NL_speednode_0006
+  - 🇹🇷TR_1|2.0MB/s
+  - 🇩🇪DE_4|2.7MB/s
+  - 🇷🇺RU_2|3.5MB/s
+  - 🇺🇸US_2|3.0MB/s
+  - 🇺🇸US_3|2.4MB/s
+  - 🇳🇱NL_3|3.4MB/s
+  - 🇺🇸US_4|1.9MB/s
+  - 🇺🇸US_6|2.6MB/s
+  - 🇩🇪DE_5|1.5MB/s
+  - 🇩🇪DE_6|2.3MB/s
+  - 🇬🇧GB_1|2.0MB/s
+  - 🇺🇸US_7|1.6MB/s
+  - 🇸🇬SG_3|1.6MB/s
+  - 🇺🇸US_12|2.4MB/s
+  - 🇩🇪DE_9|1.7MB/s
+  - 🇪🇪EE_1|3.4MB/s
+  - 🇺🇸US_13|2.5MB/s
+  - 🇹🇼TW_2|3.7MB/s
+  - 🇺🇸US_14|2.1MB/s
+  - 🇩🇪DE_10|2.4MB/s
+  - 🇨🇾CY_1|1.8MB/s
+  - 🇪🇪EE_2|2.6MB/s
+  - 🇯🇵JP_5|3.2MB/s
   - GB_speednode_0003
   - HK_speednode_0004
   - HK_speednode_0005
-  - NL_speednode_0006
   - SE_speednode_0083
   - US_speednode_0090
   url: https://www.gstatic.com/generate_204
