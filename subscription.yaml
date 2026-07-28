@@ -11,165 +11,48 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   server: 18.163.180.201
   port: 48738
-- name: 🇳🇴NO_1|2.1MB/s
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20085
-- name: 🇺🇦UA_1|2.6MB/s
+- name: 🇬🇧GB_1|1.9MB/s
+  type: vless
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+  server: t1.hhaakk9922.com
+  port: 46784
+  tls: true
+  sni: t1.hhaakk9922.com
+- name: 🇳🇴NO_1|2.0MB/s
   type: trojan
   sni: hk.catxstar.com
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20066
-- name: 🇩🇪DE_1|1.9MB/s
+  server: Hkdcrtc-e.catcat321.com
+  port: 20085
+- name: 🇩🇪DE_2|2.1MB/s
+  type: trojan
+  sni: de.catxstar.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20041
+- name: 🇳🇴NO_2|2.3MB/s
+  type: trojan
+  sni: ''
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20085
+- name: 🇩🇪DE_3|2.1MB/s
   type: trojan
   sni: de.catxstar.com
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   server: Hkdcrtc-e.catcat321.com
   port: 20041
-- name: 🇳🇴NO_2|2.1MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: Hkdcrtc-e.catcat321.com
-  port: 20085
-- name: 🇲🇴MO_1|1.6MB/s
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20068
-- name: 🇺🇦UA_3|2.1MB/s
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-- name: 🇺🇸US_1|1.6MB/s
-  type: vless
-  uuid: 7d10e64e-43b0-4f8c-b1b9-8e81d275eb67
-  server: 69.46.46.24
-  port: 443
-  tls: true
-  sni: luffypanel-production-c404.up.railway.app
-- name: 🇩🇪DE_2|2.1MB/s
-  type: vless
-  uuid: 140f954a-7ab9-437c-be3a-248c269117f1
-  server: top1272307106.mwscdn.ru
-  port: 443
-  tls: true
-  sni: top1272307106.mwscdn.ru
-- name: 🇭🇰HK_1|3.5MB/s
-  type: vless
-  uuid: 9a15843f-c194-4625-b058-29833674acc0
-  server: dsm2.473221.xyz
-  port: 34819
-  tls: true
-  sni: updates.cdn-apple.com
-- name: 🇳🇴NO_3|2.3MB/s
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20085
-- name: GB_speednode_0002
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-  server: 45.155.52.231
-  port: 443
-  tls: true
-  sni: ru2.skydrgn-online.online
-- name: HK_speednode_0003
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  server: 45.196.201.48
-  port: 443
-  tls: true
-  sni: storage.yandex.net
-- name: HK_speednode_0004
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  server: 43.255.156.59
-  port: 40118
-  tls: true
-  sni: www.lamer.com.sg
-- name: KR_speednode_0005
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  server: 154.193.55.183
-  port: 443
-  tls: true
-  sni: storage.yandex.net
-- name: KR_speednode_0006
-  type: vless
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-  server: 154.193.55.183
-  port: 443
-  tls: true
-  sni: storage.yandex.net
-- name: RU_speednode_0076
-  type: vless
-  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
-  server: 194.67.102.65
-  port: 8880
-  tls: false
-  sni: rutube.ummapeople.online
-- name: US_speednode_0078
-  type: vless
-  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
-  server: 130.49.185.196
-  port: 443
-  tls: true
-  sni: site.rumedia-cdn.com
-- name: US_speednode_0079
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 151.101.56.7
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0080
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 151.101.193.54
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0081
-  type: vless
-  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-  server: 140.233.160.24
-  port: 443
-  tls: true
-  sni: ya.ru
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
   - 新加坡|@ripaojiedian
   - 新加坡2|@ripaojiedian
-  - 🇳🇴NO_1|2.1MB/s
-  - 🇺🇦UA_1|2.6MB/s
-  - 🇩🇪DE_1|1.9MB/s
-  - 🇳🇴NO_2|2.1MB/s
-  - 🇲🇴MO_1|1.6MB/s
-  - 🇺🇦UA_3|2.1MB/s
-  - 🇺🇸US_1|1.6MB/s
+  - 🇬🇧GB_1|1.9MB/s
+  - 🇳🇴NO_1|2.0MB/s
   - 🇩🇪DE_2|2.1MB/s
-  - 🇭🇰HK_1|3.5MB/s
-  - 🇳🇴NO_3|2.3MB/s
-  - GB_speednode_0002
-  - HK_speednode_0003
-  - HK_speednode_0004
-  - KR_speednode_0005
-  - KR_speednode_0006
-  - RU_speednode_0076
-  - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
-  - US_speednode_0081
+  - 🇳🇴NO_2|2.3MB/s
+  - 🇩🇪DE_3|2.1MB/s
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
