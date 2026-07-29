@@ -1,539 +1,101 @@
 proxies:
-- name: 🇫🇮FI_1|2.0MB/s
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  server: 46.8.229.218
-  port: 2053
-  tls: true
-  sni: forfreeuse.sub-flow.online
-- name: 🇩🇪DE_1|1.5MB/s
-  type: trojan
-  sni: com.digitalposts.dpdns.org
-  password: 5xjmr1dz66pgsew0
-  server: hyperon.site
-  port: 8443
-- name: CN_speednode_0009
-  type: trojan
-  sni: hkdcrtc-e.catcat321.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-- name: US_speednode_0140
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20066
-- name: 🇺🇦UA_3|2.0MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-- name: 🇺🇸US_2|2.6MB/s
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  server: fast.nanniang.top
-  port: 8443
-  tls: true
-  sni: us-akile.nanniang.top
-- name: 🇸🇬SG_1|2.3MB/s
+- name: ❓Other_1|2.1MB/s
   type: vless
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   server: 172.64.146.86
   port: 443
   tls: true
   sni: support.zoom.us.yxls.eu.cc
-- name: AE_speednode_0001
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  server: 31.59.120.124
-  port: 2053
-  tls: false
-  sni: forfreeuse.sub-flow.online
-- name: CN_speednode_0005
-  type: trojan
-  sni: de.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: Hkdcrtc-e.catcat321.com
-  port: 20041
-- name: CN_speednode_0006
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: CN_speednode_0007
-  type: trojan
-  sni: hkdcrtc-e.catcat321.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: CN_speednode_0008
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: rr1.tube-cat.com
-  port: 9450
-- name: DE_speednode_0010
+- name: DE_speednode_0002
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
   server: 51.89.23.94
   port: 2053
   tls: true
   sni: forfreeuse.sub-flow.online
-- name: FR_speednode_0011
+- name: ES_speednode_0004
   type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.246
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0012
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.4
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0013
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.51
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0014
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.27
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0015
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.57
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0016
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.213
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0017
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.56
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0018
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.160
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0019
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.222
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0020
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.40
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0021
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.183
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0022
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.61
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0023
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  server: 199.232.170.106
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt
-- name: FR_speednode_0024
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 57.128.183.79
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: getsavesafe.net
   port: 443
   tls: true
-  sni: vp58.cc.cd
-- name: FR_speednode_0025
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 103.102.228.113
-  port: 443
-  tls: true
-  sni: vp58.cc.cd
-- name: GB_speednode_0027
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 80.93.202.40
-  port: 8880
-  tls: false
-  sni: vms.lifetime02.workers.dev
-- name: GB_speednode_0028
+  sni: getsavesafe.net
+- name: GB_speednode_0005
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
   server: 45.155.52.231
   port: 443
   tls: true
   sni: ru2.skydrgn-online.online
-- name: IE_speednode_0030
+- name: IN_speednode_0006
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: my.neoncloak.space
-  port: 443
-  tls: true
-  sni: my.neoncloak.space
-- name: KR_speednode_0031
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  server: 103.54.16.230
+  port: 2053
+  tls: false
+  sni: forfreeuse.sub-flow.online
+- name: KR_speednode_0007
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   server: 154.193.55.183
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: KR_speednode_0032
+- name: KR_speednode_0008
   type: vless
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   server: 154.193.55.183
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: RU_speednode_0129
-  type: vless
-  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
-  server: 81.200.146.201
-  port: 443
-  tls: true
-  sni: api-maps.yandex.ru
-- name: RU_speednode_0130
-  type: vless
-  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
-  server: 77.105.163.46
-  port: 443
-  tls: false
-  sni: ov186.ochmaybrooooo.online
-- name: SC_speednode_0131
-  type: vless
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  server: 154.197.64.2
-  port: 8880
-  tls: false
-  sni: old-violet-a5ce.29-440.workers.dev
-- name: SC_speednode_0132
-  type: vless
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  server: 154.197.64.2
-  port: 8880
-  tls: false
-  sni: old-violet-a5ce.29-440.workers.dev
-- name: US_speednode_0133
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 151.101.56.7
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0134
+- name: US_speednode_0081
   type: trojan
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  password: MiTiVPN
-  server: 104.18.7.178
-  port: 2083
-- name: US_speednode_0135
-  type: trojan
-  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-  password: MITIVPN
-  server: 104.17.148.22
-  port: 8443
-- name: US_speednode_0136
-  type: vless
-  uuid: 1cfa409c-528e-d3d7-0ebc-250f6b627b62
-  server: soskeynets-x4g-ezaccess1-2757.up.railway.app
-  port: 443
-  tls: true
-  sni: ezaccess1-x4g-ezaccess1-2757.up.railway.app
-- name: US_speednode_0137
-  type: vless
-  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
-  server: 155.117.137.201
-  port: 443
-  tls: true
-  sni: cdn2-07.yahoo.com
-- name: US_speednode_0138
-  type: vless
-  uuid: 0b5fc7a9-8316-444f-b715-54a4250c6177
-  server: vip.persiadesign.tr
-  port: 17462
-  tls: true
-  sni: www.yahoo.com
-- name: US_speednode_0139
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  server: 50.62.90.4
-  port: 80
-  tls: false
-  sni: raspy-feather-12ec.137-257.workers.dev
-- name: US_speednode_0141
-  type: vless
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  server: 188.114.97.6
-  port: 443
-  tls: false
-  sni: Nll-l--sS--Nl.Kingcloud-1.Ir
-- name: US_speednode_0142
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  server: 88.218.44.4
-  port: 993
-  tls: true
-  sni: dl.google.com
-- name: US_speednode_0144
+  sni: ''
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: oplosgru-c.catcat321.com
+  port: 20066
+- name: US_speednode_0082
   type: vless
   uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
   server: fast.cd-tur4.ir
   port: 443
   tls: true
   sni: ssl.fastly.com
-- name: US_speednode_0145
-  type: trojan
-  sni: hk.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20066
-- name: US_speednode_0146
-  type: vless
-  uuid: 3573a79a-ae0c-41f7-84e5-eb276682af3a
-  server: 199.232.78.159
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: US_speednode_0147
-  type: vless
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
-  server: 155.117.137.201
-  port: 443
-  tls: true
-  sni: cdn9-33.yahoo.com
-- name: US_speednode_0148
-  type: vless
-  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
-  server: www.speedtest.net
-  port: 80
-  tls: false
-  sni: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
-- name: US_speednode_0149
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 151.101.193.54
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0150
-  type: vless
-  uuid: 6bd7815d-9fb0-41c6-87ef-ffc713bf6b8f
-  server: 151.101.193.54
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0151
-  type: vless
-  uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
-  server: naseza.tarfiq.ir
-  port: 80
-  tls: false
-  sni: teranko.global.ssl.fastly.net
-- name: US_speednode_0152
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 167.82.0.4
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0153
-  type: vless
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  server: 167.82.0.17
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0154
-  type: vless
-  uuid: a69d5300-8101-47b5-9448-6730f228af37
-  server: 167.82.0.17
-  port: 80
-  tls: false
-  sni: BankMelat.glObal.ssl.faStly.nEt.
-- name: US_speednode_0155
-  type: vless
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  server: 172.66.40.99
-  port: 443
-  tls: true
-  sni: l-j-o-MiTiVPN---MiTiVPN-iiio.KingCloud-1.ir
-- name: US_speednode_0156
-  type: vless
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  server: 104.21.58.74
-  port: 443
-  tls: true
-  sni: l-jo--hhMiTiVPN---MiTiVPN-o.KingCloud-1.ir
-- name: US_speednode_0157
-  type: vless
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  server: 104.18.16.56
-  port: 443
-  tls: true
-  sni: l-j--vMiTiVPN---MiTiVPN-pp-o.KingCloud-1.ir
-- name: US_speednode_0158
+- name: US_speednode_0083
   type: vless
   uuid: ff485c50-b364-4b4f-90be-ea576b949dd3
   server: www.true.th
   port: 80
   tls: false
   sni: d3gxy6d0a9fs18.cloudfront.net
-- name: US_speednode_0159
-  type: vless
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  server: 199.232.78.159
-  port: 443
-  tls: false
-  sni: ssl.fastly.com
-- name: US_speednode_0160
-  type: vless
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  server: 199.232.78.159
-  port: 443
-  tls: false
-  sni: ssl.fastly.com
-- name: US_speednode_0161
-  type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  server: 66.81.247.209
-  port: 8880
-  tls: false
-  sni: cnd.finland2.2.newwaycdn.com
-- name: US_speednode_0164
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  server: 50.62.90.4
-  port: 80
-  tls: false
-  sni: raspy-feather-12ec.137-257.workers.dev
-- name: US_speednode_0165
+- name: US_speednode_0084
   type: trojan
   sni: hk.catxstar.com
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   server: oplosgru-c.catcat321.com
-  port: 20056
-- name: US_speednode_0166
-  type: vless
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  server: 103.133.1.160
-  port: 80
-  tls: false
-  sni: soft-shadow-1e33.xicav73335.workers.dev
-- name: US_speednode_0167
+  port: 20035
+- name: US_speednode_0085
   type: trojan
-  sni: hk.catxstar.com
+  sni: oplosgru-c.catcat321.com
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   server: oplosgru-c.catcat321.com
-  port: 20004
+  port: 20066
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇫🇮FI_1|2.0MB/s
-  - 🇩🇪DE_1|1.5MB/s
-  - CN_speednode_0009
-  - US_speednode_0140
-  - 🇺🇦UA_3|2.0MB/s
-  - 🇺🇸US_2|2.6MB/s
-  - 🇸🇬SG_1|2.3MB/s
-  - AE_speednode_0001
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - DE_speednode_0010
-  - FR_speednode_0011
-  - FR_speednode_0012
-  - FR_speednode_0013
-  - FR_speednode_0014
-  - FR_speednode_0015
-  - FR_speednode_0016
-  - FR_speednode_0017
-  - FR_speednode_0018
-  - FR_speednode_0019
-  - FR_speednode_0020
-  - FR_speednode_0021
-  - FR_speednode_0022
-  - FR_speednode_0023
-  - FR_speednode_0024
-  - FR_speednode_0025
-  - GB_speednode_0027
-  - GB_speednode_0028
-  - IE_speednode_0030
-  - KR_speednode_0031
-  - KR_speednode_0032
-  - RU_speednode_0129
-  - RU_speednode_0130
-  - SC_speednode_0131
-  - SC_speednode_0132
-  - US_speednode_0133
-  - US_speednode_0134
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
-  - US_speednode_0138
-  - US_speednode_0139
-  - US_speednode_0141
-  - US_speednode_0142
-  - US_speednode_0144
-  - US_speednode_0145
-  - US_speednode_0146
-  - US_speednode_0147
-  - US_speednode_0148
-  - US_speednode_0149
-  - US_speednode_0150
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0154
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0158
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
+  - ❓Other_1|2.1MB/s
+  - DE_speednode_0002
+  - ES_speednode_0004
+  - GB_speednode_0005
+  - IN_speednode_0006
+  - KR_speednode_0007
+  - KR_speednode_0008
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0083
+  - US_speednode_0084
+  - US_speednode_0085
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
