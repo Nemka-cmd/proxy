@@ -1,32 +1,49 @@
 proxies:
-- name: 🇦🇱AL_1|1.7MB/s
+- name: 🇫🇮FI_1|2.0MB/s
   type: vless
-  uuid: 7b81d175-d180-4ec8-bbc5-dfe80e8d3b68
-  server: 144.31.129.42
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  server: 46.8.229.218
+  port: 2053
+  tls: true
+  sni: forfreeuse.sub-flow.online
+- name: 🇩🇪DE_1|1.5MB/s
+  type: trojan
+  sni: com.digitalposts.dpdns.org
+  password: 5xjmr1dz66pgsew0
+  server: hyperon.site
+  port: 8443
+- name: CN_speednode_0009
+  type: trojan
+  sni: hkdcrtc-e.catcat321.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+- name: US_speednode_0140
+  type: trojan
+  sni: ''
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: oplosgru-c.catcat321.com
+  port: 20066
+- name: 🇺🇦UA_3|2.0MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+- name: 🇺🇸US_2|2.6MB/s
+  type: vless
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  server: fast.nanniang.top
+  port: 8443
+  tls: true
+  sni: us-akile.nanniang.top
+- name: 🇸🇬SG_1|2.3MB/s
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: 172.64.146.86
   port: 443
   tls: true
-  sni: morphbinerkkw.ru
-- name: 🇬🇧GB_1|2.2MB/s
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  server: fast.nanniang.top
-  port: 8443
-  tls: true
-  sni: uk-akile.nanniang.top
-- name: 🇦🇶AQ_1|2.0MB/s
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  server: fast.nanniang.top
-  port: 8443
-  tls: true
-  sni: aq.nanniang.top
-- name: 🇦🇹AT_1|1.8MB/s
-  type: vless
-  uuid: ab044a84-8263-42ab-a1f1-2fd5ebace70d
-  server: 152.53.47.153
-  port: 16923
-  tls: true
-  sni: api-maps.yandex.ru
+  sni: support.zoom.us.yxls.eu.cc
 - name: AE_speednode_0001
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
@@ -58,12 +75,6 @@ proxies:
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   server: rr1.tube-cat.com
   port: 9450
-- name: CN_speednode_0009
-  type: trojan
-  sni: hkdcrtc-e.catcat321.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
 - name: DE_speednode_0010
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
@@ -176,13 +187,6 @@ proxies:
   port: 443
   tls: true
   sni: vp58.cc.cd
-- name: GB_speednode_0026
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  server: 31.56.227.48
-  port: 2090
-  tls: false
-  sni: ''
 - name: GB_speednode_0027
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -293,12 +297,6 @@ proxies:
   port: 80
   tls: false
   sni: raspy-feather-12ec.137-257.workers.dev
-- name: US_speednode_0140
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: oplosgru-c.catcat321.com
-  port: 20066
 - name: US_speednode_0141
   type: vless
   uuid: c19735a7-ff97-a112-3f07-60e500f7719b
@@ -468,16 +466,18 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇦🇱AL_1|1.7MB/s
-  - 🇬🇧GB_1|2.2MB/s
-  - 🇦🇶AQ_1|2.0MB/s
-  - 🇦🇹AT_1|1.8MB/s
+  - 🇫🇮FI_1|2.0MB/s
+  - 🇩🇪DE_1|1.5MB/s
+  - CN_speednode_0009
+  - US_speednode_0140
+  - 🇺🇦UA_3|2.0MB/s
+  - 🇺🇸US_2|2.6MB/s
+  - 🇸🇬SG_1|2.3MB/s
   - AE_speednode_0001
   - CN_speednode_0005
   - CN_speednode_0006
   - CN_speednode_0007
   - CN_speednode_0008
-  - CN_speednode_0009
   - DE_speednode_0010
   - FR_speednode_0011
   - FR_speednode_0012
@@ -494,7 +494,6 @@ proxy-groups:
   - FR_speednode_0023
   - FR_speednode_0024
   - FR_speednode_0025
-  - GB_speednode_0026
   - GB_speednode_0027
   - GB_speednode_0028
   - IE_speednode_0030
@@ -511,7 +510,6 @@ proxy-groups:
   - US_speednode_0137
   - US_speednode_0138
   - US_speednode_0139
-  - US_speednode_0140
   - US_speednode_0141
   - US_speednode_0142
   - US_speednode_0144
