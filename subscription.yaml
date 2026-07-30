@@ -1,39 +1,24 @@
 proxies:
-- name: 🇷🇺RU_1|1.9MB/s
-  type: vless
-  uuid: a852c438-b983-46ce-a789-53c70d426505
-  server: 176.109.92.191
-  port: 2096
-  tls: true
-  sni: id.pervye.ru
-- name: 🇸🇬SG_1|4.5MB/s
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  server: 172.64.146.86
-  port: 443
-  tls: true
-  sni: support.zoom.us.yxls.eu.cc
-- name: 🇷🇺RU_2|2.1MB/s
+- name: 🇩🇪DE_1|2.0MB/s
+  type: trojan
+  sni: de.catxstar.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20041
+- name: US_speednode_0124
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   server: 88.218.44.4
-  port: 8443
+  port: 993
   tls: true
-  sni: dl.google.com
-- name: 🇱🇻LV_1|1.8MB/s
+  sni: download.nvidia.com
+- name: 🇳🇱NL_1|2.8MB/s
   type: vless
-  uuid: a852c438-b983-46ce-a789-53c70d426505
-  server: 176.109.94.87
-  port: 9443
-  tls: true
-  sni: id.pervye.ru
-- name: 🇸🇬SG_2|4.6MB/s
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  server: 104.18.39.150
-  port: 443
-  tls: true
-  sni: u61op.o3ue.5g1.hh.vavava.kdns.fr
+  uuid: caa0f615-2598-4b78-b339-2824658a602b
+  server: 104.21.88.129
+  port: 8880
+  tls: false
+  sni: ''
 - name: AT_speednode_0001
   type: vless
   uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
@@ -55,13 +40,6 @@ proxies:
   port: 2053
   tls: true
   sni: forfreeuse.sub-flow.online
-- name: GB_speednode_0005
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  server: 31.56.204.32
-  port: 2090
-  tls: false
-  sni: ''
 - name: GB_speednode_0006
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -69,13 +47,6 @@ proxies:
   port: 8880
   tls: false
   sni: vms.lifetime02.workers.dev
-- name: GB_speednode_0007
-  type: vless
-  uuid: 30702f28-0a64-4f96-bd8f-cc601ca87e4d
-  server: de.prime-net.me
-  port: 443
-  tls: true
-  sni: de.prime-net.me
 - name: IN_speednode_0013
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
@@ -167,13 +138,6 @@ proxies:
   port: 80
   tls: false
   sni: raspy-feather-12ec.137-257.workers.dev
-- name: US_speednode_0124
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  server: 88.218.44.4
-  port: 993
-  tls: true
-  sni: download.nvidia.com
 - name: US_speednode_0125
   type: vless
   uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
@@ -213,17 +177,13 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇷🇺RU_1|1.9MB/s
-  - 🇸🇬SG_1|4.5MB/s
-  - 🇷🇺RU_2|2.1MB/s
-  - 🇱🇻LV_1|1.8MB/s
-  - 🇸🇬SG_2|4.6MB/s
+  - 🇩🇪DE_1|2.0MB/s
+  - US_speednode_0124
+  - 🇳🇱NL_1|2.8MB/s
   - AT_speednode_0001
   - CA_speednode_0003
   - DE_speednode_0004
-  - GB_speednode_0005
   - GB_speednode_0006
-  - GB_speednode_0007
   - IN_speednode_0013
   - RU_speednode_0106
   - RU_speednode_0108
@@ -237,7 +197,6 @@ proxy-groups:
   - US_speednode_0117
   - US_speednode_0118
   - US_speednode_0121
-  - US_speednode_0124
   - US_speednode_0125
   - US_speednode_0126
   - US_speednode_0127
