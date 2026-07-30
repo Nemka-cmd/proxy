@@ -1,95 +1,36 @@
 proxies:
-- name: HK_speednode_0010
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 43.199.32.78
-  port: 13118
-- name: HK_speednode_0008
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.163.138.98
-  port: 27161
-- name: HK_speednode_0012
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 43.199.32.78
-  port: 40138
-- name: 🇸🇬SG_3|3.7MB/s
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 43.199.32.78
-  port: 6357
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 43.199.32.78
-  port: 48738
-- name: HK_speednode_0011
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 43.198.12.180
-  port: 32434
-- name: 🇩🇪DE_1|2.2MB/s
+- name: 🇷🇺RU_1|1.9MB/s
   type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  server: 203.23.179.151
+  uuid: a852c438-b983-46ce-a789-53c70d426505
+  server: 176.109.92.191
+  port: 2096
+  tls: true
+  sni: id.pervye.ru
+- name: 🇸🇬SG_1|4.5MB/s
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: 172.64.146.86
   port: 443
   tls: true
-  sni: ddc-akn.astralweb.tech
-- name: 🇩🇪DE_2|3.1MB/s
-  type: trojan
-  sni: de.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: 🇵🇱PL_1|1.6MB/s
+  sni: support.zoom.us.yxls.eu.cc
+- name: 🇷🇺RU_2|2.1MB/s
   type: vless
-  uuid: 0fd412c1-6904-4ccc-bb6e-9653975c73f3
-  server: lbvzo.falsemirrov.com
-  port: 443
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  server: 88.218.44.4
+  port: 8443
   tls: true
-  sni: lbvzo.falsemirrov.com
-- name: 🇺🇸US_2|2.1MB/s
+  sni: dl.google.com
+- name: 🇱🇻LV_1|1.8MB/s
   type: vless
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  server: us2.denverpresents.top
-  port: 443
+  uuid: a852c438-b983-46ce-a789-53c70d426505
+  server: 176.109.94.87
+  port: 9443
   tls: true
-  sni: us2.denverpresents.top
-- name: 🇩🇪DE_3|2.5MB/s
-  type: trojan
-  sni: ''
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: 🇩🇪DE_4|1.9MB/s
-  type: trojan
-  sni: hkdcrtc-e.catcat321.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: 🇭🇰HK_7|3.5MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.163.138.98
-  port: 27161
-- name: 🇸🇬SG_4|3.3MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 43.198.12.180
-  port: 32434
-- name: 🇺🇸US_7|2.2MB/s
+  sni: id.pervye.ru
+- name: 🇸🇬SG_2|4.6MB/s
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  server: 104.17.99.222
+  server: 104.18.39.150
   port: 443
   tls: true
   sni: u61op.o3ue.5g1.hh.vavava.kdns.fr
@@ -219,13 +160,6 @@ proxies:
   port: 8443
   tls: true
   sni: www.oracle.com
-- name: US_speednode_0122
-  type: vless
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-  server: 195.21.129.117
-  port: 2553
-  tls: false
-  sni: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
 - name: US_speednode_0121
   type: vless
   uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
@@ -279,21 +213,11 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - HK_speednode_0010
-  - HK_speednode_0008
-  - HK_speednode_0012
-  - 🇸🇬SG_3|3.7MB/s
-  - 新加坡2|@ripaojiedian
-  - HK_speednode_0011
-  - 🇩🇪DE_1|2.2MB/s
-  - 🇩🇪DE_2|3.1MB/s
-  - 🇵🇱PL_1|1.6MB/s
-  - 🇺🇸US_2|2.1MB/s
-  - 🇩🇪DE_3|2.5MB/s
-  - 🇩🇪DE_4|1.9MB/s
-  - 🇭🇰HK_7|3.5MB/s
-  - 🇸🇬SG_4|3.3MB/s
-  - 🇺🇸US_7|2.2MB/s
+  - 🇷🇺RU_1|1.9MB/s
+  - 🇸🇬SG_1|4.5MB/s
+  - 🇷🇺RU_2|2.1MB/s
+  - 🇱🇻LV_1|1.8MB/s
+  - 🇸🇬SG_2|4.6MB/s
   - AT_speednode_0001
   - CA_speednode_0003
   - DE_speednode_0004
@@ -312,7 +236,6 @@ proxy-groups:
   - US_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
-  - US_speednode_0122
   - US_speednode_0121
   - US_speednode_0124
   - US_speednode_0125
