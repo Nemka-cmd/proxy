@@ -1,34 +1,4 @@
 proxies:
-- name: HK_speednode_0012
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 18.167.20.3
-  port: 13118
-- name: HK_speednode_0013
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 18.167.20.3
-  port: 6357
-- name: 新加坡2|@ripaojiedian
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 18.167.20.3
-  port: 48738
-- name: HK_speednode_0015
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 18.167.20.3
-  port: 17005
-- name: HK_speednode_0014
-  type: trojan
-  sni: www.nintendogames.net
-  password: d1960ba9f0f6353353994fa844cf817b
-  server: 18.167.20.3
-  port: 49277
 - name: 🇩🇪DE_1|2.4MB/s
   type: vless
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
@@ -357,13 +327,6 @@ proxies:
   port: 443
   tls: true
   sni: ssl.fastly.com
-- name: US_speednode_0186
-  type: vless
-  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
-  server: 23.95.215.181
-  port: 28080
-  tls: false
-  sni: ''
 - name: US_speednode_0187
   type: vless
   uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
@@ -382,11 +345,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - HK_speednode_0012
-  - HK_speednode_0013
-  - 新加坡2|@ripaojiedian
-  - HK_speednode_0015
-  - HK_speednode_0014
   - 🇩🇪DE_1|2.4MB/s
   - 🇪🇪EE_1|1.7MB/s
   - US_speednode_0185
@@ -434,7 +392,6 @@ proxy-groups:
   - US_speednode_0174
   - US_speednode_0182
   - US_speednode_0183
-  - US_speednode_0186
   - US_speednode_0187
   - US_speednode_0189
   url: https://www.gstatic.com/generate_204
