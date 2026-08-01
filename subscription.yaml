@@ -1,84 +1,25 @@
 proxies:
-- name: 🇩🇪DE_1|2.0MB/s
+- name: 🇭🇰HK_1|2.0MB/s
   type: vless
-  uuid: ee2f3100-512d-4ef1-9c8b-5725244aa740
-  server: ru.pool-b.netcenter-cdn.com
-  port: 44003
-  tls: true
-  sni: pool-b.pools.netcenter-cdn.com
-- name: GB_speednode_0015
-  type: vless
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-  server: 2.26.129.68
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 43.168.16.112
   port: 443
   tls: true
-  sni: ukrop.mycdn-me.ru
-- name: 🇸🇪SE_1|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.51.233.2
-  port: 443
-- name: 🇳🇱NL_1|1.2MB/s
-  type: trojan
-  sni: jumao91.shop
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  server: jumao91.shop
+  sni: sni.ehb.cc.cd
+- name: 🇰🇷KR_1|1.3MB/s
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 211.104.99.209
+  port: 11019
+  tls: true
+  sni: sni.ehb.cc.cd
+- name: 🇸🇬SG_1|2.0MB/s
+  type: vless
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  server: news.zoom.us
   port: 2096
-- name: 🇩🇰DK_1|1.1MB/s
-  type: vless
-  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
-  server: 104.21.40.208
-  port: 443
   tls: true
-  sni: pinalo13.zenvorix.ir
-- name: 🇸🇪SE_2|1.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.61.5.244
-  port: 443
-- name: 🇸🇪SE_3|1.7MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.62.20.75
-  port: 443
-- name: 🇭🇰HK_1|1.1MB/s
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: code-sandbox.blog
-  port: 443
-  tls: true
-  sni: code-sandbox.blog
-- name: 🇳🇱NL_2|1009KB/s
-  type: vless
-  uuid: 3ea58e96-5fe0-11f1-bd95-ee5f4ed81fa1
-  server: nl.gruztrack.online
-  port: 2053
-  tls: true
-  sni: nl.gruztrack.online
-- name: 🇫🇷FR_2|2.4MB/s
-  type: vless
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-  server: love.ns.cloudflare.com
-  port: 443
-  tls: true
-  sni: oekja.megacitylab-nomt.sbs
-- name: 🇳🇱NL_3|1.3MB/s
-  type: vless
-  uuid: f374a660-2dc5-11f1-9ec5-baabcd4be2cd
-  server: 45.143.167.154
-  port: 8443
-  tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_1|1010KB/s
-  type: vless
-  uuid: eb3e31c5-d423-4bf1-b104-4f6d3fe94a8a
-  server: sibche.torexa.ir
-  port: 6110
-  tls: false
-  sni: ''
+  sni: primelinelk.me
 - name: BG_speednode_0002
   type: vless
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
@@ -86,309 +27,229 @@ proxies:
   port: 443
   tls: true
   sni: dedger.skorostnet.space
-- name: BR_speednode_0003
+- name: DE_speednode_0004
   type: vless
-  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
-  server: status.netraidly.ru
-  port: 40443
-  tls: true
-  sni: deepl.com
-- name: CN_speednode_0006
-  type: trojan
-  sni: de.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: Hkdcrtc-e.catcat321.com
-  port: 20041
-- name: CZ_speednode_0007
-  type: vless
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-  server: de22.kubservice.icu
+  uuid: 6daae99a-82f8-4675-9069-a34a165b6c6b
+  server: secdn-105.nem-osh-rkp.net
   port: 443
   tls: true
-  sni: de22.kubservice.icu
-- name: DE_speednode_0009
+  sni: ''
+- name: GB_speednode_0008
   type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-  server: 109.163.239.60
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+  server: 2.26.129.68
   port: 443
   tls: true
-  sni: cdn5-89.yahoo.com
-- name: DE_speednode_0010
-  type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-  server: 109.163.239.208
-  port: 443
-  tls: true
-  sni: cdn9-78.yahoo.com
-- name: ES_speednode_0011
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: is.tunnelpoint.space
-  port: 443
-  tls: true
-  sni: is.tunnelpoint.space
-- name: FR_speednode_0012
-  type: vless
-  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
-  server: taoccqyacf7e.dop66.com
-  port: 5039
-  tls: true
-  sni: www.yahoo.com
-- name: GB_speednode_0017
+  sni: ukrop.mycdn-me.ru
+- name: GB_speednode_0009
   type: vless
   uuid: f055899d-026b-49b5-88ed-0227795082da
   server: 2.26.128.73
   port: 443
   tls: true
   sni: wombat.mycdn-me.ru
-- name: GB_speednode_0018
+- name: GB_speednode_0010
   type: vless
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-  server: 2.26.139.184
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  server: 45.155.52.231
   port: 443
   tls: true
-  sni: kukuruza.mycdn-me.ru
-- name: GB_speednode_0020
+  sni: ru2.skydrgn-online.online
+- name: GB_speednode_0011
   type: vless
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   server: rt.tunnelpoint.space
   port: 443
   tls: true
   sni: rt.tunnelpoint.space
-- name: GR_speednode_0021
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: sys-runtime-errors.blog
-  port: 443
-  tls: true
-  sni: sys-runtime-errors.blog
-- name: HK_speednode_0025
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  server: 45.196.201.115
-  port: 443
-  tls: true
-  sni: storage.yandex.net
-- name: HU_speednode_0027
-  type: vless
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-  server: hu001.kubservice.icu
-  port: 443
-  tls: true
-  sni: hu001.kubservice.icu
-- name: IT_speednode_0028
+- name: IT_speednode_0013
   type: vless
   uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
   server: 45.195.2.114
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: JP_speednode_0033
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: dev-ops-notes.blog
-  port: 443
-  tls: true
-  sni: dev-ops-notes.blog
-- name: KR_speednode_0035
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  server: 154.193.55.183
-  port: 443
-  tls: true
-  sni: storage.yandex.net
-- name: KR_speednode_0036
+- name: KR_speednode_0015
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
   server: 154.193.55.183
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: MT_speednode_0037
+- name: KR_speednode_0016
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  server: 154.193.55.183
+  port: 443
+  tls: true
+  sni: storage.yandex.net
+- name: MT_speednode_0017
   type: vless
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   server: api-endpoint.rest
   port: 443
   tls: true
   sni: api-endpoint.rest
-- name: RU_speednode_0166
+- name: RU_speednode_0137
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: usa02.myxasecure.space
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+  server: 94.139.251.191
   port: 443
   tls: true
-  sni: usa02.myxasecure.space
-- name: SG_speednode_0171
+  sni: apple.com
+- name: RU_speednode_0138
   type: vless
-  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
-  server: most.lodkirmm.ru
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
+  server: 94.139.251.189
   port: 443
   tls: true
-  sni: most.lodkirmm.ru
-- name: SK_speednode_0172
+  sni: apple.com
+- name: RU_speednode_0139
   type: vless
-  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
-  server: 8.47.69.0
-  port: 8880
-  tls: false
-  sni: rutube.ummapeople.online
-- name: US_speednode_0174
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+  server: 94.139.250.35
+  port: 443
+  tls: true
+  sni: apple.com
+- name: RU_speednode_0140
   type: vless
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
-  server: www.true.th
-  port: 80
-  tls: false
-  sni: d7iwyzy9wpvuu.cloudfront.net
-- name: US_speednode_0212
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+  server: 94.139.251.23
+  port: 443
+  tls: true
+  sni: apple.com
+- name: RU_speednode_0141
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  server: 94.139.250.36
+  port: 443
+  tls: true
+  sni: apple.com
+- name: RU_speednode_0142
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  server: 94.139.250.34
+  port: 443
+  tls: true
+  sni: apple.com
+- name: RU_speednode_0143
+  type: vless
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+  server: 94.139.251.189
+  port: 443
+  tls: true
+  sni: apple.com
+- name: RU_speednode_0144
+  type: vless
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
+  server: 94.139.251.23
+  port: 443
+  tls: true
+  sni: apple.com
+- name: SC_speednode_0145
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  server: 45.130.125.207
+  port: 443
+  tls: true
+  sni: terazhediii.info
+- name: SG_speednode_0147
+  type: vless
+  uuid: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
+  server: 1sg001.344211.cc
+  port: 8443
+  tls: true
+  sni: www.python.org
+- name: US_speednode_0155
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   server: 88.218.44.4
   port: 993
   tls: true
-  sni: swcdn.apple.com
-- name: US_speednode_0188
-  type: vless
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-  server: pl88.kubservice.icu
-  port: 443
-  tls: true
-  sni: pl88.kubservice.icu
-- name: US_speednode_0191
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: openai.com
-  port: 2095
-  tls: false
-  sni: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-- name: US_speednode_0195
-  type: vless
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-  server: ne111.kubservice.icu
-  port: 443
-  tls: true
-  sni: ne111.kubservice.icu
-- name: US_speednode_0198
-  type: vless
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-  server: se99.kubservice.icu
-  port: 443
-  tls: true
-  sni: se99.kubservice.icu
-- name: US_speednode_0199
-  type: trojan
-  sni: jumao91.shop
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  server: jumao91.shop
-  port: 2096
-- name: US_speednode_0208
-  type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  server: www.true.th
-  port: 80
-  tls: false
-  sni: d2pwbkmfr5lxa4.cloudfront.net
-- name: US_speednode_0216
+  sni: download.nvidia.com
+- name: US_speednode_0175
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   server: 169.40.42.15
   port: 443
   tls: true
   sni: yahoo.com
-- name: US_speednode_0220
+- name: US_speednode_0176
+  type: trojan
+  sni: jumao91.shop
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  server: jumao91.shop
+  port: 2096
+- name: US_speednode_0193
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  server: tir.tunnelpoint.space
+  uuid: 8c9d907e-f09a-31bc-be54-1d83dfd06363
+  server: 69.46.46.110
   port: 443
   tls: true
-  sni: tir.tunnelpoint.space
-- name: ZA_speednode_0230
+  sni: rvg-production-02bc.up.railway.app
+- name: US_speednode_0194
   type: vless
-  uuid: 69080ad0-9074-4c38-b729-ace93fd4ac13
-  server: 45.192.2.51
+  uuid: 6c21890f-2b2a-98b0-dca1-f444112ced83
+  server: f35-production-20fd.up.railway.app
   port: 443
   tls: true
-  sni: yandex.net
-- name: ZA_speednode_0231
+  sni: f35-production-20fd.up.railway.app
+- name: US_speednode_0195
   type: vless
-  uuid: 44a6901d-6675-41b1-9a80-ee3308699e1d
-  server: 45.192.2.51
+  uuid: 28926c34-865c-447e-8d42-a17240af743b
+  server: cdn-cloudflare91.korvexe.ir
+  port: 8880
+  tls: false
+  sni: cdn-cloudflare91.korvexe.ir
+- name: US_speednode_0196
+  type: vless
+  uuid: 6daae99a-82f8-4675-9069-a34a165b6c6b
+  server: plcdn-12.nem-osh-rkp.net
   port: 443
   tls: true
-  sni: yandex.net
-- name: ZA_speednode_0232
+  sni: ''
+- name: US_speednode_0197
   type: vless
-  uuid: fc58b0ab-2755-43bd-9388-b8edcf75d629
-  server: 45.192.2.51
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  server: 199.232.78.159
   port: 443
   tls: true
-  sni: yandex.net
-- name: ZA_speednode_0233
-  type: vless
-  uuid: 52f0f0ee-bc74-4757-8e1c-51e334233b4d
-  server: 45.192.2.51
-  port: 443
-  tls: true
-  sni: yandex.net
-- name: ZA_speednode_0234
-  type: vless
-  uuid: e9346960-a429-4c1a-b661-512611450fea
-  server: 45.192.2.51
-  port: 443
-  tls: true
-  sni: yandex.net
+  sni: ssl.fastly.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪DE_1|2.0MB/s
-  - GB_speednode_0015
-  - 🇸🇪SE_1|1.6MB/s
-  - 🇳🇱NL_1|1.2MB/s
-  - 🇩🇰DK_1|1.1MB/s
-  - 🇸🇪SE_2|1.3MB/s
-  - 🇸🇪SE_3|1.7MB/s
-  - 🇭🇰HK_1|1.1MB/s
-  - 🇳🇱NL_2|1009KB/s
-  - 🇫🇷FR_2|2.4MB/s
-  - 🇳🇱NL_3|1.3MB/s
-  - 🇺🇸US_1|1010KB/s
+  - 🇭🇰HK_1|2.0MB/s
+  - 🇰🇷KR_1|1.3MB/s
+  - 🇸🇬SG_1|2.0MB/s
   - BG_speednode_0002
-  - BR_speednode_0003
-  - CN_speednode_0006
-  - CZ_speednode_0007
-  - DE_speednode_0009
-  - DE_speednode_0010
-  - ES_speednode_0011
-  - FR_speednode_0012
-  - GB_speednode_0017
-  - GB_speednode_0018
-  - GB_speednode_0020
-  - GR_speednode_0021
-  - HK_speednode_0025
-  - HU_speednode_0027
-  - IT_speednode_0028
-  - JP_speednode_0033
-  - KR_speednode_0035
-  - KR_speednode_0036
-  - MT_speednode_0037
-  - RU_speednode_0166
-  - SG_speednode_0171
-  - SK_speednode_0172
-  - US_speednode_0174
-  - US_speednode_0212
-  - US_speednode_0188
-  - US_speednode_0191
+  - DE_speednode_0004
+  - GB_speednode_0008
+  - GB_speednode_0009
+  - GB_speednode_0010
+  - GB_speednode_0011
+  - IT_speednode_0013
+  - KR_speednode_0015
+  - KR_speednode_0016
+  - MT_speednode_0017
+  - RU_speednode_0137
+  - RU_speednode_0138
+  - RU_speednode_0139
+  - RU_speednode_0140
+  - RU_speednode_0141
+  - RU_speednode_0142
+  - RU_speednode_0143
+  - RU_speednode_0144
+  - SC_speednode_0145
+  - SG_speednode_0147
+  - US_speednode_0155
+  - US_speednode_0175
+  - US_speednode_0176
+  - US_speednode_0193
+  - US_speednode_0194
   - US_speednode_0195
-  - US_speednode_0198
-  - US_speednode_0199
-  - US_speednode_0208
-  - US_speednode_0216
-  - US_speednode_0220
-  - ZA_speednode_0230
-  - ZA_speednode_0231
-  - ZA_speednode_0232
-  - ZA_speednode_0233
-  - ZA_speednode_0234
+  - US_speednode_0196
+  - US_speednode_0197
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
