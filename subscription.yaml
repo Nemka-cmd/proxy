@@ -1,4 +1,183 @@
 proxies:
+- name: 🇨🇭CH_1|4.0MB/s
+  type: vless
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+  server: sw1.auragg.org
+  port: 25108
+  tls: true
+  sni: cloudflare.com
+- name: 🇪🇸ES_1|2.4MB/s
+  type: vless
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  server: 130.49.77.3
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇮🇳IN_1|1.9MB/s
+  type: vless
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  server: 185.67.126.178
+  port: 443
+  tls: true
+  sni: ind.tunnelx.space
+- name: 🇬🇧GB_1|2.6MB/s
+  type: vless
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+  server: pro-it.emrata.top
+  port: 443
+  tls: true
+  sni: pro-it.emrata.top
+- name: 🇬🇧GB_2|2.8MB/s
+  type: vless
+  uuid: d3b3f278-2cca-4abf-aa27-bf0c0f27cbd0
+  server: pro-jp.emrata.top
+  port: 443
+  tls: true
+  sni: pro-jp.emrata.top
+- name: CO_speednode_0012
+  type: vless
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  server: 87.120.106.126
+  port: 443
+  tls: true
+  sni: tr.tunnelx.space
+- name: 🇺🇸US_1|1.7MB/s
+  type: vless
+  uuid: 5083f498-4894-5553-8648-40a2faf4b545
+  server: 185.170.154.80
+  port: 443
+  tls: true
+  sni: 185.170.154.80.vhub.pro
+- name: 🇺🇸US_18|3.2MB/s
+  type: vless
+  uuid: 4935bf38-dd83-454a-ba0f-6fa18c418fc0
+  server: 192.204.33.111
+  port: 56679
+  tls: true
+  sni: www.tesla.com
+- name: 🇹🇷TR_2|3.9MB/s
+  type: vless
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  server: 170.168.97.3
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇺🇸US_3|2.3MB/s
+  type: vless
+  uuid: d0ff9419-41d9-da60-9b32-aeb2033d2871
+  server: 69.46.46.12
+  port: 443
+  tls: true
+  sni: rvg-production-1849.up.railway.app
+- name: 🇺🇸US_4|1.9MB/s
+  type: vless
+  uuid: 63bd9429-578a-46c0-b99f-c81814041c31
+  server: 3x-ui-production-0061.up.railway.app
+  port: 443
+  tls: true
+  sni: ''
+- name: US_speednode_0283
+  type: vless
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  server: 88.218.44.4
+  port: 993
+  tls: true
+  sni: download.nvidia.com
+- name: 🇨🇳CN_1|1.5MB/s
+  type: vless
+  uuid: c97b2158-64c9-1f55-8167-72970d347288
+  server: 157.22.19.5
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇰🇷KR_1|1.1MB/s
+  type: trojan
+  sni: r.kr1.cat.bilibili.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: 154.64.226.149
+  port: 9450
+- name: GB_speednode_0043
+  type: vless
+  uuid: 5083f498-4894-5553-8648-40a2faf4b545
+  server: 185.170.154.80.vhub.pro
+  port: 443
+  tls: true
+  sni: 185.170.154.80.vhub.pro
+- name: 🇳🇱NL_4|2.3MB/s
+  type: vless
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  server: ne1.tunnelx.space
+  port: 443
+  tls: true
+  sni: ne1.tunnelx.space
+- name: 🇹🇼TW_1|1.7MB/s
+  type: vless
+  uuid: 4dadf31a-4fab-4084-b24f-b2213352ef3a
+  server: tw.lshan.eu.org
+  port: 21299
+  tls: true
+  sni: www.icloud.com
+- name: US_speednode_0312
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  server: 64.49.38.6
+  port: 993
+  tls: true
+  sni: download.nvidia.com
+- name: 🇺🇸US_16|3.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 98.94.8.252
+  port: 443
+- name: 🇺🇸US_19|2.9MB/s
+  type: vless
+  uuid: 73351643-1cc8-8c0d-c1f4-50216e315edb
+  server: 69.46.46.14
+  port: 443
+  tls: true
+  sni: rvg-production-7eb1.up.railway.app
+- name: 🇺🇸US_20|1.2MB/s
+  type: vless
+  uuid: Fuck
+  server: ezaccess1-slv-ezaccess1-543e.up.railway.app
+  port: 443
+  tls: true
+  sni: ezaccess1-slv-ezaccess1-543e.up.railway.app
+- name: 🇩🇪DE_1|3.0MB/s
+  type: vless
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+  server: kakaG.tempfast.ir
+  port: 33786
+  tls: true
+  sni: icloud.com
+- name: 🇬🇧GB_3|2.1MB/s
+  type: vless
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  server: 168.119.156.100
+  port: 22012
+  tls: true
+  sni: login.yahoo.com
+- name: 🇬🇧GB_4|3.2MB/s
+  type: vless
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  server: 78.47.104.140
+  port: 22012
+  tls: true
+  sni: login.yahoo.com
+- name: 🇳🇱NL_5|2.1MB/s
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  server: 88.218.44.4
+  port: 8443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇰🇷KR_4|2.5MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
+  server: sg.csfcpun8nb61wyygrclw.cdn000.com
+  port: 31304
 - name: AE_speednode_0001
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -34,6 +213,13 @@ proxies:
   port: 443
   tls: true
   sni: sni.ehb.cc.cd
+- name: BA_speednode_0007
+  type: vless
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
+  server: 195.144.24.84
+  port: 443
+  tls: true
+  sni: cdn-mk.ai-apiroute.cc
 - name: BE_speednode_0008
   type: vless
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
@@ -59,13 +245,6 @@ proxies:
   type: vless
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
   server: tr.tunnelx.space
-  port: 443
-  tls: true
-  sni: tr.tunnelx.space
-- name: CO_speednode_0012
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: 87.120.106.126
   port: 443
   tls: true
   sni: tr.tunnelx.space
@@ -246,13 +425,6 @@ proxies:
   port: 443
   tls: true
   sni: 31.76.11.46.cdn-one.org
-- name: GB_speednode_0039
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: 217.177.75.7
-  port: 443
-  tls: true
-  sni: usa.tunnelx.space
 - name: GB_speednode_0040
   type: vless
   uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
@@ -274,13 +446,6 @@ proxies:
   port: 443
   tls: true
   sni: 31.76.251.127.cdn-one.org
-- name: GB_speednode_0043
-  type: vless
-  uuid: 5083f498-4894-5553-8648-40a2faf4b545
-  server: 185.170.154.80.vhub.pro
-  port: 443
-  tls: true
-  sni: 185.170.154.80.vhub.pro
 - name: GB_speednode_0044
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -722,20 +887,6 @@ proxies:
   port: 443
   tls: true
   sni: www.wp.pl
-- name: US_speednode_0283
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  server: 88.218.44.4
-  port: 993
-  tls: true
-  sni: download.nvidia.com
-- name: US_speednode_0312
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  server: 64.49.38.6
-  port: 993
-  tls: true
-  sni: download.nvidia.com
 - name: US_speednode_0281
   type: vless
   uuid: 767a17d0-0579-4d98-ae13-413198f44752
@@ -1160,16 +1311,42 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 🇨🇭CH_1|4.0MB/s
+  - 🇪🇸ES_1|2.4MB/s
+  - 🇮🇳IN_1|1.9MB/s
+  - 🇬🇧GB_1|2.6MB/s
+  - 🇬🇧GB_2|2.8MB/s
+  - CO_speednode_0012
+  - 🇺🇸US_1|1.7MB/s
+  - 🇺🇸US_18|3.2MB/s
+  - 🇹🇷TR_2|3.9MB/s
+  - 🇺🇸US_3|2.3MB/s
+  - 🇺🇸US_4|1.9MB/s
+  - US_speednode_0283
+  - 🇨🇳CN_1|1.5MB/s
+  - 🇰🇷KR_1|1.1MB/s
+  - GB_speednode_0043
+  - 🇳🇱NL_4|2.3MB/s
+  - 🇹🇼TW_1|1.7MB/s
+  - US_speednode_0312
+  - 🇺🇸US_16|3.5MB/s
+  - 🇺🇸US_19|2.9MB/s
+  - 🇺🇸US_20|1.2MB/s
+  - 🇩🇪DE_1|3.0MB/s
+  - 🇬🇧GB_3|2.1MB/s
+  - 🇬🇧GB_4|3.2MB/s
+  - 🇳🇱NL_5|2.1MB/s
+  - 🇰🇷KR_4|2.5MB/s
   - AE_speednode_0001
   - AE_speednode_0002
   - AE_speednode_0004
   - AU_speednode_0005
   - AU_speednode_0006
+  - BA_speednode_0007
   - BE_speednode_0008
   - BG_speednode_0009
   - BG_speednode_0010
   - CO_speednode_0011
-  - CO_speednode_0012
   - CZ_speednode_0013
   - CZ_speednode_0014
   - CZ_speednode_0015
@@ -1196,11 +1373,9 @@ proxy-groups:
   - GB_speednode_0036
   - GB_speednode_0037
   - GB_speednode_0038
-  - GB_speednode_0039
   - GB_speednode_0040
   - GB_speednode_0041
   - GB_speednode_0042
-  - GB_speednode_0043
   - GB_speednode_0044
   - GB_speednode_0045
   - GB_speednode_0046
@@ -1265,8 +1440,6 @@ proxy-groups:
   - US_speednode_0275
   - US_speednode_0277
   - US_speednode_0278
-  - US_speednode_0283
-  - US_speednode_0312
   - US_speednode_0281
   - US_speednode_0286
   - US_speednode_0287
