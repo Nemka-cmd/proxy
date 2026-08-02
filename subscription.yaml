@@ -1,100 +1,4 @@
 proxies:
-- name: 🇬🇧GB_1|1.2MB/s
-  type: vless
-  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
-  server: 188.72.103.3
-  port: 443
-  tls: true
-  sni: g43g324.whit3.net
-- name: US_speednode_0312
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  server: 64.49.38.6
-  port: 993
-  tls: true
-  sni: download.nvidia.com
-- name: 🇺🇸US_2|1.6MB/s
-  type: vless
-  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
-  server: 98.142.251.31
-  port: 8443
-  tls: true
-  sni: addons.mozilla.org
-- name: 🇩🇪DE_1|1.2MB/s
-  type: vless
-  uuid: 0671a383-81d9-40d4-84f4-0e44ff30c2ca
-  server: best.athforce.ir
-  port: 2214
-  tls: false
-  sni: ''
-- name: GB_speednode_0033
-  type: trojan
-  sni: ''
-  password: 581e14a5fcc14107b9326cc54f047891
-  server: 31.76.11.46.cdn-one.org
-  port: 443
-- name: GB_speednode_0035
-  type: trojan
-  sni: 31.76.11.46.cdn-one.org
-  password: 32b2m2w7hsdd93z7
-  server: 31.76.11.46.cdn-one.org
-  port: 443
-- name: US_speednode_0291
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 108.162.198.113
-  port: 443
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0296
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 162.159.45.38
-  port: 2087
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0297
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 162.159.38.181
-  port: 2096
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0299
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 162.159.45.38
-  port: 2096
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0300
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 172.64.52.117
-  port: 2083
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0301
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 108.162.198.76
-  port: 8443
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: US_speednode_0303
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  server: 162.159.44.227
-  port: 2087
-  tls: true
-  sni: sni.ehb.cc.cd
-- name: 🇭🇰HK_1|4.8MB/s
-  type: vless
-  uuid: d9c33eaf-a175-4902-b892-93ea6fdf2c99
-  server: 52.192.136.69
-  port: 62465
-  tls: true
-  sni: 16personalities.wwwnav.com
 - name: AE_speednode_0001
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -130,13 +34,6 @@ proxies:
   port: 443
   tls: true
   sni: sni.ehb.cc.cd
-- name: BA_speednode_0007
-  type: vless
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
-  server: 195.144.24.84
-  port: 443
-  tls: true
-  sni: cdn-mk.ai-apiroute.cc
 - name: BE_speednode_0008
   type: vless
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
@@ -312,10 +209,22 @@ proxies:
   port: 8443
   tls: true
   sni: sni.ehb.cc.cd
+- name: GB_speednode_0033
+  type: trojan
+  sni: ''
+  password: 581e14a5fcc14107b9326cc54f047891
+  server: 31.76.11.46.cdn-one.org
+  port: 443
 - name: GB_speednode_0034
   type: trojan
   sni: 31.76.11.46.cdn-one.org
   password: 581e14a5fcc14107b9326cc54f047891
+  server: 31.76.11.46.cdn-one.org
+  port: 443
+- name: GB_speednode_0035
+  type: trojan
+  sni: 31.76.11.46.cdn-one.org
+  password: 32b2m2w7hsdd93z7
   server: 31.76.11.46.cdn-one.org
   port: 443
 - name: GB_speednode_0036
@@ -711,6 +620,13 @@ proxies:
   port: 2083
   tls: true
   sni: sni.ehb.cc.cd
+- name: RU_speednode_0231
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 109.172.94.240
+  port: 443
+  tls: true
+  sni: sni.ehb.cc.cd
 - name: RU_speednode_0234
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -813,6 +729,13 @@ proxies:
   port: 993
   tls: true
   sni: download.nvidia.com
+- name: US_speednode_0312
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  server: 64.49.38.6
+  port: 993
+  tls: true
+  sni: download.nvidia.com
 - name: US_speednode_0281
   type: vless
   uuid: 767a17d0-0579-4d98-ae13-413198f44752
@@ -848,6 +771,13 @@ proxies:
   port: 443
   tls: true
   sni: ne0002.kubservice.icu
+- name: US_speednode_0291
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 108.162.198.113
+  port: 443
+  tls: true
+  sni: sni.ehb.cc.cd
 - name: US_speednode_0292
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -876,6 +806,20 @@ proxies:
   port: 2087
   tls: true
   sni: sni.ehb.cc.cd
+- name: US_speednode_0296
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 162.159.45.38
+  port: 2087
+  tls: true
+  sni: sni.ehb.cc.cd
+- name: US_speednode_0297
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 162.159.38.181
+  port: 2096
+  tls: true
+  sni: sni.ehb.cc.cd
 - name: US_speednode_0298
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -883,10 +827,38 @@ proxies:
   port: 2083
   tls: true
   sni: sni.ehb.cc.cd
+- name: US_speednode_0299
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 162.159.45.38
+  port: 2096
+  tls: true
+  sni: sni.ehb.cc.cd
+- name: US_speednode_0300
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 172.64.52.117
+  port: 2083
+  tls: true
+  sni: sni.ehb.cc.cd
+- name: US_speednode_0301
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 108.162.198.76
+  port: 8443
+  tls: true
+  sni: sni.ehb.cc.cd
 - name: US_speednode_0302
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
   server: 172.64.229.179
+  port: 2087
+  tls: true
+  sni: sni.ehb.cc.cd
+- name: US_speednode_0303
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 162.159.44.227
   port: 2087
   tls: true
   sni: sni.ehb.cc.cd
@@ -1188,26 +1160,11 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇬🇧GB_1|1.2MB/s
-  - US_speednode_0312
-  - 🇺🇸US_2|1.6MB/s
-  - 🇩🇪DE_1|1.2MB/s
-  - GB_speednode_0033
-  - GB_speednode_0035
-  - US_speednode_0291
-  - US_speednode_0296
-  - US_speednode_0297
-  - US_speednode_0299
-  - US_speednode_0300
-  - US_speednode_0301
-  - US_speednode_0303
-  - 🇭🇰HK_1|4.8MB/s
   - AE_speednode_0001
   - AE_speednode_0002
   - AE_speednode_0004
   - AU_speednode_0005
   - AU_speednode_0006
-  - BA_speednode_0007
   - BE_speednode_0008
   - BG_speednode_0009
   - BG_speednode_0010
@@ -1233,7 +1190,9 @@ proxy-groups:
   - FR_speednode_0030
   - FR_speednode_0031
   - FR_speednode_0032
+  - GB_speednode_0033
   - GB_speednode_0034
+  - GB_speednode_0035
   - GB_speednode_0036
   - GB_speednode_0037
   - GB_speednode_0038
@@ -1291,6 +1250,7 @@ proxy-groups:
   - PL_speednode_0099
   - RO_speednode_0221
   - RO_speednode_0222
+  - RU_speednode_0231
   - RU_speednode_0234
   - SE_speednode_0236
   - SE_speednode_0237
@@ -1306,17 +1266,25 @@ proxy-groups:
   - US_speednode_0277
   - US_speednode_0278
   - US_speednode_0283
+  - US_speednode_0312
   - US_speednode_0281
   - US_speednode_0286
   - US_speednode_0287
   - US_speednode_0288
   - US_speednode_0289
+  - US_speednode_0291
   - US_speednode_0292
   - US_speednode_0293
   - US_speednode_0294
   - US_speednode_0295
+  - US_speednode_0296
+  - US_speednode_0297
   - US_speednode_0298
+  - US_speednode_0299
+  - US_speednode_0300
+  - US_speednode_0301
   - US_speednode_0302
+  - US_speednode_0303
   - US_speednode_0305
   - US_speednode_0306
   - US_speednode_0307
