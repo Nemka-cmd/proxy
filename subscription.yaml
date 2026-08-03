@@ -1,263 +1,71 @@
 proxies:
-- name: 🇸🇬SG_1|4.0MB/s
+- name: 🇸🇬SG_4|4.4MB/s
   type: trojan
   sni: t.me%2Fripaojiedian
   password: BxceQaOe
   server: 16.162.22.218
   port: 9149
-- name: 🇦🇹AT_1|2.2MB/s
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: as.tunnelx.space
-  port: 443
-  tls: true
-  sni: as.tunnelx.space
-- name: 🇺🇸US_1|1.6MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: bSOOjTnIutwmTb9nTnIKm3
-  server: creativeboxde2.zanity.net
-  port: 5223
-- name: 🇮🇳IN_1|1.3MB/s
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: 185.67.126.178
-  port: 443
-  tls: true
-  sni: ind.tunnelx.space
-- name: 🇬🇧GB_1|1.5MB/s
-  type: vless
-  uuid: 26909d5d-6f82-4de5-b7e1-769127cb55d5
-  server: 188.72.103.3
-  port: 443
-  tls: true
-  sni: grape.hotwigga.space
-- name: 🇩🇪DE_2|1.7MB/s
-  type: vless
-  uuid: 77930005-ea92-44dc-9d94-e9192427f519
-  server: 185.126.93.17
-  port: 443
-  tls: true
-  sni: wx-deu-037.cdnphotos.org
-- name: 🇺🇸US_2|1.2MB/s
-  type: vless
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
-  server: pro-se.emrata.top
-  port: 443
-  tls: true
-  sni: pro-se.emrata.top
-- name: 🇺🇸US_3|1.4MB/s
-  type: vless
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-  server: pro-se.emrata.top
-  port: 443
-  tls: true
-  sni: pro-se.emrata.top
-- name: 🇹🇷TR_1|1.9MB/s
-  type: vless
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-  server: 170.168.97.3
-  port: 8443
-  tls: true
-  sni: download.nvidia.com
-- name: US_speednode_0312
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  server: 64.49.38.6
-  port: 993
-  tls: true
-  sni: download.nvidia.com
-- name: 🇩🇪DE_3|1.3MB/s
-  type: vless
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-  server: ddc-akn.astralweb.tech
-  port: 443
-  tls: true
-  sni: ddc-akn.astralweb.tech
-- name: US_speednode_0277
+- name: 🇯🇵JP_1|5.0MB/s
   type: trojan
-  sni: de.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-- name: 🇹🇷TR_2|1.2MB/s
+  sni: upright-impala.rooster465.autos
+  password: ND91608427
+  server: upright-impala.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_2|5.6MB/s
+  type: trojan
+  sni: relaxing-bluebird.rooster465.autos
+  password: ND91608427
+  server: relaxing-bluebird.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_1|1.1MB/s
+  type: trojan
+  sni: definite-malamute.rooster465.autos
+  password: ND91608427
+  server: definite-malamute.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_4|3.8MB/s
+  type: trojan
+  sni: saving-octopus.rooster465.autos
+  password: ND91608427
+  server: saving-octopus.rooster465.autos
+  port: 443
+- name: 🇰🇷KR_5|5.0MB/s
+  type: trojan
+  sni: moved-meerkat.rooster465.autos
+  password: ND91608427
+  server: moved-meerkat.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_1|3.9MB/s
+  type: trojan
+  sni: ''
+  password: BxceQaOe
+  server: 16.162.22.218
+  port: 9149
+- name: 🇬🇧GB_1|1.4MB/s
   type: vless
-  uuid: 444f3779-cc79-4289-b22b-f75bc84be25e
-  server: soskeynets.ssdhdd.org
-  port: 443
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  server: 78.47.104.140
+  port: 22012
   tls: true
-  sni: tasnimnews.ir
-- name: US_speednode_0243
+  sni: login.yahoo.com
+- name: 🇸🇬SG_5|4.1MB/s
   type: trojan
-  sni: de.catxstar.com
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  server: Hkdcrtc-e.catcat321.com
-  port: 20041
-- name: 🇩🇪DE_6|1.5MB/s
-  type: vless
-  uuid: 77930005-ea92-44dc-9d94-e9192427f519
-  server: wx-deu-037.cdnphotos.org
-  port: 443
-  tls: true
-  sni: wx-deu-037.cdnphotos.org
-- name: 🇺🇸US_9|1.9MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  server: 88.210.36.106
-  port: 2377
-- name: 🇰🇷KR_3|3.9MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-  server: epnbiaynh2yw.cdn000.com
-  port: 30302
-- name: 🇯🇵JP_1|2.2MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-  server: epnbiaynh2yw.cdn000.com
-  port: 30204
-- name: CO_speednode_0012
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: 87.120.106.126
-  port: 443
-  tls: true
-  sni: tr.tunnelx.space
-- name: 🇯🇵JP_3|4.6MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:YmU0ZDQzODMtYWFhZi00Yg==
-  server: epnbiaynh2yw.cdn000.com
-  port: 30202
-- name: 🇳🇱NL_3|1.6MB/s
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 16.162.22.218
+  port: 9149
+- name: 🇯🇵JP_3|4.8MB/s
   type: trojan
-  sni: titandarkness.mooo.com
-  password: 32b2m2w7hsdd93z7
-  server: 2.26.96.251
+  sni: definite-sturgeon.rooster465.autos
+  password: ND91608427
+  server: definite-sturgeon.rooster465.autos
   port: 443
-- name: 🇳🇱NL_4|1.9MB/s
+- name: 🇯🇵JP_4|3.1MB/s
   type: trojan
-  sni: titandarkness.mooo.com
-  password: 581e14a5fcc14107b9326cc54f047891
-  server: 2.26.96.251
-  port: 443
-- name: 🇳🇱NL_5|2.2MB/s
-  type: trojan
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  password: MITIVPN
-  server: 188.114.98.0
-  port: 443
-- name: 🇳🇱NL_6|2.0MB/s
-  type: trojan
-  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   password: MiTiVPN
-  server: 188.114.97.6
+  server: 162.159.44.100
   port: 443
-- name: 🇩🇪DE_7|1.6MB/s
-  type: vless
-  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
-  server: 104.167.24.227
-  port: 18443
-  tls: true
-  sni: gp1.steptofsvo.com
-- name: 🇳🇱NL_8|1.0MB/s
-  type: vless
-  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-  server: 46.8.210.108
-  port: 8443
-  tls: true
-  sni: sun1-87.userapi.com
-- name: 🇸🇪SE_1|2.4MB/s
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: 162.248.163.237
-  port: 443
-  tls: true
-  sni: sw.tunnelx.space
-- name: 🇮🇳IN_2|2.4MB/s
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: ind.tunnelx.space
-  port: 443
-  tls: true
-  sni: ind.tunnelx.space
-- name: 🇱🇻LV_1|1.7MB/s
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  server: lt.tunnelx.space
-  port: 443
-  tls: true
-  sni: lt.tunnelx.space
-- name: 🇧🇪BE_1|3.4MB/s
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  server: 109.69.218.168
-  port: 443
-  tls: true
-  sni: agile-raptor.cdn.cachefleet.com
-- name: 🇬🇧GB_2|1.4MB/s
-  type: vless
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-  server: 2.26.95.2
-  port: 443
-  tls: true
-  sni: pro-jp.emrata.top
-- name: 🇧🇷BR_1|1.6MB/s
-  type: vless
-  uuid: caeb0482-d3d9-4271-8fbe-bc2cfe694efa
-  server: pro-ru-bridge.emrata.top
-  port: 443
-  tls: true
-  sni: pro-ru-bridge.emrata.top
-- name: 🇬🇧GB_3|2.8MB/s
-  type: vless
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-  server: 128.140.114.57
-  port: 22012
-  tls: true
-  sni: login.yahoo.com
-- name: 🇬🇧GB_4|1.5MB/s
-  type: vless
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
-  server: 62.238.55.96
-  port: 22012
-  tls: true
-  sni: login.yahoo.com
-- name: 🇵🇰PK_2|4.3MB/s
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-  server: 64.49.38.6
-  port: 8443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇺🇸US_16|1.4MB/s
-  type: vless
-  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
-  server: pro-tr.emrata.top
-  port: 443
-  tls: true
-  sni: pro-tr.emrata.top
-- name: 🇩🇪DE_8|1.2MB/s
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  server: 94.249.225.47
-  port: 443
-  tls: true
-  sni: plucky-kestrel.cdn.cachefleet.com
-- name: 🇹🇼TW_1|4.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  server: xunlinknode.csdjhajkshdjkas.com
-  port: 40028
-- name: 🇩🇪DE_9|2.4MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  server: 152.70.26.250
-  port: 59924
 - name: AE_speednode_0001
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -300,6 +108,13 @@ proxies:
   port: 443
   tls: true
   sni: sni.ehb.cc.cd
+- name: BA_speednode_0007
+  type: vless
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
+  server: 195.144.24.84
+  port: 443
+  tls: true
+  sni: cdn-mk.ai-apiroute.cc
 - name: BE_speednode_0008
   type: vless
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
@@ -325,6 +140,13 @@ proxies:
   type: vless
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
   server: tr.tunnelx.space
+  port: 443
+  tls: true
+  sni: tr.tunnelx.space
+- name: CO_speednode_0012
+  type: vless
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  server: 87.120.106.126
   port: 443
   tls: true
   sni: tr.tunnelx.space
@@ -858,6 +680,13 @@ proxies:
   port: 2083
   tls: true
   sni: sni.ehb.cc.cd
+- name: RU_speednode_0231
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  server: 109.172.94.240
+  port: 443
+  tls: true
+  sni: sni.ehb.cc.cd
 - name: RU_speednode_0234
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
@@ -914,6 +743,12 @@ proxies:
   port: 443
   tls: true
   sni: web.pomedor.ru
+- name: US_speednode_0243
+  type: trojan
+  sni: de.catxstar.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: Hkdcrtc-e.catcat321.com
+  port: 20041
 - name: US_speednode_0262
   type: trojan
   sni: hkdcrtc-e.catcat321.com
@@ -934,6 +769,12 @@ proxies:
   port: 443
   tls: true
   sni: de0001.kubservice.icu
+- name: US_speednode_0277
+  type: trojan
+  sni: de.catxstar.com
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  server: hkdcrtc-e.catcat321.com
+  port: 20041
 - name: US_speednode_0278
   type: vless
   uuid: 5cd8fc43-878f-11f1-8c93-54db13ea7d40
@@ -945,6 +786,13 @@ proxies:
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   server: 88.218.44.4
+  port: 993
+  tls: true
+  sni: download.nvidia.com
+- name: US_speednode_0312
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  server: 64.49.38.6
   port: 993
   tls: true
   sni: download.nvidia.com
@@ -1365,55 +1213,29 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇸🇬SG_1|4.0MB/s
-  - 🇦🇹AT_1|2.2MB/s
-  - 🇺🇸US_1|1.6MB/s
-  - 🇮🇳IN_1|1.3MB/s
-  - 🇬🇧GB_1|1.5MB/s
-  - 🇩🇪DE_2|1.7MB/s
-  - 🇺🇸US_2|1.2MB/s
-  - 🇺🇸US_3|1.4MB/s
-  - 🇹🇷TR_1|1.9MB/s
-  - US_speednode_0312
-  - 🇩🇪DE_3|1.3MB/s
-  - US_speednode_0277
-  - 🇹🇷TR_2|1.2MB/s
-  - US_speednode_0243
-  - 🇩🇪DE_6|1.5MB/s
-  - 🇺🇸US_9|1.9MB/s
-  - 🇰🇷KR_3|3.9MB/s
-  - 🇯🇵JP_1|2.2MB/s
-  - CO_speednode_0012
-  - 🇯🇵JP_3|4.6MB/s
-  - 🇳🇱NL_3|1.6MB/s
-  - 🇳🇱NL_4|1.9MB/s
-  - 🇳🇱NL_5|2.2MB/s
-  - 🇳🇱NL_6|2.0MB/s
-  - 🇩🇪DE_7|1.6MB/s
-  - 🇳🇱NL_8|1.0MB/s
-  - 🇸🇪SE_1|2.4MB/s
-  - 🇮🇳IN_2|2.4MB/s
-  - 🇱🇻LV_1|1.7MB/s
-  - 🇧🇪BE_1|3.4MB/s
-  - 🇬🇧GB_2|1.4MB/s
-  - 🇧🇷BR_1|1.6MB/s
-  - 🇬🇧GB_3|2.8MB/s
-  - 🇬🇧GB_4|1.5MB/s
-  - 🇵🇰PK_2|4.3MB/s
-  - 🇺🇸US_16|1.4MB/s
-  - 🇩🇪DE_8|1.2MB/s
-  - 🇹🇼TW_1|4.2MB/s
-  - 🇩🇪DE_9|2.4MB/s
+  - 🇸🇬SG_4|4.4MB/s
+  - 🇯🇵JP_1|5.0MB/s
+  - 🇯🇵JP_2|5.6MB/s
+  - 🇰🇷KR_1|1.1MB/s
+  - 🇰🇷KR_4|3.8MB/s
+  - 🇰🇷KR_5|5.0MB/s
+  - 🇸🇬SG_1|3.9MB/s
+  - 🇬🇧GB_1|1.4MB/s
+  - 🇸🇬SG_5|4.1MB/s
+  - 🇯🇵JP_3|4.8MB/s
+  - 🇯🇵JP_4|3.1MB/s
   - AE_speednode_0001
   - AE_speednode_0002
   - AE_speednode_0003
   - AE_speednode_0004
   - AU_speednode_0005
   - AU_speednode_0006
+  - BA_speednode_0007
   - BE_speednode_0008
   - BG_speednode_0009
   - BG_speednode_0010
   - CO_speednode_0011
+  - CO_speednode_0012
   - CZ_speednode_0013
   - CZ_speednode_0014
   - CZ_speednode_0015
@@ -1491,6 +1313,7 @@ proxy-groups:
   - PA_speednode_0098
   - RO_speednode_0221
   - RO_speednode_0222
+  - RU_speednode_0231
   - RU_speednode_0234
   - SE_speednode_0236
   - SE_speednode_0237
@@ -1499,11 +1322,14 @@ proxy-groups:
   - TW_speednode_0240
   - UA_speednode_0241
   - UA_speednode_0242
+  - US_speednode_0243
   - US_speednode_0262
   - US_speednode_0273
   - US_speednode_0275
+  - US_speednode_0277
   - US_speednode_0278
   - US_speednode_0283
+  - US_speednode_0312
   - US_speednode_0281
   - US_speednode_0286
   - US_speednode_0287
