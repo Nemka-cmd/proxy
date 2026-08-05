@@ -1,235 +1,50 @@
 proxies:
-- name: 🇩🇪DE_7|4.9MB/s
+- name: 🇩🇪DE_1|2.7MB/s
   type: vless
   uuid: 7fc1ee8b-3abf-4b4e-ab73-007460d767bd
   server: 91.107.182.197
   port: 25520
   tls: true
   sni: yahoo.com
-- name: 🇪🇪EE_1|1.8MB/s
+- name: 🇪🇪EE_1|2.2MB/s
   type: vless
   uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
   server: 185.215.184.31
   port: 8443
   tls: true
   sni: anyfile2file.com
-- name: 🇺🇦UA_3|3.6MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  server: oplosgru-c.catcat321.com
-  port: 20066
-- name: 🇳🇱NL_2|3.7MB/s
+- name: 🇳🇱NL_1|3.0MB/s
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   server: 84.235.173.150
   port: 62145
   tls: false
   sni: ''
-- name: 🇬🇧GB_1|3.7MB/s
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-  server: 45.155.52.231
+- name: 🇳🇱NL_2|1.7MB/s
+  type: trojan
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  password: MITIVPN
+  server: 188.114.98.0
   port: 443
-  tls: true
-  sni: ru2.skydrgn-online.online
-- name: 🇩🇪DE_2|3.1MB/s
+- name: 🇺🇸US_1|1.9MB/s
+  type: trojan
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  password: MiTiVPN
+  server: 104.16.98.215
+  port: 443
+- name: 🇩🇪DE_2|3.3MB/s
   type: trojan
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   password: MiTiVPN
   server: 104.26.2.173
   port: 443
-- name: 🇦🇪AE_1|2.8MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
-  server: e3.cover20.ir
-  port: 56985
-- name: 🇩🇪DE_3|1.7MB/s
+- name: 🇳🇱NL_3|3.6MB/s
   type: vless
-  uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401
-  server: 88.216.220.87
+  uuid: f6bb53bd-168e-4d79-a75a-e987b8e8b042
+  server: 3x-ui-nl-production-da63.up.railway.app
   port: 443
   tls: true
-  sni: api.noneok.com
-- name: 🇫🇮FI_4|2.2MB/s
-  type: vless
-  uuid: f319a005-6bd0-44b3-910c-a596a2573efe
-  server: 77.91.84.96
-  port: 57228
-  tls: true
-  sni: www.googletagmanager.com
-- name: 🇺🇦UA_2|2.2MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-- name: 🇨🇳CN_1|3.5MB/s
-  type: vless
-  uuid: c97b2158-64c9-1f55-8167-72970d347288
-  server: 157.22.19.5
-  port: 443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇺🇸US_3|2.8MB/s
-  type: vless
-  uuid: _Config
-  server: emamjavad99-production.up.railway.app
-  port: 443
-  tls: true
-  sni: emamjavad99-production.up.railway.app
-- name: 🇺🇸US_4|2.5MB/s
-  type: vless
-  uuid: 9f561c34-8615-4fa6-2350-e77b34a8b0dc
-  server: soskeynets-vpn-production-b046.up.railway.app
-  port: 443
-  tls: true
-  sni: line-vpn-production-b046.up.railway.app
-- name: 🇩🇪DE_4|2.3MB/s
-  type: vless
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-  server: 217.60.193.1
-  port: 443
-  tls: true
-  sni: ddc-akn.astralweb.tech
-- name: 🇳🇱NL_10|1.0MB/s
-  type: vless
-  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
-  server: kino.memhd.store
-  port: 33729
-  tls: true
-  sni: ymail.com
-- name: 🇯🇵JP_1|1.9MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  server: hkdcrtc-e.catcat321.com
-  port: 20129
-- name: 🇦🇪AE_2|2.2MB/s
-  type: trojan
-  sni: driveservice.mooo.com
-  password: yooog56ts3ymtpp5
-  server: 78.17.103.162
-  port: 443
-- name: 🇩🇪DE_5|3.0MB/s
-  type: vless
-  uuid: 1691261e-1f25-4f75-b84d-5fc982bf08f2
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇺🇸US_32|2.1MB/s
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: 161.104.90.17
-  port: 443
-  tls: true
-  sni: www.samsung.com
-- name: 🇷🇺RU_1|3.5MB/s
-  type: vless
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  server: 159.194.238.114
-  port: 443
-  tls: true
-  sni: ru.node.sillyvpn.cc
-- name: 🇪🇪EE_2|1.3MB/s
-  type: vless
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-  server: 95.85.224.51
-  port: 443
-  tls: true
-  sni: max.ru
-- name: 🇫🇷FR_3|2.7MB/s
-  type: vless
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-  server: 172.64.34.119
-  port: 443
-  tls: true
-  sni: tnecp.skysparkbase-assd.sbs
-- name: 🇩🇪DE_6|2.7MB/s
-  type: vless
-  uuid: 57bf75ba-5c9d-487b-8a57-1451ad729b4d
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇺🇸US_33|1.9MB/s
-  type: vless
-  uuid: b140b69a-1592-4af1-ee8e-d92c927a97cf
-  server: un.nexavps.com.tr
-  port: 8443
-  tls: true
-  sni: updates.cdn-apple.com
-- name: 🇸🇬SG_1|4.2MB/s
-  type: vless
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  server: cos-cdn-c.alicdn.win
-  port: 443
-  tls: true
-  sni: mms-statlc-2vinw-e.bjedu.men
-- name: 🇳🇱NL_11|3.1MB/s
-  type: vless
-  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
-  server: 195.58.49.114
-  port: 33729
-  tls: true
-  sni: ymail.com
-- name: 🇩🇪DE_8|1.8MB/s
-  type: vless
-  uuid: d1e816db-0dc6-4b44-8037-c59700028214
-  server: 79.137.203.64
-  port: 443
-  tls: true
-  sni: www.ibm.com
-- name: 🇬🇧GB_4|1.2MB/s
-  type: vless
-  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
-  server: pro-it.emrata.top
-  port: 443
-  tls: true
-  sni: pro-it.emrata.top
-- name: 🇬🇧GB_5|1.7MB/s
-  type: vless
-  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
-  server: pro-fi.emrata.top
-  port: 443
-  tls: true
-  sni: pro-fi.emrata.top
-- name: 🇧🇷BR_2|3.2MB/s
-  type: vless
-  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
-  server: pro-ru-bridge.emrata.top
-  port: 443
-  tls: true
-  sni: pro-ru-bridge.emrata.top
-- name: 🇺🇸US_34|1.6MB/s
-  type: vless
-  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
-  server: pro-se.emrata.top
-  port: 443
-  tls: true
-  sni: pro-se.emrata.top
-- name: 🇺🇸US_35|2.9MB/s
-  type: vless
-  uuid: 5f08a5b9-774a-4587-86d1-d08880d48cb1
-  server: pro-tr.emrata.top
-  port: 443
-  tls: true
-  sni: pro-tr.emrata.top
-- name: 🇭🇰HK_2|6.1MB/s
-  type: vless
-  uuid: 2058418a-7718-4050-bdd5-db7487ffdb3b
-  server: 34.96.200.38
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇩🇪DE_9|3.1MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  server: 130.61.178.208
-  port: 59924
+  sni: 3x-ui-nl-production-da63.up.railway.app
 - name: AE_speednode_0001
   type: vless
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
@@ -237,6 +52,126 @@ proxies:
   port: 443
   tls: true
   sni: ddc-akn.astralweb.tech
+- name: 🇩🇪DE_4|2.8MB/s
+  type: vless
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  server: 217.60.193.1
+  port: 443
+  tls: true
+  sni: ddc-akn.astralweb.tech
+- name: 🇸🇬SG_1|4.4MB/s
+  type: trojan
+  sni: ''
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  server: 106.75.132.91
+  port: 40783
+- name: 🇺🇦UA_1|1.2MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+- name: 🇩🇪DE_5|1.8MB/s
+  type: trojan
+  sni: ramz.xuithree.dpdns.org
+  password: ersi13mjahoao8e6
+  server: cctvhikvision.center
+  port: 443
+- name: 🇩🇪DE_6|1.7MB/s
+  type: trojan
+  sni: ramz.xuithree.dpdns.org
+  password: ersi13mjahoao8e6
+  server: hikvision-plus.com
+  port: 443
+- name: 🇩🇪DE_7|2.4MB/s
+  type: trojan
+  sni: ramz.xuithree.dpdns.org
+  password: ersi13mjahoao8e6
+  server: hyperon.site
+  port: 443
+- name: 🇷🇺RU_1|4.5MB/s
+  type: vless
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+  server: 83.217.192.233
+  port: 443
+  tls: true
+  sni: api.univesalsrv.com
+- name: 🇩🇪DE_8|2.8MB/s
+  type: vless
+  uuid: 236d1f18-40c5-49d8-9611-85355754c326
+  server: 95.163.232.183
+  port: 443
+  tls: true
+  sni: 5post-gate.x5.ru
+- name: 🇺🇸US_12|4.7MB/s
+  type: vless
+  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
+  server: 185.206.170.69
+  port: 5151
+  tls: true
+  sni: www.yahoo.com
+- name: 🇺🇸US_13|4.0MB/s
+  type: vless
+  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+  server: 103.94.185.145
+  port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇵🇱PL_1|2.9MB/s
+  type: vless
+  uuid: ce54986e-1876-4afb-8b01-af90d4ed5832
+  server: polhis.snowdnvpno4.com
+  port: 8443
+  tls: true
+  sni: addons.mozilla.org
+- name: 🇳🇱NL_7|1.6MB/s
+  type: vless
+  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
+  server: 195.58.49.114
+  port: 33729
+  tls: true
+  sni: ymail.com
+- name: 🇳🇱NL_8|1.5MB/s
+  type: vless
+  uuid: dd331d81-072a-8644-87cf-6bab4216ed28
+  server: 69.46.46.112
+  port: 443
+  tls: true
+  sni: x4g-production-d21e.up.railway.app
+- name: 🇫🇮FI_3|1.2MB/s
+  type: vless
+  uuid: f319a005-6bd0-44b3-910c-a596a2573efe
+  server: 77.91.84.96
+  port: 57228
+  tls: true
+  sni: www.googletagmanager.com
+- name: 🇫🇷FR_1|1.6MB/s
+  type: vless
+  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
+  server: 199.232.239.244
+  port: 443
+  tls: true
+  sni: accounts.fastly.com
+- name: 🇮🇱IL_1|2.0MB/s
+  type: vless
+  uuid: 45c876f9-4900-40c0-b269-94871e78df54
+  server: usa01.port-server.online
+  port: 443
+  tls: true
+  sni: usa01.port-server.online
+- name: 🇳🇱NL_9|3.3MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 193.123.32.155
+  port: 62145
+  tls: false
+  sni: ''
+- name: ❓Other_1|1.8MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  server: 137.131.181.254
+  port: 59319
 - name: GB_speednode_0004
   type: vless
   uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
@@ -283,13 +218,6 @@ proxies:
   port: 443
   tls: true
   sni: anyfile2file.com
-- name: US_speednode_0059
-  type: vless
-  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-  server: 45.78.73.241
-  port: 443
-  tls: false
-  sni: ''
 - name: US_speednode_0071
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
@@ -308,41 +236,32 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪DE_7|4.9MB/s
-  - 🇪🇪EE_1|1.8MB/s
-  - 🇺🇦UA_3|3.6MB/s
-  - 🇳🇱NL_2|3.7MB/s
-  - 🇬🇧GB_1|3.7MB/s
-  - 🇩🇪DE_2|3.1MB/s
-  - 🇦🇪AE_1|2.8MB/s
-  - 🇩🇪DE_3|1.7MB/s
-  - 🇫🇮FI_4|2.2MB/s
-  - 🇺🇦UA_2|2.2MB/s
-  - 🇨🇳CN_1|3.5MB/s
-  - 🇺🇸US_3|2.8MB/s
-  - 🇺🇸US_4|2.5MB/s
-  - 🇩🇪DE_4|2.3MB/s
-  - 🇳🇱NL_10|1.0MB/s
-  - 🇯🇵JP_1|1.9MB/s
-  - 🇦🇪AE_2|2.2MB/s
-  - 🇩🇪DE_5|3.0MB/s
-  - 🇺🇸US_32|2.1MB/s
-  - 🇷🇺RU_1|3.5MB/s
-  - 🇪🇪EE_2|1.3MB/s
-  - 🇫🇷FR_3|2.7MB/s
-  - 🇩🇪DE_6|2.7MB/s
-  - 🇺🇸US_33|1.9MB/s
-  - 🇸🇬SG_1|4.2MB/s
-  - 🇳🇱NL_11|3.1MB/s
-  - 🇩🇪DE_8|1.8MB/s
-  - 🇬🇧GB_4|1.2MB/s
-  - 🇬🇧GB_5|1.7MB/s
-  - 🇧🇷BR_2|3.2MB/s
-  - 🇺🇸US_34|1.6MB/s
-  - 🇺🇸US_35|2.9MB/s
-  - 🇭🇰HK_2|6.1MB/s
-  - 🇩🇪DE_9|3.1MB/s
+  - 🇩🇪DE_1|2.7MB/s
+  - 🇪🇪EE_1|2.2MB/s
+  - 🇳🇱NL_1|3.0MB/s
+  - 🇳🇱NL_2|1.7MB/s
+  - 🇺🇸US_1|1.9MB/s
+  - 🇩🇪DE_2|3.3MB/s
+  - 🇳🇱NL_3|3.6MB/s
   - AE_speednode_0001
+  - 🇩🇪DE_4|2.8MB/s
+  - 🇸🇬SG_1|4.4MB/s
+  - 🇺🇦UA_1|1.2MB/s
+  - 🇩🇪DE_5|1.8MB/s
+  - 🇩🇪DE_6|1.7MB/s
+  - 🇩🇪DE_7|2.4MB/s
+  - 🇷🇺RU_1|4.5MB/s
+  - 🇩🇪DE_8|2.8MB/s
+  - 🇺🇸US_12|4.7MB/s
+  - 🇺🇸US_13|4.0MB/s
+  - 🇵🇱PL_1|2.9MB/s
+  - 🇳🇱NL_7|1.6MB/s
+  - 🇳🇱NL_8|1.5MB/s
+  - 🇫🇮FI_3|1.2MB/s
+  - 🇫🇷FR_1|1.6MB/s
+  - 🇮🇱IL_1|2.0MB/s
+  - 🇳🇱NL_9|3.3MB/s
+  - ❓Other_1|1.8MB/s
   - GB_speednode_0004
   - HK_speednode_0008
   - IE_speednode_0009
@@ -350,7 +269,6 @@ proxy-groups:
   - JP_speednode_0011
   - LU_speednode_0012
   - NL_speednode_0013
-  - US_speednode_0059
   - US_speednode_0071
   - US_speednode_0070
   url: https://www.gstatic.com/generate_204
