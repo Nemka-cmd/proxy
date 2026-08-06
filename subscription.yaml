@@ -1,73 +1,52 @@
 proxies:
-- name: 🇩🇪DE_2|1.4MB/s
+- name: 🇯🇵JP_1|6.1MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 13.115.57.197
+  port: 443
+- name: 🇺🇸US_1|4.7MB/s
   type: vless
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
-  server: pro-de.emrata.top
+  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
+  server: saas.sin.fan
   port: 443
   tls: true
-  sni: pro-de.emrata.top
-- name: 🇩🇪DE_3|1015KB/s
-  type: trojan
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  password: MiTiVPN
-  server: 104.26.2.173
-  port: 443
-- name: 🇺🇸US_3|1.1MB/s
+  sni: us-lax.862400.xyz
+- name: 🇳🇱NL_3|3.5MB/s
   type: vless
-  uuid: de515b65-ad6f-4dfa-b3a2-405a7eef71be
-  server: usamd2.95318.cf
+  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
+  server: ct.877774.xyz
   port: 443
   tls: true
-  sni: usamd2.95318.cf
-- name: 🇦🇹AT_1|1.6MB/s
+  sni: nl-ams.862400.xyz
+- name: 🇺🇸US_2|1.2MB/s
+  type: vless
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  server: 104.18.152.229
+  port: 443
+  tls: true
+  sni: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+- name: 🇦🇹AT_1|1.8MB/s
   type: vless
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   server: 152.53.142.39
   port: 443
   tls: true
   sni: media2.tcpdoor.net
-- name: 🇩🇪DE_5|1.0MB/s
+- name: 🇺🇸US_3|1.6MB/s
   type: vless
-  uuid: a0dc0921-f49b-4ae2-a449-799d68407f15
-  server: 95.163.232.183
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.17.126.160
   port: 443
   tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇩🇪DE_6|1.0MB/s
+  sni: ohxnj.75kt.gdl.hh.vavava.kdns.fr
+- name: 🇯🇵JP_2|1.2MB/s
   type: vless
-  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
-  server: 194.55.239.14
-  port: 9442
-  tls: true
-  sni: ads.x5.ru
-- name: 🇷🇺RU_1|2.0MB/s
-  type: vless
-  uuid: bed8856b-3b0e-4c4c-8fe0-25b7824a88b2
-  server: 31.200.250.162
+  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
+  server: freev2.cloudflare.182682.xyz
   port: 443
   tls: true
-  sni: api.max.ru
-- name: 🇳🇱NL_4|1.0MB/s
-  type: vless
-  uuid: e9177091-3ec0-4b7e-8b63-b5ad7e06edfb
-  server: 91.185.83.70
-  port: 443
-  tls: true
-  sni: ads.x5.ru
-- name: 🇺🇸US_5|2.3MB/s
-  type: vless
-  uuid: da86df16-a80c-0032-90be-3e174fe0076d
-  server: pro-de.emrata.top
-  port: 443
-  tls: true
-  sni: pro-de.emrata.top
-- name: 🇳🇴NO_1|2.0MB/s
-  type: vless
-  uuid: aa8b4a23-655f-0003-aef6-27b0c45e7877
-  server: 46.8.210.112
-  port: 443
-  tls: true
-  sni: smartcaptcha.yandexcloud.net
+  sni: jp-osa.862400.xyz
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -79,16 +58,13 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪DE_2|1.4MB/s
-  - 🇩🇪DE_3|1015KB/s
-  - 🇺🇸US_3|1.1MB/s
-  - 🇦🇹AT_1|1.6MB/s
-  - 🇩🇪DE_5|1.0MB/s
-  - 🇩🇪DE_6|1.0MB/s
-  - 🇷🇺RU_1|2.0MB/s
-  - 🇳🇱NL_4|1.0MB/s
-  - 🇺🇸US_5|2.3MB/s
-  - 🇳🇴NO_1|2.0MB/s
+  - 🇯🇵JP_1|6.1MB/s
+  - 🇺🇸US_1|4.7MB/s
+  - 🇳🇱NL_3|3.5MB/s
+  - 🇺🇸US_2|1.2MB/s
+  - 🇦🇹AT_1|1.8MB/s
+  - 🇺🇸US_3|1.6MB/s
+  - 🇯🇵JP_2|1.2MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
