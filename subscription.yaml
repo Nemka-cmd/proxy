@@ -1,52 +1,24 @@
 proxies:
-- name: 🇯🇵JP_1|6.1MB/s
+- name: 🇳🇱NL_1|1.7MB/s
+  type: vless
+  uuid: 1210b03f-4430-4f62-ab58-060584e5b153
+  server: 178.176.128.128
+  port: 443
+  tls: true
+  sni: red.dragonborn.space
+- name: 🇯🇵JP_1|5.0MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   server: 13.115.57.197
   port: 443
-- name: 🇺🇸US_1|4.7MB/s
-  type: vless
-  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
-  server: saas.sin.fan
-  port: 443
-  tls: true
-  sni: us-lax.862400.xyz
-- name: 🇳🇱NL_3|3.5MB/s
-  type: vless
-  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
-  server: ct.877774.xyz
-  port: 443
-  tls: true
-  sni: nl-ams.862400.xyz
-- name: 🇺🇸US_2|1.2MB/s
+- name: 🇺🇸US_2|1.1MB/s
   type: vless
   uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
   server: 104.18.152.229
   port: 443
   tls: true
   sni: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-- name: 🇦🇹AT_1|1.8MB/s
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: 152.53.142.39
-  port: 443
-  tls: true
-  sni: media2.tcpdoor.net
-- name: 🇺🇸US_3|1.6MB/s
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  server: 104.17.126.160
-  port: 443
-  tls: true
-  sni: ohxnj.75kt.gdl.hh.vavava.kdns.fr
-- name: 🇯🇵JP_2|1.2MB/s
-  type: vless
-  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  tls: true
-  sni: jp-osa.862400.xyz
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -58,13 +30,9 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|6.1MB/s
-  - 🇺🇸US_1|4.7MB/s
-  - 🇳🇱NL_3|3.5MB/s
-  - 🇺🇸US_2|1.2MB/s
-  - 🇦🇹AT_1|1.8MB/s
-  - 🇺🇸US_3|1.6MB/s
-  - 🇯🇵JP_2|1.2MB/s
+  - 🇳🇱NL_1|1.7MB/s
+  - 🇯🇵JP_1|5.0MB/s
+  - 🇺🇸US_2|1.1MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
