@@ -45,12 +45,6 @@ proxies:
   password: 581e14a5fcc14107b9326cc54f047891
   server: 177.3.208.169
   port: 443
-- name: 🇰🇷KR_1|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  server: 27.255.82.134
-  port: 2078
 - name: 🇩🇪DE_3|2.3MB/s
   type: vless
   uuid: a8f0ef2b-a1c5-43f6-895d-8033e77f9bec
@@ -58,12 +52,6 @@ proxies:
   port: 443
   tls: true
   sni: 5post-gate.x5.ru
-- name: 🇩🇪DE_4|4.3MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  server: 130.61.102.202
-  port: 59924
 - name: 🇯🇵JP_4|2.9MB/s
   type: vless
   uuid: 9194bade-099b-4723-9f19-606edb5aeab8
@@ -75,20 +63,6 @@ proxies:
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   server: 149.130.187.58
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇨🇴CO_2|3.1MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 157.137.211.212
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_7|4.0MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 84.235.167.4
   port: 62145
   tls: false
   sni: ''
@@ -110,13 +84,9 @@ proxy-groups:
   - 🇩🇪DE_1|3.7MB/s
   - 🇺🇸US_3|2.2MB/s
   - 🇧🇷BR_1|2.5MB/s
-  - 🇰🇷KR_1|1.6MB/s
   - 🇩🇪DE_3|2.3MB/s
-  - 🇩🇪DE_4|4.3MB/s
   - 🇯🇵JP_4|2.9MB/s
   - 🇨🇴CO_1|1.7MB/s
-  - 🇨🇴CO_2|3.1MB/s
-  - 🇳🇱NL_7|4.0MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
