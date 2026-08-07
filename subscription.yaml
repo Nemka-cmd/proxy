@@ -1,11 +1,4 @@
 proxies:
-- name: 🇳🇱NL_1|2.0MB/s
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  server: 208.123.185.159
-  port: 443
-  tls: true
-  sni: nd12.skorostnet.space
 - name: 🇺🇸US_2|3.1MB/s
   type: vless
   uuid: 55e956a8-4cbe-1548-c163-72631573e66f
@@ -65,13 +58,6 @@ proxies:
   port: 443
   tls: true
   sni: shop-us-en.amd.com
-- name: 🇨🇴CO_1|1.7MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 149.130.187.58
-  port: 62145
-  tls: false
-  sni: ''
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -83,7 +69,6 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇳🇱NL_1|2.0MB/s
   - 🇺🇸US_2|3.1MB/s
   - 🇹🇷TR_1|1.5MB/s
   - 🇫🇷FR_3|2.5MB/s
@@ -93,7 +78,6 @@ proxy-groups:
   - 🇩🇪DE_3|2.3MB/s
   - 🇩🇪DE_4|4.3MB/s
   - 🇯🇵JP_4|2.9MB/s
-  - 🇨🇴CO_1|1.7MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
