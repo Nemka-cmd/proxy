@@ -1,24 +1,97 @@
 proxies:
-- name: 🇳🇱NL_1|1.7MB/s
+- name: 🇳🇱NL_1|2.0MB/s
   type: vless
-  uuid: 1210b03f-4430-4f62-ab58-060584e5b153
-  server: 178.176.128.128
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  server: 208.123.185.159
   port: 443
   tls: true
-  sni: red.dragonborn.space
-- name: 🇯🇵JP_1|5.0MB/s
+  sni: nd12.skorostnet.space
+- name: 🇺🇸US_2|3.1MB/s
+  type: vless
+  uuid: 55e956a8-4cbe-1548-c163-72631573e66f
+  server: jgngnjg-production-f22e.up.railway.app
+  port: 443
+  tls: true
+  sni: jgngnjg-production-f22e.up.railway.app
+- name: 🇹🇷TR_1|1.5MB/s
+  type: vless
+  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+  server: 170.168.97.5
+  port: 8443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇫🇷FR_3|2.5MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.97
+  port: 443
+- name: 🇩🇪DE_1|3.7MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: vgi6UU38zMyqTARPkGLwZb
+  server: creativeboxde2.zanity.net
+  port: 5228
+- name: 🇺🇸US_3|2.2MB/s
+  type: vless
+  uuid: d078f73a-41cc-7717-8d06-9d3c4ced5ec6
+  server: rvg-production-uyh4l.up.railway.app
+  port: 443
+  tls: true
+  sni: rvg-production-uyh4l.up.railway.app
+- name: 🇧🇷BR_1|2.5MB/s
+  type: trojan
+  sni: titandarkness.mooo.com
+  password: 581e14a5fcc14107b9326cc54f047891
+  server: 177.3.208.169
+  port: 443
+- name: 🇰🇷KR_1|1.6MB/s
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.115.57.197
-  port: 443
-- name: 🇺🇸US_2|1.1MB/s
+  password: qwerREWQ@@
+  server: 27.255.82.134
+  port: 2078
+- name: 🇩🇪DE_3|2.3MB/s
   type: vless
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  server: 104.18.152.229
+  uuid: a8f0ef2b-a1c5-43f6-895d-8033e77f9bec
+  server: 95.163.232.183
   port: 443
   tls: true
-  sni: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+  sni: 5post-gate.x5.ru
+- name: 🇩🇪DE_4|4.3MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  server: 130.61.102.202
+  port: 59924
+- name: 🇯🇵JP_4|2.9MB/s
+  type: vless
+  uuid: 9194bade-099b-4723-9f19-606edb5aeab8
+  server: 64.176.55.120
+  port: 443
+  tls: true
+  sni: shop-us-en.amd.com
+- name: 🇨🇴CO_1|1.7MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 149.130.187.58
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇨🇴CO_2|3.1MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 157.137.211.212
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_7|4.0MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 84.235.167.4
+  port: 62145
+  tls: false
+  sni: ''
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -30,9 +103,20 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇳🇱NL_1|1.7MB/s
-  - 🇯🇵JP_1|5.0MB/s
-  - 🇺🇸US_2|1.1MB/s
+  - 🇳🇱NL_1|2.0MB/s
+  - 🇺🇸US_2|3.1MB/s
+  - 🇹🇷TR_1|1.5MB/s
+  - 🇫🇷FR_3|2.5MB/s
+  - 🇩🇪DE_1|3.7MB/s
+  - 🇺🇸US_3|2.2MB/s
+  - 🇧🇷BR_1|2.5MB/s
+  - 🇰🇷KR_1|1.6MB/s
+  - 🇩🇪DE_3|2.3MB/s
+  - 🇩🇪DE_4|4.3MB/s
+  - 🇯🇵JP_4|2.9MB/s
+  - 🇨🇴CO_1|1.7MB/s
+  - 🇨🇴CO_2|3.1MB/s
+  - 🇳🇱NL_7|4.0MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
