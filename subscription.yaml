@@ -1,66 +1,81 @@
 proxies:
-- name: 🇸🇬SG_1|4.5MB/s
+- name: 🇷🇺RU_1|2.9MB/s
+  type: vless
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  server: qwesd.rutendingaltos.top
+  port: 443
+  tls: true
+  sni: qwesd.rutendingaltos.top
+- name: 🇸🇬SG_1|5.2MB/s
   type: vless
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
   server: sg1-r.link-t7.com
   port: 10036
   tls: true
   sni: s0.awsstatic.com
-- name: 🇺🇸US_1|3.8MB/s
+- name: 🇸🇬SG_2|5.0MB/s
   type: vless
-  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
-  server: ct.877774.xyz
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  server: 172.64.146.86
   port: 443
   tls: true
-  sni: us-lax.862400.xyz
-- name: 🇩🇪DE_1|1.1MB/s
-  type: trojan
-  sni: cmee.ezbiz.dynv6.net
-  password: chrysanthemum
-  server: 104.20.48.11
-  port: 443
-- name: 🇳🇱NL_1|1.1MB/s
-  type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-  server: ddc-chr.astralweb.tech
-  port: 443
-  tls: true
-  sni: ddc-chr.astralweb.tech
-- name: 🇷🇺RU_1|1.0MB/s
-  type: vless
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  server: 135.106.140.23
-  port: 443
-  tls: true
-  sni: qwesd.rutendingaltos.top
-- name: 🇸🇬SG_2|4.9MB/s
+  sni: support.zoom.us.yxls.eu.cc
+- name: 🇸🇬SG_3|5.2MB/s
   type: vless
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
   server: 13.250.26.252
   port: 10038
   tls: true
   sni: d1.awsstatic.com
-- name: 🇺🇸US_4|1.0MB/s
+- name: 🇵🇱PL_1|1.1MB/s
   type: vless
-  uuid: 8c7ac0ea-b1e4-4c20-bc16-1437559f3ac4
-  server: sa-84018978331c4eaf.sr-37f423695609b2ef.r.vpvpn.club
-  port: 443
+  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
+  server: pl-4.techprovide.icu
+  port: 49001
   tls: true
-  sni: obrienteamnissan.com
-- name: 🇲🇾MY_1|5.3MB/s
+  sni: de-7.techprovide.icu
+- name: 🇸🇬SG_4|4.3MB/s
   type: vless
-  uuid: d36b40ec-5328-48e7-b8c1-ce9f1cfa0430
-  server: my2.miyazono-kaori.com
-  port: 443
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: 13.229.94.179
+  port: 10037
   tls: true
-  sni: www.setel.com
-- name: 🇩🇪DE_2|1.7MB/s
+  sni: s0.awsstatic.com
+- name: 🇭🇰HK_1|4.4MB/s
   type: vless
-  uuid: d36b40ec-5328-48e7-b8c1-ce9f1cfa0430
-  server: de2.miyazono-kaori.com
-  port: 443
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: 18.166.210.12
+  port: 10126
   tls: true
-  sni: www.siemens.com
+  sni: s0.awsstatic.com
+- name: 🇯🇵JP_3|6.0MB/s
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: 18.181.77.188
+  port: 10035
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇭🇰HK_2|3.9MB/s
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: 43.198.96.23
+  port: 10129
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_5|2.9MB/s
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: 54.179.114.52
+  port: 10036
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇯🇵JP_4|4.9MB/s
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  server: jp5-r.link-t7.com
+  port: 10035
+  tls: true
+  sni: s0.awsstatic.com
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -72,15 +87,17 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇸🇬SG_1|4.5MB/s
-  - 🇺🇸US_1|3.8MB/s
-  - 🇩🇪DE_1|1.1MB/s
-  - 🇳🇱NL_1|1.1MB/s
-  - 🇷🇺RU_1|1.0MB/s
-  - 🇸🇬SG_2|4.9MB/s
-  - 🇺🇸US_4|1.0MB/s
-  - 🇲🇾MY_1|5.3MB/s
-  - 🇩🇪DE_2|1.7MB/s
+  - 🇷🇺RU_1|2.9MB/s
+  - 🇸🇬SG_1|5.2MB/s
+  - 🇸🇬SG_2|5.0MB/s
+  - 🇸🇬SG_3|5.2MB/s
+  - 🇵🇱PL_1|1.1MB/s
+  - 🇸🇬SG_4|4.3MB/s
+  - 🇭🇰HK_1|4.4MB/s
+  - 🇯🇵JP_3|6.0MB/s
+  - 🇭🇰HK_2|3.9MB/s
+  - 🇸🇬SG_5|2.9MB/s
+  - 🇯🇵JP_4|4.9MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
