@@ -1,45 +1,18 @@
 proxies:
-- name: 🇳🇱NL_1|2.5MB/s
+- name: 🇸🇬SG_1|4.1MB/s
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.64.146.211
+  port: 2087
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇳🇱NL_1|1.7MB/s
   type: vless
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
   server: ddc-chr.astralweb.tech
   port: 443
   tls: true
   sni: ddc-chr.astralweb.tech
-- name: 🇷🇺RU_1|1.1MB/s
-  type: vless
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  server: 135.106.140.23
-  port: 443
-  tls: true
-  sni: qwesd.rutendingaltos.top
-- name: 🇷🇺RU_2|1.0MB/s
-  type: vless
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  server: qwesd.rutendingaltos.top
-  port: 443
-  tls: true
-  sni: qwesd.rutendingaltos.top
-- name: 🇸🇪SE_1|2.5MB/s
-  type: vless
-  uuid: c89c0704-d735-4376-96a8-d37f7e9c54f2
-  server: forallpanel.srtongston.ir
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇹🇼TW_1|5.4MB/s
-  type: vless
-  uuid: a2f6da81-64bd-4b86-b806-5658e161b7e4
-  server: 103.227.225.198
-  port: 32355
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_1|5.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.114.17.103
-  port: 443
 - name: US_speednode_0021
   type: vless
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
@@ -51,12 +24,8 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇳🇱NL_1|2.5MB/s
-  - 🇷🇺RU_1|1.1MB/s
-  - 🇷🇺RU_2|1.0MB/s
-  - 🇸🇪SE_1|2.5MB/s
-  - 🇹🇼TW_1|5.4MB/s
-  - 🇯🇵JP_1|5.9MB/s
+  - 🇸🇬SG_1|4.1MB/s
+  - 🇳🇱NL_1|1.7MB/s
   - US_speednode_0021
   url: https://www.gstatic.com/generate_204
   interval: 300
