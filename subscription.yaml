@@ -32,12 +32,6 @@ proxies:
   password: 581e14a5fcc14107b9326cc54f047891
   server: 177.3.208.169
   port: 443
-- name: 🇰🇷KR_1|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  server: 27.255.82.134
-  port: 2078
 - name: 🇩🇪DE_3|2.3MB/s
   type: vless
   uuid: a8f0ef2b-a1c5-43f6-895d-8033e77f9bec
@@ -74,7 +68,6 @@ proxy-groups:
   - 🇫🇷FR_3|2.5MB/s
   - 🇺🇸US_3|2.2MB/s
   - 🇧🇷BR_1|2.5MB/s
-  - 🇰🇷KR_1|1.6MB/s
   - 🇩🇪DE_3|2.3MB/s
   - 🇩🇪DE_4|4.3MB/s
   - 🇯🇵JP_4|2.9MB/s
