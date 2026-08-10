@@ -1,17 +1,4 @@
 proxies:
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.163.120.239
-  port: 32434
-- name: 🇫🇷FR_1|2.6MB/s
-  type: vless
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-  server: 193.233.255.11
-  port: 443
-  tls: true
-  sni: fr.sellflow.org
 - name: 🇺🇸US_1|4.7MB/s
   type: vless
   uuid: a367c9d0-cfac-4547-b367-645f3774df6a
@@ -26,22 +13,60 @@ proxies:
   port: 10035
   tls: true
   sni: s0.awsstatic.com
-- name: US_speednode_0021
+- name: FR_speednode_0002
   type: vless
-  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
-  server: evacuee.papstore.xyz
-  port: 40724
+  uuid: 5710bc50-f5ff-0242-a3f5-067959ed2644
+  server: ru-sl.convert-flow.net
+  port: 443
   tls: true
-  sni: www.e-japannavi.com
+  sni: ru-sl.convert-flow.net
+- name: FR_speednode_0003
+  type: vless
+  uuid: 5710bc50-f5ff-0008-a3f5-067959ed2644
+  server: ru-sl.convert-flow.net
+  port: 443
+  tls: true
+  sni: ru-sl.convert-flow.net
+- name: FR_speednode_0005
+  type: vless
+  uuid: 5710bc50-f5ff-018e-a3f5-067959ed2644
+  server: ru-sl.convert-flow.net
+  port: 443
+  tls: true
+  sni: ru-sl.convert-flow.net
+- name: FR_speednode_0006
+  type: vless
+  uuid: 5710bc50-f5ff-02fc-a3f5-067959ed2644
+  server: ru-sl.convert-flow.net
+  port: 443
+  tls: true
+  sni: ru-sl.convert-flow.net
+- name: GB_speednode_0007
+  type: vless
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  server: 2.27.26.140
+  port: 443
+  tls: true
+  sni: aq.cdn-global.pro
+- name: IE_speednode_0016
+  type: vless
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  server: 89.125.37.74
+  port: 443
+  tls: true
+  sni: se-cdn.ru
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 新加坡3|@ripaojiedian
-  - 🇫🇷FR_1|2.6MB/s
   - 🇺🇸US_1|4.7MB/s
   - 🇯🇵JP_1|5.5MB/s
-  - US_speednode_0021
+  - FR_speednode_0002
+  - FR_speednode_0003
+  - FR_speednode_0005
+  - FR_speednode_0006
+  - GB_speednode_0007
+  - IE_speednode_0016
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
