@@ -1,97 +1,38 @@
 proxies:
-- name: 🇫🇷FR_1|2.1MB/s
+- name: 🇺🇸US_3|1.6MB/s
   type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 39313
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: US_speednode_0125
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 39395
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: US_speednode_0127
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 9713
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇸🇬SG_1|1.3MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 31875
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: US_speednode_0123
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 31877
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇸🇬SG_3|5.4MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: smart%40hkteVBi9aMFp-veBGU72OSCx
-  server: starlink-sg6.251313.xyz
+  uuid: f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
+  server: ansooyefilter-hhh.up.railway.app
   port: 443
-- name: 🇸🇬SG_4|1.4MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: smart%40hkteVBi9aMFp-veBGU72OSCx
-  server: starlink-sg5.251313.xyz
+  tls: true
+  sni: ansooyefilter-hhh.up.railway.app
+- name: 🇺🇸US_2|1.7MB/s
+  type: vless
+  uuid: b07f0c03-a875-ec14-18b3-41298277bb25
+  server: 69.46.46.12
   port: 443
-- name: 🇭🇰HK_4|1.8MB/s
+  tls: true
+  sni: rvg-production-1ff1.up.railway.app
+- name: 🇵🇱PL_1|1013KB/s
+  type: vless
+  uuid: b2e66bc9-e9df-4d71-9ae8-b04727b1e617
+  server: 78.17.107.124
+  port: 443
+  tls: true
+  sni: pl.netdrug.ru
+- name: SE_speednode_0116
+  type: vless
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  server: 164.37.105.38
+  port: 443
+  tls: true
+  sni: gb.cdn.cachefleet.com
+- name: 🇫🇷FR_2|1.0MB/s
   type: trojan
-  sni: www.cloudflare.com
-  password: smart%40hkteVBi9aMFp-veBGU72OSCx
-  server: z-hk1.251313.xyz
-  port: 21521
-- name: 🇲🇴MO_1|4.6MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: smart%40hkteVBi9aMFp-veBGU72OSCx
-  server: z-hk1.251313.xyz
-  port: 21523
-- name: 🇧🇩BD_1|1.0MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: smart%40hkteVBi9aMFp-veBGU72OSCx
-  server: z-sg1.251313.xyz
-  port: 10010
-- name: 🇫🇷FR_4|1.9MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 29893
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: ❓Other_1|1.4MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 39201
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇹🇼TW_1|1.1MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 39205
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇸🇬SG_5|1.0MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 31873
-  tls: true
-  sni: cdnjs.cloudflare.com
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.233
+  port: 443
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -105,13 +46,6 @@ proxies:
   port: 443
   tls: true
   sni: storage.yandex.net
-- name: SE_speednode_0116
-  type: vless
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-  server: 164.37.105.38
-  port: 443
-  tls: true
-  sni: gb.cdn.cachefleet.com
 - name: US_speednode_0117
   type: vless
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
@@ -140,6 +74,27 @@ proxies:
   port: 443
   tls: false
   sni: josni.hoyes.cloudns.ch
+- name: US_speednode_0123
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 31877
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: US_speednode_0125
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 39395
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: US_speednode_0127
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 9713
+  tls: true
+  sni: cdnjs.cloudflare.com
 - name: US_speednode_0137
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
@@ -151,27 +106,20 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇫🇷FR_1|2.1MB/s
-  - US_speednode_0125
-  - US_speednode_0127
-  - 🇸🇬SG_1|1.3MB/s
-  - US_speednode_0123
-  - 🇸🇬SG_3|5.4MB/s
-  - 🇸🇬SG_4|1.4MB/s
-  - 🇭🇰HK_4|1.8MB/s
-  - 🇲🇴MO_1|4.6MB/s
-  - 🇧🇩BD_1|1.0MB/s
-  - 🇫🇷FR_4|1.9MB/s
-  - ❓Other_1|1.4MB/s
-  - 🇹🇼TW_1|1.1MB/s
-  - 🇸🇬SG_5|1.0MB/s
+  - 🇺🇸US_3|1.6MB/s
+  - 🇺🇸US_2|1.7MB/s
+  - 🇵🇱PL_1|1013KB/s
+  - SE_speednode_0116
+  - 🇫🇷FR_2|1.0MB/s
   - JP_speednode_0014
   - MU_speednode_0015
-  - SE_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
   - US_speednode_0120
   - US_speednode_0122
+  - US_speednode_0123
+  - US_speednode_0125
+  - US_speednode_0127
   - US_speednode_0137
   url: https://www.gstatic.com/generate_204
   interval: 300
