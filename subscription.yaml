@@ -1,55 +1,9 @@
 proxies:
-- name: HK_speednode_0013
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.162.3.11
-  port: 27161
-- name: 🇺🇸US_5|3.0MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.166.226.204
-  port: 39024
-- name: 🇭🇰HK_1|2.2MB/s
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 188.253.123.164
-  port: 29715
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇯🇵JP_1|1.6MB/s
-  type: vless
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-  server: 18.179.40.96
-  port: 10035
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇩🇪DE_1|1.2MB/s
-  type: vless
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-  server: 94.249.225.83
-  port: 443
-  tls: true
-  sni: plucky-kestrel.cdn.cachefleet.com
-- name: 🇸🇬SG_1|4.7MB/s
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  server: 172.64.146.211
-  port: 2087
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇺🇸US_2|1.1MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.166.226.204
-  port: 39024
-- name: US_speednode_0123
+- name: 🇫🇷FR_1|2.1MB/s
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
   server: 155.117.199.12
-  port: 31877
+  port: 39313
   tls: true
   sni: cdnjs.cloudflare.com
 - name: US_speednode_0125
@@ -66,54 +20,78 @@ proxies:
   port: 9713
   tls: true
   sni: cdnjs.cloudflare.com
-- name: US_speednode_0137
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  server: 155.117.199.12
-  port: 29709
-  tls: true
-  sni: cdnjs.cloudflare.com
-- name: 🇸🇬SG_3|1.8MB/s
+- name: 🇸🇬SG_1|1.3MB/s
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
   server: 155.117.199.12
   port: 31875
   tls: true
   sni: cdnjs.cloudflare.com
-- name: 🇸🇬SG_4|2.0MB/s
+- name: US_speednode_0123
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
   server: 155.117.199.12
-  port: 31871
+  port: 31877
   tls: true
   sni: cdnjs.cloudflare.com
-- name: 🇷🇺RU_1|2.9MB/s
-  type: vless
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  server: 104.18.32.47
-  port: 443
-  tls: true
-  sni: rus.aba-hum.store
-- name: 🇫🇮FI_1|1007KB/s
-  type: vless
-  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
-  server: 95.216.160.158
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇫🇮FI_2|1.3MB/s
-  type: vless
-  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
-  server: 95.216.161.157
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: HK_speednode_0012
+- name: 🇸🇬SG_3|5.4MB/s
   type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 16.162.3.11
-  port: 27161
+  sni: www.cloudflare.com
+  password: smart%40hkteVBi9aMFp-veBGU72OSCx
+  server: starlink-sg6.251313.xyz
+  port: 443
+- name: 🇸🇬SG_4|1.4MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: smart%40hkteVBi9aMFp-veBGU72OSCx
+  server: starlink-sg5.251313.xyz
+  port: 443
+- name: 🇭🇰HK_4|1.8MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: smart%40hkteVBi9aMFp-veBGU72OSCx
+  server: z-hk1.251313.xyz
+  port: 21521
+- name: 🇲🇴MO_1|4.6MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: smart%40hkteVBi9aMFp-veBGU72OSCx
+  server: z-hk1.251313.xyz
+  port: 21523
+- name: 🇧🇩BD_1|1.0MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: smart%40hkteVBi9aMFp-veBGU72OSCx
+  server: z-sg1.251313.xyz
+  port: 10010
+- name: 🇫🇷FR_4|1.9MB/s
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 29893
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: ❓Other_1|1.4MB/s
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 39201
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: 🇹🇼TW_1|1.1MB/s
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 39205
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: 🇸🇬SG_5|1.0MB/s
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 31873
+  tls: true
+  sni: cdnjs.cloudflare.com
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -162,27 +140,31 @@ proxies:
   port: 443
   tls: false
   sni: josni.hoyes.cloudns.ch
+- name: US_speednode_0137
+  type: vless
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  server: 155.117.199.12
+  port: 29709
+  tls: true
+  sni: cdnjs.cloudflare.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - HK_speednode_0013
-  - 🇺🇸US_5|3.0MB/s
-  - 🇭🇰HK_1|2.2MB/s
-  - 🇯🇵JP_1|1.6MB/s
-  - 🇩🇪DE_1|1.2MB/s
-  - 🇸🇬SG_1|4.7MB/s
-  - 🇺🇸US_2|1.1MB/s
-  - US_speednode_0123
+  - 🇫🇷FR_1|2.1MB/s
   - US_speednode_0125
   - US_speednode_0127
-  - US_speednode_0137
-  - 🇸🇬SG_3|1.8MB/s
-  - 🇸🇬SG_4|2.0MB/s
-  - 🇷🇺RU_1|2.9MB/s
-  - 🇫🇮FI_1|1007KB/s
-  - 🇫🇮FI_2|1.3MB/s
-  - HK_speednode_0012
+  - 🇸🇬SG_1|1.3MB/s
+  - US_speednode_0123
+  - 🇸🇬SG_3|5.4MB/s
+  - 🇸🇬SG_4|1.4MB/s
+  - 🇭🇰HK_4|1.8MB/s
+  - 🇲🇴MO_1|4.6MB/s
+  - 🇧🇩BD_1|1.0MB/s
+  - 🇫🇷FR_4|1.9MB/s
+  - ❓Other_1|1.4MB/s
+  - 🇹🇼TW_1|1.1MB/s
+  - 🇸🇬SG_5|1.0MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
@@ -190,6 +172,7 @@ proxy-groups:
   - US_speednode_0118
   - US_speednode_0120
   - US_speednode_0122
+  - US_speednode_0137
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
