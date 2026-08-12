@@ -1,38 +1,62 @@
 proxies:
-- name: 🇺🇸US_3|1.6MB/s
+- name: 🇺🇸US_1|2.4MB/s
+  type: trojan
+  sni: d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  password: MiTiVPN
+  server: 45.80.111.7
+  port: 443
+- name: 🇺🇸US_2|1.8MB/s
   type: vless
-  uuid: f4e637c2-f9c0-0bce-75f9-f1f4e44d1553
-  server: ansooyefilter-hhh.up.railway.app
+  uuid: 20700b40-8837-45d0-e449-e2095a9f5145
+  server: 66.33.22.78
   port: 443
   tls: true
-  sni: ansooyefilter-hhh.up.railway.app
-- name: 🇺🇸US_2|1.7MB/s
-  type: vless
-  uuid: b07f0c03-a875-ec14-18b3-41298277bb25
-  server: 69.46.46.12
-  port: 443
-  tls: true
-  sni: rvg-production-1ff1.up.railway.app
-- name: 🇵🇱PL_1|1013KB/s
-  type: vless
-  uuid: b2e66bc9-e9df-4d71-9ae8-b04727b1e617
-  server: 78.17.107.124
-  port: 443
-  tls: true
-  sni: pl.netdrug.ru
-- name: SE_speednode_0116
-  type: vless
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-  server: 164.37.105.38
-  port: 443
-  tls: true
-  sni: gb.cdn.cachefleet.com
-- name: 🇫🇷FR_2|1.0MB/s
+  sni: daring-tenderness-production-4fba.up.railway.app
+- name: 🇫🇷FR_1|1.4MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
-  server: 104.18.152.233
+  server: 104.16.174.44
   port: 443
+- name: ❓Other_1|2.3MB/s
+  type: vless
+  uuid: bf58f3cd-7c8c-4650-bd7a-028df18b3ba0
+  server: usaa.aminicity.ir
+  port: 2024
+  tls: true
+  sni: is1-ssl.mzstatic.com
+- name: 🇫🇷FR_2|2.9MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.7.70
+  port: 443
+- name: 🇩🇪DE_1|5.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 51.102.205.132
+  port: 443
+- name: 🇺🇸US_12|4.3MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.219.164.184
+  port: 443
+- name: 🇺🇸US_23|2.6MB/s
+  type: vless
+  uuid: 27c44bd6-70cb-41a0-8ba6-f7f3e2f92f8f
+  server: netherlands1.banovano.space
+  port: 30548
+  tls: true
+  sni: www.nvidia.com
+- name: ❓Other_2|2.4MB/s
+  type: vless
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+  server: 159.194.226.13
+  port: 8443
+  tls: true
+  sni: ya.ru
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -46,6 +70,13 @@ proxies:
   port: 443
   tls: true
   sni: storage.yandex.net
+- name: SE_speednode_0116
+  type: vless
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  server: 164.37.105.38
+  port: 443
+  tls: true
+  sni: gb.cdn.cachefleet.com
 - name: US_speednode_0117
   type: vless
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
@@ -106,13 +137,18 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇺🇸US_3|1.6MB/s
-  - 🇺🇸US_2|1.7MB/s
-  - 🇵🇱PL_1|1013KB/s
-  - SE_speednode_0116
-  - 🇫🇷FR_2|1.0MB/s
+  - 🇺🇸US_1|2.4MB/s
+  - 🇺🇸US_2|1.8MB/s
+  - 🇫🇷FR_1|1.4MB/s
+  - ❓Other_1|2.3MB/s
+  - 🇫🇷FR_2|2.9MB/s
+  - 🇩🇪DE_1|5.2MB/s
+  - 🇺🇸US_12|4.3MB/s
+  - 🇺🇸US_23|2.6MB/s
+  - ❓Other_2|2.4MB/s
   - JP_speednode_0014
   - MU_speednode_0015
+  - SE_speednode_0116
   - US_speednode_0117
   - US_speednode_0118
   - US_speednode_0120
