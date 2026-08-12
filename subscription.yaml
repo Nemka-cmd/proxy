@@ -5,6 +5,40 @@ proxies:
   password: BxceQaOe
   server: 18.162.120.218
   port: 11035
+- name: 🇸🇬SG_2|4.0MB/s
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MzYwYTc4ZTAtYWYxYy00NTNmLTk0NGItY2FlMThmYWU=
+  server: cccct.284.pics
+  port: 65022
+- name: 🇺🇸US_4|1.0MB/s
+  type: vless
+  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
+  server: 198.251.78.29
+  port: 2053
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇬🇧GB_1|1.5MB/s
+  type: vless
+  uuid: bb742567-ec51-4956-9d3d-099e1a4d48c4
+  server: 51.89.194.151
+  port: 2053
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇰🇷KR_1|1.4MB/s
+  type: vless
+  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
+  server: 151.245.106.49
+  port: 2053
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇳🇱NL_1|3.4MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 134.98.155.169
+  port: 62145
+  tls: false
+  sni: ''
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -86,6 +120,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港5|@ripaojiedian
+  - 🇸🇬SG_2|4.0MB/s
+  - 🇺🇸US_4|1.0MB/s
+  - 🇬🇧GB_1|1.5MB/s
+  - 🇰🇷KR_1|1.4MB/s
+  - 🇳🇱NL_1|3.4MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
