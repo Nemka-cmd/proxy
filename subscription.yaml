@@ -1,118 +1,28 @@
 proxies:
-- name: 香港4|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 18.162.244.203
-  port: 11035
 - name: 香港5|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
   server: 18.162.120.218
   port: 11035
-- name: 新加坡3|@ripaojiedian
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 18.163.126.92
-  port: 26704
-- name: 🇩🇪DE_1|1.9MB/s
-  type: vless
-  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
-  server: germany1.banovano.space
-  port: 443
-  tls: true
-  sni: www.nvidia.com
-- name: 🇮🇳IN_1|1.6MB/s
-  type: vless
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-  server: 34.124.166.13
-  port: 20843
-  tls: true
-  sni: www.spotify.com
-- name: 🇺🇸US_1|1.3MB/s
-  type: vless
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-  server: 34.87.98.100
-  port: 12879
-  tls: true
-  sni: www.spotify.com
-- name: 🇩🇪DE_2|1.4MB/s
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  server: 104.27.124.133
-  port: 80
-  tls: false
-  sni: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🇩🇪DE_3|2.8MB/s
-  type: vless
-  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
-  server: 185.229.190.148
-  port: 443
-  tls: true
-  sni: moein-bf821.b-cdn.net
-- name: 🇫🇷FR_1|1.7MB/s
-  type: trojan
-  sni: ''
-  password: humanity
-  server: www.ignitelimit.com
-  port: 443
-- name: 🇫🇷FR_2|1.4MB/s
+- name: 🇫🇷FR_1|1.5MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
   server: 104.21.46.3
   port: 443
-- name: 🇬🇧GB_1|1.1MB/s
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-  server: 45.155.52.231
+- name: 🇫🇷FR_2|1.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.26.15.137
   port: 443
-  tls: true
-  sni: ru2.skydrgn-online.online
-- name: 🇨🇿CZ_1|2.7MB/s
-  type: vless
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-  server: 194.87.151.151
-  port: 443
-  tls: true
-  sni: deepl.com
-- name: 🇩🇪DE_4|1.3MB/s
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-  server: 78.159.247.253
-  port: 2027
-  tls: true
-  sni: storage.yandex.net
-- name: 🇩🇪DE_5|1.5MB/s
-  type: vless
-  uuid: b4cdef44-1ade-4362-b8e1-699f461abd3e
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇩🇪DE_6|1.5MB/s
-  type: vless
-  uuid: e174434b-a944-4602-9f49-825aaf1659d7
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇩🇪DE_7|1.9MB/s
-  type: vless
-  uuid: ec370ad9-4e2a-4472-84ca-058beafab13b
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇫🇮FI_1|2.6MB/s
-  type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  server: 66.81.247.209
-  port: 8880
-  tls: false
-  sni: ''
+- name: 🇺🇸US_2|4.6MB/s
+  type: trojan
+  sni: ggboy.ggboyz.online
+  password: 2EXii6JlhaDvgSiTsC
+  server: ggboy.ggboyz.online
+  port: 8444
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -193,23 +103,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港4|@ripaojiedian
   - 香港5|@ripaojiedian
-  - 新加坡3|@ripaojiedian
-  - 🇩🇪DE_1|1.9MB/s
-  - 🇮🇳IN_1|1.6MB/s
-  - 🇺🇸US_1|1.3MB/s
-  - 🇩🇪DE_2|1.4MB/s
-  - 🇩🇪DE_3|2.8MB/s
-  - 🇫🇷FR_1|1.7MB/s
-  - 🇫🇷FR_2|1.4MB/s
-  - 🇬🇧GB_1|1.1MB/s
-  - 🇨🇿CZ_1|2.7MB/s
-  - 🇩🇪DE_4|1.3MB/s
-  - 🇩🇪DE_5|1.5MB/s
-  - 🇩🇪DE_6|1.5MB/s
-  - 🇩🇪DE_7|1.9MB/s
-  - 🇫🇮FI_1|2.6MB/s
+  - 🇫🇷FR_1|1.5MB/s
+  - 🇫🇷FR_2|1.1MB/s
+  - 🇺🇸US_2|4.6MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
