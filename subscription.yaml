@@ -5,18 +5,6 @@ proxies:
   password: BxceQaOe
   server: 18.162.120.218
   port: 11035
-- name: 🇫🇷FR_1|1.8MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: www.speedtest.org
-  port: 443
-- name: 🇯🇵JP_1|5.5MB/s
-  type: trojan
-  sni: ''
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  server: v2jp.k1.ssnss.live
-  port: 44184
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -98,8 +86,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港5|@ripaojiedian
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇯🇵JP_1|5.5MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
