@@ -5,92 +5,167 @@ proxies:
   password: BxceQaOe
   server: 18.162.120.218
   port: 11035
-- name: 🇩🇪DE_2|3.8MB/s
-  type: vless
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  server: de151.mechvpn.online
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇺🇸US_1|3.1MB/s
+- name: 🇸🇬SG_1|1.4MB/s
   type: trojan
-  sni: d--AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  password: MITIVPN
-  server: 104.19.229.21
-  port: 443
-- name: 🇫🇷FR_1|2.5MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 130.250.137.171
-  port: 443
-- name: 🇬🇧GB_1|3.0MB/s
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 18.167.42.162
+  port: 41421
+- name: 🇬🇧GB_1|2.7MB/s
   type: vless
   uuid: e83af88a-a884-48ba-b462-a1edccff15e7
   server: 50.7.197.2
   port: 8443
   tls: true
   sni: apkav-6.bosx.net
-- name: 🇫🇷FR_2|1.0MB/s
+- name: 🇭🇰HK_1|4.8MB/s
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+  server: hk3-r.link-t7.com
+  port: 10128
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇱🇹LT_1|1.0MB/s
+  type: vless
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  server: lt.nosok-top.com
+  port: 443
+  tls: true
+  sni: lt.nosok-top.com
+- name: 🇳🇱NL_1|1.1MB/s
+  type: vless
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+  server: nl2.panel11.ru
+  port: 443
+  tls: true
+  sni: nl2.panel11.ru
+- name: 🇩🇪DE_3|1.1MB/s
+  type: vless
+  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  server: 185.229.190.148
+  port: 443
+  tls: true
+  sni: moein-bf821.b-cdn.net
+- name: 🇺🇸US_1|2.5MB/s
+  type: vless
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  server: united.nosok-top.com
+  port: 443
+  tls: true
+  sni: united.nosok-top.com
+- name: 🇫🇷FR_1|1.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.149.60
+  port: 443
+- name: ❓Other_1|1.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.17.111.8
+  port: 443
+- name: 🇫🇷FR_2|1.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.246
+  port: 443
+- name: 🇫🇷FR_3|1.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.26.15.137
+  port: 443
+- name: 🇫🇷FR_4|1.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.221.242
+  port: 443
+- name: 🇫🇷FR_5|1.5MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
   server: 104.18.152.233
   port: 443
-- name: ❓Other_1|1.4MB/s
+- name: 🇷🇴RO_1|2.0MB/s
   type: vless
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-  server: 163.5.153.153
+  uuid: 2c532831-127d-45d7-a84e-11ce36a6b1af
+  server: node14.fastdatastream.com
+  port: 8443
+  tls: true
+  sni: www.intel.com
+- name: 🇨🇿CZ_1|1.4MB/s
+  type: vless
+  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
+  server: 194.87.151.151
   port: 443
   tls: true
-  sni: www.samsung.com
-- name: 🇹🇼TW_1|4.7MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  server: 61.216.165.233
-  port: 2377
-- name: 🇺🇸US_28|4.2MB/s
-  type: trojan
-  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  password: MiTiVPN
-  server: 104.17.148.22
-  port: 443
-- name: 🇩🇪DE_4|2.1MB/s
+  sni: deepl.com
+- name: 🇳🇱NL_2|4.0MB/s
   type: vless
-  uuid: 000f16e8-cc68-4951-b336-acd81996efde
-  server: 45.155.71.170
-  port: 50443
-  tls: true
-  sni: www.icloud.com
-- name: 🇺🇸US_29|2.2MB/s
-  type: vless
-  uuid: 1a030b37-e210-1c8b-aa0a-5b3113c9dff6
-  server: x4g-production-dcd94.up.railway.app
+  uuid: 463a26c2-eba8-0065-89c4-ee5c1373ccbe
+  server: 84.32.102.235
   port: 443
   tls: true
-  sni: x4g-production-dcd94.up.railway.app
-- name: 🇬🇧GB_2|2.9MB/s
+  sni: dnlch.mostserv.xyz
+- name: 🇺🇸US_10|1.6MB/s
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: 31.76.64.77
-  port: 7443
-  tls: true
-  sni: media10.tcpdoor.net
-- name: 🇨🇦CA_1|2.8MB/s
-  type: vless
-  uuid: 339db138-41ff-44e9-a323-46da89fbf1a7
-  server: 66.70.179.198
+  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
+  server: 198.251.78.29
   port: 2053
   tls: true
-  sni: www.apple.com
-- name: 🇫🇷FR_5|1.5MB/s
+  sni: www.cloudflare.com
+- name: 🇩🇪DE_6|2.0MB/s
   type: vless
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  server: 91.239.208.15
+  uuid: 733d70b2-a94d-4703-9810-8f7dcc812cc2
+  server: 95.163.232.183
   port: 443
   tls: true
-  sni: fr15.mechvpn.online
+  sni: 5post-gate.x5.ru
+- name: 🇭🇰HK_5|4.9MB/s
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+  server: 18.166.223.140
+  port: 10128
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇬🇧GB_2|3.0MB/s
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  server: 194.238.79.235
+  port: 443
+  tls: true
+  sni: www.ya.ru
+- name: 🇳🇱NL_3|2.7MB/s
+  type: vless
+  uuid: b4a16091-a25d-4d33-aee3-f5ae04f34b14
+  server: 172.67.151.243
+  port: 2086
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_7|1.6MB/s
+  type: vless
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  server: 84.201.178.175
+  port: 443
+  tls: true
+  sni: yandex.ru
+- name: 🇫🇮FI_1|3.0MB/s
+  type: vless
+  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
+  server: 66.81.247.209
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_8|1.1MB/s
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  server: 172.67.65.53
+  port: 2087
+  tls: true
+  sni: shanxp.dpdns.org
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -172,19 +247,30 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港5|@ripaojiedian
-  - 🇩🇪DE_2|3.8MB/s
-  - 🇺🇸US_1|3.1MB/s
-  - 🇫🇷FR_1|2.5MB/s
-  - 🇬🇧GB_1|3.0MB/s
-  - 🇫🇷FR_2|1.0MB/s
-  - ❓Other_1|1.4MB/s
-  - 🇹🇼TW_1|4.7MB/s
-  - 🇺🇸US_28|4.2MB/s
-  - 🇩🇪DE_4|2.1MB/s
-  - 🇺🇸US_29|2.2MB/s
-  - 🇬🇧GB_2|2.9MB/s
-  - 🇨🇦CA_1|2.8MB/s
+  - 🇸🇬SG_1|1.4MB/s
+  - 🇬🇧GB_1|2.7MB/s
+  - 🇭🇰HK_1|4.8MB/s
+  - 🇱🇹LT_1|1.0MB/s
+  - 🇳🇱NL_1|1.1MB/s
+  - 🇩🇪DE_3|1.1MB/s
+  - 🇺🇸US_1|2.5MB/s
+  - 🇫🇷FR_1|1.1MB/s
+  - ❓Other_1|1.3MB/s
+  - 🇫🇷FR_2|1.3MB/s
+  - 🇫🇷FR_3|1.1MB/s
+  - 🇫🇷FR_4|1.3MB/s
   - 🇫🇷FR_5|1.5MB/s
+  - 🇷🇴RO_1|2.0MB/s
+  - 🇨🇿CZ_1|1.4MB/s
+  - 🇳🇱NL_2|4.0MB/s
+  - 🇺🇸US_10|1.6MB/s
+  - 🇩🇪DE_6|2.0MB/s
+  - 🇭🇰HK_5|4.9MB/s
+  - 🇬🇧GB_2|3.0MB/s
+  - 🇳🇱NL_3|2.7MB/s
+  - 🇩🇪DE_7|1.6MB/s
+  - 🇫🇮FI_1|3.0MB/s
+  - 🇩🇪DE_8|1.1MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
