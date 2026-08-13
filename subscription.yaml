@@ -5,40 +5,92 @@ proxies:
   password: BxceQaOe
   server: 18.162.120.218
   port: 11035
-- name: 🇸🇬SG_2|4.0MB/s
-  type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:MzYwYTc4ZTAtYWYxYy00NTNmLTk0NGItY2FlMThmYWU=
-  server: cccct.284.pics
-  port: 65022
-- name: 🇺🇸US_4|1.0MB/s
+- name: 🇩🇪DE_2|3.8MB/s
   type: vless
-  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
-  server: 198.251.78.29
-  port: 2053
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  server: de151.mechvpn.online
+  port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: 🇬🇧GB_1|1.5MB/s
-  type: vless
-  uuid: bb742567-ec51-4956-9d3d-099e1a4d48c4
-  server: 51.89.194.151
-  port: 2053
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇰🇷KR_1|1.4MB/s
-  type: vless
-  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
-  server: 151.245.106.49
-  port: 2053
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇳🇱NL_1|3.4MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 134.98.155.169
-  port: 62145
-  tls: false
   sni: ''
+- name: 🇺🇸US_1|3.1MB/s
+  type: trojan
+  sni: d--AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  password: MITIVPN
+  server: 104.19.229.21
+  port: 443
+- name: 🇫🇷FR_1|2.5MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 130.250.137.171
+  port: 443
+- name: 🇬🇧GB_1|3.0MB/s
+  type: vless
+  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
+  server: 50.7.197.2
+  port: 8443
+  tls: true
+  sni: apkav-6.bosx.net
+- name: 🇫🇷FR_2|1.0MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.233
+  port: 443
+- name: ❓Other_1|1.4MB/s
+  type: vless
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+  server: 163.5.153.153
+  port: 443
+  tls: true
+  sni: www.samsung.com
+- name: 🇹🇼TW_1|4.7MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  server: 61.216.165.233
+  port: 2377
+- name: 🇺🇸US_28|4.2MB/s
+  type: trojan
+  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  password: MiTiVPN
+  server: 104.17.148.22
+  port: 443
+- name: 🇩🇪DE_4|2.1MB/s
+  type: vless
+  uuid: 000f16e8-cc68-4951-b336-acd81996efde
+  server: 45.155.71.170
+  port: 50443
+  tls: true
+  sni: www.icloud.com
+- name: 🇺🇸US_29|2.2MB/s
+  type: vless
+  uuid: 1a030b37-e210-1c8b-aa0a-5b3113c9dff6
+  server: x4g-production-dcd94.up.railway.app
+  port: 443
+  tls: true
+  sni: x4g-production-dcd94.up.railway.app
+- name: 🇬🇧GB_2|2.9MB/s
+  type: vless
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  server: 31.76.64.77
+  port: 7443
+  tls: true
+  sni: media10.tcpdoor.net
+- name: 🇨🇦CA_1|2.8MB/s
+  type: vless
+  uuid: 339db138-41ff-44e9-a323-46da89fbf1a7
+  server: 66.70.179.198
+  port: 2053
+  tls: true
+  sni: www.apple.com
+- name: 🇫🇷FR_5|1.5MB/s
+  type: vless
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  server: 91.239.208.15
+  port: 443
+  tls: true
+  sni: fr15.mechvpn.online
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -120,11 +172,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 香港5|@ripaojiedian
-  - 🇸🇬SG_2|4.0MB/s
-  - 🇺🇸US_4|1.0MB/s
-  - 🇬🇧GB_1|1.5MB/s
-  - 🇰🇷KR_1|1.4MB/s
-  - 🇳🇱NL_1|3.4MB/s
+  - 🇩🇪DE_2|3.8MB/s
+  - 🇺🇸US_1|3.1MB/s
+  - 🇫🇷FR_1|2.5MB/s
+  - 🇬🇧GB_1|3.0MB/s
+  - 🇫🇷FR_2|1.0MB/s
+  - ❓Other_1|1.4MB/s
+  - 🇹🇼TW_1|4.7MB/s
+  - 🇺🇸US_28|4.2MB/s
+  - 🇩🇪DE_4|2.1MB/s
+  - 🇺🇸US_29|2.2MB/s
+  - 🇬🇧GB_2|2.9MB/s
+  - 🇨🇦CA_1|2.8MB/s
+  - 🇫🇷FR_5|1.5MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
