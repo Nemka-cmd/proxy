@@ -83,13 +83,6 @@ proxies:
   password: humanity
   server: 104.18.152.233
   port: 443
-- name: 🇷🇴RO_1|2.0MB/s
-  type: vless
-  uuid: 2c532831-127d-45d7-a84e-11ce36a6b1af
-  server: node14.fastdatastream.com
-  port: 8443
-  tls: true
-  sni: www.intel.com
 - name: 🇨🇿CZ_1|1.4MB/s
   type: vless
   uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
@@ -239,7 +232,6 @@ proxy-groups:
   - 🇫🇷FR_3|1.1MB/s
   - 🇫🇷FR_4|1.3MB/s
   - 🇫🇷FR_5|1.5MB/s
-  - 🇷🇴RO_1|2.0MB/s
   - 🇨🇿CZ_1|1.4MB/s
   - 🇳🇱NL_2|4.0MB/s
   - 🇺🇸US_10|1.6MB/s
