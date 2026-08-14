@@ -11,140 +11,40 @@ proxies:
   password: BxceQaOe
   server: 43.199.31.69
   port: 45744
-- name: 🇬🇧GB_1|2.7MB/s
+- name: 🇭🇰HK_1|1.2MB/s
   type: vless
-  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
-  server: 50.7.197.2
-  port: 8443
-  tls: true
-  sni: apkav-6.bosx.net
-- name: 🇭🇰HK_1|4.8MB/s
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-  server: hk3-r.link-t7.com
-  port: 10128
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+  server: 18.162.41.55
+  port: 10127
   tls: true
   sni: s0.awsstatic.com
-- name: 🇱🇹LT_1|1.0MB/s
+- name: 🇰🇷KR_1|5.5MB/s
   type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-  server: lt.nosok-top.com
-  port: 443
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+  server: kr3-r.link-t7.com
+  port: 10048
   tls: true
-  sni: lt.nosok-top.com
-- name: 🇳🇱NL_1|1.1MB/s
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_1|5.0MB/s
   type: vless
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-  server: nl2.panel11.ru
-  port: 443
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+  server: sg1-r.link-t7.com
+  port: 10036
   tls: true
-  sni: nl2.panel11.ru
-- name: 🇩🇪DE_3|1.1MB/s
-  type: vless
-  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
-  server: 185.229.190.148
+  sni: s0.awsstatic.com
+- name: 🇩🇪DE_1|1.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.199.102.146
   port: 443
+- name: 🇯🇵JP_2|4.9MB/s
+  type: vless
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
+  server: jp1-r.link-t7.com
+  port: 10031
   tls: true
-  sni: moein-bf821.b-cdn.net
-- name: 🇺🇸US_1|2.5MB/s
-  type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-  server: united.nosok-top.com
-  port: 443
-  tls: true
-  sni: united.nosok-top.com
-- name: 🇫🇷FR_1|1.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.149.60
-  port: 443
-- name: ❓Other_1|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.17.111.8
-  port: 443
-- name: 🇫🇷FR_2|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.246
-  port: 443
-- name: 🇫🇷FR_3|1.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.26.15.137
-  port: 443
-- name: 🇫🇷FR_4|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.221.242
-  port: 443
-- name: 🇫🇷FR_5|1.5MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.233
-  port: 443
-- name: 🇨🇿CZ_1|1.4MB/s
-  type: vless
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-  server: 194.87.151.151
-  port: 443
-  tls: true
-  sni: deepl.com
-- name: 🇳🇱NL_2|4.0MB/s
-  type: vless
-  uuid: 463a26c2-eba8-0065-89c4-ee5c1373ccbe
-  server: 84.32.102.235
-  port: 443
-  tls: true
-  sni: dnlch.mostserv.xyz
-- name: 🇺🇸US_10|1.6MB/s
-  type: vless
-  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
-  server: 198.251.78.29
-  port: 2053
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇩🇪DE_6|2.0MB/s
-  type: vless
-  uuid: 733d70b2-a94d-4703-9810-8f7dcc812cc2
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇳🇱NL_3|2.7MB/s
-  type: vless
-  uuid: b4a16091-a25d-4d33-aee3-f5ae04f34b14
-  server: 172.67.151.243
-  port: 2086
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_7|1.6MB/s
-  type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-  server: 84.201.178.175
-  port: 443
-  tls: true
-  sni: yandex.ru
-- name: 🇫🇮FI_1|3.0MB/s
-  type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  server: 66.81.247.209
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_8|1.1MB/s
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  server: 172.67.65.53
-  port: 2087
-  tls: true
-  sni: shanxp.dpdns.org
+  sni: s0.awsstatic.com
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -227,26 +127,11 @@ proxy-groups:
   proxies:
   - 日本|@ripaojiedian
   - 新加坡3|@ripaojiedian
-  - 🇬🇧GB_1|2.7MB/s
-  - 🇭🇰HK_1|4.8MB/s
-  - 🇱🇹LT_1|1.0MB/s
-  - 🇳🇱NL_1|1.1MB/s
-  - 🇩🇪DE_3|1.1MB/s
-  - 🇺🇸US_1|2.5MB/s
-  - 🇫🇷FR_1|1.1MB/s
-  - ❓Other_1|1.3MB/s
-  - 🇫🇷FR_2|1.3MB/s
-  - 🇫🇷FR_3|1.1MB/s
-  - 🇫🇷FR_4|1.3MB/s
-  - 🇫🇷FR_5|1.5MB/s
-  - 🇨🇿CZ_1|1.4MB/s
-  - 🇳🇱NL_2|4.0MB/s
-  - 🇺🇸US_10|1.6MB/s
-  - 🇩🇪DE_6|2.0MB/s
-  - 🇳🇱NL_3|2.7MB/s
-  - 🇩🇪DE_7|1.6MB/s
-  - 🇫🇮FI_1|3.0MB/s
-  - 🇩🇪DE_8|1.1MB/s
+  - 🇭🇰HK_1|1.2MB/s
+  - 🇰🇷KR_1|5.5MB/s
+  - 🇸🇬SG_1|5.0MB/s
+  - 🇩🇪DE_1|1.0MB/s
+  - 🇯🇵JP_2|4.9MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
