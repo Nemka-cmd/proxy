@@ -1,10 +1,16 @@
 proxies:
-- name: 香港5|@ripaojiedian
+- name: 日本|@ripaojiedian
   type: trojan
-  sni: t.me/ripaojiedian
+  sni: t.me%2Fripaojiedian
   password: BxceQaOe
-  server: 18.162.120.218
-  port: 11035
+  server: 43.199.31.69
+  port: 4099
+- name: 新加坡3|@ripaojiedian
+  type: trojan
+  sni: t.me%2Fripaojiedian
+  password: BxceQaOe
+  server: 43.199.31.69
+  port: 45744
 - name: 🇬🇧GB_1|2.7MB/s
   type: vless
   uuid: e83af88a-a884-48ba-b462-a1edccff15e7
@@ -219,7 +225,8 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 香港5|@ripaojiedian
+  - 日本|@ripaojiedian
+  - 新加坡3|@ripaojiedian
   - 🇬🇧GB_1|2.7MB/s
   - 🇭🇰HK_1|4.8MB/s
   - 🇱🇹LT_1|1.0MB/s
