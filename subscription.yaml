@@ -268,13 +268,6 @@ proxies:
   port: 2096
   tls: true
   sni: strm.yandex.net
-- name: 🇦🇹AT_1|2.8MB/s
-  type: vless
-  uuid: 9100bc54-e58f-49fe-bd2d-e3d3dc1beb95
-  server: api.yandex-dev.online
-  port: 443
-  tls: true
-  sni: api.yandex-dev.online
 - name: 🇧🇷BR_1|2.4MB/s
   type: vless
   uuid: ba222add-6ac1-45f1-9a18-f91cb38e324f
@@ -412,7 +405,6 @@ proxy-groups:
   - 🇩🇪DE_3|4.2MB/s
   - 🇨🇿CZ_1|3.7MB/s
   - 🇷🇺RU_1|1.6MB/s
-  - 🇦🇹AT_1|2.8MB/s
   - 🇧🇷BR_1|2.4MB/s
   - 🇬🇧GB_2|1.6MB/s
   - JP_speednode_0014
