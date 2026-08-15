@@ -1,25 +1,68 @@
 proxies:
-- name: 🇭🇰HK_1|3.4MB/s
+- name: 🇰🇷KR_2|4.8MB/s
+  type: trojan
+  sni: star-shrimp.rooster465.autos
+  password: HC04361579
+  server: star-shrimp.rooster465.autos
+  port: 443
+- name: 🇺🇸US_1|1.9MB/s
+  type: vless
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+  server: 154.17.0.91
+  port: 50159
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇭🇰HK_1|2.8MB/s
   type: vless
   uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
   server: 95.40.100.129
   port: 10126
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇬SG_1|6.0MB/s
+- name: 🇭🇰HK_2|1.7MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn03.somethingstranges.com
+  port: 8115
+- name: 🇵🇭PH_1|2.8MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn06.somethingstranges.com
+  port: 8232
+- name: 🇵🇭PH_2|2.2MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn06.somethingstranges.com
+  port: 8233
+- name: 🇰🇷KR_3|3.8MB/s
+  type: trojan
+  sni: enough-lamb.rooster465.autos
+  password: HC04361579
+  server: enough-lamb.rooster465.autos
+  port: 443
+- name: 🇺🇸US_2|1.9MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn18.somethingstranges.com
+  port: 8629
+- name: 🇺🇸US_3|4.4MB/s
   type: vless
-  uuid: F5363530-7194-486B-BF2C-9AF7E75F6543
-  server: sg3-r.link-t7.com
-  port: 10038
+  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+  server: 38.47.113.204
+  port: 443
   tls: true
-  sni: d1.awsstatic.com
-- name: 🇳🇱NL_1|1.5MB/s
+  sni: www.cloudflare.com
+- name: 🇺🇸US_4|1023KB/s
   type: vless
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-  server: rm-nl-01.409648.xyz
-  port: 20725
+  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  server: mina-production-f048.up.railway.app
+  port: 443
   tls: true
-  sni: d1--ov-gotcha07.bilivideo.com
+  sni: ''
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -100,9 +143,16 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇭🇰HK_1|3.4MB/s
-  - 🇸🇬SG_1|6.0MB/s
-  - 🇳🇱NL_1|1.5MB/s
+  - 🇰🇷KR_2|4.8MB/s
+  - 🇺🇸US_1|1.9MB/s
+  - 🇭🇰HK_1|2.8MB/s
+  - 🇭🇰HK_2|1.7MB/s
+  - 🇵🇭PH_1|2.8MB/s
+  - 🇵🇭PH_2|2.2MB/s
+  - 🇰🇷KR_3|3.8MB/s
+  - 🇺🇸US_2|1.9MB/s
+  - 🇺🇸US_3|4.4MB/s
+  - 🇺🇸US_4|1023KB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
