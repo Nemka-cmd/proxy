@@ -1,193 +1,127 @@
 proxies:
-- name: 🇪🇸ES_1|3.7MB/s
-  type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  server: pg-sp-bot.gigatapbot.top
-  port: 47822
-  tls: true
-  sni: pg-bot.gigatapbot.top
-- name: 🇫🇷FR_1|1.8MB/s
+- name: 🇨🇦CA_1|1.3MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  server: 51.222.12.127
+  port: 445
+- name: 🇫🇷FR_1|3.0MB/s
   type: trojan
   sni: ''
   password: FH72359861
   server: correct-pony.rooster465.autos
   port: 443
-- name: 🇭🇰HK_1|2.9MB/s
+- name: 🇳🇱NL_1|2.5MB/s
   type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-  server: 95.40.100.129
-  port: 10126
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇸🇬SG_1|4.8MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: bold-eagle.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_2|1.6MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: eminent-panther.rooster465.autos
-  port: 443
-- name: 🇫🇷FR_2|1.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.6
-  port: 443
-- name: 🇱🇹LT_1|1.8MB/s
-  type: vless
-  uuid: 463a26c2-eba8-40ea-89c4-ee5c1373ccbe
-  server: 84.32.209.80
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.30
   port: 443
   tls: true
-  sni: dltch.mostserv.xyz
-- name: 🇧🇬BG_1|1.4MB/s
+  sni: getsavesafe.net
+- name: 🇳🇱NL_2|2.6MB/s
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: 94.156.155.27
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.140
   port: 443
   tls: true
-  sni: www.telekom.de
-- name: 🇩🇪DE_1|2.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.76.30.105
-  port: 443
-- name: 🇰🇷KR_4|3.3MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: apt-whippet.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_12|2.9MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: massive-ocelot.rooster465.autos
-  port: 443
-- name: 🇺🇸US_2|2.4MB/s
+  sni: getsavesafe.net
+- name: 🇳🇱NL_3|2.6MB/s
   type: vless
-  uuid: a6452560-77c7-49a6-9a18-a369bb4170d6
-  server: stanngv2-production-4f14.up.railway.app
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.22
   port: 443
   tls: true
-  sni: stanngv2-production-4f14.up.railway.app
-- name: 🇪🇸ES_2|1.2MB/s
+  sni: getsavesafe.net
+- name: 🇳🇱NL_4|1.5MB/s
   type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  server: 212.227.231.38
-  port: 47822
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.84
+  port: 443
   tls: true
-  sni: pg-bot.gigatapbot.top
-- name: 🇰🇷KR_9|4.4MB/s
+  sni: getsavesafe.net
+- name: 🇳🇱NL_5|2.3MB/s
+  type: vless
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.172
+  port: 443
+  tls: true
+  sni: getsavesafe.net
+- name: 🇩🇪DE_1|2.3MB/s
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  server: 78.159.247.253
+  port: 2027
+  tls: true
+  sni: storage.yandex.net
+- name: 🇰🇷KR_1|1.5MB/s
   type: trojan
   sni: ''
   password: FH72359861
   server: good-hound.rooster465.autos
   port: 443
-- name: 🇰🇷KR_10|5.0MB/s
+- name: 🇰🇷KR_2|2.6MB/s
   type: trojan
   sni: ''
   password: FH72359861
   server: charming-puma.rooster465.autos
   port: 443
-- name: 🇰🇷KR_7|5.7MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: absolute-bobcat.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_11|1.9MB/s
+- name: 🇰🇷KR_3|5.0MB/s
   type: trojan
   sni: ''
   password: FH72359861
   server: fit-marten.rooster465.autos
   port: 443
-- name: 🇸🇬SG_4|4.6MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: fond-chipmunk.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_2|5.5MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: square-tortoise.rooster465.autos
-  port: 443
-- name: ❓Other_1|3.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.188.143.142
-  port: 443
-- name: 🇺🇸US_5|2.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.189.180.103
-  port: 443
-- name: 🇭🇰HK_2|3.0MB/s
-  type: trojan
-  sni: www.nintendogames.net
-  password: 6ec301428255a78a1d826988d86cc87e
-  server: 16.162.160.61
-  port: 50887
-- name: 🇭🇰HK_3|1.0MB/s
-  type: trojan
-  sni: www.nintendogames.net
-  password: 6ec301428255a78a1d826988d86cc87e
-  server: 95.40.14.123
-  port: 50887
-- name: 🇩🇪DE_2|1.7MB/s
-  type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  server: 217.154.146.174
-  port: 47822
-  tls: true
-  sni: pg-bot.gigatapbot.top
-- name: 🇫🇮FI_1|2.3MB/s
-  type: vless
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-  server: 91.186.213.73
-  port: 443
-  tls: true
-  sni: pg-sw-443-vless-tcp.gigatapbot.top
-- name: 🇧🇾BY_1|1.7MB/s
-  type: vless
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  server: ru104.mechvpn.online
-  port: 443
-  tls: true
-  sni: ru104.mechvpn.online
-- name: 🇩🇪DE_3|1.2MB/s
-  type: vless
-  uuid: 5d2679fd-7320-abcd-ac47-57adb5c99e66
-  server: ge.zarqivo.ir
-  port: 2083
-  tls: true
-  sni: play.googleapis.com
-- name: 🇰🇷KR_13|3.8MB/s
-  type: trojan
-  sni: ''
-  password: FH72359861
-  server: major-goose.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_14|5.5MB/s
+- name: 🇰🇷KR_5|5.0MB/s
   type: trojan
   sni: ''
   password: FH72359861
   server: kind-grizzly.rooster465.autos
   port: 443
-- name: 🇯🇵JP_4|5.6MB/s
+- name: 🇺🇸US_13|2.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.189.171.163
+  port: 443
+- name: 🇩🇪DE_2|1.6MB/s
+  type: vless
+  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+  server: nl1.murhost.network
+  port: 443
+  tls: true
+  sni: nl1.murhost.network
+- name: 🇯🇵JP_1|1.1MB/s
   type: trojan
-  sni: trusting-elf.rooster465.autos
+  sni: ''
   password: FH72359861
-  server: trusting-elf.rooster465.autos
+  server: great-wasp.rooster465.autos
+  port: 443
+- name: 🇫🇮FI_1|3.1MB/s
+  type: vless
+  uuid: 13a6ab01-2d58-4a4c-b96b-8648f7aca2ee
+  server: 146.75.119.82
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇧🇾BY_1|3.0MB/s
+  type: vless
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  server: 45.139.26.104
+  port: 443
+  tls: true
+  sni: ru104.mechvpn.online
+- name: 🇱🇻LV_1|2.4MB/s
+  type: vless
+  uuid: ee791990-83c7-11f1-9ca5-1e6febe3e1df
+  server: 5.188.140.39
+  port: 2053
+  tls: true
+  sni: hh.ru
+- name: 🇩🇪DE_3|1.4MB/s
+  type: trojan
+  sni: ''
+  password: FH72359861
+  server: renewed-porpoise.rooster465.autos
   port: 443
 - name: JP_speednode_0014
   type: trojan
@@ -269,36 +203,25 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇪🇸ES_1|3.7MB/s
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇭🇰HK_1|2.9MB/s
-  - 🇸🇬SG_1|4.8MB/s
-  - 🇸🇬SG_2|1.6MB/s
-  - 🇫🇷FR_2|1.1MB/s
-  - 🇱🇹LT_1|1.8MB/s
-  - 🇧🇬BG_1|1.4MB/s
-  - 🇩🇪DE_1|2.1MB/s
-  - 🇰🇷KR_4|3.3MB/s
-  - 🇰🇷KR_12|2.9MB/s
-  - 🇺🇸US_2|2.4MB/s
-  - 🇪🇸ES_2|1.2MB/s
-  - 🇰🇷KR_9|4.4MB/s
-  - 🇰🇷KR_10|5.0MB/s
-  - 🇰🇷KR_7|5.7MB/s
-  - 🇰🇷KR_11|1.9MB/s
-  - 🇸🇬SG_4|4.6MB/s
-  - 🇯🇵JP_2|5.5MB/s
-  - ❓Other_1|3.9MB/s
-  - 🇺🇸US_5|2.0MB/s
-  - 🇭🇰HK_2|3.0MB/s
-  - 🇭🇰HK_3|1.0MB/s
-  - 🇩🇪DE_2|1.7MB/s
-  - 🇫🇮FI_1|2.3MB/s
-  - 🇧🇾BY_1|1.7MB/s
-  - 🇩🇪DE_3|1.2MB/s
-  - 🇰🇷KR_13|3.8MB/s
-  - 🇰🇷KR_14|5.5MB/s
-  - 🇯🇵JP_4|5.6MB/s
+  - 🇨🇦CA_1|1.3MB/s
+  - 🇫🇷FR_1|3.0MB/s
+  - 🇳🇱NL_1|2.5MB/s
+  - 🇳🇱NL_2|2.6MB/s
+  - 🇳🇱NL_3|2.6MB/s
+  - 🇳🇱NL_4|1.5MB/s
+  - 🇳🇱NL_5|2.3MB/s
+  - 🇩🇪DE_1|2.3MB/s
+  - 🇰🇷KR_1|1.5MB/s
+  - 🇰🇷KR_2|2.6MB/s
+  - 🇰🇷KR_3|5.0MB/s
+  - 🇰🇷KR_5|5.0MB/s
+  - 🇺🇸US_13|2.9MB/s
+  - 🇩🇪DE_2|1.6MB/s
+  - 🇯🇵JP_1|1.1MB/s
+  - 🇫🇮FI_1|3.1MB/s
+  - 🇧🇾BY_1|3.0MB/s
+  - 🇱🇻LV_1|2.4MB/s
+  - 🇩🇪DE_3|1.4MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
