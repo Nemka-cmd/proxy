@@ -1,129 +1,59 @@
 proxies:
-- name: 🇭🇰HK_4|1.8MB/s
-  type: trojan
-  sni: www.nintendogames.net
-  password: 6ec301428255a78a1d826988d86cc87e
-  server: 2c.fast9988.com
-  port: 50887
-- name: 🇺🇸US_1|1010KB/s
-  type: vless
-  uuid: 19f13499-842e-e495-73cf-f52b10816e6e
-  server: rvg-production-8c74.up.railway.app
-  port: 443
-  tls: true
-  sni: rvg-production-8c74.up.railway.app
-- name: 🇭🇰HK_6|3.2MB/s
+- name: 🇭🇰HK_4|3.5MB/s
   type: vless
   uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
   server: 95.40.100.129
   port: 10126
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_7|2.5MB/s
+- name: 🇭🇰HK_6|1.2MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn02.somethingstranges.com
   port: 8110
-- name: 🇭🇰HK_8|2.9MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn03.somethingstranges.com
-  port: 8115
-- name: 🇭🇰HK_9|5.2MB/s
+- name: 🇭🇰HK_7|1.5MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn01.somethingstranges.com
   port: 8102
-- name: 🇭🇰HK_10|4.4MB/s
+- name: 🇭🇰HK_8|1.6MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn02.somethingstranges.com
   port: 8106
-- name: 🇭🇰HK_11|3.3MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn01.somethingstranges.com
-  port: 8103
-- name: 🇭🇰HK_12|4.8MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn02.somethingstranges.com
-  port: 8104
-- name: 🇭🇰HK_13|3.4MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn02.somethingstranges.com
-  port: 8105
-- name: 🇵🇭PH_1|4.8MB/s
+- name: 🇵🇭PH_1|4.1MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn06.somethingstranges.com
   port: 8232
-- name: 🇵🇭PH_2|5.0MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn06.somethingstranges.com
-  port: 8231
-- name: 🇵🇭PH_3|3.6MB/s
+- name: 🇵🇭PH_2|2.0MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn06.somethingstranges.com
   port: 8233
-- name: 🇭🇰HK_15|4.3MB/s
+- name: 🇭🇰HK_9|2.1MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn02.somethingstranges.com
   port: 8108
-- name: 🇺🇸US_4|3.5MB/s
+- name: 🇺🇸US_1|2.5MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn18.somethingstranges.com
   port: 8629
-- name: 🇳🇱NL_2|2.8MB/s
-  type: vless
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-  server: rm-nl-01.409648.xyz
-  port: 20725
-  tls: true
-  sni: d1--ov-gotcha07.bilivideo.com
-- name: 🇭🇰HK_16|4.3MB/s
+- name: 🇭🇰HK_10|1.6MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
   server: cn01.somethingstranges.com
   port: 8101
-- name: 🇫🇷FR_1|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.109
-  port: 443
-- name: 🇩🇪DE_3|1.3MB/s
-  type: vless
-  uuid: d2609d94-a1b0-40d8-82b3-5e3ef4693f0a
-  server: 95.163.232.183
-  port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇯🇵JP_1|1.1MB/s
-  type: vless
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  server: wangcai.cf.877774.xyz
-  port: 443
-  tls: true
-  sni: ex3r.qzz.io
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -204,26 +134,15 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇭🇰HK_4|1.8MB/s
-  - 🇺🇸US_1|1010KB/s
-  - 🇭🇰HK_6|3.2MB/s
-  - 🇭🇰HK_7|2.5MB/s
-  - 🇭🇰HK_8|2.9MB/s
-  - 🇭🇰HK_9|5.2MB/s
-  - 🇭🇰HK_10|4.4MB/s
-  - 🇭🇰HK_11|3.3MB/s
-  - 🇭🇰HK_12|4.8MB/s
-  - 🇭🇰HK_13|3.4MB/s
-  - 🇵🇭PH_1|4.8MB/s
-  - 🇵🇭PH_2|5.0MB/s
-  - 🇵🇭PH_3|3.6MB/s
-  - 🇭🇰HK_15|4.3MB/s
-  - 🇺🇸US_4|3.5MB/s
-  - 🇳🇱NL_2|2.8MB/s
-  - 🇭🇰HK_16|4.3MB/s
-  - 🇫🇷FR_1|1.3MB/s
-  - 🇩🇪DE_3|1.3MB/s
-  - 🇯🇵JP_1|1.1MB/s
+  - 🇭🇰HK_4|3.5MB/s
+  - 🇭🇰HK_6|1.2MB/s
+  - 🇭🇰HK_7|1.5MB/s
+  - 🇭🇰HK_8|1.6MB/s
+  - 🇵🇭PH_1|4.1MB/s
+  - 🇵🇭PH_2|2.0MB/s
+  - 🇭🇰HK_9|2.1MB/s
+  - 🇺🇸US_1|2.5MB/s
+  - 🇭🇰HK_10|1.6MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
