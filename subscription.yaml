@@ -1,68 +1,144 @@
 proxies:
-- name: 🇰🇷KR_2|4.8MB/s
+- name: 🇳🇱NL_1|2.9MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ChsbgW3Or5iKoWxNZQyTSxGx3KIKHjOD+w1t9/MbeeA=
+  server: 141.148.234.216
+  port: 45819
+- name: 🇳🇱NL_2|1.3MB/s
+  type: vless
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.31
+  port: 443
+  tls: true
+  sni: getsavesafe.net
+- name: 🇳🇱NL_3|3.0MB/s
+  type: vless
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.87
+  port: 443
+  tls: true
+  sni: getsavesafe.net
+- name: 🇺🇸US_4|1.6MB/s
+  type: vless
+  uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+  server: api.ferrin.uk
+  port: 443
+  tls: true
+  sni: e7e90e6b.ferrin.uk
+- name: 🇧🇬BG_1|2.6MB/s
+  type: vless
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  server: 94.156.155.27
+  port: 443
+  tls: true
+  sni: www.telekom.de
+- name: 🇩🇪DE_1|3.2MB/s
+  type: vless
+  uuid: 0a12328a-572e-46a5-9332-84d21a986407
+  server: 199.232.78.159
+  port: 443
+  tls: true
+  sni: ssl.fastly.com
+- name: 🇫🇷FR_1|1017KB/s
   type: trojan
-  sni: star-shrimp.rooster465.autos
-  password: HC04361579
-  server: star-shrimp.rooster465.autos
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.7.70
   port: 443
-- name: 🇺🇸US_1|1.9MB/s
+- name: 🇫🇮FI_1|2.9MB/s
   type: vless
-  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
-  server: 154.17.0.91
-  port: 50159
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  server: 54.229.164.147
+  port: 2053
   tls: true
-  sni: www.cloudflare.com
-- name: 🇭🇰HK_1|2.8MB/s
+  sni: forfreeuse.rtqa.ru
+- name: 🇭🇰HK_2|3.5MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn01.somethingstranges.com
+  port: 8103
+- name: 🇭🇰HK_4|4.4MB/s
+  type: ss
+  cipher: chacha20-ietf
+  password: passwd
+  server: cn02.somethingstranges.com
+  port: 8108
+- name: ❓Other_1|2.3MB/s
   type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-  server: 95.40.100.129
-  port: 10126
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  server: rm-nl-01.409648.xyz
+  port: 20725
   tls: true
-  sni: s0.awsstatic.com
-- name: 🇭🇰HK_2|1.7MB/s
+  sni: d1--ov-gotcha07.bilivideo.com
+- name: 🇭🇰HK_5|1.3MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
-  server: cn03.somethingstranges.com
-  port: 8115
-- name: 🇵🇭PH_1|2.8MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn06.somethingstranges.com
-  port: 8232
-- name: 🇵🇭PH_2|2.2MB/s
-  type: ss
-  cipher: chacha20-ietf
-  password: passwd
-  server: cn06.somethingstranges.com
-  port: 8233
-- name: 🇰🇷KR_3|3.8MB/s
+  server: cn01.somethingstranges.com
+  port: 8102
+- name: 🇭🇰HK_6|1.8MB/s
   type: trojan
-  sni: enough-lamb.rooster465.autos
+  sni: eminent-lamb.rooster465.autos
   password: HC04361579
-  server: enough-lamb.rooster465.autos
+  server: eminent-lamb.rooster465.autos
   port: 443
-- name: 🇺🇸US_2|1.9MB/s
+- name: 🇭🇰HK_7|3.4MB/s
   type: ss
   cipher: chacha20-ietf
   password: passwd
-  server: cn18.somethingstranges.com
-  port: 8629
-- name: 🇺🇸US_3|4.4MB/s
+  server: cn02.somethingstranges.com
+  port: 8106
+- name: 🇺🇸US_29|1.6MB/s
   type: vless
-  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
-  server: 38.47.113.204
+  uuid: 3c409f6a-6c2c-ca81-c27d-68f337c166f4
+  server: rvg-production-0062.up.railway.app
   port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: 🇺🇸US_4|1023KB/s
+  sni: rvg-production-0062.up.railway.app
+- name: 🇺🇸US_30|3.1MB/s
   type: vless
-  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
-  server: mina-production-f048.up.railway.app
+  uuid: 7e3ae3e7-3fc7-3715-f716-af78f721fd5a
+  server: rvg-production-0062.up.railway.app
   port: 443
   tls: true
-  sni: ''
+  sni: rvg-production-0062.up.railway.app
+- name: 🇦🇹AT_1|2.3MB/s
+  type: vless
+  uuid: 26bf95c1-b78c-40eb-b11e-b38b8962ddb2
+  server: At.Sav-savteAm.iR
+  port: 2007
+  tls: true
+  sni: updates.cdn-apple.com
+- name: 🇫🇮FI_2|1.1MB/s
+  type: vless
+  uuid: 34a38f21-310e-4da5-b549-35076e16993c
+  server: finnode3.frost-api.com
+  port: 443
+  tls: true
+  sni: eh.vk.com
+- name: 🇹🇭TH_1|2.8MB/s
+  type: vless
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  server: www.visa.cn
+  port: 443
+  tls: true
+  sni: tl.520783.xyz
+- name: 🇭🇰HK_8|2.9MB/s
+  type: vless
+  uuid: 93a9d63a-03b8-4167-92bd-3fa932af1c91
+  server: 156.248.10.58
+  port: 443
+  tls: true
+  sni: nono.hhhkkhktt.xyz
+- name: 🇳🇱NL_13|3.5MB/s
+  type: vless
+  uuid: de6d11a5-d833-4f18-a4f9-464b80f0f864
+  server: centraleurope.koexp.ru
+  port: 4443
+  tls: true
+  sni: dev.max.ru
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -143,16 +219,27 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇰🇷KR_2|4.8MB/s
-  - 🇺🇸US_1|1.9MB/s
-  - 🇭🇰HK_1|2.8MB/s
-  - 🇭🇰HK_2|1.7MB/s
-  - 🇵🇭PH_1|2.8MB/s
-  - 🇵🇭PH_2|2.2MB/s
-  - 🇰🇷KR_3|3.8MB/s
-  - 🇺🇸US_2|1.9MB/s
-  - 🇺🇸US_3|4.4MB/s
-  - 🇺🇸US_4|1023KB/s
+  - 🇳🇱NL_1|2.9MB/s
+  - 🇳🇱NL_2|1.3MB/s
+  - 🇳🇱NL_3|3.0MB/s
+  - 🇺🇸US_4|1.6MB/s
+  - 🇧🇬BG_1|2.6MB/s
+  - 🇩🇪DE_1|3.2MB/s
+  - 🇫🇷FR_1|1017KB/s
+  - 🇫🇮FI_1|2.9MB/s
+  - 🇭🇰HK_2|3.5MB/s
+  - 🇭🇰HK_4|4.4MB/s
+  - ❓Other_1|2.3MB/s
+  - 🇭🇰HK_5|1.3MB/s
+  - 🇭🇰HK_6|1.8MB/s
+  - 🇭🇰HK_7|3.4MB/s
+  - 🇺🇸US_29|1.6MB/s
+  - 🇺🇸US_30|3.1MB/s
+  - 🇦🇹AT_1|2.3MB/s
+  - 🇫🇮FI_2|1.1MB/s
+  - 🇹🇭TH_1|2.8MB/s
+  - 🇭🇰HK_8|2.9MB/s
+  - 🇳🇱NL_13|3.5MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
