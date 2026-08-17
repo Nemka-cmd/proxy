@@ -1,333 +1,259 @@
 proxies:
-- name: 🇯🇵JP_1|4.1MB/s
+- name: 🇯🇵JP_1|4.2MB/s
   type: trojan
   sni: ''
   password: PQ05174892
-  server: champion-alien.rooster465.autos
+  server: concise-guinea.rooster465.autos
   port: 443
-- name: 🇯🇵JP_2|5.1MB/s
+- name: 🇰🇷KR_1|3.8MB/s
   type: trojan
   sni: ''
   password: PQ05174892
-  server: inspired-hound.rooster465.autos
+  server: regular-raptor.rooster465.autos
   port: 443
-- name: 🇯🇵JP_4|5.8MB/s
-  type: trojan
-  sni: ''
-  password: PQ05174892
-  server: proud-escargot.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_1|3.2MB/s
+- name: 🇰🇷KR_2|4.9MB/s
   type: vless
   uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-  server: kr1-r.link-t7.com
-  port: 10046
+  server: kr2-r.link-t7.com
+  port: 10047
   tls: true
   sni: s0.awsstatic.com
-- name: 🇰🇷KR_2|5.4MB/s
+- name: 🇰🇷KR_3|5.3MB/s
   type: trojan
   sni: ''
   password: PQ05174892
   server: precious-stag.rooster465.autos
   port: 443
-- name: 🇰🇷KR_3|2.9MB/s
+- name: 🇷🇺RU_1|1.4MB/s
   type: vless
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-  server: kr4-r.link-t7.com
-  port: 10049
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇷🇺RU_1|1.3MB/s
-  type: vless
-  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  uuid: abc2d099-3c30-45c1-a754-bc25aa95061b
   server: 135.106.140.18
   port: 443
   tls: true
   sni: russia1.denverpresents.top
-- name: 🇸🇬SG_1|4.1MB/s
-  type: trojan
-  sni: ''
-  password: PQ05174892
-  server: apparent-wasp.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_2|5.2MB/s
+- name: 🇸🇬SG_1|4.6MB/s
   type: vless
   uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-  server: sg4-r.link-t7.com
-  port: 10039
-  tls: true
-  sni: d1.awsstatic.com
-- name: 🇺🇸US_1|2.6MB/s
-  type: vless
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-  server: us2-r.link-t7.com
-  port: 10239
+  server: sg1-r.link-t7.com
+  port: 10036
   tls: true
   sni: s0.awsstatic.com
-- name: 🇫🇷FR_1|1.0MB/s
+- name: 🇸🇬SG_2|4.2MB/s
   type: trojan
   sni: ''
   password: PQ05174892
-  server: lucky-marmot.rooster465.autos
+  server: fleet-pony.rooster465.autos
   port: 443
-- name: 🇳🇱NL_1|1.6MB/s
+- name: 🇺🇸US_2|3.4MB/s
   type: vless
-  uuid: 4e7eb9d5-022a-4b0a-ba37-2d1be458947b
-  server: 195.63.141.201
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  server: xmmct.130209.xyz
   port: 443
   tls: true
-  sni: hartfordmedia.online
-- name: 🇳🇱NL_2|2.3MB/s
-  type: vless
-  uuid: 348b1b7d-fe7b-43f9-84b5-a2917925c8a8
-  server: 193.178.226.215
-  port: 443
-  tls: true
-  sni: nl1.spidermanshopping.com
-- name: 🇵🇱PL_2|1.4MB/s
-  type: vless
-  uuid: 258b663a-3c3b-486e-b139-be70912bc912
-  server: 85.193.84.49
-  port: 443
-  tls: true
-  sni: files-x.bosx.net
-- name: 🇫🇷FR_2|1.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.22
-  port: 443
-- name: 🇫🇷FR_3|1.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 216.24.57.1
-  port: 443
-- name: 🇫🇷FR_4|3.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.237.189.197
-  port: 443
-- name: 🇺🇸US_4|3.0MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.89
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇯🇵JP_7|1.4MB/s
-  type: trojan
-  sni: ''
-  password: PQ05174892
-  server: ethical-raccoon.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_6|2.4MB/s
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  server: 202.144.192.76
-  port: 13779
-  tls: true
-  sni: tesla.com
-- name: 🇺🇸US_9|1.0MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.104
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇩🇪DE_2|1.2MB/s
-  type: vless
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-  server: 138.124.255.20
-  port: 443
-  tls: true
-  sni: russia.cendora.ru
-- name: 🇺🇸US_12|1.1MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.229
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇺🇸US_13|1.1MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.35
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇯🇵JP_8|5.8MB/s
-  type: trojan
-  sni: ethical-raccoon.rooster465.autos
-  password: PQ05174892
-  server: 13.115.247.230
-  port: 443
-- name: 🇸🇬SG_8|5.3MB/s
-  type: trojan
-  sni: fleet-pony.rooster465.autos
-  password: PQ05174892
-  server: 13.212.174.21
-  port: 443
-- name: 🇰🇷KR_8|5.0MB/s
-  type: trojan
-  sni: united-grouse.rooster465.autos
-  password: PQ05174892
-  server: 15.164.227.68
-  port: 443
-- name: 🇸🇬SG_9|3.6MB/s
-  type: trojan
-  sni: pleased-albacore.rooster465.autos
-  password: PQ05174892
-  server: 52.220.98.46
-  port: 443
-- name: 🇸🇬SG_10|4.8MB/s
-  type: trojan
-  sni: amusing-grub.rooster465.autos
-  password: PQ05174892
-  server: 54.169.228.116
-  port: 443
-- name: 🇯🇵JP_9|4.4MB/s
-  type: trojan
-  sni: inspired-hound.rooster465.autos
-  password: PQ05174892
-  server: 54.249.94.94
-  port: 443
-- name: 🇸🇬SG_11|4.5MB/s
-  type: trojan
-  sni: amusing-grub.rooster465.autos
-  password: PQ05174892
-  server: amusing-grub.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_10|3.6MB/s
-  type: trojan
-  sni: ethical-raccoon.rooster465.autos
-  password: PQ05174892
-  server: ethical-raccoon.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_12|4.3MB/s
+  sni: usa.811350.xyz
+- name: 🇸🇬SG_12|4.4MB/s
   type: trojan
   sni: intense-monarch.rooster465.autos
   password: PQ05174892
   server: intense-monarch.rooster465.autos
   port: 443
-- name: 🇸🇬SG_13|4.5MB/s
+- name: 🇸🇬SG_11|4.0MB/s
+  type: trojan
+  sni: pleased-albacore.rooster465.autos
+  password: PQ05174892
+  server: 52.220.98.46
+  port: 443
+- name: 🇯🇵JP_6|1.8MB/s
+  type: trojan
+  sni: ''
+  password: PQ05174892
+  server: champion-alien.rooster465.autos
+  port: 443
+- name: 🇭🇰HK_3|1.7MB/s
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:NGUxZmQ1NWUtOTQ5MS00NDc3LWE3ODItYjM3OGIyNjU=
+  server: cccct.284.pics
+  port: 65011
+- name: 🇭🇰HK_6|2.4MB/s
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:NGUxZmQ1NWUtOTQ5MS00NDc3LWE3ODItYjM3OGIyNjU=
+  server: cccct.284.pics
+  port: 65012
+- name: 🇫🇷FR_1|1.4MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 198.41.223.96
+  port: 443
+- name: 🇰🇷KR_4|4.2MB/s
+  type: trojan
+  sni: awake-redbird.rooster465.autos
+  password: PQ05174892
+  server: awake-redbird.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_3|5.6MB/s
+  type: trojan
+  sni: witty-duckling.rooster465.autos
+  password: PQ05174892
+  server: witty-duckling.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_6|4.6MB/s
+  type: trojan
+  sni: vast-werewolf.rooster465.autos
+  password: PQ05174892
+  server: vast-werewolf.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_13|4.6MB/s
   type: trojan
   sni: pleased-albacore.rooster465.autos
   password: PQ05174892
   server: pleased-albacore.rooster465.autos
   port: 443
-- name: 🇰🇷KR_9|5.3MB/s
+- name: 🇸🇬SG_21|4.4MB/s
   type: trojan
-  sni: united-grouse.rooster465.autos
+  sni: amusing-grub.rooster465.autos
   password: PQ05174892
-  server: united-grouse.rooster465.autos
+  server: amusing-grub.rooster465.autos
   port: 443
-- name: 🇬🇧GB_2|1.2MB/s
+- name: 🇸🇬SG_25|4.1MB/s
+  type: trojan
+  sni: welcome-monitor.rooster465.autos
+  password: PQ05174892
+  server: welcome-monitor.rooster465.autos
+  port: 443
+- name: 🇯🇵JP_4|4.7MB/s
+  type: trojan
+  sni: sterling-vervet.rooster465.autos
+  password: PQ05174892
+  server: sterling-vervet.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_23|5.3MB/s
+  type: trojan
+  sni: fleet-pony.rooster465.autos
+  password: PQ05174892
+  server: fleet-pony.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_17|1.2MB/s
+  type: trojan
+  sni: fleet-pony.rooster465.autos
+  password: PQ05174892
+  server: 13.212.174.21
+  port: 443
+- name: 🇸🇬SG_18|1.2MB/s
+  type: trojan
+  sni: composed-sheep.rooster465.autos
+  password: PQ05174892
+  server: 13.212.91.165
+  port: 443
+- name: 🇸🇬SG_19|1.2MB/s
+  type: trojan
+  sni: welcome-monitor.rooster465.autos
+  password: PQ05174892
+  server: 47.129.183.20
+  port: 443
+- name: 🇸🇬SG_20|5.2MB/s
+  type: trojan
+  sni: amusing-grub.rooster465.autos
+  password: PQ05174892
+  server: 54.169.228.116
+  port: 443
+- name: 🇸🇬SG_22|2.0MB/s
+  type: trojan
+  sni: composed-sheep.rooster465.autos
+  password: PQ05174892
+  server: composed-sheep.rooster465.autos
+  port: 443
+- name: 🇸🇬SG_24|3.6MB/s
+  type: trojan
+  sni: ''
+  password: PQ05174892
+  server: intense-monarch.rooster465.autos
+  port: 443
+- name: 🇭🇰HK_19|1.4MB/s
   type: vless
-  uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44
-  server: 31.76.91.138
-  port: 2087
-  tls: true
-  sni: ads.x5.ru
-- name: 🇳🇱NL_4|1.6MB/s
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  server: 150.241.94.59
-  port: 13443
-  tls: true
-  sni: auto.cendora.ru
-- name: 🇦🇪AE_1|1.8MB/s
-  type: vless
-  uuid: 47b104e0-59cf-4ec4-a8fd-d080b4a756d6
-  server: 151.242.160.31
+  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
+  server: hk-vpn-binan520.taiaise.cn
   port: 443
   tls: true
-  sni: edge-de2.mystatic-cdn.ru
-- name: 🇺🇦UA_1|1.2MB/s
+  sni: hk-vpn-binan520.taiaise.cn
+- name: 🇦🇪AE_1|1.0MB/s
   type: vless
-  uuid: 5238521b-c5dd-42af-870e-c174a2aaaafe
-  server: 5.34.182.23
-  port: 13443
+  uuid: 682102a3-9731-4562-ad28-04dc62bc8dee
+  server: 94.183.221.190
+  port: 443
   tls: true
-  sni: auto.cendora.ru
-- name: 🇫🇷FR_5|2.9MB/s
-  type: vless
-  uuid: 5c22dd50-f75d-4cf5-ba53-721f91d8bfe1
-  server: 141.227.170.12
-  port: 8443
-  tls: true
-  sni: sellflow.org
-- name: 🇵🇱PL_3|1.3MB/s
+  sni: www.amd.com
+- name: 🇦🇪AE_2|1.1MB/s
   type: vless
   uuid: 707db87b-9cbf-438f-b4c7-9d984c8e944a
-  server: 83.147.255.147
+  server: 94.183.206.53
   port: 7771
   tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇳🇱NL_5|2.2MB/s
+  sni: sun6-21.userapi.com
+- name: 🇨🇿CZ_1|1018KB/s
+  type: vless
+  uuid: 7412605e-18de-4b34-af4e-82e9f544cc24
+  server: 95.85.231.231
+  port: 42321
+  tls: true
+  sni: www.github.com
+- name: 🇷🇺RU_2|1.1MB/s
   type: vless
   uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
-  server: 185.229.9.31
-  port: 49055
-  tls: true
-  sni: ads.x5.ru
-- name: 🇬🇷GR_1|2.7MB/s
-  type: vless
-  uuid: 8ac637bf-554e-4902-94d7-baf01780a83c
-  server: 94.241.174.157
-  port: 40443
-  tls: true
-  sni: deepl.com
-- name: 🇳🇱NL_6|3.1MB/s
-  type: vless
-  uuid: c7333a4e-b8c9-44d4-aee6-f73bfe203902
-  server: 46.8.69.240
-  port: 35974
-  tls: false
-  sni: ''
-- name: 🇺🇸US_16|1.0MB/s
-  type: vless
-  uuid: cd1c5fdd-3c31-4379-9b44-ef0caef384ae
-  server: 38.244.6.122
-  port: 2053
-  tls: true
-  sni: apple.com
-- name: 🇩🇪DE_3|1.1MB/s
-  type: vless
-  uuid: c59e8787-7367-4198-bbd5-d5789493c3b4
-  server: 85.117.243.4
+  server: 31.177.111.144
   port: 443
   tls: true
-  sni: de2.jailever.org
-- name: 🇯🇵JP_11|2.9MB/s
+  sni: ads.x5.ru
+- name: 🇭🇰HK_20|2.7MB/s
+  type: vless
+  uuid: c739bb1d-5fc7-4f45-acec-534267a1f1e7
+  server: 3696b38bsg.murphyweb.sbs
+  port: 32166
+  tls: true
+  sni: buylite.music.apple.com
+- name: 🇱🇻LV_1|1.0MB/s
+  type: vless
+  uuid: dbacac09-9ee8-400c-b53b-745a769c220a
+  server: 31.170.22.176
+  port: 7443
+  tls: true
+  sni: tv.apple.com
+- name: 🇩🇪DE_3|1.1MB/s
+  type: vless
+  uuid: 74d346bf-768d-4804-bb23-936f5fa91594
+  server: 85.117.243.15
+  port: 443
+  tls: true
+  sni: de5.gracefultun.xyz
+- name: 🇯🇵JP_7|1.3MB/s
   type: vless
   uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
   server: wangcai.cf.877774.xyz
   port: 443
   tls: true
   sni: ex3r.qzz.io
-- name: 🇩🇪DE_4|1.7MB/s
-  type: vless
-  uuid: ff470f2f-564a-461c-b266-c9b90bf50fe0
-  server: 95.163.232.183
+- name: 🇸🇬SG_26|3.8MB/s
+  type: trojan
+  sni: ''
+  password: PQ05174892
+  server: stable-python.rooster465.autos
   port: 443
-  tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇫🇷FR_6|2.1MB/s
+- name: 🇰🇷KR_6|5.0MB/s
   type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  server: 31.56.228.250
-  port: 8443
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+  server: kr1-r.link-t7.com
+  port: 10046
   tls: true
-  sni: kjgdksgghre466.pages.dev
-- name: 🇫🇷FR_7|2.8MB/s
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_27|3.9MB/s
   type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  server: 188.130.207.119
-  port: 2053
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+  server: sg4-r.link-t7.com
+  port: 10039
   tls: true
-  sni: kjgdksgghre466.pages.dev
+  sni: d1.awsstatic.com
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -408,56 +334,46 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|4.1MB/s
-  - 🇯🇵JP_2|5.1MB/s
-  - 🇯🇵JP_4|5.8MB/s
-  - 🇰🇷KR_1|3.2MB/s
-  - 🇰🇷KR_2|5.4MB/s
-  - 🇰🇷KR_3|2.9MB/s
-  - 🇷🇺RU_1|1.3MB/s
-  - 🇸🇬SG_1|4.1MB/s
-  - 🇸🇬SG_2|5.2MB/s
-  - 🇺🇸US_1|2.6MB/s
-  - 🇫🇷FR_1|1.0MB/s
-  - 🇳🇱NL_1|1.6MB/s
-  - 🇳🇱NL_2|2.3MB/s
-  - 🇵🇱PL_2|1.4MB/s
-  - 🇫🇷FR_2|1.2MB/s
-  - 🇫🇷FR_3|1.0MB/s
-  - 🇫🇷FR_4|3.9MB/s
-  - 🇺🇸US_4|3.0MB/s
-  - 🇯🇵JP_7|1.4MB/s
-  - 🇯🇵JP_6|2.4MB/s
-  - 🇺🇸US_9|1.0MB/s
-  - 🇩🇪DE_2|1.2MB/s
-  - 🇺🇸US_12|1.1MB/s
-  - 🇺🇸US_13|1.1MB/s
-  - 🇯🇵JP_8|5.8MB/s
-  - 🇸🇬SG_8|5.3MB/s
-  - 🇰🇷KR_8|5.0MB/s
-  - 🇸🇬SG_9|3.6MB/s
-  - 🇸🇬SG_10|4.8MB/s
-  - 🇯🇵JP_9|4.4MB/s
-  - 🇸🇬SG_11|4.5MB/s
-  - 🇯🇵JP_10|3.6MB/s
-  - 🇸🇬SG_12|4.3MB/s
-  - 🇸🇬SG_13|4.5MB/s
-  - 🇰🇷KR_9|5.3MB/s
-  - 🇬🇧GB_2|1.2MB/s
-  - 🇳🇱NL_4|1.6MB/s
-  - 🇦🇪AE_1|1.8MB/s
-  - 🇺🇦UA_1|1.2MB/s
-  - 🇫🇷FR_5|2.9MB/s
-  - 🇵🇱PL_3|1.3MB/s
-  - 🇳🇱NL_5|2.2MB/s
-  - 🇬🇷GR_1|2.7MB/s
-  - 🇳🇱NL_6|3.1MB/s
-  - 🇺🇸US_16|1.0MB/s
+  - 🇯🇵JP_1|4.2MB/s
+  - 🇰🇷KR_1|3.8MB/s
+  - 🇰🇷KR_2|4.9MB/s
+  - 🇰🇷KR_3|5.3MB/s
+  - 🇷🇺RU_1|1.4MB/s
+  - 🇸🇬SG_1|4.6MB/s
+  - 🇸🇬SG_2|4.2MB/s
+  - 🇺🇸US_2|3.4MB/s
+  - 🇸🇬SG_12|4.4MB/s
+  - 🇸🇬SG_11|4.0MB/s
+  - 🇯🇵JP_6|1.8MB/s
+  - 🇭🇰HK_3|1.7MB/s
+  - 🇭🇰HK_6|2.4MB/s
+  - 🇫🇷FR_1|1.4MB/s
+  - 🇰🇷KR_4|4.2MB/s
+  - 🇯🇵JP_3|5.6MB/s
+  - 🇸🇬SG_6|4.6MB/s
+  - 🇸🇬SG_13|4.6MB/s
+  - 🇸🇬SG_21|4.4MB/s
+  - 🇸🇬SG_25|4.1MB/s
+  - 🇯🇵JP_4|4.7MB/s
+  - 🇸🇬SG_23|5.3MB/s
+  - 🇸🇬SG_17|1.2MB/s
+  - 🇸🇬SG_18|1.2MB/s
+  - 🇸🇬SG_19|1.2MB/s
+  - 🇸🇬SG_20|5.2MB/s
+  - 🇸🇬SG_22|2.0MB/s
+  - 🇸🇬SG_24|3.6MB/s
+  - 🇭🇰HK_19|1.4MB/s
+  - 🇦🇪AE_1|1.0MB/s
+  - 🇦🇪AE_2|1.1MB/s
+  - 🇨🇿CZ_1|1018KB/s
+  - 🇷🇺RU_2|1.1MB/s
+  - 🇭🇰HK_20|2.7MB/s
+  - 🇱🇻LV_1|1.0MB/s
   - 🇩🇪DE_3|1.1MB/s
-  - 🇯🇵JP_11|2.9MB/s
-  - 🇩🇪DE_4|1.7MB/s
-  - 🇫🇷FR_6|2.1MB/s
-  - 🇫🇷FR_7|2.8MB/s
+  - 🇯🇵JP_7|1.3MB/s
+  - 🇸🇬SG_26|3.8MB/s
+  - 🇰🇷KR_6|5.0MB/s
+  - 🇸🇬SG_27|3.9MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
