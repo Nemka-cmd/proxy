@@ -1,36 +1,43 @@
 proxies:
-- name: 🇯🇵JP_1|1.5MB/s
+- name: 🇯🇵JP_1|1.7MB/s
   type: trojan
   sni: accepted-starling.rooster465.autos
   password: HC04361579
   server: accepted-starling.rooster465.autos
   port: 443
-- name: 🇺🇸US_2|1.2MB/s
+- name: 🇩🇪DE_1|1.0MB/s
   type: vless
-  uuid: 01479a99-4222-6bec-8093-47353b3991b9
-  server: inetchnl-production-48d6.up.railway.app
+  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
+  server: 104.24.152.211
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇯🇵JP_3|1.9MB/s
+  type: vless
+  uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
+  server: 103.100.158.10
   port: 443
   tls: true
-  sni: inetchnl-production-48d6.up.railway.app
-- name: 🇭🇰HK_11|5.2MB/s
+  sni: www.apple.com
+- name: 🇺🇸US_2|1019KB/s
   type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-  server: 36.248.14.90
-  port: 14343
+  uuid: cdb85d6c-c110-bd72-d30b-601e737aea01
+  server: 69.46.46.21
+  port: 443
   tls: true
-  sni: thuk.huaweiyouxuan.com
-- name: 🇯🇵JP_3|5.9MB/s
+  sni: rvg-production-5107.up.railway.app
+- name: 🇺🇸US_4|1.2MB/s
   type: trojan
-  sni: driven-doberman.rooster465.autos
-  password: HC04361579
-  server: driven-doberman.rooster465.autos
-  port: 443
-- name: 🇰🇷KR_2|3.7MB/s
+  sni: ucyxc.southbyte.xyz
+  password: fg20mtCFHy
+  server: 128.14.180.210
+  port: 5444
+- name: 🇺🇸US_5|2.6MB/s
   type: trojan
-  sni: quick-ant.rooster465.autos
-  password: HC04361579
-  server: quick-ant.rooster465.autos
-  port: 443
+  sni: sfouctc.southbyte.xyz
+  password: fg20mtCFHy
+  server: 147.182.198.83
+  port: 5444
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -111,11 +118,12 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|1.5MB/s
-  - 🇺🇸US_2|1.2MB/s
-  - 🇭🇰HK_11|5.2MB/s
-  - 🇯🇵JP_3|5.9MB/s
-  - 🇰🇷KR_2|3.7MB/s
+  - 🇯🇵JP_1|1.7MB/s
+  - 🇩🇪DE_1|1.0MB/s
+  - 🇯🇵JP_3|1.9MB/s
+  - 🇺🇸US_2|1019KB/s
+  - 🇺🇸US_4|1.2MB/s
+  - 🇺🇸US_5|2.6MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
