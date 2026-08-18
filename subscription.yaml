@@ -1,43 +1,10 @@
 proxies:
-- name: 🇯🇵JP_1|1.7MB/s
+- name: 🇯🇵JP_1|5.5MB/s
   type: trojan
-  sni: accepted-starling.rooster465.autos
+  sni: legible-ocelot.rooster465.autos
   password: HC04361579
-  server: accepted-starling.rooster465.autos
+  server: legible-ocelot.rooster465.autos
   port: 443
-- name: 🇩🇪DE_1|1.0MB/s
-  type: vless
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  server: 104.24.152.211
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_3|1.9MB/s
-  type: vless
-  uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
-  server: 103.100.158.10
-  port: 443
-  tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_2|1019KB/s
-  type: vless
-  uuid: cdb85d6c-c110-bd72-d30b-601e737aea01
-  server: 69.46.46.21
-  port: 443
-  tls: true
-  sni: rvg-production-5107.up.railway.app
-- name: 🇺🇸US_4|1.2MB/s
-  type: trojan
-  sni: ucyxc.southbyte.xyz
-  password: fg20mtCFHy
-  server: 128.14.180.210
-  port: 5444
-- name: 🇺🇸US_5|2.6MB/s
-  type: trojan
-  sni: sfouctc.southbyte.xyz
-  password: fg20mtCFHy
-  server: 147.182.198.83
-  port: 5444
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -118,12 +85,7 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|1.7MB/s
-  - 🇩🇪DE_1|1.0MB/s
-  - 🇯🇵JP_3|1.9MB/s
-  - 🇺🇸US_2|1019KB/s
-  - 🇺🇸US_4|1.2MB/s
-  - 🇺🇸US_5|2.6MB/s
+  - 🇯🇵JP_1|5.5MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
