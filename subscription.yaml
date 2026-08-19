@@ -1,167 +1,200 @@
 proxies:
-- name: 🇯🇵JP_1|5.7MB/s
-  type: trojan
-  sni: pet-albacore.rooster465.autos
-  password: HC04361579
-  server: pet-albacore.rooster465.autos
-  port: 443
-- name: 🇺🇸US_1|1.8MB/s
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  server: 38.180.242.205
-  port: 13779
-  tls: true
-  sni: tesla.com
-- name: 🇩🇪DE_1|1.3MB/s
-  type: trojan
-  sni: ''
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-  server: ru-5b7331.atlanta-games.com
-  port: 443
-- name: 🇯🇵JP_2|1.0MB/s
-  type: vless
-  uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
-  server: 103.100.158.10
-  port: 443
-  tls: true
-  sni: www.apple.com
-- name: 🇩🇪DE_2|1.5MB/s
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  server: 194.93.0.28
-  port: 443
-  tls: true
-  sni: media2.tcpdoor.net
-- name: 🇩🇪DE_3|1.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.79.230.55
-  port: 443
-- name: 🇩🇪DE_4|1.4MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: wh/mzP9iT6c54QgTLig1SPpUQ0j2kv9x6Fm8CQF7zFo=
-  server: 130.61.102.33
-  port: 59924
-- name: 🇸🇪SE_1|2.4MB/s
+- name: 🇸🇪SE_1|1.3MB/s
   type: trojan
   sni: yugdv.southbyte.xyz
   password: fg20mtCFHy
   server: 172.234.100.80
   port: 5612
-- name: 🇬🇧GB_1|2.5MB/s
+- name: 🇯🇵JP_1|1.1MB/s
   type: vless
-  uuid: 6364f692-a1ed-45e2-ab16-acbc19481ca1
-  server: ig0wuyifeefa.dop99.com
-  port: 24151
-  tls: true
-  sni: ig0wuyifeefa.dop99.com
-- name: 🇳🇱NL_1|3.4MB/s
-  type: trojan
-  sni: inxgc.southbyte.xyz
-  password: fg20mtCFHy
-  server: 206.189.7.80
-  port: 5446
-- name: 🇺🇸US_18|1.4MB/s
-  type: vless
-  uuid: 272da5ff-f7ff-4ef6-b148-793d2cd4182f
-  server: service-46d1f1-759443-production.up.railway.app
+  uuid: 048a61f8-b236-4082-b1c3-c22a85693c12
+  server: 64cq-19370l2.meiboyun.cloud
   port: 443
   tls: true
-  sni: service-46d1f1-759443-production.up.railway.app
-- name: 🇸🇬SG_1|1.9MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: LYuXPKlNF1V2jY/UWxFA8wrIRzwPeCLkqqk/6y12TK8=
-  server: 168.138.177.12
-  port: 56927
-- name: 🇩🇪DE_6|4.5MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: RN0dGU/NAYohNIxZ5fu2lARksVacVsxpo5MslRTjV8o=
-  server: 92.5.97.62
-  port: 59924
-- name: 🇩🇪DE_7|2.3MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: UAlY4A4hBNA+rbG6GFDiPxtG0ignsp7+AQKrRYXtZq4=
-  server: 144.24.179.100
-  port: 59924
-- name: 🇰🇷KR_5|3.3MB/s
+  sni: www.cloudflare.com
+- name: 🇩🇪DE_1|5.0MB/s
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 63.183.54.159
+  port: 22222
+  tls: false
+  sni: ''
+- name: 🇺🇸US_2|2.7MB/s
+  type: vless
+  uuid: df2557f7-e6b5-e192-9b0e-d5f902c062d5
+  server: 69.46.46.123
+  port: 443
+  tls: true
+  sni: x4g-production-7513.up.railway.app
+- name: 🇳🇱NL_2|1.7MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 193.123.36.56
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇰🇷KR_2|4.7MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.235
   port: 65443
-- name: 🇩🇪DE_8|1.3MB/s
+- name: 🇩🇪DE_3|2.5MB/s
   type: trojan
-  sni: ru-5b7331.atlanta-games.com
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-  server: 176.108.242.191
-  port: 443
-- name: 🇨🇦CA_1|1.3MB/s
-  type: trojan
-  sni: sfecv.southbyte.xyz
+  sni: uyped.southbyte.xyz
   password: fg20mtCFHy
-  server: 137.184.172.41
-  port: 1921
-- name: 🇧🇪BE_1|1.7MB/s
+  server: 209.38.240.27
+  port: 5859
+- name: 🇳🇱NL_3|2.0MB/s
   type: vless
-  uuid: 4b7a69d9-74cd-4ab2-bfb3-1d2093e8179f
-  server: 0u1b-m23jqv.jumpnest.top
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: 85.155.226.200
   port: 443
   tls: true
-  sni: www.bing.com
-- name: 🇵🇪PE_1|3.1MB/s
-  type: vless
-  uuid: 4caaaae0-516b-4026-b2b2-69fea69df19a
-  server: 5r86-tuq187.operix.top
+  sni: getsavesafe.net
+- name: 🇺🇸US_21|2.4MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  server: cdn.shopify.com
+  port: 80
+- name: 🇩🇪DE_5|3.4MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: RN0dGU/NAYohNIxZ5fu2lARksVacVsxpo5MslRTjV8o=
+  server: 92.5.97.62
+  port: 59924
+- name: 🇯🇵JP_2|4.3MB/s
+  type: trojan
+  sni: upright-sheepdog.rooster465.autos
+  password: EQ30679154
+  server: upright-sheepdog.rooster465.autos
   port: 443
-  tls: true
-  sni: www.bing.com
-- name: 🇯🇵JP_3|3.9MB/s
+- name: 🇺🇸US_22|2.3MB/s
   type: vless
-  uuid: 696338ec-091d-4b41-b855-8f88d5b5d873
-  server: 103.76.85.228
+  uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  server: 2.27.201.57
+  port: 2053
+  tls: true
+  sni: ni.cryptoofarm.com
+- name: 🇯🇵JP_3|2.5MB/s
+  type: vless
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
+  server: 35.200.86.178
+  port: 21143
+  tls: true
+  sni: www.spotify.com
+- name: 🇮🇱IL_1|3.3MB/s
+  type: vless
+  uuid: 2c368215-ac89-4787-9762-edb2c9947630
+  server: 185.95.231.156
   port: 443
   tls: true
   sni: www.apple.com
-- name: 🇬🇧GB_2|1.9MB/s
+- name: 🇱🇻LV_1|2.8MB/s
   type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 195.184.247.225
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  server: 195.123.210.168
+  port: 13443
+  tls: true
+  sni: auto.cendora.ru
+- name: 🇩🇪DE_6|2.9MB/s
+  type: vless
+  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
+  server: 2.26.71.73
   port: 443
   tls: true
-  sni: savesafe.co
-- name: 🇺🇸US_20|2.4MB/s
+  sni: www.cloudflare.com
+- name: 🇸🇬SG_2|2.0MB/s
   type: vless
-  uuid: c711d66c-021b-4644-b6b4-1b507bbeeac2
-  server: abc-production-bf72.up.railway.app
+  uuid: 6179bb85-fd73-4aa1-a10d-a7c017306c1b
+  server: 6ucb-1936he6.qvanta.top
   port: 443
   tls: true
-  sni: abc-production-bf72.up.railway.app
-- name: 🇺🇸US_21|4.4MB/s
+  sni: www.bing.com
+- name: 🇺🇸US_23|4.1MB/s
   type: vless
-  uuid: e1588d14-0a16-483f-9d54-cf521541035b
-  server: 154.29.155.211
+  uuid: 634e717c-951c-3d10-e22c-17a1e856ce4c
+  server: rvg-production-b2de.up.railway.app
+  port: 443
+  tls: true
+  sni: rvg-production-b2de.up.railway.app
+- name: 🇺🇸US_24|4.1MB/s
+  type: vless
+  uuid: 83c18ff2-0565-4b53-89ad-57357fef153b
+  server: rssm-1btto92.joxenly.com
+  port: 443
+  tls: true
+  sni: www.bing.com
+- name: 🇬🇧GB_2|2.7MB/s
+  type: vless
+  uuid: a8307b5d-2d9e-4d34-912d-5b5dd8340082
+  server: uk.zelnora.ir
+  port: 64584
+  tls: false
+  sni: ''
+- name: 🇫🇮FI_2|3.1MB/s
+  type: vless
+  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
+  server: 85.192.49.151
+  port: 443
+  tls: true
+  sni: de.servers.gracevpnbuy.com
+- name: 🇻🇳VN_1|2.1MB/s
+  type: vless
+  uuid: c08c499f-21bd-46ba-9146-5c770204342b
+  server: wf1y-1o2rzho.rixora.top
   port: 443
   tls: true
   sni: www.apple.com
-- name: 🇦🇹AT_1|3.6MB/s
+- name: 🇧🇷BR_1|1.2MB/s
   type: vless
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  server: 152.53.1.40
+  uuid: c396fa08-e07a-459b-b894-389456fd6a82
+  server: u234-6njjdk.startora.top
   port: 443
   tls: true
-  sni: at.quattro-tech.ru
-- name: ❓Other_1|1.0MB/s
+  sni: www.amazon.com
+- name: 🇭🇰HK_3|1.3MB/s
   type: vless
-  uuid: 16965742-1254-4035-da01-fbc924653b4d
-  server: s2.zynetraq.ir
-  port: 2087
+  uuid: e01b5875-0b0b-4056-bbf5-0b0ecdc97937
+  server: 9wf3-zili1w.laurelmedco.com
+  port: 443
   tls: true
-  sni: s2.zynetraq.ir
+  sni: www.cloudflare.com
+- name: 🇬🇧GB_3|1.1MB/s
+  type: vless
+  uuid: f6da8274-44be-4599-a8d8-66929c980677
+  server: 85.137.249.157
+  port: 2054
+  tls: true
+  sni: max.ru
+- name: 🇳🇱NL_6|1.9MB/s
+  type: vless
+  uuid: f82332b2-dc8c-4196-ac12-f276e37e278a
+  server: 103.112.71.85
+  port: 443
+  tls: true
+  sni: test.bridge.anti-zapret.com
+- name: 🇺🇸US_25|2.9MB/s
+  type: vless
+  uuid: 4a138a13-8cf7-8802-8187-4b939d9d12c2
+  server: inetchnl-production-f329.up.railway.app
+  port: 443
+  tls: true
+  sni: inetchnl-production-f329.up.railway.app
+- name: 🇰🇷KR_5|1.3MB/s
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  server: 155.117.199.13
+  port: 39213
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: 🇱🇺LU_1|3.4MB/s
+  type: trojan
+  sni: ''
+  password: EQ30679154
+  server: pretty-mollusk.rooster465.autos
+  port: 443
 - name: JP_speednode_0014
   type: trojan
   sni: t11.qifei.app
@@ -242,31 +275,35 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|5.7MB/s
-  - 🇺🇸US_1|1.8MB/s
-  - 🇩🇪DE_1|1.3MB/s
-  - 🇯🇵JP_2|1.0MB/s
-  - 🇩🇪DE_2|1.5MB/s
-  - 🇩🇪DE_3|1.1MB/s
-  - 🇩🇪DE_4|1.4MB/s
-  - 🇸🇪SE_1|2.4MB/s
-  - 🇬🇧GB_1|2.5MB/s
-  - 🇳🇱NL_1|3.4MB/s
-  - 🇺🇸US_18|1.4MB/s
-  - 🇸🇬SG_1|1.9MB/s
-  - 🇩🇪DE_6|4.5MB/s
-  - 🇩🇪DE_7|2.3MB/s
-  - 🇰🇷KR_5|3.3MB/s
-  - 🇩🇪DE_8|1.3MB/s
-  - 🇨🇦CA_1|1.3MB/s
-  - 🇧🇪BE_1|1.7MB/s
-  - 🇵🇪PE_1|3.1MB/s
-  - 🇯🇵JP_3|3.9MB/s
-  - 🇬🇧GB_2|1.9MB/s
-  - 🇺🇸US_20|2.4MB/s
-  - 🇺🇸US_21|4.4MB/s
-  - 🇦🇹AT_1|3.6MB/s
-  - ❓Other_1|1.0MB/s
+  - 🇸🇪SE_1|1.3MB/s
+  - 🇯🇵JP_1|1.1MB/s
+  - 🇩🇪DE_1|5.0MB/s
+  - 🇺🇸US_2|2.7MB/s
+  - 🇳🇱NL_2|1.7MB/s
+  - 🇰🇷KR_2|4.7MB/s
+  - 🇩🇪DE_3|2.5MB/s
+  - 🇳🇱NL_3|2.0MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - 🇩🇪DE_5|3.4MB/s
+  - 🇯🇵JP_2|4.3MB/s
+  - 🇺🇸US_22|2.3MB/s
+  - 🇯🇵JP_3|2.5MB/s
+  - 🇮🇱IL_1|3.3MB/s
+  - 🇱🇻LV_1|2.8MB/s
+  - 🇩🇪DE_6|2.9MB/s
+  - 🇸🇬SG_2|2.0MB/s
+  - 🇺🇸US_23|4.1MB/s
+  - 🇺🇸US_24|4.1MB/s
+  - 🇬🇧GB_2|2.7MB/s
+  - 🇫🇮FI_2|3.1MB/s
+  - 🇻🇳VN_1|2.1MB/s
+  - 🇧🇷BR_1|1.2MB/s
+  - 🇭🇰HK_3|1.3MB/s
+  - 🇬🇧GB_3|1.1MB/s
+  - 🇳🇱NL_6|1.9MB/s
+  - 🇺🇸US_25|2.9MB/s
+  - 🇰🇷KR_5|1.3MB/s
+  - 🇱🇺LU_1|3.4MB/s
   - JP_speednode_0014
   - MU_speednode_0015
   - SE_speednode_0116
