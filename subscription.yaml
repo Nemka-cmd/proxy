@@ -1,4 +1,17 @@
 proxies:
+- name: 🇸🇬SG_1|2.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 120.232.253.90
+  port: 65443
+- name: 🇩🇰DK_1|1.2MB/s
+  type: vless
+  uuid: 9f2f3e55-a8a6-40f3-aeb2-1061e9207d4d
+  server: ipw.ygdfw.com
+  port: 443
+  tls: true
+  sni: p2bm6l1.freelanceriran98.ir
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -6,31 +19,13 @@ proxies:
   port: 29893
   tls: true
   sni: cdnjs.cloudflare.com
-- name: US_speednode_0142
+- name: 🇭🇰HK_2|2.0MB/s
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
   server: 155.117.199.13
-  port: 39211
+  port: 31723
   tls: true
   sni: cdnjs.cloudflare.com
-- name: 🇺🇸US_1|1.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.188.213.207
-  port: 443
-- name: 🇰🇷KR_2|3.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.235
-  port: 65443
-- name: 🇺🇸US_2|1.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.234
-  port: 65443
 - name: US_speednode_0130
   type: vless
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
@@ -38,6 +33,38 @@ proxies:
   port: 443
   tls: true
   sni: www.apple.com
+- name: 🇺🇸US_3|1.1MB/s
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  server: 104.17.123.101
+  port: 2083
+  tls: true
+  sni: wzknb.pages.dev
+- name: 🇰🇷KR_1|1.1MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.235
+  port: 65443
+- name: 🇺🇸US_4|2.4MB/s
+  type: vless
+  uuid: 2a838e0a-21e4-4d0a-b467-3ad45686f34e
+  server: 69.46.46.150
+  port: 443
+  tls: true
+  sni: web-production-ca609.up.railway.app
+- name: 🇹🇼TW_1|1.6MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 120.232.253.89
+  port: 65443
+- name: 🇭🇰HK_4|4.7MB/s
+  type: trojan
+  sni: www.nintendogames.net
+  password: 6ec301428255a78a1d826988d86cc87e
+  server: 2c.fast9988.com
+  port: 50887
 - name: US_speednode_0137
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -45,81 +72,76 @@ proxies:
   port: 39399
   tls: true
   sni: cdnjs.cloudflare.com
-- name: 🇭🇰HK_1|3.6MB/s
+- name: 🇭🇰HK_5|1.6MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 120.232.253.96
   port: 65443
-- name: 🇭🇰HK_2|4.1MB/s
+- name: 🇭🇰HK_6|5.6MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 120.232.253.97
   port: 65443
-- name: 🇰🇷KR_3|4.1MB/s
+- name: 🇰🇷KR_2|1000KB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.138
   port: 65443
-- name: 🇸🇬SG_1|3.4MB/s
+- name: 🇺🇸US_6|1.5MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  server: cdn.shopify.com
+  port: 80
+- name: 🇸🇬SG_3|4.1MB/s
   type: trojan
   sni: picked-hamster.rooster465.autos
   password: EQ30679154
   server: 18.143.129.104
   port: 443
-- name: 🇯🇵JP_1|5.6MB/s
-  type: trojan
-  sni: wealthy-gobbler.rooster465.autos
-  password: EQ30679154
-  server: 3.113.25.197
-  port: 443
-- name: 🇯🇵JP_2|4.6MB/s
-  type: trojan
-  sni: concise-grackle.rooster465.autos
-  password: EQ30679154
-  server: concise-grackle.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_2|3.8MB/s
-  type: trojan
-  sni: internal-raccoon.rooster465.autos
-  password: EQ30679154
-  server: internal-raccoon.rooster465.autos
-  port: 443
-- name: 🇸🇬SG_3|4.4MB/s
+- name: 🇸🇬SG_4|3.4MB/s
   type: trojan
   sni: modest-bat.rooster465.autos
   password: EQ30679154
+  server: 47.128.217.39
+  port: 443
+- name: 🇸🇬SG_5|3.6MB/s
+  type: trojan
+  sni: ''
+  password: EQ30679154
   server: modest-bat.rooster465.autos
   port: 443
-- name: 🇨🇦CA_1|2.1MB/s
+- name: 🇺🇸US_7|1002KB/s
   type: vless
-  uuid: 7a1e59f5-ec16-4a5e-9bfb-bb6c0706c09b
-  server: 172.67.74.2
-  port: 8443
-  tls: true
-  sni: ssl.miloi8dmz.top
-- name: 🇦🇹AT_1|1.6MB/s
-  type: vless
-  uuid: 9f2f3e55-a8a6-40f3-aeb2-1061e9207d4d
-  server: 104.17.108.69
+  uuid: 47c6b6f5-f2d0-4965-8bd0-a0d33bbfa740
+  server: adad-production.up.railway.app
   port: 443
   tls: true
-  sni: 4fspx0q.uploodmusicmelody.ir
-- name: 🇹🇼TW_1|4.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 120.232.253.89
-  port: 65443
-- name: 🇸🇬SG_5|2.7MB/s
+  sni: adad-production.up.railway.app
+- name: 🇳🇱NL_1|1.0MB/s
   type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-  server: 155.117.199.13
-  port: 31873
+  uuid: 69905896-b1a3-40d1-aade-08cda66ef98c
+  server: adfad-production-76bd.up.railway.app
+  port: 443
   tls: true
-  sni: cdnjs.cloudflare.com
+  sni: adfad-production-76bd.up.railway.app
+- name: 🇸🇬SG_6|1.2MB/s
+  type: vless
+  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  server: cloudgp-sgp-a.outleft-hy.xyz
+  port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇳🇱NL_2|1.2MB/s
+  type: vless
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  server: 176.117.75.143
+  port: 2087
+  tls: true
+  sni: www.cloudflare.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -148,6 +170,13 @@ proxies:
   port: 443
   tls: true
   sni: www.cloudflare.com
+- name: US_speednode_0142
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  server: 155.117.199.13
+  port: 39211
+  tls: true
+  sni: cdnjs.cloudflare.com
 - name: US_speednode_0144
   type: vless
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
@@ -159,29 +188,33 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
+  - 🇸🇬SG_1|2.9MB/s
+  - 🇩🇰DK_1|1.2MB/s
   - US_speednode_0136
-  - US_speednode_0142
-  - 🇺🇸US_1|1.2MB/s
-  - 🇰🇷KR_2|3.9MB/s
-  - 🇺🇸US_2|1.0MB/s
+  - 🇭🇰HK_2|2.0MB/s
   - US_speednode_0130
+  - 🇺🇸US_3|1.1MB/s
+  - 🇰🇷KR_1|1.1MB/s
+  - 🇺🇸US_4|2.4MB/s
+  - 🇹🇼TW_1|1.6MB/s
+  - 🇭🇰HK_4|4.7MB/s
   - US_speednode_0137
-  - 🇭🇰HK_1|3.6MB/s
-  - 🇭🇰HK_2|4.1MB/s
-  - 🇰🇷KR_3|4.1MB/s
-  - 🇸🇬SG_1|3.4MB/s
-  - 🇯🇵JP_1|5.6MB/s
-  - 🇯🇵JP_2|4.6MB/s
-  - 🇸🇬SG_2|3.8MB/s
-  - 🇸🇬SG_3|4.4MB/s
-  - 🇨🇦CA_1|2.1MB/s
-  - 🇦🇹AT_1|1.6MB/s
-  - 🇹🇼TW_1|4.5MB/s
-  - 🇸🇬SG_5|2.7MB/s
+  - 🇭🇰HK_5|1.6MB/s
+  - 🇭🇰HK_6|5.6MB/s
+  - 🇰🇷KR_2|1000KB/s
+  - 🇺🇸US_6|1.5MB/s
+  - 🇸🇬SG_3|4.1MB/s
+  - 🇸🇬SG_4|3.4MB/s
+  - 🇸🇬SG_5|3.6MB/s
+  - 🇺🇸US_7|1002KB/s
+  - 🇳🇱NL_1|1.0MB/s
+  - 🇸🇬SG_6|1.2MB/s
+  - 🇳🇱NL_2|1.2MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0138
   - US_speednode_0139
+  - US_speednode_0142
   - US_speednode_0144
   url: https://www.gstatic.com/generate_204
   interval: 300
