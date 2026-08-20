@@ -1,219 +1,43 @@
 proxies:
-- name: 🇭🇰HK_1|1.6MB/s
+- name: 🇬🇧GB_1|1.0MB/s
   type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 120.232.250.161
-  port: 65443
-- name: 🇫🇮FI_1|2.8MB/s
-  type: vless
-  uuid: 9ffc4b42-7aa7-4b8c-8420-72ecb8398a25
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_1|3.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 63.178.246.78
-  port: 443
-- name: 🇩🇪DE_2|4.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.153.64.41
-  port: 443
-- name: 🇬🇧GB_1|3.7MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: api.getsavesafe.space
-  port: 443
-  tls: true
-  sni: api.getsavesafe.space
-- name: 🇭🇰HK_2|3.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 120.232.253.96
-  port: 65443
-- name: 🇸🇬SG_1|1010KB/s
-  type: vless
-  uuid: be154d71-04ca-4389-8a89-d14219b25cd7
-  server: yebm-1936hwy.revora.top
-  port: 443
-  tls: true
-  sni: www.bing.com
-- name: 🇹🇷TR_1|1.0MB/s
-  type: vless
-  uuid: 13efddd3-1a20-49f3-bbbe-f5b530398bb6
-  server: tr.cellser.ir
-  port: 57728
-  tls: true
-  sni: www.yahoo.com
-- name: 🇹🇷TR_2|1.4MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: tr.savesafe.cc
-  port: 443
-  tls: true
-  sni: tr.savesafe.cc
-- name: 🇺🇸US_2|3.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.145.35.194
-  port: 443
-- name: 🇩🇪DE_3|3.1MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
-  server: e2.cover20.ir
-  port: 30874
-- name: 🇫🇷FR_1|1.8MB/s
+  cipher: 2022-blake3-chacha20-poly1305
+  password: DlT2mkkr4HdSTn3gCzKZ8iF+//KKBL8Kw2ytl1qprhU=
+  server: 129.151.77.233
+  port: 61312
+- name: 🇯🇵JP_1|4.1MB/s
   type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.225
-  port: 443
-- name: 🇪🇸ES_1|1.8MB/s
-  type: vless
-  uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  server: 200.234.227.64
-  port: 8443
-  tls: true
-  sni: sp.crsmaps.com
-- name: 🇰🇷KR_1|4.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.235
-  port: 65443
-- name: 🇫🇷FR_2|2.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.221.242
-  port: 443
-- name: 🇫🇷FR_3|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.108
-  port: 443
-- name: 🇺🇸US_3|1.2MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 104.254.140.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇯🇵JP_2|5.6MB/s
-  type: trojan
-  sni: whole-perch.rooster465.autos
+  sni: game-thrush.rooster465.autos
   password: AE62539071
-  server: whole-perch.rooster465.autos
+  server: game-thrush.rooster465.autos
   port: 443
-- name: 🇯🇵JP_3|5.2MB/s
-  type: trojan
-  sni: central-jawfish.rooster465.autos
-  password: AE62539071
-  server: 18.183.135.94
-  port: 443
-- name: 🇯🇵JP_4|5.6MB/s
-  type: trojan
-  sni: outgoing-ladybird.rooster465.autos
-  password: AE62539071
-  server: 54.249.33.71
-  port: 443
-- name: 🇺🇸US_17|2.5MB/s
+- name: 🇺🇸US_3|1.0MB/s
   type: ss
   cipher: 2022-blake3-aes-128-gcm
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
   server: cdn.shopify.com
   port: 80
-- name: 🇯🇵JP_5|4.8MB/s
-  type: trojan
-  sni: ''
-  password: AE62539071
-  server: real-cardinal.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_6|2.4MB/s
-  type: trojan
-  sni: ''
-  password: AE62539071
-  server: whole-perch.rooster465.autos
-  port: 443
-- name: 🇸🇪SE_1|3.2MB/s
-  type: vless
-  uuid: 2569614f-879b-43de-9cd9-9bb304b68856
-  server: 144.31.179.21
-  port: 8443
-  tls: true
-  sni: get4s.skystreamgame.com
-- name: 🇪🇸ES_2|1.1MB/s
-  type: vless
-  uuid: 5238521b-c5dd-42af-870e-c174a2aaaafe
-  server: 113.30.149.18
-  port: 13443
-  tls: true
-  sni: auto.cendora.ru
-- name: 🇬🇧GB_4|1.2MB/s
-  type: vless
-  uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
-  server: 31.76.91.72
-  port: 2087
-  tls: true
-  sni: ads.x5.ru
-- name: 🇯🇵JP_7|1.3MB/s
-  type: vless
-  uuid: 6f339a8a-6c15-4104-a9ef-95f2082e8e53
-  server: 103.76.85.207
-  port: 443
-  tls: true
-  sni: www.apple.com
-- name: 🇮🇹IT_1|1.1MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 37.202.205.70
-  port: 443
-  tls: true
-  sni: it.savesafe.cc
-- name: 🇩🇪DE_5|1.6MB/s
+- name: 🇩🇪DE_1|1.8MB/s
   type: vless
   uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
   server: 46.225.156.169
   port: 2087
   tls: true
   sni: www.bing.com
-- name: 🇨🇦CA_1|1.2MB/s
+- name: 🇭🇰HK_5|3.6MB/s
   type: vless
-  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
-  server: 216.152.147.28
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  server: hk5.miyazono-kaori.com
   port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: 🇫🇮FI_3|3.5MB/s
+  sni: www.hsbc.com.hk
+- name: 🇩🇪DE_2|1.2MB/s
   type: vless
-  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
-  server: fl.musicperec.ru
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  server: de2.miyazono-kaori.com
   port: 443
   tls: true
-  sni: www.amd.com
-- name: 🇸🇪SE_2|1.4MB/s
-  type: vless
-  uuid: 27b16a66-95e0-4c20-b00b-5dff91d9c9f5
-  server: 201.51.8.8
-  port: 443
-  tls: true
-  sni: ser.moktana.app
-- name: 🇳🇱NL_4|1.1MB/s
-  type: vless
-  uuid: c67c8a17-b367-2702-b932-d5b0b9c16d2f
-  server: irhub-production.up.railway.app
-  port: 443
-  tls: true
-  sni: irhub-production.up.railway.app
+  sni: www.siemens.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -274,39 +98,12 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇭🇰HK_1|1.6MB/s
-  - 🇫🇮FI_1|2.8MB/s
-  - 🇩🇪DE_1|3.0MB/s
-  - 🇩🇪DE_2|4.5MB/s
-  - 🇬🇧GB_1|3.7MB/s
-  - 🇭🇰HK_2|3.9MB/s
-  - 🇸🇬SG_1|1010KB/s
-  - 🇹🇷TR_1|1.0MB/s
-  - 🇹🇷TR_2|1.4MB/s
-  - 🇺🇸US_2|3.5MB/s
-  - 🇩🇪DE_3|3.1MB/s
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇪🇸ES_1|1.8MB/s
-  - 🇰🇷KR_1|4.2MB/s
-  - 🇫🇷FR_2|2.2MB/s
-  - 🇫🇷FR_3|1.3MB/s
-  - 🇺🇸US_3|1.2MB/s
-  - 🇯🇵JP_2|5.6MB/s
-  - 🇯🇵JP_3|5.2MB/s
-  - 🇯🇵JP_4|5.6MB/s
-  - 🇺🇸US_17|2.5MB/s
-  - 🇯🇵JP_5|4.8MB/s
-  - 🇯🇵JP_6|2.4MB/s
-  - 🇸🇪SE_1|3.2MB/s
-  - 🇪🇸ES_2|1.1MB/s
-  - 🇬🇧GB_4|1.2MB/s
-  - 🇯🇵JP_7|1.3MB/s
-  - 🇮🇹IT_1|1.1MB/s
-  - 🇩🇪DE_5|1.6MB/s
-  - 🇨🇦CA_1|1.2MB/s
-  - 🇫🇮FI_3|3.5MB/s
-  - 🇸🇪SE_2|1.4MB/s
-  - 🇳🇱NL_4|1.1MB/s
+  - 🇬🇧GB_1|1.0MB/s
+  - 🇯🇵JP_1|4.1MB/s
+  - 🇺🇸US_3|1.0MB/s
+  - 🇩🇪DE_1|1.8MB/s
+  - 🇭🇰HK_5|3.6MB/s
+  - 🇩🇪DE_2|1.2MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
