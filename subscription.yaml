@@ -1,17 +1,61 @@
 proxies:
-- name: 🇯🇵JP_1|1.1MB/s
+- name: 🇩🇪DE_1|1.4MB/s
   type: vless
-  uuid: fae482df-d9f1-491f-9f9e-1ee522d4560c
-  server: cfyes.ziyoufly.xyz
+  uuid: 09a1022a-4435-4ee5-bf9c-21bf7a274eaf
+  server: 104.25.213.184
   port: 443
   tls: true
-  sni: cf-uh-jp01.23523463.xyz
-- name: 🇫🇷FR_1|2.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 198.41.223.96
+  sni: edge-5fcec8e0.pages.dev
+- name: 🇺🇸US_1|1.4MB/s
+  type: vless
+  uuid: c44af613-813d-403e-95e1-3c0b5e52b09a
+  server: 69.46.46.246
   port: 443
+  tls: true
+  sni: web-production-5167a.up.railway.app
+- name: 🇯🇵JP_1|3.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.136
+  port: 65443
+- name: 🇩🇪DE_2|2.7MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.75.226.122
+  port: 443
+- name: 🇩🇪DE_3|1.3MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.70.135.154
+  port: 443
+- name: 🇫🇷FR_1|2.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 51.44.167.151
+  port: 443
+- name: 🇫🇷FR_2|1.6MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 13.37.226.110
+  port: 443
+- name: 🇺🇸US_2|1.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.147.62.185
+  port: 443
+- name: 🇮🇹IT_1|1.1MB/s
+  type: vless
+  uuid: c52d4d8b-57ba-4875-a00f-2908cfcd54d3
+  server: ita.montago-shop.ir
+  port: 443
+  tls: true
+  sni: amp-api-edge.apps.apple.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -72,8 +116,15 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|1.1MB/s
-  - 🇫🇷FR_1|2.2MB/s
+  - 🇩🇪DE_1|1.4MB/s
+  - 🇺🇸US_1|1.4MB/s
+  - 🇯🇵JP_1|3.2MB/s
+  - 🇩🇪DE_2|2.7MB/s
+  - 🇩🇪DE_3|1.3MB/s
+  - 🇫🇷FR_1|2.5MB/s
+  - 🇫🇷FR_2|1.6MB/s
+  - 🇺🇸US_2|1.9MB/s
+  - 🇮🇹IT_1|1.1MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
