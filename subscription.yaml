@@ -1,21 +1,28 @@
 proxies:
-- name: 🇺🇸US_1|1010KB/s
+- name: 🇸🇬SG_3|4.4MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg==
+  server: evjd8xfji5of.cdn000.com
+  port: 31404
+- name: 🇺🇸US_4|2.3MB/s
+  type: trojan
+  sni: 8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  password: MiTiVPN
+  server: 156.243.83.240
+  port: 443
+- name: 🇯🇵JP_2|1.2MB/s
+  type: vless
+  uuid: 1fb60770-fc92-480f-801f-4e4e05af88b3
+  server: 103.76.85.213
+  port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇩🇪DE_2|1.0MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: A23Zvh1OLiC2Y+dr+da8RDCNlqeYEdn6Luu/gWk/6rs=
-  server: 129.153.203.166
-  port: 50356
-- name: 🇰🇷KR_3|2.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.138
-  port: 65443
-- name: 🇩🇪DE_3|2.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: iMCyLh/KjHKyfw2Y9uT9AK5zu6o04oI6AtshYHbgpVY=
-  server: 130.61.148.92
+  password: m2uw0zJCvMeApdVNQ2W+3mYHHsMk1YTubdnEnSRkj20=
+  server: 130.61.38.10
   port: 59924
 - name: US_speednode_0132
   type: vless
@@ -77,9 +84,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇺🇸US_1|1010KB/s
-  - 🇰🇷KR_3|2.0MB/s
-  - 🇩🇪DE_3|2.2MB/s
+  - 🇸🇬SG_3|4.4MB/s
+  - 🇺🇸US_4|2.3MB/s
+  - 🇯🇵JP_2|1.2MB/s
+  - 🇩🇪DE_2|1.0MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
