@@ -1,73 +1,30 @@
 proxies:
-- name: 🇨🇿CZ_1|2.5MB/s
+- name: 日本3|@ripaojiedian
+  type: trojan
+  sni: www.nintendogames.net
+  password: d5517dedef425597a1b9fdbaad99544e
+  server: 18.163.126.92
+  port: 18617
+- name: 🇮🇩ID_1|2.5MB/s
   type: vless
   uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
   server: family.bucket.9.kfc-520.com
-  port: 10050
+  port: 10053
   tls: true
-  sni: www.hp.com
-- name: 🇩🇪DE_1|1.6MB/s
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  server: family.bucket.9.kfc-520.com
-  port: 10037
-  tls: true
-  sni: www.adobe.com
-- name: 🇪🇸ES_1|2.4MB/s
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  server: family.bucket.9.kfc-520.com
-  port: 10047
-  tls: true
-  sni: www.adobe.com
-- name: 🇦🇪AE_1|3.1MB/s
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  server: family.bucket.6.kfc-520.com
-  port: 10016
-  tls: true
-  sni: www.sap.com
-- name: 🇺🇸US_1|1.6MB/s
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  server: 64.186.226.124
-  port: 13779
-  tls: true
-  sni: tesla.com
-- name: 🇯🇵JP_1|4.0MB/s
+  sni: www.amd.com
+- name: 🇺🇸US_1|1.0MB/s
   type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.136
-  port: 65443
-- name: 🇫🇮FI_1|1.2MB/s
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ifrTlZy7Avf81frUk4hicQ8bxe7Vm9kV+JngePHDDTk=
+  server: 161.153.119.148
+  port: 50356
+- name: US_speednode_0132
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  server: 152.53.102.141
-  port: 443
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  server: 51.81.223.225
+  port: 11094
   tls: true
-  sni: forfreeuse.rtqa.ru
-- name: 🇩🇪DE_3|1.6MB/s
-  type: vless
-  uuid: 7a04ab9c-493a-43fc-b382-a5adb3b6e2cb
-  server: 116.203.193.15
-  port: 16679
-  tls: false
-  sni: ''
-- name: 🇭🇰HK_2|2.7MB/s
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  server: family.bucket.8.kfc-520.com
-  port: 10025
-  tls: true
-  sni: www.hp.com
-- name: 🇮🇳IN_1|1.9MB/s
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  server: family.bucket.9.kfc-520.com
-  port: 10039
-  tls: true
-  sni: www.adobe.com
+  sni: www.yahoo.com
 - name: US_speednode_0135
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -121,16 +78,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇨🇿CZ_1|2.5MB/s
-  - 🇩🇪DE_1|1.6MB/s
-  - 🇪🇸ES_1|2.4MB/s
-  - 🇦🇪AE_1|3.1MB/s
-  - 🇺🇸US_1|1.6MB/s
-  - 🇯🇵JP_1|4.0MB/s
-  - 🇫🇮FI_1|1.2MB/s
-  - 🇩🇪DE_3|1.6MB/s
-  - 🇭🇰HK_2|2.7MB/s
-  - 🇮🇳IN_1|1.9MB/s
+  - 日本3|@ripaojiedian
+  - 🇮🇩ID_1|2.5MB/s
+  - 🇺🇸US_1|1.0MB/s
+  - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
