@@ -1,28 +1,89 @@
 proxies:
-- name: 🇸🇬SG_3|4.4MB/s
+- name: 🇯🇵JP_1|2.5MB/s
   type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg==
-  server: evjd8xfji5of.cdn000.com
-  port: 31404
-- name: 🇺🇸US_4|2.3MB/s
-  type: trojan
-  sni: 8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  password: MiTiVPN
-  server: 156.243.83.240
-  port: 443
-- name: 🇯🇵JP_2|1.2MB/s
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.136
+  port: 65443
+- name: 🇦🇹AT_1|3.4MB/s
   type: vless
-  uuid: 1fb60770-fc92-480f-801f-4e4e05af88b3
-  server: 103.76.85.213
+  uuid: e50f1e5f-2823-4030-9dd2-6c951b6b83d0
+  server: at.24outlook.space
+  port: 2053
+  tls: true
+  sni: at.24outlook.space
+- name: 🇺🇸US_1|2.4MB/s
+  type: vless
+  uuid: 794d546b-1938-482e-a337-fee751909ab4
+  server: spiderpanel-production-44f6.up.railway.app
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇩🇪DE_2|1.0MB/s
+  sni: spiderpanel-production-44f6.up.railway.app
+- name: 🇧🇬BG_1|3.2MB/s
+  type: vless
+  uuid: 289c4c75-9ea6-4c23-bda2-17d32c533db4
+  server: bolguarmarz.horlutr.ir
+  port: 2087
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_1|4.0MB/s
+  type: trojan
+  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  password: MiTiVPN
+  server: 188.114.97.6
+  port: 443
+- name: 🇫🇷FR_1|1.7MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.133
+  port: 443
+- name: 🇫🇷FR_4|1.2MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.230
+  port: 443
+- name: 🇳🇱NL_5|2.1MB/s
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  server: 95.85.247.156
+  port: 13443
+  tls: true
+  sni: auto.cendora.ru
+- name: 🇩🇪DE_2|2.3MB/s
+  type: vless
+  uuid: b0c1d2e3-f4a5-4b6c-8d7e-8f9a0b1c2d3e
+  server: 45.130.125.114
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇺🇸US_24|2.8MB/s
+  type: vless
+  uuid: 7e8825a4-86ac-486f-a06c-0917ced9dfcd
+  server: 93.152.205.177
+  port: 443
+  tls: true
+  sni: nrt.nlrocket.org
+- name: 🇺🇸US_25|1.9MB/s
+  type: vless
+  uuid: 7e8825a4-86ac-486f-a06c-0917ced9dfcd
+  server: 93.152.205.99
+  port: 443
+  tls: true
+  sni: nrt.nlrocket.org
+- name: 🇫🇮FI_2|2.2MB/s
+  type: vless
+  uuid: 8645b9cb-0d7c-440d-b300-fd44011c5019
+  server: 104.18.19.39
+  port: 2087
+  tls: true
+  sni: arvan.dearhossein-taktaz.ir
+- name: 🇩🇪DE_3|2.9MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: m2uw0zJCvMeApdVNQ2W+3mYHHsMk1YTubdnEnSRkj20=
-  server: 130.61.38.10
+  password: gBLY0eMuDeNVYDjFCkB2N5DDyCf9GaiqWe7zAGNlHew=
+  server: 89.168.91.118
   port: 59924
 - name: US_speednode_0132
   type: vless
@@ -84,10 +145,19 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇸🇬SG_3|4.4MB/s
-  - 🇺🇸US_4|2.3MB/s
-  - 🇯🇵JP_2|1.2MB/s
-  - 🇩🇪DE_2|1.0MB/s
+  - 🇯🇵JP_1|2.5MB/s
+  - 🇦🇹AT_1|3.4MB/s
+  - 🇺🇸US_1|2.4MB/s
+  - 🇧🇬BG_1|3.2MB/s
+  - 🇳🇱NL_1|4.0MB/s
+  - 🇫🇷FR_1|1.7MB/s
+  - 🇫🇷FR_4|1.2MB/s
+  - 🇳🇱NL_5|2.1MB/s
+  - 🇩🇪DE_2|2.3MB/s
+  - 🇺🇸US_24|2.8MB/s
+  - 🇺🇸US_25|1.9MB/s
+  - 🇫🇮FI_2|2.2MB/s
+  - 🇩🇪DE_3|2.9MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
