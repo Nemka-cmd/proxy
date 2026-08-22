@@ -1,88 +1,31 @@
 proxies:
-- name: 🇰🇷KR_1|2.8MB/s
+- name: 🇰🇷KR_1|4.6MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.138
   port: 65443
-- name: 🇳🇱NL_1|2.6MB/s
-  type: trojan
-  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  password: MiTiVPN
-  server: 188.114.97.6
-  port: 443
-- name: 🇫🇷FR_1|1.9MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.19.229.21
-  port: 443
-- name: 🇳🇱NL_2|2.2MB/s
+- name: 🇳🇱NL_1|1010KB/s
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 141.144.199.129
+  server: 143.47.183.8
   port: 62145
   tls: false
   sni: ''
-- name: 🇩🇪DE_1|1.1MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2oszvuIAUr7yGsN3Idc/KLSseSNJtNqqLn7XcHkcJ8A=
-  server: 130.61.226.152
-  port: 59924
-- name: 🇳🇱NL_3|1.1MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 134.98.149.33
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_4|2.7MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: n4t1FIL8VA8BBLpHes6ZHGm9on2p1Fsr7DCbgbCUmPU=
-  server: 84.235.160.143
-  port: 45819
-- name: 🇳🇱NL_5|1000KB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 141.144.195.7
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_7|1.3MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 134.98.158.147
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_1|2.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Z/c2GxwLzrJ5QmM7b6OT7vd6mCRpsYdlC+pszMgZo90=
-  server: 138.2.105.188
-  port: 56927
-- name: 🇨🇦CA_1|1.4MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.96.158.76
-  port: 443
-- name: 🇳🇱NL_8|2.1MB/s
+- name: 🇳🇱NL_2|1.0MB/s
   type: vless
   uuid: fb520c26-b22f-49ac-8959-81a5502c446c
   server: 51.15.18.50
   port: 2053
   tls: true
   sni: www.cloudflare.com
-- name: 🇺🇸US_7|1.1MB/s
+- name: 🇵🇱PL_2|1.0MB/s
   type: vless
-  uuid: 7e81824b-35e0-4eb1-89e9-592f0c92aa6b
-  server: yx.zhourf2006.dpdns.org
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  server: 150.251.113.34
   port: 443
   tls: true
-  sni: yx.zhourf2006.dpdns.org
+  sni: www.cloudflare.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -143,19 +86,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇰🇷KR_1|2.8MB/s
-  - 🇳🇱NL_1|2.6MB/s
-  - 🇫🇷FR_1|1.9MB/s
-  - 🇳🇱NL_2|2.2MB/s
-  - 🇩🇪DE_1|1.1MB/s
-  - 🇳🇱NL_3|1.1MB/s
-  - 🇳🇱NL_4|2.7MB/s
-  - 🇳🇱NL_5|1000KB/s
-  - 🇳🇱NL_7|1.3MB/s
-  - 🇸🇬SG_1|2.2MB/s
-  - 🇨🇦CA_1|1.4MB/s
-  - 🇳🇱NL_8|2.1MB/s
-  - 🇺🇸US_7|1.1MB/s
+  - 🇰🇷KR_1|4.6MB/s
+  - 🇳🇱NL_1|1010KB/s
+  - 🇳🇱NL_2|1.0MB/s
+  - 🇵🇱PL_2|1.0MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
