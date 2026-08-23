@@ -1,68 +1,181 @@
 proxies:
-- name: 日本3|@ripaojiedian
+- name: 香港5|@ripaojiedian
   type: trojan
-  sni: www.nintendogames.net
-  password: d5517dedef425597a1b9fdbaad99544e
-  server: 18.163.126.92
-  port: 18617
-- name: 🇺🇸US_2|1.9MB/s
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 18.163.79.248
+  port: 1103
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 54.46.3.138
+  port: 39024
+- name: 🇩🇪DE_1|2.9MB/s
   type: vless
-  uuid: 4a680c6d-10b6-44ec-afbd-e2621760e347
-  server: 23.172.40.60
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+  server: 93.123.101.78
   port: 443
   tls: true
-  sni: learn.microsoft.com
-- name: 🇩🇪DE_1|2.3MB/s
+  sni: germ3.freeinternat.com
+- name: 🇬🇧GB_1|2.5MB/s
   type: vless
-  uuid: 5d71edc2-7547-4b0e-9c94-aebc8c153d60
-  server: de3.prformula.cfd
+  uuid: 2ed0d2a0-dbba-4cc2-95df-a197831d9978
+  server: 109.169.37.129
   port: 443
   tls: true
-  sni: de3.prformula.cfd
-- name: 🇦🇺AU_1|2.7MB/s
-  type: trojan
-  sni: national-stingray.rooster465.autos
-  password: FH72359861
-  server: national-stingray.rooster465.autos
-  port: 443
-- name: 🇯🇵JP_1|5.4MB/s
-  type: trojan
-  sni: baijofe6666.bpjp2027.top
-  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
-  server: cdn3.bpcdn.cc
-  port: 443
-- name: 🇦🇺AU_3|2.2MB/s
-  type: trojan
-  sni: national-stingray.rooster465.autos
-  password: FH72359861
-  server: 87.121.33.109
-  port: 443
-- name: 🇬🇧GB_2|1.7MB/s
+  sni: foodnetwork.com
+- name: 🇬🇧GB_2|1.8MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: bDu3x7drw0TT4Kl67HF9uBlmyqxTlOe82yLUnKewmJw=
-  server: 129.151.95.100
+  password: 7wkgQllmYUZeB10Gj9imThsnHpg6lPcG/qAgkO2wI88=
+  server: 144.24.229.104
   port: 61312
-- name: 🇧🇷BR_1|1.9MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: rd44Xa86YyiRgoidTwqxqQz0IoS54br9IKRFqCZJkow=
-  server: 163.176.27.230
-  port: 59319
-- name: 🇺🇸US_18|1.8MB/s
+- name: 🇬🇧GB_3|1.1MB/s
+  type: vless
+  uuid: 2ab5d143-d8be-4506-b8ae-039fee32dfa2
+  server: 31.76.246.60
+  port: 443
+  tls: true
+  sni: v.gb-cdn.ru
+- name: 🇬🇧GB_4|2.0MB/s
+  type: vless
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+  server: 194.238.42.191
+  port: 443
+  tls: true
+  sni: kz.freeinternat.com
+- name: 🇹🇷TR_1|1.3MB/s
+  type: vless
+  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
+  server: auth.sso.anti-zapret.com
+  port: 443
+  tls: true
+  sni: cdnjs.com
+- name: 🇦🇪AE_1|1.6MB/s
+  type: vless
+  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
+  server: s3.storage.anti-zapret.com
+  port: 443
+  tls: true
+  sni: s3.storage.anti-zapret.com
+- name: 🇷🇺RU_1|3.5MB/s
+  type: vless
+  uuid: 663836b2-f676-43fb-977f-47c495b1b383
+  server: 109.73.206.180
+  port: 443
+  tls: true
+  sni: st.ozone.ru
+- name: 🇺🇸US_1|2.4MB/s
   type: vless
   uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
   server: token.api.anti-zapret.com
   port: 443
   tls: true
   sni: us.srv.anti-zapret.com
-- name: 🇳🇱NL_4|2.8MB/s
+- name: 🇳🇱NL_1|1.6MB/s
   type: vless
-  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
-  server: 85.198.70.200
-  port: 14406
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 158.101.208.44
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇨🇦CA_1|2.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 16.52.46.12
+  port: 443
+- name: 🇬🇪GE_1|1.8MB/s
+  type: vless
+  uuid: 710fc22f-06b2-03f6-bb3e-f57c17b670a6
+  server: in-ru-vk-01.ray-balance.space
+  port: 443
   tls: true
-  sni: vk.ru
+  sni: www.ray-balance.space
+- name: 🇸🇪SE_1|2.6MB/s
+  type: vless
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  server: se.moktana.app
+  port: 443
+  tls: true
+  sni: se.moktana.app
+- name: 🇺🇸US_17|1.2MB/s
+  type: vless
+  uuid: 2cb52483-baad-9959-42a0-8f76b02b36a9
+  server: ivory-heron-687b-production.up.railway.app
+  port: 443
+  tls: true
+  sni: ivory-heron-687b-production.up.railway.app
+- name: 🇩🇪DE_3|2.2MB/s
+  type: vless
+  uuid: 2e9d3568-f977-4cea-800d-fd9a876e7252
+  server: ai.riotvpn.eu
+  port: 8443
+  tls: true
+  sni: static.vkimages.io
+- name: 🇫🇮FI_1|2.3MB/s
+  type: vless
+  uuid: 2e9d3568-f977-4cea-800d-fd9a876e7252
+  server: fi.riotvpn.eu
+  port: 9443
+  tls: true
+  sni: static.vkimages.io
+- name: 🇳🇱NL_6|3.0MB/s
+  type: vless
+  uuid: 2e9d3568-f977-4cea-800d-fd9a876e7252
+  server: nl.riotvpn.eu
+  port: 9443
+  tls: true
+  sni: prod.vkimages.io
+- name: 🇹🇷TR_3|3.9MB/s
+  type: vless
+  uuid: 41e71ba7-d389-47aa-94f7-ed1f55fdbcdf
+  server: new3.api.go-vpn.club
+  port: 443
+  tls: true
+  sni: cdnjs.com
+- name: 🇺🇸US_18|3.7MB/s
+  type: vless
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  server: 143.246.198.91
+  port: 2054
+  tls: true
+  sni: www.ibm.com
+- name: 🇳🇴NO_1|1.6MB/s
+  type: vless
+  uuid: d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2
+  server: 194.110.207.48
+  port: 443
+  tls: true
+  sni: kibi-institut.de
+- name: 🇪🇪EE_1|1.1MB/s
+  type: vless
+  uuid: f35afa9c-ed40-4b94-93c1-af420931fd91
+  server: 185.223.170.196
+  port: 443
+  tls: true
+  sni: ab-v1.bosx.net
+- name: 🇦🇱AL_1|1.8MB/s
+  type: vless
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
+  server: 91.239.6.19
+  port: 443
+  tls: true
+  sni: alban2.freeinternat.com
+- name: 🇫🇮FI_2|3.1MB/s
+  type: vless
+  uuid: cd09dc43-a55a-4f9d-920a-9e91e11e26fc
+  server: 104.16.6.70
+  port: 2087
+  tls: true
+  sni: football.bexait.ir
+- name: 🇧🇷BR_1|1.9MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: VNZU26yCu5J1TaXQ9IdJasKHopBUzc2xt+JUl9ECB+g=
+  server: 150.230.229.189
+  port: 59319
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -123,16 +236,32 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 日本3|@ripaojiedian
-  - 🇺🇸US_2|1.9MB/s
-  - 🇩🇪DE_1|2.3MB/s
-  - 🇦🇺AU_1|2.7MB/s
-  - 🇯🇵JP_1|5.4MB/s
-  - 🇦🇺AU_3|2.2MB/s
-  - 🇬🇧GB_2|1.7MB/s
+  - 香港5|@ripaojiedian
+  - 美国3|@ripaojiedian
+  - 🇩🇪DE_1|2.9MB/s
+  - 🇬🇧GB_1|2.5MB/s
+  - 🇬🇧GB_2|1.8MB/s
+  - 🇬🇧GB_3|1.1MB/s
+  - 🇬🇧GB_4|2.0MB/s
+  - 🇹🇷TR_1|1.3MB/s
+  - 🇦🇪AE_1|1.6MB/s
+  - 🇷🇺RU_1|3.5MB/s
+  - 🇺🇸US_1|2.4MB/s
+  - 🇳🇱NL_1|1.6MB/s
+  - 🇨🇦CA_1|2.5MB/s
+  - 🇬🇪GE_1|1.8MB/s
+  - 🇸🇪SE_1|2.6MB/s
+  - 🇺🇸US_17|1.2MB/s
+  - 🇩🇪DE_3|2.2MB/s
+  - 🇫🇮FI_1|2.3MB/s
+  - 🇳🇱NL_6|3.0MB/s
+  - 🇹🇷TR_3|3.9MB/s
+  - 🇺🇸US_18|3.7MB/s
+  - 🇳🇴NO_1|1.6MB/s
+  - 🇪🇪EE_1|1.1MB/s
+  - 🇦🇱AL_1|1.8MB/s
+  - 🇫🇮FI_2|3.1MB/s
   - 🇧🇷BR_1|1.9MB/s
-  - 🇺🇸US_18|1.8MB/s
-  - 🇳🇱NL_4|2.8MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
