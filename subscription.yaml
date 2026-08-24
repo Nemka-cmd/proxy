@@ -1,36 +1,104 @@
 proxies:
-- name: 🇰🇷KR_1|4.5MB/s
+- name: 🇺🇸US_2|3.0MB/s
+  type: trojan
+  sni: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  password: MiTiVPN
+  server: 188.42.145.180
+  port: 443
+- name: 🇩🇪DE_1|1.7MB/s
+  type: vless
+  uuid: fb3f7f53-5c98-4551-9c62-722888b8919f
+  server: snapp.ir
+  port: 8080
+  tls: false
+  sni: ''
+- name: 🇯🇵JP_2|1.4MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
-  server: 121.46.230.138
+  server: 121.46.230.136
   port: 65443
-- name: 🇳🇴NO_2|3.3MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: kkvlvvq-a.catcat321.com
-  port: 20085
+- name: 🇹🇷TR_1|1.2MB/s
+  type: vless
+  uuid: b5c36be7-c0dc-4b72-904e-ba840cba7c49
+  server: xb9ndpq97jn.jqpl97malmz.kajpqxmmdlel.freeino.org
+  port: 4049
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_2|1.2MB/s
+  type: vless
+  uuid: b5c36be7-c0dc-4b72-904e-ba840cba7c49
+  server: xb9ndpq97jn.jqpl97malmz.kajpqxmmdlel.freeino.org
+  port: 7080
+  tls: false
+  sni: ''
 - name: 🇺🇦UA_2|2.6MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: hkdcrtc-e.catcat321.com
   port: 20066
-- name: 🇹🇼TW_1|1.9MB/s
+- name: 🇳🇴NO_2|2.7MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: kkvlvvq-a.catcat321.com
+  port: 20085
+- name: 🇲🇴MO_1|1.8MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: kkvlvvq-a.catcat321.com
+  port: 20068
+- name: 🇺🇸US_5|1.3MB/s
   type: vless
-  uuid: 8d05cda5-c9ba-43cf-846e-b9521b872c71
-  server: wwhgbmxaycrqwzxhfa.cfooov.xyz
-  port: 32178
+  uuid: 07ada3a7-b17b-42fb-bb59-267f4c24f525
+  server: 144.34.170.18
+  port: 50159
   tls: true
-  sni: www.apple.com
-- name: US_speednode_0132
+  sni: www.cloudflare.com
+- name: 🇺🇸US_6|2.6MB/s
   type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-  server: 51.81.223.225
-  port: 11094
+  uuid: 7613bf1c-920e-420d-9029-3610733d514d
+  server: 152.55.184.218marzban-node-production-672a.up.railway.app
+  port: 443
   tls: true
-  sni: www.yahoo.com
+  sni: marzban-node-production-672a.up.railway.app
+- name: 🇫🇮FI_2|1.7MB/s
+  type: vless
+  uuid: b5c36be7-c0dc-4b72-904e-ba840cba7c49
+  server: 65.109.215.185
+  port: 8055
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_2|1.5MB/s
+  type: vless
+  uuid: 1a8d3885-d868-49c5-abc4-68ff79a91e09
+  server: 45.82.67.183
+  port: 443
+  tls: true
+  sni: northwaleswildlifetrust.org.uk
+- name: 🇩🇪DE_4|3.1MB/s
+  type: vless
+  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+  server: 152.53.33.73
+  port: 443
+  tls: true
+  sni: at.quattro-tech.ru
+- name: 🇩🇪DE_5|1.7MB/s
+  type: vless
+  uuid: a78c9772-9f5b-4b20-9b23-22008544575e
+  server: 109.120.137.159
+  port: 7443
+  tls: true
+  sni: www.bing.com
+- name: 🇳🇴NO_3|1.5MB/s
+  type: vless
+  uuid: ae0d03aa-6e1e-433f-864e-06b49ed2737c
+  server: 151.242.169.44
+  port: 443
+  tls: true
+  sni: frantax.my3cx.de
 - name: US_speednode_0135
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -70,11 +138,21 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇰🇷KR_1|4.5MB/s
-  - 🇳🇴NO_2|3.3MB/s
+  - 🇺🇸US_2|3.0MB/s
+  - 🇩🇪DE_1|1.7MB/s
+  - 🇯🇵JP_2|1.4MB/s
+  - 🇹🇷TR_1|1.2MB/s
+  - 🇩🇪DE_2|1.2MB/s
   - 🇺🇦UA_2|2.6MB/s
-  - 🇹🇼TW_1|1.9MB/s
-  - US_speednode_0132
+  - 🇳🇴NO_2|2.7MB/s
+  - 🇲🇴MO_1|1.8MB/s
+  - 🇺🇸US_5|1.3MB/s
+  - 🇺🇸US_6|2.6MB/s
+  - 🇫🇮FI_2|1.7MB/s
+  - 🇳🇱NL_2|1.5MB/s
+  - 🇩🇪DE_4|3.1MB/s
+  - 🇩🇪DE_5|1.7MB/s
+  - 🇳🇴NO_3|1.5MB/s
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
