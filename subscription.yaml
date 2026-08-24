@@ -1,62 +1,98 @@
 proxies:
-- name: 🇯🇵JP_1|5.9MB/s
+- name: 🇩🇪DE_1|1.4MB/s
   type: vless
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-  server: jpaws.ccwink.photos
-  port: 53113
+  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+  server: 45.131.212.61
+  port: 443
   tls: true
-  sni: docs.aws.amazon.com
-- name: 🇸🇬SG_2|3.6MB/s
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  server: 172.64.146.211
-  port: 2087
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇸🇬SG_3|3.9MB/s
+  sni: ai.sellflow.org
+- name: 🇸🇬SG_1|3.3MB/s
   type: vless
   uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
   server: jpaws.ccwink.photos
   port: 64294
   tls: true
   sni: docs.aws.amazon.com
-- name: 🇩🇪DE_1|1.2MB/s
+- name: 🇯🇵JP_1|2.1MB/s
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: TIsTxhcGxeNIl9sCCPAF5wnpfmfvF43GhTBQnq4HCxk=
-  server: 130.61.102.10
-  port: 59924
-- name: 🇺🇦UA_1|3.3MB/s
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.136
+  port: 65443
+- name: ❓Other_1|3.0MB/s
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: cf.9999669.xyz
+  port: 2087
+  tls: true
+  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇺🇦UA_1|3.0MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: hkdcrtc-e.catcat321.com
   port: 20066
-- name: 🇳🇴NO_2|3.3MB/s
+- name: 🇳🇴NO_2|2.7MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: kkvlvvq-a.catcat321.com
   port: 20085
-- name: 🇬🇧GB_1|1.2MB/s
+- name: 🇩🇪DE_2|1.4MB/s
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.175.227.220
-  port: 443
-- name: 🇬🇧GB_3|3.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.8.123.237
-  port: 443
-- name: US_speednode_0130
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jKNMaMEd3mivEOtJZC/XxuvwGTS8fDE8GUWs7V/wmdQ=
+  server: 130.61.80.61
+  port: 59924
+- name: 🇩🇪DE_3|1.1MB/s
   type: vless
-  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-  server: 38.244.4.1
+  uuid: bc9cfb1e-ff44-420e-a2b8-b2e8cf5c1edc
+  server: hz.duolingoo.ir
   port: 443
   tls: true
-  sni: www.apple.com
+  sni: www.cloudflare.com
+- name: 🇰🇷KR_1|2.1MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
+  port: 20158
+  tls: true
+  sni: www.bilibili.com
+- name: 🇮🇳IN_1|4.5MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: hk03.ccdn3.work
+  port: 753
+  tls: true
+  sni: i1.hdslb.com
+- name: 🇩🇪DE_4|2.2MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: hk03.ccdn3.work
+  port: 757
+  tls: true
+  sni: i1.hdslb.com
+- name: 🇭🇰HK_2|3.6MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: hk03.ccdn3.work
+  port: 798
+  tls: true
+  sni: i1.hdslb.com
+- name: 🇭🇰HK_3|3.0MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: hk04.ccdn3.work
+  port: 796
+  tls: true
+  sni: www.bilibili.com
+- name: 🇭🇰HK_4|1.4MB/s
+  type: vless
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  server: hk04.ccdn3.work
+  port: 799
+  tls: true
+  sni: www.bilibili.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -99,33 +135,30 @@ proxies:
   port: 39211
   tls: true
   sni: cdnjs.cloudflare.com
-- name: US_speednode_0144
-  type: vless
-  uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-  server: nsuc-znkbig.avonex.top
-  port: 443
-  tls: true
-  sni: www.bing.com
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇯🇵JP_1|5.9MB/s
-  - 🇸🇬SG_2|3.6MB/s
-  - 🇸🇬SG_3|3.9MB/s
-  - 🇩🇪DE_1|1.2MB/s
-  - 🇺🇦UA_1|3.3MB/s
-  - 🇳🇴NO_2|3.3MB/s
-  - 🇬🇧GB_1|1.2MB/s
-  - 🇬🇧GB_3|3.0MB/s
-  - US_speednode_0130
+  - 🇩🇪DE_1|1.4MB/s
+  - 🇸🇬SG_1|3.3MB/s
+  - 🇯🇵JP_1|2.1MB/s
+  - ❓Other_1|3.0MB/s
+  - 🇺🇦UA_1|3.0MB/s
+  - 🇳🇴NO_2|2.7MB/s
+  - 🇩🇪DE_2|1.4MB/s
+  - 🇩🇪DE_3|1.1MB/s
+  - 🇰🇷KR_1|2.1MB/s
+  - 🇮🇳IN_1|4.5MB/s
+  - 🇩🇪DE_4|2.2MB/s
+  - 🇭🇰HK_2|3.6MB/s
+  - 🇭🇰HK_3|3.0MB/s
+  - 🇭🇰HK_4|1.4MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0139
   - US_speednode_0142
-  - US_speednode_0144
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
