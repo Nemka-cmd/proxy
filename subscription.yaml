@@ -1,98 +1,29 @@
 proxies:
-- name: 🇩🇪DE_1|1.4MB/s
-  type: vless
-  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
-  server: 45.131.212.61
-  port: 443
-  tls: true
-  sni: ai.sellflow.org
-- name: 🇸🇬SG_1|3.3MB/s
-  type: vless
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-  server: jpaws.ccwink.photos
-  port: 64294
-  tls: true
-  sni: docs.aws.amazon.com
-- name: 🇯🇵JP_1|2.1MB/s
+- name: 🇰🇷KR_1|4.5MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
-  server: 121.46.230.136
+  server: 121.46.230.138
   port: 65443
-- name: ❓Other_1|3.0MB/s
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  server: cf.9999669.xyz
-  port: 2087
-  tls: true
-  sni: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇺🇦UA_1|3.0MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-- name: 🇳🇴NO_2|2.7MB/s
+- name: 🇳🇴NO_2|3.3MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: kkvlvvq-a.catcat321.com
   port: 20085
-- name: 🇩🇪DE_2|1.4MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: jKNMaMEd3mivEOtJZC/XxuvwGTS8fDE8GUWs7V/wmdQ=
-  server: 130.61.80.61
-  port: 59924
-- name: 🇩🇪DE_3|1.1MB/s
+- name: 🇺🇦UA_2|2.6MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+- name: 🇹🇼TW_1|1.9MB/s
   type: vless
-  uuid: bc9cfb1e-ff44-420e-a2b8-b2e8cf5c1edc
-  server: hz.duolingoo.ir
-  port: 443
+  uuid: 8d05cda5-c9ba-43cf-846e-b9521b872c71
+  server: wwhgbmxaycrqwzxhfa.cfooov.xyz
+  port: 32178
   tls: true
-  sni: www.cloudflare.com
-- name: 🇰🇷KR_1|2.1MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
-  port: 20158
-  tls: true
-  sni: www.bilibili.com
-- name: 🇮🇳IN_1|4.5MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: hk03.ccdn3.work
-  port: 753
-  tls: true
-  sni: i1.hdslb.com
-- name: 🇩🇪DE_4|2.2MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: hk03.ccdn3.work
-  port: 757
-  tls: true
-  sni: i1.hdslb.com
-- name: 🇭🇰HK_2|3.6MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: hk03.ccdn3.work
-  port: 798
-  tls: true
-  sni: i1.hdslb.com
-- name: 🇭🇰HK_3|3.0MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: hk04.ccdn3.work
-  port: 796
-  tls: true
-  sni: www.bilibili.com
-- name: 🇭🇰HK_4|1.4MB/s
-  type: vless
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
-  server: hk04.ccdn3.work
-  port: 799
-  tls: true
-  sni: www.bilibili.com
+  sni: www.apple.com
 - name: US_speednode_0132
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
@@ -139,20 +70,10 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪DE_1|1.4MB/s
-  - 🇸🇬SG_1|3.3MB/s
-  - 🇯🇵JP_1|2.1MB/s
-  - ❓Other_1|3.0MB/s
-  - 🇺🇦UA_1|3.0MB/s
-  - 🇳🇴NO_2|2.7MB/s
-  - 🇩🇪DE_2|1.4MB/s
-  - 🇩🇪DE_3|1.1MB/s
-  - 🇰🇷KR_1|2.1MB/s
-  - 🇮🇳IN_1|4.5MB/s
-  - 🇩🇪DE_4|2.2MB/s
-  - 🇭🇰HK_2|3.6MB/s
-  - 🇭🇰HK_3|3.0MB/s
-  - 🇭🇰HK_4|1.4MB/s
+  - 🇰🇷KR_1|4.5MB/s
+  - 🇳🇴NO_2|3.3MB/s
+  - 🇺🇦UA_2|2.6MB/s
+  - 🇹🇼TW_1|1.9MB/s
   - US_speednode_0132
   - US_speednode_0135
   - US_speednode_0136
