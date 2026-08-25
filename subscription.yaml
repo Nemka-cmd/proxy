@@ -1,145 +1,48 @@
 proxies:
-- name: 🇳🇴NO_2|3.2MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: kkvlvvq-a.catcat321.com
-  port: 20085
-- name: 🇺🇦UA_3|2.1MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: kkvlvvq-a.catcat321.com
-  port: 20066
-- name: 🇰🇷KR_1|5.2MB/s
+- name: 🇰🇷KR_1|5.3MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.138
   port: 65443
-- name: 🇺🇦UA_2|2.5MB/s
+- name: 🇺🇦UA_4|2.5MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: kkvlvvq-a.catcat321.com
+  port: 20066
+- name: 🇺🇦UA_3|2.5MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: hkdcrtc-e.catcat321.com
   port: 20066
-- name: 🇸🇨SC_3|3.2MB/s
-  type: trojan
-  sni: ''
-  password: 5e89314202a8405f
-  server: kuso30.pacemakere.com
-  port: 101
-- name: 🇺🇸US_1|1.0MB/s
-  type: trojan
-  sni: ''
-  password: c857562678594197
-  server: saj2000e.pacemakere.com
-  port: 20063
-- name: 🇸🇨SC_2|4.1MB/s
-  type: trojan
-  sni: ''
-  password: 3b9deff947c74dde
-  server: kuso153.pacemakere.com
-  port: 101
-- name: 🇳🇱NL_1|3.1MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 57fw+yTMy//FAjeLSTkIGPfbr0TzgFjBvUIIK6iodWY=
-  server: 144.21.33.195
-  port: 45819
-- name: 🇬🇧GB_1|1.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.135.167.23
-  port: 443
-- name: 🇺🇸US_3|1.5MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: wTMVvzUy0p3hrZvmp7BFTxuctsht2XRmkPfDvcU5ZS0=
-  server: 129.146.37.236
-  port: 50356
-- name: 🇬🇧GB_2|1.8MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.132.52.104
-  port: 443
-- name: 🇳🇴NO_3|2.7MB/s
+- name: 🇳🇴NO_1|2.7MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: hkdcrtc-e.catcat321.com
+  server: kkvlvvq-a.catcat321.com
   port: 20085
-- name: ❓Other_1|1.3MB/s
+- name: 🇮🇹IT_1|2.6MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  server: kkvlvvq-a.catcat321.com
+  port: 20065
+- name: 🇯🇵JP_1|3.8MB/s
   type: vless
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  server: usa.mythos-wargame.fun
-  port: 443
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+  server: jp4-r.link-t7.com
+  port: 10034
   tls: true
-  sni: usa.mythos-wargame.fun
-- name: 🇺🇸US_8|1.1MB/s
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_1|4.9MB/s
   type: vless
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  server: dec.mythos-wargame.fun
-  port: 443
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+  server: sg3-r.link-t7.com
+  port: 10038
   tls: true
-  sni: dec.mythos-wargame.fun
-- name: 🇳🇱NL_3|1.5MB/s
-  type: vless
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  server: nlb.mythos-wargame.fun
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇮🇷IR_1|1.2MB/s
-  type: vless
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  server: pla.webinarly.fun
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇫🇷FR_3|2.9MB/s
-  type: vless
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  server: 185.24.151.31
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇫🇷FR_4|3.7MB/s
-  type: vless
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  server: fr-gra-ovh-01.sfproxy.fuck-rkn.dev
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇫🇷FR_5|1.2MB/s
-  type: vless
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  server: nl-ams-ovh-02.fuck-rkn.dev
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇺🇸US_9|1.2MB/s
-  type: vless
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-  server: youtube.sfproxy.fuck-rkn.dev
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇦🇪AE_1|1008KB/s
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  server: 94.183.255.103
-  port: 443
-  tls: true
-  sni: eu-west.cendora.ru
-- name: 🇺🇸US_10|1.4MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: /ghPwz9gUS7ZvM77tjriv4yzvGT9Uof0U0csAlJ/ZEk=
-  server: 129.146.166.216
-  port: 50356
+  sni: d1.awsstatic.com
 - name: US_speednode_0135
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -172,28 +75,13 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇳🇴NO_2|3.2MB/s
-  - 🇺🇦UA_3|2.1MB/s
-  - 🇰🇷KR_1|5.2MB/s
-  - 🇺🇦UA_2|2.5MB/s
-  - 🇸🇨SC_3|3.2MB/s
-  - 🇺🇸US_1|1.0MB/s
-  - 🇸🇨SC_2|4.1MB/s
-  - 🇳🇱NL_1|3.1MB/s
-  - 🇬🇧GB_1|1.1MB/s
-  - 🇺🇸US_3|1.5MB/s
-  - 🇬🇧GB_2|1.8MB/s
-  - 🇳🇴NO_3|2.7MB/s
-  - ❓Other_1|1.3MB/s
-  - 🇺🇸US_8|1.1MB/s
-  - 🇳🇱NL_3|1.5MB/s
-  - 🇮🇷IR_1|1.2MB/s
-  - 🇫🇷FR_3|2.9MB/s
-  - 🇫🇷FR_4|3.7MB/s
-  - 🇫🇷FR_5|1.2MB/s
-  - 🇺🇸US_9|1.2MB/s
-  - 🇦🇪AE_1|1008KB/s
-  - 🇺🇸US_10|1.4MB/s
+  - 🇰🇷KR_1|5.3MB/s
+  - 🇺🇦UA_4|2.5MB/s
+  - 🇺🇦UA_3|2.5MB/s
+  - 🇳🇴NO_1|2.7MB/s
+  - 🇮🇹IT_1|2.6MB/s
+  - 🇯🇵JP_1|3.8MB/s
+  - 🇸🇬SG_1|4.9MB/s
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
