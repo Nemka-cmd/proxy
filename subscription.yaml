@@ -143,12 +143,6 @@ proxies:
   port: 443
   tls: true
   sni: www.cloudflare.com
-- name: 🇳🇱NL_6|1.4MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: HoA0bvSC96HTxgo1qJpvUPp3HJ/ARqc7H3RMQMMasvE=
-  server: 134.98.149.55
-  port: 45819
 - name: US_speednode_0135
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -202,7 +196,6 @@ proxy-groups:
   - 🇺🇸US_13|1021KB/s
   - 🇺🇸US_14|1.5MB/s
   - 🇬🇧GB_4|2.6MB/s
-  - 🇳🇱NL_6|1.4MB/s
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
