@@ -5,24 +5,6 @@ proxies:
   password: BxceQaOe
   server: 95.40.24.109
   port: 1103
-- name: 🇭🇰HK_5|4.6MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 54.250.197.209
-  port: 4117
-- name: 🇸🇬SG_2|4.7MB/s
-  type: trojan
-  sni: t.me%2Fripaojiedian
-  password: BxceQaOe
-  server: 3.115.9.60
-  port: 41421
-- name: 🇺🇸US_5|4.0MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 95.40.24.249
-  port: 53001
 - name: 🇺🇸US_1|3.5MB/s
   type: vless
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
@@ -35,13 +17,6 @@ proxies:
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   server: 13.140.29.253
   port: 443
-  tls: true
-  sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇩🇰DK_1|1.0MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 195.54.170.66
-  port: 8443
   tls: true
   sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
 - name: 🇪🇪EE_1|1.8MB/s
@@ -124,6 +99,12 @@ proxies:
   port: 10034
   tls: true
   sni: s0.awsstatic.com
+- name: ❓Other_1|4.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.138
+  port: 65443
 - name: 🇫🇷FR_4|1.3MB/s
   type: trojan
   sni: www.ignitelimit.com
@@ -211,24 +192,6 @@ proxies:
   password: BxceQaOe
   server: 95.40.24.109
   port: 1103
-- name: 🇭🇰HK_7|4.6MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 54.250.197.209
-  port: 4117
-- name: 🇸🇬SG_3|4.3MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 3.115.9.60
-  port: 41421
-- name: 🇺🇸US_9|2.4MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 95.40.24.249
-  port: 53001
 - name: ❓Other_2|1.3MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
@@ -323,12 +286,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰HK_4|3.0MB/s
-  - 🇭🇰HK_5|4.6MB/s
-  - 🇸🇬SG_2|4.7MB/s
-  - 🇺🇸US_5|4.0MB/s
   - 🇺🇸US_1|3.5MB/s
   - 🇺🇸US_2|1.0MB/s
-  - 🇩🇰DK_1|1.0MB/s
   - 🇪🇪EE_1|1.8MB/s
   - 🇪🇪EE_2|1.2MB/s
   - 🇪🇪EE_3|1.4MB/s
@@ -341,6 +300,7 @@ proxy-groups:
   - 🇫🇷FR_2|1.4MB/s
   - 🇫🇷FR_3|2.7MB/s
   - 🇯🇵JP_1|2.9MB/s
+  - ❓Other_1|4.0MB/s
   - 🇫🇷FR_4|1.3MB/s
   - 🇸🇪SE_2|3.0MB/s
   - 🇫🇷FR_5|1.0MB/s
@@ -355,9 +315,6 @@ proxy-groups:
   - 🇨🇦CA_1|1.8MB/s
   - 🇹🇷TR_1|1.3MB/s
   - 🇭🇰HK_6|3.5MB/s
-  - 🇭🇰HK_7|4.6MB/s
-  - 🇸🇬SG_3|4.3MB/s
-  - 🇺🇸US_9|2.4MB/s
   - ❓Other_2|1.3MB/s
   - 🇩🇪DE_4|1.6MB/s
   - 🇿🇦ZA_1|1.5MB/s
