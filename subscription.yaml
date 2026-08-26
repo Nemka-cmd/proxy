@@ -1,258 +1,68 @@
 proxies:
-- name: 🇭🇰HK_4|3.0MB/s
+- name: 香港4|@ripaojiedian
   type: trojan
   sni: t.me/ripaojiedian
   password: BxceQaOe
   server: 95.40.24.109
   port: 1103
-- name: 🇺🇸US_1|3.5MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 13.140.29.144
-  port: 443
-  tls: true
-  sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇺🇸US_2|1.0MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 13.140.29.253
-  port: 443
-  tls: true
-  sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇪🇪EE_1|1.8MB/s
+- name: 🇪🇪EE_1|1021KB/s
   type: vless
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   server: 159.253.21.82
   port: 443
   tls: true
   sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇪🇪EE_2|1.2MB/s
+- name: 🇳🇱NL_1|1006KB/s
   type: vless
   uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 5.101.118.52
-  port: 443
-  tls: true
-  sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇪🇪EE_3|1.4MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 5.175.178.254
-  port: 443
-  tls: true
-  sni: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-- name: 🇫🇷FR_1|1020KB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 31.57.108.170
-  port: 2053
-  tls: true
-  sni: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-- name: 🇰🇷KR_1|1.6MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 168.107.32.255
-  port: 443
-  tls: true
-  sni: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-- name: 🇸🇪SE_1|1.3MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 31.59.102.96
+  server: 62.60.254.18
   port: 8443
   tls: true
-  sni: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-- name: 🇺🇦UA_3|2.7MB/s
+  sni: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- name: 🇳🇴NO_1|2.5MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: hkdcrtc-e.catcat321.com
+  port: 20085
+- name: 🇺🇦UA_1|3.4MB/s
+  type: trojan
+  sni: hk.catxstar.com
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  server: kkvlvvq-a.catcat321.com
+  port: 20066
+- name: 🇺🇦UA_2|3.1MB/s
   type: trojan
   sni: hk.catxstar.com
   password: a126f35c-e832-4115-8593-b723ade3f7be
   server: hkdcrtc-e.catcat321.com
   port: 20066
-- name: 🇺🇦UA_2|1.2MB/s
-  type: trojan
-  sni: hk.catxstar.com
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  server: kkvlvvq-a.catcat321.com
-  port: 20066
-- name: 🇺🇸US_3|2.1MB/s
-  type: vless
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  server: 23.27.245.194
-  port: 443
-  tls: true
-  sni: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-- name: 🇫🇷FR_2|1.4MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 198.41.223.96
-  port: 443
-- name: 🇫🇷FR_3|2.7MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.246
-  port: 443
-- name: 🇯🇵JP_1|2.9MB/s
+- name: 🇸🇬SG_1|4.6MB/s
   type: vless
   uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
-  server: jp4-r.link-t7.com
-  port: 10034
+  server: sg3-r.link-t7.com
+  port: 10038
   tls: true
-  sni: s0.awsstatic.com
-- name: ❓Other_1|4.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.138
-  port: 65443
-- name: 🇫🇷FR_4|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.12
-  port: 443
-- name: 🇸🇪SE_2|3.0MB/s
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  server: 2.27.244.96
-  port: 443
-  tls: true
-  sni: eu-central.cendora.ru
-- name: 🇫🇷FR_5|1.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.113
-  port: 443
-- name: 🇫🇷FR_6|2.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.210
-  port: 443
-- name: 🇫🇷FR_7|1003KB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.21.46.3
-  port: 443
-- name: 🇫🇷FR_8|2.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.97
-  port: 443
-- name: 🇫🇷FR_9|2.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.17.111.3
-  port: 443
-- name: 🇫🇷FR_10|1.5MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.74.2
-  port: 443
-- name: 🇮🇹IT_4|3.2MB/s
+  sni: d1.awsstatic.com
+- name: 🇮🇹IT_1|1.4MB/s
   type: trojan
   sni: hk.catxstar.com
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   server: kkvlvvq-a.catcat321.com
   port: 20065
-- name: 🇳🇴NO_1|1.1MB/s
-  type: vless
-  uuid: ae0d03aa-6e1e-433f-864e-06b49ed2737c
-  server: 151.242.169.44
-  port: 443
-  tls: true
-  sni: frantax.my3cx.de
-- name: 🇬🇧GB_1|1.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.171.235.36
-  port: 443
-- name: 🇨🇦CA_1|1.8MB/s
+- name: 🇨🇦CA_1|1.2MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   server: 16.52.90.245
   port: 443
-- name: 🇹🇷TR_1|1.3MB/s
+- name: 🇧🇷BR_1|3.2MB/s
   type: vless
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  server: 194.93.61.98
-  port: 443
+  uuid: e08ff179-2c35-4a95-a8f8-6b2f7bd315ef
+  server: 179.255.124.81
+  port: 50159
   tls: true
-  sni: cdnjs.com
-- name: 🇭🇰HK_6|3.5MB/s
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 95.40.24.109
-  port: 1103
-- name: ❓Other_2|1.3MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7D9/3Y5+MCeBDNpC6ftRDlkAJdKpXCc1mOE94SvcXEc=
-  server: 129.146.38.3
-  port: 50356
-- name: 🇩🇪DE_4|1.6MB/s
-  type: trojan
-  sni: uwu.dianaw.cc.cd
-  password: epc3ufz9q4ocqeqh
-  server: uwu.blueknightnet.qzz.io
-  port: 2087
-- name: 🇿🇦ZA_1|1.5MB/s
-  type: vless
-  uuid: 00706a0e-de50-40f0-b6e0-e50b8d727d88
-  server: 109.121.44.41
-  port: 443
-  tls: true
-  sni: www.amd.com
-- name: 🇭🇰HK_8|1.2MB/s
-  type: vless
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-  server: 104.171.138.4
-  port: 443
-  tls: true
-  sni: deepl.com
-- name: 🇩🇪DE_5|1.0MB/s
-  type: vless
-  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
-  server: 172.66.138.120
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇫🇷FR_12|1.8MB/s
-  type: vless
-  uuid: c7374ad3-9235-464e-9169-27353eb367f8
-  server: 37.9.4.128
-  port: 443
-  tls: true
-  sni: api1.madapp.cc
-- name: 🇳🇱NL_2|1.4MB/s
-  type: vless
-  uuid: ffa431ab-a59b-4092-a418-905fcb1e4d5f
-  server: 188.114.97.6
-  port: 8080
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_6|3.8MB/s
-  type: vless
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  server: 159.195.80.233
-  port: 449
-  tls: false
-  sni: ''
-- name: 🇺🇸US_12|1.1MB/s
-  type: vless
-  uuid: 7402b3a6-9493-4277-b988-5ce9ba09791e
-  server: api.ferrin.uk
-  port: 443
-  tls: true
-  sni: 7402b3a6.ferrin.uk
+  sni: www.cloudflare.com
 - name: US_speednode_0135
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -285,45 +95,16 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇭🇰HK_4|3.0MB/s
-  - 🇺🇸US_1|3.5MB/s
-  - 🇺🇸US_2|1.0MB/s
-  - 🇪🇪EE_1|1.8MB/s
-  - 🇪🇪EE_2|1.2MB/s
-  - 🇪🇪EE_3|1.4MB/s
-  - 🇫🇷FR_1|1020KB/s
-  - 🇰🇷KR_1|1.6MB/s
-  - 🇸🇪SE_1|1.3MB/s
-  - 🇺🇦UA_3|2.7MB/s
-  - 🇺🇦UA_2|1.2MB/s
-  - 🇺🇸US_3|2.1MB/s
-  - 🇫🇷FR_2|1.4MB/s
-  - 🇫🇷FR_3|2.7MB/s
-  - 🇯🇵JP_1|2.9MB/s
-  - ❓Other_1|4.0MB/s
-  - 🇫🇷FR_4|1.3MB/s
-  - 🇸🇪SE_2|3.0MB/s
-  - 🇫🇷FR_5|1.0MB/s
-  - 🇫🇷FR_6|2.3MB/s
-  - 🇫🇷FR_7|1003KB/s
-  - 🇫🇷FR_8|2.1MB/s
-  - 🇫🇷FR_9|2.0MB/s
-  - 🇫🇷FR_10|1.5MB/s
-  - 🇮🇹IT_4|3.2MB/s
-  - 🇳🇴NO_1|1.1MB/s
-  - 🇬🇧GB_1|1.2MB/s
-  - 🇨🇦CA_1|1.8MB/s
-  - 🇹🇷TR_1|1.3MB/s
-  - 🇭🇰HK_6|3.5MB/s
-  - ❓Other_2|1.3MB/s
-  - 🇩🇪DE_4|1.6MB/s
-  - 🇿🇦ZA_1|1.5MB/s
-  - 🇭🇰HK_8|1.2MB/s
-  - 🇩🇪DE_5|1.0MB/s
-  - 🇫🇷FR_12|1.8MB/s
-  - 🇳🇱NL_2|1.4MB/s
-  - 🇩🇪DE_6|3.8MB/s
-  - 🇺🇸US_12|1.1MB/s
+  - 香港4|@ripaojiedian
+  - 🇪🇪EE_1|1021KB/s
+  - 🇳🇱NL_1|1006KB/s
+  - 🇳🇴NO_1|2.5MB/s
+  - 🇺🇦UA_1|3.4MB/s
+  - 🇺🇦UA_2|3.1MB/s
+  - 🇸🇬SG_1|4.6MB/s
+  - 🇮🇹IT_1|1.4MB/s
+  - 🇨🇦CA_1|1.2MB/s
+  - 🇧🇷BR_1|3.2MB/s
   - US_speednode_0135
   - US_speednode_0136
   - US_speednode_0137
