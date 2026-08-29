@@ -1,10 +1,4 @@
 proxies:
-- name: 🇬🇧GB_1|1.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: OxtyOVFwJdUQxmuDhQdFaM4osbi2RAT32aXZ1z0PgM4=
-  server: 129.151.67.62
-  port: 61312
 - name: 🇫🇮FI_1|1.3MB/s
   type: vless
   uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
@@ -12,12 +6,6 @@ proxies:
   port: 443
   tls: true
   sni: d.tranzit-net.ru
-- name: 🇸🇬SG_1|1006KB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: +RVrrYpka8vzDG1IZIHEcuyFSuvRnfpylJWmqh3xGOc=
-  server: 161.118.208.148
-  port: 56927
 - name: 🇺🇸US_1|1.6MB/s
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
@@ -100,19 +88,12 @@ proxies:
   password: HRqwosfXqmllcha4w+K3LxYB8vJ+L1qRJwBZgVE1kRY=
   server: 84.235.171.56
   port: 45819
-- name: 🇳🇱NL_3|3.8MB/s
+- name: 🇸🇬SG_2|1.8MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: IVBe/v0PRzoIAxF7OKUA6rHMM+f8VFYJThG6KvBXNcY=
-  server: 141.148.237.64
-  port: 45819
-- name: 🇸🇬SG_3|4.8MB/s
-  type: vless
-  uuid: c3e2c992-6721-443f-a051-331cb8a29fad
-  server: 13.229.47.178
-  port: 20414
-  tls: true
-  sni: www.sony.com
+  password: qxzS4vtyrA12yfTquZuo50wCbKaMIDmctQuS1EfDFgc=
+  server: 134.185.81.92
+  port: 56927
 - name: 🇺🇸US_8|1.9MB/s
   type: vless
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
@@ -164,9 +145,7 @@ proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇬🇧GB_1|1.2MB/s
   - 🇫🇮FI_1|1.3MB/s
-  - 🇸🇬SG_1|1006KB/s
   - 🇺🇸US_1|1.6MB/s
   - 🇫🇷FR_1|1.1MB/s
   - 🇫🇷FR_2|1.8MB/s
@@ -179,8 +158,7 @@ proxy-groups:
   - US_speednode_0137
   - US_speednode_0142
   - 🇳🇱NL_1|3.2MB/s
-  - 🇳🇱NL_3|3.8MB/s
-  - 🇸🇬SG_3|4.8MB/s
+  - 🇸🇬SG_2|1.8MB/s
   - 🇺🇸US_8|1.9MB/s
   - 🇩🇪DE_4|1.0MB/s
   - 🇯🇵JP_1|3.5MB/s
