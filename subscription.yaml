@@ -1,78 +1,224 @@
 proxies:
-- name: 🇫🇮FI_1|1.3MB/s
-  type: vless
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  server: de57.tranzit-net.ru
-  port: 443
-  tls: true
-  sni: d.tranzit-net.ru
-- name: 🇺🇸US_1|1.6MB/s
+- name: 🇺🇸US_1|2.0MB/s
   type: vless
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   server: 162.35.231.81
   port: 443
   tls: true
   sni: net.savesafe.run
-- name: 🇫🇷FR_1|1.1MB/s
+- name: 🇧🇬BG_1|1.2MB/s
   type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 213.130.137.130
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  server: bg.tutvpn.com
   port: 443
   tls: true
-  sni: panel.freesavesafe.com
-- name: 🇫🇷FR_2|1.8MB/s
+  sni: bg.tutvpn.com
+- name: 🇯🇵JP_1|4.4MB/s
   type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 213.130.137.190
-  port: 443
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  server: nian.001.url111.kcloud02.top
+  port: 15007
   tls: true
-  sni: panel.freesavesafe.com
-- name: 🇫🇷FR_3|1.7MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 213.130.137.60
-  port: 443
-  tls: true
-  sni: panel.freesavesafe.com
-- name: 🇫🇷FR_4|2.0MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 213.130.137.20
-  port: 443
-  tls: true
-  sni: panel.freesavesafe.com
-- name: 🇺🇸US_2|1.1MB/s
+  sni: www.bing.com
+- name: 🇺🇸US_2|3.2MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.233
   port: 65443
-- name: 🇫🇷FR_5|1.5MB/s
+- name: 🇱🇻LV_1|1.7MB/s
   type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: 213.130.137.70
+  uuid: c4ee7a89-eb01-462c-84d2-67e3fcdd5812
+  server: myleto.orangesms.ir
+  port: 61169
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_1|2.6MB/s
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  server: rrr.windconnect.pro
   port: 443
   tls: true
-  sni: panel.freesavesafe.com
-- name: 🇭🇰HK_1|3.8MB/s
+  sni: rrr.windconnect.pro
+- name: 🇺🇸US_3|1.8MB/s
   type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  server: nian.001.url111.kcloud02.top
-  port: 15003
+  uuid: f532a6ec-5c73-a79e-7cd4-cfc1659e8ede
+  server: inetchnl-production-7933.up.railway.app
+  port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: US_speednode_0136
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-  server: 155.117.199.13
-  port: 29893
-  tls: true
-  sni: cdnjs.cloudflare.com
+  sni: inetchnl-production-7933.up.railway.app
+- name: 🇫🇷FR_1|2.9MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 45.130.125.160
+  port: 443
+- name: 🇫🇷FR_2|3.2MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.207
+  port: 443
+- name: 🇫🇷FR_3|2.7MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  port: 443
+- name: 🇫🇷FR_4|1.9MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.208
+  port: 443
+- name: 🇫🇷FR_5|2.0MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.6
+  port: 443
+- name: 🇫🇷FR_6|2.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.143
+  port: 443
 - name: US_speednode_0137
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
   server: 155.117.199.13
   port: 39399
+  tls: true
+  sni: cdnjs.cloudflare.com
+- name: 🇹🇼TW_1|4.5MB/s
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  server: hinet1.2yly.com
+  port: 24215
+  tls: true
+  sni: addons.mozilla.org
+- name: 🇬🇧GB_3|3.5MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: nCsmzfb2IwkVZT9CLfmvL3tEOAHrHXzkXqcZAM57qqk=
+  server: 129.151.84.60
+  port: 61312
+- name: 🇸🇬SG_2|3.5MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: tzWa1GeUw2EeZpMafadA2SpXowEYBURWjIZn3mrrzEo=
+  server: 168.107.77.111
+  port: 56927
+- name: 🇫🇷FR_8|3.4MB/s
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+  server: germany.superbuba.top
+  port: 443
+  tls: true
+  sni: germany.superbuba.top
+- name: 🇫🇮FI_3|2.2MB/s
+  type: vless
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  server: fin2.helper-internet.com
+  port: 443
+  tls: true
+  sni: fin2.helper-internet.com
+- name: 🇩🇪DE_7|2.1MB/s
+  type: vless
+  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
+  server: 216.24.57.15
+  port: 443
+  tls: true
+  sni: four04-rd37.onrender.com
+- name: 🇺🇸US_22|2.7MB/s
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  server: 162.35.231.73
+  port: 443
+  tls: true
+  sni: net.savesafe.run
+- name: 🇬🇧GB_10|2.3MB/s
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  server: 82.152.223.140
+  port: 443
+  tls: true
+  sni: public-auth.savesafe.cc
+- name: 🇨🇭CH_2|2.9MB/s
+  type: vless
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  server: de48.tranzit-net.ru
+  port: 443
+  tls: true
+  sni: d.tranzit-net.ru
+- name: 🇦🇪AE_1|2.6MB/s
+  type: vless
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+  server: v.expres.fr-1.keshe-voz.pw
+  port: 443
+  tls: true
+  sni: v.expres.fr-1.keshe-voz.pw
+- name: 🇺🇸US_23|2.5MB/s
+  type: vless
+  uuid: c70b74a0-1dc2-3c91-ce42-62153bb5b315
+  server: hamishevaslbashconfing-production-7b50.up.railway.app
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇺🇸US_24|1.7MB/s
+  type: vless
+  uuid: c70b74a0-1dc2-3c91-ce42-62153bb5b315
+  server: hamishevaslbashconfing-production-7b50.up.railway.app
+  port: 443
+  tls: true
+  sni: hamishevaslbashconfing-production-7b50.up.railway.app
+- name: 🇵🇱PL_4|1.5MB/s
+  type: vless
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  server: kz3.freeinternat.com
+  port: 443
+  tls: true
+  sni: kz3.freeinternat.com
+- name: 🇫🇷FR_12|1.5MB/s
+  type: vless
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  server: ziro.skin
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇫🇮FI_4|1.8MB/s
+  type: vless
+  uuid: 4a49c0ba-3d57-48df-bfa4-99fcb9edac56
+  server: 146.75.119.82
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇬🇪GE_1|3.1MB/s
+  type: vless
+  uuid: 06fdb0d1-91ca-451f-861f-d5edeb100bee
+  server: 217.11.164.92
+  port: 37430
+  tls: true
+  sni: amp-api-edge.apps.apple.com
+- name: 🇧🇬BG_2|1.4MB/s
+  type: vless
+  uuid: 14079f86-f06b-48a5-a83c-5a6a0f6f14bd
+  server: it.selqora.ir
+  port: 22211
+  tls: false
+  sni: ''
+- name: 🇺🇸US_25|2.7MB/s
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  server: 80.76.44.138
+  port: 443
+  tls: true
+  sni: note.savesafe.run
+- name: US_speednode_0136
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  server: 155.117.199.13
+  port: 29893
   tls: true
   sni: cdnjs.cloudflare.com
 - name: US_speednode_0142
@@ -82,90 +228,44 @@ proxies:
   port: 39211
   tls: true
   sni: cdnjs.cloudflare.com
-- name: 🇳🇱NL_1|3.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: HRqwosfXqmllcha4w+K3LxYB8vJ+L1qRJwBZgVE1kRY=
-  server: 84.235.171.56
-  port: 45819
-- name: 🇸🇬SG_2|1.8MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: qxzS4vtyrA12yfTquZuo50wCbKaMIDmctQuS1EfDFgc=
-  server: 134.185.81.92
-  port: 56927
-- name: 🇺🇸US_8|1.9MB/s
-  type: vless
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-  server: us.tutvpn.com
-  port: 443
-  tls: true
-  sni: us.tutvpn.com
-- name: 🇩🇪DE_4|1.0MB/s
-  type: vless
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  server: 216.24.57.15
-  port: 443
-  tls: true
-  sni: four04-rd37.onrender.com
-- name: 🇯🇵JP_1|3.5MB/s
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  server: 82.38.46.66
-  port: 15007
-  tls: true
-  sni: www.bing.com
-- name: 🇫🇷FR_9|1.5MB/s
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  server: panel.freesavesafe.com
-  port: 443
-  tls: true
-  sni: panel.freesavesafe.com
-- name: 🇨🇭CH_1|2.5MB/s
-  type: vless
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  server: de48.tranzit-net.ru
-  port: 443
-  tls: true
-  sni: d.tranzit-net.ru
-- name: 🇩🇪DE_5|2.4MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: kN17ITmzNrnFpaTp4JSEAy/PV/tKXm+zGT9GaeWm9hU=
-  server: 158.180.59.229
-  port: 59924
-- name: 🇺🇸US_9|2.6MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3RVXu5xARCPQlD3Fv/cmQt7o/XGqUZLwrTTt0FkA2vo=
-  server: 129.146.62.211
-  port: 50356
 proxy-groups:
 - name: Auto
   type: url-test
   proxies:
-  - 🇫🇮FI_1|1.3MB/s
-  - 🇺🇸US_1|1.6MB/s
-  - 🇫🇷FR_1|1.1MB/s
-  - 🇫🇷FR_2|1.8MB/s
-  - 🇫🇷FR_3|1.7MB/s
-  - 🇫🇷FR_4|2.0MB/s
-  - 🇺🇸US_2|1.1MB/s
-  - 🇫🇷FR_5|1.5MB/s
-  - 🇭🇰HK_1|3.8MB/s
-  - US_speednode_0136
+  - 🇺🇸US_1|2.0MB/s
+  - 🇧🇬BG_1|1.2MB/s
+  - 🇯🇵JP_1|4.4MB/s
+  - 🇺🇸US_2|3.2MB/s
+  - 🇱🇻LV_1|1.7MB/s
+  - 🇩🇪DE_1|2.6MB/s
+  - 🇺🇸US_3|1.8MB/s
+  - 🇫🇷FR_1|2.9MB/s
+  - 🇫🇷FR_2|3.2MB/s
+  - 🇫🇷FR_3|2.7MB/s
+  - 🇫🇷FR_4|1.9MB/s
+  - 🇫🇷FR_5|2.0MB/s
+  - 🇫🇷FR_6|2.1MB/s
   - US_speednode_0137
+  - 🇹🇼TW_1|4.5MB/s
+  - 🇬🇧GB_3|3.5MB/s
+  - 🇸🇬SG_2|3.5MB/s
+  - 🇫🇷FR_8|3.4MB/s
+  - 🇫🇮FI_3|2.2MB/s
+  - 🇩🇪DE_7|2.1MB/s
+  - 🇺🇸US_22|2.7MB/s
+  - 🇬🇧GB_10|2.3MB/s
+  - 🇨🇭CH_2|2.9MB/s
+  - 🇦🇪AE_1|2.6MB/s
+  - 🇺🇸US_23|2.5MB/s
+  - 🇺🇸US_24|1.7MB/s
+  - 🇵🇱PL_4|1.5MB/s
+  - 🇫🇷FR_12|1.5MB/s
+  - 🇫🇮FI_4|1.8MB/s
+  - 🇬🇪GE_1|3.1MB/s
+  - 🇧🇬BG_2|1.4MB/s
+  - 🇺🇸US_25|2.7MB/s
+  - US_speednode_0136
   - US_speednode_0142
-  - 🇳🇱NL_1|3.2MB/s
-  - 🇸🇬SG_2|1.8MB/s
-  - 🇺🇸US_8|1.9MB/s
-  - 🇩🇪DE_4|1.0MB/s
-  - 🇯🇵JP_1|3.5MB/s
-  - 🇫🇷FR_9|1.5MB/s
-  - 🇨🇭CH_1|2.5MB/s
-  - 🇩🇪DE_5|2.4MB/s
-  - 🇺🇸US_9|2.6MB/s
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 100
