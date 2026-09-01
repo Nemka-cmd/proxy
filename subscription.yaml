@@ -5,177 +5,147 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇳🇱NL_1|3.1MB/s
-  type: vless
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  server: nl-xh01.tcp-reset-club.net
-  port: 443
-  tls: true
-  sni: s3.netavex.com
-- name: 🇺🇸US_1|1.8MB/s
+- name: 🇺🇸US_1|1.5MB/s
   type: vless
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
   server: us5-r.link-t7.com
   port: 10242
   tls: true
   sni: s0.awsstatic.com
-- name: 🇺🇸US_2|2.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.233
-  port: 65443
-- name: 🇩🇪DE_1|1.2MB/s
+- name: 🇩🇪DE_1|1002KB/s
   type: vless
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  server: 188.220.67.198
+  server: 188.220.67.140
   port: 2087
   tls: false
   sni: ''
-- name: 🇳🇱NL_2|4.6MB/s
+- name: 🇫🇷FR_1|3.2MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.233
+  port: 443
+- name: 🇷🇺RU_1|3.4MB/s
   type: vless
-  uuid: 05f1007e-9ed8-4808-b081-65163a196959
-  server: login-home-news-nwc.mobileahmad.ir
-  port: 2091
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_2|3.2MB/s
-  type: vless
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  server: app4.goonars.com
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  server: ru05.abvpn.ru
   port: 443
   tls: true
-  sni: app4.goonars.com
-- name: 🇩🇪DE_3|4.4MB/s
+  sni: ru05.abvpn.ru
+- name: 🇱🇻LV_1|1.1MB/s
   type: vless
-  uuid: 05f1007e-9ed8-4808-b081-65163a196959
-  server: De.poco.mobileahmadreza.ir
-  port: 2091
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_3|3.8MB/s
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  server: 195.123.210.168
+  port: 443
+  tls: true
+  sni: eu-west.cendora.ru
+- name: 🇫🇷FR_2|4.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.74.2
+  port: 443
+- name: 🇳🇱NL_1|4.5MB/s
   type: vless
-  uuid: 0d3713e4-74f7-4b05-8d6a-1515913725de
-  server: am1.milkabebar.ir
-  port: 38479
-  tls: false
-  sni: ''
-- name: 🇰🇷KR_1|2.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  server: 27.255.82.134
-  port: 2078
-- name: 🇺🇸US_6|1.4MB/s
+  uuid: 1a8d3885-d868-49c5-abc4-68ff79a91e09
+  server: 45.82.67.183
+  port: 443
+  tls: true
+  sni: northwaleswildlifetrust.org.uk
+- name: 🇺🇸US_3|3.3MB/s
   type: vless
   uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  server: 172.67.198.236
+  server: 172.67.169.213
   port: 443
   tls: false
-  sni: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-- name: 🇺🇸US_7|1.7MB/s
+  sni: 2-m20.20260721-9dc5-4f76-ad18-12cd86bca954.ccwu.cc
+- name: 🇺🇸US_4|2.3MB/s
   type: vless
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  server: 172.67.205.153
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  server: 172.67.138.232
   port: 443
   tls: false
-  sni: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
-- name: 🇸🇬SG_4|5.7MB/s
+  sni: 8-m17.KAzAkhStaN-LinK.Kdns.FR
+- name: 🇸🇬SG_3|3.5MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: sg5-r.link-t7.com
   port: 10040
   tls: true
   sni: d1.awsstatic.com
-- name: 🇭🇰HK_2|5.4MB/s
+- name: 🇳🇱NL_4|2.3MB/s
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk4-r.link-t7.com
-  port: 10129
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇭🇰HK_3|5.1MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk3-r.link-t7.com
-  port: 10128
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇺🇸US_8|2.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  server: 3ce8ee8.hb.gladns.com
-  port: 2377
-- name: 🇨🇦CA_1|4.2MB/s
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 134.98.129.48
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇬🇧GB_2|4.4MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 35.182.226.121
+  server: 35.179.104.254
   port: 443
-- name: 🇬🇧GB_6|3.2MB/s
+- name: 🇬🇧GB_7|1.8MB/s
   type: vless
   uuid: d742752c-4231-4695-801e-f06d77f0f277
   server: uk01.vletun.qianmoxingyun.com
   port: 10041
   tls: true
   sni: www.apple.com
-- name: 🇺🇸US_25|1.8MB/s
+- name: 🇭🇰HK_2|4.2MB/s
+  type: trojan
+  sni: taobao.com
+  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
+  server: hk03.qianmoip.win
+  port: 50222
+- name: 🇬🇧GB_9|2.6MB/s
   type: vless
-  uuid: c21631d5-36c9-4664-b575-97eca17456be
-  server: neth8.lunariai.ru
+  uuid: 5c0f54f4-f3e2-4931-a3b9-b1ffc0961d70
+  server: 82.145.55.75
   port: 443
-  tls: false
-  sni: ''
-- name: 🇺🇸US_28|3.4MB/s
+  tls: true
+  sni: strapi.io
+- name: 🇩🇪DE_4|4.5MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: EItZd/Xd+cmdmMJ9FLqMrlkRD6D/u/iVR0p1qJZMblQ=
+  server: 130.61.83.100
+  port: 59924
+- name: 🇩🇪DE_5|3.3MB/s
   type: vless
   uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  server: app3.goonars.com
+  server: app4.goonars.com
   port: 443
   tls: true
-  sni: app3.goonars.com
-- name: 🇬🇧GB_7|3.9MB/s
-  type: vless
-  uuid: ffaa4b21-9842-4206-8f4c-20588033c481
-  server: eg.linuxbase.ir
-  port: 443
-  tls: true
-  sni: amp-api-edge.apps.apple.com
-- name: 🇳🇱NL_10|3.1MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 143.47.176.112
-  port: 62145
-  tls: false
   sni: ''
-- name: 🇳🇱NL_11|3.2MB/s
+- name: 🇳🇱NL_8|1.1MB/s
+  type: vless
+  uuid: 9f57df7b-0a59-4e6b-bbda-e6ce44619869
+  server: 78.17.38.184
+  port: 8443
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇩🇪DE_7|3.5MB/s
   type: vless
   uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
   server: 5.83.129.124
   port: 443
   tls: true
   sni: 50gport3.potatosubge20.org
-- name: ❓Other_1|3.3MB/s
+- name: 🇺🇦UA_1|3.3MB/s
   type: vless
-  uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e
-  server: 45.90.58.216
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  server: pl-xh01.tcp-reset-club.net
   port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: ❓Other_2|1002KB/s
-  type: vless
-  uuid: 0a57f0c8-c29e-467b-af3e-d8d8c2c02d7c
-  server: 82.145.55.75
-  port: 443
-  tls: true
-  sni: strapi.io
-- name: ❓Other_3|2.2MB/s
-  type: vless
-  uuid: 8b20bab5-3088-4b1d-b308-667d358fe825
-  server: 82.145.55.75
-  port: 443
-  tls: true
-  sni: strapi.io
+  sni: s3.netavex.com
+- name: 🇭🇰HK_5|2.4MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
+  server: 212.192.15.178
+  port: 20210
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -202,31 +172,27 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇳🇱NL_1|3.1MB/s
-  - 🇺🇸US_1|1.8MB/s
-  - 🇺🇸US_2|2.1MB/s
-  - 🇩🇪DE_1|1.2MB/s
-  - 🇳🇱NL_2|4.6MB/s
-  - 🇩🇪DE_2|3.2MB/s
-  - 🇩🇪DE_3|4.4MB/s
-  - 🇳🇱NL_3|3.8MB/s
-  - 🇰🇷KR_1|2.1MB/s
-  - 🇺🇸US_6|1.4MB/s
-  - 🇺🇸US_7|1.7MB/s
-  - 🇸🇬SG_4|5.7MB/s
-  - 🇭🇰HK_2|5.4MB/s
-  - 🇭🇰HK_3|5.1MB/s
-  - 🇺🇸US_8|2.2MB/s
-  - 🇨🇦CA_1|4.2MB/s
-  - 🇬🇧GB_6|3.2MB/s
-  - 🇺🇸US_25|1.8MB/s
-  - 🇺🇸US_28|3.4MB/s
-  - 🇬🇧GB_7|3.9MB/s
-  - 🇳🇱NL_10|3.1MB/s
-  - 🇳🇱NL_11|3.2MB/s
-  - ❓Other_1|3.3MB/s
-  - ❓Other_2|1002KB/s
-  - ❓Other_3|2.2MB/s
+  - 🇺🇸US_1|1.5MB/s
+  - 🇩🇪DE_1|1002KB/s
+  - 🇫🇷FR_1|3.2MB/s
+  - 🇷🇺RU_1|3.4MB/s
+  - 🇱🇻LV_1|1.1MB/s
+  - 🇫🇷FR_2|4.3MB/s
+  - 🇳🇱NL_1|4.5MB/s
+  - 🇺🇸US_3|3.3MB/s
+  - 🇺🇸US_4|2.3MB/s
+  - 🇸🇬SG_3|3.5MB/s
+  - 🇳🇱NL_4|2.3MB/s
+  - 🇬🇧GB_2|4.4MB/s
+  - 🇬🇧GB_7|1.8MB/s
+  - 🇭🇰HK_2|4.2MB/s
+  - 🇬🇧GB_9|2.6MB/s
+  - 🇩🇪DE_4|4.5MB/s
+  - 🇩🇪DE_5|3.3MB/s
+  - 🇳🇱NL_8|1.1MB/s
+  - 🇩🇪DE_7|3.5MB/s
+  - 🇺🇦UA_1|3.3MB/s
+  - 🇭🇰HK_5|2.4MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
