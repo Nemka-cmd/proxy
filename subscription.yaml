@@ -5,207 +5,94 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇭🇰HK_1|4.5MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk6-r.link-t7.com
-  port: 10136
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇰🇷KR_1|5.1MB/s
+- name: 🇰🇷KR_1|4.8MB/s
   type: vless
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
   server: kr2-r.link-t7.com
   port: 10047
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇬SG_1|5.4MB/s
+- name: 🇺🇸US_1|1.2MB/s
   type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: sg5-r.link-t7.com
-  port: 10040
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+  server: us5-r.link-t7.com
+  port: 10242
   tls: true
-  sni: d1.awsstatic.com
-- name: 🇺🇸US_1|1.3MB/s
+  sni: s0.awsstatic.com
+- name: 🇯🇵JP_1|4.5MB/s
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+  server: jp4-r.link-t7.com
+  port: 10034
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇩🇪DE_1|1.3MB/s
+  type: vless
+  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
+  server: e757de.rucdn.pro
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇺🇸US_2|1.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.233
+  port: 65443
+- name: 🇺🇸US_3|1.3MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.232
   port: 65443
-- name: 🇩🇪DE_1|3.2MB/s
-  type: vless
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  server: app4.goonars.com
-  port: 443
-  tls: true
-  sni: app4.goonars.com
-- name: 🇸🇪SE_1|2.5MB/s
-  type: vless
-  uuid: 84491c04-b011-4fdc-b97d-770975586f3a
-  server: app1.jarvestip.ru
-  port: 443
-  tls: true
-  sni: app1.jarvestip.ru
-- name: 🇺🇸US_3|1.2MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.229
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇭🇰HK_4|1.4MB/s
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  server: 82.38.46.66
-  port: 15003
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇸🇬SG_2|1.7MB/s
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  server: nian.001.url111.kcloud02.top
-  port: 15006
-  tls: true
-  sni: www.adobe.com
-- name: 🇸🇬SG_3|5.6MB/s
+- name: 🇸🇬SG_1|5.6MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: sg1-r.link-t7.com
   port: 10036
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_5|5.0MB/s
+- name: 🇸🇬SG_3|5.2MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk5-r.link-t7.com
-  port: 10130
+  server: sg4-r.link-t7.com
+  port: 10039
+  tls: true
+  sni: d1.awsstatic.com
+- name: 🇭🇰HK_2|4.9MB/s
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  server: hk4-r.link-t7.com
+  port: 10129
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_6|4.9MB/s
+- name: 🇭🇰HK_3|4.5MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk3-r.link-t7.com
   port: 10128
   tls: true
   sni: s0.awsstatic.com
-- name: 🇨🇦CA_1|1011KB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 35.182.129.250
-  port: 443
-- name: 🇷🇺RU_1|1.5MB/s
+- name: 🇭🇰HK_4|3.7MB/s
   type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  server: 45.9.15.206
-  port: 443
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  server: hk6-r.link-t7.com
+  port: 10136
   tls: true
-  sni: ru05.abvpn.ru
-- name: 🇷🇴RO_2|1.2MB/s
-  type: vless
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
-  server: cdn706i388.rucdn.pro
-  port: 443
-  tls: true
-  sni: cdn706i388.rucdn.pro
-- name: 🇷🇴RO_3|1.6MB/s
-  type: vless
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
-  server: cdn722d3222.rucdn.pro
-  port: 443
-  tls: true
-  sni: cdn722d3222.rucdn.pro
-- name: 🇸🇪SE_4|1.1MB/s
-  type: vless
-  uuid: 30dab345-4de9-4b70-ad9f-8ebd5c66686f
-  server: 2.26.124.85
-  port: 443
-  tls: true
-  sni: cdn.jsdelivr.net
-- name: 🇯🇵JP_1|1.7MB/s
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  server: 82.38.46.66
-  port: 15007
-  tls: true
-  sni: www.bing.com
-- name: 🇩🇪DE_3|2.7MB/s
-  type: vless
-  uuid: 6deab233-3abc-492a-85c9-503ef4160b47
-  server: 162.55.242.208
-  port: 2053
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇧🇬BG_1|3.6MB/s
+  sni: s0.awsstatic.com
+- name: 🇧🇬BG_1|2.2MB/s
   type: vless
   uuid: 88f9c3c2-b3dc-44aa-9490-8e9bc8133535
   server: it-xh1.w-mebel.pro
   port: 443
   tls: true
   sni: w-mebel.pro
-- name: 🇺🇸US_19|1.1MB/s
-  type: vless
-  uuid: 996a2a09-0822-4e5b-b990-1697cf01412b
-  server: tsa-production-47c5.up.railway.app
+- name: 🇬🇧GB_2|1.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 13.40.94.70
   port: 443
-  tls: true
-  sni: tsa-production-47c5.up.railway.app
-- name: 🇩🇪DE_6|2.9MB/s
-  type: vless
-  uuid: c1943f8a-11c6-402d-a439-dc0be226d916
-  server: 77.110.99.144
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇺🇸US_24|3.2MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.35
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇺🇸US_21|1003KB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.89
-  port: 443
-  tls: true
-  sni: yahoo.com
-- name: 🇩🇪DE_5|1.4MB/s
-  type: vless
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  server: de-xh01.tcp-reset-club.net
-  port: 443
-  tls: true
-  sni: s3.netavex.com
-- name: 🇳🇱NL_3|3.2MB/s
-  type: vless
-  uuid: c5c76051-abad-4dfe-bf16-1ee0ee3aca31
-  server: 82.26.74.4
-  port: 443
-  tls: true
-  sni: cdn.byteark.com
-- name: 🇺🇸US_22|2.2MB/s
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  server: 104.223.73.149
-  port: 13779
-  tls: true
-  sni: tesla.com
-- name: 🇳🇱NL_4|2.6MB/s
-  type: vless
-  uuid: c5c76051-abad-4dfe-bf16-1ee0ee3aca31
-  server: free-nl.moscow-neversleep.digital
-  port: 443
-  tls: true
-  sni: cdn.byteark.com
-- name: 🇺🇸US_23|1.1MB/s
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  server: 169.40.42.74
-  port: 443
-  tls: true
-  sni: yahoo.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -232,35 +119,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇭🇰HK_1|4.5MB/s
-  - 🇰🇷KR_1|5.1MB/s
-  - 🇸🇬SG_1|5.4MB/s
-  - 🇺🇸US_1|1.3MB/s
-  - 🇩🇪DE_1|3.2MB/s
-  - 🇸🇪SE_1|2.5MB/s
-  - 🇺🇸US_3|1.2MB/s
-  - 🇭🇰HK_4|1.4MB/s
-  - 🇸🇬SG_2|1.7MB/s
-  - 🇸🇬SG_3|5.6MB/s
-  - 🇭🇰HK_5|5.0MB/s
-  - 🇭🇰HK_6|4.9MB/s
-  - 🇨🇦CA_1|1011KB/s
-  - 🇷🇺RU_1|1.5MB/s
-  - 🇷🇴RO_2|1.2MB/s
-  - 🇷🇴RO_3|1.6MB/s
-  - 🇸🇪SE_4|1.1MB/s
-  - 🇯🇵JP_1|1.7MB/s
-  - 🇩🇪DE_3|2.7MB/s
-  - 🇧🇬BG_1|3.6MB/s
-  - 🇺🇸US_19|1.1MB/s
-  - 🇩🇪DE_6|2.9MB/s
-  - 🇺🇸US_24|3.2MB/s
-  - 🇺🇸US_21|1003KB/s
-  - 🇩🇪DE_5|1.4MB/s
-  - 🇳🇱NL_3|3.2MB/s
-  - 🇺🇸US_22|2.2MB/s
-  - 🇳🇱NL_4|2.6MB/s
-  - 🇺🇸US_23|1.1MB/s
+  - 🇰🇷KR_1|4.8MB/s
+  - 🇺🇸US_1|1.2MB/s
+  - 🇯🇵JP_1|4.5MB/s
+  - 🇩🇪DE_1|1.3MB/s
+  - 🇺🇸US_2|1.9MB/s
+  - 🇺🇸US_3|1.3MB/s
+  - 🇸🇬SG_1|5.6MB/s
+  - 🇸🇬SG_3|5.2MB/s
+  - 🇭🇰HK_2|4.9MB/s
+  - 🇭🇰HK_3|4.5MB/s
+  - 🇭🇰HK_4|3.7MB/s
+  - 🇧🇬BG_1|2.2MB/s
+  - 🇬🇧GB_2|1.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
