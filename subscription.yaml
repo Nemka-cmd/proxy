@@ -5,75 +5,88 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇨🇦CA_1|3.6MB/s
   type: vless
-  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
-  server: ger22.orangesms.ir
-  port: 61169
-  tls: false
-  sni: ''
-- name: 🇭🇰HK_2|3.6MB/s
+  uuid: 911a03bc-6628-43af-948d-cc092f3df78a
+  server: 155.248.229.115
+  port: 8443
+  tls: true
+  sni: tesla.com
+- name: 🇭🇰HK_2|5.2MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk4-r.link-t7.com
   port: 10129
   tls: true
   sni: s0.awsstatic.com
-- name: 🇰🇷KR_1|1.7MB/s
+- name: 🇰🇷KR_1|5.8MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.138
   port: 65443
-- name: 🇸🇬SG_1|5.7MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: sg4-r.link-t7.com
-  port: 10039
-  tls: true
-  sni: d1.awsstatic.com
-- name: 🇭🇰HK_4|5.1MB/s
+- name: 🇭🇰HK_4|4.5MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk3-r.link-t7.com
   port: 10128
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_5|3.5MB/s
+- name: 🇸🇬SG_1|5.4MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: hk2-r.link-t7.com
-  port: 10127
+  server: sg4-r.link-t7.com
+  port: 10039
   tls: true
-  sni: s0.awsstatic.com
-- name: 🇭🇰HK_6|4.9MB/s
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: hk4-r.link-t7.com
-  port: 10129
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇭🇰HK_7|5.1MB/s
+  sni: d1.awsstatic.com
+- name: 🇸🇬SG_2|3.4MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk6-r.link-t7.com
-  port: 10136
+  server: sg2-r.link-t7.com
+  port: 10037
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_8|5.1MB/s
+- name: 🇮🇪IE_1|4.4MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 108.129.211.17
+  port: 443
+- name: 🇬🇧GB_7|3.8MB/s
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 13.134.70.15
+  port: 22223
+  tls: false
+  sni: ''
+- name: 🇫🇮FI_1|3.1MB/s
+  type: vless
+  uuid: d60e2537-13e8-41db-bdad-cd5c054a0ec7
+  server: 151.101.56.6
+  port: 443
+  tls: true
+  sni: ssl.fastly.com
+- name: 🇳🇱NL_8|2.5MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 141.148.245.146
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇨🇦CA_2|3.2MB/s
+  type: vless
+  uuid: d6b91cae-8867-44e5-9e91-a19baf5e121e
+  server: 155.248.229.115
+  port: 8443
+  tls: true
+  sni: tesla.com
+- name: 🇭🇰HK_6|5.1MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk5-r.link-t7.com
   port: 10130
   tls: true
   sni: s0.awsstatic.com
-- name: 🇯🇵JP_2|5.4MB/s
-  type: vless
-  uuid: 450ed4bd-fc3e-4aab-b50d-33f2cdfcfc18
-  server: 172.64.229.30
-  port: 443
-  tls: true
-  sni: jp1-jp1.aiopen.sbs
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -100,16 +113,18 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇩🇪DE_1|1.1MB/s
-  - 🇭🇰HK_2|3.6MB/s
-  - 🇰🇷KR_1|1.7MB/s
-  - 🇸🇬SG_1|5.7MB/s
-  - 🇭🇰HK_4|5.1MB/s
-  - 🇭🇰HK_5|3.5MB/s
-  - 🇭🇰HK_6|4.9MB/s
-  - 🇭🇰HK_7|5.1MB/s
-  - 🇭🇰HK_8|5.1MB/s
-  - 🇯🇵JP_2|5.4MB/s
+  - 🇨🇦CA_1|3.6MB/s
+  - 🇭🇰HK_2|5.2MB/s
+  - 🇰🇷KR_1|5.8MB/s
+  - 🇭🇰HK_4|4.5MB/s
+  - 🇸🇬SG_1|5.4MB/s
+  - 🇸🇬SG_2|3.4MB/s
+  - 🇮🇪IE_1|4.4MB/s
+  - 🇬🇧GB_7|3.8MB/s
+  - 🇫🇮FI_1|3.1MB/s
+  - 🇳🇱NL_8|2.5MB/s
+  - 🇨🇦CA_2|3.2MB/s
+  - 🇭🇰HK_6|5.1MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
