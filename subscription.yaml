@@ -5,94 +5,179 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇰🇷KR_1|4.8MB/s
-  type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-  server: kr2-r.link-t7.com
-  port: 10047
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇺🇸US_1|1.2MB/s
-  type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-  server: us5-r.link-t7.com
-  port: 10242
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇯🇵JP_1|4.5MB/s
-  type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-  server: jp4-r.link-t7.com
-  port: 10034
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇩🇪DE_1|1.3MB/s
-  type: vless
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
-  server: e757de.rucdn.pro
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇺🇸US_2|1.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.233
-  port: 65443
-- name: 🇺🇸US_3|1.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.232
-  port: 65443
-- name: 🇸🇬SG_1|5.6MB/s
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: sg1-r.link-t7.com
-  port: 10036
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇸🇬SG_3|5.2MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: sg4-r.link-t7.com
-  port: 10039
-  tls: true
-  sni: d1.awsstatic.com
-- name: 🇭🇰HK_2|4.9MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk4-r.link-t7.com
-  port: 10129
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇭🇰HK_3|4.5MB/s
+- name: 🇭🇰HK_1|4.7MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk3-r.link-t7.com
   port: 10128
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_4|3.7MB/s
+- name: 🇭🇰HK_2|3.0MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk6-r.link-t7.com
   port: 10136
   tls: true
   sni: s0.awsstatic.com
-- name: 🇧🇬BG_1|2.2MB/s
+- name: 🇯🇵JP_2|4.3MB/s
   type: vless
-  uuid: 88f9c3c2-b3dc-44aa-9490-8e9bc8133535
-  server: it-xh1.w-mebel.pro
-  port: 443
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+  server: jp5-r.link-t7.com
+  port: 10035
   tls: true
-  sni: w-mebel.pro
-- name: 🇬🇧GB_2|1.2MB/s
+  sni: s0.awsstatic.com
+- name: 🇰🇷KR_1|5.2MB/s
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+  server: kr2-r.link-t7.com
+  port: 10047
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_1|5.0MB/s
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  server: sg1-r.link-t7.com
+  port: 10036
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇺🇸US_2|3.6MB/s
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.40.94.70
+  password: 7eadc6dbe2ae
+  server: 121.46.230.233
+  port: 65443
+- name: 🇺🇸US_4|4.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.232
+  port: 65443
+- name: 🇳🇱NL_1|1.6MB/s
+  type: vless
+  uuid: 15e9c884-4541-f430-cf55-66401979319d
+  server: 69.46.46.10
   port: 443
+  tls: true
+  sni: golden-grove-39ee-production.up.railway.app
+- name: 🇳🇱NL_2|3.5MB/s
+  type: vless
+  uuid: a4c3b304-0fc0-350f-64b6-2a61e7376307
+  server: 69.46.46.103
+  port: 443
+  tls: true
+  sni: hidden-canyon-caed-production.up.railway.app
+- name: 🇺🇸US_5|3.1MB/s
+  type: vless
+  uuid: da8f7273-fd3c-47fd-8938-b47b8eb0bb1e
+  server: web-production-5f54e.up.railway.app
+  port: 443
+  tls: true
+  sni: web-production-5f54e.up.railway.app
+- name: 🇭🇰HK_5|4.6MB/s
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  server: hk2-r.link-t7.com
+  port: 10127
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇭🇰HK_6|5.1MB/s
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  server: hk5-r.link-t7.com
+  port: 10130
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇯🇵JP_3|4.3MB/s
+  type: vless
+  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
+  server: qp.lichao0223.cn
+  port: 49152
+  tls: false
+  sni: qp.lichao0223.cn
+- name: 🇷🇺RU_1|3.6MB/s
+  type: vless
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  server: 45.9.15.206
+  port: 443
+  tls: true
+  sni: ru05.abvpn.ru
+- name: 🇸🇬SG_2|1.7MB/s
+  type: vless
+  uuid: 4a9c7489-045f-4ff1-ba94-0502e69a8b26
+  server: 140.245.109.76
+  port: 8444
+  tls: true
+  sni: tesla.com
+- name: 🇩🇪DE_5|3.2MB/s
+  type: vless
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  server: 31.77.220.185
+  port: 12443
+  tls: true
+  sni: special.aeternavpn.space
+- name: 🇫🇷FR_4|2.1MB/s
+  type: vless
+  uuid: 6379673b-197f-4944-ba81-a45c66aefe9c
+  server: 31.77.220.183
+  port: 7443
+  tls: true
+  sni: fr.aeternavpn.space
+- name: 🇨🇴CO_1|2.5MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 158.247.123.215
+  port: 62145
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_10|4.4MB/s
+  type: vless
+  uuid: 91d0fa43-e557-43e7-a731-f0c3d1fb306a
+  server: 89.105.208.122
+  port: 443
+  tls: true
+  sni: n1.cloudgaming.one
+- name: 🇺🇸US_24|3.1MB/s
+  type: vless
+  uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
+  server: piracy-android.video-streams.org
+  port: 443
+  tls: true
+  sni: piracy-android.video-streams.org
+- name: 🇷🇴RO_7|3.7MB/s
+  type: vless
+  uuid: f5e98e30-28b8-468a-a5a5-c6c22be64055
+  server: 196.245.156.30
+  port: 443
+  tls: true
+  sni: rm2.magazinnarubeva.ru
+- name: 🇺🇸US_25|3.2MB/s
+  type: vless
+  uuid: ff2eda48-42a0-4214-bd1f-a969d0c46964
+  server: web-production-3b1c1.up.railway.app
+  port: 443
+  tls: true
+  sni: web-production-3b1c1.up.railway.app
+- name: 🇸🇬SG_4|2.6MB/s
+  type: vless
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  server: do2sg1xxx.87544899.xyz
+  port: 443
+  tls: true
+  sni: bod.changiairport.com
+- name: 🇳🇱NL_11|1.3MB/s
+  type: vless
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  server: de-xh01.tcp-reset-club.net
+  port: 443
+  tls: true
+  sni: s3.netavex.com
+- name: 🇺🇸US_27|1.3MB/s
+  type: vless
+  uuid: 91c35e01-00bf-41f5-94e4-71539222d255
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  tls: true
+  sni: ghosts-spasm.quick-cdn.net
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -119,19 +204,31 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇰🇷KR_1|4.8MB/s
-  - 🇺🇸US_1|1.2MB/s
-  - 🇯🇵JP_1|4.5MB/s
-  - 🇩🇪DE_1|1.3MB/s
-  - 🇺🇸US_2|1.9MB/s
-  - 🇺🇸US_3|1.3MB/s
-  - 🇸🇬SG_1|5.6MB/s
-  - 🇸🇬SG_3|5.2MB/s
-  - 🇭🇰HK_2|4.9MB/s
-  - 🇭🇰HK_3|4.5MB/s
-  - 🇭🇰HK_4|3.7MB/s
-  - 🇧🇬BG_1|2.2MB/s
-  - 🇬🇧GB_2|1.2MB/s
+  - 🇭🇰HK_1|4.7MB/s
+  - 🇭🇰HK_2|3.0MB/s
+  - 🇯🇵JP_2|4.3MB/s
+  - 🇰🇷KR_1|5.2MB/s
+  - 🇸🇬SG_1|5.0MB/s
+  - 🇺🇸US_2|3.6MB/s
+  - 🇺🇸US_4|4.0MB/s
+  - 🇳🇱NL_1|1.6MB/s
+  - 🇳🇱NL_2|3.5MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - 🇭🇰HK_5|4.6MB/s
+  - 🇭🇰HK_6|5.1MB/s
+  - 🇯🇵JP_3|4.3MB/s
+  - 🇷🇺RU_1|3.6MB/s
+  - 🇸🇬SG_2|1.7MB/s
+  - 🇩🇪DE_5|3.2MB/s
+  - 🇫🇷FR_4|2.1MB/s
+  - 🇨🇴CO_1|2.5MB/s
+  - 🇳🇱NL_10|4.4MB/s
+  - 🇺🇸US_24|3.1MB/s
+  - 🇷🇴RO_7|3.7MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇸🇬SG_4|2.6MB/s
+  - 🇳🇱NL_11|1.3MB/s
+  - 🇺🇸US_27|1.3MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
