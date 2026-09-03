@@ -5,103 +5,75 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇭🇰HK_1|5.1MB/s
+- name: 🇭🇰HK_1|4.7MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk3-r.link-t7.com
   port: 10128
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_2|5.0MB/s
+- name: 🇭🇰HK_2|4.0MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: hk5-r.link-t7.com
   port: 10130
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇬SG_3|5.6MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: sg4-r.link-t7.com
-  port: 10039
-  tls: true
-  sni: d1.awsstatic.com
-- name: 🇭🇰HK_3|5.3MB/s
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: hk1-r.link-t7.com
-  port: 10126
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇸🇬SG_4|4.5MB/s
+- name: 🇸🇬SG_1|5.4MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: sg1-r.link-t7.com
   port: 10036
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_4|5.4MB/s
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk4-r.link-t7.com
-  port: 10129
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇫🇷FR_1|1.6MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 216.24.57.1
-  port: 443
-- name: 🇭🇰HK_5|4.7MB/s
+- name: 🇭🇰HK_3|5.0MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: hk2-r.link-t7.com
   port: 10127
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_6|5.0MB/s
+- name: 🇭🇰HK_4|5.1MB/s
   type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: hk4-r.link-t7.com
-  port: 10129
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  server: hk6-r.link-t7.com
+  port: 10136
   tls: true
   sni: s0.awsstatic.com
-- name: 🇯🇵JP_1|1.7MB/s
+- name: 🇺🇸US_7|1.5MB/s
   type: vless
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
-  server: 140.99.243.19
+  uuid: 8a2ae83c-0327-4703-a847-535a972bc636
+  server: 172.67.155.141
   port: 443
   tls: true
-  sni: jp03.glaveda.net
-- name: 🇺🇸US_13|4.0MB/s
+  sni: 6-M23.CHIANG-MAI2030.kdns.FR
+- name: 🇺🇸US_9|3.0MB/s
   type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  server: 89.208.244.252
-  port: 13779
-  tls: true
-  sni: tesla.com
-- name: 🇸🇪SE_2|3.3MB/s
-  type: vless
-  uuid: ae6e6c4b-7b9b-002f-bd0e-42ce01b96f86
-  server: 135.106.142.209
+  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
+  server: 138.124.60.146
   port: 443
   tls: true
-  sni: alfastat.ru
-- name: 🇳🇱NL_4|4.2MB/s
+  sni: usa.oblaco.bet
+- name: 🇨🇿CZ_1|1.1MB/s
   type: vless
-  uuid: Fluffy_VPN-zKZUa4Ie
-  server: 72.56.38.83
+  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
+  server: 95.85.230.35
   port: 443
   tls: true
-  sni: absolute-disaster.org
-- name: 🇷🇺RU_1|1.5MB/s
+  sni: de.oblaco.bet
+- name: 🇫🇮FI_1|1006KB/s
   type: vless
-  uuid: ae6e6c4b-7b9b-0032-bd0e-42ce01b96f86
-  server: 135.106.142.209
-  port: 443
+  uuid: 5e2be2b4-8af5-4d18-a15c-d4cb4b1d6ae6
+  server: 104.20.45.4
+  port: 2083
   tls: true
-  sni: alfastat.ru
+  sni: shopki.dearhossein-taktaz.ir
+- name: 🇮🇪IE_1|3.7MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.252.205.48
+  port: 443
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -128,20 +100,16 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇭🇰HK_1|5.1MB/s
-  - 🇭🇰HK_2|5.0MB/s
-  - 🇸🇬SG_3|5.6MB/s
-  - 🇭🇰HK_3|5.3MB/s
-  - 🇸🇬SG_4|4.5MB/s
-  - 🇭🇰HK_4|5.4MB/s
-  - 🇫🇷FR_1|1.6MB/s
-  - 🇭🇰HK_5|4.7MB/s
-  - 🇭🇰HK_6|5.0MB/s
-  - 🇯🇵JP_1|1.7MB/s
-  - 🇺🇸US_13|4.0MB/s
-  - 🇸🇪SE_2|3.3MB/s
-  - 🇳🇱NL_4|4.2MB/s
-  - 🇷🇺RU_1|1.5MB/s
+  - 🇭🇰HK_1|4.7MB/s
+  - 🇭🇰HK_2|4.0MB/s
+  - 🇸🇬SG_1|5.4MB/s
+  - 🇭🇰HK_3|5.0MB/s
+  - 🇭🇰HK_4|5.1MB/s
+  - 🇺🇸US_7|1.5MB/s
+  - 🇺🇸US_9|3.0MB/s
+  - 🇨🇿CZ_1|1.1MB/s
+  - 🇫🇮FI_1|1006KB/s
+  - 🇮🇪IE_1|3.7MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
