@@ -5,158 +5,254 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇩🇪DE_1|3.7MB/s
+- name: 🇩🇪DE_1|4.1MB/s
   type: vless
   uuid: 9329556f-f4c2-42fe-8859-c52ce5f95c23
   server: 188.72.103.4
   port: 443
   tls: true
   sni: cdn.huananconn.xyz
-- name: 🇭🇰HK_1|5.2MB/s
+- name: 🇭🇰HK_1|4.6MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk2-r.link-t7.com
   port: 10127
   tls: true
   sni: s0.awsstatic.com
-- name: 🇷🇺RU_1|3.0MB/s
-  type: vless
-  uuid: 252f7811-d86f-4dc2-97e0-83d3172ef4b8
-  server: 50.7.33.218
-  port: 443
-  tls: true
-  sni: edge-fr2.mystatic-cdn.ru
-- name: 🇺🇸US_1|1.4MB/s
-  type: vless
-  uuid: f251acbd-62e5-399f-9be9-e0082d2d078f
-  server: 69.46.46.103
-  port: 443
-  tls: true
-  sni: maple-lantern-1c60-production.up.railway.app
-- name: 🇺🇸US_2|1.9MB/s
-  type: vless
-  uuid: f7d88bef-44f5-92be-6f8e-8a28cfcfe4ea
-  server: 69.46.46.102
-  port: 443
-  tls: true
-  sni: silent-current-12ef-production.up.railway.app
-- name: 🇩🇪DE_2|3.2MB/s
-  type: vless
-  uuid: 078154d5-f211-4d1c-b9d3-15636eb477b6
-  server: freesocks.work
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇭🇰HK_2|4.1MB/s
+- name: 🇭🇰HK_2|5.0MB/s
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   server: hk3-r.link-t7.com
   port: 10128
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇬SG_2|5.1MB/s
+- name: 🇩🇪DE_3|4.7MB/s
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: sg4-r.link-t7.com
-  port: 10039
-  tls: true
-  sni: d1.awsstatic.com
-- name: 🇭🇰HK_4|4.5MB/s
+  uuid: 6b8e7f4c-7286-4427-b9aa-e8c96352675d
+  server: 104.20.18.56
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇫🇷FR_1|1.5MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.148
+  port: 443
+- name: 🇭🇰HK_3|3.9MB/s
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
   server: hk1-r.link-t7.com
   port: 10126
   tls: true
   sni: s0.awsstatic.com
-- name: 🇭🇰HK_6|4.8MB/s
+- name: 🇺🇸US_2|1.2MB/s
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  server: hk4-r.link-t7.com
-  port: 10129
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇺🇸US_4|1.1MB/s
-  type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  server: 172.67.148.36
-  port: 443
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  server: 91.206.71.8
+  port: 80
   tls: false
-  sni: 4-m13.aYuTtHaYa-x.KDNs.fR
-- name: 🇺🇸US_5|1.2MB/s
+  sni: ''
+- name: 🇫🇷FR_2|2.0MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.26.14.137
+  port: 443
+- name: 🇫🇷FR_3|1.6MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 216.24.57.1
+  port: 443
+- name: 🇺🇸US_3|1.4MB/s
   type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  server: 172.67.202.114
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  server: 104.21.62.202
   port: 443
   tls: true
-  sni: 1-m19.PeRu-liNe.CcWu.cC
-- name: 🇭🇰HK_7|2.2MB/s
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  server: hk2-r.link-t7.com
-  port: 10127
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇬🇧GB_2|3.3MB/s
+  sni: 9-m17.kaZakHstAn-lInK.KdnS.Fr
+- name: 🇫🇷FR_4|1.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.19.229.21
+  port: 443
+- name: 🇫🇷FR_5|2.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: ip.myip2.qzz.io
+  port: 443
+- name: 🇫🇷FR_6|1.9MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 8.6.112.0
+  port: 443
+- name: 🇬🇧GB_1|2.9MB/s
   type: trojan
   sni: ''
   password: tripitropa444
   server: xn--1ugy405pdua.gayvibe.dpdns.org
   port: 2174
-- name: 🇺🇸US_28|2.8MB/s
-  type: vless
-  uuid: 5ff8e256-cb7e-41fc-8ed2-14a46fd46e4e
-  server: djdjsj-production.up.railway.app
-  port: 443
-  tls: true
-  sni: djdjsj-production.up.railway.app
-- name: 🇺🇸US_29|4.1MB/s
-  type: vless
-  uuid: 6f0621e4-488c-448a-891c-ddc298e48e8c
-  server: dusebafke.mvp-rk.site
-  port: 443
-  tls: true
-  sni: dusebafke.mvp-rk.site
-- name: 🇰🇷KR_2|6.5MB/s
-  type: vless
-  uuid: 8c64cae9-a513-4e37-a68c-980bcaf2c591
-  server: 47.80.63.187
-  port: 443
-  tls: true
-  sni: kr1.hat.onl
-- name: 🇳🇱NL_11|2.7MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 144.21.43.131
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇫🇮FI_1|3.0MB/s
-  type: vless
-  uuid: 50ab33e7-986f-4cd8-aea7-1d7de5456971
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇬🇧GB_3|3.6MB/s
-  type: vless
-  uuid: f77fdea5-e50f-4766-89b1-d0cd6ada7dae
-  server: 31.76.106.36
-  port: 10443
-  tls: false
-  sni: ''
-- name: 🇮🇪IE_1|4.4MB/s
+- name: 🇬🇧GB_2|4.5MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 3.252.205.48
+  server: 13.40.94.70
   port: 443
-- name: 🇳🇱NL_12|3.6MB/s
+- name: 🇭🇰HK_4|3.3MB/s
   type: vless
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
-  server: 90.156.218.143
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  server: hk6-r.link-t7.com
+  port: 10136
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇨🇦CA_1|3.1MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 15.223.120.129
+  port: 443
+- name: 🇨🇦CA_2|4.4MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.97.16.160
+  port: 443
+- name: 🇷🇺RU_1|3.2MB/s
+  type: vless
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  server: 45.9.15.206
   port: 443
   tls: true
-  sni: mint.ubuntuhosting.host
+  sni: ru05.abvpn.ru
+- name: 🇫🇷FR_7|1.7MB/s
+  type: vless
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  server: cdg.quicksavesafe.com
+  port: 443
+  tls: true
+  sni: cdg.quicksavesafe.com
+- name: 🇳🇱NL_6|3.6MB/s
+  type: vless
+  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
+  server: 193.233.82.32
+  port: 443
+  tls: true
+  sni: som1.api3-max.ru
+- name: 🇲🇩MD_1|3.3MB/s
+  type: vless
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  server: 31.77.220.184
+  port: 7443
+  tls: true
+  sni: hotcoals.aeternavpn.space
+- name: 🇺🇦UA_1|3.4MB/s
+  type: vless
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  server: 212.87.190.62
+  port: 2054
+  tls: true
+  sni: dl.google.com
+- name: 🇺🇸US_23|3.2MB/s
+  type: vless
+  uuid: a375fa6a-bef7-4f71-92f0-17976e5afaac
+  server: 140.248.145.242
+  port: 443
+  tls: true
+  sni: minimize-evenness.cdn-content.com
+- name: 🇺🇸US_24|3.3MB/s
+  type: vless
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  server: 85.155.178.96
+  port: 443
+  tls: true
+  sni: us03.glaveda.net
+- name: 🇳🇱NL_7|3.9MB/s
+  type: vless
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  server: 95.211.164.121
+  port: 443
+  tls: true
+  sni: devua.nubuntuhosting.host
+- name: 🇺🇸US_25|1019KB/s
+  type: vless
+  uuid: d8235de7-84c7-4454-b333-4d854c393929
+  server: www.visa.com.sg
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇨🇭CH_1|2.8MB/s
+  type: vless
+  uuid: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  server: ch-xh01.tcp-reset-club.net
+  port: 443
+  tls: true
+  sni: s3.netavex.com
+- name: 🇳🇱NL_8|4.1MB/s
+  type: vless
+  uuid: aeb8f383-28ce-4524-85e0-38e33291d00b
+  server: nether.zavqeron.ir
+  port: 8448
+  tls: true
+  sni: amp-api-edge.apps.apple.com
+- name: 🇯🇵JP_3|2.0MB/s
+  type: vless
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  server: wangcai.cf.877774.xyz
+  port: 443
+  tls: true
+  sni: ex3r.qzz.io
+- name: 🇺🇸US_26|3.8MB/s
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  server: 91.193.59.27
+  port: 2096
+  tls: true
+  sni: vlso300.1d.mom
+- name: 🇺🇸US_27|1016KB/s
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  server: 91.193.58.8
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇺🇸US_28|1.2MB/s
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.135.9.30
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_8|3.2MB/s
+  type: vless
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  server: 104.27.82.154
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇨🇦CA_3|2.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.96.144.93
+  port: 443
+- name: 🇬🇧GB_6|4.2MB/s
+  type: vless
+  uuid: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
+  server: 72.56.34.223
+  port: 15200
+  tls: true
+  sni: it.horizonless.pro
+- name: 🇬🇧GB_7|2.3MB/s
+  type: vless
+  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+  server: 185.103.100.19
+  port: 8443
+  tls: true
+  sni: maps.apple.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -183,28 +279,43 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇩🇪DE_1|3.7MB/s
-  - 🇭🇰HK_1|5.2MB/s
-  - 🇷🇺RU_1|3.0MB/s
-  - 🇺🇸US_1|1.4MB/s
-  - 🇺🇸US_2|1.9MB/s
-  - 🇩🇪DE_2|3.2MB/s
-  - 🇭🇰HK_2|4.1MB/s
-  - 🇸🇬SG_2|5.1MB/s
-  - 🇭🇰HK_4|4.5MB/s
-  - 🇭🇰HK_6|4.8MB/s
-  - 🇺🇸US_4|1.1MB/s
-  - 🇺🇸US_5|1.2MB/s
-  - 🇭🇰HK_7|2.2MB/s
-  - 🇬🇧GB_2|3.3MB/s
-  - 🇺🇸US_28|2.8MB/s
-  - 🇺🇸US_29|4.1MB/s
-  - 🇰🇷KR_2|6.5MB/s
-  - 🇳🇱NL_11|2.7MB/s
-  - 🇫🇮FI_1|3.0MB/s
-  - 🇬🇧GB_3|3.6MB/s
-  - 🇮🇪IE_1|4.4MB/s
-  - 🇳🇱NL_12|3.6MB/s
+  - 🇩🇪DE_1|4.1MB/s
+  - 🇭🇰HK_1|4.6MB/s
+  - 🇭🇰HK_2|5.0MB/s
+  - 🇩🇪DE_3|4.7MB/s
+  - 🇫🇷FR_1|1.5MB/s
+  - 🇭🇰HK_3|3.9MB/s
+  - 🇺🇸US_2|1.2MB/s
+  - 🇫🇷FR_2|2.0MB/s
+  - 🇫🇷FR_3|1.6MB/s
+  - 🇺🇸US_3|1.4MB/s
+  - 🇫🇷FR_4|1.3MB/s
+  - 🇫🇷FR_5|2.1MB/s
+  - 🇫🇷FR_6|1.9MB/s
+  - 🇬🇧GB_1|2.9MB/s
+  - 🇬🇧GB_2|4.5MB/s
+  - 🇭🇰HK_4|3.3MB/s
+  - 🇨🇦CA_1|3.1MB/s
+  - 🇨🇦CA_2|4.4MB/s
+  - 🇷🇺RU_1|3.2MB/s
+  - 🇫🇷FR_7|1.7MB/s
+  - 🇳🇱NL_6|3.6MB/s
+  - 🇲🇩MD_1|3.3MB/s
+  - 🇺🇦UA_1|3.4MB/s
+  - 🇺🇸US_23|3.2MB/s
+  - 🇺🇸US_24|3.3MB/s
+  - 🇳🇱NL_7|3.9MB/s
+  - 🇺🇸US_25|1019KB/s
+  - 🇨🇭CH_1|2.8MB/s
+  - 🇳🇱NL_8|4.1MB/s
+  - 🇯🇵JP_3|2.0MB/s
+  - 🇺🇸US_26|3.8MB/s
+  - 🇺🇸US_27|1016KB/s
+  - 🇺🇸US_28|1.2MB/s
+  - 🇩🇪DE_8|3.2MB/s
+  - 🇨🇦CA_3|2.9MB/s
+  - 🇬🇧GB_6|4.2MB/s
+  - 🇬🇧GB_7|2.3MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
