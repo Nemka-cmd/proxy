@@ -5,105 +5,68 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇭🇰HK_1|3.9MB/s
+- name: 🇸🇪SE_1|1.1MB/s
   type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-  server: hk6-r.link-t7.com
-  port: 10136
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇮🇹IT_1|1.4MB/s
-  type: vless
-  uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36
-  server: 91.201.67.58
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+  server: sv14.betust.net
   port: 443
   tls: true
-  sni: media-it.adsmoba.com
-- name: 🇰🇷KR_1|2.6MB/s
+  sni: apiv14.betust.net
+- name: 🇰🇷KR_1|2.2MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.138
   port: 65443
-- name: 🇯🇵JP_1|1.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.137
-  port: 65443
-- name: 🇷🇺RU_1|1.1MB/s
+- name: 🇺🇸US_2|1.1MB/s
   type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  server: 45.9.15.206
+  uuid: f0b04cce-5ee6-947d-74eb-b6dbd56133b2
+  server: 69.46.46.5
   port: 443
   tls: true
-  sni: ru05.abvpn.ru
-- name: 🇷🇺RU_2|1.1MB/s
+  sni: quartz-meadow-2cc8-production.up.railway.app
+- name: 🇸🇬SG_3|4.3MB/s
   type: vless
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-  server: 78.159.247.123
-  port: 7444
+  uuid: 0803fc94-25f9-42db-9e6b-dd1418ae50ec
+  server: 47.129.185.35
+  port: 49805
   tls: true
-  sni: akamai.com
-- name: 🇫🇮FI_1|2.5MB/s
+  sni: www.intel.com
+- name: 🇫🇷FR_1|1.8MB/s
   type: vless
-  uuid: 195fa0d7-8a7e-4352-8a8d-edeba3043b2e
-  server: 204.168.153.151
+  uuid: 0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c
+  server: 57.130.20.7
   port: 443
   tls: true
-  sni: amp-api-edge.apps.apple.com
-- name: 🇩🇪DE_6|2.3MB/s
+  sni: fr.sellflow.org
+- name: 🇰🇷KR_2|4.5MB/s
   type: vless
-  uuid: 6cb9b3d9-e7d4-46b1-96ce-85270b0778a0
-  server: NJH.FARS-REMEN.IR
-  port: 32133
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_2|1.2MB/s
+  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
+  server: 3.38.1.152
+  port: 19179
+  tls: true
+  sni: www.intel.com
+- name: 🇺🇸US_5|2.7MB/s
   type: vless
   uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  server: 84.32.177.6
+  server: 84.32.61.87
+  port: 443
+  tls: true
+  sni: apiv10.jarvesitw.ru
+- name: 🇳🇱NL_2|1.7MB/s
+  type: vless
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+  server: sv5.jarvesitw.ru
   port: 443
   tls: true
   sni: apiv5.jarvesitw.ru
-- name: 🇳🇱NL_3|1004KB/s
+- name: 🇩🇪DE_2|3.0MB/s
   type: vless
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-  server: 84.32.102.254
-  port: 443
+  uuid: ebfc0509-53ed-46c6-96d9-e6788ab31cac
+  server: fn5.bexait.ir
+  port: 2434
   tls: true
-  sni: apiv3.jarvesitw.ru
-- name: 🇩🇪DE_7|3.7MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2mxqAF/zUMO7cA1UPUooCBMFBrAytdk7GDqF19ArcmY=
-  server: 130.61.43.101
-  port: 59924
-- name: 🇨🇦CA_1|1.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 16.52.44.169
-  port: 443
-- name: 🇨🇦CA_2|3.4MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.156.204.87
-  port: 443
-- name: 🇨🇦CA_3|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 35.182.118.89
-  port: 443
-- name: 🇺🇸US_12|2.0MB/s
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  server: 172.67.176.60
-  port: 443
-  tls: true
-  sni: 3-M19.SoUtH-afRIcA.CCwu.Cc
+  sni: icloud.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -130,21 +93,15 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇭🇰HK_1|3.9MB/s
-  - 🇮🇹IT_1|1.4MB/s
-  - 🇰🇷KR_1|2.6MB/s
-  - 🇯🇵JP_1|1.1MB/s
-  - 🇷🇺RU_1|1.1MB/s
-  - 🇷🇺RU_2|1.1MB/s
-  - 🇫🇮FI_1|2.5MB/s
-  - 🇩🇪DE_6|2.3MB/s
-  - 🇳🇱NL_2|1.2MB/s
-  - 🇳🇱NL_3|1004KB/s
-  - 🇩🇪DE_7|3.7MB/s
-  - 🇨🇦CA_1|1.0MB/s
-  - 🇨🇦CA_2|3.4MB/s
-  - 🇨🇦CA_3|1.6MB/s
-  - 🇺🇸US_12|2.0MB/s
+  - 🇸🇪SE_1|1.1MB/s
+  - 🇰🇷KR_1|2.2MB/s
+  - 🇺🇸US_2|1.1MB/s
+  - 🇸🇬SG_3|4.3MB/s
+  - 🇫🇷FR_1|1.8MB/s
+  - 🇰🇷KR_2|4.5MB/s
+  - 🇺🇸US_5|2.7MB/s
+  - 🇳🇱NL_2|1.7MB/s
+  - 🇩🇪DE_2|3.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
