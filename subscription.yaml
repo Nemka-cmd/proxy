@@ -5,79 +5,47 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇳🇱NL_1|1.2MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  server: 82.38.31.66
-  port: 8080
-- name: 🇵🇱PL_1|1.1MB/s
-  type: vless
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-  server: 31.77.61.89
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇭🇰HK_1|5.0MB/s
+- name: 🇭🇰HK_3|4.9MB/s
   type: vless
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
   server: hk6-r.link-t7.com
   port: 10136
   tls: true
   sni: s0.awsstatic.com
-- name: 🇳🇱NL_2|1.4MB/s
-  type: vless
-  uuid: a11d5668-63f7-4fe2-9b77-7f8336ae883d
-  server: 94.237.4.82
+- name: 🇫🇷FR_1|1013KB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 165.215.250.14
   port: 443
-  tls: true
-  sni: gitlab.io
-- name: 🇬🇧GB_1|1.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.40.17.62
-  port: 443
-- name: 🇵🇱PL_2|1.2MB/s
-  type: vless
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-  server: bridge2.kolhoz.fuck-rkn.xyz
-  port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇮🇪IE_1|2.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.250.40.89
-  port: 443
-- name: 🇰🇷KR_1|1.8MB/s
+- name: 🇰🇷KR_1|2.3MB/s
   type: vless
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
   server: kr3-r.link-t7.com
   port: 10048
   tls: true
   sni: s0.awsstatic.com
-- name: 🇯🇵JP_1|1.6MB/s
+- name: 🇸🇬SG_2|3.7MB/s
+  type: vless
+  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
+  server: 172.64.229.217
+  port: 443
+  tls: true
+  sni: ap-south.xhs152.shop
+- name: 🇸🇬SG_3|4.8MB/s
   type: vless
   uuid: db04ac87-08bb-49a9-9deb-556fe915892e
   server: ct.877774.xyz
   port: 443
   tls: true
-  sni: jp-osa.xhs152.shop
-- name: 🇬🇧GB_2|1.4MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 35.178.200.252
-  port: 443
-- name: 🇳🇱NL_4|1.8MB/s
+  sni: ap-south.xhs152.shop
+- name: 🇸🇬SG_4|4.2MB/s
   type: vless
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  server: nld-0001.api.packet-drop-society.net
+  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
+  server: 172.64.229.173
   port: 443
   tls: true
-  sni: sstats.vk-portal.net
+  sni: ap-south.xhs152.shop
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -104,17 +72,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇳🇱NL_1|1.2MB/s
-  - 🇵🇱PL_1|1.1MB/s
-  - 🇭🇰HK_1|5.0MB/s
-  - 🇳🇱NL_2|1.4MB/s
-  - 🇬🇧GB_1|1.3MB/s
-  - 🇵🇱PL_2|1.2MB/s
-  - 🇮🇪IE_1|2.9MB/s
-  - 🇰🇷KR_1|1.8MB/s
-  - 🇯🇵JP_1|1.6MB/s
-  - 🇬🇧GB_2|1.4MB/s
-  - 🇳🇱NL_4|1.8MB/s
+  - 🇭🇰HK_3|4.9MB/s
+  - 🇫🇷FR_1|1013KB/s
+  - 🇰🇷KR_1|2.3MB/s
+  - 🇸🇬SG_2|3.7MB/s
+  - 🇸🇬SG_3|4.8MB/s
+  - 🇸🇬SG_4|4.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
