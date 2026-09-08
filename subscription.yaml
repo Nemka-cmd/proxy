@@ -11,18 +11,96 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇸🇩SD_1|3.6MB/s
+- name: 🇬🇧GB_1|4.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.8.209.170
+  port: 443
+- name: 🇮🇪IE_1|4.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.171.218.140
+  port: 443
+- name: 🇬🇧GB_2|1020KB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 35.177.213.229
+  port: 443
+- name: 🇮🇪IE_2|3.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.216.102.222
+  port: 443
+- name: 🇨🇦CA_1|3.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 16.52.76.17
+  port: 443
+- name: 🇺🇸US_9|3.3MB/s
+  type: vless
+  uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
+  server: 2.26.21.230
+  port: 443
+  tls: true
+  sni: syncpointbase.online
+- name: 🇭🇰HK_1|2.3MB/s
+  type: trojan
+  sni: taobao.com
+  password: d742752c-4231-4695-801e-f06d77f0f277
+  server: hk04.qianmoip.win
+  port: 52224
+- name: 🇦🇫AF_1|3.3MB/s
   type: trojan
   sni: www.cloudflare.com
   password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-jp2.1card.cc
-  port: 10012
-- name: 🇺🇸US_1|1010KB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.233
-  port: 65443
+  server: z-jp1.1card.cc
+  port: 10009
+- name: 🇲🇲MM_1|4.7MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-sg2.6send.com
+  port: 10046
+- name: 🇹🇭TH_1|1.6MB/s
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  server: v2ray.simspeedup.com
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_2|1.4MB/s
+  type: vless
+  uuid: 9f6f094d-0f59-4422-9575-3cfe3d8e0ed2
+  server: 4de.arosakforosh.ir
+  port: 9932
+  tls: false
+  sni: ''
+- name: 🇺🇸US_10|2.7MB/s
+  type: vless
+  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  tls: true
+  sni: minimize-evenness.cdn-content.com
+- name: 🇩🇪DE_3|3.1MB/s
+  type: vless
+  uuid: c686af39-cfe4-4c67-bc99-536a505af27e
+  server: 49.13.92.156
+  port: 443
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇬🇧GB_3|1.6MB/s
+  type: vless
+  uuid: e666041f-8a25-4f05-812d-a5984e748497
+  server: 82.47.169.33
+  port: 2096
+  tls: false
+  sni: ''
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -50,8 +128,20 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇸🇩SD_1|3.6MB/s
-  - 🇺🇸US_1|1010KB/s
+  - 🇬🇧GB_1|4.0MB/s
+  - 🇮🇪IE_1|4.5MB/s
+  - 🇬🇧GB_2|1020KB/s
+  - 🇮🇪IE_2|3.9MB/s
+  - 🇨🇦CA_1|3.5MB/s
+  - 🇺🇸US_9|3.3MB/s
+  - 🇭🇰HK_1|2.3MB/s
+  - 🇦🇫AF_1|3.3MB/s
+  - 🇲🇲MM_1|4.7MB/s
+  - 🇹🇭TH_1|1.6MB/s
+  - 🇩🇪DE_2|1.4MB/s
+  - 🇺🇸US_10|2.7MB/s
+  - 🇩🇪DE_3|3.1MB/s
+  - 🇬🇧GB_3|1.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
