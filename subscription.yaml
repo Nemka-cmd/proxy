@@ -11,23 +11,17 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇯🇵JP_1|2.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.137
-  port: 65443
-- name: 🇺🇸US_1|1.3MB/s
+- name: 🇸🇩SD_1|3.6MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-jp2.1card.cc
+  port: 10012
+- name: 🇺🇸US_1|1010KB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   server: 121.46.230.233
-  port: 65443
-- name: 🇺🇸US_2|1.4MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  server: 121.46.230.232
   port: 65443
 - name: US_speednode_0136
   type: vless
@@ -56,9 +50,8 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇯🇵JP_1|2.5MB/s
-  - 🇺🇸US_1|1.3MB/s
-  - 🇺🇸US_2|1.4MB/s
+  - 🇸🇩SD_1|3.6MB/s
+  - 🇺🇸US_1|1010KB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
