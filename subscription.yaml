@@ -11,72 +11,43 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|1.5MB/s
+- name: 🇨🇿CZ_1|1.2MB/s
   type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  server: 104.17.118.35
-  port: 2083
+  uuid: fad78708-a2a3-37a9-8ce7-6bc83526af0d
+  server: 123.253.227.238
+  port: 10050
   tls: true
-  sni: mianfei-73q.pages.dev
-- name: 🇷🇴RO_1|1.1MB/s
+  sni: www.hp.com
+- name: 🇹🇭TH_1|1.8MB/s
   type: vless
-  uuid: 4fb82973-a7f1-4fc2-9958-cb21f5162f06
-  server: ro-xh02.tcp-reset-club.net
-  port: 8443
+  uuid: fad78708-a2a3-37a9-8ce7-6bc83526af0d
+  server: 123.253.227.238
+  port: 10032
   tls: true
-  sni: s3.netavex.com
-- name: 🇱🇦LA_1|1.1MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-sg1.6send.com
-  port: 10045
-- name: 🇦🇫AF_1|2.7MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-jp2.1card.cc
-  port: 10009
-- name: 🇺🇸US_3|2.3MB/s
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  server: 172.67.190.103
-  port: 443
-  tls: false
-  sni: 6-m16.CHIANG-rai2036.KDnS.fR
-- name: 🇺🇸US_4|1.2MB/s
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  server: 172.66.1.247
-  port: 2053
-  tls: true
-  sni: mianfei-73q.pages.dev
-- name: 🇺🇸US_5|3.0MB/s
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  server: 104.19.50.227
-  port: 2087
-  tls: true
-  sni: mianfei-73q.pages.dev
-- name: 🇩🇪DE_2|1.2MB/s
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  server: 172.67.77.77
-  port: 443
-  tls: true
-  sni: mianfei-73q.pages.dev
-- name: 🇸🇬SG_1|4.1MB/s
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  server: 8.39.125.245
-  port: 2096
-  tls: true
-  sni: mianfei-73q.pages.dev
-- name: 🇬🇧GB_5|3.8MB/s
+  sni: www.hp.com
+- name: 🇺🇸US_1|1.1MB/s
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.170.35.229
+  password: 7eadc6dbe2ae
+  server: 121.46.230.233
+  port: 65443
+- name: 🇱🇦LA_1|1.6MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-sg2.6send.com
+  port: 10045
+- name: 🇲🇲MM_1|1.1MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-sg2.6send.com
+  port: 10046
+- name: 🇯🇵JP_2|5.1MB/s
+  type: trojan
+  sni: nat11.outsidemyheart.space
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  server: jp3.998998.best
   port: 443
 - name: US_speednode_0136
   type: vless
@@ -105,16 +76,12 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|1.5MB/s
-  - 🇷🇴RO_1|1.1MB/s
-  - 🇱🇦LA_1|1.1MB/s
-  - 🇦🇫AF_1|2.7MB/s
-  - 🇺🇸US_3|2.3MB/s
-  - 🇺🇸US_4|1.2MB/s
-  - 🇺🇸US_5|3.0MB/s
-  - 🇩🇪DE_2|1.2MB/s
-  - 🇸🇬SG_1|4.1MB/s
-  - 🇬🇧GB_5|3.8MB/s
+  - 🇨🇿CZ_1|1.2MB/s
+  - 🇹🇭TH_1|1.8MB/s
+  - 🇺🇸US_1|1.1MB/s
+  - 🇱🇦LA_1|1.6MB/s
+  - 🇲🇲MM_1|1.1MB/s
+  - 🇯🇵JP_2|5.1MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
