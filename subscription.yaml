@@ -11,132 +11,158 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇬🇧GB_1|1.4MB/s
+- name: 🇬🇧GB_1|3.8MB/s
   type: vless
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   server: 130.12.102.125
   port: 443
   tls: true
   sni: localhost
-- name: 🇸🇩SD_1|3.5MB/s
+- name: 🇳🇵NP_1|2.3MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-sg1.6send.com
+  port: 10044
+- name: 🇱🇦LA_1|3.4MB/s
+  type: trojan
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-sg1.6send.com
+  port: 10045
+- name: 🇾🇪YE_1|2.5MB/s
   type: trojan
   sni: www.cloudflare.com
   password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
   server: z-jp2.1card.cc
-  port: 10012
+  port: 10010
+- name: 🇩🇪DE_1|3.3MB/s
+  type: vless
+  uuid: ef04fed2-399b-4533-b423-f92c8cb66234
+  server: 193.227.99.253
+  port: 2096
+  tls: true
+  sni: df.monister.ir
+- name: 🇫🇷FR_1|1.6MB/s
+  type: vless
+  uuid: ef04fed2-399b-4533-b423-f92c8cb66234
+  server: technolife.topdigit.ir
+  port: 34770
+  tls: false
+  sni: ''
+- name: 🇺🇸US_1|1.1MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.233
+  port: 65443
+- name: 🇫🇷FR_2|2.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 95.170.13.47
+  port: 65443
+- name: 🇺🇸US_2|2.5MB/s
+  type: vless
+  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
+  server: 51.81.203.63
+  port: 443
+  tls: true
+  sni: www.icloud.com
+- name: 🇰🇷KR_1|2.3MB/s
+  type: vless
+  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
+  server: 119.28.161.143
+  port: 443
+  tls: true
+  sni: apple.com
 - name: 🇬🇧GB_2|3.9MB/s
   type: vless
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   server: freshjuniper.download
   port: 443
   tls: true
-  sni: localhost
-- name: 🇬🇧GB_3|4.1MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 130.12.102.26
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇫🇷FR_1|1.4MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 216.24.57.7
-  port: 443
-- name: 🇮🇪IE_1|1.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 54.247.231.139
-  port: 443
-- name: 🇬🇧GB_5|5.3MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 35.177.213.229
-  port: 443
-- name: 🇨🇦CA_1|3.9MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.223.203.202
-  port: 443
-- name: 🇵🇱PL_1|1.1MB/s
-  type: vless
-  uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
-  server: plll.banibus.ir
-  port: 8118
-  tls: true
-  sni: play.googleapis.com
-- name: 🇺🇸US_28|3.1MB/s
-  type: vless
-  uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
-  server: 2.26.21.230
-  port: 443
-  tls: true
-  sni: syncpointbase.online
-- name: 🇭🇰HK_1|4.0MB/s
-  type: trojan
-  sni: taobao.com
-  password: d742752c-4231-4695-801e-f06d77f0f277
-  server: hk04.qianmoip.win
-  port: 52224
-- name: 🇦🇫AF_1|3.5MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-jp1.1card.cc
-  port: 10009
-- name: 🇸🇪SE_3|2.8MB/s
-  type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  server: eu-north-sw-1.hanvpn.biz
-  port: 443
-  tls: true
-  sni: eu-north-sw-1.hanvpn.biz
-- name: 🇩🇪DE_6|3.0MB/s
-  type: vless
-  uuid: 1d9b478e-f82b-430b-bcea-3fe236342e1f
-  server: mobileomrani.speedoraa.ir
-  port: 443
-  tls: true
-  sni: pas.speedoraa.ir
-- name: 🇬🇧GB_14|4.0MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 130.12.102.135
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇺🇸US_30|1.3MB/s
-  type: vless
-  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
-  server: 146.75.37.242
-  port: 443
-  tls: true
-  sni: adheres-scruple.quick-cdn.net
-- name: 🇩🇪DE_7|2.0MB/s
-  type: vless
-  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
-  server: 46.8.208.29
-  port: 443
-  tls: true
-  sni: cdn.okko.tv
-- name: 🇬🇧GB_15|3.2MB/s
-  type: vless
-  uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
-  server: 94.156.250.10
-  port: 443
-  tls: true
-  sni: www.apple.com.cn
-- name: 🇬🇧GB_16|4.2MB/s
+  sni: freshjuniper.download
+- name: 🇬🇧GB_10|3.1MB/s
   type: vless
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   server: brightharbor.download
   port: 443
   tls: true
   sni: brightharbor.download
+- name: 🇮🇪IE_1|4.8MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.247.231.139
+  port: 443
+- name: 🇮🇪IE_2|4.3MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.216.102.222
+  port: 443
+- name: 🇨🇦CA_1|4.1MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 16.52.76.17
+  port: 443
+- name: 🇵🇱PL_1|3.4MB/s
+  type: vless
+  uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
+  server: plll.banibus.ir
+  port: 8118
+  tls: true
+  sni: play.googleapis.com
+- name: 🇳🇱NL_7|4.1MB/s
+  type: vless
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  server: 188.137.182.98
+  port: 443
+  tls: true
+  sni: eu-west-nl-1.hanvpn.biz
+- name: 🇭🇰HK_1|4.1MB/s
+  type: trojan
+  sni: taobao.com
+  password: d742752c-4231-4695-801e-f06d77f0f277
+  server: hk04.qianmoip.win
+  port: 52224
+- name: 🇿🇦ZA_1|4.1MB/s
+  type: vless
+  uuid: 94a5294d-1125-4139-8934-380c5de5552f
+  server: 109.121.44.51
+  port: 443
+  tls: true
+  sni: www.amd.com
+- name: 🇩🇪DE_6|3.1MB/s
+  type: vless
+  uuid: XpnTeam-4
+  server: 140.248.186.45
+  port: 443
+  tls: true
+  sni: ssl.fastly.com
+- name: 🇺🇸US_19|1.5MB/s
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  server: 91.193.58.8
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇬🇧GB_9|3.3MB/s
+  type: vless
+  uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
+  server: 94.156.250.10
+  port: 443
+  tls: true
+  sni: www.apple.com.cn
+- name: 🇸🇬SG_1|4.2MB/s
+  type: vless
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  server: cf4.466688.xyz
+  port: 443
+  tls: true
+  sni: mia10.pages.dev
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -164,25 +190,29 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇬🇧GB_1|1.4MB/s
-  - 🇸🇩SD_1|3.5MB/s
+  - 🇬🇧GB_1|3.8MB/s
+  - 🇳🇵NP_1|2.3MB/s
+  - 🇱🇦LA_1|3.4MB/s
+  - 🇾🇪YE_1|2.5MB/s
+  - 🇩🇪DE_1|3.3MB/s
+  - 🇫🇷FR_1|1.6MB/s
+  - 🇺🇸US_1|1.1MB/s
+  - 🇫🇷FR_2|2.9MB/s
+  - 🇺🇸US_2|2.5MB/s
+  - 🇰🇷KR_1|2.3MB/s
   - 🇬🇧GB_2|3.9MB/s
-  - 🇬🇧GB_3|4.1MB/s
-  - 🇫🇷FR_1|1.4MB/s
-  - 🇮🇪IE_1|1.3MB/s
-  - 🇬🇧GB_5|5.3MB/s
-  - 🇨🇦CA_1|3.9MB/s
-  - 🇵🇱PL_1|1.1MB/s
-  - 🇺🇸US_28|3.1MB/s
-  - 🇭🇰HK_1|4.0MB/s
-  - 🇦🇫AF_1|3.5MB/s
-  - 🇸🇪SE_3|2.8MB/s
-  - 🇩🇪DE_6|3.0MB/s
-  - 🇬🇧GB_14|4.0MB/s
-  - 🇺🇸US_30|1.3MB/s
-  - 🇩🇪DE_7|2.0MB/s
-  - 🇬🇧GB_15|3.2MB/s
-  - 🇬🇧GB_16|4.2MB/s
+  - 🇬🇧GB_10|3.1MB/s
+  - 🇮🇪IE_1|4.8MB/s
+  - 🇮🇪IE_2|4.3MB/s
+  - 🇨🇦CA_1|4.1MB/s
+  - 🇵🇱PL_1|3.4MB/s
+  - 🇳🇱NL_7|4.1MB/s
+  - 🇭🇰HK_1|4.1MB/s
+  - 🇿🇦ZA_1|4.1MB/s
+  - 🇩🇪DE_6|3.1MB/s
+  - 🇺🇸US_19|1.5MB/s
+  - 🇬🇧GB_9|3.3MB/s
+  - 🇸🇬SG_1|4.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
