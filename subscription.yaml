@@ -11,44 +11,161 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇨🇿CZ_1|1.2MB/s
+- name: 🇬🇧GB_1|3.5MB/s
   type: vless
-  uuid: fad78708-a2a3-37a9-8ce7-6bc83526af0d
-  server: 123.253.227.238
-  port: 10050
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 130.12.102.125
+  port: 443
   tls: true
-  sni: www.hp.com
-- name: 🇹🇭TH_1|1.8MB/s
+  sni: localhost
+- name: 🇰🇷KR_1|3.5MB/s
   type: vless
-  uuid: fad78708-a2a3-37a9-8ce7-6bc83526af0d
-  server: 123.253.227.238
-  port: 10032
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: kr4-r.link-t7.com
+  port: 10049
   tls: true
-  sni: www.hp.com
-- name: 🇺🇸US_1|1.1MB/s
+  sni: s0.awsstatic.com
+- name: 🇰🇷KR_2|4.5MB/s
+  type: vless
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: kr1-r.link-t7.com
+  port: 10046
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_1|4.8MB/s
+  type: vless
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: sg2-r.link-t7.com
+  port: 10037
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇺🇸US_1|2.6MB/s
+  type: vless
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+  server: 5.34.178.120
+  port: 443
+  tls: true
+  sni: www.cloudflare.com
+- name: 🇬🇧GB_2|1.0MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 130.12.102.26
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇫🇮FI_1|5.0MB/s
+  type: vless
+  uuid: 1ab5ef70-14af-428b-bf4b-03889e0a3131
+  server: snnsjsowowiwueieyeye.sobu.ir
+  port: 14779
+  tls: false
+  sni: ''
+- name: 🇯🇵JP_1|1.2MB/s
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
-  server: 121.46.230.233
+  server: 121.46.230.137
   port: 65443
-- name: 🇱🇦LA_1|1.6MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-sg2.6send.com
-  port: 10045
-- name: 🇲🇲MM_1|1.1MB/s
+- name: 🇰🇷KR_3|2.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  server: 121.46.230.138
+  port: 65443
+- name: 🇬🇧GB_4|4.2MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: freshjuniper.download
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇲🇲MM_1|3.5MB/s
   type: trojan
   sni: www.cloudflare.com
   password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
   server: z-sg2.6send.com
   port: 10046
-- name: 🇯🇵JP_2|5.1MB/s
+- name: 🇧🇹BT_1|1.8MB/s
   type: trojan
-  sni: nat11.outsidemyheart.space
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  server: jp3.998998.best
+  sni: www.cloudflare.com
+  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
+  server: z-jp2.1card.cc
+  port: 10011
+- name: 🇺🇸US_7|3.3MB/s
+  type: vless
+  uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+  server: 38.244.20.152
   port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇬🇧GB_6|4.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 35.179.104.218
+  port: 443
+- name: 🇬🇧GB_7|4.4MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 35.178.181.116
+  port: 443
+- name: 🇰🇷KR_4|2.2MB/s
+  type: vless
+  uuid: bbbad538-910a-8972-278a-718093dc9980
+  server: 103.86.47.237
+  port: 443
+  tls: true
+  sni: static.hotjar.com
+- name: 🇹🇷TR_1|4.3MB/s
+  type: vless
+  uuid: b34fd6dc-d764-47e5-88c6-ef3bb85009f5
+  server: 185.87.24.2
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇹🇷TR_2|2.0MB/s
+  type: vless
+  uuid: '14721'
+  server: tr.rajastore.ir
+  port: 443
+  tls: true
+  sni: timeline.www.cloudflare.com
+- name: 🇬🇧GB_15|1.8MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.129
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇬🇧GB_16|3.3MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.138
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇬🇧GB_17|2.5MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.152
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇬🇧GB_18|1.4MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.166
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇬🇧GB_19|3.2MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.184
+  port: 443
+  tls: true
+  sni: localhost
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -76,12 +193,29 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇨🇿CZ_1|1.2MB/s
-  - 🇹🇭TH_1|1.8MB/s
-  - 🇺🇸US_1|1.1MB/s
-  - 🇱🇦LA_1|1.6MB/s
-  - 🇲🇲MM_1|1.1MB/s
-  - 🇯🇵JP_2|5.1MB/s
+  - 🇬🇧GB_1|3.5MB/s
+  - 🇰🇷KR_1|3.5MB/s
+  - 🇰🇷KR_2|4.5MB/s
+  - 🇸🇬SG_1|4.8MB/s
+  - 🇺🇸US_1|2.6MB/s
+  - 🇬🇧GB_2|1.0MB/s
+  - 🇫🇮FI_1|5.0MB/s
+  - 🇯🇵JP_1|1.2MB/s
+  - 🇰🇷KR_3|2.0MB/s
+  - 🇬🇧GB_4|4.2MB/s
+  - 🇲🇲MM_1|3.5MB/s
+  - 🇧🇹BT_1|1.8MB/s
+  - 🇺🇸US_7|3.3MB/s
+  - 🇬🇧GB_6|4.2MB/s
+  - 🇬🇧GB_7|4.4MB/s
+  - 🇰🇷KR_4|2.2MB/s
+  - 🇹🇷TR_1|4.3MB/s
+  - 🇹🇷TR_2|2.0MB/s
+  - 🇬🇧GB_15|1.8MB/s
+  - 🇬🇧GB_16|3.3MB/s
+  - 🇬🇧GB_17|2.5MB/s
+  - 🇬🇧GB_18|1.4MB/s
+  - 🇬🇧GB_19|3.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
