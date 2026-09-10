@@ -11,150 +11,62 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇬🇧GB_1|4.1MB/s
+- name: 🇬🇧GB_1|1.7MB/s
   type: vless
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 130.12.102.125
+  server: 2.26.178.154
   port: 443
   tls: true
   sni: localhost
-- name: 🇰🇷KR_1|5.3MB/s
+- name: 🇰🇷KR_1|2.6MB/s
   type: vless
   uuid: D2436339-0F26-479A-8064-4D91C2B93652
-  server: kr4-r.link-t7.com
-  port: 10049
+  server: kr1-r.link-t7.com
+  port: 10046
   tls: true
   sni: s0.awsstatic.com
-- name: 🇫🇷FR_1|2.7MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: render.com
-  port: 443
-- name: 🇫🇷FR_2|2.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.19.229.21
-  port: 443
-- name: 🇱🇻LV_3|2.8MB/s
-  type: vless
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-  server: 195.123.213.28
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇬🇧GB_2|4.2MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 2.26.178.129
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇫🇮FI_1|1.4MB/s
-  type: vless
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  server: k2.cloud--vpn.site
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇬🇧GB_6|4.5MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: freshjuniper.download
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇮🇪IE_1|3.4MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 54.171.218.140
-  port: 443
-- name: 🇬🇧GB_5|2.5MB/s
+- name: 🇬🇧GB_4|1023KB/s
   type: vless
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   server: brightharbor.download
   port: 443
   tls: true
-  sni: localhost
-- name: 🇬🇧GB_7|3.8MB/s
+  sni: brightharbor.download
+- name: 🇸🇬SG_1|5.4MB/s
   type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 130.12.102.26
-  port: 443
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: sg2-r.link-t7.com
+  port: 10037
   tls: true
-  sni: localhost
-- name: 🇺🇸US_9|2.6MB/s
+  sni: s0.awsstatic.com
+- name: 🇸🇬SG_2|4.5MB/s
   type: vless
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
-  server: 104.17.159.189
-  port: 443
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: sg1-r.link-t7.com
+  port: 10036
   tls: true
-  sni: fq.jp188.dpdns.org
-- name: 🇳🇴NO_1|1.1MB/s
+  sni: s0.awsstatic.com
+- name: 🇳🇱NL_2|2.0MB/s
   type: vless
-  uuid: 1cbeb6e4-06c0-421b-9baa-8af782d6e6cc
-  server: 151.242.168.207
-  port: 443
-  tls: true
-  sni: kibi-institut.de
-- name: 🇬🇧GB_13|3.7MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 2.26.178.172
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇬🇧GB_14|3.5MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 2.26.178.187
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇫🇷FR_4|4.5MB/s
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  server: 35.180.170.215
-  port: 22223
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
+  server: 172.67.152.71
+  port: 8880
   tls: false
   sni: ''
-- name: 🇫🇮FI_2|2.2MB/s
+- name: 🇰🇷KR_3|5.5MB/s
   type: vless
-  uuid: 09b1fc1a-1be4-491e-9130-6467b756de36
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: ❓Other_1|2.8MB/s
-  type: vless
-  uuid: 2656399e-872b-4075-9ff5-13233e232986
-  server: 104.194.132.45
-  port: 443
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: kr3-r.link-t7.com
+  port: 10048
   tls: true
-  sni: cdn.dodostatic.net
-- name: 🇩🇪DE_4|3.5MB/s
+  sni: s0.awsstatic.com
+- name: 🇰🇷KR_4|5.0MB/s
   type: vless
-  uuid: 8619f429-1ca5-4e53-a94e-1dd36b585396
-  server: snapp.ir
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_7|3.2MB/s
-  type: vless
-  uuid: e8dac4fa-295c-4232-8279-2fe14b312a42
-  server: 193.57.9.120
-  port: 443
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: kr2-r.link-t7.com
+  port: 10047
   tls: true
-  sni: www.amazon.com
-- name: ❓Other_2|3.1MB/s
-  type: vless
-  uuid: f8c0e295-0036-4aeb-8263-f6c2ee3060fe
-  server: 104.194.134.126
-  port: 443
-  tls: true
-  sni: cdn.dodostatic.net
+  sni: s0.awsstatic.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -182,27 +94,14 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇬🇧GB_1|4.1MB/s
-  - 🇰🇷KR_1|5.3MB/s
-  - 🇫🇷FR_1|2.7MB/s
-  - 🇫🇷FR_2|2.2MB/s
-  - 🇱🇻LV_3|2.8MB/s
-  - 🇬🇧GB_2|4.2MB/s
-  - 🇫🇮FI_1|1.4MB/s
-  - 🇬🇧GB_6|4.5MB/s
-  - 🇮🇪IE_1|3.4MB/s
-  - 🇬🇧GB_5|2.5MB/s
-  - 🇬🇧GB_7|3.8MB/s
-  - 🇺🇸US_9|2.6MB/s
-  - 🇳🇴NO_1|1.1MB/s
-  - 🇬🇧GB_13|3.7MB/s
-  - 🇬🇧GB_14|3.5MB/s
-  - 🇫🇷FR_4|4.5MB/s
-  - 🇫🇮FI_2|2.2MB/s
-  - ❓Other_1|2.8MB/s
-  - 🇩🇪DE_4|3.5MB/s
-  - 🇳🇱NL_7|3.2MB/s
-  - ❓Other_2|3.1MB/s
+  - 🇬🇧GB_1|1.7MB/s
+  - 🇰🇷KR_1|2.6MB/s
+  - 🇬🇧GB_4|1023KB/s
+  - 🇸🇬SG_1|5.4MB/s
+  - 🇸🇬SG_2|4.5MB/s
+  - 🇳🇱NL_2|2.0MB/s
+  - 🇰🇷KR_3|5.5MB/s
+  - 🇰🇷KR_4|5.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
