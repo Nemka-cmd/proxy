@@ -11,62 +11,80 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇬🇧GB_1|1.7MB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: 2.26.178.154
-  port: 443
-  tls: true
-  sni: localhost
-- name: 🇰🇷KR_1|2.6MB/s
-  type: vless
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
-  server: kr1-r.link-t7.com
-  port: 10046
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇬🇧GB_4|1023KB/s
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  server: brightharbor.download
-  port: 443
-  tls: true
-  sni: brightharbor.download
-- name: 🇸🇬SG_1|5.4MB/s
-  type: vless
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
-  server: sg2-r.link-t7.com
-  port: 10037
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇸🇬SG_2|4.5MB/s
-  type: vless
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
-  server: sg1-r.link-t7.com
-  port: 10036
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇳🇱NL_2|2.0MB/s
-  type: vless
-  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
-  server: 172.67.152.71
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇰🇷KR_3|5.5MB/s
+- name: 🇰🇷KR_1|4.7MB/s
   type: vless
   uuid: D2436339-0F26-479A-8064-4D91C2B93652
   server: kr3-r.link-t7.com
   port: 10048
   tls: true
   sni: s0.awsstatic.com
-- name: 🇰🇷KR_4|5.0MB/s
+- name: 🇸🇬SG_1|2.0MB/s
+  type: vless
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  server: sg2-r.link-t7.com
+  port: 10037
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇬🇧GB_2|1.1MB/s
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  server: 2.26.178.166
+  port: 443
+  tls: true
+  sni: localhost
+- name: 🇩🇪DE_3|1008KB/s
+  type: trojan
+  sni: nodes.830901.xyz
+  password: iwangjie
+  server: 50.62.194.195
+  port: 2096
+- name: 🇮🇪IE_1|1.1MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 50.7.5.164
+  port: 443
+  tls: true
+  sni: ir.failspace.top
+- name: 🇬🇧GB_6|1.6MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 66.90.105.210
+  port: 2083
+  tls: false
+  sni: ''
+- name: 🇮🇪IE_2|2.7MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 63.32.92.226
+  port: 443
+- name: 🇩🇪DE_4|1.3MB/s
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  server: 104.17.181.195
+  port: 443
+  tls: true
+  sni: mianfei-73q.pages.dev
+- name: 🇰🇷KR_2|4.9MB/s
   type: vless
   uuid: D2436339-0F26-479A-8064-4D91C2B93652
   server: kr2-r.link-t7.com
   port: 10047
   tls: true
   sni: s0.awsstatic.com
+- name: 🇯🇵JP_2|1.1MB/s
+  type: vless
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  server: cf5.466688.xyz
+  port: 443
+  tls: true
+  sni: mia3.pages.dev
+- name: 🇮🇪IE_3|1006KB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 108.129.176.139
+  port: 443
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -94,14 +112,17 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇬🇧GB_1|1.7MB/s
-  - 🇰🇷KR_1|2.6MB/s
-  - 🇬🇧GB_4|1023KB/s
-  - 🇸🇬SG_1|5.4MB/s
-  - 🇸🇬SG_2|4.5MB/s
-  - 🇳🇱NL_2|2.0MB/s
-  - 🇰🇷KR_3|5.5MB/s
-  - 🇰🇷KR_4|5.0MB/s
+  - 🇰🇷KR_1|4.7MB/s
+  - 🇸🇬SG_1|2.0MB/s
+  - 🇬🇧GB_2|1.1MB/s
+  - 🇩🇪DE_3|1008KB/s
+  - 🇮🇪IE_1|1.1MB/s
+  - 🇬🇧GB_6|1.6MB/s
+  - 🇮🇪IE_2|2.7MB/s
+  - 🇩🇪DE_4|1.3MB/s
+  - 🇰🇷KR_2|4.9MB/s
+  - 🇯🇵JP_2|1.1MB/s
+  - 🇮🇪IE_3|1006KB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
