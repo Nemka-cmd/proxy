@@ -11,12 +11,6 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇸🇬SG_1|2.8MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: i699dvro3+yyb9U6o3qsojnoZw2MsymfU8jhW6SzVLg=
-  server: 146.235.19.129
-  port: 56927
 - name: 🇩🇪DE_1|1.2MB/s
   type: vless
   uuid: XpnTeam-11
@@ -120,13 +114,6 @@ proxies:
   port: 443
   tls: true
   sni: panelsolivpn-production.up.railway.app
-- name: 🇩🇪DE_6|3.6MB/s
-  type: vless
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  server: 195.66.24.170
-  port: 1932
-  tls: true
-  sni: www.vk.com
 - name: 🇨🇦CA_1|4.3MB/s
   type: ss
   cipher: aes-256-cfb
@@ -186,7 +173,6 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇸🇬SG_1|2.8MB/s
   - 🇩🇪DE_1|1.2MB/s
   - 🇺🇸US_2|2.9MB/s
   - 🇰🇷KR_1|1.3MB/s
@@ -202,7 +188,6 @@ proxy-groups:
   - 🇺🇸US_25|3.0MB/s
   - 🇺🇸US_26|2.8MB/s
   - 🇺🇸US_27|2.7MB/s
-  - 🇩🇪DE_6|3.6MB/s
   - 🇨🇦CA_1|4.3MB/s
   - 🇮🇪IE_3|1.8MB/s
   - 🇨🇦CA_2|4.3MB/s
