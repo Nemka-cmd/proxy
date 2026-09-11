@@ -11,76 +11,19 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇷🇺RU_1|3.7MB/s
+- name: 🇺🇸US_1|1.2MB/s
   type: vless
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  server: 84.38.187.134
+  uuid: bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
+  server: 69.46.46.80
   port: 443
   tls: true
-  sni: git.xpkg.ru
-- name: 🇷🇺RU_2|1.1MB/s
-  type: vless
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  server: 161.104.38.98
+  sni: spiderpanel-production-6899.up.railway.app
+- name: 🇬🇧GB_1|1012KB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 52.56.143.197
   port: 443
-  tls: true
-  sni: donatov.net
-- name: 🇷🇺RU_3|1.7MB/s
-  type: vless
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  server: 135.106.142.209
-  port: 443
-  tls: true
-  sni: alfastat.ru
-- name: 🇺🇸US_2|1.1MB/s
-  type: vless
-  uuid: ''
-  server: d56bb06d-6f6b-4c07-8600-a76f48568495-production.up.railway.app
-  port: 443
-  tls: true
-  sni: fssingg-production.up.railway.app
-- name: 🇺🇸US_3|2.0MB/s
-  type: vless
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  server: 69.46.46.113
-  port: 443
-  tls: true
-  sni: cloud-bae8f3-546ee8-production.up.railway.app
-- name: 🇫🇮FI_1|2.8MB/s
-  type: vless
-  uuid: awlix_ir
-  server: 85.9.194.75
-  port: 443
-  tls: false
-  sni: ''
-- name: 🇸🇬SG_1|3.4MB/s
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  server: 104.17.70.206
-  port: 2096
-  tls: true
-  sni: free-server.techsonic.dev
-- name: 🇸🇬SG_2|1.6MB/s
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  server: 91.193.58.131
-  port: 2096
-  tls: true
-  sni: free-server.techsonic.dev
-- name: 🇸🇬SG_3|2.5MB/s
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  server: 91.193.58.108
-  port: 2096
-  tls: true
-  sni: free-server.techsonic.dev
-- name: 🇸🇬SG_4|2.1MB/s
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  server: 91.193.58.122
-  port: 2096
-  tls: true
-  sni: free-server.techsonic.dev
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -108,16 +51,8 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇷🇺RU_1|3.7MB/s
-  - 🇷🇺RU_2|1.1MB/s
-  - 🇷🇺RU_3|1.7MB/s
-  - 🇺🇸US_2|1.1MB/s
-  - 🇺🇸US_3|2.0MB/s
-  - 🇫🇮FI_1|2.8MB/s
-  - 🇸🇬SG_1|3.4MB/s
-  - 🇸🇬SG_2|1.6MB/s
-  - 🇸🇬SG_3|2.5MB/s
-  - 🇸🇬SG_4|2.1MB/s
+  - 🇺🇸US_1|1.2MB/s
+  - 🇬🇧GB_1|1012KB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
