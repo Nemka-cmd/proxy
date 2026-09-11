@@ -11,18 +11,43 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|1.2MB/s
+- name: 🇦🇺AU_1|1.9MB/s
   type: vless
-  uuid: bca65ce5-3208-4211-a5f9-2f6abd4ae7c2
-  server: 69.46.46.80
+  uuid: 682300d9-74d0-4dae-923c-09cb5d5e9951
+  server: 103.75.119.11
   port: 443
   tls: true
-  sni: spiderpanel-production-6899.up.railway.app
-- name: 🇬🇧GB_1|1012KB/s
+  sni: sberbank.ru
+- name: 🇨🇦CA_1|2.6MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 52.56.143.197
+  server: 35.182.182.58
+  port: 443
+- name: 🇩🇪DE_1|2.6MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 185.164.175.81
+  port: 19999
+- name: 🇩🇪DE_2|2.7MB/s
+  type: vless
+  uuid: XpnTeam-14
+  server: 199.232.78.160
+  port: 443
+  tls: true
+  sni: ssl.fastly.com
+- name: 🇨🇦CA_2|2.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 16.54.243.250
+  port: 443
+- name: 🇮🇪IE_2|3.6MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 52.211.103.59
   port: 443
 - name: US_speednode_0136
   type: vless
@@ -51,8 +76,12 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|1.2MB/s
-  - 🇬🇧GB_1|1012KB/s
+  - 🇦🇺AU_1|1.9MB/s
+  - 🇨🇦CA_1|2.6MB/s
+  - 🇩🇪DE_1|2.6MB/s
+  - 🇩🇪DE_2|2.7MB/s
+  - 🇨🇦CA_2|2.0MB/s
+  - 🇮🇪IE_2|3.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
