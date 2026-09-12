@@ -11,206 +11,117 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|4.3MB/s
-  type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 84.21.173.246
-  port: 443
-  tls: true
-  sni: de.pinkmoon.pro
-- name: 🇺🇸US_1|1.5MB/s
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: uk-dedic.failspace.top
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇺🇸US_2|2.9MB/s
+- name: 🇺🇸US_1|3.5MB/s
   type: vless
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   server: austria-2.moritech.net
   port: 443
   tls: true
   sni: ''
-- name: 🇺🇸US_3|2.9MB/s
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: austria.moritech.net
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇫🇮FI_1|4.8MB/s
-  type: vless
-  uuid: f1505323-ecb6-4152-9a5b-d37b3ae1cacf
-  server: 65.109.216.210
-  port: 443
-  tls: true
-  sni: play-apps-features.googleusercontent.com
-- name: 🇳🇵NP_1|3.1MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-sg1.6send.com
-  port: 10044
-- name: 🇳🇴NO_1|4.0MB/s
-  type: vless
-  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
-  server: aldebaran.yokkastars.com
-  port: 40443
-  tls: true
-  sni: deepl.com
-- name: 🇫🇮FI_2|2.7MB/s
-  type: vless
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
-  server: 151.101.56.6
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇳🇱NL_1|3.1MB/s
-  type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  server: mst1ndch.goonars.com
-  port: 443
-  tls: true
-  sni: apiv1nd.goonars.com
-- name: 🇩🇪DE_2|2.9MB/s
-  type: vless
-  uuid: 392d65cf-8f63-450a-aa93-017a27df88b5
-  server: 199.232.79.166
-  port: 443
-  tls: true
-  sni: cdn.fastly.com
-- name: 🇹🇷TR_1|2.6MB/s
+- name: 🇹🇷TR_1|1.1MB/s
   type: vless
   uuid: 3f9f2bda-0b9c-8469-7381-a73de2255619
   server: 170.168.97.8
   port: 8443
   tls: true
   sni: download.nvidia.com
-- name: 🇮🇪IE_1|2.8MB/s
+- name: 🇳🇱NL_1|3.4MB/s
   type: vless
-  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
-  server: connect6.nyxserver.ir
-  port: 8446
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  server: cdn15sw.goonars.com
+  port: 443
   tls: true
-  sni: ''
-- name: 🇺🇸US_5|1.3MB/s
+  sni: cdn15sw.goonars.com
+- name: 🇳🇱NL_2|4.2MB/s
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.149.50
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_6|1.5MB/s
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  server: mst1ndch.goonars.com
+  port: 443
+  tls: true
+  sni: apiv1nd.goonars.com
+- name: 🇺🇸US_2|3.3MB/s
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.198.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_7|1.3MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 80.93.202.40
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇶🇦QA_1|3.8MB/s
-  type: trojan
-  sni: www.cloudflare.com
-  password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
-  server: z-jp2.1card.cc
-  port: 10008
-- name: 🇦🇫AF_1|3.9MB/s
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  server: 142.248.218.34
+  port: 2053
+  tls: true
+  sni: edge.yzkvm.top
+- name: 🇾🇪YE_1|3.9MB/s
   type: trojan
   sni: www.cloudflare.com
   password: ultra%40kWZdAzt_IH593eGLRjdxnBZ0
   server: z-jp1.1card.cc
-  port: 10009
-- name: 🇩🇪DE_5|1.6MB/s
+  port: 10010
+- name: 🇸🇬SG_2|2.9MB/s
   type: vless
-  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
-  server: 171.22.129.56
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: news.zoom.us
   port: 8443
   tls: true
-  sni: de-two.quiet-rogue.site
-- name: 🇿🇦ZA_1|2.0MB/s
+  sni: u.srilankangrill.online
+- name: 🇸🇬SG_3|1.2MB/s
   type: vless
-  uuid: 94a5294d-1125-4139-8934-380c5de5552f
-  server: 109.121.44.51
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  server: cf.090227.xyz
   port: 443
   tls: true
-  sni: www.amd.com
-- name: 🇺🇸US_27|2.7MB/s
+  sni: cf1-1mh.pages.dev
+- name: 🇸🇬SG_4|5.3MB/s
   type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  server: 50.7.95.244
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  server: 188.164.248.78
+  port: 2096
+  tls: true
+  sni: fq.jp188.dpdns.org
+- name: 🇺🇸US_13|1.8MB/s
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  server: 172.67.169.99
   port: 443
-  tls: true
-  sni: apiv6.jarvesitw.ru
-- name: 🇺🇸US_29|4.0MB/s
-  type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  server: cdn12usa.goonars.com
-  port: 443
-  tls: true
-  sni: cdn12usa.goonars.com
-- name: 🇺🇸US_30|2.5MB/s
-  type: vless
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  server: cdn4ch.goonars.com
-  port: 443
-  tls: true
-  sni: apiv6.jarvesitw.ru
-- name: 🇿🇦ZA_2|1.6MB/s
-  type: vless
-  uuid: 03446511-2806-4fc0-b02f-f10d2d3a33c6
-  server: 109.121.44.71
-  port: 443
-  tls: true
-  sni: www.amd.com
-- name: 🇨🇭CH_3|1.1MB/s
-  type: vless
-  uuid: 3e46babc-192b-4f61-84ad-36aed8714b6d
-  server: 193.124.125.79
-  port: 161
-  tls: true
-  sni: avito.st
-- name: 🇪🇸ES_2|1.2MB/s
-  type: vless
-  uuid: 12c53e32-e589-47d6-b857-e4132294f767
-  server: 46.28.71.247
-  port: 443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇩🇪DE_6|4.2MB/s
-  type: vless
-  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
-  server: arcturus.yokkastars.com
-  port: 40443
-  tls: true
-  sni: deepl.com
-- name: 🇩🇪DE_7|3.2MB/s
-  type: vless
-  uuid: XpnTeam-15
-  server: 140.248.186.45
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇺🇸US_32|1.0MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.198.50
-  port: 8880
   tls: false
-  sni: ''
-- name: 🇷🇺RU_1|1.7MB/s
+  sni: 8-m16.PHuKEt2035.KdnS.fr
+- name: 🇧🇷BR_1|1.4MB/s
+  type: vless
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  server: 201.51.10.240
+  port: 443
+  tls: true
+  sni: apitw3.goonars.com
+- name: 🇦🇪AE_1|1.1MB/s
   type: vless
   uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
-  server: 5.35.91.96
+  server: 31.59.140.124
   port: 443
   tls: true
-  sni: rus1.baboon.digital
+  sni: nlv.baboon.digital
+- name: 🇩🇪DE_3|2.9MB/s
+  type: vless
+  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
+  server: de2.baboon.digital
+  port: 443
+  tls: true
+  sni: de2.baboon.digital
+- name: 🇬🇧GB_8|1.5MB/s
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  server: 31.76.20.209
+  port: 443
+  tls: true
+  sni: de.pinkmoon.pro
+- name: 🇭🇰HK_1|4.0MB/s
+  type: vless
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  server: hk4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: hk4e-launcher-static.hoyoverse.com
+- name: 🇭🇰HK_2|4.4MB/s
+  type: vless
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  server: hk6.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.hsbc.com.hk
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -238,35 +149,22 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|4.3MB/s
-  - 🇺🇸US_1|1.5MB/s
-  - 🇺🇸US_2|2.9MB/s
-  - 🇺🇸US_3|2.9MB/s
-  - 🇫🇮FI_1|4.8MB/s
-  - 🇳🇵NP_1|3.1MB/s
-  - 🇳🇴NO_1|4.0MB/s
-  - 🇫🇮FI_2|2.7MB/s
-  - 🇳🇱NL_1|3.1MB/s
-  - 🇩🇪DE_2|2.9MB/s
-  - 🇹🇷TR_1|2.6MB/s
-  - 🇮🇪IE_1|2.8MB/s
-  - 🇺🇸US_5|1.3MB/s
-  - 🇺🇸US_6|1.5MB/s
-  - 🇺🇸US_7|1.3MB/s
-  - 🇶🇦QA_1|3.8MB/s
-  - 🇦🇫AF_1|3.9MB/s
-  - 🇩🇪DE_5|1.6MB/s
-  - 🇿🇦ZA_1|2.0MB/s
-  - 🇺🇸US_27|2.7MB/s
-  - 🇺🇸US_29|4.0MB/s
-  - 🇺🇸US_30|2.5MB/s
-  - 🇿🇦ZA_2|1.6MB/s
-  - 🇨🇭CH_3|1.1MB/s
-  - 🇪🇸ES_2|1.2MB/s
-  - 🇩🇪DE_6|4.2MB/s
-  - 🇩🇪DE_7|3.2MB/s
-  - 🇺🇸US_32|1.0MB/s
-  - 🇷🇺RU_1|1.7MB/s
+  - 🇺🇸US_1|3.5MB/s
+  - 🇹🇷TR_1|1.1MB/s
+  - 🇳🇱NL_1|3.4MB/s
+  - 🇳🇱NL_2|4.2MB/s
+  - 🇺🇸US_2|3.3MB/s
+  - 🇾🇪YE_1|3.9MB/s
+  - 🇸🇬SG_2|2.9MB/s
+  - 🇸🇬SG_3|1.2MB/s
+  - 🇸🇬SG_4|5.3MB/s
+  - 🇺🇸US_13|1.8MB/s
+  - 🇧🇷BR_1|1.4MB/s
+  - 🇦🇪AE_1|1.1MB/s
+  - 🇩🇪DE_3|2.9MB/s
+  - 🇬🇧GB_8|1.5MB/s
+  - 🇭🇰HK_1|4.0MB/s
+  - 🇭🇰HK_2|4.4MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
