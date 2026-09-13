@@ -5,26 +5,137 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 美国3|@ripaojiedian
-  type: trojan
-  sni: t.me/ripaojiedian
-  password: BxceQaOe
-  server: 100.42.228.109
-  port: 443
-- name: 🇮🇱IL_1|1007KB/s
+- name: 🇭🇰HK_1|3.8MB/s
   type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  server: 140.235.168.2
-  port: 443
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  server: hk6-r.link-t7.com
+  port: 10136
   tls: true
-  sni: download.nvidia.com
-- name: 🇮🇱IL_2|1.0MB/s
+  sni: s0.awsstatic.com
+- name: 🇰🇷KR_1|4.8MB/s
   type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  server: 140.235.168.2
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  server: kr4-r.link-t7.com
+  port: 10049
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇰🇷KR_2|4.7MB/s
+  type: vless
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  server: kr3-r.link-t7.com
+  port: 10048
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇺🇸US_1|3.9MB/s
+  type: vless
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  server: us1-r.link-t7.com
+  port: 10238
+  tls: true
+  sni: s0.awsstatic.com
+- name: 🇺🇸US_4|1.8MB/s
+  type: vless
+  uuid: c9373ff0-c263-4949-885f-366671f3c6a1
+  server: 104.143.223.64
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇹🇷TR_1|2.2MB/s
+  type: vless
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  server: 170.168.97.8
   port: 8443
   tls: true
   sni: download.nvidia.com
+- name: 🇺🇸US_5|3.0MB/s
+  type: vless
+  uuid: d6e792d5-ea82-4e6c-b679-89f49ff7996e
+  server: 104.143.223.80
+  port: 2085
+  tls: false
+  sni: ''
+- name: 🇺🇸US_25|2.7MB/s
+  type: vless
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  server: 104.17.99.180
+  port: 2087
+  tls: true
+  sni: fq.jp188.dpdns.org
+- name: 🇦🇲AM_1|2.3MB/s
+  type: trojan
+  sni: de2.x8lab.org
+  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
+  server: de2.x8lab.org
+  port: 9433
+- name: 🇬🇧GB_9|3.5MB/s
+  type: vless
+  uuid: 156ff3c8-4578-4fcf-82be-ddc792d98928
+  server: 104.194.149.180
+  port: 8443
+  tls: true
+  sni: www.sony.com
+- name: 🇩🇪DE_5|3.2MB/s
+  type: vless
+  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
+  server: 104.18.29.234
+  port: 2083
+  tls: true
+  sni: uycneynsieuocxniseunciusecmsepiockjuyh.novexgroup.ir
+- name: 🇩🇪DE_6|4.3MB/s
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  server: 193.58.121.189
+  port: 443
+  tls: true
+  sni: de.pinkmoon.pro
+- name: 🇩🇪DE_7|2.7MB/s
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  server: 212.80.7.141
+  port: 443
+  tls: true
+  sni: de.pinkmoon.pro
+- name: 🇩🇪DE_8|3.6MB/s
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+  server: 94.156.179.46
+  port: 443
+  tls: true
+  sni: de.pinkmoon.pro
+- name: 🇩🇪DE_9|1.5MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: CDFvxFTDtN82wcL3jMRNPg==:9hc+aOTa6oOZuBPX9EUxvA==
+  server: 178.105.187.73
+  port: 8557
+- name: 🇫🇮FI_2|1.4MB/s
+  type: vless
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  server: 178.17.53.132
+  port: 443
+  tls: true
+  sni: sstats.vk-portal.net
+- name: 🇷🇺RU_2|2.3MB/s
+  type: vless
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  server: 170.168.99.8
+  port: 443
+  tls: true
+  sni: www.epson.com
+- name: 🇩🇪DE_10|3.1MB/s
+  type: vless
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  server: 2.27.59.255
+  port: 443
+  tls: true
+  sni: et-ger.letsgodance.site
+- name: 🇦🇪AE_1|4.1MB/s
+  type: vless
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  server: 94.183.238.15
+  port: 443
+  tls: true
+  sni: ger-02.letsgodance.site
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -51,9 +162,25 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 美国3|@ripaojiedian
-  - 🇮🇱IL_1|1007KB/s
-  - 🇮🇱IL_2|1.0MB/s
+  - 🇭🇰HK_1|3.8MB/s
+  - 🇰🇷KR_1|4.8MB/s
+  - 🇰🇷KR_2|4.7MB/s
+  - 🇺🇸US_1|3.9MB/s
+  - 🇺🇸US_4|1.8MB/s
+  - 🇹🇷TR_1|2.2MB/s
+  - 🇺🇸US_5|3.0MB/s
+  - 🇺🇸US_25|2.7MB/s
+  - 🇦🇲AM_1|2.3MB/s
+  - 🇬🇧GB_9|3.5MB/s
+  - 🇩🇪DE_5|3.2MB/s
+  - 🇩🇪DE_6|4.3MB/s
+  - 🇩🇪DE_7|2.7MB/s
+  - 🇩🇪DE_8|3.6MB/s
+  - 🇩🇪DE_9|1.5MB/s
+  - 🇫🇮FI_2|1.4MB/s
+  - 🇷🇺RU_2|2.3MB/s
+  - 🇩🇪DE_10|3.1MB/s
+  - 🇦🇪AE_1|4.1MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
