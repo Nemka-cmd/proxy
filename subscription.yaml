@@ -11,34 +11,20 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|2.2MB/s
-  type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 170.168.97.8
-  port: 443
-  tls: true
-  sni: cdn.steamstatic.com
-- name: 🇹🇷TR_1|1.1MB/s
-  type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 170.168.97.8
-  port: 8443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇮🇱IL_1|1.4MB/s
+- name: 🇮🇱IL_1|1007KB/s
   type: vless
   uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
   server: 140.235.168.2
   port: 443
   tls: true
   sni: download.nvidia.com
-- name: 🇸🇬SG_1|1.7MB/s
+- name: 🇮🇱IL_2|1.0MB/s
   type: vless
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  server: cf.kele.ge
-  port: 2053
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  server: 140.235.168.2
+  port: 8443
   tls: true
-  sni: singapore.36109178.xyz
+  sni: download.nvidia.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -66,10 +52,8 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|2.2MB/s
-  - 🇹🇷TR_1|1.1MB/s
-  - 🇮🇱IL_1|1.4MB/s
-  - 🇸🇬SG_1|1.7MB/s
+  - 🇮🇱IL_1|1007KB/s
+  - 🇮🇱IL_2|1.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
