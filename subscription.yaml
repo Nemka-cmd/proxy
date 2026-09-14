@@ -11,166 +11,144 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇰🇷KR_1|2.2MB/s
+- name: 🇰🇷KR_1|1.4MB/s
   type: vless
   uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
   server: kr3-r.link-t7.com
   port: 10048
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇪SE_1|1.7MB/s
+- name: 🇸🇬SG_1|4.6MB/s
   type: vless
-  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
-  server: 188.72.103.4
-  port: 443
-  tls: true
-  sni: shop.tgcenterapp.ru
-- name: 🇫🇮FI_1|1.1MB/s
-  type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  server: 170.168.99.8
-  port: 443
-  tls: true
-  sni: www.epson.com
-- name: 🇺🇸US_1|2.4MB/s
-  type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 104.245.242.8
+  uuid: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  server: 1sg001.344211.cc
   port: 8443
   tls: true
-  sni: download.nvidia.com
-- name: 🇸🇪SE_2|2.4MB/s
+  sni: www.python.org
+- name: 🇺🇸US_1|4.0MB/s
   type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 170.168.99.8
-  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: fi1.zuoai.cf
+  port: 443
+  tls: false
+  sni: xi.tbv.ccwu.cc
+- name: 🇺🇸US_2|3.1MB/s
+  type: vless
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: us10.zuoai.cf
+  port: 443
+  tls: false
+  sni: nb.lovecf.ggff.net
+- name: 🇺🇸US_3|2.9MB/s
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: kz3.zuoai.cf
+  port: 443
+  tls: false
+  sni: xi.tbv.ccwu.cc
+- name: 🇺🇸US_4|3.4MB/s
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: us2.zuoai.cf
+  port: 443
   tls: true
-  sni: cdn.steamstatic.com
-- name: 🇺🇸US_2|1.9MB/s
+  sni: xi.tbv.ccwu.cc
+- name: 🇺🇸US_5|2.1MB/s
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: nl4.zuoai.cf
+  port: 443
+  tls: false
+  sni: xi.tbv.ccwu.cc
+- name: 🇺🇸US_6|4.4MB/s
   type: vless
   uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
   server: us1-r.link-t7.com
   port: 10238
   tls: true
   sni: s0.awsstatic.com
-- name: 🇮🇱IL_1|1.1MB/s
+- name: 🇺🇸US_7|2.2MB/s
   type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 64.49.38.4
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: cy2.zuoai.cf
   port: 443
   tls: true
-  sni: download.nvidia.com
-- name: 🇰🇷KR_2|3.6MB/s
+  sni: xi.tbv.ccwu.cc
+- name: 🇰🇷KR_2|1.8MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+  server: 49.254.204.134
+  port: 1774
+- name: 🇳🇱NL_9|1.1MB/s
+  type: vless
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
+  server: 51.194.251.114
+  port: 61592
+  tls: true
+  sni: store.storeimages.cdn-apple.com
+- name: 🇰🇷KR_3|5.7MB/s
   type: vless
   uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
   server: kr4-r.link-t7.com
   port: 10049
   tls: true
   sni: s0.awsstatic.com
-- name: 🇸🇬SG_1|3.5MB/s
+- name: 🇵🇱PL_1|2.0MB/s
+  type: vless
+  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
+  server: 188.72.103.4
+  port: 443
+  tls: true
+  sni: shop.tgcenterapp.ru
+- name: 🇸🇬SG_2|5.1MB/s
   type: vless
   uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
   server: sg1-r.link-t7.com
   port: 10036
   tls: true
   sni: s0.awsstatic.com
-- name: 🇯🇵JP_1|2.0MB/s
+- name: ❓Other_1|1.3MB/s
   type: vless
-  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-  server: 103.76.85.156
+  uuid: a4bec43e-8073-4725-b307-47edad331fee
+  server: xuius.907737.xyz
+  port: 37379
+  tls: true
+  sni: xuius.907737.xyz
+- name: 🇦🇪AE_1|1.4MB/s
+  type: vless
+  uuid: 069ba4cf-e8af-4561-b11e-18bd07b0dbd3
+  server: 217.60.98.56
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_9|2.1MB/s
+  sni: west.blackbigdog.com
+- name: 🇺🇸US_29|1.0MB/s
   type: vless
-  uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
-  server: 38.244.20.149
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
+  server: 13.124.169.29
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_18|3.9MB/s
+  sni: thus-k.netnode.cc.cd
+- name: 🇺🇸US_30|2.2MB/s
   type: vless
-  uuid: 2869896f-424d-481a-bd68-f2fcae11b0c4
-  server: 38.244.20.41
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
+  server: 216.40.87.253
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_11|3.9MB/s
+  sni: thus-k.netnode.cc.cd
+- name: 🇺🇸US_31|2.2MB/s
   type: vless
-  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
-  server: ct.877774.xyz
+  uuid: 72f47867-ea74-4a5d-92dd-ce4b3a9ed9fc
+  server: 38.60.89.65
   port: 443
   tls: true
-  sni: us-lax.xhs152.shop
-- name: 🇮🇹IT_1|2.9MB/s
-  type: vless
-  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
-  server: ct.877774.xyz
-  port: 443
-  tls: true
-  sni: it-mil.xhs152.shop
-- name: 🇧🇷BR_1|2.5MB/s
-  type: vless
-  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
-  server: ct.877774.xyz
-  port: 443
-  tls: true
-  sni: br-gru.xhs152.shop
-- name: 🇩🇪DE_2|2.6MB/s
-  type: vless
-  uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
-  server: cctvhikvision.center
-  port: 2053
-  tls: true
-  sni: uwu.blueknightnet.qzz.io
-- name: 🇩🇪DE_3|1.4MB/s
-  type: vless
-  uuid: 6f1fef36-db08-4ecb-9227-c1289c257e02
-  server: hikvision-plus.com
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_4|1.0MB/s
-  type: vless
-  uuid: 6f1fef36-db08-4ecb-9227-c1289c257e02
-  server: undef.network
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇺🇸US_19|1.1MB/s
-  type: vless
-  uuid: 777ce726-882f-42b2-8ae4-267e5311b13c
-  server: 13.143.143.217
-  port: 443
-  tls: true
-  sni: pol2.pinkmoon.pro
-- name: 🇩🇪DE_5|1.2MB/s
-  type: vless
-  uuid: f5267873-5379-409e-b67a-145ea54deb70
-  server: undef.network
-  port: 2052
-  tls: false
-  sni: ''
-- name: 🇺🇸US_21|1.0MB/s
-  type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 13.143.143.217
-  port: 443
-  tls: true
-  sni: pol2.pinkmoon.pro
-- name: 🇫🇷FR_1|2.7MB/s
+  sni: thus-k.netnode.cc.cd
+- name: 🇺🇸US_32|4.1MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 15.237.218.241
+  server: 18.191.124.183
   port: 443
-- name: 🇸🇪SE_5|1.0MB/s
-  type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  server: 170.168.99.8
-  port: 8443
-  tls: true
-  sni: cdn.steamstatic.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -198,29 +176,26 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇰🇷KR_1|2.2MB/s
-  - 🇸🇪SE_1|1.7MB/s
-  - 🇫🇮FI_1|1.1MB/s
-  - 🇺🇸US_1|2.4MB/s
-  - 🇸🇪SE_2|2.4MB/s
-  - 🇺🇸US_2|1.9MB/s
-  - 🇮🇱IL_1|1.1MB/s
-  - 🇰🇷KR_2|3.6MB/s
-  - 🇸🇬SG_1|3.5MB/s
-  - 🇯🇵JP_1|2.0MB/s
-  - 🇺🇸US_9|2.1MB/s
-  - 🇺🇸US_18|3.9MB/s
-  - 🇺🇸US_11|3.9MB/s
-  - 🇮🇹IT_1|2.9MB/s
-  - 🇧🇷BR_1|2.5MB/s
-  - 🇩🇪DE_2|2.6MB/s
-  - 🇩🇪DE_3|1.4MB/s
-  - 🇩🇪DE_4|1.0MB/s
-  - 🇺🇸US_19|1.1MB/s
-  - 🇩🇪DE_5|1.2MB/s
-  - 🇺🇸US_21|1.0MB/s
-  - 🇫🇷FR_1|2.7MB/s
-  - 🇸🇪SE_5|1.0MB/s
+  - 🇰🇷KR_1|1.4MB/s
+  - 🇸🇬SG_1|4.6MB/s
+  - 🇺🇸US_1|4.0MB/s
+  - 🇺🇸US_2|3.1MB/s
+  - 🇺🇸US_3|2.9MB/s
+  - 🇺🇸US_4|3.4MB/s
+  - 🇺🇸US_5|2.1MB/s
+  - 🇺🇸US_6|4.4MB/s
+  - 🇺🇸US_7|2.2MB/s
+  - 🇰🇷KR_2|1.8MB/s
+  - 🇳🇱NL_9|1.1MB/s
+  - 🇰🇷KR_3|5.7MB/s
+  - 🇵🇱PL_1|2.0MB/s
+  - 🇸🇬SG_2|5.1MB/s
+  - ❓Other_1|1.3MB/s
+  - 🇦🇪AE_1|1.4MB/s
+  - 🇺🇸US_29|1.0MB/s
+  - 🇺🇸US_30|2.2MB/s
+  - 🇺🇸US_31|2.2MB/s
+  - 🇺🇸US_32|4.1MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
