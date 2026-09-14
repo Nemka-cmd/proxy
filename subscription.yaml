@@ -5,137 +5,124 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇭🇰HK_1|3.8MB/s
-  type: vless
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-  server: hk6-r.link-t7.com
-  port: 10136
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇰🇷KR_1|4.8MB/s
-  type: vless
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-  server: kr4-r.link-t7.com
-  port: 10049
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇰🇷KR_2|4.7MB/s
-  type: vless
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-  server: kr3-r.link-t7.com
-  port: 10048
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇺🇸US_1|3.9MB/s
-  type: vless
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-  server: us1-r.link-t7.com
-  port: 10238
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇺🇸US_4|1.8MB/s
-  type: vless
-  uuid: c9373ff0-c263-4949-885f-366671f3c6a1
-  server: 104.143.223.64
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇹🇷TR_1|2.2MB/s
+- name: 🇹🇷TR_1|4.0MB/s
   type: vless
   uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   server: 170.168.97.8
   port: 8443
   tls: true
   sni: download.nvidia.com
-- name: 🇺🇸US_5|3.0MB/s
+- name: 🇺🇸US_2|2.7MB/s
   type: vless
-  uuid: d6e792d5-ea82-4e6c-b679-89f49ff7996e
-  server: 104.143.223.80
-  port: 2085
-  tls: false
-  sni: ''
-- name: 🇺🇸US_25|2.7MB/s
-  type: vless
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
-  server: 104.17.99.180
-  port: 2087
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+  server: us1-r.link-t7.com
+  port: 10238
   tls: true
-  sni: fq.jp188.dpdns.org
-- name: 🇦🇲AM_1|2.3MB/s
-  type: trojan
-  sni: de2.x8lab.org
-  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
-  server: de2.x8lab.org
-  port: 9433
-- name: 🇬🇧GB_9|3.5MB/s
+  sni: s0.awsstatic.com
+- name: 🇮🇱IL_1|4.6MB/s
   type: vless
-  uuid: 156ff3c8-4578-4fcf-82be-ddc792d98928
-  server: 104.194.149.180
-  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  server: 64.49.38.4
+  port: 443
   tls: true
-  sni: www.sony.com
-- name: 🇩🇪DE_5|3.2MB/s
+  sni: download.nvidia.com
+- name: 🇺🇸US_3|3.0MB/s
   type: vless
-  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
-  server: 104.18.29.234
-  port: 2083
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  server: 170.168.97.8
+  port: 443
   tls: true
-  sni: uycneynsieuocxniseunciusecmsepiockjuyh.novexgroup.ir
-- name: 🇩🇪DE_6|4.3MB/s
+  sni: www.hp.com
+- name: 🇫🇷FR_1|2.0MB/s
+  type: vless
+  uuid: 11f21602-47aa-42e2-9149-69120f2e6df6
+  server: us05.shifor01.life
+  port: 443
+  tls: true
+  sni: us05.shifor01.life
+- name: 🇦🇪AE_1|2.3MB/s
+  type: vless
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 5.35.81.60
+  port: 4443
+  tls: true
+  sni: maps.apple.com
+- name: 🇵🇱PL_3|3.2MB/s
+  type: vless
+  uuid: 1251856f-1e0a-4c5f-99d3-c2d123edc755
+  server: 144.31.2.58
+  port: 443
+  tls: true
+  sni: mesh-8012.spliceflowtech.com
+- name: 🇫🇮FI_1|1.2MB/s
+  type: vless
+  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
+  server: 144.31.90.72
+  port: 443
+  tls: true
+  sni: fl.convert-flow.net
+- name: 🇩🇪DE_2|3.0MB/s
   type: vless
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
   server: 193.58.121.189
   port: 443
   tls: true
   sni: de.pinkmoon.pro
-- name: 🇩🇪DE_7|2.7MB/s
+- name: 🇩🇪DE_3|2.5MB/s
   type: vless
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 212.80.7.141
+  server: 89.39.121.239
   port: 443
   tls: true
   sni: de.pinkmoon.pro
-- name: 🇩🇪DE_8|3.6MB/s
+- name: 🇩🇪DE_4|4.0MB/s
   type: vless
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
   server: 94.156.179.46
   port: 443
   tls: true
   sni: de.pinkmoon.pro
-- name: 🇩🇪DE_9|1.5MB/s
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: CDFvxFTDtN82wcL3jMRNPg==:9hc+aOTa6oOZuBPX9EUxvA==
-  server: 178.105.187.73
-  port: 8557
-- name: 🇫🇮FI_2|1.4MB/s
+- name: 🇩🇪DE_6|2.8MB/s
   type: vless
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  server: 178.17.53.132
+  uuid: efc8337e-27ce-4ab4-9ef9-c7f9e5eef575
+  server: 216.24.57.1
   port: 443
   tls: true
-  sni: sstats.vk-portal.net
-- name: 🇷🇺RU_2|2.3MB/s
+  sni: f.tmkkarss.online
+- name: 🇯🇵JP_1|4.1MB/s
+  type: trojan
+  sni: oa1.hyas.space
+  password: d83a390c-33c3-4577-9258-e062f8ebdc16
+  server: 172.64.41.251
+  port: 443
+- name: 🇳🇱NL_10|3.5MB/s
   type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 170.168.99.8
+  uuid: 8b84bbec-9a55-47c2-ac2e-03c41065e572
+  server: 78.141.221.126
+  port: 25585
+  tls: false
+  sni: ''
+- name: 🇵🇱PL_4|4.5MB/s
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  tls: true
+  sni: rusbid.de
+- name: 🇩🇪DE_8|1.8MB/s
+  type: vless
+  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
+  server: 162.249.126.228
   port: 443
   tls: true
-  sni: www.epson.com
-- name: 🇩🇪DE_10|3.1MB/s
+  sni: de.edgeses.org
+- name: 🇩🇪DE_9|1.6MB/s
   type: vless
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  server: 2.27.59.255
-  port: 443
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  server: 80.87.196.72
+  port: 2096
   tls: true
-  sni: et-ger.letsgodance.site
-- name: 🇦🇪AE_1|4.1MB/s
-  type: vless
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  server: 94.183.238.15
-  port: 443
-  tls: true
-  sni: ger-02.letsgodance.site
+  sni: id.vk.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -162,25 +149,23 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇭🇰HK_1|3.8MB/s
-  - 🇰🇷KR_1|4.8MB/s
-  - 🇰🇷KR_2|4.7MB/s
-  - 🇺🇸US_1|3.9MB/s
-  - 🇺🇸US_4|1.8MB/s
-  - 🇹🇷TR_1|2.2MB/s
-  - 🇺🇸US_5|3.0MB/s
-  - 🇺🇸US_25|2.7MB/s
-  - 🇦🇲AM_1|2.3MB/s
-  - 🇬🇧GB_9|3.5MB/s
-  - 🇩🇪DE_5|3.2MB/s
-  - 🇩🇪DE_6|4.3MB/s
-  - 🇩🇪DE_7|2.7MB/s
-  - 🇩🇪DE_8|3.6MB/s
-  - 🇩🇪DE_9|1.5MB/s
-  - 🇫🇮FI_2|1.4MB/s
-  - 🇷🇺RU_2|2.3MB/s
-  - 🇩🇪DE_10|3.1MB/s
-  - 🇦🇪AE_1|4.1MB/s
+  - 🇹🇷TR_1|4.0MB/s
+  - 🇺🇸US_2|2.7MB/s
+  - 🇮🇱IL_1|4.6MB/s
+  - 🇺🇸US_3|3.0MB/s
+  - 🇫🇷FR_1|2.0MB/s
+  - 🇦🇪AE_1|2.3MB/s
+  - 🇵🇱PL_3|3.2MB/s
+  - 🇫🇮FI_1|1.2MB/s
+  - 🇩🇪DE_2|3.0MB/s
+  - 🇩🇪DE_3|2.5MB/s
+  - 🇩🇪DE_4|4.0MB/s
+  - 🇩🇪DE_6|2.8MB/s
+  - 🇯🇵JP_1|4.1MB/s
+  - 🇳🇱NL_10|3.5MB/s
+  - 🇵🇱PL_4|4.5MB/s
+  - 🇩🇪DE_8|1.8MB/s
+  - 🇩🇪DE_9|1.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
