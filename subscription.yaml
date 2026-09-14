@@ -5,124 +5,180 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇹🇷TR_1|4.0MB/s
+- name: 美国3|@ripaojiedian
+  type: trojan
+  sni: t.me/ripaojiedian
+  password: BxceQaOe
+  server: 100.42.228.109
+  port: 443
+- name: 🇹🇷TR_1|3.6MB/s
   type: vless
   uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   server: 170.168.97.8
   port: 8443
   tls: true
   sni: download.nvidia.com
-- name: 🇺🇸US_2|2.7MB/s
-  type: vless
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-  server: us1-r.link-t7.com
-  port: 10238
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇮🇱IL_1|4.6MB/s
-  type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  server: 64.49.38.4
-  port: 443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇺🇸US_3|3.0MB/s
-  type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  server: 170.168.97.8
-  port: 443
-  tls: true
-  sni: www.hp.com
-- name: 🇫🇷FR_1|2.0MB/s
-  type: vless
-  uuid: 11f21602-47aa-42e2-9149-69120f2e6df6
-  server: us05.shifor01.life
-  port: 443
-  tls: true
-  sni: us05.shifor01.life
-- name: 🇦🇪AE_1|2.3MB/s
-  type: vless
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  server: 5.35.81.60
-  port: 4443
-  tls: true
-  sni: maps.apple.com
-- name: 🇵🇱PL_3|3.2MB/s
+- name: 🇵🇱PL_1|3.1MB/s
   type: vless
   uuid: 1251856f-1e0a-4c5f-99d3-c2d123edc755
   server: 144.31.2.58
   port: 443
   tls: true
   sni: mesh-8012.spliceflowtech.com
-- name: 🇫🇮FI_1|1.2MB/s
+- name: 🇸🇪SE_1|3.3MB/s
   type: vless
-  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
-  server: 144.31.90.72
-  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  server: 170.168.99.8
+  port: 8443
   tls: true
-  sni: fl.convert-flow.net
-- name: 🇩🇪DE_2|3.0MB/s
+  sni: cdn.steamstatic.com
+- name: 🇺🇸US_2|4.2MB/s
   type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 193.58.121.189
-  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  server: 104.245.242.8
+  port: 8443
   tls: true
-  sni: de.pinkmoon.pro
-- name: 🇩🇪DE_3|2.5MB/s
+  sni: download.nvidia.com
+- name: 🇫🇷FR_1|5.2MB/s
   type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 89.39.121.239
-  port: 443
-  tls: true
-  sni: de.pinkmoon.pro
-- name: 🇩🇪DE_4|4.0MB/s
-  type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  server: 94.156.179.46
-  port: 443
-  tls: true
-  sni: de.pinkmoon.pro
-- name: 🇩🇪DE_6|2.8MB/s
-  type: vless
-  uuid: efc8337e-27ce-4ab4-9ef9-c7f9e5eef575
-  server: 216.24.57.1
-  port: 443
-  tls: true
-  sni: f.tmkkarss.online
-- name: 🇯🇵JP_1|4.1MB/s
-  type: trojan
-  sni: oa1.hyas.space
-  password: d83a390c-33c3-4577-9258-e062f8ebdc16
-  server: 172.64.41.251
-  port: 443
-- name: 🇳🇱NL_10|3.5MB/s
-  type: vless
-  uuid: 8b84bbec-9a55-47c2-ac2e-03c41065e572
-  server: 78.141.221.126
-  port: 25585
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 35.180.221.118
+  port: 22222
   tls: false
   sni: ''
-- name: 🇵🇱PL_4|4.5MB/s
+- name: 🇫🇷FR_2|1.8MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.44
+  port: 443
+- name: 🇵🇱PL_2|3.2MB/s
   type: vless
   uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
   server: pl-waw.dontblockmepls.com
   port: 2063
   tls: true
   sni: rusbid.de
-- name: 🇩🇪DE_8|1.8MB/s
+- name: 🇩🇪DE_1|2.6MB/s
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: 1JvlmtT4v8y1yGczDtT6Ww==:aCtpeMietGsJY50h6jDW6w==
+  server: setlor.rehan-iogsar.ir
+  port: 4680
+- name: 🇫🇷FR_3|1.6MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.74.2
+  port: 443
+- name: 🇫🇷FR_4|1.5MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.37
+  port: 443
+- name: 🇫🇷FR_5|1013KB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 8.6.112.0
+  port: 443
+- name: 🇬🇧GB_1|2.0MB/s
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  server: 146.70.23.32
+  port: 8080
+- name: 🇺🇸US_4|1.5MB/s
   type: vless
-  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
-  server: 162.249.126.228
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+  server: 208.103.161.249
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_5|3.0MB/s
+  type: trojan
+  sni: uwu.dianaw.cc.cd
+  password: 51oeqnj11lq5mljn
+  server: uwu.blueknightnet.qzz.io
+  port: 2087
+- name: 🇬🇧GB_9|3.2MB/s
+  type: vless
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  server: 2.26.101.19
+  port: 24443
+  tls: true
+  sni: se.chick-team.ru
+- name: 🇳🇱NL_6|3.9MB/s
+  type: vless
+  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
+  server: 89.105.206.123
   port: 443
   tls: true
-  sni: de.edgeses.org
-- name: 🇩🇪DE_9|1.6MB/s
+  sni: nl.convert-flow.net
+- name: 🇩🇪DE_6|3.0MB/s
   type: vless
-  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
-  server: 80.87.196.72
-  port: 2096
+  uuid: 49a9813a-a8be-4ce7-9095-e5f37e3c6f92
+  server: hikvision-plus.com
+  port: 2052
+  tls: false
+  sni: ''
+- name: 🇹🇷TR_2|3.2MB/s
+  type: vless
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 13.143.137.164
+  port: 9443
   tls: true
-  sni: id.vk.com
+  sni: plaincanvas.videoclothing.xyz
+- name: 🇩🇪DE_7|2.9MB/s
+  type: vless
+  uuid: f9b05993-49d6-4ef4-b371-e0f7718e4a4b
+  server: hikvision-plus.com
+  port: 2052
+  tls: false
+  sni: ''
+- name: 🇫🇮FI_2|3.1MB/s
+  type: vless
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  server: 213.176.17.50
+  port: 443
+  tls: true
+  sni: sstats.vk-portal.net
+- name: 🇹🇷TR_3|2.0MB/s
+  type: vless
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  server: 170.168.97.8
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇹🇭TH_1|1.3MB/s
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  server: 188.114.97.6
+  port: 443
+  tls: true
+  sni: v2ray.simspeedup.com
+- name: 🇺🇸US_23|1.2MB/s
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 80.93.202.40
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇺🇸US_24|2.0MB/s
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 72.167.25.30
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇨🇭CH_3|4.0MB/s
+  type: vless
+  uuid: 3a22ca95-bd99-02f0-a799-f8f73930ea05
+  server: 89.105.206.123
+  port: 443
+  tls: true
+  sni: nl.convert-flow.net
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -149,23 +205,32 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇹🇷TR_1|4.0MB/s
-  - 🇺🇸US_2|2.7MB/s
-  - 🇮🇱IL_1|4.6MB/s
-  - 🇺🇸US_3|3.0MB/s
-  - 🇫🇷FR_1|2.0MB/s
-  - 🇦🇪AE_1|2.3MB/s
-  - 🇵🇱PL_3|3.2MB/s
-  - 🇫🇮FI_1|1.2MB/s
-  - 🇩🇪DE_2|3.0MB/s
-  - 🇩🇪DE_3|2.5MB/s
-  - 🇩🇪DE_4|4.0MB/s
-  - 🇩🇪DE_6|2.8MB/s
-  - 🇯🇵JP_1|4.1MB/s
-  - 🇳🇱NL_10|3.5MB/s
-  - 🇵🇱PL_4|4.5MB/s
-  - 🇩🇪DE_8|1.8MB/s
-  - 🇩🇪DE_9|1.6MB/s
+  - 美国3|@ripaojiedian
+  - 🇹🇷TR_1|3.6MB/s
+  - 🇵🇱PL_1|3.1MB/s
+  - 🇸🇪SE_1|3.3MB/s
+  - 🇺🇸US_2|4.2MB/s
+  - 🇫🇷FR_1|5.2MB/s
+  - 🇫🇷FR_2|1.8MB/s
+  - 🇵🇱PL_2|3.2MB/s
+  - 🇩🇪DE_1|2.6MB/s
+  - 🇫🇷FR_3|1.6MB/s
+  - 🇫🇷FR_4|1.5MB/s
+  - 🇫🇷FR_5|1013KB/s
+  - 🇬🇧GB_1|2.0MB/s
+  - 🇺🇸US_4|1.5MB/s
+  - 🇩🇪DE_5|3.0MB/s
+  - 🇬🇧GB_9|3.2MB/s
+  - 🇳🇱NL_6|3.9MB/s
+  - 🇩🇪DE_6|3.0MB/s
+  - 🇹🇷TR_2|3.2MB/s
+  - 🇩🇪DE_7|2.9MB/s
+  - 🇫🇮FI_2|3.1MB/s
+  - 🇹🇷TR_3|2.0MB/s
+  - 🇹🇭TH_1|1.3MB/s
+  - 🇺🇸US_23|1.2MB/s
+  - 🇺🇸US_24|2.0MB/s
+  - 🇨🇭CH_3|4.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
