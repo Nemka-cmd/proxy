@@ -11,20 +11,75 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇳🇱NL_1|1.6MB/s
+- name: 🇩🇪DE_1|3.7MB/s
   type: vless
-  uuid: ec43c5d5-b6f9-4077-95cf-1450abf48441
-  server: m2-production-2516.up.railway.app
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  server: 212.16.92.112
   port: 443
   tls: true
-  sni: ''
-- name: 🇫🇮FI_1|1.3MB/s
+  sni: jobinvest.ru
+- name: 🇱🇹LT_1|4.3MB/s
   type: vless
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  server: 213.176.17.50
+  uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
+  server: 188.72.103.3
   port: 443
   tls: true
-  sni: sstats.vk-portal.net
+  sni: cdnapiv2.streamru10.net
+- name: 🇺🇸US_1|2.7MB/s
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  server: 69.46.46.104
+  port: 443
+  tls: true
+  sni: net-5307e1-dff579-production.up.railway.app
+- name: 🇫🇮FI_1|4.5MB/s
+  type: vless
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  server: 188.114.97.8
+  port: 8443
+  tls: true
+  sni: dl1.rahetejarat.com
+- name: 🇺🇸US_2|3.0MB/s
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  server: 69.46.46.107
+  port: 443
+  tls: true
+  sni: api-xvdhdv8374gdv-dyehgd638-6b85bd-production.up.railway.app
+- name: 🇺🇸US_3|2.5MB/s
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  server: 69.46.46.108
+  port: 443
+  tls: true
+  sni: esmal-locj45-ugfufuffufuff-0bfedd-production.up.railway.app
+- name: 🇺🇸US_4|1.8MB/s
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  server: 69.46.46.109
+  port: 443
+  tls: true
+  sni: cloud-0c2055-082cd3-production.up.railway.app
+- name: 🇨🇦CA_1|3.9MB/s
+  type: ss
+  cipher: aes-256-gcm
+  password: fbcec76953a2d173
+  server: 166.88.130.218
+  port: 7018
+- name: 🇫🇮FI_2|1.6MB/s
+  type: vless
+  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
+  server: 170.168.97.6
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇩🇪DE_7|3.7MB/s
+  type: vless
+  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
+  server: 172.67.156.105
+  port: 443
+  tls: true
+  sni: fwe4.yasharmobile.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -52,8 +107,16 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇳🇱NL_1|1.6MB/s
-  - 🇫🇮FI_1|1.3MB/s
+  - 🇩🇪DE_1|3.7MB/s
+  - 🇱🇹LT_1|4.3MB/s
+  - 🇺🇸US_1|2.7MB/s
+  - 🇫🇮FI_1|4.5MB/s
+  - 🇺🇸US_2|3.0MB/s
+  - 🇺🇸US_3|2.5MB/s
+  - 🇺🇸US_4|1.8MB/s
+  - 🇨🇦CA_1|3.9MB/s
+  - 🇫🇮FI_2|1.6MB/s
+  - 🇩🇪DE_7|3.7MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
