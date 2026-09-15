@@ -11,197 +11,174 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇫🇮FI_1|3.1MB/s
+- name: 🇫🇮FI_1|2.8MB/s
   type: vless
-  uuid: bdaf42dd-f75b-4594-d5f8-51c0feeb8406
-  server: k2.cloud--vpn.site
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇳🇱NL_9|3.1MB/s
-  type: vless
-  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
-  server: 51.194.251.114
-  port: 61592
-  tls: true
-  sni: store.storeimages.cdn-apple.com
-- name: 🇩🇪DE_1|1.5MB/s
-  type: vless
-  uuid: 2cd9279f-a107-4860-8356-fc994ca4dff7
-  server: 199.232.79.166
-  port: 443
-  tls: true
-  sni: cdn.fastly.com
-- name: 🇫🇷FR_1|4.6MB/s
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  server: 13.37.25.107
-  port: 22222
+  uuid: 6c9ba0f5-e9f9-419f-af87-8f44dd761dbf
+  server: 65.109.192.65
+  port: 9090
   tls: false
   sni: ''
-- name: 🇫🇷FR_2|1.3MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 165.215.250.14
-  port: 443
-- name: 🇫🇷FR_3|2.8MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.71
-  port: 443
-- name: 🇫🇷FR_4|2.8MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.46
-  port: 443
-- name: 🇫🇷FR_5|2.6MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.149
-  port: 443
-- name: 🇫🇷FR_6|2.8MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.18.152.230
-  port: 443
-- name: 🇹🇼TW_1|1.1MB/s
+- name: 🇭🇰HK_2|4.3MB/s
   type: vless
-  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
-  server: 60.248.219.53
+  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+  server: hk-1.gsafevpnapi.com
+  port: 20270
+  tls: true
+  sni: www.yahoo.com
+- name: 🇸🇬SG_1|4.9MB/s
+  type: vless
+  uuid: e016d072-ed97-40d4-a83f-04c00f8df2a5
+  server: sg-1.gsafevpnapi.com
+  port: 20270
+  tls: true
+  sni: www.yahoo.com
+- name: 🇯🇵JP_3|5.1MB/s
+  type: vless
+  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+  server: jp-1.gsafevpnapi.com
+  port: 20270
+  tls: true
+  sni: www.yahoo.com
+- name: 🇯🇵JP_2|5.3MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.64.229.58
   port: 443
   tls: true
-  sni: ty986gfazs.cainiaohub.xyz
-- name: 🇯🇵JP_2|5.9MB/s
+  sni: cdn8848.776676.xyz
+- name: 🇺🇸US_8|1.4MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.229.75
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.19.54.82
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇸🇬SG_1|4.4MB/s
+  sni: cdn8848.776676.xyz
+- name: 🇺🇸US_9|3.1MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.145.195
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.17.252.75
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇯🇵JP_3|5.3MB/s
+  sni: cdn8848.776676.xyz
+- name: 🇭🇰HK_3|3.4MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.229.6
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 8.222.84.103
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇺🇸US_4|1.2MB/s
+  sni: cdn8848.776676.xyz
+- name: 🇹🇼TW_1|2.6MB/s
   type: vless
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 43.174.195.1
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 103.137.22.71
   port: 443
   tls: true
-  sni: kkkk-8oc.pages.dev
-- name: 🇸🇬SG_2|5.5MB/s
+  sni: cdn8848.776676.xyz
+- name: 🇭🇰HK_4|4.0MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.157.90
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 68.64.179.129
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇯🇵JP_4|5.7MB/s
+  sni: cdn8848.776676.xyz
+- name: ❓Other_1|1.2MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.229.104
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  server: 104.17.159.229
+  port: 2053
+  tls: true
+  sni: singapore.36109178.xyz
+- name: 🇸🇬SG_2|4.5MB/s
+  type: vless
+  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+  server: sg-1.gsafevpnapi.com
+  port: 20270
+  tls: true
+  sni: www.yahoo.com
+- name: 🇵🇱PL_4|1013KB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 50.7.249.181
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇸🇬SG_3|4.3MB/s
+  sni: pl-dedic-2.failspace.top
+- name: 🇵🇱PL_5|2.2MB/s
   type: vless
-  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
-  server: 172.64.154.124
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 50.7.249.172
   port: 443
   tls: true
-  sni: cfnew.zxs1202.cc.cd
-- name: 🇫🇷FR_7|3.1MB/s
+  sni: pl-dedic-3.failspace.top
+- name: 🇵🇱PL_6|2.5MB/s
   type: vless
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 104.194.84.188
-  port: 8443
-  tls: true
-  sni: kkkk-8oc.pages.dev
-- name: 🇸🇬SG_4|1.8MB/s
-  type: vless
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 166.88.194.248
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 50.7.248.237
   port: 443
   tls: true
-  sni: kkkk-xcd.pages.dev
-- name: 🇬🇧GB_10|2.6MB/s
+  sni: pl-new-dedic.failspace.top
+- name: 🇩🇰DK_2|1.5MB/s
   type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  server: 31.77.199.147
-  port: 4443
-  tls: true
-  sni: images.unsplash.com
-- name: 🇬🇧GB_11|2.6MB/s
-  type: vless
-  uuid: 527462f9-95a9-4470-ba22-ba1c45903954
-  server: loc1-cdn.mycarservhpdd10.ir
-  port: 43054
-  tls: true
-  sni: translate.google.com
-- name: 🇦🇪AE_1|3.6MB/s
-  type: vless
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  server: 94.183.170.147
-  port: 8443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇸🇬SG_5|4.0MB/s
-  type: vless
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  server: cf9.danfeng.eu.org
-  port: 2096
-  tls: true
-  sni: vip.868068.xyz
-- name: 🇺🇸US_13|2.1MB/s
-  type: vless
-  uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
-  server: ghosts-spasm.quick-cdn.net
+  uuid: aea9e420-de22-4dcb-93b8-af1f71a3c264
+  server: 6705c.veloradigital.xyz
   port: 443
   tls: true
-  sni: ghosts-spasm.quick-cdn.net
-- name: 🇺🇸US_15|1.1MB/s
+  sni: 6705c.veloradigital.xyz
+- name: 🇸🇬SG_3|5.1MB/s
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 80.93.202.40
-  port: 8880
-  tls: false
-  sni: vms.lifetime02.workers.dev
-- name: 🇺🇸US_16|3.0MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_17|1.3MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 72.167.25.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇫🇮FI_2|3.2MB/s
-  type: vless
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  server: 213.176.17.50
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 54.251.91.171
   port: 443
   tls: true
-  sni: sstats.vk-portal.net
+  sni: 2nz68.udxf.ui6.hh.vavava.kdns.fr
+- name: 🇸🇬SG_4|2.3MB/s
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 172.64.152.94
+  port: 443
+  tls: true
+  sni: 2nz68.udxf.ui6.hh.vavava.kdns.fr
+- name: 🇺🇸US_19|2.9MB/s
+  type: vless
+  uuid: 409f4682-a458-4671-8805-40dfc6978336
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  tls: true
+  sni: grimness-backlogs.cdn-content.com
+- name: 🇯🇵JP_4|2.3MB/s
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 87.76.198.228
+  port: 443
+  tls: true
+  sni: ut5rk.ovlk.qz7.hh.vavava.kdns.fr
+- name: 🇸🇬SG_5|3.7MB/s
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 54.254.39.187
+  port: 443
+  tls: true
+  sni: ut5rk.ovlk.qz7.hh.vavava.kdns.fr
+- name: 🇺🇸US_20|4.0MB/s
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 38.55.111.161
+  port: 443
+  tls: true
+  sni: ut5rk.ovlk.qz7.hh.vavava.kdns.fr
+- name: 🇹🇷TR_1|1.6MB/s
+  type: vless
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  server: 31.214.152.140
+  port: 443
+  tls: true
+  sni: dw.b-cdn.net
+- name: 🇺🇸US_21|2.7MB/s
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.18.106.225
+  port: 443
+  tls: true
+  sni: 2nz68.udxf.ui6.hh.vavava.kdns.fr
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -229,34 +206,30 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇫🇮FI_1|3.1MB/s
-  - 🇳🇱NL_9|3.1MB/s
-  - 🇩🇪DE_1|1.5MB/s
-  - 🇫🇷FR_1|4.6MB/s
-  - 🇫🇷FR_2|1.3MB/s
-  - 🇫🇷FR_3|2.8MB/s
-  - 🇫🇷FR_4|2.8MB/s
-  - 🇫🇷FR_5|2.6MB/s
-  - 🇫🇷FR_6|2.8MB/s
-  - 🇹🇼TW_1|1.1MB/s
-  - 🇯🇵JP_2|5.9MB/s
-  - 🇸🇬SG_1|4.4MB/s
-  - 🇯🇵JP_3|5.3MB/s
-  - 🇺🇸US_4|1.2MB/s
-  - 🇸🇬SG_2|5.5MB/s
-  - 🇯🇵JP_4|5.7MB/s
-  - 🇸🇬SG_3|4.3MB/s
-  - 🇫🇷FR_7|3.1MB/s
-  - 🇸🇬SG_4|1.8MB/s
-  - 🇬🇧GB_10|2.6MB/s
-  - 🇬🇧GB_11|2.6MB/s
-  - 🇦🇪AE_1|3.6MB/s
-  - 🇸🇬SG_5|4.0MB/s
-  - 🇺🇸US_13|2.1MB/s
-  - 🇺🇸US_15|1.1MB/s
-  - 🇺🇸US_16|3.0MB/s
-  - 🇺🇸US_17|1.3MB/s
-  - 🇫🇮FI_2|3.2MB/s
+  - 🇫🇮FI_1|2.8MB/s
+  - 🇭🇰HK_2|4.3MB/s
+  - 🇸🇬SG_1|4.9MB/s
+  - 🇯🇵JP_3|5.1MB/s
+  - 🇯🇵JP_2|5.3MB/s
+  - 🇺🇸US_8|1.4MB/s
+  - 🇺🇸US_9|3.1MB/s
+  - 🇭🇰HK_3|3.4MB/s
+  - 🇹🇼TW_1|2.6MB/s
+  - 🇭🇰HK_4|4.0MB/s
+  - ❓Other_1|1.2MB/s
+  - 🇸🇬SG_2|4.5MB/s
+  - 🇵🇱PL_4|1013KB/s
+  - 🇵🇱PL_5|2.2MB/s
+  - 🇵🇱PL_6|2.5MB/s
+  - 🇩🇰DK_2|1.5MB/s
+  - 🇸🇬SG_3|5.1MB/s
+  - 🇸🇬SG_4|2.3MB/s
+  - 🇺🇸US_19|2.9MB/s
+  - 🇯🇵JP_4|2.3MB/s
+  - 🇸🇬SG_5|3.7MB/s
+  - 🇺🇸US_20|4.0MB/s
+  - 🇹🇷TR_1|1.6MB/s
+  - 🇺🇸US_21|2.7MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
