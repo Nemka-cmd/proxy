@@ -11,75 +11,115 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|3.7MB/s
-  type: vless
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  server: 212.16.92.112
+- name: 🇫🇷FR_1|2.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.16.174.44
   port: 443
-  tls: true
-  sni: jobinvest.ru
-- name: 🇱🇹LT_1|4.3MB/s
-  type: vless
-  uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
-  server: 188.72.103.3
+- name: 🇫🇷FR_2|2.4MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.73
   port: 443
-  tls: true
-  sni: cdnapiv2.streamru10.net
-- name: 🇺🇸US_1|2.7MB/s
+- name: 🇹🇷TR_1|1.7MB/s
   type: vless
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  server: 69.46.46.104
-  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 13.143.137.164
+  port: 9443
   tls: true
-  sni: net-5307e1-dff579-production.up.railway.app
-- name: 🇫🇮FI_1|4.5MB/s
+  sni: plaincanvas.videoclothing.xyz
+- name: 🇯🇵JP_1|4.7MB/s
   type: vless
-  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
-  server: 188.114.97.8
-  port: 8443
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  server: 202.144.192.76
+  port: 13779
   tls: true
-  sni: dl1.rahetejarat.com
-- name: 🇺🇸US_2|3.0MB/s
-  type: vless
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  server: 69.46.46.107
-  port: 443
-  tls: true
-  sni: api-xvdhdv8374gdv-dyehgd638-6b85bd-production.up.railway.app
-- name: 🇺🇸US_3|2.5MB/s
-  type: vless
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  server: 69.46.46.108
-  port: 443
-  tls: true
-  sni: esmal-locj45-ugfufuffufuff-0bfedd-production.up.railway.app
-- name: 🇺🇸US_4|1.8MB/s
-  type: vless
-  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
-  server: 69.46.46.109
-  port: 443
-  tls: true
-  sni: cloud-0c2055-082cd3-production.up.railway.app
-- name: 🇨🇦CA_1|3.9MB/s
+  sni: tesla.com
+- name: 🇫🇷FR_3|4.2MB/s
   type: ss
-  cipher: aes-256-gcm
-  password: fbcec76953a2d173
-  server: 166.88.130.218
-  port: 7018
-- name: 🇫🇮FI_2|1.6MB/s
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 15.188.246.220
+  port: 443
+- name: 🇹🇷TR_2|2.3MB/s
   type: vless
   uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
   server: 170.168.97.6
   port: 443
   tls: true
   sni: download.nvidia.com
-- name: 🇩🇪DE_7|3.7MB/s
+- name: 🇸🇪SE_3|3.8MB/s
   type: vless
-  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
-  server: 172.67.156.105
+  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
+  server: 170.168.99.9
   port: 443
   tls: true
-  sni: fwe4.yasharmobile.com
+  sni: cdn.steamstatic.com
+- name: 🇹🇷TR_3|3.3MB/s
+  type: vless
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  server: tr.curry-load.rutube.info
+  port: 443
+  tls: true
+  sni: dw.b-cdn.net
+- name: 🇺🇸US_24|2.8MB/s
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: nl4.zuoai.cf
+  port: 443
+  tls: true
+  sni: xi.tbv.ccwu.cc
+- name: 🇫🇮FI_1|3.3MB/s
+  type: vless
+  uuid: 5567c4c4-e75b-41e5-8da8-317cc723f2db
+  server: 146.75.119.82
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇺🇸US_25|3.8MB/s
+  type: vless
+  uuid: 19103cae-272e-a0a5-e753-a03857d73c15
+  server: 69.46.46.120
+  port: 443
+  tls: true
+  sni: solivpn-production-3d7f.up.railway.app
+- name: 🇺🇸US_26|1.8MB/s
+  type: vless
+  uuid: 16bbcad5-a354-c387-11a0-52648d47028f
+  server: 69.46.46.37
+  port: 443
+  tls: true
+  sni: miki-production-81cb.up.railway.app
+- name: 🇺🇸US_27|2.6MB/s
+  type: vless
+  uuid: 26107169-6dfb-4f90-9e68-6ff0da110118
+  server: marzban-node-production-29c5.up.railway.app
+  port: 443
+  tls: true
+  sni: marzban-node-production-29c5.up.railway.app
+- name: 🇺🇸US_28|2.0MB/s
+  type: vless
+  uuid: e9d6ae81-a59d-4c76-9bab-6f73620b368a
+  server: web-production-58db8.up.railway.app
+  port: 443
+  tls: true
+  sni: web-production-58db8.up.railway.app
+- name: 🇦🇪AE_1|2.4MB/s
+  type: vless
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
+  server: 151.242.160.148
+  port: 8090
+  tls: true
+  sni: askuhgfdsg.space.coupons
+- name: 🇮🇷IR_1|3.7MB/s
+  type: vless
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
+  server: 94.183.157.223
+  port: 8090
+  tls: true
+  sni: askuhgfdsg.space.coupons
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -107,16 +147,22 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|3.7MB/s
-  - 🇱🇹LT_1|4.3MB/s
-  - 🇺🇸US_1|2.7MB/s
-  - 🇫🇮FI_1|4.5MB/s
-  - 🇺🇸US_2|3.0MB/s
-  - 🇺🇸US_3|2.5MB/s
-  - 🇺🇸US_4|1.8MB/s
-  - 🇨🇦CA_1|3.9MB/s
-  - 🇫🇮FI_2|1.6MB/s
-  - 🇩🇪DE_7|3.7MB/s
+  - 🇫🇷FR_1|2.1MB/s
+  - 🇫🇷FR_2|2.4MB/s
+  - 🇹🇷TR_1|1.7MB/s
+  - 🇯🇵JP_1|4.7MB/s
+  - 🇫🇷FR_3|4.2MB/s
+  - 🇹🇷TR_2|2.3MB/s
+  - 🇸🇪SE_3|3.8MB/s
+  - 🇹🇷TR_3|3.3MB/s
+  - 🇺🇸US_24|2.8MB/s
+  - 🇫🇮FI_1|3.3MB/s
+  - 🇺🇸US_25|3.8MB/s
+  - 🇺🇸US_26|1.8MB/s
+  - 🇺🇸US_27|2.6MB/s
+  - 🇺🇸US_28|2.0MB/s
+  - 🇦🇪AE_1|2.4MB/s
+  - 🇮🇷IR_1|3.7MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
