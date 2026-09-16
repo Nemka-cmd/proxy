@@ -11,47 +11,88 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|1.3MB/s
+- name: 🇩🇪DE_1|2.2MB/s
   type: vless
-  uuid: 57bbfad4-3971-4136-8511-2e484323261e
-  server: 172.67.78.174
-  port: 2053
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: de2.miyazono-kaori.com
+  port: 443
   tls: true
-  sni: qiu000000.ccwu.cc
-- name: 🇺🇸US_1|1.1MB/s
+  sni: www.siemens.com
+- name: 🇳🇱NL_1|2.0MB/s
+  type: vless
+  uuid: 51d61180-8a51-4c70-9c45-cd885fb37c6b
+  server: 188.72.103.4
+  port: 443
+  tls: true
+  sni: x1.astrav2.online
+- name: 🇵🇱PL_1|1.3MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: poland-new-dedic-2.failspace.top
+  port: 443
+  tls: true
+  sni: poland-new-dedic-2.failspace.top
+- name: 🇸🇬SG_1|5.1MB/s
+  type: vless
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: sg4.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.changiairport.com
+- name: 🇹🇼TW_1|1.7MB/s
+  type: vless
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: tw3.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: dlcdnets.asus.com
+- name: 🇸🇪SE_1|1.0MB/s
   type: vless
   uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
-  server: 170.168.97.6
+  server: 170.168.99.9
   port: 443
   tls: true
   sni: cdn.steamstatic.com
-- name: 🇱🇹LT_1|3.5MB/s
-  type: vless
-  uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
-  server: 188.72.103.3
-  port: 443
-  tls: true
-  sni: cdnapiv2.streamru10.net
-- name: 🇺🇸US_4|1.4MB/s
+- name: 🇺🇸US_3|1.4MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 3.149.6.228
+  server: 3.16.81.205
   port: 443
-- name: 🇺🇸US_6|1.5MB/s
+- name: 🇭🇰HK_2|4.6MB/s
   type: vless
-  uuid: 47b132dc-6f3e-46f5-bd59-918240268c5e
-  server: spider-panel-production-e564.up.railway.app
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: hk4.miyazono-kaori.com
   port: 443
   tls: true
-  sni: spider-panel-production-e564.up.railway.app
-- name: 🇳🇱NL_1|1.5MB/s
+  sni: hk4e-launcher-static.hoyoverse.com
+- name: 🇯🇵JP_2|5.7MB/s
   type: vless
-  uuid: 0c6d8604-b7af-46b4-8382-5c90bf232471
-  server: 178.208.64.57
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: jp2.miyazono-kaori.com
   port: 443
   tls: true
-  sni: nl2.lebedvpn.cc
+  sni: www.capcom.co.jp
+- name: 🇬🇧GB_7|1.6MB/s
+  type: vless
+  uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+  server: uk2.miyazono-kaori.com
+  port: 443
+  tls: true
+  sni: www.bp.com
+- name: 🇯🇵JP_3|4.5MB/s
+  type: vless
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  server: ct.877774.xyz
+  port: 443
+  tls: true
+  sni: jp-osa.xhs152.shop
+- name: 🇫🇷FR_1|1.6MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 13.39.233.161
+  port: 443
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -79,12 +120,18 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|1.3MB/s
-  - 🇺🇸US_1|1.1MB/s
-  - 🇱🇹LT_1|3.5MB/s
-  - 🇺🇸US_4|1.4MB/s
-  - 🇺🇸US_6|1.5MB/s
-  - 🇳🇱NL_1|1.5MB/s
+  - 🇩🇪DE_1|2.2MB/s
+  - 🇳🇱NL_1|2.0MB/s
+  - 🇵🇱PL_1|1.3MB/s
+  - 🇸🇬SG_1|5.1MB/s
+  - 🇹🇼TW_1|1.7MB/s
+  - 🇸🇪SE_1|1.0MB/s
+  - 🇺🇸US_3|1.4MB/s
+  - 🇭🇰HK_2|4.6MB/s
+  - 🇯🇵JP_2|5.7MB/s
+  - 🇬🇧GB_7|1.6MB/s
+  - 🇯🇵JP_3|4.5MB/s
+  - 🇫🇷FR_1|1.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
