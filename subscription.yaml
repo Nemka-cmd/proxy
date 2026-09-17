@@ -11,108 +11,167 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇳🇱NL_1|4.9MB/s
+- name: 🇦🇹AT_1|3.4MB/s
   type: vless
-  uuid: 1bb7e8d7-92c3-45d2-b9d5-6e4d2bfe3c4e
-  server: 188.72.103.4
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  server: 212.16.92.111
   port: 443
   tls: true
-  sni: x1.astrav2.online
-- name: 🇳🇱NL_2|4.5MB/s
+  sni: jobinvest.ru
+- name: 🇩🇪DE_1|2.9MB/s
   type: vless
-  uuid: 746280a0-2d7a-445f-8434-dc260ddaedbf
-  server: 188.72.103.4
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+  server: 212.16.92.121
   port: 443
   tls: true
-  sni: x1.astrav2.online
-- name: 🇳🇱NL_3|3.4MB/s
+  sni: jobinvest.ru
+- name: 🇩🇪DE_2|2.7MB/s
   type: vless
-  uuid: 586bb280-593c-4f88-889c-6e17e08df9e6
-  server: 188.72.103.4
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  server: ee.cdn-update.rutube.info
+  port: 20443
+  tls: true
+  sni: dest1.cdn-update.rutube.info
+- name: 🇳🇱NL_1|2.2MB/s
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  server: 69.46.46.37
   port: 443
   tls: true
-  sni: x1.astrav2.online
-- name: 🇫🇮FI_1|3.5MB/s
+  sni: service-2e9ca4-a3c172-production.up.railway.app
+- name: 🇫🇷FR_1|1.0MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.20.6.134
+  port: 443
+- name: 🇺🇸US_1|2.1MB/s
   type: vless
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  server: 138.124.80.245
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 176.108.246.58
+  port: 9881
+  tls: true
+  sni: dl.google.com
+- name: 🇫🇷FR_3|1.3MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 216.24.57.7
+  port: 443
+- name: 🇩🇪DE_3|1.6MB/s
+  type: vless
+  uuid: 78b82738-ac86-4a6e-8a78-fdb3b52f500a
+  server: 199.232.79.166
   port: 443
   tls: true
-  sni: sstats.vk-portal.net
-- name: 🇺🇸US_1|3.9MB/s
+  sni: cdn.fastly.com
+- name: 🇫🇷FR_4|1.1MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.74.2
+  port: 443
+- name: 🇫🇷FR_5|1.8MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 45.130.125.158
+  port: 443
+- name: 🇫🇷FR_6|1.6MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 3.16.81.205
+  server: 13.39.233.161
   port: 443
-- name: 🇸🇬SG_1|6.4MB/s
+- name: 🇸🇬SG_1|4.5MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 43.159.4.80
+  server: 103.190.178.195
   port: 443
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_1|3.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.75.89.244
-  port: 443
-- name: 🇩🇪DE_2|3.5MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: FL7Njqx7acZnllLYPIZhRxXMtCBw8Tct6FFY7Yqd8lw=
-  server: 130.61.35.239
-  port: 59924
-- name: 🇩🇪DE_3|4.8MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 185.217.108.229
-  port: 23351
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇭🇰HK_2|2.1MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 45.202.247.152
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_13|3.3MB/s
+- name: 🇳🇱NL_3|3.3MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   server: 64.227.67.161
   port: 2083
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇫🇷FR_3|3.2MB/s
+- name: 🇳🇱NL_4|3.0MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 188.130.207.30
+  server: 103.251.167.112
+  port: 8443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇫🇷FR_8|1.2MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 147.90.26.37
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇫🇷FR_9|4.0MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 31.59.121.156
   port: 2053
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_7|3.1MB/s
+- name: 🇩🇪DE_9|4.4MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: UcnlHOpHlHUejLfgqFfISWebKoZl4ngC58AQM/e/So0=
+  server: 130.61.114.207
+  port: 59924
+- name: 🇬🇧GB_5|1021KB/s
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 64.225.110.247
-  port: 2083
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: ❓Other_1|1.5MB/s
-  type: vless
-  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
-  server: 78.135.73.47
+  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
+  server: 31.76.111.152
   port: 443
   tls: true
-  sni: www.datadoghq.com
-- name: 🇺🇸US_22|1.1MB/s
+  sni: ads.x5.ru
+- name: 🇳🇱NL_8|4.2MB/s
+  type: vless
+  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
+  server: nl-api.cdn-ozon.icu
+  port: 2443
+  tls: true
+  sni: nl-api.cdn-ozon.icu
+- name: 🇺🇸US_19|4.8MB/s
   type: vless
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   server: 176.123.162.100
   port: 9880
   tls: true
   sni: dl.google.com
+- name: 🇰🇿KZ_1|3.5MB/s
+  type: vless
+  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
+  server: kz.cdn-update.rutube.info
+  port: 8443
+  tls: true
+  sni: dest1.cdn-update.rutube.info
+- name: 🇺🇸US_20|4.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.148.252.26
+  port: 443
+- name: 🇺🇸US_21|2.5MB/s
+  type: vless
+  uuid: 79b4644b-1494-408b-976f-07101b4aa364
+  server: 208.68.180.91
+  port: 443
+  tls: true
+  sni: thus-k.netnode.cc.cd
+- name: 🇷🇺RU_3|3.4MB/s
+  type: vless
+  uuid: eaf5b0da-abf3-4128-af9c-93fc11344ab9
+  server: 147.45.60.91
+  port: 443
+  tls: true
+  sni: us.lebedvpn.cc
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -140,21 +199,30 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇳🇱NL_1|4.9MB/s
-  - 🇳🇱NL_2|4.5MB/s
-  - 🇳🇱NL_3|3.4MB/s
-  - 🇫🇮FI_1|3.5MB/s
-  - 🇺🇸US_1|3.9MB/s
-  - 🇸🇬SG_1|6.4MB/s
-  - 🇩🇪DE_1|3.1MB/s
-  - 🇩🇪DE_2|3.5MB/s
-  - 🇩🇪DE_3|4.8MB/s
-  - 🇭🇰HK_2|2.1MB/s
-  - 🇺🇸US_13|3.3MB/s
-  - 🇫🇷FR_3|3.2MB/s
-  - 🇩🇪DE_7|3.1MB/s
-  - ❓Other_1|1.5MB/s
-  - 🇺🇸US_22|1.1MB/s
+  - 🇦🇹AT_1|3.4MB/s
+  - 🇩🇪DE_1|2.9MB/s
+  - 🇩🇪DE_2|2.7MB/s
+  - 🇳🇱NL_1|2.2MB/s
+  - 🇫🇷FR_1|1.0MB/s
+  - 🇺🇸US_1|2.1MB/s
+  - 🇫🇷FR_3|1.3MB/s
+  - 🇩🇪DE_3|1.6MB/s
+  - 🇫🇷FR_4|1.1MB/s
+  - 🇫🇷FR_5|1.8MB/s
+  - 🇫🇷FR_6|1.6MB/s
+  - 🇸🇬SG_1|4.5MB/s
+  - 🇳🇱NL_3|3.3MB/s
+  - 🇳🇱NL_4|3.0MB/s
+  - 🇫🇷FR_8|1.2MB/s
+  - 🇫🇷FR_9|4.0MB/s
+  - 🇩🇪DE_9|4.4MB/s
+  - 🇬🇧GB_5|1021KB/s
+  - 🇳🇱NL_8|4.2MB/s
+  - 🇺🇸US_19|4.8MB/s
+  - 🇰🇿KZ_1|3.5MB/s
+  - 🇺🇸US_20|4.2MB/s
+  - 🇺🇸US_21|2.5MB/s
+  - 🇷🇺RU_3|3.4MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
