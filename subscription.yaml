@@ -11,12 +11,89 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|1.0MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.194.210.177
+- name: 🇺🇸US_1|2.9MB/s
+  type: vless
+  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
+  server: 104.21.11.38
   port: 443
+  tls: true
+  sni: 2.cs2-2-1.kdNs.fR
+- name: 🇺🇸US_2|2.9MB/s
+  type: vless
+  uuid: fac66c90-791b-5dcd-3b8b-e45622651009
+  server: pniomniooo-production.up.railway.app
+  port: 443
+  tls: true
+  sni: pniomniooo-production.up.railway.app
+- name: 🇹🇼TW_2|1.6MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  server: 60.249.39.170
+  port: 2377
+- name: 🇦🇺AU_1|3.8MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 103.136.146.73
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇳🇱NL_10|3.1MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 64.225.65.116
+  port: 8443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇪🇸ES_4|4.6MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 95.85.89.70
+  port: 81
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇬🇧GB_10|2.5MB/s
+  type: vless
+  uuid: 4CD55C5_trial
+  server: 45.43.166.56
+  port: 443
+  tls: true
+  sni: travel.yandex.ru
+- name: 🇪🇪EE_1|2.1MB/s
+  type: vless
+  uuid: 6e8b8adc-8782-4f42-b260-81b03ab5fbb2
+  server: ee.sharkygames.fun
+  port: 443
+  tls: true
+  sni: ee.sharkygames.fun
+- name: 🇳🇱NL_14|3.6MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: 50.7.120.162
+  port: 443
+  tls: true
+  sni: nl-dedic-mori.failspace.top
+- name: 🇩🇪DE_6|3.1MB/s
+  type: vless
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  server: 144.31.168.59
+  port: 443
+  tls: true
+  sni: aotocon.ggisopi.su
+- name: 🇩🇪DE_7|4.0MB/s
+  type: vless
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  server: aotocon.ggisopi.su
+  port: 443
+  tls: true
+  sni: aotocon.ggisopi.su
+- name: 🇩🇪DE_8|3.6MB/s
+  type: vless
+  uuid: 7e0faccc-1d74-4ddf-bbdf-7258e155115d
+  server: content2.macau24.com
+  port: 2565
+  tls: false
+  sni: ''
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -44,7 +121,18 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|1.0MB/s
+  - 🇺🇸US_1|2.9MB/s
+  - 🇺🇸US_2|2.9MB/s
+  - 🇹🇼TW_2|1.6MB/s
+  - 🇦🇺AU_1|3.8MB/s
+  - 🇳🇱NL_10|3.1MB/s
+  - 🇪🇸ES_4|4.6MB/s
+  - 🇬🇧GB_10|2.5MB/s
+  - 🇪🇪EE_1|2.1MB/s
+  - 🇳🇱NL_14|3.6MB/s
+  - 🇩🇪DE_6|3.1MB/s
+  - 🇩🇪DE_7|4.0MB/s
+  - 🇩🇪DE_8|3.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
