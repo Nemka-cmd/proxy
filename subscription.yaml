@@ -11,82 +11,12 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇳🇱NL_1|3.0MB/s
-  type: vless
-  uuid: c6972e3b-2140-4368-8c0f-19a7afa201ce
-  server: 188.72.103.4
+- name: 🇩🇪DE_1|1.0MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.194.210.177
   port: 443
-  tls: true
-  sni: x1.astrav2.online
-- name: 🇳🇱NL_2|1.7MB/s
-  type: vless
-  uuid: 7b8b188e-b587-47d4-8131-c15461511e3b
-  server: 188.72.103.4
-  port: 443
-  tls: true
-  sni: x1.astrav2.online
-- name: 🇺🇸US_1|1.5MB/s
-  type: vless
-  uuid: 2f95f59a-8729-80e2-328a-c9c7f460f685
-  server: rweuiryg23-production.up.railway.app
-  port: 443
-  tls: true
-  sni: rweuiryg23-production.up.railway.app
-- name: 🇬🇧GB_1|1.3MB/s
-  type: vless
-  uuid: 24b84bd3-baa3-4192-9625-23c9690ae6f6
-  server: 31.76.39.253
-  port: 443
-  tls: true
-  sni: eng.jokervpn.space
-- name: 🇺🇸US_2|2.6MB/s
-  type: vless
-  uuid: 94671e3a-bf82-1f69-6e9c-ed6733eefb38
-  server: fhdcfadwc87-production.up.railway.app
-  port: 443
-  tls: true
-  sni: fhdcfadwc87-production.up.railway.app
-- name: 🇩🇪DE_1|1.3MB/s
-  type: vless
-  uuid: 2518e1f3-729d-475f-905d-35dae56dfc0b
-  server: nl4-1.axolab.org
-  port: 443
-  tls: true
-  sni: strm-rad-23.strm.yandex.net
-- name: 🇸🇬SG_1|5.9MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 43.159.4.80
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇭🇰HK_1|2.5MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 23.249.18.144
-  port: 8581
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇭🇰HK_2|4.5MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 8.222.70.238
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇫🇷FR_1|3.3MB/s
-  type: trojan
-  sni: www.calmlunch.com
-  password: humanity
-  server: 162.159.36.20
-  port: 443
-- name: 🇺🇸US_4|1.0MB/s
-  type: vless
-  uuid: 86f3f179-cbda-40c4-9baf-e1f79c42cb71
-  server: 69.46.46.221
-  port: 443
-  tls: true
-  sni: cloud-2b1fa4-8062bb-production.up.railway.app
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -114,17 +44,7 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇳🇱NL_1|3.0MB/s
-  - 🇳🇱NL_2|1.7MB/s
-  - 🇺🇸US_1|1.5MB/s
-  - 🇬🇧GB_1|1.3MB/s
-  - 🇺🇸US_2|2.6MB/s
-  - 🇩🇪DE_1|1.3MB/s
-  - 🇸🇬SG_1|5.9MB/s
-  - 🇭🇰HK_1|2.5MB/s
-  - 🇭🇰HK_2|4.5MB/s
-  - 🇫🇷FR_1|3.3MB/s
-  - 🇺🇸US_4|1.0MB/s
+  - 🇩🇪DE_1|1.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
