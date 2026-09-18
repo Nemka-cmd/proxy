@@ -11,64 +11,20 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇯🇵JP_1|5.5MB/s
-  type: vless
-  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
-  server: 1-jp.ap.ku-ke.cc
-  port: 443
-  tls: true
-  sni: cdn.jsdelivr.net
-- name: 🇫🇮FI_1|3.3MB/s
-  type: vless
-  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-  server: 104.245.240.6
-  port: 443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇺🇸US_1|1.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.141.200.225
-  port: 443
-- name: 🇺🇸US_2|1.4MB/s
-  type: trojan
-  sni: sg-proxy.local
-  password: sg-trojan-2026
-  server: 43.173.90.202
-  port: 443
-- name: 🇭🇰HK_1|1.3MB/s
+- name: 🇺🇸US_1|1.0MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 23.249.18.144
-  port: 8581
+  server: 104.19.47.206
+  port: 2087
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_2|1.1MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
-  server: 130.61.146.82
-  port: 59924
-- name: 🇩🇪DE_3|1.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
-  server: 130.61.235.30
-  port: 59924
-- name: 🇳🇱NL_2|1.5MB/s
+- name: 🇫🇷FR_1|1.2MB/s
   type: vless
-  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-  server: 150.251.141.28
+  uuid: id%3ADaredevil_404
+  server: 31.185.108.48
   port: 443
   tls: true
-  sni: nolan.shhflow.xyz
-- name: 🇩🇪DE_5|1.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
-  server: 130.61.82.183
-  port: 59924
+  sni: daredevil2.manufacturingcity.ir
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -96,15 +52,8 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇯🇵JP_1|5.5MB/s
-  - 🇫🇮FI_1|3.3MB/s
-  - 🇺🇸US_1|1.5MB/s
-  - 🇺🇸US_2|1.4MB/s
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇩🇪DE_2|1.1MB/s
-  - 🇩🇪DE_3|1.2MB/s
-  - 🇳🇱NL_2|1.5MB/s
-  - 🇩🇪DE_5|1.2MB/s
+  - 🇺🇸US_1|1.0MB/s
+  - 🇫🇷FR_1|1.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
