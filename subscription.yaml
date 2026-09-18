@@ -11,161 +11,64 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇮🇷IR_1|1.7MB/s
-  type: vless
-  uuid: 859a8187-86ca-447a-bb88-7eef624d832f
-  server: test.netfa360.ir
-  port: 10265
-  tls: true
-  sni: test.netfa360.ir
-- name: 🇸🇬SG_1|4.6MB/s
+- name: 🇯🇵JP_1|5.5MB/s
   type: vless
   uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
-  server: 1-sg.ap.ku-ke.cc
+  server: 1-jp.ap.ku-ke.cc
   port: 443
   tls: true
   sni: cdn.jsdelivr.net
-- name: 🇫🇮FI_3|2.8MB/s
+- name: 🇫🇮FI_1|3.3MB/s
   type: vless
   uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
   server: 104.245.240.6
   port: 443
   tls: true
-  sni: www.hp.com
-- name: 🇹🇷TR_1|3.6MB/s
-  type: vless
-  uuid: fafd0278-71ba-4809-8137-3c87e7d8dd58
-  server: tur11.zavqeron.ir
-  port: 8443
-  tls: true
-  sni: amp-api-edge.apps.apple.com
-- name: 🇫🇮FI_2|2.6MB/s
-  type: vless
-  uuid: 3d53970b-419b-4a27-87b5-e9c99bb02eca
-  server: n2.fiprotected.com
+  sni: download.nvidia.com
+- name: 🇺🇸US_1|1.5MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.141.200.225
   port: 443
-  tls: true
-  sni: cdn2.fiprotected.com
-- name: 🇫🇷FR_1|2.9MB/s
+- name: 🇺🇸US_2|1.4MB/s
   type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.21.8.107
+  sni: sg-proxy.local
+  password: sg-trojan-2026
+  server: 43.173.90.202
   port: 443
-- name: 🇸🇪SE_1|2.1MB/s
-  type: vless
-  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-  server: 104.245.240.4
-  port: 443
-  tls: true
-  sni: cdn.steamstatic.com
-- name: 🇫🇷FR_2|1.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  port: 443
-- name: 🇫🇷FR_3|1.8MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: join-telegram-channel.tirexnet.kdns.fr
-  port: 443
-- name: 🇭🇰HK_2|2.7MB/s
+- name: 🇭🇰HK_1|1.3MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   server: 23.249.18.144
   port: 8581
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇳🇱NL_7|1.3MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 89.110.66.154
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇯🇵JP_1|5.0MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.64.229.160
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_3|4.3MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: VuR-wK82ssFWKyLbZAVtv6vAPY3Uh1Zt
-  server: config-germany.zelnora.ir
-  port: 1080
-- name: 🇳🇱NL_10|2.4MB/s
-  type: trojan
-  sni: solipor-production-7697.up.railway.app
-  password: 047c5913-4618-010c-6a52-bb584d71d8b6
-  server: solipor-production-7697.up.railway.app
-  port: 443
-- name: 🇳🇱NL_11|1.9MB/s
-  type: vless
-  uuid: 0229e434-6295-1747-bccb-ba2bc8d25b55
-  server: solipor-production-7697.up.railway.app
-  port: 443
-  tls: true
-  sni: solipor-production-7697.up.railway.app
-- name: 🇳🇱NL_12|1.4MB/s
-  type: vless
-  uuid: 2518e1f3-729d-475f-905d-35dae56dfc0b
-  server: nl1.axolab.org
-  port: 443
-  tls: true
-  sni: nl1.axolab.org
-- name: 🇮🇹IT_3|1.6MB/s
-  type: vless
-  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
-  server: it-api.cdn-ozon.icu
-  port: 2443
-  tls: true
-  sni: it-api.cdn-ozon.icu
-- name: 🇳🇱NL_13|1.8MB/s
-  type: vless
-  uuid: 6cba1210-a945-3687-4a65-9da6ded0241e
-  server: solipor-production-7697.up.railway.app
-  port: 443
-  tls: true
-  sni: solipor-production-7697.up.railway.app
-- name: 🇪🇪EE_1|1.6MB/s
-  type: vless
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  server: 89.106.88.6
-  port: 20443
-  tls: true
-  sni: dest1.cdn-update.rutube.info
-- name: 🇩🇪DE_4|4.0MB/s
-  type: vless
-  uuid: c26fe2f0-5c69-000B-8a1a-bf116ceb9215
-  server: jsv-de1.jmovies.ir
-  port: 443
-  tls: true
-  sni: numpy.org
-- name: 🇩🇪DE_5|1.5MB/s
-  type: vless
-  uuid: c26fe2f0-5c69-000B-8a1a-bf116ceb9215
-  server: jsv-ir2.jmovies.ir
-  port: 443
-  tls: true
-  sni: aparat.com
-- name: 🇹🇷TR_2|2.3MB/s
-  type: vless
-  uuid: c26fe2f0-5c69-0015-8a1a-bf116ceb9215
-  server: jsv-ir2.jmovies.ir
-  port: 443
-  tls: true
-  sni: aparat.com
-- name: 🇳🇱NL_14|2.8MB/s
+- name: 🇩🇪DE_2|1.1MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: gBPl8MuQUn/PBFVy+dKiMcPL6c0Ergh8ZmmGqMIH2NA=
-  server: 92.5.231.133
-  port: 45819
+  password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
+  server: 130.61.146.82
+  port: 59924
+- name: 🇩🇪DE_3|1.2MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
+  server: 130.61.235.30
+  port: 59924
+- name: 🇳🇱NL_2|1.5MB/s
+  type: vless
+  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
+  server: 150.251.141.28
+  port: 443
+  tls: true
+  sni: nolan.shhflow.xyz
+- name: 🇩🇪DE_5|1.2MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
+  server: 130.61.82.183
+  port: 59924
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -193,29 +96,15 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇮🇷IR_1|1.7MB/s
-  - 🇸🇬SG_1|4.6MB/s
-  - 🇫🇮FI_3|2.8MB/s
-  - 🇹🇷TR_1|3.6MB/s
-  - 🇫🇮FI_2|2.6MB/s
-  - 🇫🇷FR_1|2.9MB/s
-  - 🇸🇪SE_1|2.1MB/s
-  - 🇫🇷FR_2|1.0MB/s
-  - 🇫🇷FR_3|1.8MB/s
-  - 🇭🇰HK_2|2.7MB/s
-  - 🇳🇱NL_7|1.3MB/s
-  - 🇯🇵JP_1|5.0MB/s
-  - 🇩🇪DE_3|4.3MB/s
-  - 🇳🇱NL_10|2.4MB/s
-  - 🇳🇱NL_11|1.9MB/s
-  - 🇳🇱NL_12|1.4MB/s
-  - 🇮🇹IT_3|1.6MB/s
-  - 🇳🇱NL_13|1.8MB/s
-  - 🇪🇪EE_1|1.6MB/s
-  - 🇩🇪DE_4|4.0MB/s
-  - 🇩🇪DE_5|1.5MB/s
-  - 🇹🇷TR_2|2.3MB/s
-  - 🇳🇱NL_14|2.8MB/s
+  - 🇯🇵JP_1|5.5MB/s
+  - 🇫🇮FI_1|3.3MB/s
+  - 🇺🇸US_1|1.5MB/s
+  - 🇺🇸US_2|1.4MB/s
+  - 🇭🇰HK_1|1.3MB/s
+  - 🇩🇪DE_2|1.1MB/s
+  - 🇩🇪DE_3|1.2MB/s
+  - 🇳🇱NL_2|1.5MB/s
+  - 🇩🇪DE_5|1.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
