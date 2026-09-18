@@ -11,89 +11,171 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|2.9MB/s
+- name: 🇯🇵JP_1|5.7MB/s
   type: vless
-  uuid: 31b6c552-ca2e-4f73-bce9-c7ba72737a74
-  server: 104.21.11.38
+  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+  server: 1-jp.ap.ku-ke.cc
   port: 443
   tls: true
-  sni: 2.cs2-2-1.kdNs.fR
-- name: 🇺🇸US_2|2.9MB/s
+  sni: cdn.jsdelivr.net
+- name: 🇫🇮FI_1|4.1MB/s
   type: vless
-  uuid: fac66c90-791b-5dcd-3b8b-e45622651009
-  server: pniomniooo-production.up.railway.app
+  uuid: 3d53970b-419b-4a27-87b5-e9c99bb02eca
+  server: n2.fiprotected.com
   port: 443
   tls: true
-  sni: pniomniooo-production.up.railway.app
-- name: 🇹🇼TW_2|1.6MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  server: 60.249.39.170
-  port: 2377
-- name: 🇦🇺AU_1|3.8MB/s
+  sni: cdn2.fiprotected.com
+- name: 🇬🇧GB_1|2.0MB/s
+  type: vless
+  uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
+  server: 2.26.51.75
+  port: 443
+  tls: true
+  sni: 4pda.to
+- name: 🇫🇷FR_1|4.7MB/s
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 13.37.81.71
+  port: 22224
+  tls: false
+  sni: ''
+- name: 🇺🇸US_1|3.7MB/s
+  type: vless
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  server: 2.27.244.177
+  port: 443
+  tls: true
+  sni: polacondr.ggisopi.su
+- name: 🇩🇪DE_1|3.3MB/s
+  type: vless
+  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
+  server: 199.232.237.79
+  port: 443
+  tls: true
+  sni: turboo-server.com
+- name: 🇫🇷FR_2|1006KB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.149
+  port: 443
+- name: 🇯🇵JP_2|1.2MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 103.136.146.73
+  server: 108.160.136.71
   port: 443
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇳🇱NL_10|3.1MB/s
+- name: 🇬🇧GB_3|3.5MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: sDhEhHHvZ8tSUziGGDt1rQuh7bgTpUccfw5JnGsAvB4=
+  server: 134.65.61.47
+  port: 61312
+- name: 🇩🇪DE_4|3.1MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 64.225.65.116
+  server: 138.124.25.250
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇺🇸US_15|4.3MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 3.148.253.102
+  port: 443
+- name: 🇯🇵JP_3|1.0MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 167.179.111.237
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇳🇱NL_8|3.4MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 89.110.66.154
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇦🇺AU_1|2.7MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 152.67.101.72
+  port: 23010
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇦🇹AT_1|4.5MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 132.243.203.207
   port: 8443
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇪🇸ES_4|4.6MB/s
+- name: 🇳🇱NL_11|3.2MB/s
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 95.85.89.70
-  port: 81
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇬🇧GB_10|2.5MB/s
-  type: vless
-  uuid: 4CD55C5_trial
-  server: 45.43.166.56
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  server: 84.201.169.241
   port: 443
   tls: true
-  sni: travel.yandex.ru
-- name: 🇪🇪EE_1|2.1MB/s
+  sni: api-maps.yandex.ru
+- name: 🇬🇧GB_6|4.3MB/s
   type: vless
-  uuid: 6e8b8adc-8782-4f42-b260-81b03ab5fbb2
-  server: ee.sharkygames.fun
+  uuid: 6eefb4c5-96c2-4b41-a8e3-3dd13e8e09d0
+  server: 2.26.148.189
+  port: 8443
+  tls: true
+  sni: eh.vk.com
+- name: 🇪🇸ES_4|1.0MB/s
+  type: vless
+  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
+  server: 130.49.77.6
   port: 443
   tls: true
-  sni: ee.sharkygames.fun
-- name: 🇳🇱NL_14|3.6MB/s
+  sni: download.nvidia.com
+- name: 🇹🇷TR_1|1.1MB/s
+  type: vless
+  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
+  server: 104.245.240.6
+  port: 443
+  tls: true
+  sni: download.nvidia.com
+- name: 🇷🇺RU_1|1.5MB/s
+  type: vless
+  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
+  server: 104.245.240.4
+  port: 443
+  tls: true
+  sni: www.epson.com
+- name: 🇳🇱NL_12|2.5MB/s
   type: vless
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   server: 50.7.120.162
   port: 443
   tls: true
   sni: nl-dedic-mori.failspace.top
-- name: 🇩🇪DE_6|3.1MB/s
+- name: 🇺🇸US_25|3.2MB/s
   type: vless
   uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  server: 144.31.168.59
+  server: polacondr.ggisopi.su
   port: 443
   tls: true
-  sni: aotocon.ggisopi.su
-- name: 🇩🇪DE_7|4.0MB/s
+  sni: polacondr.ggisopi.su
+- name: 🇬🇧GB_7|2.4MB/s
+  type: vless
+  uuid: 4CD55C5_trial
+  server: 45.43.166.56
+  port: 443
+  tls: true
+  sni: travel.yandex.ru
+- name: 🇪🇪EE_1|2.2MB/s
   type: vless
   uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  server: aotocon.ggisopi.su
+  server: est1313.ggisopi.su
   port: 443
   tls: true
-  sni: aotocon.ggisopi.su
-- name: 🇩🇪DE_8|3.6MB/s
-  type: vless
-  uuid: 7e0faccc-1d74-4ddf-bbdf-7258e155115d
-  server: content2.macau24.com
-  port: 2565
-  tls: false
-  sni: ''
+  sni: est1313.ggisopi.su
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -121,18 +203,30 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|2.9MB/s
-  - 🇺🇸US_2|2.9MB/s
-  - 🇹🇼TW_2|1.6MB/s
-  - 🇦🇺AU_1|3.8MB/s
-  - 🇳🇱NL_10|3.1MB/s
-  - 🇪🇸ES_4|4.6MB/s
-  - 🇬🇧GB_10|2.5MB/s
-  - 🇪🇪EE_1|2.1MB/s
-  - 🇳🇱NL_14|3.6MB/s
-  - 🇩🇪DE_6|3.1MB/s
-  - 🇩🇪DE_7|4.0MB/s
-  - 🇩🇪DE_8|3.6MB/s
+  - 🇯🇵JP_1|5.7MB/s
+  - 🇫🇮FI_1|4.1MB/s
+  - 🇬🇧GB_1|2.0MB/s
+  - 🇫🇷FR_1|4.7MB/s
+  - 🇺🇸US_1|3.7MB/s
+  - 🇩🇪DE_1|3.3MB/s
+  - 🇫🇷FR_2|1006KB/s
+  - 🇯🇵JP_2|1.2MB/s
+  - 🇬🇧GB_3|3.5MB/s
+  - 🇩🇪DE_4|3.1MB/s
+  - 🇺🇸US_15|4.3MB/s
+  - 🇯🇵JP_3|1.0MB/s
+  - 🇳🇱NL_8|3.4MB/s
+  - 🇦🇺AU_1|2.7MB/s
+  - 🇦🇹AT_1|4.5MB/s
+  - 🇳🇱NL_11|3.2MB/s
+  - 🇬🇧GB_6|4.3MB/s
+  - 🇪🇸ES_4|1.0MB/s
+  - 🇹🇷TR_1|1.1MB/s
+  - 🇷🇺RU_1|1.5MB/s
+  - 🇳🇱NL_12|2.5MB/s
+  - 🇺🇸US_25|3.2MB/s
+  - 🇬🇧GB_7|2.4MB/s
+  - 🇪🇪EE_1|2.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
