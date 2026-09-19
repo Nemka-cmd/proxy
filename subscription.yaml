@@ -73,12 +73,6 @@ proxies:
   password: weY5SuElMZv3cFUuqwueCsMJOtulfSGK+49UclgGrog=
   server: 129.146.5.155
   port: 50356
-- name: 🇳🇱NL_8|3.0MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 9BOOXAN/80Y2IXJXkG2hlG1Dax/3LDeewNBkdiJWeHs=
-  server: 143.47.191.60
-  port: 45819
 - name: 🇸🇬SG_1|1.5MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
@@ -169,7 +163,6 @@ proxy-groups:
   - 🇺🇸US_5|2.9MB/s
   - 🇯🇵JP_1|5.2MB/s
   - 🇺🇸US_6|4.4MB/s
-  - 🇳🇱NL_8|3.0MB/s
   - 🇸🇬SG_1|1.5MB/s
   - 🇳🇱NL_12|3.2MB/s
   - 🇩🇪DE_5|2.6MB/s
