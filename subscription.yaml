@@ -11,46 +11,20 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|2.6MB/s
-  type: vless
-  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
-  server: 103.175.79.4
-  port: 443
-  tls: true
-  sni: download.nvidia.com
-- name: 🇮🇹IT_1|1.9MB/s
-  type: vless
-  uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  tls: false
-  sni: it-mil.xhs152.shop
-- name: 🇺🇸US_3|2.6MB/s
-  type: vless
-  uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-  server: www.visa.com.hk
-  port: 443
-  tls: false
-  sni: us-lax.xhs152.shop
-- name: 🇯🇵JP_1|1.1MB/s
+- name: 🇺🇸US_2|2.3MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 64.176.60.226
+  server: 172.64.79.241
   port: 443
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_2|1.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 63.185.90.235
+- name: 🇺🇸US_3|1.0MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 162.159.237.80
   port: 443
-- name: 🇫🇷FR_1|1.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 15.237.210.147
-  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -78,12 +52,8 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|2.6MB/s
-  - 🇮🇹IT_1|1.9MB/s
-  - 🇺🇸US_3|2.6MB/s
-  - 🇯🇵JP_1|1.1MB/s
-  - 🇩🇪DE_2|1.1MB/s
-  - 🇫🇷FR_1|1.2MB/s
+  - 🇺🇸US_2|2.3MB/s
+  - 🇺🇸US_3|1.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
