@@ -11,47 +11,46 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|3.4MB/s
+- name: 🇫🇷FR_1|1.6MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 15.237.196.230
+  port: 443
+- name: 🇭🇰HK_1|4.3MB/s
   type: vless
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  server: dee338dd.localip.ir
-  port: 2087
-  tls: true
-  sni: denet1.17e1feeuzi.online
-- name: 🇸🇬SG_1|1.2MB/s
-  type: vless
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  server: 123.111.169.70
+  uuid: df2a259e-32cc-4b4d-bcca-3f8d8a28dc2a
+  server: agroup.hk2.ilovegairport.com
   port: 443
   tls: true
-  sni: vip.868068.xyz
-- name: 🇬🇧GB_1|1.1MB/s
+  sni: ap-east-1.console.aws.amazon.com
+- name: 🇹🇼TW_1|2.8MB/s
+  type: vless
+  uuid: 3180f311-16fb-445c-b129-4d946940c21a
+  server: aws-jp.webprovider.top
+  port: 30000
+  tls: true
+  sni: icloud.com
+- name: 🇩🇪DE_1|1.3MB/s
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: JAIIG6N6KLuM33ZbMh0jk1fVcDM3qTVfUoXhQr6tiYM=
-  server: 129.151.77.36
-  port: 61312
-- name: 🇺🇸US_1|1.2MB/s
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 63.176.107.205
+  port: 443
+- name: 🇺🇸US_1|1.7MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.64.79.241
+  server: 172.64.79.57
   port: 443
   tls: true
   sni: cdn8848.776676.xyz
-- name: ❓Other_1|1004KB/s
+- name: 🇳🇱NL_1|1.0MB/s
   type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  tls: true
-  sni: rusbid.de
-- name: 🇫🇷FR_1|1.1MB/s
-  type: vless
-  uuid: Telegramid%3ADaredevil_404
-  server: 31.185.108.223
+  uuid: af11a901-92bb-a9d2-a17c-f9a38c4fd33b
+  server: soliconf.dpdns.org
   port: 443
   tls: true
-  sni: daredevil2.manufacturingcity.ir
+  sni: soliconf.dpdns.org
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -79,12 +78,12 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|3.4MB/s
-  - 🇸🇬SG_1|1.2MB/s
-  - 🇬🇧GB_1|1.1MB/s
-  - 🇺🇸US_1|1.2MB/s
-  - ❓Other_1|1004KB/s
-  - 🇫🇷FR_1|1.1MB/s
+  - 🇫🇷FR_1|1.6MB/s
+  - 🇭🇰HK_1|4.3MB/s
+  - 🇹🇼TW_1|2.8MB/s
+  - 🇩🇪DE_1|1.3MB/s
+  - 🇺🇸US_1|1.7MB/s
+  - 🇳🇱NL_1|1.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
