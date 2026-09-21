@@ -11,240 +11,55 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|1.4MB/s
-  type: trojan
-  sni: de2.x8lab.org
-  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
-  server: de2.x8lab.org
-  port: 9433
-- name: 🇩🇪DE_4|3.4MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: gesmankos.sadiepinki.com
-  port: 443
-  tls: true
-  sni: gesmankos.sadiepinki.com
-- name: 🇪🇸ES_1|2.4MB/s
-  type: vless
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  server: 194.26.100.18
-  port: 443
-  tls: true
-  sni: es.cache-4d8a.com
-- name: 🇺🇸US_1|1.5MB/s
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  server: 104.21.87.109
-  port: 443
-  tls: false
-  sni: 7-m16.PhUkEt2035.kdNS.fr
-- name: 🇵🇱PL_1|2.9MB/s
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  server: 31.77.13.19
-  port: 2063
-  tls: true
-  sni: rusbid.de
-- name: 🇵🇱PL_2|2.7MB/s
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  tls: true
-  sni: rusbid.de
-- name: 🇩🇪DE_3|3.7MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: 45.95.96.236
-  port: 443
-  tls: true
-  sni: gesmankos.sadiepinki.com
-- name: 🇳🇱NL_2|1.7MB/s
-  type: vless
-  uuid: 721bacfe-ff09-4e63-a735-686015bc1351
-  server: nl-xh02.tcp-reset-club.net
-  port: 8443
-  tls: true
-  sni: s3.netavex.com
-- name: 🇺🇸US_2|1.6MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.64.79.63
-  port: 2096
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇯🇵JP_1|1.3MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 92.113.124.228
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇸🇬SG_1|2.0MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 103.195.188.206
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇯🇵JP_2|2.4MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 161.33.29.51
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇮🇳IN_1|3.1MB/s
+- name: 🇮🇳IN_1|2.5MB/s
   type: vless
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   server: 13.200.106.232
   port: 443
   tls: true
   sni: shuma.ccwu.cc
-- name: 🇸🇰SK_1|1.0MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 89.46.42.141
-  port: 2053
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇨🇭CH_2|1.0MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 107.189.2.206
-  port: 8443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇯🇵JP_3|1.4MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 45.202.254.133
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇷🇸RS_2|1017KB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 185.105.108.92
-  port: 8443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇦🇹AT_1|3.4MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 213.111.148.137
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: ❓Other_1|2.8MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 109.176.202.20
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇨🇾CY_1|1.4MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 213.111.177.107
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇩🇰DK_2|2.8MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 193.180.208.169
-  port: 8443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇸🇰SK_2|2.2MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 5.35.103.185
-  port: 8443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇭🇰HK_1|1.2MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 68.64.178.52
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_8|2.9MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 173.245.49.194
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_9|4.0MB/s
+- name: 🇺🇸US_2|1.1MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   server: 104.16.152.241
   port: 443
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇺🇸US_10|1.3MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.64.79.241
-  port: 2096
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_13|1.7MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 104.17.112.132
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_15|2.7MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 172.64.79.57
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇺🇸US_25|3.4MB/s
+- name: 🇺🇸US_3|1.1MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   server: 172.64.79.63
   port: 2053
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇺🇸US_26|1.6MB/s
-  type: trojan
-  sni: zxcvz.pages.dev
-  password: d9f20a29-239e-46ab-82bb-fa0d69e480f9
-  server: 104.17.156.140
-  port: 443
-- name: 🇬🇧GB_8|2.1MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: jfj6Bwqjzn3nwcpYTmU46qP+W2o8lzbxIrCMRlbOKuQ=
-  server: 144.24.228.69
-  port: 61312
-- name: 🇩🇪DE_9|1.5MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: JUDchdpxsrrwvJVal4OaHtwjONijBe4gAINdg2AFQaI=
-  server: 130.61.34.119
-  port: 59924
-- name: 🇪🇪EE_1|1.3MB/s
+- name: 🇭🇺HU_1|1.0MB/s
   type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  server: 31.76.226.100
-  port: 9443
-  tls: true
-  sni: hub-ee-01.hanvpn.cc
-- name: 🇸🇬SG_2|1.4MB/s
-  type: vless
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  server: ld.235231.xyz
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 38.180.109.174
   port: 443
   tls: true
-  sni: ld.235231.xyz
+  sni: shuma.ccwu.cc
+- name: 🇯🇵JP_1|1.0MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 45.77.180.114
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇯🇵JP_2|1.4MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.156.238.23
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇺🇸US_4|1.3MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.17.54.119
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -272,40 +87,13 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|1.4MB/s
-  - 🇩🇪DE_4|3.4MB/s
-  - 🇪🇸ES_1|2.4MB/s
-  - 🇺🇸US_1|1.5MB/s
-  - 🇵🇱PL_1|2.9MB/s
-  - 🇵🇱PL_2|2.7MB/s
-  - 🇩🇪DE_3|3.7MB/s
-  - 🇳🇱NL_2|1.7MB/s
-  - 🇺🇸US_2|1.6MB/s
-  - 🇯🇵JP_1|1.3MB/s
-  - 🇸🇬SG_1|2.0MB/s
-  - 🇯🇵JP_2|2.4MB/s
-  - 🇮🇳IN_1|3.1MB/s
-  - 🇸🇰SK_1|1.0MB/s
-  - 🇨🇭CH_2|1.0MB/s
-  - 🇯🇵JP_3|1.4MB/s
-  - 🇷🇸RS_2|1017KB/s
-  - 🇦🇹AT_1|3.4MB/s
-  - ❓Other_1|2.8MB/s
-  - 🇨🇾CY_1|1.4MB/s
-  - 🇩🇰DK_2|2.8MB/s
-  - 🇸🇰SK_2|2.2MB/s
-  - 🇭🇰HK_1|1.2MB/s
-  - 🇺🇸US_8|2.9MB/s
-  - 🇺🇸US_9|4.0MB/s
-  - 🇺🇸US_10|1.3MB/s
-  - 🇺🇸US_13|1.7MB/s
-  - 🇺🇸US_15|2.7MB/s
-  - 🇺🇸US_25|3.4MB/s
-  - 🇺🇸US_26|1.6MB/s
-  - 🇬🇧GB_8|2.1MB/s
-  - 🇩🇪DE_9|1.5MB/s
-  - 🇪🇪EE_1|1.3MB/s
-  - 🇸🇬SG_2|1.4MB/s
+  - 🇮🇳IN_1|2.5MB/s
+  - 🇺🇸US_2|1.1MB/s
+  - 🇺🇸US_3|1.1MB/s
+  - 🇭🇺HU_1|1.0MB/s
+  - 🇯🇵JP_1|1.0MB/s
+  - 🇯🇵JP_2|1.4MB/s
+  - 🇺🇸US_4|1.3MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
