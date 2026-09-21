@@ -11,220 +11,216 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇮🇹IT_1|3.0MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: 31.77.201.33
-  port: 443
-  tls: true
-  sni: italia.superbuba.top
 - name: 🇩🇪DE_1|4.0MB/s
   type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: 45.95.96.236
-  port: 443
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  server: dee338dd.localip.ir
+  port: 2087
   tls: true
-  sni: gesmankos.sadiepinki.com
-- name: 🇳🇱NL_1|1.8MB/s
+  sni: denet1.17e1feeuzi.online
+- name: 🇯🇵JP_1|4.7MB/s
+  type: trojan
+  sni: nat11.outsidemyheart.space
+  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  server: jp3.998998.best
+  port: 443
+- name: 🇺🇸US_1|2.6MB/s
   type: vless
-  uuid: 08687611-b1cc-47a5-b090-094c83b0c257
-  server: prisonvpnc-production-8b3b.up.railway.app
+  uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
+  server: adheres-scruple.quick-cdn.net
   port: 443
   tls: true
-  sni: prisonvpnc-production-8b3b.up.railway.app
-- name: 🇺🇸US_1|2.5MB/s
+  sni: adheres-scruple.quick-cdn.net
+- name: 🇹🇷TR_1|4.4MB/s
   type: vless
-  uuid: Default
-  server: 69.46.46.45
+  uuid: 7c9491a9-b174-4f51-aad4-8229be43b5ed
+  server: 31.210.52.85
   port: 443
   tls: true
-  sni: ezaccess1-slv-ezaccess1-5222.up.railway.app
+  sni: trrr-istrr-4.blook.network
 - name: 🇺🇸US_2|2.5MB/s
   type: vless
   uuid: Default
-  server: 69.46.46.44
+  server: 69.46.46.46
   port: 443
   tls: true
-  sni: ezaccess1-slv-ezaccess1-c507.up.railway.app
-- name: 🇫🇮FI_1|2.7MB/s
-  type: vless
-  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
-  server: tt.sonyabibboop.com
-  port: 443
-  tls: true
-  sni: tt.sonyabibboop.com
+  sni: ezaccess1-slv-ezaccess1-810d.up.railway.app
 - name: 🇺🇸US_3|2.9MB/s
-  type: vless
-  uuid: Default
-  server: 69.46.46.121
-  port: 443
-  tls: true
-  sni: ezaccess1-slv-ezaccess1-de5d.up.railway.app
-- name: 🇫🇷FR_1|3.3MB/s
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-  server: 152.228.139.33
-  port: 35108
-  tls: true
-  sni: www.nvidia.com
-- name: 🇺🇸US_4|2.0MB/s
-  type: vless
-  uuid: Default
-  server: 69.46.46.44
-  port: 443
-  tls: true
-  sni: ezaccess1-slv-ezaccess1-ce70.up.railway.app
-- name: 🇩🇪DE_2|2.2MB/s
-  type: vless
-  uuid: 0de1047d-fadd-4075-a08e-2223c5dadd0a
-  server: 2.28.62.48
-  port: 2900
-  tls: true
-  sni: www.numpy.org
-- name: 🇩🇪DE_3|4.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.120.158.57
-  port: 443
-- name: 🇺🇸US_5|2.9MB/s
   type: vless
   uuid: Default
   server: 69.46.46.117
   port: 443
   tls: true
   sni: ezaccess1-slv-ezaccess1-c8e8.up.railway.app
-- name: 🇩🇪DE_4|1.6MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 63.176.107.205
-  port: 443
-- name: 🇩🇪DE_5|2.2MB/s
+- name: 🇨🇭CH_1|3.2MB/s
   type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  server: 2.26.125.38
-  port: 2096
+  uuid: 721bacfe-ff09-4e63-a735-686015bc1351
+  server: ch-plr-xh-pilot.tcp-reset-club.net
+  port: 8443
   tls: true
-  sni: st3f6d.rumedia-cdn.com
-- name: 🇩🇪DE_6|4.3MB/s
+  sni: s3.netavex.com
+- name: 🇫🇷FR_1|3.0MB/s
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 162.159.152.31
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇯🇵JP_1|2.8MB/s
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 13.36.1.52
+  port: 22222
+  tls: false
+  sni: ''
+- name: 🇺🇸US_4|1.5MB/s
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 151.241.129.79
+  uuid: Default
+  server: 69.46.46.43
   port: 443
   tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇬🇧GB_2|3.7MB/s
+  sni: ezaccess1-slv-ezaccess1-b282.up.railway.app
+- name: 🇺🇸US_5|3.0MB/s
+  type: vless
+  uuid: Default
+  server: 69.46.46.45
+  port: 443
+  tls: true
+  sni: ezaccess1-slv-ezaccess1-4647.up.railway.app
+- name: 🇫🇷FR_2|2.0MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.50
+  port: 443
+- name: 🇺🇸US_6|3.2MB/s
+  type: vless
+  uuid: Default
+  server: 69.46.46.46
+  port: 443
+  tls: true
+  sni: ezaccess1-slv-ezaccess1-3b26.up.railway.app
+- name: 🇫🇷FR_3|1.8MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.225
+  port: 443
+- name: 🇺🇸US_7|2.0MB/s
+  type: vless
+  uuid: Default
+  server: 69.46.46.44
+  port: 443
+  tls: true
+  sni: ezaccess1-slv-ezaccess1-ce70.up.railway.app
+- name: 🇫🇷FR_4|2.4MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.144
+  port: 443
+- name: 🇳🇱NL_5|4.3MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: hJ+f10t7OSwpGbSouJJ4/DvKxUvgo9hi7u9bLfFVmVc=
-  server: 144.24.224.176
-  port: 61312
-- name: 🇺🇸US_8|3.4MB/s
+  password: 8RRsprK4nxB5VqKlMGFdXJerGo79K5bKdz4uF4crI8E=
+  server: 141.148.225.103
+  port: 45819
+- name: 🇯🇵JP_2|5.0MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 103.85.24.232
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇳🇱NL_6|3.0MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: j/ElfFW5mBIpS9nK1vvCZhZBTKBfyAPIRuP6DxnzRV8=
+  server: 141.148.239.222
+  port: 45819
+- name: 🇯🇵JP_3|4.5MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 203.137.165.164
+  port: 57554
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇺🇸US_9|3.5MB/s
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   server: 172.64.79.63
   port: 2096
   tls: true
   sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_9|4.3MB/s
+- name: 🇺🇸US_10|3.7MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.64.79.63
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇭🇰HK_2|2.1MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 160.25.75.40
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇳🇱NL_7|2.2MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 147.90.89.173
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇩🇪DE_2|4.1MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 5.104.107.80
+  port: 2053
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇪🇪EE_1|2.7MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 5.101.115.117
+  port: 8443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇬🇧GB_4|3.2MB/s
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.237.120.201
+  port: 443
+  tls: true
+  sni: cdn8848.776676.xyz
+- name: 🇮🇹IT_1|1.5MB/s
   type: vless
   uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: gesmankos.sadiepinki.com
+  server: 31.76.113.212
   port: 443
   tls: true
-  sni: gesmankos.sadiepinki.com
-- name: 🇩🇪DE_10|3.6MB/s
+  sni: italia.superbuba.top
+- name: 🇹🇷TR_2|1.6MB/s
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 161.35.18.70
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_11|3.1MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 31.76.18.213
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇬🇧GB_9|3.8MB/s
-  type: vless
-  uuid: aabcb69e-9f17-44bd-aaac-552dd23e9691
-  server: 57.128.177.218
-  port: 30963
-  tls: true
-  sni: us.vrzn.download.nvidia.com
-- name: 🇦🇺AU_1|2.4MB/s
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 123.51.23.113
-  port: 443
-  tls: true
-  sni: cdn8848.776676.xyz
-- name: 🇩🇪DE_12|2.0MB/s
-  type: vless
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  port: 17594
-  tls: true
-  sni: www.lamer.com.hk
-- name: 🇰🇷KR_1|1.1MB/s
-  type: vless
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  port: 61205
-  tls: true
-  sni: addons.mozilla.org
-- name: 🇯🇵JP_2|3.9MB/s
-  type: vless
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  server: jprbbqwlqqnmwysrl.cfooov.xyz
-  port: 53342
-  tls: true
-  sni: www.apple.com
-- name: 🇰🇷KR_2|3.1MB/s
-  type: vless
-  uuid: 17ab31f7-c021-4aec-83b2-ab48de8886bd
-  server: sczznmbbbzgwlwzdhsql.jiedddym.com
-  port: 62638
-  tls: true
-  sni: addons.mozilla.org
-- name: 🇺🇸US_24|3.8MB/s
-  type: vless
-  uuid: 38ffee35-b305-41ba-89e0-78e62d95b99c
-  server: 104.143.223.80
-  port: 2085
+  uuid: My-chanel-Telegram-ATOVPN%20
+  server: 167.104.219.193
+  port: 40185
   tls: false
   sni: ''
-- name: 🇳🇱NL_11|1.6MB/s
+- name: 🇩🇪DE_3|3.4MB/s
   type: vless
-  uuid: 7b394c74-38a2-4d66-046c-df2f1ae703f1
-  server: amirpanel-production-8b40.up.railway.app
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  server: 31.77.161.15
   port: 443
   tls: true
-  sni: amirpanel-production-8b40.up.railway.app
-- name: 🇮🇹IT_3|3.0MB/s
+  sni: nvidia.com
+- name: 🇫🇷FR_5|2.1MB/s
   type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: 31.76.113.231
+  uuid: Telegram%3ADaredevil_404
+  server: 31.185.108.84
   port: 443
   tls: true
-  sni: italia.superbuba.top
-- name: 🇮🇹IT_4|2.6MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: italia.superbuba.top
-  port: 443
-  tls: true
-  sni: italia.superbuba.top
+  sni: daredevil2.manufacturingcity.ir
+- name: 🇩🇪DE_5|2.3MB/s
+  type: trojan
+  sni: /gay-anal
+  password: Km/pIG4AGCjCOiGWj5FsWA%3D%3D
+  server: node8.quaxly.com
+  port: 25040
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -252,37 +248,37 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇮🇹IT_1|3.0MB/s
   - 🇩🇪DE_1|4.0MB/s
-  - 🇳🇱NL_1|1.8MB/s
-  - 🇺🇸US_1|2.5MB/s
+  - 🇯🇵JP_1|4.7MB/s
+  - 🇺🇸US_1|2.6MB/s
+  - 🇹🇷TR_1|4.4MB/s
   - 🇺🇸US_2|2.5MB/s
-  - 🇫🇮FI_1|2.7MB/s
   - 🇺🇸US_3|2.9MB/s
-  - 🇫🇷FR_1|3.3MB/s
-  - 🇺🇸US_4|2.0MB/s
-  - 🇩🇪DE_2|2.2MB/s
-  - 🇩🇪DE_3|4.2MB/s
-  - 🇺🇸US_5|2.9MB/s
-  - 🇩🇪DE_4|1.6MB/s
-  - 🇩🇪DE_5|2.2MB/s
-  - 🇩🇪DE_6|4.3MB/s
-  - 🇯🇵JP_1|2.8MB/s
-  - 🇬🇧GB_2|3.7MB/s
-  - 🇺🇸US_8|3.4MB/s
-  - 🇩🇪DE_9|4.3MB/s
-  - 🇩🇪DE_10|3.6MB/s
-  - 🇩🇪DE_11|3.1MB/s
-  - 🇬🇧GB_9|3.8MB/s
-  - 🇦🇺AU_1|2.4MB/s
-  - 🇩🇪DE_12|2.0MB/s
-  - 🇰🇷KR_1|1.1MB/s
-  - 🇯🇵JP_2|3.9MB/s
-  - 🇰🇷KR_2|3.1MB/s
-  - 🇺🇸US_24|3.8MB/s
-  - 🇳🇱NL_11|1.6MB/s
-  - 🇮🇹IT_3|3.0MB/s
-  - 🇮🇹IT_4|2.6MB/s
+  - 🇨🇭CH_1|3.2MB/s
+  - 🇫🇷FR_1|3.0MB/s
+  - 🇺🇸US_4|1.5MB/s
+  - 🇺🇸US_5|3.0MB/s
+  - 🇫🇷FR_2|2.0MB/s
+  - 🇺🇸US_6|3.2MB/s
+  - 🇫🇷FR_3|1.8MB/s
+  - 🇺🇸US_7|2.0MB/s
+  - 🇫🇷FR_4|2.4MB/s
+  - 🇳🇱NL_5|4.3MB/s
+  - 🇯🇵JP_2|5.0MB/s
+  - 🇳🇱NL_6|3.0MB/s
+  - 🇯🇵JP_3|4.5MB/s
+  - 🇺🇸US_9|3.5MB/s
+  - 🇺🇸US_10|3.7MB/s
+  - 🇭🇰HK_2|2.1MB/s
+  - 🇳🇱NL_7|2.2MB/s
+  - 🇩🇪DE_2|4.1MB/s
+  - 🇪🇪EE_1|2.7MB/s
+  - 🇬🇧GB_4|3.2MB/s
+  - 🇮🇹IT_1|1.5MB/s
+  - 🇹🇷TR_2|1.6MB/s
+  - 🇩🇪DE_3|3.4MB/s
+  - 🇫🇷FR_5|2.1MB/s
+  - 🇩🇪DE_5|2.3MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
