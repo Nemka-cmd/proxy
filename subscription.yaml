@@ -11,281 +11,136 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇨🇦CA_1|1.3MB/s
-  type: vless
-  uuid: 1d54a125-8f1e-46bb-9a23-0ecf4ac92db8
-  server: 104.21.8.201
-  port: 2096
-  tls: true
-  sni: cdn-ca.skyvora.app
-- name: 🇵🇱PL_1|3.5MB/s
-  type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 103.167.234.26
-  port: 443
-  tls: true
-  sni: shuma.ccwu.cc
-- name: 🇫🇮FI_1|2.0MB/s
-  type: vless
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  server: a2.arshia-nova.ir
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: ❓Other_1|1.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 188.114.97.7
-  port: 443
-- name: 🇩🇪DE_1|2.9MB/s
-  type: vless
-  uuid: 0b05ddba-6e1f-4a77-ac5a-4a9f9d08d543
-  server: 91.107.144.22
-  port: 26437
-  tls: false
-  sni: ''
-- name: 🇫🇷FR_1|1.4MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.149.60
-  port: 443
-- name: 🇪🇪EE_1|1.4MB/s
-  type: vless
-  uuid: 4d08aa81-f729-4857-a2e9-06e48b8b9556
-  server: 132.243.65.161
-  port: 443
-  tls: true
-  sni: ee.global-cdn.org
-- name: 🇩🇪DE_2|1.7MB/s
-  type: vless
-  uuid: b5d6221d-e3ad-4453-b5c6-8bf7ccaa7aa5
-  server: 144.31.159.86
-  port: 443
-  tls: true
-  sni: de3.duck-proxy.com
-- name: 🇸🇬SG_1|1.4MB/s
-  type: vless
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-  server: 172.67.130.159
-  port: 2096
-  tls: true
-  sni: cdn-sg.skyvora.app
-- name: 🇫🇷FR_2|1.4MB/s
-  type: vless
-  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
-  server: 104.21.8.201
-  port: 2096
-  tls: true
-  sni: cdn-fr.skyvora.app
-- name: 🇩🇪DE_3|3.2MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: gesmankos.sadiepinki.com
-  port: 443
-  tls: true
-  sni: gesmankos.sadiepinki.com
-- name: 🇫🇷FR_3|1.4MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.221.242
-  port: 443
-- name: 🇹🇷TR_1|2.1MB/s
-  type: vless
-  uuid: 206a4c50-2eb6-4b7f-b7a5-15c6ab7b3f4c
-  server: 31.210.52.149
-  port: 443
-  tls: true
-  sni: tr-ist-5.blook.network
-- name: 🇩🇪DE_14|2.3MB/s
-  type: vless
-  uuid: ad181c5d-2998-408a-8706-003969e557a7
-  server: 31.77.220.190
-  port: 443
-  tls: true
-  sni: de3.global-cdn.org
-- name: 🇳🇱NL_1|4.3MB/s
-  type: vless
-  uuid: 6be9f5e4-2634-4c24-819c-40644874daac
-  server: 212.46.33.17
-  port: 443
-  tls: true
-  sni: open.dynamicway-cluster.com
-- name: 🇩🇪DE_5|2.1MB/s
+- name: 🇩🇪DE_1|2.2MB/s
   type: vless
   uuid: 735b8344-0b95-464c-b687-1c5616138908
   server: 172.67.130.159
   port: 2096
   tls: true
   sni: cdn-de.skyvora.app
-- name: 🇩🇪DE_6|3.2MB/s
+- name: 🇩🇪DE_2|1.1MB/s
   type: vless
   uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
   server: 45.95.96.236
   port: 443
   tls: true
   sni: gesmankos.sadiepinki.com
-- name: 🇫🇷FR_4|4.2MB/s
+- name: 🇫🇷FR_1|2.4MB/s
   type: vless
   uuid: 1e078c17-3a93-462d-9fce-9276609e29e2
   server: 193.17.57.97
   port: 443
   tls: true
   sni: www.ubuntu.com
-- name: 🇫🇷FR_5|2.1MB/s
+- name: 🇫🇷FR_2|1.0MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
-  server: 165.215.250.14
+  server: 104.18.152.233
   port: 443
-- name: 🇩🇪DE_7|1.8MB/s
-  type: vless
-  uuid: 735b8344-0b95-464c-b687-1c5616138908
-  server: 104.21.8.201
-  port: 2096
-  tls: true
-  sni: cdn-de.skyvora.app
-- name: 🇸🇬SG_2|4.6MB/s
-  type: vless
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  server: 47.131.189.221
-  port: 443
-  tls: true
-  sni: mia7.pages.dev
-- name: 🇫🇷FR_6|2.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 86.38.214.205
-  port: 443
-- name: 🇫🇷FR_7|1.5MB/s
+- name: 🇫🇷FR_3|1.0MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
   server: 104.18.152.149
   port: 443
-- name: 🇫🇷FR_8|2.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: ip.myip2.qzz.io
-  port: 443
-- name: 🇫🇷FR_9|2.1MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.16.174.71
-  port: 443
-- name: 🇪🇸ES_1|3.7MB/s
+- name: 🇩🇪DE_3|2.1MB/s
   type: vless
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  server: 194.26.100.18
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  server: gesmankos.sadiepinki.com
   port: 443
   tls: true
-  sni: es.cache-4d8a.com
-- name: 🇲🇩MD_1|2.8MB/s
+  sni: gesmankos.sadiepinki.com
+- name: 🇩🇪DE_4|1.0MB/s
   type: vless
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 185.153.198.86
+  server: 172.67.77.58
   port: 443
   tls: true
   sni: shuma.ccwu.cc
-- name: 🇦🇹AT_2|1.2MB/s
+- name: 🇺🇸US_1|1.6MB/s
   type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: 50.7.36.30
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 179.255.144.153
   port: 443
   tls: true
-  sni: ad-dedic-3.failspace.top
-- name: 🇺🇸US_4|2.9MB/s
-  type: trojan
-  sni: zxcvz.pages.dev
-  password: d9f20a29-239e-46ab-82bb-fa0d69e480f9
-  server: 104.17.156.140
-  port: 443
-- name: 🇺🇸US_5|1.5MB/s
+  sni: shuma.ccwu.cc
+- name: 🇯🇵JP_2|1.8MB/s
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 45.40.151.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇸🇪SE_2|2.2MB/s
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 64.176.34.130
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇬🇧GB_2|2.6MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 35.176.75.87
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇳🇱NL_2|2.0MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 185.92.221.157
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇯🇵JP_3|1.1MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 140.83.87.85
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇫🇷FR_4|1.1MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 92.119.126.189
+  port: 8443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇨🇦CA_1|1.2MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 45.133.16.41
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇺🇸US_2|1.5MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 113.20.15.175
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇫🇷FR_5|1.3MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 45.155.169.170
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇩🇪DE_5|3.0MB/s
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 172.67.68.168
+  port: 443
+  tls: true
+  sni: shuma.ccwu.cc
+- name: 🇯🇵JP_4|5.0MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 16.170.163.124
+  server: 13.230.153.249
   port: 443
-- name: 🇸🇪SE_3|3.1MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 16.170.214.108
-  port: 443
-- name: 🇳🇱NL_5|2.5MB/s
+- name: ❓Other_1|2.2MB/s
   type: vless
-  uuid: 13b1e105-bd5d-8882-5371-d7a2b84146b8
-  server: newyork-production-58a3.up.railway.app
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: 43.163.244.175
   port: 443
   tls: true
-  sni: ''
-- name: 🇩🇪DE_12|1.3MB/s
-  type: vless
-  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
-  server: deu.accessgate.link
-  port: 8080
-  tls: true
-  sni: unpkg.com
-- name: 🇸🇬SG_3|1.7MB/s
-  type: vless
-  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
-  server: 45.80.111.45
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_13|3.4MB/s
-  type: vless
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  server: 172.67.79.160
-  port: 2087
-  tls: true
-  sni: cvhpyn.pages.dev
-- name: 🇦🇹AT_4|1.8MB/s
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: austria-dedic1.failspace.top
-  port: 443
-  tls: true
-  sni: austria-dedic1.failspace.top
-- name: 🇺🇸US_8|1.8MB/s
-  type: vless
-  uuid: d3d5dd3a-256b-47e1-85f2-b071a72904d3
-  server: spiderpanel-production-b986.up.railway.app
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇩🇪DE_15|2.9MB/s
-  type: vless
-  uuid: 26687af7-46ef-40f7-b19c-09dce2c7bc3c
-  server: fra.huge-b.com
-  port: 2053
-  tls: true
-  sni: fra.huge-b.com
-- name: 🇫🇷FR_12|1.7MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 104.17.147.22
-  port: 443
-- name: 🇩🇪DE_16|2.4MB/s
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  server: 45.151.62.146
-  port: 443
-  tls: true
-  sni: de58.abvpn.net
+  sni: thus-k.netnode.cc.cd
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -313,47 +168,25 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇨🇦CA_1|1.3MB/s
-  - 🇵🇱PL_1|3.5MB/s
-  - 🇫🇮FI_1|2.0MB/s
-  - ❓Other_1|1.1MB/s
-  - 🇩🇪DE_1|2.9MB/s
-  - 🇫🇷FR_1|1.4MB/s
-  - 🇪🇪EE_1|1.4MB/s
-  - 🇩🇪DE_2|1.7MB/s
-  - 🇸🇬SG_1|1.4MB/s
-  - 🇫🇷FR_2|1.4MB/s
-  - 🇩🇪DE_3|3.2MB/s
-  - 🇫🇷FR_3|1.4MB/s
-  - 🇹🇷TR_1|2.1MB/s
-  - 🇩🇪DE_14|2.3MB/s
-  - 🇳🇱NL_1|4.3MB/s
-  - 🇩🇪DE_5|2.1MB/s
-  - 🇩🇪DE_6|3.2MB/s
-  - 🇫🇷FR_4|4.2MB/s
-  - 🇫🇷FR_5|2.1MB/s
-  - 🇩🇪DE_7|1.8MB/s
-  - 🇸🇬SG_2|4.6MB/s
-  - 🇫🇷FR_6|2.2MB/s
-  - 🇫🇷FR_7|1.5MB/s
-  - 🇫🇷FR_8|2.1MB/s
-  - 🇫🇷FR_9|2.1MB/s
-  - 🇪🇸ES_1|3.7MB/s
-  - 🇲🇩MD_1|2.8MB/s
-  - 🇦🇹AT_2|1.2MB/s
-  - 🇺🇸US_4|2.9MB/s
-  - 🇺🇸US_5|1.5MB/s
-  - 🇸🇪SE_2|2.2MB/s
-  - 🇸🇪SE_3|3.1MB/s
-  - 🇳🇱NL_5|2.5MB/s
-  - 🇩🇪DE_12|1.3MB/s
-  - 🇸🇬SG_3|1.7MB/s
-  - 🇩🇪DE_13|3.4MB/s
-  - 🇦🇹AT_4|1.8MB/s
-  - 🇺🇸US_8|1.8MB/s
-  - 🇩🇪DE_15|2.9MB/s
-  - 🇫🇷FR_12|1.7MB/s
-  - 🇩🇪DE_16|2.4MB/s
+  - 🇩🇪DE_1|2.2MB/s
+  - 🇩🇪DE_2|1.1MB/s
+  - 🇫🇷FR_1|2.4MB/s
+  - 🇫🇷FR_2|1.0MB/s
+  - 🇫🇷FR_3|1.0MB/s
+  - 🇩🇪DE_3|2.1MB/s
+  - 🇩🇪DE_4|1.0MB/s
+  - 🇺🇸US_1|1.6MB/s
+  - 🇯🇵JP_2|1.8MB/s
+  - 🇬🇧GB_2|2.6MB/s
+  - 🇳🇱NL_2|2.0MB/s
+  - 🇯🇵JP_3|1.1MB/s
+  - 🇫🇷FR_4|1.1MB/s
+  - 🇨🇦CA_1|1.2MB/s
+  - 🇺🇸US_2|1.5MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇩🇪DE_5|3.0MB/s
+  - 🇯🇵JP_4|5.0MB/s
+  - ❓Other_1|2.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
