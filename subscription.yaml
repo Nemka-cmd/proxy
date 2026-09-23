@@ -11,75 +11,81 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇫🇮FI_1|3.7MB/s
+- name: 🇫🇮FI_1|3.6MB/s
   type: vless
   uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   server: ndi.lavivas.org
   port: 2096
   tls: true
   sni: ndi.lavivas.org
-- name: ❓Other_1|4.1MB/s
+- name: 🇳🇱NL_1|1.3MB/s
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  server: 188.114.97.6
-  port: 2086
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_1|1.5MB/s
-  type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  server: 103.63.30.73
+  uuid: 53822985-e97d-4373-9629-e788b051cfa2
+  server: kkkk4-production.up.railway.app
   port: 443
   tls: true
-  sni: xi.tbv.ccwu.cc
-- name: 🇺🇸US_4|2.5MB/s
-  type: vless
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  server: 172.67.212.195
+  sni: kkkk4-production.up.railway.app
+- name: 🇫🇷FR_1|1.6MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 172.67.188.109
   port: 443
+- name: ❓Other_1|3.3MB/s
+  type: vless
+  uuid: 45643c5f-ffc2-46f3-b82c-329aea9962d4
+  server: 172.67.153.109
+  port: 8080
   tls: false
-  sni: 7-m17.KuWAiT-AIrLiNE.kDns.Fr
-- name: 🇺🇸US_5|1.1MB/s
+  sni: ''
+- name: ❓Other_2|1.0MB/s
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 88.216.67.50
+  port: 8880
+  tls: false
+  sni: ''
+- name: 🇸🇪SE_1|2.2MB/s
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-  server: 18.213.0.46
+  server: 16.170.221.224
   port: 443
-- name: 🇩🇪DE_5|3.1MB/s
+- name: 🇩🇰DK_1|2.2MB/s
   type: vless
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  server: 185.121.179.105
-  port: 7444
-  tls: true
-  sni: de777.lavivas.org
-- name: 🇺🇸US_20|3.0MB/s
-  type: vless
-  uuid: 4f46eb95-a57f-457f-895f-f50e6ad9f164
-  server: piracy-android.video-streams.org
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 92.113.149.59
   port: 443
   tls: true
-  sni: piracy-android.video-streams.org
-- name: 🇷🇸RS_2|4.4MB/s
+  sni: shuma.ccwu.cc
+- name: 🇩🇪DE_4|3.9MB/s
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  server: 213.171.25.29
-  port: 9889
+  uuid: 135852be-3cfc-4551-b6bf-641911655174
+  server: 144.31.166.205
+  port: 10000
   tls: true
-  sni: dl.google.com
-- name: 🇧🇬BG_1|2.8MB/s
+  sni: zoom.us
+- name: 🇩🇪DE_5|1.4MB/s
   type: vless
-  uuid: 9ae5940b-0278-403d-a1e1-9dddc47bdcf6
-  server: 136.175.82.85
-  port: 18775
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  server: 64.118.158.56
+  port: 443
   tls: true
-  sni: addons.mozilla.org
-- name: 🇩🇪DE_6|3.0MB/s
+  sni: buckeye-retail-website.amazon.com
+- name: 🇩🇪DE_6|2.9MB/s
   type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  server: 82.117.87.129
-  port: 9443
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  server: defrnode.jumpernode.online
+  port: 443
   tls: true
-  sni: hub-vie-01.hanvpn.cc
+  sni: buckeye-retail-website.amazon.com
+- name: 🇺🇸US_11|2.4MB/s
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 80.93.202.40
+  port: 8880
+  tls: false
+  sni: vms.lifetime02.workers.dev
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -107,16 +113,17 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇫🇮FI_1|3.7MB/s
-  - ❓Other_1|4.1MB/s
-  - 🇩🇪DE_1|1.5MB/s
-  - 🇺🇸US_4|2.5MB/s
-  - 🇺🇸US_5|1.1MB/s
-  - 🇩🇪DE_5|3.1MB/s
-  - 🇺🇸US_20|3.0MB/s
-  - 🇷🇸RS_2|4.4MB/s
-  - 🇧🇬BG_1|2.8MB/s
-  - 🇩🇪DE_6|3.0MB/s
+  - 🇫🇮FI_1|3.6MB/s
+  - 🇳🇱NL_1|1.3MB/s
+  - 🇫🇷FR_1|1.6MB/s
+  - ❓Other_1|3.3MB/s
+  - ❓Other_2|1.0MB/s
+  - 🇸🇪SE_1|2.2MB/s
+  - 🇩🇰DK_1|2.2MB/s
+  - 🇩🇪DE_4|3.9MB/s
+  - 🇩🇪DE_5|1.4MB/s
+  - 🇩🇪DE_6|2.9MB/s
+  - 🇺🇸US_11|2.4MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
