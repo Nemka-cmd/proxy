@@ -11,6 +11,95 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
+- name: 🇩🇪DE_1|3.2MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 2XG9witwk9u9AP7ZPoKluZNL5VBW82xnYgGA/8oHC4I=
+  server: 130.61.102.123
+  port: 59924
+- name: 🇫🇮FI_1|3.0MB/s
+  type: vless
+  uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a
+  server: 151.101.56.6
+  port: 443
+  tls: true
+  sni: ssl.fastly.com
+- name: 🇳🇱NL_1|4.2MB/s
+  type: vless
+  uuid: e6695d9b-3663-4421-9893-de7f641a9f3a
+  server: 194.127.179.125
+  port: 8443
+  tls: true
+  sni: www.apple.com
+- name: 🇫🇷FR_2|3.1MB/s
+  type: vless
+  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
+  server: fr.gmail.com.vipneninet.ir
+  port: 21757
+  tls: true
+  sni: Devrelate.io
+- name: 🇯🇵JP_1|3.6MB/s
+  type: vless
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+  server: cn.uxuan.cfd
+  port: 443
+  tls: true
+  sni: digjp.murphyweb.top
+- name: 🇩🇪DE_9|3.1MB/s
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  server: gerwai1488.vvzzkontaktezzvv.garden
+  port: 443
+  tls: true
+  sni: gerwai1488.vvzzkontaktezzvv.garden
+- name: 🇺🇸US_20|1.3MB/s
+  type: vless
+  uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  tls: true
+  sni: grimness-backlogs.cdn-content.com
+- name: 🇩🇪DE_10|2.0MB/s
+  type: vless
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+  server: sfert.mervi.icu
+  port: 443
+  tls: true
+  sni: sfert.mervi.icu
+- name: 🇳🇱NL_8|3.3MB/s
+  type: vless
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+  server: sujik.mervi.icu
+  port: 443
+  tls: true
+  sni: sujik.mervi.icu
+- name: 🇳🇱NL_9|1.1MB/s
+  type: vless
+  uuid: 8ec1a004-34f5-4c2b-88f5-42c27c887c04
+  server: 144.31.203.152
+  port: 443
+  tls: true
+  sni: account.amd.com
+- name: 🇳🇱NL_10|2.7MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI=
+  server: 193.123.39.109
+  port: 45819
+- name: 🇺🇸US_23|2.1MB/s
+  type: vless
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  server: 146.75.29.242
+  port: 443
+  tls: true
+  sni: bounded-crammed.video-streams.org
+- name: 🇺🇸US_24|1.8MB/s
+  type: vless
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  server: 146.75.29.242
+  port: 443
+  tls: true
+  sni: grimness-backlogs.cdn-content.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -38,6 +127,19 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
+  - 🇩🇪DE_1|3.2MB/s
+  - 🇫🇮FI_1|3.0MB/s
+  - 🇳🇱NL_1|4.2MB/s
+  - 🇫🇷FR_2|3.1MB/s
+  - 🇯🇵JP_1|3.6MB/s
+  - 🇩🇪DE_9|3.1MB/s
+  - 🇺🇸US_20|1.3MB/s
+  - 🇩🇪DE_10|2.0MB/s
+  - 🇳🇱NL_8|3.3MB/s
+  - 🇳🇱NL_9|1.1MB/s
+  - 🇳🇱NL_10|2.7MB/s
+  - 🇺🇸US_23|2.1MB/s
+  - 🇺🇸US_24|1.8MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
