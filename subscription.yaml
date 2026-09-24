@@ -11,96 +11,72 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇫🇮FI_1|3.0MB/s
+- name: 🇺🇸US_1|3.3MB/s
   type: vless
-  uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a
-  server: 151.101.56.6
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇳🇱NL_1|4.2MB/s
-  type: vless
-  uuid: e6695d9b-3663-4421-9893-de7f641a9f3a
-  server: 194.127.179.125
+  uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41
+  server: 198.46.215.223
   port: 8443
   tls: true
-  sni: www.apple.com
-- name: 🇫🇷FR_2|3.1MB/s
+  sni: www.intel.com
+- name: 🇫🇮FI_1|3.5MB/s
   type: vless
-  uuid: 140d54e9-fe85-4c63-8259-5bf9b3e29349
-  server: fr.gmail.com.vipneninet.ir
-  port: 21757
-  tls: true
-  sni: Devrelate.io
-- name: 🇯🇵JP_1|3.6MB/s
-  type: vless
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-  server: cn.uxuan.cfd
+  uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
+  server: c5b47b423412e973.fn-1.globalmymusic.com
   port: 443
   tls: true
-  sni: digjp.murphyweb.top
-- name: 🇩🇪DE_9|3.1MB/s
-  type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  server: gerwai1488.vvzzkontaktezzvv.garden
-  port: 443
-  tls: true
-  sni: gerwai1488.vvzzkontaktezzvv.garden
-- name: 🇺🇸US_20|1.3MB/s
-  type: vless
-  uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
-  server: grimness-backlogs.cdn-content.com
-  port: 443
-  tls: true
-  sni: grimness-backlogs.cdn-content.com
-- name: 🇨🇴CO_1|2.1MB/s
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  server: 157.137.219.244
-  port: 62145
-  tls: false
-  sni: ''
-- name: 🇩🇪DE_10|2.0MB/s
-  type: vless
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-  server: sfert.mervi.icu
-  port: 443
-  tls: true
-  sni: sfert.mervi.icu
-- name: 🇳🇱NL_8|3.3MB/s
-  type: vless
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-  server: sujik.mervi.icu
-  port: 443
-  tls: true
-  sni: sujik.mervi.icu
-- name: 🇳🇱NL_9|1.1MB/s
-  type: vless
-  uuid: 8ec1a004-34f5-4c2b-88f5-42c27c887c04
-  server: 144.31.203.152
-  port: 443
-  tls: true
-  sni: account.amd.com
-- name: 🇳🇱NL_10|2.7MB/s
+  sni: nr6.nl
+- name: 🇫🇮FI_2|3.0MB/s
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LMnotcv4RdaEOBXT-LdtfA
+  server: p1tun4.greewebservices.ir
+  port: 1080
+- name: 🇩🇪DE_1|3.9MB/s
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI=
-  server: 193.123.39.109
-  port: 45819
-- name: 🇺🇸US_23|2.1MB/s
+  password: CJz7/MZF6sW6ylvOCfAE+EmAqYZKN1GnMlS4tGUS3J4=
+  server: 130.61.180.252
+  port: 59924
+- name: 🇫🇷FR_1|1.8MB/s
+  type: trojan
+  sni: www.ignitelimit.com
+  password: humanity
+  server: 104.18.152.140
+  port: 443
+- name: 🇱🇰LK_1|1.1MB/s
   type: vless
-  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
-  server: 146.75.29.242
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  server: free.sahanwickramasinghe.me
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇳🇱NL_8|3.9MB/s
+  type: vless
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  server: assets-nl.pleiades.codes
   port: 443
   tls: true
-  sni: bounded-crammed.video-streams.org
-- name: 🇺🇸US_24|1.8MB/s
+  sni: assets-nl.pleiades.codes
+- name: 🇩🇪DE_5|2.4MB/s
   type: vless
-  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
-  server: 146.75.29.242
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  server: down.chaqalli.com
+  port: 2082
+  tls: false
+  sni: ''
+- name: 🇫🇷FR_4|4.8MB/s
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 13.36.152.170
+  port: 22222
+  tls: false
+  sni: ''
+- name: 🇺🇸US_25|4.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.204.185.38
   port: 443
-  tls: true
-  sni: grimness-backlogs.cdn-content.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -128,19 +104,16 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇫🇮FI_1|3.0MB/s
-  - 🇳🇱NL_1|4.2MB/s
-  - 🇫🇷FR_2|3.1MB/s
-  - 🇯🇵JP_1|3.6MB/s
-  - 🇩🇪DE_9|3.1MB/s
-  - 🇺🇸US_20|1.3MB/s
-  - 🇨🇴CO_1|2.1MB/s
-  - 🇩🇪DE_10|2.0MB/s
-  - 🇳🇱NL_8|3.3MB/s
-  - 🇳🇱NL_9|1.1MB/s
-  - 🇳🇱NL_10|2.7MB/s
-  - 🇺🇸US_23|2.1MB/s
-  - 🇺🇸US_24|1.8MB/s
+  - 🇺🇸US_1|3.3MB/s
+  - 🇫🇮FI_1|3.5MB/s
+  - 🇫🇮FI_2|3.0MB/s
+  - 🇩🇪DE_1|3.9MB/s
+  - 🇫🇷FR_1|1.8MB/s
+  - 🇱🇰LK_1|1.1MB/s
+  - 🇳🇱NL_8|3.9MB/s
+  - 🇩🇪DE_5|2.4MB/s
+  - 🇫🇷FR_4|4.8MB/s
+  - 🇺🇸US_25|4.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
