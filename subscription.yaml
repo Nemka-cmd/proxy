@@ -11,61 +11,141 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇫🇮FI_1|2.8MB/s
+- name: 🇩🇪DE_1|3.3MB/s
   type: vless
-  uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
-  server: c5b47b423412e973.fn-1.globalmymusic.com
+  uuid: 8ec5d86b-d895-477d-bc96-21fa01049f2f
+  server: iranivib.kashimo.top
+  port: 57007
+  tls: true
+  sni: scone-pa.clients6.google.com
+- name: 🇫🇷FR_2|3.9MB/s
+  type: vless
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  server: 137.74.16.237
   port: 443
   tls: true
-  sni: nr6.nl
-- name: 🇰🇷KR_1|1.3MB/s
+  sni: www.icloud.com
+- name: 🇫🇮FI_1|4.2MB/s
   type: vless
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  server: 123.111.169.70
-  port: 2096
-  tls: true
-  sni: mia12.pages.dev
-- name: 🇵🇱PL_1|1.3MB/s
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  server: 194.93.63.246
-  port: 443
-  tls: true
-  sni: pl.bubahero.com
-- name: 🇺🇸US_1|1.2MB/s
-  type: vless
-  uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
-  server: cb7144e9e019ff74.us-1.globalmymusic.com
-  port: 443
-  tls: true
-  sni: thestraightpath.ca
-- name: 🇫🇷FR_1|1.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.221.242
-  port: 443
-- name: 🇺🇸US_4|3.6MB/s
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: openai.com
-  port: 2095
+  uuid: ec825a3d-4136-40db-b39f-2ef40f19aa19
+  server: nothing.quickpl.ir
+  port: 32569
   tls: false
   sni: ''
-- name: 🇸🇪SE_1|3.0MB/s
+- name: ❓Other_1|1.0MB/s
   type: vless
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  server: 161.104.38.98
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 176.109.106.182
+  port: 9881
+  tls: true
+  sni: dl.google.com
+- name: 🇯🇵JP_1|2.9MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.199.248.166
+  port: 443
+- name: 🇩🇪DE_2|4.2MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: PISvrx4EJiuuPiMKlSP6CUw8hpr1QPctt+5SNKtL0us=
+  server: 130.61.114.98
+  port: 59924
+- name: 🇬🇧GB_3|2.5MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Igsmu9RK48BJM4cVZyaLTjq2sCwH660FkdQr/8V4yic=
+  server: 129.151.80.179
+  port: 61312
+- name: 🇺🇸US_3|4.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.147.191.121
+  port: 443
+- name: 🇩🇪DE_5|4.0MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: VMwWtoXjP8Nl5RCOTftFEUQwSt2Aen5egy9y0EVxd3E=
+  server: 130.61.234.86
+  port: 59924
+- name: 🇯🇵JP_4|2.1MB/s
+  type: vless
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  server: 34.84.126.188
   port: 443
   tls: true
-  sni: donatov.net
-- name: 🇵🇱PL_4|2.6MB/s
+  sni: www.cloudflare.com
+- name: 🇸🇬SG_1|2.2MB/s
   type: vless
-  uuid: 65cd649c-f2f5-49c4-8f57-94d9b706e846
-  server: 46.243.142.42
-  port: 7443
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 139.64.235.7
+  port: 8443
   tls: true
-  sni: shprcdn.homes
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_2|2.1MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 154.198.173.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_3|2.8MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 167.68.42.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_4|2.8MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 199.34.228.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_5|2.0MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 45.12.30.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_6|1.3MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 45.80.108.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_7|1.5MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 5.10.215.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇸🇬SG_8|1.7MB/s
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  server: 89.116.250.7
+  port: 8443
+  tls: true
+  sni: speed.dulacloud.store
+- name: 🇨🇱CL_1|1.0MB/s
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: platform109.golnamakcert.top
+  port: 80
+  tls: false
+  sni: platform109.halalkhor.info
+- name: 🇩🇪DE_8|3.3MB/s
+  type: vless
+  uuid: 8ec5d86b-d895-477d-bc96-21fa01049f2f
+  server: g1.sabet1.blazevx.ir
+  port: 31913
+  tls: true
+  sni: cdn.eiger.io
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -93,14 +173,26 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇫🇮FI_1|2.8MB/s
-  - 🇰🇷KR_1|1.3MB/s
-  - 🇵🇱PL_1|1.3MB/s
-  - 🇺🇸US_1|1.2MB/s
-  - 🇫🇷FR_1|1.0MB/s
-  - 🇺🇸US_4|3.6MB/s
-  - 🇸🇪SE_1|3.0MB/s
-  - 🇵🇱PL_4|2.6MB/s
+  - 🇩🇪DE_1|3.3MB/s
+  - 🇫🇷FR_2|3.9MB/s
+  - 🇫🇮FI_1|4.2MB/s
+  - ❓Other_1|1.0MB/s
+  - 🇯🇵JP_1|2.9MB/s
+  - 🇩🇪DE_2|4.2MB/s
+  - 🇬🇧GB_3|2.5MB/s
+  - 🇺🇸US_3|4.2MB/s
+  - 🇩🇪DE_5|4.0MB/s
+  - 🇯🇵JP_4|2.1MB/s
+  - 🇸🇬SG_1|2.2MB/s
+  - 🇸🇬SG_2|2.1MB/s
+  - 🇸🇬SG_3|2.8MB/s
+  - 🇸🇬SG_4|2.8MB/s
+  - 🇸🇬SG_5|2.0MB/s
+  - 🇸🇬SG_6|1.3MB/s
+  - 🇸🇬SG_7|1.5MB/s
+  - 🇸🇬SG_8|1.7MB/s
+  - 🇨🇱CL_1|1.0MB/s
+  - 🇩🇪DE_8|3.3MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
