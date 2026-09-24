@@ -11,72 +11,61 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇺🇸US_1|3.3MB/s
-  type: vless
-  uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41
-  server: 198.46.215.223
-  port: 8443
-  tls: true
-  sni: www.intel.com
-- name: 🇫🇮FI_1|3.5MB/s
+- name: 🇫🇮FI_1|2.8MB/s
   type: vless
   uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
   server: c5b47b423412e973.fn-1.globalmymusic.com
   port: 443
   tls: true
   sni: nr6.nl
-- name: 🇫🇮FI_2|3.0MB/s
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LMnotcv4RdaEOBXT-LdtfA
-  server: p1tun4.greewebservices.ir
-  port: 1080
-- name: 🇩🇪DE_1|3.9MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CJz7/MZF6sW6ylvOCfAE+EmAqYZKN1GnMlS4tGUS3J4=
-  server: 130.61.180.252
-  port: 59924
-- name: 🇫🇷FR_1|1.8MB/s
+- name: 🇰🇷KR_1|1.3MB/s
+  type: vless
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  server: 123.111.169.70
+  port: 2096
+  tls: true
+  sni: mia12.pages.dev
+- name: 🇵🇱PL_1|1.3MB/s
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  server: 194.93.63.246
+  port: 443
+  tls: true
+  sni: pl.bubahero.com
+- name: 🇺🇸US_1|1.2MB/s
+  type: vless
+  uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
+  server: cb7144e9e019ff74.us-1.globalmymusic.com
+  port: 443
+  tls: true
+  sni: thestraightpath.ca
+- name: 🇫🇷FR_1|1.0MB/s
   type: trojan
   sni: www.ignitelimit.com
   password: humanity
-  server: 104.18.152.140
+  server: 172.67.221.242
   port: 443
-- name: 🇱🇰LK_1|1.1MB/s
+- name: 🇺🇸US_4|3.6MB/s
   type: vless
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  server: free.sahanwickramasinghe.me
-  port: 80
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: openai.com
+  port: 2095
   tls: false
   sni: ''
-- name: 🇳🇱NL_8|3.9MB/s
+- name: 🇸🇪SE_1|3.0MB/s
   type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  server: assets-nl.pleiades.codes
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  server: 161.104.38.98
   port: 443
   tls: true
-  sni: assets-nl.pleiades.codes
-- name: 🇩🇪DE_5|2.4MB/s
+  sni: donatov.net
+- name: 🇵🇱PL_4|2.6MB/s
   type: vless
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
-  server: down.chaqalli.com
-  port: 2082
-  tls: false
-  sni: ''
-- name: 🇫🇷FR_4|4.8MB/s
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  server: 13.36.152.170
-  port: 22222
-  tls: false
-  sni: ''
-- name: 🇺🇸US_25|4.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 54.204.185.38
-  port: 443
+  uuid: 65cd649c-f2f5-49c4-8f57-94d9b706e846
+  server: 46.243.142.42
+  port: 7443
+  tls: true
+  sni: shprcdn.homes
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -104,16 +93,14 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇺🇸US_1|3.3MB/s
-  - 🇫🇮FI_1|3.5MB/s
-  - 🇫🇮FI_2|3.0MB/s
-  - 🇩🇪DE_1|3.9MB/s
-  - 🇫🇷FR_1|1.8MB/s
-  - 🇱🇰LK_1|1.1MB/s
-  - 🇳🇱NL_8|3.9MB/s
-  - 🇩🇪DE_5|2.4MB/s
-  - 🇫🇷FR_4|4.8MB/s
-  - 🇺🇸US_25|4.2MB/s
+  - 🇫🇮FI_1|2.8MB/s
+  - 🇰🇷KR_1|1.3MB/s
+  - 🇵🇱PL_1|1.3MB/s
+  - 🇺🇸US_1|1.2MB/s
+  - 🇫🇷FR_1|1.0MB/s
+  - 🇺🇸US_4|3.6MB/s
+  - 🇸🇪SE_1|3.0MB/s
+  - 🇵🇱PL_4|2.6MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
