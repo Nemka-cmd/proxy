@@ -11,12 +11,6 @@ proxies:
   password: BxceQaOe
   server: 100.42.228.109
   port: 443
-- name: 🇩🇪DE_1|3.2MB/s
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2XG9witwk9u9AP7ZPoKluZNL5VBW82xnYgGA/8oHC4I=
-  server: 130.61.102.123
-  port: 59924
 - name: 🇫🇮FI_1|3.0MB/s
   type: vless
   uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a
@@ -59,6 +53,13 @@ proxies:
   port: 443
   tls: true
   sni: grimness-backlogs.cdn-content.com
+- name: 🇨🇴CO_1|2.1MB/s
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  server: 157.137.219.244
+  port: 62145
+  tls: false
+  sni: ''
 - name: 🇩🇪DE_10|2.0MB/s
   type: vless
   uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
@@ -127,13 +128,13 @@ proxy-groups:
   proxies:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
-  - 🇩🇪DE_1|3.2MB/s
   - 🇫🇮FI_1|3.0MB/s
   - 🇳🇱NL_1|4.2MB/s
   - 🇫🇷FR_2|3.1MB/s
   - 🇯🇵JP_1|3.6MB/s
   - 🇩🇪DE_9|3.1MB/s
   - 🇺🇸US_20|1.3MB/s
+  - 🇨🇴CO_1|2.1MB/s
   - 🇩🇪DE_10|2.0MB/s
   - 🇳🇱NL_8|3.3MB/s
   - 🇳🇱NL_9|1.1MB/s
