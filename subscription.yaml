@@ -47,20 +47,110 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇺🇸US_1|2.7MB/s
+- name: 🇦🇹AT_1|2.4MB/s
   type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  server: 172.67.212.14
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: at-at-at.failspace.top
   port: 443
   tls: true
-  sni: 8-m19.souTh-afRiCA-ONLinE.CcwU.CC
-- name: 🇵🇱PL_2|1.1MB/s
+  sni: ''
+- name: 🇮🇱IL_1|1.4MB/s
   type: vless
-  uuid: a0248c3b-b631-4ada-b8d6-e2f6af2986d0
-  server: d1-pl.cloud-cdn.xyz
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: platform101.golnamakcert.top
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇯🇵JP_1|3.8MB/s
+  type: vless
+  uuid: 52fa48c9-1c1f-4c24-badb-ad92c18e6f92
+  server: cos-cdn-a.alicdn.win
   port: 443
   tls: true
-  sni: d1-pl.cloud-cdn.xyz
+  sni: mms-static-rr6asx-e.oppocdn.sbs
+- name: 🇺🇸US_1|3.1MB/s
+  type: vless
+  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
+  server: 161.35.187.182
+  port: 11186
+  tls: false
+  sni: ''
+- name: 🇺🇸US_2|2.8MB/s
+  type: vless
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  server: 172.67.189.137
+  port: 443
+  tls: true
+  sni: Cc.huAnGshANg.hIDNs.cO
+- name: 🇬🇧GB_4|4.6MB/s
+  type: vless
+  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
+  server: 188.166.146.136
+  port: 11186
+  tls: false
+  sni: ''
+- name: 🇸🇬SG_1|4.2MB/s
+  type: vless
+  uuid: bda35755-c838-49c3-a19e-3712f2d54275
+  server: 163.128.99.14
+  port: 443
+  tls: true
+  sni: www.apple.com
+- name: 🇺🇸US_4|4.4MB/s
+  type: vless
+  uuid: fd4b654f-9ae2-42c5-977b-6aa54e8e9a83
+  server: 146.190.72.139
+  port: 11186
+  tls: false
+  sni: ''
+- name: 🇺🇸US_5|4.2MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.227.186.25
+  port: 443
+- name: 🇳🇱NL_14|2.9MB/s
+  type: vless
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  server: nl9-node.rumedia-cdn.com
+  port: 2096
+  tls: true
+  sni: stadb90.rumedia-cdn.com
+- name: 🇺🇸US_9|1.3MB/s
+  type: vless
+  uuid: 4ea9c6dd-4d73-49f2-82ce-b80b1b5dd646
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  tls: true
+  sni: minimize-evenness.cdn-content.com
+- name: 🇩🇪DE_2|4.3MB/s
+  type: vless
+  uuid: b8948424-5bca-4792-b2c2-c1ce226b3531
+  server: de14.bexait.ir
+  port: 2434
+  tls: true
+  sni: icloud.com
+- name: 🇳🇱NL_15|1.1MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: hub-mori-new.failspace.top
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇺🇸US_10|2.1MB/s
+  type: vless
+  uuid: af24a0e4-f5a2-4b97-a678-992d45346147
+  server: 108.186.180.148
+  port: 47700
+  tls: true
+  sni: www.amazon.com
+- name: 🇺🇸US_13|3.8MB/s
+  type: vless
+  uuid: 88882ac2-0f7c-4907-9605-b847f79ec9d3
+  server: c10s3.portablesubmarines.com
+  port: 443
+  tls: true
+  sni: portal.citygrainla.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -94,8 +184,21 @@ proxy-groups:
   - 🇯🇵 日本|@ripaojiedian
   - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇺🇸US_1|2.7MB/s
-  - 🇵🇱PL_2|1.1MB/s
+  - 🇦🇹AT_1|2.4MB/s
+  - 🇮🇱IL_1|1.4MB/s
+  - 🇯🇵JP_1|3.8MB/s
+  - 🇺🇸US_1|3.1MB/s
+  - 🇺🇸US_2|2.8MB/s
+  - 🇬🇧GB_4|4.6MB/s
+  - 🇸🇬SG_1|4.2MB/s
+  - 🇺🇸US_4|4.4MB/s
+  - 🇺🇸US_5|4.2MB/s
+  - 🇳🇱NL_14|2.9MB/s
+  - 🇺🇸US_9|1.3MB/s
+  - 🇩🇪DE_2|4.3MB/s
+  - 🇳🇱NL_15|1.1MB/s
+  - 🇺🇸US_10|2.1MB/s
+  - 🇺🇸US_13|3.8MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
