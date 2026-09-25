@@ -69,6 +69,12 @@ proxies:
   password: VMwWtoXjP8Nl5RCOTftFEUQwSt2Aen5egy9y0EVxd3E=
   server: 130.61.234.86
   port: 59924
+- name: 🇩🇪DE_6|3.9MB/s
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ro2l0yH/AWb1O6na+0S1I6VmbTNVvIH1ZW+lE9JEQXU=
+  server: 130.61.234.166
+  port: 59924
 - name: 🇯🇵JP_4|2.1MB/s
   type: vless
   uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
@@ -182,6 +188,7 @@ proxy-groups:
   - 🇬🇧GB_3|2.5MB/s
   - 🇺🇸US_3|4.2MB/s
   - 🇩🇪DE_5|4.0MB/s
+  - 🇩🇪DE_6|3.9MB/s
   - 🇯🇵JP_4|2.1MB/s
   - 🇸🇬SG_1|2.2MB/s
   - 🇸🇬SG_2|2.1MB/s
