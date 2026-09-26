@@ -17,6 +17,12 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36602
+- name: 🇭🇰 香港3|@ripaojiedian
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd2.bjnet2.com
+  port: 36602
 - name: 🇨🇳 台湾|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
@@ -35,26 +41,87 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36609
+- name: 🇺🇸 美国2-IEPL-GPT
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd2.bjnet2.com
+  port: 36608
 - name: 🇺🇸 美国|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇩🇪DE_2|1.6MB/s
+- name: 🇭🇰HK_1|4.0MB/s
   type: vless
-  uuid: 65cd649c-f2f5-49c4-8f57-94d9b706e846
-  server: 46.243.142.42
-  port: 7443
+  uuid: 37665857-8b6e-4daa-8231-3e2927221558
+  server: 54.46.72.234
+  port: 8030
   tls: true
-  sni: shprcdn.homes
-- name: 🇩🇪DE_3|1.0MB/s
+  sni: spjd.cbc.qzz.io
+- name: 🇯🇵JP_1|5.3MB/s
   type: vless
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  server: 31.70.64.90
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  server: cf.877774.xyz
   port: 443
   tls: true
-  sni: cdn-3123.spliceflowtech.com
+  sni: yf.962456.xyz
+- name: 🇯🇵JP_2|3.1MB/s
+  type: vless
+  uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
+  server: cf.877774.xyz
+  port: 443
+  tls: true
+  sni: styx.dpdns.org
+- name: 🇯🇵JP_3|5.3MB/s
+  type: vless
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  server: cf.3666888.xyz
+  port: 443
+  tls: true
+  sni: 819.18827466.bot.cd
+- name: 🇯🇵JP_4|4.6MB/s
+  type: vless
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  server: cf.130519.xyz
+  port: 443
+  tls: true
+  sni: 819.18827466.bot.cd
+- name: 🇯🇵JP_5|4.7MB/s
+  type: vless
+  uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
+  server: cf.877774.xyz
+  port: 443
+  tls: true
+  sni: 255038.xyz
+- name: 🇯🇵JP_6|5.8MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 18.179.37.17
+  port: 443
+- name: 🇸🇬SG_1|3.6MB/s
+  type: vless
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  server: cf.877774.xyz
+  port: 8443
+  tls: true
+  sni: aaa.abcai.online
+- name: 🇯🇵JP_7|5.4MB/s
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: cf.877774.xyz
+  port: 8443
+  tls: true
+  sni: edgetunnel-4uw.pages.dev
+- name: 🇯🇵JP_8|4.8MB/s
+  type: vless
+  uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
+  server: jp-1.gsafevpnapi.com
+  port: 20270
+  tls: true
+  sni: www.yahoo.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -83,12 +150,22 @@ proxy-groups:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
   - 🇭🇰 香港2|@ripaojiedian
+  - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
+  - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇩🇪DE_2|1.6MB/s
-  - 🇩🇪DE_3|1.0MB/s
+  - 🇭🇰HK_1|4.0MB/s
+  - 🇯🇵JP_1|5.3MB/s
+  - 🇯🇵JP_2|3.1MB/s
+  - 🇯🇵JP_3|5.3MB/s
+  - 🇯🇵JP_4|4.6MB/s
+  - 🇯🇵JP_5|4.7MB/s
+  - 🇯🇵JP_6|5.8MB/s
+  - 🇸🇬SG_1|3.6MB/s
+  - 🇯🇵JP_7|5.4MB/s
+  - 🇯🇵JP_8|4.8MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
