@@ -29,12 +29,6 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36603
-- name: 🇸🇬 新加坡|@ripaojiedian
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd.bjnet2.com
-  port: 36604
 - name: 🇯🇵 日本|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
@@ -53,75 +47,76 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇭🇰HK_1|4.0MB/s
+- name: 🇨🇦CA_1|3.7MB/s
   type: vless
-  uuid: 37665857-8b6e-4daa-8231-3e2927221558
-  server: 54.46.72.234
-  port: 8030
-  tls: true
-  sni: spjd.cbc.qzz.io
-- name: 🇯🇵JP_1|5.3MB/s
-  type: vless
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-  server: cf.877774.xyz
+  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1
+  server: 198.255.87.230
   port: 443
   tls: true
-  sni: yf.962456.xyz
-- name: 🇯🇵JP_2|3.1MB/s
+  sni: www.apple.com
+- name: 🇫🇷FR_1|1.7MB/s
   type: vless
-  uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
-  server: cf.877774.xyz
+  uuid: 321a9870-0298-428e-b506-ddad3402f3e3
+  server: 198.16.113.221
   port: 443
   tls: true
-  sni: styx.dpdns.org
-- name: 🇯🇵JP_3|5.3MB/s
+  sni: www.apple.com
+- name: 🇺🇸US_1|2.3MB/s
   type: vless
-  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
-  server: cf.3666888.xyz
+  uuid: c05ce6f2-7e9d-4b20-82fc-597bad3af79a
+  server: 38.34.190.212
   port: 443
   tls: true
-  sni: 819.18827466.bot.cd
-- name: 🇯🇵JP_4|4.6MB/s
+  sni: www.apple.com
+- name: 🇺🇸US_2|1.1MB/s
   type: vless
-  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
-  server: cf.130519.xyz
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  server: 172.67.219.181
   port: 443
   tls: true
-  sni: 819.18827466.bot.cd
-- name: 🇯🇵JP_5|4.7MB/s
+  sni: 7-7.HuangSHANG.boND
+- name: 🇩🇪DE_3|3.5MB/s
   type: vless
-  uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
-  server: cf.877774.xyz
+  uuid: 0a975d79-6930-4861-a105-dc50793456de
+  server: 45.95.96.182
   port: 443
   tls: true
-  sni: 255038.xyz
-- name: 🇯🇵JP_6|5.8MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 18.179.37.17
-  port: 443
-- name: 🇸🇬SG_1|3.6MB/s
+  sni: ai.yump.online
+- name: 🇩🇪DE_4|1.9MB/s
   type: vless
-  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
-  server: cf.877774.xyz
+  uuid: Mahanvpn-vip1
+  server: 172.67.160.192
+  port: 2086
+  tls: false
+  sni: ''
+- name: 🇨🇭CH_2|2.6MB/s
+  type: vless
+  uuid: c260fba0-9609-4190-b0ba-1538c08c0d22
+  server: 157.22.187.17
+  port: 443
+  tls: true
+  sni: www.amazon.com
+- name: 🇺🇸US_5|2.8MB/s
+  type: vless
+  uuid: deea5046-3543-4b1b-a17f-3d08a65db91d
+  server: 31.77.17.199
+  port: 443
+  tls: true
+  sni: fi03.mcloud.mov
+- name: 🇳🇱NL_10|1.8MB/s
+  type: vless
+  uuid: d9ca156c-8b6d-4ca6-8be1-4eee64c93c36
+  server: xnod12x.artemida.live
   port: 8443
   tls: true
-  sni: aaa.abcai.online
-- name: 🇯🇵JP_7|5.4MB/s
+  sni: xnod12x.artemida.live
+- name: 🇩🇪DE_5|1.5MB/s
   type: vless
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  server: cf.877774.xyz
-  port: 8443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  server: 72.4.65.116
+  port: 443
   tls: true
-  sni: edgetunnel-4uw.pages.dev
-- name: 🇯🇵JP_8|4.8MB/s
-  type: vless
-  uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
-  server: jp-1.gsafevpnapi.com
-  port: 20270
-  tls: true
-  sni: www.yahoo.com
+  sni: assets-de2.pleiades.codes
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -152,20 +147,19 @@ proxy-groups:
   - 🇭🇰 香港2|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
-  - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇭🇰HK_1|4.0MB/s
-  - 🇯🇵JP_1|5.3MB/s
-  - 🇯🇵JP_2|3.1MB/s
-  - 🇯🇵JP_3|5.3MB/s
-  - 🇯🇵JP_4|4.6MB/s
-  - 🇯🇵JP_5|4.7MB/s
-  - 🇯🇵JP_6|5.8MB/s
-  - 🇸🇬SG_1|3.6MB/s
-  - 🇯🇵JP_7|5.4MB/s
-  - 🇯🇵JP_8|4.8MB/s
+  - 🇨🇦CA_1|3.7MB/s
+  - 🇫🇷FR_1|1.7MB/s
+  - 🇺🇸US_1|2.3MB/s
+  - 🇺🇸US_2|1.1MB/s
+  - 🇩🇪DE_3|3.5MB/s
+  - 🇩🇪DE_4|1.9MB/s
+  - 🇨🇭CH_2|2.6MB/s
+  - 🇺🇸US_5|2.8MB/s
+  - 🇳🇱NL_10|1.8MB/s
+  - 🇩🇪DE_5|1.5MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
