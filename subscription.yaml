@@ -17,242 +17,44 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36602
-- name: 🇭🇰 香港3|@ripaojiedian
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd2.bjnet2.com
-  port: 36602
 - name: 🇨🇳 台湾|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36603
+- name: 🇸🇬 新加坡|@ripaojiedian
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd.bjnet2.com
+  port: 36604
 - name: 🇯🇵 日本|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36609
-- name: 🇺🇸 美国2-IEPL-GPT
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd2.bjnet2.com
-  port: 36608
 - name: 🇺🇸 美国|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇨🇿CZ_1|1.2MB/s
-  type: vless
-  uuid: 7a8d2c3f-d6dd-0004-81d8-cff23d8364ee
-  server: 13.143.181.220
-  port: 443
-  tls: true
-  sni: msk1.maxtelemost.com
-- name: 🇩🇪DE_1|2.5MB/s
-  type: vless
-  uuid: 1e68828d-bcae-43f8-953e-ab9611cdc07b
-  server: freeman.curtvip.ir
-  port: 20410
-  tls: true
-  sni: secureconnect-pa.mtls.clients6.google.com
-- name: 🇩🇪DE_2|2.7MB/s
-  type: vless
-  uuid: 00d9b3cc-726b-41c1-a5a5-92284a159696
-  server: 193.233.88.119
-  port: 443
-  tls: true
-  sni: files.freedomnet.top
-- name: 🇩🇪DE_3|1.6MB/s
-  type: vless
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  server: 2.26.11.234
-  port: 9543
-  tls: true
-  sni: storage.yandexcloud.net
-- name: 🇳🇱NL_1|2.9MB/s
-  type: vless
-  uuid: 0a975d79-6930-4861-a105-dc50793456de
-  server: 132.243.166.106
-  port: 443
-  tls: true
-  sni: blog.chatbaza.fun
-- name: 🇸🇪SE_1|2.5MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 13.49.64.122
-  port: 443
-- name: 🇺🇸US_1|2.1MB/s
-  type: vless
-  uuid: a11cb858-4a42-4735-b40b-4cba1560b959
-  server: p11real444.greewebservices.ir
-  port: 3303
-  tls: true
-  sni: amp-api-edge.apps.apple.com
-- name: 🇫🇷FR_1|1.0MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: render.com
-  port: 443
-- name: 🇩🇪DE_4|3.1MB/s
-  type: vless
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  server: nl2.gursub.com
-  port: 443
-  tls: true
-  sni: nl2.gursub.com
-- name: 🇺🇸US_2|2.5MB/s
-  type: vless
-  uuid: a11cb858-4a42-4735-b40b-4cba1560b959
-  server: p1real7.greewebservices.ir
-  port: 1290
-  tls: true
-  sni: play.googleapis.com
-- name: 🇫🇷FR_2|2.4MB/s
-  type: vless
-  uuid: XpnTeam-34
-  server: 199.232.78.160
-  port: 443
-  tls: true
-  sni: ssl.fastly.com
-- name: 🇫🇷FR_3|1.2MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: join-telegram-channel.tirexnet.kdns.fr
-  port: 443
-- name: 🇺🇸US_3|1.0MB/s
-  type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  server: 91.206.71.8
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇺🇸US_4|1.1MB/s
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 155.46.213.30
-  port: 8880
-  tls: false
-  sni: ''
-- name: 🇺🇸US_5|2.3MB/s
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  server: 172.67.212.14
-  port: 443
-  tls: true
-  sni: 4-m19.SoUTh-aFRiCA-OnlInE.cCWU.cC
-- name: ❓Other_1|1.9MB/s
-  type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  server: 172.67.182.133
-  port: 443
-  tls: true
-  sni: 2-M13.0Dcb525d-9bF8-452C-A465-5546541729D1.kdnS.FR
-- name: 🇫🇷FR_4|1.5MB/s
-  type: trojan
-  sni: www.ignitelimit.com
-  password: humanity
-  server: 172.67.74.2
-  port: 443
-- name: 🇳🇱NL_6|3.0MB/s
-  type: vless
-  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
-  server: 172.67.203.138
-  port: 8080
-  tls: false
-  sni: 172.67.203.138
-- name: 🇩🇪DE_6|3.7MB/s
-  type: vless
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  server: 172.67.79.160
-  port: 2087
-  tls: true
-  sni: cvhpyn.pages.dev
-- name: 🇧🇬BG_1|3.2MB/s
-  type: vless
-  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
-  server: 13.140.29.170
-  port: 443
-  tls: true
-  sni: shin-ra.ccwu.cc
-- name: 🇸🇪SE_2|1.1MB/s
-  type: vless
-  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
-  server: 103.71.23.244
-  port: 443
-  tls: true
-  sni: shin-ra.ccwu.cc
-- name: 🇲🇩MD_1|2.8MB/s
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: md-new.failspace.top
-  port: 443
-  tls: true
-  sni: ''
-- name: 🇩🇪DE_7|1.9MB/s
-  type: vless
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  server: 13.143.193.156
-  port: 443
-  tls: true
-  sni: nl2.gursub.com
-- name: 🇪🇸ES_4|1.5MB/s
-  type: vless
-  uuid: 0a975d79-6930-4861-a105-dc50793456de
-  server: 138.124.181.185
-  port: 443
-  tls: true
-  sni: bags.yump.online
-- name: 🇺🇸US_9|1.3MB/s
-  type: vless
-  uuid: 4bf974c5-35f1-4673-8acb-4d66b678c749
-  server: mg.zhujue.us
-  port: 11000
-  tls: true
-  sni: s0.awsstatic.com
-- name: 🇵🇱PL_4|2.6MB/s
+- name: 🇩🇪DE_2|1.6MB/s
   type: vless
   uuid: 65cd649c-f2f5-49c4-8f57-94d9b706e846
   server: 46.243.142.42
   port: 7443
   tls: true
   sni: shprcdn.homes
-- name: 🇪🇪EE_1|2.2MB/s
+- name: 🇩🇪DE_3|1.0MB/s
   type: vless
-  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-  server: 45.11.27.86
+  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
+  server: 31.70.64.90
   port: 443
   tls: true
-  sni: 5post-gate.x5.ru
-- name: 🇫🇮FI_1|3.9MB/s
-  type: vless
-  uuid: 8b092c91-27e5-4009-9292-b2ac249217d5
-  server: 146.75.119.82
-  port: 80
-  tls: false
-  sni: ''
-- name: 🇸🇪SE_4|2.4MB/s
-  type: vless
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  server: 201.24.52.151
-  port: 443
-  tls: true
-  sni: hexagonicfield.com
-- name: 🇬🇧GB_11|2.1MB/s
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  server: ukefast.failspace.top
-  port: 443
-  tls: true
-  sni: ukefast.failspace.top
+  sni: cdn-3123.spliceflowtech.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -281,41 +83,12 @@ proxy-groups:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
   - 🇭🇰 香港2|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
+  - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
-  - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇨🇿CZ_1|1.2MB/s
-  - 🇩🇪DE_1|2.5MB/s
-  - 🇩🇪DE_2|2.7MB/s
-  - 🇩🇪DE_3|1.6MB/s
-  - 🇳🇱NL_1|2.9MB/s
-  - 🇸🇪SE_1|2.5MB/s
-  - 🇺🇸US_1|2.1MB/s
-  - 🇫🇷FR_1|1.0MB/s
-  - 🇩🇪DE_4|3.1MB/s
-  - 🇺🇸US_2|2.5MB/s
-  - 🇫🇷FR_2|2.4MB/s
-  - 🇫🇷FR_3|1.2MB/s
-  - 🇺🇸US_3|1.0MB/s
-  - 🇺🇸US_4|1.1MB/s
-  - 🇺🇸US_5|2.3MB/s
-  - ❓Other_1|1.9MB/s
-  - 🇫🇷FR_4|1.5MB/s
-  - 🇳🇱NL_6|3.0MB/s
-  - 🇩🇪DE_6|3.7MB/s
-  - 🇧🇬BG_1|3.2MB/s
-  - 🇸🇪SE_2|1.1MB/s
-  - 🇲🇩MD_1|2.8MB/s
-  - 🇩🇪DE_7|1.9MB/s
-  - 🇪🇸ES_4|1.5MB/s
-  - 🇺🇸US_9|1.3MB/s
-  - 🇵🇱PL_4|2.6MB/s
-  - 🇪🇪EE_1|2.2MB/s
-  - 🇫🇮FI_1|3.9MB/s
-  - 🇸🇪SE_4|2.4MB/s
-  - 🇬🇧GB_11|2.1MB/s
+  - 🇩🇪DE_2|1.6MB/s
+  - 🇩🇪DE_3|1.0MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
