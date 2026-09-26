@@ -17,30 +17,24 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36602
-- name: 🇭🇰 香港3|@ripaojiedian
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd2.bjnet2.com
-  port: 36602
 - name: 🇨🇳 台湾|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36603
+- name: 🇸🇬 新加坡|@ripaojiedian
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd.bjnet2.com
+  port: 36604
 - name: 🇯🇵 日本|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36609
-- name: 🇺🇸 美国2-IEPL-GPT
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd2.bjnet2.com
-  port: 36608
 - name: 🇺🇸 美国|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
@@ -179,10 +173,9 @@ proxy-groups:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
   - 🇭🇰 香港2|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
+  - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
-  - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
   - 🇦🇹AT_1|2.4MB/s
   - 🇮🇱IL_1|1.4MB/s
