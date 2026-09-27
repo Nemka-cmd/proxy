@@ -29,6 +29,12 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36603
+- name: 🇸🇬 新加坡|@ripaojiedian
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd.bjnet2.com
+  port: 36604
 - name: 🇯🇵 日本|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
@@ -41,46 +47,13 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇯🇵JP_1|5.5MB/s
+- name: 🇷🇺RU_1|1.2MB/s
   type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  server: tk1.high-speed-test-56424.me
+  uuid: 553d8193-d897-0032-bb46-f075b670f22a
+  server: 161.104.38.98
   port: 443
   tls: true
-  sni: aws.amazon.com
-- name: 🇺🇸US_1|1.3MB/s
-  type: vless
-  uuid: 87f3c789-8297-1402-a5fb-4f7e9baa4189
-  server: victory-production-b825.up.railway.app
-  port: 443
-  tls: true
-  sni: victory-production-b825.up.railway.app
-- name: 🇺🇸US_2|1.2MB/s
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  server: 3.85.21.125
-  port: 443
-- name: 🇹🇼TW_1|1.3MB/s
-  type: trojan
-  sni: zhilegelian1.bpca2026.top
-  password: f15900b5-f86b-432d-a67c-45325dc66a2d
-  server: zhilegelian1.bpca2026.top
-  port: 443
-- name: 🇩🇪DE_5|2.2MB/s
-  type: vless
-  uuid: 12062839-c99a-4084-b4de-e98be8b86c2d
-  server: 185.246.223.239
-  port: 8443
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇫🇮FI_1|1.5MB/s
-  type: vless
-  uuid: 3ae00194-1bc0-0bf4-9564-3c55b1c6d485
-  server: 122.8.45.3
-  port: 443
-  tls: true
-  sni: www.hp.com
+  sni: donatov.net
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -111,14 +84,10 @@ proxy-groups:
   - 🇭🇰 香港2|@ripaojiedian
   - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
+  - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇺🇸 美国|@ripaojiedian
-  - 🇯🇵JP_1|5.5MB/s
-  - 🇺🇸US_1|1.3MB/s
-  - 🇺🇸US_2|1.2MB/s
-  - 🇹🇼TW_1|1.3MB/s
-  - 🇩🇪DE_5|2.2MB/s
-  - 🇫🇮FI_1|1.5MB/s
+  - 🇷🇺RU_1|1.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
