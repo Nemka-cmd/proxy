@@ -17,12 +17,6 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36602
-- name: 🇭🇰 香港3|@ripaojiedian
-  type: ss
-  cipher: aes-128-gcm
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  server: gd2.bjnet2.com
-  port: 36602
 - name: 🇨🇳 台湾|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
@@ -47,76 +41,132 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇨🇦CA_1|3.7MB/s
+- name: 🇳🇱NL_1|3.6MB/s
   type: vless
-  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1
-  server: 198.255.87.230
+  uuid: 22a375e0-f7c6-0003-a154-81189914bbf4
+  server: 89.105.197.204
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇫🇷FR_1|1.7MB/s
+  sni: anyfile2file.com
+- name: 🇺🇸US_1|2.5MB/s
   type: vless
-  uuid: 321a9870-0298-428e-b506-ddad3402f3e3
-  server: 198.16.113.221
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  server: 104.21.91.76
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_1|2.3MB/s
+  sni: 3-M19.sOUTh-afRIca-OnlInE.CCwU.cC
+- name: 🇺🇸US_2|3.1MB/s
   type: vless
-  uuid: c05ce6f2-7e9d-4b20-82fc-597bad3af79a
-  server: 38.34.190.212
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  server: 172.67.155.189
   port: 443
   tls: true
-  sni: www.apple.com
-- name: 🇺🇸US_2|1.1MB/s
+  sni: 3-m13.1B9390a5-6209-45bd-BA0E-057EBB2641c3.kDNs.fr
+- name: 🇺🇸US_3|2.0MB/s
+  type: vless
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  server: 172.67.212.14
+  port: 443
+  tls: true
+  sni: 0-m19.souTH-AFRiCA-oNlInE.Ccwu.cc
+- name: 🇺🇸US_6|1.3MB/s
   type: vless
   uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
-  server: 172.67.219.181
+  server: 172.67.189.137
   port: 443
   tls: true
-  sni: 7-7.HuangSHANG.boND
-- name: 🇩🇪DE_3|3.5MB/s
+  sni: m.hUANGSHang.HIDns.Co
+- name: ❓Other_1|2.5MB/s
+  type: vless
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  server: 172.67.212.195
+  port: 443
+  tls: false
+  sni: 7-m17.KuWAiT-AIrLiNE.kDns.Fr
+- name: 🇩🇪DE_5|2.0MB/s
   type: vless
   uuid: 0a975d79-6930-4861-a105-dc50793456de
   server: 45.95.96.182
   port: 443
   tls: true
   sni: ai.yump.online
-- name: 🇩🇪DE_4|1.9MB/s
+- name: 🇫🇷FR_3|2.9MB/s
   type: vless
-  uuid: Mahanvpn-vip1
-  server: 172.67.160.192
-  port: 2086
+  uuid: 162ff214-21c8-4963-a80a-6200cbad787e
+  server: francedobo.paslanmaz.ir
+  port: 4489
+  tls: true
+  sni: www.tno.nl
+- name: 🇩🇪DE_6|2.1MB/s
+  type: vless
+  uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
+  server: de2.dzvn.space
+  port: 2291
+  tls: true
+  sni: de2.dzvn.space
+- name: 🇩🇪DE_7|4.2MB/s
+  type: vless
+  uuid: 2e2d1f29-07b3-4a29-88e5-a936c3256756
+  server: de14.bexait.ir
+  port: 2434
+  tls: true
+  sni: icloud.com
+- name: 🇩🇪DE_8|1.4MB/s
+  type: vless
+  uuid: 3728d3fa-e004-47b9-b334-9f0723efeef2
+  server: 159.69.91.8
+  port: 80
   tls: false
   sni: ''
-- name: 🇨🇭CH_2|2.6MB/s
+- name: 🇸🇬SG_3|1.8MB/s
   type: vless
-  uuid: c260fba0-9609-4190-b0ba-1538c08c0d22
-  server: 157.22.187.17
+  uuid: 38415950-f815-4ca8-94d0-6cbf22be7566
+  server: 170.114.52.22
   port: 443
   tls: true
-  sni: www.amazon.com
-- name: 🇺🇸US_5|2.8MB/s
+  sni: asia.csmasterofficial.store
+- name: 🇺🇸US_29|1.6MB/s
   type: vless
-  uuid: deea5046-3543-4b1b-a17f-3d08a65db91d
-  server: 31.77.17.199
+  uuid: Default
+  server: 69.46.46.72
   port: 443
   tls: true
-  sni: fi03.mcloud.mov
-- name: 🇳🇱NL_10|1.8MB/s
+  sni: app-bde44c-537d35-production.up.railway.app
+- name: 🇫🇷FR_4|2.8MB/s
   type: vless
-  uuid: d9ca156c-8b6d-4ca6-8be1-4eee64c93c36
-  server: xnod12x.artemida.live
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: 13.37.167.120
+  port: 22224
+  tls: false
+  sni: ''
+- name: ❓Other_2|3.5MB/s
+  type: vless
+  uuid: acfc7e1f-85c1-4b75-bfc6-fc815a5550c6
+  server: 188.245.24.225
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_9|2.7MB/s
+  type: vless
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  server: 136.148.71.151
+  port: 443
+  tls: true
+  sni: germa12.ggisopi.su
+- name: 🇺🇸US_30|1.1MB/s
+  type: vless
+  uuid: 85261643-2fd5-4889-8da9-43abc3c08405
+  server: 23.172.217.163
   port: 8443
   tls: true
-  sni: xnod12x.artemida.live
-- name: 🇩🇪DE_5|1.5MB/s
+  sni: yahoo.com
+- name: 🇫🇷FR_5|1.7MB/s
   type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  server: 72.4.65.116
+  uuid: XpnTeam-38
+  server: 140.248.186.45
   port: 443
   tls: true
-  sni: assets-de2.pleiades.codes
+  sni: ssl.fastly.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -145,21 +195,28 @@ proxy-groups:
   - 'tg频道:@ripaojiedian #1'
   - 美国3|@ripaojiedian
   - 🇭🇰 香港2|@ripaojiedian
-  - 🇭🇰 香港3|@ripaojiedian
   - 🇨🇳 台湾|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
   - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇨🇦CA_1|3.7MB/s
-  - 🇫🇷FR_1|1.7MB/s
-  - 🇺🇸US_1|2.3MB/s
-  - 🇺🇸US_2|1.1MB/s
-  - 🇩🇪DE_3|3.5MB/s
-  - 🇩🇪DE_4|1.9MB/s
-  - 🇨🇭CH_2|2.6MB/s
-  - 🇺🇸US_5|2.8MB/s
-  - 🇳🇱NL_10|1.8MB/s
-  - 🇩🇪DE_5|1.5MB/s
+  - 🇳🇱NL_1|3.6MB/s
+  - 🇺🇸US_1|2.5MB/s
+  - 🇺🇸US_2|3.1MB/s
+  - 🇺🇸US_3|2.0MB/s
+  - 🇺🇸US_6|1.3MB/s
+  - ❓Other_1|2.5MB/s
+  - 🇩🇪DE_5|2.0MB/s
+  - 🇫🇷FR_3|2.9MB/s
+  - 🇩🇪DE_6|2.1MB/s
+  - 🇩🇪DE_7|4.2MB/s
+  - 🇩🇪DE_8|1.4MB/s
+  - 🇸🇬SG_3|1.8MB/s
+  - 🇺🇸US_29|1.6MB/s
+  - 🇫🇷FR_4|2.8MB/s
+  - ❓Other_2|3.5MB/s
+  - 🇩🇪DE_9|2.7MB/s
+  - 🇺🇸US_30|1.1MB/s
+  - 🇫🇷FR_5|1.7MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
