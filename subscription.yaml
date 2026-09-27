@@ -41,19 +41,165 @@ proxies:
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36609
+- name: 🇺🇸 美国2-IEPL-GPT
+  type: ss
+  cipher: aes-128-gcm
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  server: gd2.bjnet2.com
+  port: 36608
 - name: 🇺🇸 美国|@ripaojiedian
   type: ss
   cipher: aes-128-gcm
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   server: gd.bjnet2.com
   port: 36608
-- name: 🇷🇺RU_1|1.2MB/s
+- name: 🇩🇪DE_1|2.1MB/s
   type: vless
-  uuid: 553d8193-d897-0032-bb46-f075b670f22a
-  server: 161.104.38.98
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: 172.67.73.170
   port: 443
   tls: true
-  sni: donatov.net
+  sni: edgetunnel-4uw.pages.dev
+- name: 🇩🇪DE_2|2.9MB/s
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: 2.26.30.216
+  port: 443
+  tls: true
+  sni: edgetunnel-4uw.pages.dev
+- name: 🇩🇪DE_3|3.3MB/s
+  type: vless
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  server: 206.81.30.239
+  port: 443
+  tls: true
+  sni: yf.962456.xyz
+- name: 🇯🇵JP_1|3.0MB/s
+  type: vless
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  server: 160.16.209.61
+  port: 443
+  tls: true
+  sni: yf.962456.xyz
+- name: 🇺🇸US_1|1014KB/s
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: 40.116.88.35
+  port: 443
+  tls: true
+  sni: edgetunnel-4uw.pages.dev
+- name: 🇺🇸US_2|2.7MB/s
+  type: vless
+  uuid: fa30976d-06dc-343c-9eef-6ed32ac1f73b
+  server: victoryprovpn-production-ea69.up.railway.app
+  port: 443
+  tls: true
+  sni: victoryprovpn-production-ea69.up.railway.app
+- name: 🇩🇪DE_4|2.9MB/s
+  type: vless
+  uuid: 80a3739d-bb54-42ec-8a7e-158d3c64f880
+  server: 199.232.79.166
+  port: 443
+  tls: true
+  sni: cdn.fastly.com
+- name: 🇳🇴NO_1|2.1MB/s
+  type: vless
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  server: 45.139.85.86
+  port: 443
+  tls: true
+  sni: www.amazon.com
+- name: 🇭🇺HU_1|2.2MB/s
+  type: vless
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  server: 38.180.225.247
+  port: 2053
+  tls: true
+  sni: yf.962456.xyz
+- name: 🇯🇵JP_2|5.4MB/s
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: cf.877774.xyz
+  port: 2053
+  tls: true
+  sni: edgetunnel-4uw.pages.dev
+- name: 🇳🇱NL_12|4.2MB/s
+  type: vless
+  uuid: 22a375e0-f7c6-4d8f-a154-81189914bbf4
+  server: 89.105.197.202
+  port: 443
+  tls: true
+  sni: findmypackets.com
+- name: 🇫🇮FI_1|4.5MB/s
+  type: vless
+  uuid: 79d066ae-353b-4228-aa7b-f7c03a0686ee
+  server: umber10.fars-remen.ir
+  port: 443
+  tls: false
+  sni: ''
+- name: 🇩🇪DE_8|4.1MB/s
+  type: vless
+  uuid: 8ccc4581-eba9-4226-abbc-64e7d8fb415e
+  server: 45.77.143.204
+  port: 80
+  tls: false
+  sni: ''
+- name: 🇺🇸US_15|2.6MB/s
+  type: vless
+  uuid: c2885dea-0c83-4112-ba72-284abd1495a5
+  server: api-426795-c32a41-production.up.railway.app
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇺🇸US_16|2.2MB/s
+  type: vless
+  uuid: c2885dea-0c83-4112-ba72-284abd1495a5
+  server: api-426795-c32a41-production.up.railway.app
+  port: 443
+  tls: true
+  sni: api-426795-c32a41-production.up.railway.app
+- name: 🇺🇸US_17|2.0MB/s
+  type: vless
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: 160.25.75.40
+  port: 443
+  tls: true
+  sni: thus-k.netnode.cc.cd
+- name: 🇺🇸US_18|1.3MB/s
+  type: vless
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: 43.155.208.254
+  port: 443
+  tls: true
+  sni: thus-k.netnode.cc.cd
+- name: 🇵🇱PL_3|3.1MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: polka.failspace.top
+  port: 443
+  tls: true
+  sni: ''
+- name: 🇳🇴NO_2|1.9MB/s
+  type: vless
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  server: 46.29.238.72
+  port: 443
+  tls: true
+  sni: no.netgridflow.com
+- name: 🇺🇸US_19|1.3MB/s
+  type: vless
+  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
+  server: 216.23.123.211
+  port: 30718
+  tls: true
+  sni: 123.714542.xyz
+- name: 🇺🇸US_20|1.2MB/s
+  type: vless
+  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
+  server: 211.229.56.86
+  port: 30021
+  tls: true
+  sni: 123.714541.xyz
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -86,8 +232,29 @@ proxy-groups:
   - 🇨🇳 台湾|@ripaojiedian
   - 🇸🇬 新加坡|@ripaojiedian
   - 🇯🇵 日本|@ripaojiedian
+  - 🇺🇸 美国2-IEPL-GPT
   - 🇺🇸 美国|@ripaojiedian
-  - 🇷🇺RU_1|1.2MB/s
+  - 🇩🇪DE_1|2.1MB/s
+  - 🇩🇪DE_2|2.9MB/s
+  - 🇩🇪DE_3|3.3MB/s
+  - 🇯🇵JP_1|3.0MB/s
+  - 🇺🇸US_1|1014KB/s
+  - 🇺🇸US_2|2.7MB/s
+  - 🇩🇪DE_4|2.9MB/s
+  - 🇳🇴NO_1|2.1MB/s
+  - 🇭🇺HU_1|2.2MB/s
+  - 🇯🇵JP_2|5.4MB/s
+  - 🇳🇱NL_12|4.2MB/s
+  - 🇫🇮FI_1|4.5MB/s
+  - 🇩🇪DE_8|4.1MB/s
+  - 🇺🇸US_15|2.6MB/s
+  - 🇺🇸US_16|2.2MB/s
+  - 🇺🇸US_17|2.0MB/s
+  - 🇺🇸US_18|1.3MB/s
+  - 🇵🇱PL_3|3.1MB/s
+  - 🇳🇴NO_2|1.9MB/s
+  - 🇺🇸US_19|1.3MB/s
+  - 🇺🇸US_20|1.2MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
