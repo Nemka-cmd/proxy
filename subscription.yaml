@@ -5,97 +5,187 @@ proxies:
   password: amazonskr05
   server: 63.180.254.10
   port: 443
-- name: 🇩🇪DE_1|4.0MB/s
+- name: 🇨🇦CA_1|3.3MB/s
   type: vless
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-  server: 189.24.106.64
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 104.129.183.69
   port: 443
   tls: true
-  sni: gateway.icloud.com
-- name: 🇬🇧GB_1|4.1MB/s
+  sni: shephe.dpdns.org
+- name: 🇩🇪DE_1|1.3MB/s
   type: vless
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  server: 143.110.162.77
-  port: 443
-  tls: false
-  sni: ''
-- name: 🇳🇱NL_3|1.3MB/s
-  type: vless
-  uuid: 1c2158bd-c386-8192-25da-2728e0873d52
-  server: faultpass-panel-production-506b.up.railway.app
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 172.67.79.81
   port: 443
   tls: true
-  sni: faultpass-panel-production-506b.up.railway.app
-- name: 🇬🇧GB_7|1.2MB/s
+  sni: shephe.dpdns.org
+- name: 🇩🇪DE_2|2.8MB/s
   type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  server: 178.79.149.80
-  port: 22117
-  tls: true
-  sni: www.cloudflare.com
-- name: 🇩🇪DE_7|3.8MB/s
-  type: vless
-  uuid: 06d05a0a-f298-4be9-8fab-3de32e3fb770
-  server: 159.195.197.211
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 5.45.111.195
   port: 443
   tls: true
-  sni: acde3.astro-wall.online
-- name: 🇩🇪DE_8|1.4MB/s
+  sni: shephe.dpdns.org
+- name: 🇭🇰HK_1|1007KB/s
   type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  server: assets-de2.pleiades.codes
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 141.11.90.160
   port: 443
   tls: true
-  sni: assets-de2.pleiades.codes
-- name: 🇹🇼TW_1|5.1MB/s
+  sni: shephe.dpdns.org
+- name: 🇳🇱NL_1|3.2MB/s
   type: vless
-  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
-  server: 35.201.181.122
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 104.26.11.253
   port: 443
   tls: true
-  sni: www.cloudflare.com
-- name: 🇱🇻LV_2|2.4MB/s
+  sni: shephe.dpdns.org
+- name: 🇸🇪SE_1|3.4MB/s
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  server: 176.108.247.67
-  port: 9881
-  tls: true
-  sni: dl.google.com
-- name: 🇺🇸US_12|2.4MB/s
-  type: vless
-  uuid: c00b96cd-defd-60c0-125c-89ae0a8d9ffc
-  server: yigfdsgfuo88-production.up.railway.app
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 2.26.17.128
   port: 443
   tls: true
-  sni: yigfdsgfuo88-production.up.railway.app
-- name: 🇺🇸US_13|1016KB/s
+  sni: shephe.dpdns.org
+- name: 🇭🇰HK_2|2.2MB/s
   type: vless
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
-  server: 45.147.48.28
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  server: 85.90.197.53
   port: 443
   tls: true
-  sni: thus-k.netnode.cc.cd
-- name: 🇺🇸US_14|1.9MB/s
+  sni: hk.152568.xyz
+- name: 🇸🇬SG_1|2.3MB/s
   type: vless
-  uuid: b7e1ee2f-b600-a509-42e7-5884a1913f0d
-  server: victoryprovpn-production-c771.up.railway.app
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  server: 91.193.58.108
+  port: 2096
+  tls: true
+  sni: free-server.techsonic.dev
+- name: 🇵🇱PL_2|3.1MB/s
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  server: poland-ded-new-one.failspace.top
   port: 443
   tls: true
   sni: ''
-- name: 🇬🇧GB_9|3.1MB/s
+- name: 🇺🇸US_8|2.5MB/s
   type: vless
-  uuid: a4f0558a-3601-42b5-be28-1341cb6877dc
-  server: 213.193.252.99
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 158.94.173.107
   port: 443
   tls: true
-  sni: admin.greystart.app
-- name: 🇩🇪DE_12|3.6MB/s
+  sni: shephe.dpdns.org
+- name: 🇺🇸US_12|3.8MB/s
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  server: 54.234.217.115
+  port: 443
+- name: 🇫🇷FR_3|3.1MB/s
   type: vless
-  uuid: 06d05a0a-f298-4be9-8fab-3de32e3fb770
-  server: acde3.astro-wall.online
+  uuid: 2412bd96-925b-43f2-81d1-0ed4f0793699
+  server: 79.137.192.2
   port: 443
   tls: true
-  sni: acde3.astro-wall.online
+  sni: cdn.cloudflare.steamstatic.com
+- name: 🇳🇱NL_12|2.7MB/s
+  type: vless
+  uuid: 49b65d3a-b53e-45d0-b71e-f295146849c8
+  server: lands.zavqeron.ir
+  port: 2053
+  tls: true
+  sni: zavqeron.ir
+- name: 🇪🇸ES_3|1.6MB/s
+  type: vless
+  uuid: 5dff1842-c02f-4dd4-b1ad-2e597b99dc31
+  server: sp66.mech-pro.online
+  port: 443
+  tls: true
+  sni: sp66.mech-pro.online
+- name: 🇩🇪DE_7|1.4MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: 138.124.36.78
+  port: 9443
+  tls: true
+  sni: j638lm50.denditop.site
+- name: 🇰🇿KZ_1|2.8MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: c3h82xhny.denditop.site
+  port: 443
+  tls: true
+  sni: c3h82xhny.denditop.site
+- name: 🇳🇱NL_13|3.0MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: ga2gqv6u8.dendiboss.org
+  port: 443
+  tls: true
+  sni: ga2gqv6u8.dendiboss.org
+- name: 🇱🇹LT_2|2.8MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: lt.denditop.site
+  port: 443
+  tls: true
+  sni: lt.denditop.site
+- name: 🇩🇪DE_8|2.5MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: yw0ein72.denditop.site
+  port: 443
+  tls: true
+  sni: yw0ein72.denditop.site
+- name: 🇺🇸US_14|2.5MB/s
+  type: vless
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 134.122.0.192
+  port: 443
+  tls: true
+  sni: shephe.dpdns.org
+- name: 🇩🇪DE_9|2.6MB/s
+  type: vless
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 64.188.118.137
+  port: 443
+  tls: true
+  sni: shephe.dpdns.org
+- name: 🇹🇷TR_1|1.7MB/s
+  type: vless
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  server: 85.192.48.142
+  port: 443
+  tls: true
+  sni: nvidia.com
+- name: 🇨🇭CH_4|1.4MB/s
+  type: vless
+  uuid: 8d2341a3-13b8-4e5e-84e1-da1c4923149a
+  server: 179.43.152.211
+  port: 443
+  tls: true
+  sni: sw.denditop.site
+- name: 🇳🇱NL_14|1.6MB/s
+  type: vless
+  uuid: c1933829-eceb-4887-9bf3-6cce182d9c9d
+  server: 69.46.46.77
+  port: 443
+  tls: true
+  sni: test.amirh00sain.ir
+- name: 🇫🇷FR_4|1.9MB/s
+  type: vless
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 45.38.228.94
+  port: 8443
+  tls: true
+  sni: shephe.dpdns.org
+- name: 🇦🇹AT_1|2.4MB/s
+  type: vless
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  server: au.netgridflow.com
+  port: 443
+  tls: true
+  sni: au.netgridflow.com
 - name: US_speednode_0136
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
@@ -122,19 +212,32 @@ proxy-groups:
   type: url-test
   proxies:
   - 'tg频道:@ripaojiedian #1'
-  - 🇩🇪DE_1|4.0MB/s
-  - 🇬🇧GB_1|4.1MB/s
-  - 🇳🇱NL_3|1.3MB/s
-  - 🇬🇧GB_7|1.2MB/s
-  - 🇩🇪DE_7|3.8MB/s
-  - 🇩🇪DE_8|1.4MB/s
-  - 🇹🇼TW_1|5.1MB/s
-  - 🇱🇻LV_2|2.4MB/s
-  - 🇺🇸US_12|2.4MB/s
-  - 🇺🇸US_13|1016KB/s
-  - 🇺🇸US_14|1.9MB/s
-  - 🇬🇧GB_9|3.1MB/s
-  - 🇩🇪DE_12|3.6MB/s
+  - 🇨🇦CA_1|3.3MB/s
+  - 🇩🇪DE_1|1.3MB/s
+  - 🇩🇪DE_2|2.8MB/s
+  - 🇭🇰HK_1|1007KB/s
+  - 🇳🇱NL_1|3.2MB/s
+  - 🇸🇪SE_1|3.4MB/s
+  - 🇭🇰HK_2|2.2MB/s
+  - 🇸🇬SG_1|2.3MB/s
+  - 🇵🇱PL_2|3.1MB/s
+  - 🇺🇸US_8|2.5MB/s
+  - 🇺🇸US_12|3.8MB/s
+  - 🇫🇷FR_3|3.1MB/s
+  - 🇳🇱NL_12|2.7MB/s
+  - 🇪🇸ES_3|1.6MB/s
+  - 🇩🇪DE_7|1.4MB/s
+  - 🇰🇿KZ_1|2.8MB/s
+  - 🇳🇱NL_13|3.0MB/s
+  - 🇱🇹LT_2|2.8MB/s
+  - 🇩🇪DE_8|2.5MB/s
+  - 🇺🇸US_14|2.5MB/s
+  - 🇩🇪DE_9|2.6MB/s
+  - 🇹🇷TR_1|1.7MB/s
+  - 🇨🇭CH_4|1.4MB/s
+  - 🇳🇱NL_14|1.6MB/s
+  - 🇫🇷FR_4|1.9MB/s
+  - 🇦🇹AT_1|2.4MB/s
   - US_speednode_0136
   - US_speednode_0137
   - US_speednode_0142
