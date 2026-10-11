@@ -293,13 +293,6 @@ proxies:
   port: 443
   tls: true
   sni: de2.srv.vbuste.ru
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
-  type: vless
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-  server: 141.98.7.193
-  port: 2083
-  tls: true
-  sni: ''
 - name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   type: vless
   uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
@@ -1496,6 +1489,12 @@ proxies:
   password: humanity
   server: 185.220.100.168
   port: 443
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
+  type: trojan
+  sni: www.calmlunch.com
+  password: humanity
+  server: 212.227.144.37
+  port: 8443
 - name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   type: trojan
   sni: www.calmlunch.com
@@ -2277,7 +2276,6 @@ proxy-groups:
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
   - '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
@@ -2456,6 +2454,7 @@ proxy-groups:
   - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇫🇷[www.v2nodes.com] trojan-FR-...
   - '🇫🇷[www.v2nodes.com] trojan-FR-... #6'
+  - '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
   - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   - '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
   - '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
